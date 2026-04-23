@@ -1,0 +1,825 @@
+{
+  "$schema": "social-media-config-v1",
+  "version": "1.0.0",
+  "lastUpdated": "2026-04-13",
+  "compiledBy": "Claude Opus 4.6 — Social Media Manager",
+
+  "business": {
+    "agent": {
+      "name": "Taylor Dasch",
+      "brokerage": "EG Realty",
+      "phone": "254-718-4249",
+      "email": "dealswithdasch@gmail.com",
+      "website": "templetxhomes.net",
+      "headshotUrl": "https://assets.agentfire3.com/uploads/sites/2128/2025/11/TaylorDaschImage.jpg",
+      "slogan": "Build | Serve | Grow",
+      "salesVolume": "$27M+",
+      "personalTransactions": "100+",
+      "biggerPocketsFeaturedAgent": true,
+      "biggerPocketsFeaturedYears": 3,
+      "github": "TaylorDasch"
+    },
+    "positioning": "Value-first educator/investor who happens to be a realtor — NEVER salesy",
+    "differentiator": "Active investor ($27M+ sales volume, 100+ personal transactions across flips, BRRRR, mid-term rentals) who also happens to be an agent",
+    "keyStory": {
+      "name": "The Daniel Story",
+      "summary": "Bought $160K, sold 2 years later in down market. 2 buyers backed out, 3rd went FHA. Taylor cut ALL commission, lost $500 so Daniel could close.",
+      "usage": "Brand trust anchor — reference when demonstrating fiduciary commitment"
+    },
+    "market": {
+      "primaryCity": "Temple",
+      "state": "TX",
+      "county": "Bell County",
+      "medianHomePrice": { "low": 247450, "high": 288000 },
+      "activeInventory": "500+",
+      "monthsSupply": 6,
+      "averageDom": 83,
+      "cityTaxRate": "$0.6999/$100",
+      "countyTaxRateRange": "2.4%-2.7%",
+      "powerZip": {
+        "zip": "76502",
+        "score": "753/1000",
+        "housingDeficit": 5101,
+        "populationGrowth": "24.1%"
+      },
+      "economicCatalysts": [
+        { "name": "Rowan Data Center", "investment": "$700M" },
+        { "name": "Meta Facility", "investment": "$800M" },
+        { "name": "SeAH Manufacturing", "investment": "$110M" }
+      ]
+    },
+    "performance": {
+      "periodStart": "2025-09-01",
+      "capGoal": 10000,
+      "capProgressClosed": 8762.27,
+      "capWithUC": 8762.27,
+      "totalClosedIncome": 47167,
+      "ucIncome": 0,
+      "contentDigitalRevenueShare": "64%+",
+      "closedDeals": [
+        { "name": "Amthor", "date": "2025-09-09", "cap": 375.75, "income": 1900, "source": "Expired" },
+        { "name": "Sam Houston", "date": "2025-10-01", "cap": 693, "income": 3777, "source": "BiggerPockets" },
+        { "name": "1814 S 7th St", "date": "2025-10-14", "cap": 675.52, "income": 3678, "source": "BiggerPockets" },
+        { "name": "Split Trail Cv", "date": "2025-10-25", "cap": 736, "income": 4085, "source": "Expired" },
+        { "name": "Paisley Dr", "date": "2025-11-23", "cap": 646, "income": 3515, "source": "Referral (Past Client)" },
+        { "name": "1907 S 15th", "date": "2025-11-25", "cap": 300, "income": 1635, "source": "BiggerPockets" },
+        { "name": "Claymore", "date": "2025-11-26", "cap": 200, "income": 1000, "source": "Pre-foreclosure" },
+        { "name": "Chestnut", "date": "2025-12-14", "cap": 650, "income": 3500, "source": "Referral" },
+        { "name": "Winscott", "date": "2026-01-20", "cap": 1500, "income": 7000, "source": "FB Marketplace" },
+        { "name": "James Dr", "date": "2026-02-03", "cap": 500, "income": 2400, "source": "FSBO" },
+        { "name": "Arleene", "date": "2026-02-24", "cap": 993, "income": 5400, "source": "YouTube" },
+        { "name": "Dorothy Muree", "cap": 693, "income": 3777, "source": "Expired" },
+        { "name": "Jordan Lovings", "date": "2026-03-20", "income": 2100, "source": "YouTube" },
+        { "name": "Vince Capece", "cap": 800, "income": 3400, "source": "Internet (Website)" }
+      ],
+      "underContract": [
+        { "name": "Amanda + Mike", "source": "TikTok" },
+        { "name": "Greg", "source": "Internet (unspecified)" }
+      ],
+      "pipeline": [
+        { "name": "Justin Jorgenson", "type": "Buying", "source": "TikTok" },
+        { "name": "Eric & Pauline-Drexel", "type": "Listing", "source": "Agent Referral" },
+        { "name": "Denise", "type": "Listing/Buyer", "source": "Agent Referral" },
+        { "name": "Christine", "type": "Investor", "source": "BiggerPockets" },
+        { "name": "Chengli", "type": "Listing", "source": "Unknown" }
+      ]
+    }
+  },
+
+  "brand": {
+    "colors": {
+      "midnight": "#1e293b",
+      "emerald": "#059669",
+      "snow": "#f8fafc",
+      "lightGray": "#e2e8f0"
+    },
+    "fonts": {
+      "display": "Cormorant Garamond",
+      "body": "Outfit"
+    },
+    "voice": {
+      "attributes": ["analytical", "data-driven", "honest", "insider-knowledge", "fiduciary"],
+      "scarsAndAllRule": true,
+      "description": "Speaks like an analyst, not a salesperson. Willing to say 'pass' on bad deals. Neighborhood-level detail competitors can't replicate."
+    },
+    "terminology": {
+      "blocked": [
+        { "term": "turnkey", "replacement": "buy-and-hold investors" },
+        { "term": "generic agent language", "replacement": "data-specific, market-informed language" }
+      ],
+      "preferred": [
+        "buy-and-hold investors",
+        "rental property investors",
+        "long-term rental investors",
+        "cash-flowing properties",
+        "deal analysis",
+        "South ODD streets = best investor pocket",
+        "South EVEN streets = avoid"
+      ]
+    },
+    "contentFormat": {
+      "structure": "Question Hook → Answer First",
+      "h2Style": "Questions",
+      "openingSentence": "Data-rich and direct",
+      "requirement": "Every piece needs demographic profile + tailored value proposition"
+    },
+    "keyDataPoints": {
+      "salesVolume": "$27M+",
+      "transactions": "100+",
+      "bpFeaturedAgent": "3 years",
+      "powerZip76502": "753/1000 score, 5,101 unit housing deficit, 24.1% population growth",
+      "bswEmployees": "8,800+",
+      "bahE6WithDep": "$1,920/month tax-free",
+      "bswPgy1Stipend": "$70,993/year",
+      "medianHomePrice": "$247,450-$288,000",
+      "activeInventory": "500+ listings, 6-month supply",
+      "averageDom": "83 days",
+      "bellCountyTaxRate": "~2.4-2.7%",
+      "cityTaxRate": "$0.6999/$100 valuation"
+    }
+  },
+
+  "audiences": {
+    "personas": [
+      {
+        "id": "military",
+        "name": "The Military Relocator (Fort Hood)",
+        "priority": 1,
+        "demographics": {
+          "lifecycle": "Continuous PCS move cycle",
+          "bahE6WithDep": "$1,920/month tax-free",
+          "vaLoanUsage": "12% of VA purchase loans nationwide",
+          "primaryPlatform": "TikTok (Gen Z veterans use as primary search)"
+        },
+        "painPoints": ["tight PCS timelines", "BAH rate navigation", "VA loan utilization"],
+        "contentFocus": ["buying vs renting on base", "commute logistics Temple/Belton to Cavazos", "wealth accumulation by retaining property as rental"],
+        "dmScript": "Thanks for checking out the video on the Fort Hood area. Are you actively prepping for a PCS move, or just browsing? I have a digital relocation guide with commute times and BAH rates. Happy to send it to your email.",
+        "note": "Fort Hood was renamed to Fort Hood in July 2025, honoring Col. Robert B. Hood (WWI hero)"
+      },
+      {
+        "id": "medical",
+        "name": "BSW Medical Professional",
+        "priority": 2,
+        "demographics": {
+          "employer": "Baylor Scott & White (8,800+ employees, Level I Trauma Center)",
+          "subPersonas": [
+            { "type": "PGY-1 Residents", "cycle": "June/July", "strategy": "house hack candidates", "loan": "0% down physician loans", "income": "$70,993/year" },
+            { "type": "Trauma Surgeons", "mandate": "15-minute OR mandate — CRITICAL for neighborhood selection" },
+            { "type": "Senior Attendings", "origin": "CA/NE transplants", "target": "Belton for lifestyle" }
+          ],
+          "lender": "Extraco Bank (physician loans)",
+          "primeLeadWindow": "Q4 Oct-Dec (PPTO burnoff)"
+        },
+        "commuteZones": [
+          { "zone": 1, "time": "3-7 min", "neighborhoods": ["Canyon Creek", "Hospital District"], "note": "MTR prime zone" },
+          { "zone": 2, "time": "8-12 min", "neighborhoods": ["West Temple", "Bella Terra"], "note": "attending physicians" },
+          { "zone": 3, "time": "15-20+ min", "neighborhoods": ["Highland Estates", "Dawson Ranch", "Morgan's Point"], "note": "executive leadership" }
+        ],
+        "neighborhoodPicks": [
+          { "name": "Western Hills", "commute": "5-7min", "note": "VA grid survived Uri" },
+          { "name": "Wyndham Hill", "commute": "5-8min", "note": "new builds, S.5th back door" },
+          { "name": "Canyon Creek", "commute": "8-10min", "note": "house hack potential" },
+          { "name": "Lakewood Ranch", "commute": "12-18min", "note": "WARN trauma surgeons off" }
+        ],
+        "dmScript": "Really appreciate the engagement! Are you relocating for BSW, or already in the area? I have a free guide covering the top neighborhoods by commute time to the medical center."
+      },
+      {
+        "id": "investor",
+        "name": "Out-of-State Buy-and-Hold Investor",
+        "priority": 3,
+        "demographics": {
+          "decisionStyle": "Quantitative — cap rates, DSCR, cash-on-cash, GRM",
+          "emotionalAttachment": "None — spreadsheet buyers",
+          "macroCatalysts": ["$700M Rowan data center", "$800M Meta facility", "$110M SeAH manufacturing"]
+        },
+        "keyDataPoints": {
+          "cityTaxRate": "$0.6999/$100",
+          "nonHomesteadAppraisalCap": "20%",
+          "powerZip": "76502 — 753/1000 score, 5,101 unit deficit, 24.1% growth"
+        },
+        "dmScript": "Really appreciate the engagement on the multi-family breakdown video. The cash flow numbers in Temple are shifting quickly with new inventory coming online. Are you currently holding doors in Texas, or looking for your first asset here? I can send over my latest cap-rate analysis sheet."
+      },
+      {
+        "id": "luxury",
+        "name": "Luxury Buyer ($600K-$1.2M)",
+        "priority": 4,
+        "demographics": {
+          "profiles": ["Medical executives", "Senior military (O-6+)", "Remote tech workers", "1031 exchange deployers"],
+          "focus": ["wealth preservation", "acreage", "Belton ISD", "lake proximity"],
+          "investmentType": "Class A appreciation play — NOT cash-flow"
+        }
+      }
+    ]
+  },
+
+  "platforms": {
+    "tiktok": {
+      "status": "active",
+      "currentPhase": "early-growth",
+      "followerRange": "500-2000",
+      "rampPhase": "weeks-3-4",
+      "videosPerWeek": 5,
+      "postingSchedule": {
+        "monday": { "time": "12:30", "note": "Post by 12:30 so indexed by 1:00 PM audience peak" },
+        "tuesday": { "time": "08:30-10:30", "note": "9-11 AM window" },
+        "wednesday": { "time": "08:30-10:30", "note": "9-11 AM window" },
+        "thursday": { "time": "15:30-17:30", "note": "4-6 PM window" },
+        "friday": { "time": "15:30-17:30", "note": "4-6 PM lifestyle content" },
+        "saturday": { "time": "08:30-12:30", "note": "BONUS — highest engagement day", "optional": true },
+        "sunday": { "time": "08:30", "note": "BONUS — single best hour, aspirational content", "optional": true }
+      },
+      "videoLength": {
+        "promoted": "21-34 seconds (optimal completion rate)",
+        "talkingHead": "30-60 seconds",
+        "propertyTour": "15-60 seconds"
+      },
+      "hashtagStrategy": {
+        "tierSystem": "3-5 per post, three tiers",
+        "tier1Broad": ["#RealEstate", "#Realtor", "#TexasRealEstate", "#PropertyInvestment"],
+        "tier2Niche": ["#FirstTimeHomeBuyer", "#HouseHacking", "#PCSMove", "#MilitaryRelocation", "#RealEstateInvesting", "#NewConstruction"],
+        "tier3Local": ["#TempleTX", "#TempleTexas", "#BellCountyRealEstate", "#FortHood", "#BeltonTX", "#KilleenRealEstate", "#CentralTexasHomes"],
+        "combosByPillar": {
+          "propertyTour": ["#RealEstate", "#NewConstruction", "#TempleTX", "#BellCountyRealEstate", "#CentralTexasHomes", "#FirstTimeHomeBuyer"],
+          "military": ["#TexasRealEstate", "#PCSMove", "#MilitaryRelocation", "#FortHood", "#KilleenRealEstate", "#TempleTX"],
+          "investor": ["#RealEstateInvesting", "#HouseHacking", "#PropertyInvestment", "#TempleTX", "#BellCountyRealEstate"],
+          "lifestyle": ["#TexasRealEstate", "#TempleTexas", "#CentralTexasHomes", "#TempleTX"]
+        }
+      },
+      "engagement": {
+        "daily": "5 minutes",
+        "rules": [
+          "Respond to every comment within 1 hour of posting",
+          "Check DMs and respond personally to every keyword trigger",
+          "Engage with 5-10 local or niche creator videos (comment genuinely)"
+        ]
+      },
+      "dmKeywordTriggers": {
+        "GUIDE": "relocation neighborhood guide",
+        "DEALS": "investor deal sheet",
+        "TOUR": "specific property details",
+        "BAH": "military housing breakdown",
+        "BSW": "medical relocation guide",
+        "RELOCATE": "Temple relocation guide",
+        "TEMPLE": "general relocation guide"
+      },
+      "sparkAds": {
+        "currentBudget": "$50 every 5 days",
+        "objective": "More Messages",
+        "audienceAge": "25-54",
+        "interests": ["Real Estate", "Home Improvement"],
+        "boostThreshold": "2,000-5,000 organic views in 24-48 hours",
+        "neverBoostBelow": 1000,
+        "strongCandidate": 10000,
+        "boostRatio": "1-2 per 10 organic videos",
+        "cpm": "$2 (vs platform avg $4-$7)",
+        "targetCpl": "$1-$5 (vs industry avg $20)",
+        "targetZipCodes": ["76501", "76502", "76504", "76508", "76541", "76542", "76543", "76544"],
+        "oosTargetStates": ["CA", "NY", "IL"]
+      }
+    },
+    "youtube": {
+      "status": "active",
+      "channels": [
+        {
+          "name": "Living in Temple",
+          "focus": "relocation",
+          "contentTypes": ["neighborhood tours", "community guides", "BSW relocation", "school comparisons", "cost of living", "What $X buys you", "PCS guides", "seasonal market updates"]
+        },
+        {
+          "name": "Investing in Temple",
+          "focus": "investor",
+          "contentTypes": ["Deal of the Week (every Tuesday)", "cash flow analysis", "market data", "data center economic impact", "tax strategy", "Out-of-State series", "off-market strategies"]
+        }
+      ],
+      "targetFrequency": "1-2 quality videos/week per channel",
+      "bestPostingTimes": {
+        "longForm": { "bestDays": "Thu-Sat", "bestTimes": "2-4 PM Central (publish 2hrs early for processing)" },
+        "shorts": { "bestDays": "any day", "note": "Less time-sensitive than long-form" }
+      },
+      "optimizationChecklist": [
+        "Entity declaration in first 10 seconds: 'Hi, I'm Taylor Dasch with EG Realty...'",
+        "State key data verbally and clearly (AI indexes transcripts)",
+        "Answer the question directly in first minute",
+        "Include timestamps in description",
+        "Include Deal Analyzer link and contact info in every description",
+        "Tags via VidIQ"
+      ],
+      "descriptionTemplate": [
+        "2-3 sentence answer to the video question",
+        "'In this video' context paragraph",
+        "Key Points with timestamps",
+        "Areas Discussed",
+        "Market Data Referenced (specific numbers)",
+        "About Me section",
+        "Contact info + links"
+      ],
+      "quarterlyFramework": {
+        "Q1": "New year positioning. School district analysis. Tax guide. Market predictions.",
+        "Q2": "Peak migration. PCS content. BSW residency cycle (Match Day March → Start June/July). Builder incentive tours.",
+        "Q3": "Industrial growth updates (data centers, SeAH). School-focused. Rental oversupply analysis. Off-market strategies.",
+        "Q4": "PRIME physician lead window (Oct-Dec PPTO burnoff). Motivated seller content. Year-end tax strategies. Buy-and-hold rentals for Q4 closings."
+      }
+    },
+    "instagramReels": {
+      "status": "active",
+      "strategy": "repurpose-from-youtube-shorts",
+      "bestPostingTimes": {
+        "bestDays": "Tue-Wed",
+        "bestTimes": "10 AM-2 PM, 5-9 PM Central"
+      },
+      "algorithm2026": {
+        "captionKeywordsOverHashtags": true,
+        "dmSharesTopRankingSignal": true,
+        "threeSecondHoldRateThreshold": "60% = viral distribution",
+        "tiktokWatermarkPenalty": true,
+        "hashtagLimit": "3-5 max, caption text is primary discovery mechanism"
+      },
+      "rules": [
+        "Upload clean file natively (no TikTok watermark — algorithm penalizes them)",
+        "Swap TikTok trending audio for Instagram trending audio",
+        "Write keyword-dense caption (150-300 words micro-blog style). Front-load searchable keywords.",
+        "Limit hashtags to 3-5: 1 broad, 1 niche, 1-3 local. Caption keywords outperform hashtags in 2026.",
+        "Design for DM shareability — DM shares are the #1 Reels ranking signal",
+        "Pick thumbnail frame manually (do not use auto) for grid appearance",
+        "Add alt text for accessibility + SEO",
+        "Add location tag: Temple, TX"
+      ]
+    },
+    "youtubeShorts": {
+      "status": "active",
+      "strategy": "repurpose-from-tiktok",
+      "rules": [
+        "Upload natively with search-optimized title and description",
+        "YouTube Shorts is a SEARCH ENGINE, not a feed",
+        "Title MUST include 'Temple TX' and the core keyword"
+      ]
+    },
+    "biggerPockets": {
+      "status": "active",
+      "type": "forum-engagement",
+      "featuredAgent": true,
+      "featuredYears": 3,
+      "review": "Briana Landecker (remote investor, 5 stars)",
+      "forumStrategy": {
+        "searchTerms": ["Temple", "Belton", "Central Texas", "Fort Hood", "Baylor"],
+        "postsPerWeek": "3-5 meaningful posts",
+        "rules": [
+          "Answer with specific data (cap rates, rents, prices)",
+          "Reference actual investor experience",
+          "Link to blog posts when relevant (not promotional)",
+          "BP does NOT allow video sharing",
+          "BP Member Blog posts are allowed"
+        ]
+      }
+    },
+    "reddit": {
+      "status": "ramping",
+      "currentPhase": "month-1",
+      "bestPostingTimes": {
+        "bestDays": "Tue-Wed",
+        "bestTimes": "10 AM-12 PM Central"
+      },
+      "rampSchedule": {
+        "month1": { "activity": "1 comment/day", "rules": "No links, no newsletter. Pure value. Build karma in adjacent subs first.", "karmaGoal": 50 },
+        "month2": { "activity": "1-2 comments/day", "rules": "Begin casual mentions.", "karmaGoal": 150 },
+        "month3plus": { "activity": "1-2 comments/day", "rules": "Occasional newsletter link at end of high-value replies — only when genuinely relevant." },
+        "ongoing": "3-5 high-value comments per week. Never more than 2 posts/day across all subs."
+      },
+      "targetSubreddits": [
+        { "sub": "r/realestateinvesting", "priority": "PRIMARY", "angle": "Temple, Killeen, Central TX, BRRRR questions" },
+        { "sub": "r/militaryfinance", "angle": "Fort Hood, BAH, VA loans" },
+        { "sub": "r/landlord", "angle": "Property management, tenant questions" },
+        { "sub": "r/personalfinance", "angle": "W2 earners exploring real estate" },
+        { "sub": "r/Texas", "angle": "Broader relocation and lifestyle" },
+        { "sub": "r/AskReddit", "angle": "'moving to Texas' threads", "frequency": "occasional" },
+        { "sub": "r/Moving", "angle": "Relocation threads", "frequency": "occasional" }
+      ],
+      "triggerPhrases": [
+        "Temple TX investing", "Temple Texas rental property",
+        "Killeen Texas investment", "Fort Hood rental", "Fort Hood rental",
+        "Bell County real estate", "Central Texas cash flow",
+        "BRRRR Texas", "out of state Texas investing",
+        "moving to Temple TX", "relocating to Killeen", "Baylor Scott White jobs",
+        "VA loan Texas", "military real estate investing", "BAH housing allowance"
+      ],
+      "replyFramework": [
+        "1. Validate the question (1-2 sentences)",
+        "2. The Meat (200-400 words) — hyperlocal data, specific streets, real numbers",
+        "3. Soft close: 'I track this weekly in a free newsletter for OOS investors if you want the ongoing data.'"
+      ]
+    },
+    "googleBusinessProfile": {
+      "status": "active",
+      "postFrequency": "weekly (one post per week, 4 per month)",
+      "bestPostingTimes": {
+        "bestDays": "Weekdays",
+        "bestTimes": "8-10 AM Central"
+      },
+      "postFormat": "4-week rotation: Market Update, Listing Spotlight, Neighborhood Guide, Expertise Tip",
+      "weeklyRotation": {
+        "week1": {
+          "type": "Market Update",
+          "targetQuery": "What's the housing market like in Temple TX?",
+          "requirements": "3+ data points with sources, forward-looking insight"
+        },
+        "week2": {
+          "type": "Listing Spotlight",
+          "targetQuery": "Homes for sale in Temple TX / Best real estate agent in Temple TX",
+          "requirements": "Active listing preferred, just sold as fallback, 2+ specific numbers"
+        },
+        "week3": {
+          "type": "Neighborhood Guide",
+          "targetQuery": "Best neighborhoods in Temple TX / [Neighborhood] Temple TX",
+          "farmingRotation": ["Alta Vista", "Canyon Creek", "Windmill Farms", "Lake Pointe"],
+          "requirements": "Quick stats, persona match, link to full neighborhood page"
+        },
+        "week4": {
+          "type": "Expertise / Tip",
+          "targetQuery": "Tips for buying a home in Temple TX / Temple TX real estate advice",
+          "audienceRotation": ["buyer", "seller", "military", "BSW medical"],
+          "requirements": "Lead with data point, include credentials naturally"
+        }
+      },
+      "maxWords": 300,
+      "includeNewsletterLink": true,
+      "uploadGeotaggedPhotos": true,
+      "alwaysLinkToSpecificPage": true,
+      "neverLinkToHomepage": true,
+      "aiCitationOptimization": {
+        "entityDeclaration": "Taylor Dasch, real estate agent at EG Realty in Temple, Texas — required in every post",
+        "citableFactsMinimum": 2,
+        "canonicalNeighborhoodNames": ["Alta Vista", "Canyon Creek", "Windmill Farms", "Lake Pointe", "Bella Terra", "Legacy Ranch", "Prairie Ridge"],
+        "geminiNote": "Google Gemini pulls from GBP posts, reviews, and description to answer local queries. Every post is an AI citation opportunity."
+      }
+    },
+    "newsletter": {
+      "status": "planned",
+      "crm": "Follow Up Boss",
+      "structure": "compound-segmented",
+      "segments": {
+        "universalHeader": { "share": "20%", "wordCount": 150, "content": "market snapshot for all subscribers" },
+        "dynamicContent": { "share": "80%", "content": "Investor Block OR Relocator Block based on CRM tags" }
+      },
+      "sections": [
+        { "name": "The Deep Dive", "wordCount": 400, "content": "One hyperlocal analysis topic. Answer-first headline with data point." },
+        { "name": "The Deal Autopsy", "content": "One property, real numbers, honest verdict. 'Scars and All' rule." },
+        { "name": "Bell County Bulletin", "content": "3-5 bullet points max. One sentence each with data." }
+      ],
+      "subjectLineFormulas": [
+        "[Data Point] + What It Means",
+        "The Question Your Reader Is Asking",
+        "The Honest Contrary Take",
+        "The Number That Surprises",
+        "The Local Intelligence Play"
+      ],
+      "successMetric": "Did the newsletter directly contribute to a conversation that led to a closed deal? Track manually until proof of concept.",
+      "promotionChannels": ["YouTube (both channels)", "templetxhomes.net", "Reddit (Month 3+)", "GBP", "Email signature", "BiggerPockets profile"]
+    }
+  },
+
+  "contentPillars": {
+    "tiktok": [
+      {
+        "id": "property-tours",
+        "name": "Property Tours",
+        "description": "Narrative-driven, not generic walkthroughs. Focus on financial incentives or specific buyer persona appeal.",
+        "rule": "Tours must instantly display cash-flow potential for investors or smart-home features for medical buyers.",
+        "bestHook": "Tie to a specific USP ('The only home under $300K with a pool in Bell County')"
+      },
+      {
+        "id": "relocation",
+        "name": "Relocation / Military / Medical",
+        "description": "Hyper-local content for incoming BSW staff, Fort Hood PCS movers, and out-of-state buyers.",
+        "contentTypes": ["commute data", "BAH breakdowns", "school zoning", "neighborhood guides"]
+      },
+      {
+        "id": "market-data",
+        "name": "Market Data / Investor Analysis",
+        "description": "Data-driven commentary establishing fiduciary authority.",
+        "contentTypes": ["cap rates", "DOM", "inventory shifts", "cash flow breakdowns"],
+        "goal": "Separates professional from hobbyist"
+      },
+      {
+        "id": "lifestyle",
+        "name": "Only in Texas / Lifestyle",
+        "description": "Cultural content unique to Central Texas.",
+        "contentTypes": ["property taxes explained", "Buc-ee's", "H-E-B", "HVAC survival tips", "local dining reviews"],
+        "goal": "Builds community rapport and drives shares from out-of-state viewers"
+      },
+      {
+        "id": "bts",
+        "name": "Behind the Scenes (BTS)",
+        "description": "Day-in-the-life content, flip progress, negotiation stories, investor deal stories.",
+        "goal": "Humanizes the brand"
+      }
+    ],
+    "rotationRule": "Never do more than 2 of the same pillar in a row. The algorithm rewards variety.",
+    "websiteSplit": {
+      "investor": "60%",
+      "relocation": "40%",
+      "model": "Hub-and-spoke: pillar pages → neighborhood guides → deal analyses → audience-specific resources"
+    }
+  },
+
+  "hookBank": {
+    "propertyTour": [
+      "Builders in Central TX are giving away money right now and nobody is talking about it...",
+      "This is exactly what $285,000 buys you in Temple, Texas right now compared to the national average...",
+      "If you want a backyard like this, but refuse to pay city property taxes, you need to look at this specific zip code...",
+      "Can you believe what $275K gets you near Fort Hood?"
+    ],
+    "relocation": [
+      "Do NOT accept a PCS to Fort Hood without knowing this about local traffic...",
+      "If you are a medical professional moving to Central Texas, this is exactly where you want to look...",
+      "The biggest debate in Bell County: which lake is actually better for weekend living?"
+    ],
+    "marketData": [
+      "Everyone says the housing market is crashing, but here is what the data actually shows for Bell County...",
+      "Stop buying rental properties in Austin until you see the numbers on this Temple duplex...",
+      "I just handed the keys to a military buyer who thought their BAH couldn't cover a mortgage..."
+    ],
+    "onlyInTexas": [
+      "If you are moving to Texas from out of state, this is the reality of our property taxes...",
+      "Stop doing this if you want your air conditioning to survive a Central Texas August...",
+      "If you just moved to Texas, let me explain why we take our grocery stores so seriously...",
+      "This is the most controversial gas station in Texas, and here is why locals are obsessed..."
+    ],
+    "bts": [
+      "Here is the exact reality of managing a rental property while selling real estate full time...",
+      "Here is the exact three-step formula to negotiate closing costs with a Texas home builder..."
+    ],
+    "templeTrap": [
+      "New Build Rate Trap: 3.99% Isn't Always a Deal",
+      "Hail Insurance Trap in Belton",
+      "South Even Streets Rule: Where NOT to Invest in Temple"
+    ],
+    "dealOfTheWeek": "What does [$PRICE] get you as a rental investor in Temple, Texas? Today I'm breaking down [ADDRESS] — a [BED/BATH] in [NEIGHBORHOOD]. I'll show you the real numbers, including cash flow, cap rate, and whether I'd actually buy this deal myself. Let's run it."
+  },
+
+  "commentResponses": {
+    "priceQuestion": "The list price is $285K, but the builder is currently offering a $10K rate buy-down. I can shoot you a DM with the exact monthly payment breakdown if that helps?",
+    "areaQuestion": "Temple is amazing for that. I actually have a full neighborhood breakdown that covers commute times and school ratings. Want me to DM it to you?",
+    "movingStatement": "Welcome to Central Texas! When are you making the move? I have a digital relocation guide I can send over, just DM me.",
+    "rule": "Never answer a question completely in a comment. Always offer expanded value that requires a DM."
+  },
+
+  "leadCapture": {
+    "dmFlow": {
+      "currentMode": "manual",
+      "automationThreshold": "20+ DMs/week → switch to ManyChat",
+      "manualFlow": [
+        "CTA in video: 'DM me the word GUIDE and I'll send you my complete Bell County neighborhood breakdown.'",
+        "Respond personally: 'Hey! I've got that ready for you. What's the best email to send it to?'",
+        "They give email → Send PDF link (hosted on Google Drive or AgentFire)",
+        "Continue conversation: 'Are you actively looking to make a move, or just researching for now?'",
+        "Add to CRM: Tag source as 'TikTok' + keyword used"
+      ],
+      "qualificationQuestion": "Thanks for reaching out! Are you looking to buy in the Temple area, or are you exploring from out of state?"
+    },
+    "leadMagnets": [
+      { "name": "Temple/Belton Deal Analyzer", "preloaded": { "taxRate": "2.43%", "insurance": "$1,200/yr", "pmFee": "10%" } },
+      { "name": "Relocation Neighborhood Match Guide", "content": "Every major neighborhood by commute time to BSW" },
+      { "name": "Investor Cap Rate Analysis Sheet", "content": "Current deal analysis with real numbers" },
+      { "name": "BAH Housing Breakdown", "content": "Fort Hood specific" },
+      { "name": "BSW Medical Relocation Guide", "content": "Neighborhoods by drive time, physician loan info" }
+    ],
+    "websiteCtas": {
+      "homepageGateway": ["Relocating to Central Texas? View Neighborhood Guides", "Analyze Temple Investment Properties & Off-Market Deals"],
+      "urlSilos": ["/relocate/", "/invest/"],
+      "investingPageUrl": "/investing-in-temple-tx/",
+      "dealAnalyzerPage": true,
+      "exitIntentPopup": true,
+      "footerForm": true
+    }
+  },
+
+  "videoSeries": [
+    { "name": "Deal of the Week", "status": "active", "launchDate": "2026-02-10", "schedule": "Every Tuesday", "channel": "Investing in Temple", "episodesCompleted": 2 },
+    { "name": "Temple Trap (negative hooks)", "status": "planned", "minEpisodes": 3, "channel": "Both" },
+    { "name": "The Commute (POV driving)", "status": "planned", "scope": "By neighborhood to BSW", "channel": "Living in Temple" },
+    { "name": "Out-of-State Investor Series", "status": "queued", "episodes": 5, "channel": "Investing in Temple", "goalFormat": "Combine into 45-60 min masterclass" },
+    { "name": "Lake Pointe Documentary", "status": "complete", "versions": ["relocation", "investor"], "channel": "Both" },
+    { "name": "BSW Neighborhood Tours", "status": "planned", "scope": "By commute zone", "channel": "Living in Temple" },
+    { "name": "Buy Before First Day of Residency", "status": "planned", "format": "Landing page + video", "channel": "Living in Temple" },
+    { "name": "Neighborhood Rebuild Series", "status": "in-progress", "live": "Dawson Ranch", "channel": "Both" }
+  ],
+
+  "repurposing": {
+    "tiktokToMultiPlatform": {
+      "steps": [
+        "Download without watermark (SnapTik or export original from CapCut before uploading)",
+        "Instagram Reels: Upload clean file natively. Swap audio. Write longer story-style caption. Adjust hashtags.",
+        "YouTube Shorts: Upload natively. Search-optimized title MUST include 'Temple TX' + core keyword."
+      ],
+      "tool": "Repurpose.io (automate distribution, manually adjust captions/audio)"
+    },
+    "youtubeToMultiPlatform": [
+      "YouTube long-form → blog post (transcript conversion, 2,000+ words, FAQ schema)",
+      "YouTube → 60-second Short/Reel",
+      "YouTube → BiggerPockets forum post with link",
+      "YouTube → Newsletter Deep Dive content",
+      "YouTube → GMB post",
+      "YouTube → Social posts (Gemini Social Repurposer Gem)"
+    ],
+    "framingEffect": {
+      "description": "Single data point → two distinct pieces",
+      "relocatorFrame": "Community vitality, job stability, family impact",
+      "investorFrame": "Macro-economics, rental demand, appreciation catalysts",
+      "example": {
+        "dataPoint": "$700M Rowan data center",
+        "livingInTemple": "Why Major Tech Companies Are Moving to Temple (What It Means For Your Family)",
+        "investingInTemple": "The $1.5 Billion Tech Catalyst Driving Temple's Real Estate Market"
+      }
+    }
+  },
+
+  "analytics": {
+    "tiktokMetrics": [
+      "Completion rate per video",
+      "DMs received per week",
+      "Follower growth rate",
+      "DM keyword triggers received",
+      "Saves and shares per video",
+      "Which pillar generates most profile visits",
+      "Talking head vs movement completion rates",
+      "Saturday-filmed vs weekday performance"
+    ],
+    "socialProofThresholds": {
+      "legitimate": 1000,
+      "meaningfulCredibility": "5,000-10,000",
+      "credibleVoice": 10000,
+      "targetEngagementRate": "4-8% (under 10K followers)"
+    },
+    "weeklyScorecard": {
+      "day": "Friday",
+      "targets": {
+        "sequenceCompleted": "5 of 6 days",
+        "leadGenDials": 75,
+        "extendedLeadGenContacts": 15,
+        "gmbPostsPublished": 6,
+        "contentPiecesPublished": 2,
+        "forumRedditAnswers": "3-5",
+        "toolBuildSessions": 6,
+        "videosFilmed": 2,
+        "reviewsRequested": 3,
+        "aiVisibilityQueries": "__/7",
+        "agedExpiredContactsAdded": 10
+      }
+    },
+    "aiVisibility": {
+      "testingFrequency": "monthly",
+      "platforms": ["ChatGPT", "Perplexity", "Gemini", "Claude"],
+      "currentVisibility": "64% for investor-focused searches",
+      "indexedPages": "16+",
+      "target": "Primary recommendation for ALL Temple investment queries"
+    }
+  },
+
+  "scheduling": {
+    "filmingDays": {
+      "primary": "Tuesday",
+      "secondary": "Friday (or weekday TBD)",
+      "weekend": "Saturday (alternate, wife available)"
+    },
+    "batchFilming": {
+      "tuesday": {
+        "tiktoks": 3,
+        "formats": "Mix of solo and wife-filmed",
+        "extras": "B-roll of neighborhoods, streets, signs, restaurants",
+        "editing": "Same day or next morning (20-30 min per video)",
+        "scheduling": "Mon/Tue/Wed posts via TikTok scheduler"
+      },
+      "friday": {
+        "tiktoks": 2,
+        "formats": "Lifestyle and remaining pillar",
+        "scheduling": "Thu/Fri posts",
+        "bonus": "1-2 extra for Sat/Sun if time"
+      }
+    },
+    "wifeFilmedFormats": [
+      "Walk-and-Talk Tour",
+      "Local Spot Review",
+      "Before/After Reveal",
+      "Interview/Q&A (she asks questions from comments)",
+      "The Handoff (she starts, hands to you — pattern interrupt)"
+    ],
+    "editingRules": {
+      "nonNegotiables": [
+        "Cut all dead air — silence detection, remove pauses >0.5s",
+        "Add captions/subtitles — 85% watched sound-off. Bold key words. Hook line = larger font.",
+        "Text overlay on hook — First 3 seconds need bold text headline matching verbal hook",
+        "Speed ramp transitions — Walking between rooms = speed up to 2-3x",
+        "End card CTA — Last 3 seconds: 'DM me [KEYWORD]' or 'Follow for more Temple TX content'"
+      ],
+      "advancedTechniques": [
+        "Jump cuts on emphasis (duplicate clip, crop to 110%)",
+        "B-Roll cutaways (2-3 seconds per cutaway)",
+        "Freeze Frame + Number (pause on surprising stat)",
+        "Sound design (subtle whoosh/pop, one per transition max)",
+        "7-Second Pattern Interrupt (THE #1 retention hack)",
+        "Green screen data callouts",
+        "Replay edit (reverse-replay with bass drop after hook)"
+      ]
+    },
+    "sequenceSystem": {
+      "standardDay": [
+        { "step": 0, "task": "LAUNCH — GMB, CRM, hot sheet, set anchors", "timer": "15 min" },
+        { "step": 1, "task": "LEAD GEN: STANDARD — Prospecting first", "timer": "45 min (progressive ramp to 2hr)" },
+        { "step": 2, "task": "LEAD GEN: EXTENDED (MWF only) — D4D, expired, FSBO", "timer": "30 min" },
+        { "step": 3, "task": "DATABASE & WARM FOLLOW-UP — FORD method, reviews", "timer": "20 min" },
+        { "step": 4, "task": "STRATEGIC PAUSE", "timer": "10 min" },
+        { "step": 5, "task": "AEO/GEO BLOCK — Deep content, pillar pages, schema", "timer": "90 min" },
+        { "step": 6, "task": "TOOL BUILDOUT — Claude Code", "timer": "30 min" },
+        { "step": 7, "task": "CONTENT DISTRIBUTION — GSC indexing, social posts, BP comments", "timer": "30 min" },
+        { "step": 8, "task": "FLEX / CLIENT WORK", "timer": "remaining" },
+        { "step": 9, "task": "TOMORROW'S ARCHITECTURE", "timer": "10 min" }
+      ],
+      "filmingDay": [
+        { "step": 0, "task": "LAUNCH + confirm filming plan", "timer": "15 min" },
+        { "step": 1, "task": "LEAD GEN: STANDARD", "timer": "45 min" },
+        { "step": 3, "task": "DATABASE & WARM FOLLOW-UP", "timer": "20 min" },
+        { "step": 4, "task": "STRATEGIC PAUSE", "timer": "10 min" },
+        { "step": 5, "task": "FILM BLOCK 1 — Primary video content", "timer": "90 min" },
+        { "step": 6, "task": "TOOL BUILDOUT", "timer": "30 min" },
+        { "step": 7, "task": "FILM BLOCK 2 / EDIT (if needed)", "timer": "flexible" }
+      ],
+      "whenAnchorsEatYourDay": {
+        "minimum3Steps": [0, 1, 3],
+        "medium5Steps": [0, 1, 3, 5, 6],
+        "totalWipeout": "Step 0 morning + Step 9 at night. Zero guilt."
+      },
+      "keyRules": [
+        "Lead gen ALWAYS Step 1 — non-negotiable even on filming days",
+        "SB 140 compliance: NO cold texting prospects",
+        "Google Calendar = weekly template",
+        "Never skip two consecutive days of Step 1"
+      ]
+    }
+  },
+
+  "techStack": {
+    "contentCreation": {
+      "camera": "Sony A7SIII (shoot 4K, crop to 1080p vertical in CapCut)",
+      "gimbal": "Wife-operated for tours and walk-and-talk",
+      "editor": "CapCut",
+      "distribution": "Repurpose.io",
+      "youtubeAnalytics": "VidIQ",
+      "scheduling": "TikTok built-in scheduler"
+    },
+    "website": {
+      "cms": "AgentFire (Spark Editor)",
+      "domain": "templetxhomes.net",
+      "investingPage": "/investing-in-temple-tx/"
+    },
+    "customTools": [
+      { "name": "Deal Analyzer", "status": "active", "tech": "RentCast API integration" },
+      { "name": "Listing Command Center", "status": "deployed", "platform": "Vercel" },
+      { "name": "Pricing Engine", "status": "in-progress", "platform": "Railway" },
+      { "name": "Buyer Demographic Profiler", "status": "in-development" },
+      { "name": "BAH-to-Home Calculator", "status": "rebuild", "note": "Next.js → vanilla JS for AgentFire" },
+      { "name": "Buy vs Rent PCS Calculator", "status": "queued" },
+      { "name": "Property Tax Estimator", "status": "queued" },
+      { "name": "PCS Timeline & Checklist", "status": "queued" }
+    ],
+    "dataSources": ["MLS access", "RentCast API", "Bell County tax records", "Fort Hood BAH rates", "BSW residency program details"],
+    "deployment": {
+      "dashboards": "Vercel",
+      "pricingEngine": "Railway",
+      "leadCapture": "Supabase",
+      "github": "TaylorDasch"
+    },
+    "crm": "Follow Up Boss",
+    "aiDelegation": {
+      "claude": "Strategic planning, complex builds, content strategy, daily plans, social media management",
+      "geminiGems": [
+        "Prompt Workshop",
+        "GMB Post Writer",
+        "YouTube Metadata",
+        "Social Media Repurposer",
+        "Deal Number Cruncher",
+        "Deep Research Prompt"
+      ],
+      "chatgpt": "Quick tactical needs"
+    }
+  },
+
+  "gaps": {
+    "documented": [
+      { "area": "Instagram strategy beyond Reels", "status": "CLOSED — /instagram-reel skill built 2026-04-13" },
+      { "area": "Facebook strategy", "status": "not-documented — needs Taylor decision on whether to pursue" },
+      { "area": "LinkedIn strategy", "status": "partially-closed — /linkedin-carousel skill exists, needs broader strategy" },
+      { "area": "ManyChat automation setup", "status": "documented-not-configured" },
+      { "area": "Email marketing platform choice", "status": "CLOSED — Beehiiv confirmed, 2 newsletters live" },
+      { "area": "TikTok analytics baseline", "status": "partial" },
+      { "area": "Guest post results", "status": "13 submitted, 0 confirmed — needs tracking workflow" },
+      { "area": "Competitor social analysis", "status": "website-only" },
+      { "area": "Content calendar automation", "status": "partially-closed — monday-calendar.py cron exists, needs router_market_data integration" },
+      { "area": "Video thumbnail strategy", "status": "CLOSED — /thumbnail-brief skill built 2026-04-13" },
+      { "area": "Podcast/audio content", "status": "no-strategy — needs Taylor decision" },
+      { "area": "Reddit/BiggerPockets posting", "status": "CLOSED — /reddit-bp skill built 2026-04-13" },
+      { "area": "TC deal data integration", "status": "CLOSED — DOTW skill now pulls from tc_list_deals/tc_get_deal MCP tools, INTEGRATION-MAP.md added 2026-04-13" },
+      { "area": "Listing content pipeline", "status": "CLOSED — INTEGRATION-MAP.md documents router_listing_status flow 2026-04-13" },
+      { "area": "Command Center market data feed", "status": "CLOSED — INTEGRATION-MAP.md documents router_market_data flow 2026-04-13" }
+    ]
+  }
+}

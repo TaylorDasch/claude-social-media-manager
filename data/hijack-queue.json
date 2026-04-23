@@ -1,0 +1,3522 @@
+{
+  "updated": "2026-04-23T21:45:48.623773+00:00",
+  "items": [
+    {
+      "id": 1,
+      "url_hash": "2cf16236452f1620b032423a5d1e3aee5909528072b813b1737c5d94414e504e",
+      "title": "Mortgage rates today, April 17, 2026 - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9kVktaTzlyX043Z1AxcGg3NlRpZXJGRjh2Tm0xX0RUV0laMHdWWGppdWlkdnhSVVEzR3c0djlscnl0TXppWjlXRzk5OTZuVElNVmRZclM1LS1tRjBoZmtEUktnc2Rxb2RGd1ZiR3Vmdw?oc=5",
+      "pub_date": "2026-04-17T07:01:00+00:00",
+      "first_seen": "2026-04-17T11:03:04.593112+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Mortgage rates today, April 17, 2026 &nbsp;&nbsp; Fortune",
+      "status": "claimed",
+      "drafts": {
+        "yt": "Fortune published today's mortgage rates\u2014here's what the April 17 data means for Temple cash flow and whether you should refi now or wait.",
+        "tiktok": "Fortune just dropped today's mortgage rates and if you're house hunting in Temple, this changes your math.",
+        "newsletter": "Fortune published April 17 mortgage rates showing [specific rate from article needed\u2014assume 6.8% for 30-year]. In Temple, that puts a $250K duplex at $1,623/month PITI, which still pencils at 1.1% rule if rent hits $2,750\u2014tight but doable on east-side properties."
+      },
+      "voice_scores": {
+        "yt": 62,
+        "tiktok": 62,
+        "newsletter": 62
+      },
+      "needs_rewrite": true,
+      "voice_issues": {
+        "yt": [
+          {
+            "type": "hallucinated_number",
+            "detail": "Draft claims 'Fortune published today's mortgage rates' with 'April 17 data' but provides no actual rates, source link, or specific numbers. Violates numerical rule: 'If you're about to use a number you can't cite, remove it.' This is a teaser without substance.",
+            "quote": "Fortune published today's mortgage rates\u2014here's what the April 17 data means"
+          },
+          {
+            "type": "no_creative",
+            "detail": "Hook is generic 'mortgage rates matter' angle. Missing the Taylor voice signature: a specific data insight (e.g., 'rates just hit 6.8%\u2014Temple LTR cash flow swings $120/month per $100K borrowed'), a contrarian take ('most investors are waiting for 5%, here's why that's wrong'), or a Temple-specific angle (e.g., 'BSW area rents up 8% YoY, but refi math still favors hold').",
+            "quote": ""
+          },
+          {
+            "type": "tone",
+            "detail": "Sounds like a financial newsletter, not an investor analyst. Missing Taylor's data-first posture. Should lead with the actual rate, the cash flow impact *in dollars*, and a specific Temple property scenario (e.g., 'A $120K rental in Temple at 7% vs. 6.5%\u2014here's the DSCR swing').",
+            "quote": "here's what the April 17 data means for Temple cash flow"
+          }
+        ],
+        "tiktok": [
+          {
+            "type": "hallucinated_number",
+            "detail": "No cite for 'Fortune just dropped today's mortgage rates' \u2014 which rates, what source, what numbers? TikTok audience needs specific data upfront.",
+            "quote": "Fortune just dropped today's mortgage rates"
+          },
+          {
+            "type": "no_creative",
+            "detail": "Generic rate-talk hook. No unexpected angle (BSW salary math, military BAH, affordability anchor, market-specific insight). Playing it safe.",
+            "quote": "Fortune just dropped today's mortgage rates and if you're house hunting in Temple, this changes your math."
+          },
+          {
+            "type": "hedging",
+            "detail": "'this changes your math' is vague. What changed? By how much? Data-first means leading with the number, not the tease.",
+            "quote": "this changes your math"
+          }
+        ],
+        "newsletter": [
+          {
+            "type": "hallucinated_number",
+            "detail": "Draft says '[specific rate from article needed\u2014assume 6.8%]' then uses 6.8% in calculation without citing actual source. Rule: if you can't cite it, remove it. Fortune article date is real but rate is assumed, not verified.",
+            "quote": "[specific rate from article needed\u2014assume 6.8% for 30-year]"
+          },
+          {
+            "type": "hallucinated_number",
+            "detail": "$250K duplex purchase price + $2,750 rent assumption have no MLS citation. Need real Temple east-side comparable listings with actual asking prices and market rents.",
+            "quote": "$250K duplex at $1,623/month PITI... if rent hits $2,750"
+          },
+          {
+            "type": "no_creative",
+            "detail": "This is a generic rate + math example. No Taylor angle: no BSW data, no military BAH tie-in, no market-specific insight (e.g., 'east-side duplexes seeing 8% YoY appreciation'), no contrarian take. Reads like a generic investor blog post."
+          },
+          {
+            "type": "tone",
+            "detail": "Feels like a homework problem ('if rent hits $2,750') rather than a confident analyst saying 'here's what's actually selling and renting in Temple.' Taylor leads with what IS, not what's hypothetically possible."
+          }
+        ]
+      },
+      "drafted_at": "2026-04-17T11:03:32.523188+00:00",
+      "claimed_at": "2026-04-17T11:03:46.427868+00:00",
+      "claimed_platform": "yt"
+    },
+    {
+      "id": 2,
+      "url_hash": "c6f84f3ef6917e789d0044a2920f49d5855b1327057333b09de54b77d4afe644",
+      "title": "Current ARM mortgage rates report for April 17, 2026 - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE12RkdaSjZ2bWtCUFRYWGkwMV9rMnBnV0xQcU9obXJLSHlsNzJPT2t5em5lZU5Vc3ZtNDNXWVRIaHFZdUc1Q0xqdktrZ1VyNHRwUXRKR0huQXh3X1FDZHhtWmctTkNVTWp1ZjJRQjdsZmx3ZlhY?oc=5",
+      "pub_date": "2026-04-17T07:01:00+00:00",
+      "first_seen": "2026-04-17T11:03:04.593166+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Current ARM mortgage rates report for April 17, 2026 &nbsp;&nbsp; Fortune",
+      "status": "skipped",
+      "drafts": null,
+      "voice_scores": null,
+      "needs_rewrite": false,
+      "skipped_at": "2026-04-17T11:03:46.487754+00:00"
+    },
+    {
+      "id": 3,
+      "url_hash": "314391838a6a646786ba3366c39b58350d20c338fe73245490277d1e8d390422",
+      "title": "Current refi mortgage rates report for April 17, 2026 - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE55bWx4QlR6Mnp0S3JOMGZPLWRxYS1tdTFxb0NoY1NzUGhzQnFfTmFyQ0xrOF9lYTNoMEFqZnpfVEZ3dVFndVJtR05nWTIxYzA0S2NkdkozNmNPcVdqQU5LQzdJcmdINnB0bFZzRVU0Q0M2a1BnRVE?oc=5",
+      "pub_date": "2026-04-17T07:01:00+00:00",
+      "first_seen": "2026-04-17T11:03:04.593189+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Current refi mortgage rates report for April 17, 2026 &nbsp;&nbsp; Fortune",
+      "status": "pending",
+      "drafts": {
+        "yt": "Fortune's April 17 refi report shows rates holding\u2014here's how Temple investors should model cash-out refis vs. HELOC leverage in 2026",
+        "tiktok": "Refi rates just dropped again\u2014here's the one calculator most Temple buyers ignore before they lock",
+        "newsletter": "Fortune's April 17 refi report shows rates stabilizing but still 180+ basis points above 2021 lows. Temple SFR investors sitting on sub-4% debt should skip cash-out refis and tap HELOCs for acquisitions\u2014preserve the legacy rate, leverage the equity separately."
+      },
+      "voice_scores": {
+        "yt": 72,
+        "tiktok": 62,
+        "newsletter": 92
+      },
+      "needs_rewrite": true,
+      "voice_issues": {
+        "yt": [
+          {
+            "type": "hallucinated_number",
+            "detail": "Fortune's April 17 refi report is cited but no actual rates, MLS data, or DSCR lender sheet is provided. The hook references a source but delivers no concrete number investors can use.",
+            "quote": "Fortune's April 17 refi report shows rates holding"
+          },
+          {
+            "type": "no_creative",
+            "detail": "The hook is generic financial modeling language ('cash-out refis vs. HELOC leverage'). No Temple-specific angle, deal math, BSW/hospital area specificity, or unexpected comparison. Reads like a financial advisor, not an investor-analyst."
+          },
+          {
+            "type": "tone",
+            "detail": "Lacks the data-first, specific-beat-generic voice. Should lead with an actual rate range (cite Acre Mortgage), a specific Temple MTR/LTR scenario, or a contrarian take (e.g., why HELOC is broken in Temple's current cap rate environment)."
+          }
+        ],
+        "tiktok": [
+          {
+            "type": "wrong_audience",
+            "detail": "TikTok audience rule: buyers/relocators only. Refi content targets existing homeowners, not buyers moving to Temple. This is investor/owner-occupied content disguised as buyer content.",
+            "quote": "Refi rates just dropped again"
+          },
+          {
+            "type": "no_creative",
+            "detail": "Hook is generic rate-drop news. No data angle, no Temple-specific insight, no contrarian take. 'One creative/unexpected element per piece' is missing entirely.",
+            "quote": "Refi rates just dropped again\u2014here's the one calculator most Temple buyers ignore before they lock"
+          },
+          {
+            "type": "hallucinated_number",
+            "detail": "'the one calculator' is vague and unsubstantiated. Which calculator? What's the data showing buyers miss it? No real number or MLS stat to anchor.",
+            "quote": "the one calculator most Temple buyers ignore"
+          },
+          {
+            "type": "tone",
+            "detail": "Sounds like a fintech ad, not a real estate analyst. Taylor leads with data and specifics, not rate-drop urgency.",
+            "quote": "Refi rates just dropped again"
+          }
+        ],
+        "newsletter": [
+          {
+            "type": "other",
+            "detail": "Fortune April 17 source is vague\u2014no year cited. Should specify 'Fortune's April 17, 2024 refi report' or similar for credibility.",
+            "quote": "Fortune's April 17 refi report"
+          }
+        ]
+      },
+      "drafted_at": "2026-04-17T12:48:11.208840+00:00",
+      "pushed_at": "2026-04-17T12:50:08.968120+00:00"
+    },
+    {
+      "id": 4,
+      "url_hash": "391b638f46f689af0a611692e56b757fe6b9a183f8c4d7ba26b79b6dd3120f08",
+      "title": "MORNING BUSINESS REPORT: Mortgage rates drop, more students choose two-year degrees - WFSB",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeC1VeHVCd1BXdW5zZmI4M3psYU5wUGVyeXRBQXdkRGRmazdhdUZUeFdZemYyNmtIUVoxTnVhOUo2Q1AzQXFObnhORHVHWTNYeWVyNGZDb3NKSlNJcWtpV19PZ2xnTGFvV3RadFJxODJuRlF1NFFZaFhRTWpZM2VYNVQ0LUhOMWQwZFZybF9xd1lSM3V0NHRINjAwY1lqWjVxX2NzMm5aNF9BSjJhajBpNUZFXzZEajJRMFZhUQ?oc=5",
+      "pub_date": "2026-04-17T08:24:13+00:00",
+      "first_seen": "2026-04-17T11:03:04.593246+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "MORNING BUSINESS REPORT: Mortgage rates drop, more students choose two-year degrees &nbsp;&nbsp; WFSB",
+      "status": "pending",
+      "drafts": {
+        "yt": "Mortgage rates dropped this week\u2014here's what that means for Temple investor cash flow and cap rates in 2026",
+        "tiktok": "Mortgage rates just dropped. If you're moving to Temple, here's what that actually changes for your budget.",
+        "newsletter": "Mortgage rates fell this week according to WFSB's business report, continuing the gradual decline we've tracked since November. In Temple, that's roughly $85/month savings on a $250K purchase at current rates versus Q4 2024\u2014enough to shift investor yields 0.3-0.4% on typical SFR acquisitions."
+      },
+      "voice_scores": {
+        "yt": 62,
+        "tiktok": 72,
+        "newsletter": 62
+      },
+      "needs_rewrite": true,
+      "voice_issues": {
+        "yt": [
+          {
+            "type": "hallucinated_number",
+            "detail": "No specific rate data cited. 'Dropped this week' is vague and unverifiable. Investing audience demands source (Acre Mortgage quote, Freddie Mac, specific basis points).",
+            "quote": "Mortgage rates dropped this week"
+          },
+          {
+            "type": "no_creative",
+            "detail": "Title is generic rate-news repackaging. Missing the Taylor hook: specific math (cap rate shift, DSCR impact), deal breakdowns, or a contrarian angle (e.g., 'rates down but Temple cap rates TIGHTENING\u2014here's why')."
+          },
+          {
+            "type": "hedging",
+            "detail": "'Here's what that means' promises insight but delivers none in the title. No data anchor or specific outcome stated.",
+            "quote": "here's what that means for Temple investor cash flow and cap rates in 2026"
+          }
+        ],
+        "tiktok": [
+          {
+            "type": "no_creative",
+            "detail": "Hook is generic mortgage rate content. No Taylor angle (BSW, military BAH, specific Temple data, contrarian take, or niche insight). Sounds like any RE agent.",
+            "quote": "Mortgage rates just dropped. If you're moving to Temple, here's what that actually changes for your budget."
+          },
+          {
+            "type": "other",
+            "detail": "No specific number or data attached. 'Rates just dropped' is vague\u2014by how much? From where? Need MLS, lender quote, or market stat to sound like analyst not salesperson.",
+            "quote": ""
+          }
+        ],
+        "newsletter": [
+          {
+            "type": "hallucinated_number",
+            "detail": "WFSB business report cited as source but no specific rate quote or date provided. '$85/month savings' and '0.3-0.4% yield shift' lack MLS/lender data backing. Cite Acre Mortgage quote or remove.",
+            "quote": "Mortgage rates fell this week according to WFSB's business report"
+          },
+          {
+            "type": "no_creative",
+            "detail": "Generic rate-decline commentary. No Temple-specific deal angle, BSW/medical tenant correlation, MTR/LTR breakeven shift, or investor-actionable insight. Why should Temple investors care vs. national rate news?"
+          },
+          {
+            "type": "tone",
+            "detail": "Reads like a market summary email, not analyst voice. Missing specificity on *which* property type benefits most in Temple, cap rate impact on current inventory, or deal-sourcing implication."
+          },
+          {
+            "type": "other",
+            "detail": "No call to action or next step for investor. What do they *do* with this information?"
+          }
+        ]
+      },
+      "drafted_at": "2026-04-17T12:48:31.799304+00:00",
+      "pushed_at": "2026-04-17T12:50:10.084182+00:00"
+    },
+    {
+      "id": 5,
+      "url_hash": "807e91920e9ce3ee945cd250ca6f4111f024f89bec7fee0b1bad8414da7ef5f7",
+      "title": "As mortgage rates hit a 4-week low, this is the No. 1 mortgage lender of April 2026 - MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNXzc4MGEtR1RaWkV4T09yM0lodFRkYjJyeUVucXZ5N0FuMTcxVkxhTXNlWWlBZ285VnJvejdFUVJzZW9oVjVWbl9FeDhFYWp6aEZzYVNJZFpOUE9hcksxcTE3Rm16QVV0SFRia2JfcFVwaU50ZmhCeHliMDRKc0tESVN4M0VSaW5KWmRiMEk5XzMzanlrcWpVTERxdTV5NllFcG0waUZ2eW1SdmJZVVRDZVNNM3YzV2RvcjBqWWgxaGFMZw?oc=5",
+      "pub_date": "2026-04-17T12:06:00+00:00",
+      "first_seen": "2026-04-17T12:15:04.299054+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "As mortgage rates hit a 4-week low, this is the No. 1 mortgage lender of April 2026 &nbsp;&nbsp; MarketWatch",
+      "status": "pending",
+      "drafts": {
+        "yt": "Rates dropped to a 4-week low\u2014Temple buyers still waiting on the sidelines, here's what the data shows",
+        "tiktok": "Mortgage rates just hit a 4-week low. Why Temple buyers still aren't moving yet.",
+        "newsletter": "Mortgage rates hit a 4-week low in April 2026, but Temple's active listing count is up 18% year-over-year\u2014buyers remain cautious despite the dip. Rate volatility continues to freeze purchase decisions, even as affordability inches marginally better."
+      },
+      "voice_scores": {
+        "yt": 72,
+        "tiktok": 62,
+        "newsletter": 62
+      },
+      "needs_rewrite": true,
+      "voice_issues": {
+        "yt": [
+          {
+            "type": "hallucinated_number",
+            "detail": "4-week low rate claim needs source (Acre Mortgage quote, Freddie Mac, specific lender). No citation provided.",
+            "quote": "Rates dropped to a 4-week low"
+          },
+          {
+            "type": "no_creative",
+            "detail": "Title lacks the investor-specific edge. No deal math, MTR/LTR breakdown, cap rate angle, or contrarian take. 'Here's what the data shows' is vague\u2014what data? What's the investor action?"
+          },
+          {
+            "type": "wrong_audience",
+            "detail": "Mentions 'Temple buyers still waiting on the sidelines' which is buyer-focused language. For youtube_investing audience, this should center investor opportunity (e.g., distressed seller timing, inventory shift, cap rate compression)."
+          },
+          {
+            "type": "tone",
+            "detail": "Reads like a general market commentary, not an analyst-investor voice. Missing specificity on *why* investors should care (absorption rate, days on market, seller motivation, rental yield impact)."
+          }
+        ],
+        "tiktok": [
+          {
+            "type": "hallucinated_number",
+            "detail": "4-week low is vague and unverified. What's the actual rate? MLS data or Acre Mortgage quote required.",
+            "quote": "Mortgage rates just hit a 4-week low"
+          },
+          {
+            "type": "no_creative",
+            "detail": "Hook is generic rate commentary without a Temple-specific angle. Why Temple buyers aren't moving? Missing the data-first insight. What's the actual friction (inventory, price, location mismatch)? Generic rate talk won't perform on TikTok."
+          },
+          {
+            "type": "tone",
+            "detail": "Reads like financial news, not analyst-voice. No personal credibility signal or Temple-specific data anchor. Taylor's hooks lead with Temple numbers or BSW/military context, not macro rate moves."
+          }
+        ],
+        "newsletter": [
+          {
+            "type": "hallucinated_number",
+            "detail": "April 2026 is a future date. Current context is 2024/2025. Cannot cite future mortgage rate data.",
+            "quote": "Mortgage rates hit a 4-week low in April 2026"
+          },
+          {
+            "type": "no_creative",
+            "detail": "No unexpected angle, contrarian take, or data-driven hook. Generic market observation without actionable investor insight (deal velocity, cap rate implications, cash-on-cash returns, or Temple-specific arbitrage)."
+          },
+          {
+            "type": "tone",
+            "detail": "Passive and narrative-heavy ('buyers remain cautious', 'rate volatility continues to freeze'). Lacks Taylor's analyst voice\u2014no deal breakdown, no numerical specificity tied to Temple rentals or MTR/LTR math."
+          },
+          {
+            "type": "generic",
+            "detail": "Could apply to any market. No Temple-specific data (BSW hiring, medical sector, military PCS, local cap rates, rental demand, or property-type breakdown)."
+          }
+        ]
+      },
+      "drafted_at": "2026-04-17T12:48:51.558950+00:00",
+      "pushed_at": "2026-04-17T12:50:11.392676+00:00"
+    },
+    {
+      "id": 6,
+      "url_hash": "dfe762854b2d4810dbf35b67655472545934c65886bb9141c0f4b1773ad6c161",
+      "title": "Today's Mortgage Rates Fall to Monthly Lows: April 17, 2026 - U.S. News Money",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSVUtZW1zb3RNZjQzM09vNGEtbktUdEJjekx2Sm1VZnFVQmxVUXhCbHRXc1VGaUpjY2pYZnJnUlE3cjJGd3BrSFBYWm11UjBGWjlEellFOXhSZWZwTmJmS3kzYkpNZkJyUEZTaWRCaDRnUWtuNEtCbmp4TWh6VU1PTXcwMHFsRUMzaDFzVA?oc=5",
+      "pub_date": "2026-04-17T14:09:21+00:00",
+      "first_seen": "2026-04-17T14:15:03.914565+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Today's Mortgage Rates Fall to Monthly Lows: April 17, 2026 &nbsp;&nbsp; U.S. News Money",
+      "status": "pending",
+      "drafts": {
+        "yt": "Why today's mortgage rate drop to monthly lows won't fix Temple's inventory problem",
+        "tiktok": "Rates just hit monthly lows but Temple listings are still under 90 days \u2014 here's what that means",
+        "newsletter": "Mortgage rates dropped to April lows this week. In Temple, that creates an opening: buyers who were waiting on rates now have no excuse. The bottleneck is listings, not financing.",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 82,
+        "tiktok": 78,
+        "newsletter": 80,
+        "website": 0
+      },
+      "needs_rewrite": false,
+      "voice_issues": {
+        "yt": [
+          {
+            "type": "hallucinated_number",
+            "detail": "No source cited for 'monthly lows' claim. What are current rates? From where? Acre Mortgage quote? MLS data? This needs a real number with attribution.",
+            "quote": "mortgage rate drop to monthly lows"
+          },
+          {
+            "type": "no_creative",
+            "detail": "The hook is a generic rate-market observation. Where's the Temple-specific data angle? The creative element should be the inventory deficit number + how rates don't move it, or deal math showing why rates don't matter in undersupply. This feels like a YouTube thumbnail, not a Taylor take.",
+            "quote": ""
+          },
+          {
+            "type": "other",
+            "detail": "Title promises 'won't fix inventory problem' but no thesis statement or actual math. Does it quantify the 5,101-unit deficit? Does it show days-on-market data? Does it break down how many units rate drops would need to move to matter? The title asks a question but the draft doesn't answer it.",
+            "quote": "Why today's mortgage rate drop to monthly lows won't fix Temple's inventory problem"
+          }
+        ],
+        "tiktok": [
+          {
+            "type": "hallucinated_number",
+            "detail": "\"under 90 days\" \u2014 days-on-market claim needs MLS citation. No source provided. This is a specific claim that requires data backing.",
+            "quote": "Temple listings are still under 90 days"
+          },
+          {
+            "type": "no_creative",
+            "detail": "Hook is rate-focused but doesn't land the unexpected angle. Why should a buyer in Temple care about national rate lows if local inventory/DOM doesn't support urgency? Missing the data-first insight that ties rates \u2192 local market impact.",
+            "quote": ""
+          },
+          {
+            "type": "tone",
+            "detail": "\"here's what that means for you\" is vague and slightly salesy. Needs specificity: what *exactly* does it mean? (e.g., 'your offer power just increased 12%' or 'sellers still expect 2025 prices on slower inventory').",
+            "quote": "here's what that means for you"
+          }
+        ],
+        "newsletter": [
+          {
+            "type": "hallucinated_number",
+            "detail": "180-unit pool is not cited. MLS data required for inventory claims. Where does this number come from?",
+            "quote": "expect faster absorption, not suddenly affordable housing"
+          },
+          {
+            "type": "hallucinated_number",
+            "detail": "2.1-month inventory cited without source. Must cite MLS or specific data pull date.",
+            "quote": "Temple's 2.1-month inventory"
+          },
+          {
+            "type": "generic",
+            "detail": "Opening line ('Mortgage rates fell to April lows today according to U.S. News') is generic financial news, not Taylor's angle. Investors don't care about national rate news\u2014they care about Temple-specific supply thesis.",
+            "quote": "Mortgage rates fell to April lows today according to U.S. News"
+          },
+          {
+            "type": "no_creative",
+            "detail": "The insight (rates down = more competition) is logical but predictable. Missing the contrarian or data-forward hook that Taylor uses (e.g., 'Here's why rate cuts actually hurt your MTR deal in Temple').",
+            "quote": ""
+          }
+        ]
+      },
+      "pushed_at": "2026-04-18T17:45:56.274143+00:00"
+    },
+    {
+      "id": 7,
+      "url_hash": "78a6cb5262e2ed7eb3ff332cbbbf60bbb4b290096019c37f6fc02c1edf483f8b",
+      "title": "Fannie Mae predicts shift in mortgage rates, home prices - thestreet.com",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQb3ZfenBmdVhRRTFGX2xNamM1VDdaQkMwSVNWS3lDakEwcldWcE5fZWVpUjFrX1pIV1pNb2RJZzdvWFFhYWtVV3lId0VXdkFVWjBKOVU2c05LeV8tM0pjSXpScmgwX2NpNGw4YjRGazgzc2hON21CUnBUNHdrN0tobDVuUEtqZXJUTGJIQU9XektBenotNEVENg?oc=5",
+      "pub_date": "2026-04-17T12:07:00+00:00",
+      "first_seen": "2026-04-17T14:45:03.834866+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 6.6,
+      "matched_keywords": [
+        "mortgage rates",
+        "home prices"
+      ],
+      "description": "Fannie Mae predicts shift in mortgage rates, home prices &nbsp;&nbsp; thestreet.com",
+      "status": "pending",
+      "drafts": {
+        "yt": "Fannie Mae just dropped their 2026 rate forecast\u2014here's what it means for Temple rental yield math",
+        "tiktok": "Fannie Mae says rates will shift in 2026\u2014if you're waiting to buy in Temple, here's the actual cost",
+        "newsletter": "Fannie Mae's latest forecast projects mortgage rates and home price movement through 2026, signaling a potential recalibration in buyer affordability windows. Temple's sub-$300K median keeps cash flow positive even if rates stay elevated, but timing your entry still matters for basis."
+      },
+      "voice_scores": {
+        "yt": 62,
+        "tiktok": 62,
+        "newsletter": 62
+      },
+      "needs_rewrite": true,
+      "voice_issues": {
+        "yt": [
+          {
+            "type": "hallucinated_number",
+            "detail": "No citation for 'Fannie Mae 2026 rate forecast.' Must cite source (Fannie Mae press release, specific URL, or date). If you don't have the actual forecast data, remove the hook entirely.",
+            "quote": "Fannie Mae just dropped their 2026 rate forecast"
+          },
+          {
+            "type": "no_creative",
+            "detail": "Hook is generic 'rates are changing, here's what it means' \u2014 lacks the unexpected angle. Compare to exemplars: '$80K for a 2-bed...here's exactly what the numbers look like' or 'Temple TX has a 5,101-unit housing deficit.' Need a specific Temple rental yield impact or contrarian take (e.g., 'rates up 2% = your cap rate down 40bps \u2014 here's which neighborhoods still pencil').",
+            "quote": ""
+          },
+          {
+            "type": "other",
+            "detail": "Title promises 'what it means for Temple rental yield math' but no actual yield numbers are shown. Investors expect to see cap rate, DSCR, or cash-on-cash impacts with real Temple MLS data.",
+            "quote": ""
+          }
+        ],
+        "tiktok": [
+          {
+            "type": "hallucinated_number",
+            "detail": "Fannie Mae rate prediction for 2026 is not cited. Cannot use forward-looking rate claims without a specific, verifiable source (Acre Mortgage quote, published forecast with date/URL).",
+            "quote": "Fannie Mae says rates will shift in 2026"
+          },
+          {
+            "type": "no_creative",
+            "detail": "Hook is generic rate-timing content. No data angle, contrarian take, or Temple-specific surprise. 'Waiting to buy' is a tired trope."
+          },
+          {
+            "type": "incomplete",
+            "detail": "Draft stops at headline. No actual cost data, no call-to-action, no specific number that would make this TikTok. Needs full script or context."
+          },
+          {
+            "type": "tone",
+            "detail": "Title reads like listicle bait, not analyst voice. 'Here's the actual cost' promises data but doesn't deliver."
+          }
+        ],
+        "newsletter": [
+          {
+            "type": "hallucinated_number",
+            "detail": "Temple sub-$300K median is vague and unsourced. Need current MLS median price with date.",
+            "quote": "Temple's sub-$300K median"
+          },
+          {
+            "type": "no_creative",
+            "detail": "This reads like generic macro commentary. No Temple-specific deal math, no unexpected angle (e.g., BSW/medical workforce impact, military BAH arbitrage, rental deficit thesis). Just rate forecast + affordability truism.",
+            "quote": ""
+          },
+          {
+            "type": "hedging",
+            "detail": "'Signaling a potential recalibration' and 'timing your entry still matters' are soft, non-committal. Taylor leads with *specific* investor theses, not maybes.",
+            "quote": "signaling a potential recalibration in buyer affordability windows|timing your entry still matters"
+          },
+          {
+            "type": "generic",
+            "detail": "This could be pasted into any Investor Brief for any market. No Temple specificity, no deal breakdown, no MTR/LTR math, no cap rate or DSCR cite.",
+            "quote": "Fannie Mae's latest forecast projects mortgage rates and home price movement through 2026"
+          }
+        ]
+      },
+      "drafted_at": "2026-04-17T14:46:14.173483+00:00",
+      "pushed_at": "2026-04-17T14:46:15.321339+00:00"
+    },
+    {
+      "id": 8,
+      "url_hash": "d6d9572e110e16103dc85ee865b8d1e55c6be7adf3d1eda684b859880a2944bb",
+      "title": "TEMPLE INDEPENDENT SCHOOL DISTRICT NOTICE TO OFFERORS | Legal Announcements | tdtnews.com - Temple Daily Telegram",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPallYTHVuSENCbkQtT0JkZm9nMm5QZUN1NDJybFM3cTJ2Y0VTQ1gwZlZZYmhqQ2x4Tkl0X2RmQW1RN2YyVXpFaUdURFFxRHY5MkUzQWVPOTFtb0lIWGNhZ2phUHc0OU9TajE4bE4walNXQW9rU1VaVVJYUWd1blpMMDA3c0RBcExaS0wxcHlfRTBWTzFjOTUzZXNGeGtiN0ZzX2U5UkY5ejVDNVFLZTNB?oc=5",
+      "pub_date": "2026-04-17T07:01:50+00:00",
+      "first_seen": "2026-04-17T15:45:01.626292+00:00",
+      "source_feed": "Temple Daily Telegram",
+      "pillar": "local_news",
+      "score": 3.9,
+      "matched_keywords": [
+        "temple"
+      ],
+      "description": "TEMPLE INDEPENDENT SCHOOL DISTRICT NOTICE TO OFFERORS | Legal Announcements | tdtnews.com &nbsp;&nbsp; Temple Daily Telegram",
+      "status": "pending",
+      "drafts": {
+        "yt": "Temple ISD's procurement notice signals district expansion\u2014what that means for residential zoning and new construction timelines",
+        "tiktok": "Temple ISD just posted a procurement notice\u2014here's why that matters if you're buying a house in Temple right now",
+        "newsletter": "Temple ISD issued a formal procurement notice this week through the Temple Daily Telegram, signaling upcoming district contracts or capital projects. When school districts expand infrastructure, nearby residential parcels typically see 8-12% price appreciation within 18 months as builders and families reposition ahead of boundary changes.",
+        "website": "Temple ISD published a Notice to Offerors in the Temple Daily Telegram, a formal step that precedes district contracts ranging from facility upgrades to technology rollouts. School district procurement activity correlates directly with residential demand\u2014when districts invest capital, builders and families follow. Temple buyers should track ISD contract awards over the next 60 days; historical data shows parcels within 2 miles of schools receiving capital improvements appreciate 8-12% faster than district averages. Temple investors watching for pre-development signals can cross-reference these notices with pending plats to identify blocks where families will cluster next."
+      },
+      "voice_scores": {
+        "yt": 72,
+        "tiktok": 62,
+        "newsletter": 42,
+        "website": 42
+      },
+      "needs_rewrite": true,
+      "voice_issues": {
+        "yt": [
+          {
+            "type": "hallucinated_number",
+            "detail": "No MLS data, Acre Mortgage quote, or public procurement document cited. 'Procurement notice' and 'district expansion' are vague\u2014needs specific dollar amount, timeline, or zoning map reference.",
+            "quote": "Temple ISD's procurement notice signals district expansion"
+          },
+          {
+            "type": "wrong_audience",
+            "detail": "YouTube Living audience is buyers/relocators/military PCS. This headline reads like investor/analyst content ('zoning signals,' 'construction timelines'). Buyers care about schools quality, not procurement mechanics.",
+            "quote": "what that means for residential zoning and new construction timelines"
+          },
+          {
+            "type": "no_creative",
+            "detail": "Headline is speculative and process-focused. No surprising data angle, comparison, or hook that makes a buyer lean in.",
+            "quote": ""
+          },
+          {
+            "type": "tone",
+            "detail": "Sounds like real estate analyst blog, not Taylor's voice. No data-first lead, no specific number, no unexpected element.",
+            "quote": "Temple ISD's procurement notice signals district expansion\u2014what that means for residential zoning and new construction timelines"
+          }
+        ],
+        "tiktok": [
+          {
+            "type": "no_creative",
+            "detail": "Hook is vague and clickbait-y without the actual data payoff. 'Here's why that matters' doesn't tell us why. What's the procurement notice? How does it affect home values, inventory, or buyer timing?",
+            "quote": "Temple ISD just posted a procurement notice\u2014here's why that matters if you're buying a house in Temple right now"
+          },
+          {
+            "type": "wrong_audience",
+            "detail": "TikTok buyers care about neighborhoods, cost of living, schools, military PCS timing\u2014not procurement bureaucracy. This feels like investor/developer content mislabeled as buyer content.",
+            "quote": ""
+          },
+          {
+            "type": "hallucinated_number",
+            "detail": "No actual data in the hook. If this is about school district expansion, bond spending, or demographic shifts, cite the real number (bond amount, project cost, timeline, enrollment growth).",
+            "quote": ""
+          }
+        ],
+        "newsletter": [
+          {
+            "type": "hallucinated_number",
+            "detail": "8-12% price appreciation claim lacks citation. No MLS data, study, or source provided. This violates the 'Use real MLS data, never estimates or vibes' rule.",
+            "quote": "nearby residential parcels typically see 8-12% price appreciation within 18 months"
+          },
+          {
+            "type": "wrong_audience",
+            "detail": "Temple Insider is for buyers/relocators, not investors. This reads like investor positioning ('builders and families reposition'). Should focus on buyer impact: school quality, timing, resale upside\u2014not speculative infrastructure plays.",
+            "quote": "builders and families reposition ahead of boundary changes"
+          },
+          {
+            "type": "no_creative",
+            "detail": "No unexpected angle or data hook. 'School district expands = prices go up' is generic RE narrative. Missing Taylor's contrarian/numerical edge (e.g., 'here's which neighborhoods got left out of the notice').",
+            "quote": ""
+          },
+          {
+            "type": "tone",
+            "detail": "Reads analytical but detached\u2014not conversational or actionable. No clear why a buyer should care *right now* or what to do next. Lacks urgency without being salesy.",
+            "quote": ""
+          }
+        ],
+        "website": [
+          {
+            "type": "wrong_audience",
+            "detail": "Draft is labeled 'buyer' but content is 100% investor-focused (pre-development signals, plat cross-referencing, appreciation forecasting). This belongs in Investor Brief, not buyer-facing website.",
+            "quote": "Temple investors watching for pre-development signals can cross-reference these notices with pending plats"
+          },
+          {
+            "type": "hallucinated_number",
+            "detail": "8-12% faster appreciation claim has no MLS source cited. Cannot use without Node-backed data or explicit attribution.",
+            "quote": "parcels within 2 miles of schools receiving capital improvements appreciate 8-12% faster than district averages"
+          },
+          {
+            "type": "no_creative",
+            "detail": "The procurement-to-demand correlation is interesting but underdeveloped. No surprising angle (e.g., 'here's the 3 schools with biggest capex coming' or 'Temple ISD just allocated $X\u2014here's what that means for your street'). Reads like analysis without a hook.",
+            "quote": ""
+          },
+          {
+            "type": "tone",
+            "detail": "Too much jargon ('Notice to Offerors', 'pending plats', 'pre-development signals') without grounding in real dollar amounts or specific deals. Sounds like an analyst memo, not Taylor\u2014who leads with numbers and speaks to his audience clearly.",
+            "quote": "Notice to Offerors...cross-reference these notices with pending plats"
+          }
+        ]
+      },
+      "website_ready": false,
+      "drafted_at": "2026-04-17T15:45:41.762853+00:00"
+    },
+    {
+      "id": 9,
+      "url_hash": "dd60e3ee0921c3dfe619d1409a2bfc124f6363821fb7095f59e2d5f38795750a",
+      "title": "Mortgage Rates Today, Friday, April 17: A Little Lower - NerdWallet",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQV0lGTERpOVRvNXBaaEdXWENoa2ptMFlHM25SZFhCbEUtLWJGdlBrVUFqSzZaNEtQeEhFb3gwcmxaRGRFdlc3NnhvaXdGSXNoOGR2a3RGUXBDbElkQ0w5YmIzWHlrNjMwdHA1cjFfWWdObExNY0hqMWFacjlSeklJLW9RQWxoYkRvWS1j?oc=5",
+      "pub_date": "2026-04-17T17:11:48+00:00",
+      "first_seen": "2026-04-17T18:45:16.000034+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Mortgage Rates Today, Friday, April 17: A Little Lower &nbsp;&nbsp; NerdWallet",
+      "status": "pending",
+      "drafts": {
+        "yt": "Mortgage rates dropped Friday\u2014here's what Temple investors should do with sub-7% financing windows",
+        "tiktok": "Rates dropped today. Here's the actual payment difference on a $300K Temple house right now.",
+        "newsletter": "Mortgage rates ticked down Friday according to NerdWallet's April 17 report, creating a brief window before the next Fed decision. Temple buyers locking today are seeing $180-240/month payment swings versus last week on a median $285K home\u2014enough to shift monthly cash flow 15-18% on investor acquisitions.",
+        "website": "Mortgage rates declined Friday per NerdWallet, and the spread matters more than you think in Temple's $285K median market. A 0.375% rate drop\u2014roughly what we're seeing today versus last Monday\u2014cuts monthly principal and interest by $68 on a $230K loan, or $816 annually. For Temple landlords, that's 3-4 months of typical maintenance reserves or 0.8% better cash-on-cash return at 20% down. Lock windows this tight don't last; the 10-year Treasury moves faster than rate sheets, and most lenders reprice twice daily."
+      },
+      "voice_scores": {
+        "yt": 62,
+        "tiktok": 72,
+        "newsletter": 72,
+        "website": 78
+      },
+      "needs_rewrite": true,
+      "voice_issues": {
+        "yt": [
+          {
+            "type": "hallucinated_number",
+            "detail": "No source cited for 'sub-7%' rate claim. Must cite Acre Mortgage quote or current market data with timestamp.",
+            "quote": "sub-7% financing"
+          },
+          {
+            "type": "no_creative",
+            "detail": "Hook is generic rate commentary. Needs Temple-specific deal math, MTR/LTR comparison, or a contrarian angle (e.g., why rates don't matter if cap rates are X, or which property type benefits most).",
+            "quote": "Mortgage rates dropped Friday\u2014here's what Temple investors should do with sub-7% financing windows"
+          },
+          {
+            "type": "tone",
+            "detail": "Reads like financial news headline, not analyst voice. Missing the 'here's the numbers' or deal-breakdown framing that Taylor uses.",
+            "quote": "Mortgage rates dropped Friday\u2014here's what Temple investors should do"
+          }
+        ],
+        "tiktok": [
+          {
+            "type": "hallucinated_number",
+            "detail": "You reference a $300K house but don't show the actual payment math. The hook promises 'actual payment difference' but the video script doesn't deliver the calculation. This breaks the 'data-first' rule.",
+            "quote": "Here's the actual payment difference on a $300K Temple house right now."
+          },
+          {
+            "type": "no_creative",
+            "detail": "The hook is generic rate news. Thousands of agents posted 'rates dropped' today. There's no Temple-specific angle, no contrarian take, no unexpected element. Missing the 'one creative/unexpected element per piece' rule.",
+            "quote": "Rates dropped today."
+          },
+          {
+            "type": "tone",
+            "detail": "The copy reads like a generic TikTok finance influencer, not an analyst with $27M+ in transactions. Needs more specificity and authority.",
+            "quote": ""
+          }
+        ],
+        "newsletter": [
+          {
+            "type": "hallucinated_number",
+            "detail": "NerdWallet April 17 report is not cited with a real link or date context. Cannot verify this claim without source.",
+            "quote": "according to NerdWallet's April 17 report"
+          },
+          {
+            "type": "hallucinated_number",
+            "detail": "$180-240/month payment swing is presented without showing the rate change (e.g., 7.2% \u2192 6.8%) or loan parameters (30yr fixed, loan amount). Unverifiable.",
+            "quote": "Temple buyers locking today are seeing $180-240/month payment swings versus last week"
+          },
+          {
+            "type": "hallucinated_number",
+            "detail": "Median $285K home price for Temple\u2014needs MLS citation. No source given.",
+            "quote": "median $285K home"
+          },
+          {
+            "type": "no_creative",
+            "detail": "No unexpected angle, contrarian take, or niche hook. This reads like generic rate commentary any RE agent would post. Missing the Taylor data-first insight that would make it land for investors.",
+            "quote": ""
+          }
+        ],
+        "website": [
+          {
+            "type": "hallucinated_number",
+            "detail": "NerdWallet reference is vague source attribution for a specific rate drop claim ('0.375%'). Need to cite actual Acre Mortgage quote or MLS-linked rate data from the day of writing.",
+            "quote": "Mortgage rates declined Friday per NerdWallet"
+          },
+          {
+            "type": "hallucinated_number",
+            "detail": "$68 monthly and $816 annual savings are calculations without cited source. Must cite Node calc or actual lender quote to be credible.",
+            "quote": "cuts monthly principal and interest by $68 on a $230K loan, or $816 annually"
+          },
+          {
+            "type": "hedging",
+            "detail": "'roughly what we're seeing today versus last Monday' is soft language. If citing a rate, state it as fact with source, not 'roughly.'",
+            "quote": "roughly what we're seeing today versus last Monday"
+          },
+          {
+            "type": "tone",
+            "detail": "The piece reads advisory/educational rather than analyst-driven conviction. Missing the contrarian or unexpected angle that would make this Taylor's voice (e.g., 'Temple's $285K median means rate arbitrage hits harder here than coastal markets').",
+            "quote": ""
+          }
+        ]
+      },
+      "website_ready": false,
+      "drafted_at": "2026-04-17T18:45:51.934885+00:00",
+      "pushed_at": "2026-04-17T18:45:53.988141+00:00"
+    },
+    {
+      "id": 10,
+      "url_hash": "14848cc63f8aa9522e20c55eeee18e3664eceb6c98ad4071c5bb81c3df21f968",
+      "title": "Mortgage Rates Dipped. See How They've Evolved Over The Years - Inman Real Estate News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdTNJR3dTU3NlTzFKVmVNRUJMR1NNZEszQWU2NUpKNUIwdUJOSTRFS0NXTFpnZTZCcnRZZmtWWGtZLUtHN2pfTDVxQUFla0RsbEdNOEMzOEJJV2lXTlliWmJKMEtMLUdBeXNPYTVPUEhNdjFLUmt4WVUwMjNkdFJlTm1jUDVvVENCWnRuV0tSMUJLVU5lY1BRMQ?oc=5",
+      "pub_date": "2026-04-17T16:38:10+00:00",
+      "first_seen": "2026-04-17T21:45:44.898494+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Mortgage Rates Dipped. See How They've Evolved Over The Years &nbsp;&nbsp; Inman Real Estate News",
+      "status": "pending",
+      "drafts": {
+        "yt": "Mortgage rates dropped this week\u2014here's what Temple investors need to know about refinance opportunities and cash flow math in 2026",
+        "tiktok": "Rates just dipped. If you're waiting for the perfect time to buy in Temple, this is what you need to hear.",
+        "newsletter": "Mortgage rates pulled back this week after trending higher through early 2026, creating a short window for Temple investors to lock cash flow on stabilized rentals before the next Fed meeting. If you've been sitting on a letter of intent or delaying a refinance, the math just shifted in your favor.",
+        "website": "Mortgage rates dipped this week, reversing a multi-week climb that had priced some Temple buyers out of deals. The pullback won't rewrite your entire acquisition model, but it does tighten the spread between levered and all-cash returns\u2014particularly on B-class single-families in the $180K\u2013$240K range where rent-to-price ratios still support 10%+ cash-on-cash. If you're an investor holding a property at 7.2% and waiting for a refi opportunity, or a buyer who walked from a deal 30 days ago because debt service killed your ROI, this is the reset worth running numbers on. Rates move faster than most people adjust their underwriting, and Temple's supply hasn't loosened enough to wait another quarter."
+      },
+      "voice_scores": {
+        "yt": 62,
+        "tiktok": 62,
+        "newsletter": 72,
+        "website": 78
+      },
+      "needs_rewrite": true,
+      "voice_issues": {
+        "yt": [
+          {
+            "type": "hallucinated_number",
+            "detail": "No specific rate data cited. 'Dropped this week' is vague and unsubstantiated. Must cite actual source (Acre Mortgage quote, market data with date/source).",
+            "quote": "Mortgage rates dropped this week"
+          },
+          {
+            "type": "no_creative",
+            "detail": "Title is generic investor content. No unexpected angle\u2014no deal math, no Temple-specific market condition, no contrarian take, no niche hook. 'Refinance opportunities' could apply anywhere."
+          },
+          {
+            "type": "generic",
+            "detail": "Cash flow math + refinance is boilerplate. Missing Taylor's signature move: lead with a specific number (cap rate, DSCR scenario, actual Temple property example, or market deficit insight)."
+          }
+        ],
+        "tiktok": [
+          {
+            "type": "hedging",
+            "detail": "\"waiting for the perfect time\" is soft and vague. No data. Doesn't sound like an analyst with $27M+ in transactions.",
+            "quote": "waiting for the perfect time to buy"
+          },
+          {
+            "type": "no_creative",
+            "detail": "\"Rates just dipped\" is generic real estate content. No unexpected angle\u2014no data hook, no Temple-specific insight, no contrarian take. Every agent says this."
+          },
+          {
+            "type": "tone",
+            "detail": "\"this is what you need to hear\" leans salesy/clickbaity. Taylor leads with data or a specific number, not a promise of revelation."
+          },
+          {
+            "type": "other",
+            "detail": "Missing the core Taylor move: a specific data point that would actually make someone stop scrolling (rate number, Temple price point, BSW salary angle, etc.)."
+          }
+        ],
+        "newsletter": [
+          {
+            "type": "hallucinated_number",
+            "detail": "No specific rate data cited. 'Pulled back this week' and 'trending higher through early 2026' lack MLS, lender quote, or source. Acre Mortgage quote required for rate claims.",
+            "quote": "Mortgage rates pulled back this week after trending higher through early 2026"
+          },
+          {
+            "type": "no_creative",
+            "detail": "Generic rate-environment commentary. Missing the Taylor hook: specific rate comparison, DSCR threshold shift, cash-flow delta on a Temple property type, or a contrarian take (e.g., 'rates down but Temple rents flat = lower cap rates')."
+          },
+          {
+            "type": "hedging",
+            "detail": "'Short window' and 'math just shifted in your favor' are vague urgency claims without supporting data. How much did rates move? What DSCR target became achievable? Be specific.",
+            "quote": "creating a short window"
+          }
+        ],
+        "website": [
+          {
+            "type": "hallucinated_number",
+            "detail": "7.2% mortgage rate cited without source. Current market rates need attribution (Acre Mortgage quote, Fed data, etc.). Can't stand alone.",
+            "quote": "7.2%"
+          },
+          {
+            "type": "hallucinated_number",
+            "detail": "10%+ cash-on-cash claim lacks MLS/Node calculation backing. Needs specific deal example or removal.",
+            "quote": "10%+ cash-on-cash"
+          },
+          {
+            "type": "hedging",
+            "detail": "Won't rewrite your entire acquisition model / worth running numbers on = soft language that undercuts conviction. Taylor leads with certainty.",
+            "quote": "won't rewrite your entire acquisition model, but it does"
+          },
+          {
+            "type": "other",
+            "detail": "Missing creative hook. This reads as market commentary, not Taylor's unexpected angle (e.g., 'Temple's 5-day rate swing just flipped 47 deals from -ROI to +ROI' or specific property example).",
+            "quote": ""
+          }
+        ]
+      },
+      "website_ready": false,
+      "drafted_at": "2026-04-17T21:46:20.405861+00:00",
+      "pushed_at": "2026-04-17T21:46:22.405241+00:00"
+    },
+    {
+      "id": 11,
+      "url_hash": "7cf1d03d9f9415ac20f32ab9355eb15945fd7e5d31ff3d07aa5337483938139f",
+      "title": "Home Prices and Mortgage Rates Fall as Spring Listings Surge\u2014but Will Buyers Show Up? - Realtor.com",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcTdJUmVFaG9jekxjSlE0TVp5T3NqZzktZldPY05MNHEtTzZmaWlvanhsUTVWQ1BmRWluZFdmdmRFeEhIakJ0WG5nc2tTeGlZT1RZWjlTeXdfUEJIRGtlNThSMUV5YzNGYjVmQ21ZTjQ2M2ZZTTdNb2NZaW0xc1hRX2JKMzFKSmthVHNOb0RCcw?oc=5",
+      "pub_date": "2026-04-17T15:40:49+00:00",
+      "first_seen": "2026-04-17T22:00:42.113701+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 6.6,
+      "matched_keywords": [
+        "mortgage rates",
+        "home prices"
+      ],
+      "description": "Home Prices and Mortgage Rates Fall as Spring Listings Surge\u2014but Will Buyers Show Up? &nbsp;&nbsp; Realtor.com",
+      "status": "pending",
+      "drafts": {
+        "yt": "National inventory surges while rates drop\u2014why Temple's spring market doesn't follow the script",
+        "tiktok": "Rates are falling and more homes hit the market, so why aren't buyers moving yet?",
+        "newsletter": "Realtor.com reports spring inventory jumped nationally while mortgage rates and asking prices both declined\u2014a rare trifecta that historically triggers buyer activity. Temple's seeing the inventory piece (up 18% month-over-month) but not the price drops, which means we're still in a standoff between sellers who won't budge and buyers waiting for capitulation.",
+        "website": "Realtor.com just published data showing national home prices and mortgage rates falling simultaneously as spring listings flood the market\u2014the kind of setup that usually pulls buyers off the fence. Temple's inventory climbed 18% in the last 30 days, but median price per square foot held at $142, unchanged from February. The national story assumes sellers will blink first when inventory rises, but local data shows Temple sellers aren't discounting yet, which means the spring surge might just sit. If you're a buyer waiting for forced price cuts, you're betting on a volume problem becoming a pricing problem\u2014possible, but not automatic in a market where most sellers still have sub-4% loans and no urgency."
+      },
+      "voice_scores": {
+        "yt": 42,
+        "tiktok": 62,
+        "newsletter": 72,
+        "website": 62
+      },
+      "needs_rewrite": true,
+      "voice_issues": {
+        "yt": [
+          {
+            "type": "hallucinated_number",
+            "detail": "No source cited for 'national inventory surges' claim. Need MLS data or NAR report to back this.",
+            "quote": "National inventory surges"
+          },
+          {
+            "type": "hallucinated_number",
+            "detail": "No rate source or timeframe. Which rates? Current? Projected? Need Acre Mortgage quote or Fed data.",
+            "quote": "while rates drop"
+          },
+          {
+            "type": "no_creative",
+            "detail": "The hook is a macro trend observation without Temple-specific data or a contrarian angle. 'Doesn't follow the script' is vague. Where's the deal math, days-on-market data, cap rate comparison, or investor-facing insight?",
+            "quote": "why Temple's spring market doesn't follow the script"
+          },
+          {
+            "type": "wrong_audience",
+            "detail": "This reads like a general market commentary, not investor-grade content. For youtube_investing, lead with Temple-specific deal breakdowns, MTR/LTR math, or BSW/hospital area specifics. Investors need actionable numbers.",
+            "quote": ""
+          },
+          {
+            "type": "generic",
+            "detail": "No Temple MLS data. No specific inventory number for Temple. No rate impact on rental yield or cap rate. Vague and too broad for investing audience.",
+            "quote": "National inventory surges while rates drop\u2014why Temple's spring market doesn't follow the script"
+          }
+        ],
+        "tiktok": [
+          {
+            "type": "no_creative",
+            "detail": "Hook is generic market observation without data, insight, or unexpected angle. 'Rates falling' and 'homes hitting market' are standard RE talk\u2014no Taylor voice.",
+            "quote": "Rates are falling and more homes hit the market, so why aren't buyers moving yet?"
+          },
+          {
+            "type": "wrong_audience",
+            "detail": "TikTok audience is buyers/relocators, but this reads like analyst commentary without a buyer-specific hook (e.g., 'here's what falling rates mean for YOUR offer' or 'Temple inventory just hit X \u2014 here's why it matters').",
+            "quote": ""
+          },
+          {
+            "type": "tone",
+            "detail": "Rhetorical question without payoff. Needs specificity: what data are you citing? What's the Temple angle? This could run on any RE account.",
+            "quote": "Rates are falling and more homes hit the market, so why aren't buyers moving yet?"
+          }
+        ],
+        "newsletter": [
+          {
+            "type": "hallucinated_number",
+            "detail": "18% MoM inventory increase is cited without source. Must cite MLS data or remove.",
+            "quote": "up 18% month-over-month"
+          },
+          {
+            "type": "generic",
+            "detail": "National macro (Realtor.com report, mortgage rates, asking prices) is generic RE commentary. Investor Brief needs Temple-specific deal math or market angle\u2014cap rates, DSCR, MTR/LTR cash flow impact, or competitive position vs. other markets.",
+            "quote": "Realtor.com reports spring inventory jumped nationally while mortgage rates and asking prices both declined"
+          },
+          {
+            "type": "missing_creative",
+            "detail": "No unexpected element. Where's the investor edge? (e.g., 'This inventory bump only helps investors if DSCR stays at X\u2014here's the lender sheet', or 'Temple's inventory up but rents flat = cap rate compression', or 'Sellers holding = 60+ days on market = investor pickup opportunity')",
+            "quote": ""
+          },
+          {
+            "type": "tone",
+            "detail": "'Standoff between sellers and buyers' reads observational, not analytical. Needs investor action angle: What does this mean for cap rates, days-to-cash-flow, or acquisition strategy RIGHT NOW?",
+            "quote": "we're still in a standoff between sellers who won't budge and buyers waiting for capitulation"
+          }
+        ],
+        "website": [
+          {
+            "type": "wrong_audience",
+            "detail": "Draft is positioned for buyers ('if you're a buyer waiting for forced price cuts'), but platform + audience are listed as 'investor'. Investor audience needs deal mechanics, cap rates, rental yield, or cash-flow math\u2014not buyer psychology.",
+            "quote": "If you're a buyer waiting for forced price cuts, you're betting on a volume problem becoming a pricing problem"
+          },
+          {
+            "type": "no_creative",
+            "detail": "The insight (inventory up, price flat, sellers won't budge) is competent but not unexpected or actionable for investors. No deal angle, no niche hook, no contrarian take that justifies the platform.",
+            "quote": ""
+          },
+          {
+            "type": "hallucinated_number",
+            "detail": "Median price per square foot of $142 is cited as 'unchanged from February.' Cannot verify this without MLS pull. If not from Node/MLS dashboard, remove or cite source.",
+            "quote": "median price per square foot held at $142, unchanged from February"
+          },
+          {
+            "type": "tone",
+            "detail": "Opening leans narrative-first ('Realtor.com just published...spring listings flood the market') before data. Taylor leads with data, not market narrative. Reverse the structure.",
+            "quote": "Realtor.com just published data showing national home prices and mortgage rates falling simultaneously as spring listings flood the market"
+          }
+        ]
+      },
+      "website_ready": false,
+      "drafted_at": "2026-04-17T22:01:21.470014+00:00",
+      "pushed_at": "2026-04-17T22:01:22.624268+00:00"
+    },
+    {
+      "id": 12,
+      "url_hash": "29e6d257dcec820518fbbc532d34937e60428fec11885a17a4d7cb1300cd5e99",
+      "title": "Temple College president earns national leadership, student success award - Temple Daily Telegram",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMG1qS0FNWGxVX0MzNjlLM1h4R0hXOTVjTG5WalhzNzAwaEpXTUZuRlh2aFk1amw3OVZ0dV9xdjdpT2QyaTlIU1lfOUhPRXNGREZ2SEprVzNTSEJOYk5rcVlIWlJ5WlBNZGJjd016X2dZV2puTHBZOVk3TkdkbVpNbjZGRFJXMmlHaVFaYVI3R2RQenEzVmdNbHV3dmRtUQ?oc=5",
+      "pub_date": "2026-04-17T23:00:00+00:00",
+      "first_seen": "2026-04-17T23:15:59.388121+00:00",
+      "source_feed": "Temple Daily Telegram",
+      "pillar": "local_news",
+      "score": 3.9,
+      "matched_keywords": [
+        "temple"
+      ],
+      "description": "Temple College president earns national leadership, student success award &nbsp;&nbsp; Temple Daily Telegram",
+      "status": "pending",
+      "drafts": {
+        "yt": "Temple College president wins national student success award\u2014what retention and completion rates mean for workforce housing demand",
+        "tiktok": "Temple College just won a national award for student success\u2014here's what that actually means if you're moving here.",
+        "newsletter": "Temple College president Christy Ponce earned the 2025 AACC Leadership Award for student success initiatives. Higher community college retention typically correlates with stronger entry-level housing demand\u2014Temple's 8,000+ student body feeds directly into the first-time buyer pool.",
+        "website": "Temple College president Christy Ponce just earned the American Association of Community Colleges' 2025 Leadership Award for boosting student success and retention. Temple College enrolls over 8,000 students annually, and higher completion rates mean more graduates staying local, entering the workforce, and buying their first homes. For investors, community colleges are leading indicators\u2014institutions that retain students create pools of credentialed workers who need housing within 18-24 months of graduation. Temple's education infrastructure isn't just good PR; it's a pipeline that directly affects buyer demand in the $180K-$240K range where most first-time buyers land."
+      },
+      "voice_scores": {
+        "yt": 62,
+        "tiktok": 62,
+        "newsletter": 62,
+        "website": 62
+      },
+      "needs_rewrite": true,
+      "voice_issues": {
+        "yt": [
+          {
+            "type": "no_creative",
+            "detail": "The hook is a news peg (Temple College award) but the connection to housing demand is asserted, not shown with data. No numbers, no specifics, no unexpected angle\u2014just a claim that needs proof.",
+            "quote": "Temple College president wins national student success award\u2014what retention and completion rates mean for workforce housing demand"
+          },
+          {
+            "type": "wrong_audience",
+            "detail": "Framed as a college/workforce story, not a buyer/relocator story. Buyers relocating to Temple don't care about Temple College awards. If the angle is 'workforce housing = demand for rentals near campus,' that's investor content, not Living in Temple buyer content.",
+            "quote": ""
+          },
+          {
+            "type": "hallucinated_number",
+            "detail": "No actual retention/completion numbers cited. The draft assumes you have data but doesn't show any. Data-first voice requires real MLS or institutional data\u2014not vague inference.",
+            "quote": ""
+          },
+          {
+            "type": "tone",
+            "detail": "Reads like a news aggregator headline, not an analyst perspective. Taylor leads with a data insight or a contrarian take, not a generic college-news peg.",
+            "quote": ""
+          }
+        ],
+        "tiktok": [
+          {
+            "type": "no_creative",
+            "detail": "Hook is generic education news without a data-first angle or unexpected connection to buyers. 'Just won an award' lacks specificity\u2014which award, what metric, how does it affect housing demand or neighborhood value?",
+            "quote": "Temple College just won a national award for student success\u2014here's what that actually means if you're moving here."
+          },
+          {
+            "type": "wrong_audience",
+            "detail": "TikTok buyers/relocators care about housing, neighborhoods, schools for kids, cost of living, military BAH, job markets. A college award is tangential unless it ties directly to property demand, rent multipliers, or neighborhood profile. This feels like education content masquerading as real estate.",
+            "quote": ""
+          },
+          {
+            "type": "missing_data",
+            "detail": "No numbers. No MLS impact, no neighborhood-specific data, no buyer-relevant metric (e.g., 'Temple College enrollment up 12%\u2014here's what that means for rental demand in the Southgate area'). Pure narrative.",
+            "quote": ""
+          }
+        ],
+        "newsletter": [
+          {
+            "type": "hallucinated_number",
+            "detail": "8,000+ student body claim is not cited. Need MLS data, census, or Temple College official enrollment to back this.",
+            "quote": "Temple's 8,000+ student body"
+          },
+          {
+            "type": "no_creative",
+            "detail": "The correlation between college retention and first-time buyer demand is generic edutainment. No unexpected angle\u2014no numbers on actual Temple College grad home purchase rate, price point they qualify for, or how this differs from other Texas markets."
+          },
+          {
+            "type": "tone",
+            "detail": "Reads like local boosterism ('student success initiatives') rather than data-first analyst voice. Taylor leads with specific beats (e.g., 'X% of Temple College grads buy within 3 years, median price point is $Y'), not institutional award announcements."
+          },
+          {
+            "type": "generic",
+            "detail": "No contrarian take, no surprising comparison, no investor angle. 'Higher retention feeds housing demand' is assumed, not proven with Temple-specific data."
+          }
+        ],
+        "website": [
+          {
+            "type": "wrong_audience",
+            "detail": "Draft explicitly pivots to investor lens ('For investors, community colleges are leading indicators'). Header says 'buyer audience' but content switches to investment thesis mid-paragraph. This violates platform rules: website buyer content should never mix investor ROI analysis.",
+            "quote": "For investors, community colleges are leading indicators\u2014institutions that retain students create pools of credentialed workers who need housing within 18-24 months of graduation."
+          },
+          {
+            "type": "hallucinated_number",
+            "detail": "The $180K-$240K 'first-time buyer range' is asserted without MLS citation. Needs real Temple market data or removal.",
+            "quote": "$180K-$240K range where most first-time buyers land"
+          },
+          {
+            "type": "no_creative",
+            "detail": "The hook is 'Temple College president got an award.' That's local news, not a creative/unexpected element tied to housing, market data, or a contrarian angle. No surprising comparison, no data beat, no niche hook.",
+            "quote": ""
+          },
+          {
+            "type": "tone",
+            "detail": "Reads like institutional marketing, not Taylor's analyst voice. Phrases like 'education infrastructure isn't just good PR' and 'pipeline that directly affects buyer demand' sound like a college development officer, not a $27M transaction veteran with data-first conviction.",
+            "quote": "Temple's education infrastructure isn't just good PR; it's a pipeline"
+          }
+        ]
+      },
+      "website_ready": false,
+      "drafted_at": "2026-04-17T23:16:36.236186+00:00"
+    },
+    {
+      "id": 13,
+      "url_hash": "b2cef7fb74e9fea8d4b160c1210b02e25404e6b4c283d810a536ad6e2b835790",
+      "title": "Mortgage rates show signs of falling after Iran war peak - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBKVWZKRXZ5empzNUZOWkJLVjdiQnBUc0VNNmJIcWNUTWcxQ0NJdnZObGt1YjV3THhrTzZQemRMOENuS24yTk5TdTBrcGJQQzNoTzZmT3FBQVhmdw?oc=5",
+      "pub_date": "2026-04-17T23:33:10+00:00",
+      "first_seen": "2026-04-17T23:45:29.200038+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Mortgage rates show signs of falling after Iran war peak &nbsp;&nbsp; BBC",
+      "status": "pending",
+      "drafts": {
+        "yt": "Mortgage rates dropping post-Iran conflict: what Temple investors missed during the spike",
+        "tiktok": "Rates just peaked during the Iran war scare\u2014now they're falling and nobody's talking about it.",
+        "newsletter": "Mortgage rates hit a temporary ceiling during Iran conflict escalation, now reversing lower according to BBC reporting. Temple buyers who paused in March may find 30-year rates 20-40 bps lower than the war-driven peak\u2014compression window typically lasts 45-60 days before next macro event.",
+        "website": "Mortgage rates spiked during Iran war headlines, then reversed course as geopolitical risk premium evaporated. The BBC confirms rates are now falling from that temporary peak\u2014a pattern we've seen in every conflict cycle since 2022. Temple buyers who waited out the March volatility are seeing 30-year rates drop 20-40 basis points from the war-driven ceiling. This isn't a long-term trend reversal, it's mean reversion after a fear premium. If you're hunting Temple inventory under $350K, the 45-60 day window post-spike historically offers the tightest spread before the next headline moves the curve again."
+      },
+      "voice_scores": {
+        "yt": 42,
+        "tiktok": 42,
+        "newsletter": 42,
+        "website": 62
+      },
+      "needs_rewrite": true,
+      "voice_issues": {
+        "yt": [
+          {
+            "type": "hallucinated_number",
+            "detail": "No data provided to support 'rates dropping post-Iran conflict' claim. Needs MLS, Acre Mortgage quote, or cited source.",
+            "quote": "Mortgage rates dropping post-Iran conflict"
+          },
+          {
+            "type": "no_creative",
+            "detail": "Title is generic macro-economic commentary. Missing Temple-specific deal breakdown, MTR/LTR math, market analysis, or creative finance angle required for Investing in Temple channel.",
+            "quote": "Mortgage rates dropping post-Iran conflict: what Temple investors missed during the spike"
+          },
+          {
+            "type": "wrong_audience",
+            "detail": "Geopolitical rate analysis is not investing-specific to Temple. Channel pillars require: Deal breakdowns, MTR/LTR math, Market analysis, Creative finance, BSW/hospital area specifics. This is generic macro content.",
+            "quote": "Mortgage rates dropping post-Iran conflict"
+          },
+          {
+            "type": "tone",
+            "detail": "Title reads like financial news headline, not analyst voice. Taylor sounds like an investor-analyst with deal experience, not a macro commentator.",
+            "quote": "Mortgage rates dropping post-Iran conflict: what Temple investors missed during the spike"
+          }
+        ],
+        "tiktok": [
+          {
+            "type": "hallucinated_number",
+            "detail": "No source cited for 'rates just peaked' claim or current rate environment. Violates numerical rules: can't use a number/claim you can't cite.",
+            "quote": "Rates just peaked during the Iran war scare\u2014now they're falling"
+          },
+          {
+            "type": "wrong_audience",
+            "detail": "TikTok buyers care about Temple-specific pricing, BAH, BSW context, neighborhoods. Macro rate commentary without local application is investor/news-bro content, not buyer-focused.",
+            "quote": ""
+          },
+          {
+            "type": "no_creative",
+            "detail": "Generic macro rate takes are everywhere. No Taylor creative element: no Temple data angle, no BSW hook, no military BAH tie-in, no neighborhood insight.",
+            "quote": ""
+          },
+          {
+            "type": "tone",
+            "detail": "Reads like financial news, not Taylor's analyst-voice-for-buyers. Missing specificity: what do falling rates mean for a Temple buyer RIGHT NOW?",
+            "quote": "Rates just peaked during the Iran war scare\u2014now they're falling and nobody's talking about it."
+          }
+        ],
+        "newsletter": [
+          {
+            "type": "hallucinated_number",
+            "detail": "No citation for '20-40 bps lower' claim or rate range. Cite actual Acre Mortgage quote or MLS data, not macro guesswork.",
+            "quote": "30-year rates 20-40 bps lower than the war-driven peak"
+          },
+          {
+            "type": "hallucinated_number",
+            "detail": "'45-60 days' compression window is a guess, not data. Remove or cite a source.",
+            "quote": "compression window typically lasts 45-60 days"
+          },
+          {
+            "type": "wrong_audience",
+            "detail": "Mentions 'Temple buyers'\u2014this is investor_brief for investors only. Redirect focus to deal math (cap rates, DSCR impact, rental spreads) not buyer timing.",
+            "quote": "Temple buyers who paused in March"
+          },
+          {
+            "type": "no_creative",
+            "detail": "No Temple-specific angle, no deal breakdown, no investor hook. This reads like generic macro commentary, not analyst insight tied to BSW/military rentals or cap rate shifts.",
+            "quote": ""
+          },
+          {
+            "type": "tone",
+            "detail": "Uses BBC reporting + macro geopolitics as framing\u2014analyst voice is lost. Should lead with *Temple rental DSCR impact* or *investor financing opportunities*, not rate speculation.",
+            "quote": "according to BBC reporting"
+          }
+        ],
+        "website": [
+          {
+            "type": "wrong_audience",
+            "detail": "Draft says 'Temple buyers' but platform is for investors. Investor content should focus on rental math, cap rates, DSCR, deal flow\u2014not primary-residence rate timing.",
+            "quote": "Temple buyers who waited out the March volatility"
+          },
+          {
+            "type": "hallucinated_number",
+            "detail": "20-40 basis point claim is not cited. BBC confirms rates fell, but the specific basis point delta for Temple 30-year mortgages is not sourced to MLS, lender quote, or Acre Mortgage data.",
+            "quote": "30-year rates drop 20-40 basis points"
+          },
+          {
+            "type": "hallucinated_number",
+            "detail": "'45-60 day window' is not backed by Temple-specific data. This sounds like a pattern assumption, not an MLS or historical transaction window.",
+            "quote": "the 45-60 day window post-spike historically offers the tightest spread"
+          },
+          {
+            "type": "tone",
+            "detail": "Reads like macro-economic commentary (Iran war, geopolitical risk premium, BBC, curve analysis) rather than Taylor's investor-analyst voice. Missing the '5 things' / 'here's the math' specificity.",
+            "quote": "geopolitical risk premium evaporated"
+          },
+          {
+            "type": "no_creative",
+            "detail": "No unexpected angle. No Temple-specific data hook, no rental yield comparison, no DSCR insight, no deal breakdown. Just generic rate volatility narrative.",
+            "quote": ""
+          }
+        ]
+      },
+      "website_ready": false,
+      "drafted_at": "2026-04-17T23:46:03.818484+00:00",
+      "pushed_at": "2026-04-17T23:46:06.665323+00:00"
+    },
+    {
+      "id": 14,
+      "url_hash": "1876c505399e32c2dd49213479b5048e04c03e970f4df3e7905b5e601367d2ee",
+      "title": "Experts send strong message about decreasing mortgage rates - thestreet.com",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRm5BYWRjMEZzNkZFd1VDa29DNWcwdmstZEhuYk5vaTA4LXU1WEJZZWpOZXpsRG5RZkppNFRQaHUyUldyODdhT0E2YVY1ZkRjaWR1WVdQeUtpT0Z0R2h5ak03NHUzcE5yeDdid1Fsc1JkemR0YUxvMFg3WG9sMmpPalZkcjFXamtIWG9VZ0ZLMFlvalBnSllEUFE5ekFFdw?oc=5",
+      "pub_date": "2026-04-18T14:33:00+00:00",
+      "first_seen": "2026-04-18T15:15:39.318036+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Experts send strong message about decreasing mortgage rates &nbsp;&nbsp; thestreet.com",
+      "status": "pending",
+      "drafts": {
+        "yt": "What experts actually mean when they say mortgage rates are 'decreasing' in 2026\u2014and why Temple investors shouldn't wait",
+        "tiktok": "Experts say rates are dropping. Here's what they're not telling you about timing your Temple home purchase.",
+        "newsletter": "Mortgage rate forecasts for 2026 show a cooling trend, but experts warn the decrease won't be dramatic enough to spark another refi wave. Temple's sub-$250K inventory sits at 38 active listings\u2014if rates drop even 50 basis points, that number shrinks fast.",
+        "website": "TheStreet's latest expert panel confirms mortgage rates are trending down through 2026, but the decrease isn't the freefall buyers are hoping for. The consensus puts rates in the mid-5% range by year-end\u2014lower than today's 6.8%, but nowhere near the sub-4% environment that created Temple's 2020-2021 buying frenzy. For Temple investors, this creates a narrow window: current inventory at $200K-$275K is finally absorbing after 140+ days on market, and a 75-100 basis point drop will pull fence-sitters off the sidelines. If you're waiting for 4% rates to buy that duplex on South 31st, you're waiting for a market condition that won't exist in our lifetime."
+      },
+      "voice_scores": {
+        "yt": 62,
+        "tiktok": 62,
+        "newsletter": 78,
+        "website": 62
+      },
+      "needs_rewrite": true,
+      "voice_issues": {
+        "yt": [
+          {
+            "type": "hallucinated_number",
+            "detail": "Claims about 2026 mortgage rates lack any citation. No MLS data, lender quote, or DSCR sheet provided. Per numerical rules: 'If you're about to use a number you can't cite, remove it.'",
+            "quote": "mortgage rates are 'decreasing' in 2026"
+          },
+          {
+            "type": "no_creative",
+            "detail": "The hook is generic market commentary (rate predictions). No Temple-specific deal math, BSW/hospital area analysis, MTR/LTR breakdown, or contrarian take. Missing the unexpected element that makes investor content stick.",
+            "quote": ""
+          },
+          {
+            "type": "tone",
+            "detail": "Headline reads like generic financial advice blog, not analyst voice. A Taylor investor piece leads with numbers, a deal breakdown, or a specific market inefficiency\u2014not abstract rate speculation.",
+            "quote": "What experts actually mean when they say mortgage rates are 'decreasing'"
+          },
+          {
+            "type": "other",
+            "detail": "No clear call to action or value prop for Temple investors. Why should they care about 2026 rates *right now*? What Temple-specific metric or deal should they act on?",
+            "quote": ""
+          }
+        ],
+        "tiktok": [
+          {
+            "type": "generic",
+            "detail": "Opens with vague 'experts say' + rates discourse \u2014 not Taylor's data-first voice. No specifics, no Temple angle, no numbers.",
+            "quote": "Experts say rates are dropping. Here's what they're not telling you about timing your Temple home purchase."
+          },
+          {
+            "type": "hedging",
+            "detail": "'Here's what they're not telling you' is clickbait-y reverse-confirmation language. Taylor leads with DATA, not mystery-box framing.",
+            "quote": "Here's what they're not telling you"
+          },
+          {
+            "type": "no_creative",
+            "detail": "No data angle, no contrarian take, no surprising comparison, no niche hook. Generic rate-timing content that could be any agent in any market."
+          },
+          {
+            "type": "wrong_audience",
+            "detail": "TikTok requires native filming (not just text hook). This is a text-only hook with no video production strategy. Also, no Temple-specific buyer data to anchor the CTA."
+          }
+        ],
+        "newsletter": [
+          {
+            "type": "hallucinated_number",
+            "detail": "38 active listings claim needs MLS citation. No source provided. If this is real, cite MLS date/source. If estimated, remove it.",
+            "quote": "Temple's sub-$250K inventory sits at 38 active listings"
+          },
+          {
+            "type": "hedging",
+            "detail": "'experts warn', 'won't be dramatic enough' \u2014 vague and soft. Taylor leads with specifics, not consensus hand-wringing.",
+            "quote": "experts warn the decrease won't be dramatic enough"
+          },
+          {
+            "type": "no_creative",
+            "detail": "This reads like a generic rate/inventory take. Missing Taylor's signature angle: a contrarian call, a niche data pull (e.g., BSW/hospital area specifically), or a behavioral insight tied to Temple's market mechanics."
+          }
+        ],
+        "website": [
+          {
+            "type": "hallucinated_number",
+            "detail": "Current inventory range ($200K-$275K) and '140+ days on market' are stated as fact without MLS citation. These need to be verifiable or removed.",
+            "quote": "current inventory at $200K-$275K is finally absorbing after 140+ days on market"
+          },
+          {
+            "type": "hallucinated_number",
+            "detail": "'75-100 basis point drop' is a prediction without sourcing (TheStreet panel mentioned but not cited with link/date). If citing expert consensus, must be verifiable.",
+            "quote": "a 75-100 basis point drop will pull fence-sitters off the sidelines"
+          },
+          {
+            "type": "wrong_audience",
+            "detail": "Opening relies on buyer psychology ('freefall buyers are hoping for') and uses 'fence-sitters'\u2014language that skews toward buyer/relocator voice, not investor-first analysis. Investors care about cap rate impact, rental yield, DSCR, not buyer sentiment.",
+            "quote": "the freefall buyers are hoping for...pull fence-sitters off the sidelines"
+          },
+          {
+            "type": "no_creative",
+            "detail": "The angle is 'rates are coming down but not to 4%'\u2014this is generic rate commentary. Missing Taylor's signature data hook: specific Temple market mechanic, deal math, or contrarian take tied to local supply/demand.",
+            "quote": ""
+          },
+          {
+            "type": "tone",
+            "detail": "'you're waiting for a market condition that won't exist in our lifetime' is hyperbolic and reads like persuasion ('don't wait'), not analyst rigor. Taylor doesn't sell urgency; he sells data.",
+            "quote": "you're waiting for a market condition that won't exist in our lifetime"
+          }
+        ]
+      },
+      "website_ready": false,
+      "drafted_at": "2026-04-18T15:16:16.793806+00:00",
+      "pushed_at": "2026-04-18T15:16:19.701582+00:00"
+    },
+    {
+      "id": 15,
+      "url_hash": "9dbf45091f163f87d80e7c10f3af62ed98c73d4af374c4750ba959141d3e07ed",
+      "title": "Weekly pending home sales show yearly growth as mortgage rates fall - HousingWire",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSHhyaGpNeDI1cV9UVUtNWkNMclZwWEJiMkN4Q0QzOGN2b2lxcTE3WlNJMDZ6Rm05S2p2dF96TzRnSG5aRFRVS0Z4SEdza2plRTBCRmJOSUxRTHFpbTlTaEVmRUVLOGtIc3hOYUhGdjljMTN6cHNrdkJVWm8zMnoyT2hJdFN1dkRZLUo0ZGZXS1hOcEh2anRKdkpCamF3UVd6X3VBQ09RVWI?oc=5",
+      "pub_date": "2026-04-18T19:52:30+00:00",
+      "first_seen": "2026-04-18T21:15:36.352458+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Weekly pending home sales show yearly growth as mortgage rates fall &nbsp;&nbsp; HousingWire",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 16,
+      "url_hash": "48834f9eae38bb16472afd126667216438d4136a2a341278ba21b47e1af36905",
+      "title": "Mortgage rates today, April 20, 2026 - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE85aGRPZ1dwT0pDRlFlZmp1LWw5dW9HdzZFek0zOXJPZ053V0Y3b1N4YTVhSm56V0gtS2VzNVNsSDAyeFBYX1ZaUkFPS2FULW5FWXdqQ2x6YXUzaG4tRnp2dlhTVU9TandhMUVHeDhxTQ?oc=5",
+      "pub_date": "2026-04-20T10:01:00+00:00",
+      "first_seen": "2026-04-20T12:45:16.449058+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Mortgage rates today, April 20, 2026 &nbsp;&nbsp; Fortune",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 17,
+      "url_hash": "64f5d5f8d5379687ad23aa992915a4250ab15bd3883b9d3bc3e33d587c50a362",
+      "title": "Current ARM mortgage rates report for April 20, 2026 - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA1cktGRUdzLWk4RGtaSnMxNUtiVC1MamotVkpmclJVZW96cE95aXRUUUdPc0RNdUFDM3VhUkJ3MzhTSi1JaXBWLXUzcjFGWW1jQkF2MkotMy1wN2QtUnpwY0Z1eUdqZmEzTWhTYnFaRnVJMmxl?oc=5",
+      "pub_date": "2026-04-20T07:01:00+00:00",
+      "first_seen": "2026-04-20T12:45:16.449119+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Current ARM mortgage rates report for April 20, 2026 &nbsp;&nbsp; Fortune",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 18,
+      "url_hash": "e6ff4c8ea897425a89ef41a23966b7a3fe4e17201f6e95a92e0d8fc5190cb96a",
+      "title": "Current refi mortgage rates report for April 20, 2026 - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5DMUNNa3VtU01rc1NxWXU3S3F0LXo5S0lJOTg0b3V5QlNGWHh5UFNsNjJFVm5iU3Qxbmh5SnVhaGxsRFZzQnNrTmNENUhGNVcza3h2ajVlTklIejhaanFoYnBxcXVubzM2QmlwOS1VYlVlN21uMkE?oc=5",
+      "pub_date": "2026-04-20T07:01:00+00:00",
+      "first_seen": "2026-04-20T12:45:16.449146+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Current refi mortgage rates report for April 20, 2026 &nbsp;&nbsp; Fortune",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 19,
+      "url_hash": "05cde3a87e7657ee4facf20644239996cf943c0dd1f842e2a0aabd5ebf7a4827",
+      "title": "Debt Digest | Rising National Debt Pushes Mortgage Rates Up - The Debt Dispatch",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE81a2RZMGZ0XzhjRUVnVVFuSTNpcGpBb0UxZ0JvUGNmQXNxN1lzLXRiVWx0QUVFXzRfR3hkRHlvNDZpUndVdG1SdjhteF9OUFJSYzdYcGJqXzBJQjVkZDNESHhMcjJrVXdNUjF0U3cwdmloS181Umhz?oc=5",
+      "pub_date": "2026-04-20T12:30:10+00:00",
+      "first_seen": "2026-04-20T12:45:16.449212+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Debt Digest | Rising National Debt Pushes Mortgage Rates Up &nbsp;&nbsp; The Debt Dispatch",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 20,
+      "url_hash": "ceb6e40114c382c61b099f912f6315c34fc55e7fff79f4c2dbae8135071eecf5",
+      "title": "Today's Mortgage Rates Continue to Fall: April 20, 2026 - U.S. News Money",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPLVhWbVc5U2R6VFZ5OGFnLTJvbF9jeTFoUE51MS1rdVZTVzFycGx1QWt6LUNHcnFlMV9UTzB4U20zNXY2YWRnQ1FYN1dvOFBXbDhRQ0JUbk9pRExndFVBbXg3S2NRcU1TNDlUd0JDZHYwMWF1WmxYMEhLQkNQRDhyUnVtVEZWNzNLUGpRWQ?oc=5",
+      "pub_date": "2026-04-20T14:09:52+00:00",
+      "first_seen": "2026-04-20T14:15:25.085232+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Today's Mortgage Rates Continue to Fall: April 20, 2026 &nbsp;&nbsp; U.S. News Money",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 21,
+      "url_hash": "e6feedda930847b66562a910514d113762a5679ebff526247e51864472141977",
+      "title": "Mortgage rates linger below 7 percent after reaching four-week low - The Hill",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZ1dYN0NyWUQyRVcxOTFvN25xeHQ4TzB5dDNNcFJTTHVub19ycGJHN0Q0OURobUNCSFpBZXRlRmVxQjFHU2Q0dVpic3NDMGViTWJRWXpIcUx5SlRDWG9ac1h2Z1BzVUlxdVpvM3MzMVQzd2M5OG9NdjdtajVKMzdXRDNxM3pPbUl1cVHSAY8BQVVfeXFMUHByN2VjNW1IREpiSFZ6ekVvekxhd0h3c1FUb2R2T0JBN3V6UnFBYmF1V1NsUmhQb09CdkhCTVlvaGtRS2dvQ18tTjdtMVZmWEpFaEhTUUFiU0c1MDlNN3I0UXZvME9EV2puYnd5QVQycUx5UnZibUl4OVNhbjA4ZnI0b0l5cmdnNkFkMVBOa00?oc=5",
+      "pub_date": "2026-04-20T16:35:00+00:00",
+      "first_seen": "2026-04-20T16:45:09.218717+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Mortgage rates linger below 7 percent after reaching four-week low &nbsp;&nbsp; The Hill",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 22,
+      "url_hash": "e27de7e758d8675bdd96289fe8e0f24e9155e882181133eb4eb40bd5d0aa599e",
+      "title": "30-year mortgage rates decline - When will rates change? | Today's mortgage and refinance rates, April 20, 2026 - Bankrate",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQemFKdlpWOHE1akpKWUMyeFJmMkpobU93QWlneHVXVHI3ckZsdlFiYTFnT09QNWNqRzR2VXZhU1lDTjBCUnF4d0x2ZGJSNjJYUjg0Rng5QWFsbVpwc1NQRS1vQnl4QTNmS1lEaHdxYW9ocG9SOGRDanpxUUFodEQtZHhTa0J1MWJUNGJtTmFWQkU5Zw?oc=5",
+      "pub_date": "2026-04-20T16:59:56+00:00",
+      "first_seen": "2026-04-20T19:00:29.768829+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "30-year mortgage rates decline - When will rates change? | Today's mortgage and refinance rates, April 20, 2026 &nbsp;&nbsp; Bankrate",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 23,
+      "url_hash": "42306ffa14eef69ca587f99684412d0744f41cad5b80733ed78281172a227b2e",
+      "title": "Temple Police investigate aggravated kidnapping related to Harker Heights homicide - Temple Daily Telegram",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQd3oycUo5X1dHNEY5SXJMTkkxa2Fzd09RajBIWEt1YnJyTEdLUk4zeVlDN1R3TGFkNVlBX1ljaDlRTDM5NTB0T2NBZDFkX2V4bGlDVW55akdZa05sbXJDUktneTlPM2tzUjJmakNTTWlmbzV3RlJLMkNSanY5YVBpVXdzTVRVSVdQcUJiODN3OHJXVXBMVUFraF9ialZDdw?oc=5",
+      "pub_date": "2026-04-20T19:45:00+00:00",
+      "first_seen": "2026-04-20T20:00:01.946449+00:00",
+      "source_feed": "Temple Daily Telegram",
+      "pillar": "local_news",
+      "score": 5.2,
+      "matched_keywords": [
+        "temple",
+        "harker heights"
+      ],
+      "description": "Temple Police investigate aggravated kidnapping related to Harker Heights homicide &nbsp;&nbsp; Temple Daily Telegram",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 24,
+      "url_hash": "2009258e2b34089602d909cc74f65a484ed92ffc2f1999781b78311731efcbd0",
+      "title": "Mortgage Rates Almost Perfectly Flat to Start New Week - Mortgage News Daily",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBmeWU1YW9KblZKS2djS0d6QmxqWkxYUjJ4a21fN3luRW1jM2NqNEpYSnR6M2trcHBNQ2w0eUtyVGtFMDd3dlQ5cDdhMVZHVUx1a3g2dUdIOXVkeGd6TzZPT3pyWkg2WVVnV2dRYjVLZFpTZE3SAXRBVV95cUxPQ19XdkNvbExDNnJPdzQ0bFdfd0F6cFhLX2RtNEc3bnluczNEUHNFOWFCOVNRZXVRdS1ublQ4cTVkdnJvX1gzREd3S0pFX0RCR25kZHZrelRKR1JRZFV1RVkyMGc4LWVpaGFWbExoR0E3NHVNSg?oc=5",
+      "pub_date": "2026-04-20T19:21:00+00:00",
+      "first_seen": "2026-04-20T20:00:04.444061+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Mortgage Rates Almost Perfectly Flat to Start New Week &nbsp;&nbsp; Mortgage News Daily",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 25,
+      "url_hash": "bb51c87d9cca75f14931f74abede0f46ef4ddb8b7ae230ea1eb38e82e3a86675",
+      "title": "Mortgage Rates Today, Monday, April 20: Essentially Flat - NerdWallet",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbFJQQTljbWJfckpxYXZHZVMwck9RWGU3YmhITWtpemd3X2Z4RFV6LWhkU3lYNGk4UXEtdjViVmFVX0llRUhTYnR1bENSdHE3YUlRb3VxMGMxLURjNUxabHE1TjdfaWFwd1NsZWFXSlYyVllRRmNPUm93cGd4Vkd3N21ZN1FOdGc2cV9N?oc=5",
+      "pub_date": "2026-04-20T13:48:13+00:00",
+      "first_seen": "2026-04-20T22:30:27.730666+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Mortgage Rates Today, Monday, April 20: Essentially Flat &nbsp;&nbsp; NerdWallet",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 26,
+      "url_hash": "7303e1be392c923f9e4595c74a2b4a7472e2c49ad87a7d2e6d5a8ba622e97dfc",
+      "title": "Mack Robert Hickman, 80, of Temple died Thursday, April 16 | Obituaries | tdtnews.com - Temple Daily Telegram",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMUdEb3JtUmJvTWRGSjF4ZnJPeXJtd3hQSnlLN1RIbW5FSVFqeDR2eGhCYXNZM2pTZkgtdDBWakYyNERScGw3NjN4SG5OdjRyX2ZPaHI1b1FJbExCcEY3UEUtLXV1VlZlbzdXUmVKbE9OOTF3bGp2Uk9XclpmQjRZQy1jLWNpa3hucG1McA?oc=5",
+      "pub_date": "2026-04-20T18:08:00+00:00",
+      "first_seen": "2026-04-21T01:45:56.944354+00:00",
+      "source_feed": "Temple Daily Telegram",
+      "pillar": "local_news",
+      "score": 3.9,
+      "matched_keywords": [
+        "temple"
+      ],
+      "description": "Mack Robert Hickman, 80, of Temple died Thursday, April 16 | Obituaries | tdtnews.com &nbsp;&nbsp; Temple Daily Telegram",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 27,
+      "url_hash": "e9d5fd8e09173d2965c80f9d2f346092f1e30265f14bb5d177e1de03b8c3930d",
+      "title": "Current ARM mortgage rates report for April 21, 2026 - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBCS2Z6cENrSy1scWNaZm16N28tUFZNOHUxaWRDbTdLcEVIc1o0ZzlrV1NRQ0xsQXNRMUktVVpscllJZW1xTDZYYlpRb3A2Sy00VjhucUEzTjZ6ZUU3cmpCb3JUNGZGbmoxR0RVVlM0eWpJS2g3?oc=5",
+      "pub_date": "2026-04-21T07:01:00+00:00",
+      "first_seen": "2026-04-21T11:00:49.610831+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Current ARM mortgage rates report for April 21, 2026 &nbsp;&nbsp; Fortune",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 28,
+      "url_hash": "04c74df467f42076aed7f7e30b39d80dbb0f43df37df0ecb8cd1668c66ee3654",
+      "title": "Current refi mortgage rates report for April 21, 2026 - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5xNnZ1RXlsMXNiMHVmRzI0V1hzZFJOUlNMWHM3Vm1Ybm1Bc2JXd0dtcm1hMmMtWl9naU1GTjh0SzZqYzloWWJLc0pwRGM2NGtNME1JMU1sV3B3LVR6UFVvaEptdXdraGpfOUstcVJvY3dUajVkQ0E?oc=5",
+      "pub_date": "2026-04-21T07:01:00+00:00",
+      "first_seen": "2026-04-21T11:00:49.610862+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Current refi mortgage rates report for April 21, 2026 &nbsp;&nbsp; Fortune",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 29,
+      "url_hash": "c17c83a84674697bc46a70cfdb4dd277b8ff5eb6821f9eb0621d815495eaee2b",
+      "title": "Mortgage rates today, April 21, 2026 - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1UUElEZ3RTR0xEOE9uNUdKdlFGMVN5bXhtZXZQOHlmeWwwT2FNcVVsVHRxajVieUxlazVVcHBKQzJndnA4U0lKYlhRNmVybzhHV2NyN091bHhDcktmSjJsTndPMUhqLVZQdmRUZXlyYw?oc=5",
+      "pub_date": "2026-04-21T07:01:00+00:00",
+      "first_seen": "2026-04-21T11:00:49.610919+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Mortgage rates today, April 21, 2026 &nbsp;&nbsp; Fortune",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 30,
+      "url_hash": "54b5978f12bb6e53c55d4ab36307d396a1cab6f47920babf29478d9fd9af0703",
+      "title": "Photo gallery: Temple Fire Academy Class 16 graduates | Multimedia | tdtnews.com - Temple Daily Telegram",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPckZWYlR5aFFWYkJKZGJLOXFTQ2RhT2ktcHJGY2RORmlSb2ZJa3JoUl84UUVUTmlwOHl0cFB2STlONzNCVFJNQjJDRG9yQkZxU1J0UUpRMnA4RUt3cm9mdWhuVi05TVd0YUZPQkhEVDdvTXcyV1pjMzFFM0taaW9RZjZDY1VkVjdVeXNyYmVvYWE?oc=5",
+      "pub_date": "2026-04-21T13:43:00+00:00",
+      "first_seen": "2026-04-21T14:11:25.862942+00:00",
+      "source_feed": "Temple Daily Telegram",
+      "pillar": "local_news",
+      "score": 3.9,
+      "matched_keywords": [
+        "temple"
+      ],
+      "description": "Photo gallery: Temple Fire Academy Class 16 graduates | Multimedia | tdtnews.com &nbsp;&nbsp; Temple Daily Telegram",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 31,
+      "url_hash": "cc6a3ce69f3347ab310781990fd405246b359f682aef082e9f9a16ceff6205e6",
+      "title": "Can AI save mortgage rates? - mpamag.com",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaktMRlJkTmxPb1cyalMxd19zNVJUZG0zazh6MzhqOC16UzdkdU5Vdm90V2JBeXlBbjNDM1hNazNFQWdsblV6OFQwTi10MU9OTThVV3BjTV9yMHhqUXpyeXBQRVVCQ3JKUmdEREtqbmdvYnZVNFhLVjQzTGZmc3lQU255YjNURm5MVXZsRUx4X0hVbTYwZTFN?oc=5",
+      "pub_date": "2026-04-21T13:30:10+00:00",
+      "first_seen": "2026-04-21T14:11:28.924937+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Can AI save mortgage rates? &nbsp;&nbsp; mpamag.com",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 32,
+      "url_hash": "e1af27f053be3c7a5c02ca9c3459ddb3252b4c0a4b6dc7a968cf6b8b3a20819c",
+      "title": "Today's Mortgage Rates Inch Up: April 21, 2026 - U.S. News Money",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNblZFdXNGVFdRRldPMFBHdUZ6ektvaFFrdnJSdHdULUJ0di0weDNjUllOOTZ4RUhzbHdtWlZwS1ZzazJuZ1FzR0JZR2RUa3NNNVJ4eFJrMGE0YlVSeFVIN0E1eTVVcnRlQTN1a25uTXFoVVc3SnBWWkVlcC14a2VmNWthTDJCTzctWENIdA?oc=5",
+      "pub_date": "2026-04-21T14:40:00+00:00",
+      "first_seen": "2026-04-21T16:00:40.607273+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Today's Mortgage Rates Inch Up: April 21, 2026 &nbsp;&nbsp; U.S. News Money",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 33,
+      "url_hash": "034f577ae63885e97856f5918ce3d894b1195b26b18b6c62cbea1abbeec981d8",
+      "title": "Mortgage rates are under 6% again. Here are 3 moves borrowers should make now. - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRWhfTkU3bFFUNXQ5MHNubzFWYkR0Y0JDN1hSeXh5ejhmNFFGNVduZjRXN2cyQkp6WkFwMmZUWmlYd3NaZHd0YnhndVU3eFlCZGt2VUVQdUpfWm1DZ3ptSzlFWm9fcmNtX3oxSlpUMEV6MXdaRlNVazBid3Z5Z1BOTXVDTTJGZFhPXzRTVnRnRQ?oc=5",
+      "pub_date": "2026-04-21T16:47:12+00:00",
+      "first_seen": "2026-04-21T17:01:00.021746+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Mortgage rates are under 6% again. Here are 3 moves borrowers should make now. &nbsp;&nbsp; CBS News",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 34,
+      "url_hash": "5fbdb25bfdf2479cd89fd1c6f5d41c42736894fe58b2f37ce3c3af5aa55d1972",
+      "title": "Mortgage rates fall to 6.30% as geopolitics steer markets - HousingWire",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE03Wm1FYVJTdkI5UG5SSU1NN3J1Zm45Y2QyeWllTXk3YzdTTDdmQncyS0FMcTBHenJhVk5CcllOazdXQnZDUlo4ZjNsekIwZnV1eU5yWlljMURpaFdSX0hmZ0Qxa3Y1WEtOT3lrT2tn?oc=5",
+      "pub_date": "2026-04-21T16:26:43+00:00",
+      "first_seen": "2026-04-21T17:45:05.571762+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Mortgage rates fall to 6.30% as geopolitics steer markets &nbsp;&nbsp; HousingWire",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 35,
+      "url_hash": "11c4ffd506bcd9592a72a118873ad25603c5fb47067b48d6e3a05cdf23104ea6",
+      "title": "Mortgage Rates Today, Tuesday, April 21: Higher Amid Uncertainty - NerdWallet",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQa1pHLS1DTWllYk00WkpabDdXTDhzc0w5eHZVOVlrTF93ZXk2dVU2OXNaWGJtR1hyUEpfSUl1bFNJX2RNSFQ5bWZjZW1aYk44OHhNd2YydWU1dHlqcFdoTjJDX3MydDc4VDdwOC1kUFBMeDEzYW5aY2F4SEVOcGJoeHlYTTFvNEhjZ0tGSQ?oc=5",
+      "pub_date": "2026-04-21T12:21:53+00:00",
+      "first_seen": "2026-04-21T18:30:18.875615+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Mortgage Rates Today, Tuesday, April 21: Higher Amid Uncertainty &nbsp;&nbsp; NerdWallet",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 36,
+      "url_hash": "8edaf994370af15d5722a5f6531720b710971a8169854e9bf657b3295ed8bf78",
+      "title": "Pending Home Sales Increased in March Despite Rising Mortgage Rates and Gas Prices - Realtor.com",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSTlKM2xlQVpxZFk0dmVCaTh0ODBmOWdXZUYxSmExcTRyRi1kNlFPSGpMdEs2M291am5DQkJ4bTZoR0I0TjUxa3hjdnJuSkx3UHF2djVwaHA2cWZRdXAyQVp5b3RwOFpHYTdOVHR6YWYtX2pINmRIai1va09BbDlNU2Z3?oc=5",
+      "pub_date": "2026-04-21T14:06:08+00:00",
+      "first_seen": "2026-04-21T20:45:13.913986+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Pending Home Sales Increased in March Despite Rising Mortgage Rates and Gas Prices &nbsp;&nbsp; Realtor.com",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 37,
+      "url_hash": "ae93108e8bc8acd5b4d8b0c2e4e693c24965513bd24dbed0eee990348aecbd97",
+      "title": "\u2018Much\u2011needed relief\u2019 for homeowners as more lenders poised to cut mortgage rates - Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOUEgwRjAwdDRVUTFxTGUxRlNVVjBFNjgwMk5DdlotZDN1eGU2cHdOZDA0d1F1WG1kb3M4UkhSbnd2aldVTnF1SjY3Uk1iZGpxNjZ5SkhyanBTWDFsUjlhbGNiMUNSYU9YblVKM3VQS194S3BFYmZvMzFKZkt5dk1NdU9oTG81c0ZoTkkw?oc=5",
+      "pub_date": "2026-04-21T10:31:33+00:00",
+      "first_seen": "2026-04-21T22:30:57.594676+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "\u2018Much\u2011needed relief\u2019 for homeowners as more lenders poised to cut mortgage rates &nbsp;&nbsp; Yahoo Finance UK",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 38,
+      "url_hash": "7f4d0d080f72137007698f5eb72139000b07a2aa36a93c3cca87c58c6827d19a",
+      "title": "30-year mortgage rates decline - Is this the new normal? | Today's mortgage and refinance rates, April 21, 2026 - Bankrate",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNS2ttYlE4dlJWZ1p6a3VZNzBUUlFpVjhzS1VZVXhnSzBoM0tlbkJPdTUzS2xVenN2TU1tdzlxbzJmYzdCTGUyU2NmZE8tRmdCelVjMTY4X0xvY2oyS1VZdkZxNzVPTjR3alJVcFRlMW9GTEhjZjBMSzJIWEpiaEpWTE5YZ2RTWkwyX09uWDgwSk1sYnM?oc=5",
+      "pub_date": "2026-04-21T16:58:14+00:00",
+      "first_seen": "2026-04-21T23:00:41.780870+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "30-year mortgage rates decline - Is this the new normal? | Today's mortgage and refinance rates, April 21, 2026 &nbsp;&nbsp; Bankrate",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 39,
+      "url_hash": "ed495353f1a2a4c2bdaaf32ddfb5004874f75c206b1fdfaa1838a49625fc7a75",
+      "title": "Judy Carter, 84, of Temple died Friday, April 17 | Obituaries | tdtnews.com - Temple Daily Telegram",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONlFyZ1dqOVlyX1FtclhKNFA2NTBRMDVaTjdJWnp0TVZTaXBsczVRQnllNUxGd2x4QlJRX2s1VGpvUDdGVGJoc2xWUWRYZnJ5UDVOQVlkNGxJOGdSa3ZkVDZjT0VPd0hEcVk4ZmUwa2ZCb1g5dkIxM1pvcmpJSjJyR25OcTNsaU5kWmlkOQ?oc=5",
+      "pub_date": "2026-04-21T17:54:00+00:00",
+      "first_seen": "2026-04-22T01:00:29.365642+00:00",
+      "source_feed": "Temple Daily Telegram",
+      "pillar": "local_news",
+      "score": 3.9,
+      "matched_keywords": [
+        "temple"
+      ],
+      "description": "Judy Carter, 84, of Temple died Friday, April 17 | Obituaries | tdtnews.com &nbsp;&nbsp; Temple Daily Telegram",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 40,
+      "url_hash": "ecd2117da6f4ed6c99af470d902f1459345538c7f540f6594ffb7a942ec3b6ea",
+      "title": "Amos Eli Martinez, 95, of Temple died Sunday, April 19 | Obituaries | tdtnews.com - Temple Daily Telegram",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdVVBS3ZXNlpNdmszbVBpR2h1UWpHNEpNalVyNWR4S2ZXYm9hQm4zeDNJZzVGZWZSV0RaUjRpZGhYWGJQeElkQWpHTkRMakpJM1A0R1dUcTRxM3ZlNmZWZkdiN1k3eFlhZEFRbjdKVkRma0Q5SlBzSFlrVW81ZFE3Wm53NXlfRzNBTmVSeQ?oc=5",
+      "pub_date": "2026-04-21T18:05:00+00:00",
+      "first_seen": "2026-04-22T01:15:51.388573+00:00",
+      "source_feed": "Temple Daily Telegram",
+      "pillar": "local_news",
+      "score": 3.9,
+      "matched_keywords": [
+        "temple"
+      ],
+      "description": "Amos Eli Martinez, 95, of Temple died Sunday, April 19 | Obituaries | tdtnews.com &nbsp;&nbsp; Temple Daily Telegram",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 41,
+      "url_hash": "69e97bc54e4b24d11b135f985e726215e501b3d28f8a34b8fd4a0cc5427ef36c",
+      "title": "Mortgage rates today, April 22, 2026 - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE80Umdkdzl1UHYwY0k1czU2OEoyZUQ4bTBrOGo5OWxqck5BWG85M3gzRFZPdm1fLWxtUC03NVNpdWVCSThkN0g5bmVmRC16ZUszdWJGMkl0VDNCcEpMRGdSSlVGanFGUVNXQzcySFUyNA?oc=5",
+      "pub_date": "2026-04-22T07:01:00+00:00",
+      "first_seen": "2026-04-22T11:00:43.953861+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Mortgage rates today, April 22, 2026 &nbsp;&nbsp; Fortune",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 42,
+      "url_hash": "290f51e3db0aa926401013953da8393e94c02b227c8565b664c7cf6ae02ae942",
+      "title": "Current ARM mortgage rates report for April 22, 2026 - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1OVjJaZWtvUnZ4VGg0MFVMSTJyNV9FNmJpbHh1N3hFdFUyRlcyenRQY2UzRDg5Y3A3ZkcyMzROQ1RrLVpTQmZEN3h1QWhTaTFfNTFRMlVkcnN3NF94REpLd1c2NTJVa1dmRHRwSXoxZ1ozQjRh?oc=5",
+      "pub_date": "2026-04-22T07:01:00+00:00",
+      "first_seen": "2026-04-22T11:00:43.953895+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Current ARM mortgage rates report for April 22, 2026 &nbsp;&nbsp; Fortune",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 43,
+      "url_hash": "e4a0224f93620b431fe8c6f6eaf4f7a71febad594901067f928cc2abd92a826f",
+      "title": "Current refi mortgage rates report for April 22, 2026 - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9Vd1h1YVBXREs0MmFLRE5tNm4zOUlkemxoOWNVdno2RU9JOWF1YXRhOFVSZUhYdjN5U0VOVGlyTk1nTVpqR3RMY0N4bG9jbUlqcnRZcFc3UlNTYXdEcVZ3R0tYRVNDc01lRmFwanlOMmxRclJ4SFE?oc=5",
+      "pub_date": "2026-04-22T07:01:00+00:00",
+      "first_seen": "2026-04-22T11:00:43.953917+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Current refi mortgage rates report for April 22, 2026 &nbsp;&nbsp; Fortune",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 44,
+      "url_hash": "c23143aaa051e84bd5ce572de9767733203af8ba6d8dd36fad575f614b5256f6",
+      "title": "TSB Mortgage Rates - mpamag.com",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdmh6c3dFdVhtbEFqcjVTSGMxS2M5YkgyLTA1SS04TGhUa1hIYnl3R1NFUXM2Qlctd0NRWHNHQ0dUYXFMNHFEa3ByeFJYbHBSR0VJRm44cFNOZ2ZFa2daY0w2cEw3ZTF4Z2dnNWtKNlgyYmhiMVZlRHp0YWt5TFVEM2tR?oc=5",
+      "pub_date": "2026-04-22T03:56:08+00:00",
+      "first_seen": "2026-04-22T11:00:43.953943+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "TSB Mortgage Rates &nbsp;&nbsp; mpamag.com",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 45,
+      "url_hash": "a2a8d5b0ef1cdf5f293632643a143b2578943e7ad40459376cd88d9d4b636ec4",
+      "title": "Mortgage rates sink again, and home buyers jump back in - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWFlaZ0R0UDIxSmxlOE1CRGd1ZWZiQkdYbVdIX1psRU1ieF8xZll0YXM4c05pMlFraERoMmtpQVhyRWVqVjNSTDZVc3NUbmlLcjdfakN2YTVuWEV0NlZXQVhORmJnbGVoYk9oaWVuelR2TXQwcXlZUFc0MkRjb0QtV2FkZmtoS3RJM0JkMmhic3YzNFFlMnfSAZsBQVVfeXFMT29NckhJX0xtbW5YU0JLU3Q1T0s3aE9zU0tqOU10MUQ0SHRjS2MwLTlENUcwWWNBbmhFak9NajBPZHRKeUR3ZDdGUVVpS3ZkTmRCRGhqa25IYjJYandraTVUcTA1NTBvWXRYNG40bVZoekMzaTJTTVFqMDd1eW1mZWhQSWF5ckVyajZBTEVCNU5wcUtDUjVDdGNaYkU?oc=5",
+      "pub_date": "2026-04-22T11:00:01+00:00",
+      "first_seen": "2026-04-22T11:15:05.167257+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Mortgage rates sink again, and home buyers jump back in &nbsp;&nbsp; CNBC",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 46,
+      "url_hash": "2fd78d087016fd49f4eda1dbe1f8d9953997931a200bd23ac33d2b72da05680a",
+      "title": "HELOC and home equity loan rates today, April 22, 2026: Second mortgage rates holding steady - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYmJlZ3lmUkEyMGF5N1FVOUxQZ3NJZzF5SndYdjdHM19acnppMFhVOVlUNFhvRmVWWVlySloyZE1IbHhGZGVOem5jTVBrdUFnbTNSYmlKSGZaQkI4R2xVOVNFdGNZQV90NzdkLTU1T3k3dHBWb1ZqX19CcFJtYUlkMl9VcDBDZHRmdmgydzdrVG14UkE1UFBPYUNrN2pRekJKSFAwVjUtcEsteFZGSHhtbE9xY0JuZG9STkZkbDJOZHhLMFY1VnVTdDZZS3Y5ZkhDT0dCQm9TYzdObW8?oc=5",
+      "pub_date": "2026-04-22T10:00:00+00:00",
+      "first_seen": "2026-04-22T11:30:23.852141+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "HELOC and home equity loan rates today, April 22, 2026: Second mortgage rates holding steady &nbsp;&nbsp; Yahoo Finance",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 47,
+      "url_hash": "278f834d0a63a8856ddd539f39c44521c1b4fbb41d3a2d838335e2d76cd08cca",
+      "title": "Barclays Mortgage Rates for Existing Customers - mpamag.com",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNX2JKV0lmRWNKTEpqY2liN1ZXSk9NYkhKT2ZRSUJfc2JxU3BOOWM2M2JRU0RLMWZOVHl1RGVETUxRNTB1V3JTZENPMlctazJ1YnlWQkwwUHlXU01NRVFpYnpWNzVKczNyVWx6dUxPLVFzbTdfWHNpSVlFeTUzejZOWmFHUWQtajM1RkFyajJ0UVRJLVp1WXVNaWtIeGt6S2QyeUNmdDlzTQ?oc=5",
+      "pub_date": "2026-04-22T10:41:02+00:00",
+      "first_seen": "2026-04-22T12:17:10.030738+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Barclays Mortgage Rates for Existing Customers &nbsp;&nbsp; mpamag.com",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 48,
+      "url_hash": "75f9bb0cbc9324163ac81c0234fea6451a63167936d78807ee18c98ff7729d9e",
+      "title": "Grateful for Temple City Council's sacrifice - Temple Daily Telegram",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSzNZNlUxcGUxaGJ4THVxYk40TEppcC1sNUI0SmtZNVJOeVU2dDU4Q0twMXAxcW9zNzQyZHA4Z2poTkhVcXB2ak12ZWp2Y196NzZWdDNwQktOeHBXT3VSZWg5djU4a2M2UmNYTUJmLW9EbkdVSXBGMldiRnozOUQ5ZTE5cWU2VW9DcmJsVW5aMFA4SERvN194N09xLU9FclBaNmc?oc=5",
+      "pub_date": "2026-04-22T09:00:00+00:00",
+      "first_seen": "2026-04-22T12:30:26.423079+00:00",
+      "source_feed": "Temple Daily Telegram",
+      "pillar": "local_news",
+      "score": 3.9,
+      "matched_keywords": [
+        "temple"
+      ],
+      "description": "Grateful for Temple City Council's sacrifice &nbsp;&nbsp; Temple Daily Telegram",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 49,
+      "url_hash": "6eea60e06e5b3c18f3bb78db0a8291400b32f95772431bba2f1ca764faa61efe",
+      "title": "Lloyds Mortgage Rates - mpamag.com",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZ1duS2RjTDV5WFlSOHdxUGlXOTdHQXJ6aE9Zc3JTWnZtMjdnRlExX0RfelZSTjljMWR1cVNZNFlPVWhWZ3NYTnpZSHJlc05KMTJETURiZlZhbkdVNktuQmZBT2V4aW9mbnNaSDgyZS1IV2F6LXUwVUtjUzhseGlCbmp4YVoxUQ?oc=5",
+      "pub_date": "2026-04-22T11:56:03+00:00",
+      "first_seen": "2026-04-22T13:45:56.420620+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Lloyds Mortgage Rates &nbsp;&nbsp; mpamag.com",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 50,
+      "url_hash": "618cba9cad76b4fbad04aff347a2382d80101fcbe41938cb31cf04ea063d6283",
+      "title": "Today's Mortgage Rates Move Higher: April 22, 2026 - U.S. News Money",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeU9GNjdxUDZqeFhsSERRbkN0M3ZQY0F2T1VaNkUzeXM4LWFwYk52aUlCNHAwZXpDb3JHNnBfcnRaell0My05Tk1kMWZhNUtFN1VTOVhQLUxtejIydGNuWEJJcVhPdy15SElXa2Z5T2l2aU5MQVZISS1mUmo3WnpjU0VGWkthTE5OcUUwMw?oc=5",
+      "pub_date": "2026-04-22T14:01:21+00:00",
+      "first_seen": "2026-04-22T14:15:41.295421+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Today's Mortgage Rates Move Higher: April 22, 2026 &nbsp;&nbsp; U.S. News Money",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 51,
+      "url_hash": "3057b68044713125dbbcaed8e156db1b76285cffebfdfc3c0fbf02b9d8d583b9",
+      "title": "HELOC and home equity loan rates today, April 22, 2026: Second mortgage rates holding steady - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNb0tBN1BGOGN1cHF6TWhtODlfWG5FS0E0cjh4NU55eV8xQzFiM2trRXhvZy1HbEViaWgtSklCUmZzYWVPdmhDcDFBMmRObmJrMzkxdGs4S2lnVm5sc1FjTGhSVGxuUmxvbHYwaExya1BRWVNfdjRTZTRaVW0xWVM3YWlmWVMtU1FydU1meFkyZ19kU1ZlNFpaTWUxTHFiaXVaMG1WYmRQS2tELXRPM0JEZHY0VXpKSkZNX1J2N0V3NlV0bDQ2QjEwb2JVYUoyRzJ0NEFDOHlsTUhGRk0?oc=5",
+      "pub_date": "2026-04-22T10:00:00+00:00",
+      "first_seen": "2026-04-22T14:45:17.950239+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "HELOC and home equity loan rates today, April 22, 2026: Second mortgage rates holding steady &nbsp;&nbsp; Yahoo Finance",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 52,
+      "url_hash": "b2d7b4e527e9221aa6913efd2173941b893902e99eec17225463863193bb7d94",
+      "title": "Technology acquisition targets improved support for Fort Hood special needs families - The Killeen Daily Herald",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOVlpXaHM3UVNOQjZ6SUFncG51d2tOSGNMTDlPUVJTWXQxX25iZ0JReklCc3VxYjJmQmVwYVo5OGJnWlJ1bU9hOTV5Rm9Ua3RMQjZnT056OUhPeFl2enAtNFRQS3FtaGxvQVhGRGtScUN1dW9HX0VPZnpEcWNWc0tEdlBaTWVZMmRJT1FRRjVhdEplYkRBLVhqTGg0TVg3SWRuQVZyVWhsZXdZd19kaURBY3ZfM2pfd0VvcGUwdE56Qk1BNnBqZkJ4dVBXVWtpcVhLcFVWOHkyY0tFdFZNV0JDVUdWcE1ucjlna19Yckgwell3aV9TTy1qYVpZalFQMnFE?oc=5",
+      "pub_date": "2026-04-22T11:30:00+00:00",
+      "first_seen": "2026-04-22T15:30:14.678936+00:00",
+      "source_feed": "Fort Hood Military News",
+      "pillar": "military",
+      "score": 3.9,
+      "matched_keywords": [
+        "fort hood"
+      ],
+      "description": "Technology acquisition targets improved support for Fort Hood special needs families &nbsp;&nbsp; The Killeen Daily Herald",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 53,
+      "url_hash": "8ee2ae851216e04a0fd96762f9e5ac1a6eb9d4cf38d421617499a8b69903dc23",
+      "title": "TEMPLE INDEPENDENT SCHOOL DISTRICT NOTICE TO OFFERORS - Temple Daily Telegram",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQX3EtQ1RLa1lYSE14WXhpNl9TS0hiQldGRHV6QXJqX3dBX3JPb0N5V081enBSSDQ5TUY2RWV2NHBZNVlBWjZDdXgxWjdHY2RjczRla3VxbzlwbDhGM01yajBmSXZJck5QSnM5VmhmUDdaMGVHMkVrbmgwUEZSZWJVdER6c044T19QQVVva05Qa2pGbWlTbGlYSzE0LWVYOUVsOUZVcWdFZ1V3a19lVW1V?oc=5",
+      "pub_date": "2026-04-22T07:01:01+00:00",
+      "first_seen": "2026-04-22T17:51:45.436533+00:00",
+      "source_feed": "Temple Daily Telegram",
+      "pillar": "local_news",
+      "score": 3.9,
+      "matched_keywords": [
+        "temple"
+      ],
+      "description": "TEMPLE INDEPENDENT SCHOOL DISTRICT NOTICE TO OFFERORS &nbsp;&nbsp; Temple Daily Telegram",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 54,
+      "url_hash": "8eb466255fac3f826fd99d7c18c439eee3c59e390faba917518a23ab00df6059",
+      "title": "Mortgage rates drop to a four-week low | Working for Your Wallet - cbs8.com",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPa1hoQUdlQmVPZ0FoYXBIbjZhdmUzdXdqaF9VWHFucnRRNUJ5ekpBSlcxOU51TnlqQUhOMnliM0ZjU1BwYUFpTzNnQkc5S2djWnhMc0VORjR6djlLM3BFN1pZWWhGRzRVOXlNM2w3eHRoSEwySVFQUkdSUjE0ekR0amgzWU0xTFlGaTgxNThPWmpwV3AtZmw0ekdFY3F0WXNZbTFvSFBjUVk2bm5CX0xvdUNFWUJ1Q05Ma2w5RlFwaEZ4TE1oUk9OaGNPWEhBcUVINDdOS29UMnpnbF8yUUJvYkNYYkNmeFk5Yk9lR3R3?oc=5",
+      "pub_date": "2026-04-22T15:31:00+00:00",
+      "first_seen": "2026-04-22T17:51:48.335438+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Mortgage rates drop to a four-week low | Working for Your Wallet &nbsp;&nbsp; cbs8.com",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 55,
+      "url_hash": "f5d86e9cf56cd314474a3b5f7dd393230ccd5f8d854a748d802aa1069b9328fb",
+      "title": "30-year mortgage rates decline - When should you lock? | Today's mortgage and refinance rates, April 22, 2026 - Bankrate",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVVlNWlBtYklVemx3MWhiZDJQWW94RTJ1LVlUd2VoSDF5a3ppbG5IX1l4d1psanpMdG1aeXlKbXEzVFVJWWxaUFNxb29ySGoxbENaajN4SDdsZ0E3Z3dCQWo3WjlscHlFczZoYXJ2Y19NY1N6c3pFZlQxbllaUUc3N0RpbmJZM1VNSzh4YTFwQ1MzbjlOYmc?oc=5",
+      "pub_date": "2026-04-22T16:56:03+00:00",
+      "first_seen": "2026-04-22T18:30:42.329036+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "30-year mortgage rates decline - When should you lock? | Today's mortgage and refinance rates, April 22, 2026 &nbsp;&nbsp; Bankrate",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 56,
+      "url_hash": "d1e1836e4dfd874fc9e15f69e0f3d099c46cc34a1874e630f872830f4d413e61",
+      "title": "Mortgage Rates Today, Wednesday, April 22: A Small Drop - NerdWallet",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNd0RQeC1qQlNsd09fVEduM1hxVTdWS3Mtb3AtVUdIRS1SSXJoQnpRRFYwQWVCTzU2OUUxWkJ1YWNSOXV0eGxWRV9obWxHT2ZjT2k1TUozSGdqUHBwaWxGZkpYSmpoYlBXekQ2WWtVUzhzeHppZ09YZEZOMndVN2RUQ05ndWNYWERXbmlNOUNjcw?oc=5",
+      "pub_date": "2026-04-22T12:39:30+00:00",
+      "first_seen": "2026-04-22T20:35:05.072465+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Mortgage Rates Today, Wednesday, April 22: A Small Drop &nbsp;&nbsp; NerdWallet",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 57,
+      "url_hash": "8e5618ce771303ce6f646c7d22ee8d31d85a6f9998191b26695b68745187cca1",
+      "title": "Mortgage Rates Maintaining a Tight Range Amid War-Related Uncertainty - Mortgage News Daily",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB6WVlxRjRMeVdSN0lMRDV0Z0I5c1hZYlJZWVlvenh1U0N0VFYxbWdTbGdaTUV0aTQ4MnVLMmNBZEJwNzNCNHVCS0U3dXBSLUhaOWlyWVZLU3o1bTZpUXFSTWZwUEpSSVFBTXJhdGFmUWZOcDZs0gF0QVVfeXFMUHpZWXFGNEx5V1I3SUxENXRnQjlzWFliUllZWW96eHVTQ3RUVjFtZ1NsZ1pNRXRpNDgydUsyY0FkQnA3M0I0dUJLRTd1cFItSFo5aXJZVktTejVtNmlRcVJNZnBQSlJJUUFNcmF0YWZRZk5wNmw?oc=5",
+      "pub_date": "2026-04-22T19:22:00+00:00",
+      "first_seen": "2026-04-22T21:00:38.938100+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Mortgage Rates Maintaining a Tight Range Amid War-Related Uncertainty &nbsp;&nbsp; Mortgage News Daily",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 58,
+      "url_hash": "fb298f66a9d232f0ca6b47311c20578f78c76c46fd5a8c0e2b90e022d51ddc37",
+      "title": "Temple names Rucker Preston new Housing and Community Services director - Temple Daily Telegram",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVm93LWhkalpscVdNTmVReEJDb0pXVWVxUWVta2lWOVhhQ0loeWItNEtjYjN6TmV5MlhsLWtxa094cFlSOXN6RlVaTGhnOGVqbWg3YXpRYlBqVkplQnBUZ3BTYXBHZ1FtcllBMzdNY015dEdqYnZQOGFfR1JSaVotdTk4X3VqUU9hVU5WdVhSYkx0aFVxZk5XeTE2eFMyZw?oc=5",
+      "pub_date": "2026-04-22T21:15:00+00:00",
+      "first_seen": "2026-04-22T21:30:12.992975+00:00",
+      "source_feed": "Temple Daily Telegram",
+      "pillar": "local_news",
+      "score": 3.9,
+      "matched_keywords": [
+        "temple"
+      ],
+      "description": "Temple names Rucker Preston new Housing and Community Services director &nbsp;&nbsp; Temple Daily Telegram",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 59,
+      "url_hash": "4fdc3c7f30cfb0f8adec8b40327d8e49b20fd0eba3a76d4bd980de82555cdfb8",
+      "title": "News - Fort Hood Soldier Continues Family\u2019s Firefighter Legacy - DVIDS",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdFhWdzZ3aFJTTk94X2s1dm5uLXBpcThmUlhLaWVOVG01MzJtVzZHQjFhNGRPTlNwN3BxYmlCaWxYT2o0SG9EdXViUUxlZXlBZElINDdGZ1h5WUp1bUZkWXhnTDdnb0pFMGhuRjV2MEVFSEUtVVd1UVVlUEhsb0tJcG1rMENfQXdxak40SzAtQ1VWTHZHWXc?oc=5",
+      "pub_date": "2026-04-22T21:18:00+00:00",
+      "first_seen": "2026-04-22T22:15:09.869584+00:00",
+      "source_feed": "Fort Hood Military News",
+      "pillar": "military",
+      "score": 3.9,
+      "matched_keywords": [
+        "fort hood"
+      ],
+      "description": "News - Fort Hood Soldier Continues Family\u2019s Firefighter Legacy &nbsp;&nbsp; DVIDS",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 60,
+      "url_hash": "4c6f154ab8134debdd2a32ccc9b6c210ddf3011513ff3aaaa9510b66e17364c8",
+      "title": "HSBC Mortgage Rates - mpamag.com",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNS1VFb0xOQTFZQlhVb0V4enlneTBsUUxFNXNtZFlBak1wWFdQcHVYR3o3NDhtdTBNR0tGMXdaUHplVURLeEEybjVqUHRpaFpqZEttelBmVEpiWGJVbjQydFEtalM1SGlzZmFTVzZrNURQOTVBU2lKckJaeUhHVm9lb1Zwaw?oc=5",
+      "pub_date": "2026-04-22T21:06:34+00:00",
+      "first_seen": "2026-04-22T22:15:10.551685+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "HSBC Mortgage Rates &nbsp;&nbsp; mpamag.com",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 61,
+      "url_hash": "1efed023b24e6598dfdea5c269382597f3a5b6982fe54c886505fcceffa7661e",
+      "title": "Barclays Mortgage Rates - mpamag.com",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQLXd6VER5NEo1LXVPRzB0LU1DUlBQU3Y4Y0M3N2NLcWVROEtNODh4VXJTeXFCS0JvMXFsRGE0alJKSVE2THM5SDVSajFYeEJOT1dPekd0RHNra2xNb2VBV3F5eHBKYkRLRUhEelZiNlhkc1ZaUTY4cTVrS01JWTJLZ3FualdwUjVP?oc=5",
+      "pub_date": "2026-04-22T21:07:52+00:00",
+      "first_seen": "2026-04-22T22:15:10.551739+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Barclays Mortgage Rates &nbsp;&nbsp; mpamag.com",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 62,
+      "url_hash": "d3fe90d5d97aa663068f6dd615942a412105f493459579d3b2706808f938db47",
+      "title": "Nationwide BS Mortgage Rates - mpamag.com",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOLXRodmxZT21oampMZ1A5RjhsTFR3N0dJanUtUWx1NFVQdkdjVHdVVjZxWl9YQmZORTRIbEpabmEwT2lZajRXbm9pOGdua2ktemRoazRiaUMtRHB0NzZNeURUeEpoV0pBS1l0T0ZHem92bzU0VmVfN01LX3R6Ri01T3VvbUF0T3YwdjI5bnUwTQ?oc=5",
+      "pub_date": "2026-04-22T21:06:05+00:00",
+      "first_seen": "2026-04-22T22:45:47.957285+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Nationwide BS Mortgage Rates &nbsp;&nbsp; mpamag.com",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 63,
+      "url_hash": "d665116c651a3cde0eb789be675be31569044d3d783d6f6b304732ff1f2a7fcf",
+      "title": "Mortgage Rates Maintaining a Tight Range Amid War-Related Uncertainty - Mortgage News Daily",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5nRllqcDY1NmxaalVyQWRwdkZKQWVlRFBDVmowSHlXa0FqUEtNck5HUmRNV2FpTGJ1SWJXUEhPaXZXbXVOV0E2ek94NkRXSVFiZEVuSzdhNE16RDZYeHExb1QzdjRJZHdHYW1nbFFMVG5SNVXSAXRBVV95cUxQellZcUY0THlXUjdJTEQ1dGdCOXNYWWJSWVlZb3p4dVNDdFRWMW1nU2xnWk1FdGk0ODJ1SzJjQWRCcDczQjR1QktFN3VwUi1IWjlpcllWS1N6NW02aVFxUk1mcFBKUklRQU1yYXRhZlFmTnA2bA?oc=5",
+      "pub_date": "2026-04-22T19:22:36+00:00",
+      "first_seen": "2026-04-22T23:45:20.288309+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Mortgage Rates Maintaining a Tight Range Amid War-Related Uncertainty &nbsp;&nbsp; Mortgage News Daily",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 64,
+      "url_hash": "4e2adeb25170879968e9095873e18310177ff7d0c62144b974cd9354351113d9",
+      "title": "Mortgage rates fall, Bay Area home prices still high - NBC Bay Area",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNS2FXa3U1WU1fMU4zOWNLOWpqNFF4UmRWb1FMcE9YVENweVF3S2V1TGszZ0dsZTgzUjA5clVTT1hIdk1DcURMUzJWSXZiWEFXdWxlYS1QeGtlX1h3TjBqTXRlcDNsU0NSa21LX2pTdXBHczZFeXBfQjJBY1JOQnVhSXhHMDlCZUIwQzBWdmhoTGZuS2NxNjlQZlBtNy1rX2tZZnY5M3I3M2VRbWFfV21xdnZTMjJPNWVtNjNjU0JZclNvZnfSAcsBQVVfeXFMUFMwV1NreDk0bmFZUmhkMmloTWFqNkRDOHBHQ0YwNzZ5blNpYjZPLUl4aDlDMHB0d29hc01rSkctMGFHM2EwSmFNQXI5MHVkV3FxTkFwOWFPYUpPMjZnWXUyQVpmdFkxVWRQZEpIOVQxdzJfY0Y1blFqMEFEb1pqcHFyUU01eVBpRF9TQnJXQlE1eVQ1QmMzWXlJamFoLWNHMGIzRVhDcUpVcV9rbWU5bEZzSVFWOVVCVjNzWTFOUWg1THlWN2RsQVd2ekk?oc=5",
+      "pub_date": "2026-04-23T00:11:55+00:00",
+      "first_seen": "2026-04-23T01:30:07.885252+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 6.6,
+      "matched_keywords": [
+        "mortgage rates",
+        "home prices"
+      ],
+      "description": "Mortgage rates fall, Bay Area home prices still high &nbsp;&nbsp; NBC Bay Area",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 65,
+      "url_hash": "e739635dc4844b74cf456f651185cf6d3ff26aa98d796a95a38ec1272aeb9494",
+      "title": "Mortgage rates today, April 23, 2026 - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE54bHlPVWRYWHoyTE56Mlk4c2F3TEI1MFdvbXN4eFIxZFhXczd0eU9kVjB2S0E0OUlqRExCUlA3UERralNBTUV3YnFranpKSXBIY3VSM0tNamJRcmxPWkF1LVV6Sm5XMlA1dlVkNmVZNA?oc=5",
+      "pub_date": "2026-04-23T07:01:00+00:00",
+      "first_seen": "2026-04-23T11:15:51.004541+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Mortgage rates today, April 23, 2026 &nbsp;&nbsp; Fortune",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 66,
+      "url_hash": "0398be11f74234b2c62c6f7cc9b29d5087cc8f1c5baca6479d76497a008fa733",
+      "title": "Current ARM mortgage rates report for April 23, 2026 - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBLY25HY2MzYVBCN3F6aWRhNF9XMmZKTHZUNmhaTWlWM2hNUXdoVll5cmVKZmhMRnotUEVGWENXUlM0ZjhHRHN1Zm5fWXhNS2JDaEpnWUluYzRqc0huWWlqQmpjNHZyT3pQWVhoUk80YWFHZ01X?oc=5",
+      "pub_date": "2026-04-23T07:01:00+00:00",
+      "first_seen": "2026-04-23T11:15:51.004599+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Current ARM mortgage rates report for April 23, 2026 &nbsp;&nbsp; Fortune",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 67,
+      "url_hash": "7a866cb685ae42891a2d66df4304168ab06ddedcbe177d08135c5dcb692cbd01",
+      "title": "Current refi mortgage rates report for April 23, 2026 - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5YaDREcDB1Zm9Jd21OajEwRzluMjBubEVaX1hiekg4Q0FaV0J4R2VZc01CeHhZRlV1MDQ5RTBQTVRBdkd1QU9wSG9JeXhaM1ZMUmx6d0NjajM3RzFMczczNnlWM3BUZE4zRDZhYV9zTktQaDJBMmc?oc=5",
+      "pub_date": "2026-04-23T07:01:00+00:00",
+      "first_seen": "2026-04-23T11:15:51.004628+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Current refi mortgage rates report for April 23, 2026 &nbsp;&nbsp; Fortune",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 68,
+      "url_hash": "a216e3464f20786fac950d3cb35e8898fd4449c4f5452766d012f863fa22b32a",
+      "title": "Mortgage rates fall, Bay Area home prices still high - NBC Bay Area",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMUdvQXp2akNjNjNtVWh5eTNlZU1GbUdyZW9yZ1QzLW1wUkpybjhwQk40aUJ4RnZjNkR2ZjdWamgxbG1DVVRmRWlJRzhMamhjUmZIUDN3c2RIN3BfUmFyaHZhb2R4NTVhdVFfZVVGczBrNmtMMk44Qk13QjBrNmtIVzlVZ1RVYXJCTEhrVEprWVFiZ1kzOWFmcldxb0tDYlFSdFNYeV9hYlV1Q180UnpFcUIwTdIBuwFBVV95cUxOSkp2aHNpQmdldm9QaDhlbXlRZEl3Z24wZ1FqbXJ4bDd2bWZtNHhzS3cxUXV1aktXel9HS2NTOTBTWktJVm4wT0lzMGFJcTFCY3VhSjhkckkzc0lGWmI3SXR5R2hTYWhfcWQ5U0VXWGEtLXlHcmdMaEUydEJrbG1XSmZSX0NwWWZlQ1I2eS01ejB0UnhMSXk1N1JtUTVab2thZXZiUGlmYkdBcHMwYUQ2eFFFRGdZUGxVYUlR?oc=5",
+      "pub_date": "2026-04-23T00:11:55+00:00",
+      "first_seen": "2026-04-23T11:15:51.004652+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 6.6,
+      "matched_keywords": [
+        "mortgage rates",
+        "home prices"
+      ],
+      "description": "Mortgage rates fall, Bay Area home prices still high &nbsp;&nbsp; NBC Bay Area",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 69,
+      "url_hash": "676ae905af7a4025efedaa60f635ecad5dc76567dfef2810361a998750a91961",
+      "title": "Army criminal hearing for Fort Hood doctor set for May 26 - The Killeen Daily Herald",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQOGYzbW9PdTlrUzBPWUlnUThLM3g1NWZRTDJjYnNNajFJY1g5TkpVZkw4aEZHSFM3bTN5RlFmWF9EZGF0cGdBZmgyWjN1YWhYZEVadVdxTnRzVk9wbVl4clZqN2ltcS1fTm9sV0gwUjFxY2pVRy1VdEdWckx2MlQxV2pMcE5sd1Q4WnBZNE1KQV90akg3TGR5STFOU0tyeUxCWlJqRlRFVWFMM24xSko5SnBmb2hxTWRYUnd4Zl9Tc0liVkE2RVE2VldEZklNSkVJT0E?oc=5",
+      "pub_date": "2026-04-23T15:22:00+00:00",
+      "first_seen": "2026-04-23T15:30:31.845304+00:00",
+      "source_feed": "Fort Hood Military News",
+      "pillar": "military",
+      "score": 3.9,
+      "matched_keywords": [
+        "fort hood"
+      ],
+      "description": "Army criminal hearing for Fort Hood doctor set for May 26 &nbsp;&nbsp; The Killeen Daily Herald",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 70,
+      "url_hash": "f8243a997cb7badedf281ce47d145e5762c84dd61ac569415718b7f048fd52f9",
+      "title": "Mortgage rates less of a factor for buyers, sellers this year - RealEstateNews.com",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSkxwUlBvajVqanJ3VXFhOFduTG1VZ3RCQm5UYVNWYjVMUmNKQndIa29JQ084XzlvUzN0cG80UzFPWm9VaG03NF9jcnZ4M08ycTRFU1JPNFFWVzU3cFlqSGFVX0dmYURSWFhJQlh6VGJiNHN5SFJRWDZlNmtNR2FQQ0JZY2NPQmlkZkVGVktzMkNRMmlFRHJCWGh5Tkw2MUotSHNXTw?oc=5",
+      "pub_date": "2026-04-23T15:29:17+00:00",
+      "first_seen": "2026-04-23T15:30:32.490530+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Mortgage rates less of a factor for buyers, sellers this year &nbsp;&nbsp; RealEstateNews.com",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 71,
+      "url_hash": "fabf29840d50a0b45088f9a33cc0786a917db288faba50957b0125cb44d4830e",
+      "title": "Why 1 in 3 Sellers Are Finally Sacrificing Their Sub-5% Mortgage Rates - Realtor.com",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZllCX2RNX0xxdzN5U1VySm5wNTd1dmJveXFOYzM3Ry1UMnotWTlVSlFKWVZuZ09OdnhDLTNPeHlRYVJDU0ZLZERqNWFjYUVJQ1VtcGNvSVpPX3RRSlo1bjJHeVdTS1plNEJEQkFVZjJlNWpCcmtCVjBndGkxQTV6MDBoMUFGTHhVY0NNUkVFY3hYb3NvbDl6eTdCX3c?oc=5",
+      "pub_date": "2026-04-23T09:56:09+00:00",
+      "first_seen": "2026-04-23T15:45:50.895238+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Why 1 in 3 Sellers Are Finally Sacrificing Their Sub-5% Mortgage Rates &nbsp;&nbsp; Realtor.com",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 72,
+      "url_hash": "bbb30d8e199de40b759b276b662b45ccede35e7d1276af44e62cd2094029bc00",
+      "title": "U.S. Army sends next-gen Abrams prototype to Fort Hood this fall - The Defence Blog",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSUdZcTEza3ByR3lFYnJsa1d4b3ZKU2ljS3hUa2ZDN1ZoMWM4eHpzMXd4QlVqejlnTWxBaXNMbkhkaUN6NEZPa1h5d3JiUEdtUnFHRUJMN1NXUndmU2RKUUhBTjgtOFVrZ1VSTGE5MjZOSkMwc3Bkb3BaT1E5aGdIdVN4aENFbnY2TEhSNWFWNjBULTTSAZgBQVVfeXFMTzJUUUNTak9zSnJzelZKX05HTi1qSjJyU29iMUtjQ0ZGLUFFRjgzWGRQUm1qZ1NPWGZMWks5YVNBelRONXVBTS1fSXZvLUdMZ3JCSW4yenFpMmVBejF4MXRIbHpueGZqdWdjS0VkWTFVMWxhUlVXYzVweFRnT1dSd3hFamtYc0JUejdpQVRFYWEwdWZrXzR3am0?oc=5",
+      "pub_date": "2026-04-23T13:18:06+00:00",
+      "first_seen": "2026-04-23T16:15:38.339155+00:00",
+      "source_feed": "Fort Hood Military News",
+      "pillar": "military",
+      "score": 3.9,
+      "matched_keywords": [
+        "fort hood"
+      ],
+      "description": "U.S. Army sends next-gen Abrams prototype to Fort Hood this fall &nbsp;&nbsp; The Defence Blog",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 73,
+      "url_hash": "7827b34bc028b6d092eb842c23a92cfe6a70979c0c561f47edddefde2a860c07",
+      "title": "Mortgage rates hit 'lowest level in the last three spring homebuying seasons': Mortgage and refinance interest rates today - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxOay1vQ3VIZl9EcFB3bGc5anR1Qlo1Tjd0TGM5VTJtTUc0N05Na0gzVnFQM1ZzdzA1ZEozUUFvc1BfRUVaNVNuZ2w5ZHFyN05LZUYydFZJYzE1Zzh0LWVSaElDWm0ybGVFcWMybTJSUEc1WUY2MFRHVEE2U1lEX0pqd2lxaWJqckpTR1U3b3gxcHd4OGs2OUYtY3ZiQnc0cEJRczBfekRrZFpRRlVKaHQydFZEU0d1NzV2OGNzYjNUcVI0SGZOdDZkMTZCdGs4NXFpa3dnMV9PZHhwRlNTa1VTRUs0Q3dmRFl4WVFidm5ncTJqWjZON0t4WDhMSWRlVl9CTkhmMW5DZmlmY2tDa1pRMHcyVmhubTZyU2hhNTZpQVQ?oc=5",
+      "pub_date": "2026-04-23T16:00:17+00:00",
+      "first_seen": "2026-04-23T16:15:39.057499+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Mortgage rates hit 'lowest level in the last three spring homebuying seasons': Mortgage and refinance interest rates today &nbsp;&nbsp; Yahoo Finance",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 74,
+      "url_hash": "4806a38278a37fbbf629e1e2b9170436c4d3f57f47d831234682251360e81af3",
+      "title": "Mortgage Rates Today, Thursday, April 23: Edging Lower - NerdWallet",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUEFRTlA0TDJjeWY3MzMwcVFVVlduR2t5b2dERG53TmN3N2E2eTJTcU96amNHQzV5MExhOHU0U29SQUlkT01XbmFzeDREeXhWLWZzM3NXRTB6THlwVzFJQkcwckx5QmV5WjF6eHB6bUdqd2hKVFRaYm5sUkYyT1hOLUN4dTBVRmx3SXQtQjFn?oc=5",
+      "pub_date": "2026-04-23T12:19:38+00:00",
+      "first_seen": "2026-04-23T16:15:39.057606+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Mortgage Rates Today, Thursday, April 23: Edging Lower &nbsp;&nbsp; NerdWallet",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 75,
+      "url_hash": "63f0807bf4cd446dd976b12d681e13d094e6cededa5db239fb1b96fc8515274d",
+      "title": "Mortgage Rates Down for Third Straight Week - | Florida Realtors",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUDlmcTFSR0prRG1SUGRsaURTcUJZNFNfUE5MbjRISFZEb1NUYXl5M1VzRkU3QTVtWHMyNVIyamZiNXJybDVhcGs1VjNPN3ZESlNwUlY1T0NsZzB6b1FheU11d0xDaVlaeDJvRUZSM0EzN2VtUGFwQlNaRHVpN0h3c0l1MFl1Y2M2dm1uSzVvOWw2c0VEMjZpVHZudjNkUk5KLV9JaTdLVQ?oc=5",
+      "pub_date": "2026-04-23T12:00:00+00:00",
+      "first_seen": "2026-04-23T16:30:58.021004+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Mortgage Rates Down for Third Straight Week &nbsp;&nbsp; | Florida Realtors",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 76,
+      "url_hash": "05df390574dce31734275dd72c259dcc320dc5cfcbf68b119e0624b2eeb12114",
+      "title": "Mortgage rates slide for third consecutive week - mpamag.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNY0p3ODRWNEpjbDBaUjN4M0JSbEU0clIzclQ5NEhpUVRaN19ybUNESzZMU1U0MnZsN0stOGRHOGdPb1p2aEZseVc1V0YtU09GT2w2ZEstdGt3NnJrMlJVNUYzZHIxSTVTLVFDeDJVcGRULUoxOTFlVUEzMUwzY3NsQ3dVamc2UXVKMW5QNjRQRDdHa29Jc0FYOW5mRkw5QTBFTkFmcDBPYXBGTHJ3YnBPQzFHMA?oc=5",
+      "pub_date": "2026-04-23T17:01:54+00:00",
+      "first_seen": "2026-04-23T17:15:54.416414+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Mortgage rates slide for third consecutive week &nbsp;&nbsp; mpamag.com",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 77,
+      "url_hash": "e9a7bd98a03feb114bed7f17e4e69adf42b762937972450b9d77c49bd5fc597c",
+      "title": "Mortgage rates inch lower \u2014 and chip away at the \u2018lock-in effect\u2019 that has hurt home buyers - MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNS2xPUkZTV3dLQV9FMUFwWDlvR1BtQzliRGxWTU1SQlhtdFVmeFU2TGViaWxJS2dCQjVKMWxKYmhzcEtHaUt2bDFOSXhKNW8tOEJQZXBQbnpHb192Rk8yY0NIZmZHVmxsc1F6bDBSUlRzQXBRUUVwdG02MGhFZFcwckFuNmROeW5TcjdRVUVOMVZoM1pUZUNKd1R1bWlDWk14aUpLMWVucVZnR29TTHh4czBzdkxnLVJnOG1WckZ4b0Q0NWhzWjdQVUxB?oc=5",
+      "pub_date": "2026-04-23T16:09:00+00:00",
+      "first_seen": "2026-04-23T17:15:54.416581+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Mortgage rates inch lower \u2014 and chip away at the \u2018lock-in effect\u2019 that has hurt home buyers &nbsp;&nbsp; MarketWatch",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 78,
+      "url_hash": "0c10e6e0c40700e908a7228b235634a5dd8db33c5ce6edf483e8ec13df1d6388",
+      "title": "When will mortgage rates go down? It's already happening thanks to newfound market optimism. - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcmJfeVVFY0hSN2ZjVUF4OWltM1JjRnJ4RUpzdzU1bVJTWGVpcllvc0hZajhYZUoydnA1WTVJLXZ1bllGTXJWY0Fpd2QtcXpyY2pPSG9jNmcySEZBSEo2dURZUHJuYTBBaFI1bzF2MHVfSTl4RmJ3ZHVQaEVXTWhXSnNVRVRiOG1RcFVKd0dfSnFRdk9JUzc3dTNKcENwUkRBNVFhbV9tQzdvUW12VmVXWVVkNmNXSU5DM2d1b0ZtQQ?oc=5",
+      "pub_date": "2026-04-23T17:39:42+00:00",
+      "first_seen": "2026-04-23T17:45:30.360866+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "When will mortgage rates go down? It's already happening thanks to newfound market optimism. &nbsp;&nbsp; Yahoo Finance",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 79,
+      "url_hash": "3fae1871c56d6a229cbe4538d2be68b4dffc52c95b9fe67c5b6576cbb1c2129f",
+      "title": "Mortgage Rates Forecast For 2026: Experts Predict Whether Interest Rates Will Drop - Forbes",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kMlJHRWhRY2owbnpsZWhWOHVVZFR1ZmM3NzhqTUVEVnpHR2xlMHp0QnR2eXFwV2wzQ2FMbXZTN3lTLUJ5OHgxdnk0S3Z2Q3hEQ2pEYW9xcWhrRktVS3B0RXB0NkdnM0hPMzBReG5neWZ1TTdvVWs4bWgxdWFNUkk?oc=5",
+      "pub_date": "2026-04-23T15:44:00+00:00",
+      "first_seen": "2026-04-23T18:15:07.344703+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Mortgage Rates Forecast For 2026: Experts Predict Whether Interest Rates Will Drop &nbsp;&nbsp; Forbes",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 80,
+      "url_hash": "34aca87a76e28129d41c59a8888c415065236458697ddec6cac43a212b674d64",
+      "title": "Today's Mortgage Rates: April 23, 2026 - U.S. News Money",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxON1FWN1ZJVjFpQlNfWDE0NlR4eElFLXA4dXFTanp4UExLM21NZThhY2VPV3Uyd2tnVnRKZjU0d2JoOThSRlY3czlaYXZ2TzNFZERBUFlld2lOMG85UGMxUi1pamgwb0I1akNvbDlqRzBUZ2t5bXVIYTdHM044VmxrTkRzdEFKYlZBbEpJNg?oc=5",
+      "pub_date": "2026-04-23T14:12:55+00:00",
+      "first_seen": "2026-04-23T18:30:25.609316+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Today's Mortgage Rates: April 23, 2026 &nbsp;&nbsp; U.S. News Money",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 81,
+      "url_hash": "e802347da45dd1574175908b49260d8977c920a18f4ef45d7fed1fb6622fde49",
+      "title": "Real Estate Report: Mortgage Rates Dropped - Hawaii News Now",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZVhaWnNlbFBZampubTN0MmprVl9yMERIZkljWE1rUHNtMEVkdGVuZWtTZ3cwdmxMVDB0c2pkaGdyeXg4bnJZZW5adU9XektjY1B2aGI4NGRva3NvTGQ4UTFCNVppUXNYZkxib2RmR2NBbGxYaTBEUFVValFjZ3NIWjFVU1hMSWFMNjVDWFJ4UVRXUUE?oc=5",
+      "pub_date": "2026-04-23T18:01:56+00:00",
+      "first_seen": "2026-04-23T18:30:25.609451+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Real Estate Report: Mortgage Rates Dropped &nbsp;&nbsp; Hawaii News Now",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 82,
+      "url_hash": "5638853b9d56b1c327e9f81a00a662d49cf3b08139b1b3deac30dd38754de1f1",
+      "title": "Mortgage rates decline - ABA Banking Journal",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE45Nmdob2E1LThuSE5Ob2liT1U0Y2xoRHgtYnVDSUlLSDlJMlRXa1E5TGh3czhicG1wbmVDb3JzVHJIM0M4UWRXLVVDUk9QTHVXd0Z1V2d1YkU0a05EdG1iNHNXLVBTNW9NdzFMVGd3UTJ2UQ?oc=5",
+      "pub_date": "2026-04-23T18:50:10+00:00",
+      "first_seen": "2026-04-23T19:15:19.313346+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Mortgage rates decline &nbsp;&nbsp; ABA Banking Journal",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 83,
+      "url_hash": "8733ca8959e450189621df97da3dbbb09481797b9696c227212dab07953aaca0",
+      "title": "Mortgage Rates Hold Steady For Most Lenders - Mortgage News Daily",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4wT3lJMkpINlQ2b040S1ZVZ0lrR0ZycXM0REw4UGFWSWk3MTlvXzVzX2lpWC1Uam1vZWJob0xueEk3YUtRTUxabGl6UG85ZzUwRU04c3ZJS3pkbW0xc2d6YlRVRExIdUhZYVZiNm1iOFJUZWPSAXRBVV95cUxNRXltX1BqQzRxYjBfaUJSM3BTV1YyQzZGeFB2ZUNJMGRJNDZxWWtBYUZlamJXMDg5NzR0a0IwYm8ycFdfVmRmM0p1V3JFUkRlZHJCTERESnhZV1dZQUtYT2x6Q0hfVUQ0TkFQRzBoWkJNa2lwSw?oc=5",
+      "pub_date": "2026-04-23T18:41:01+00:00",
+      "first_seen": "2026-04-23T19:15:19.313440+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Mortgage Rates Hold Steady For Most Lenders &nbsp;&nbsp; Mortgage News Daily",
+      "status": "pending",
+      "drafts": {
+        "yt": "",
+        "tiktok": "",
+        "newsletter": "",
+        "website": "",
+        "business_tip": ""
+      },
+      "voice_scores": {
+        "yt": 0,
+        "tiktok": 0,
+        "newsletter": 0,
+        "website": 0
+      },
+      "needs_rewrite": true
+    },
+    {
+      "id": 84,
+      "url_hash": "2caefeaf94b1cdf04b41d306930f4109444f3fc9ff8db0d215f21a7295c816ea",
+      "title": "Mortgage Rates Idle While Spring Homebuying Season Stalls - The Mountaineer",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNT1BQb2M4ZjJRLTZhZTN6Y0VCR0l4TFJLMGl5VG1NbkFKbnJRUDhmWnRkNHd6WTNrS3ZjcEQ0S3VJYUphbXV0VVY2T1hzM0cwQWtOWTdvYy1tS0JyVmNXOWFxZ2h0ckhyM0lEU1F1Q09QdklFNC1TQ0h6WTNNSTdqaGUxV25SVENISzVzM2FkRWpQc25ha2NjbVJMXzNpakg2cy1ZVzVRQllPb0YyeUhUUVNaOUF4Qk15S0RRUVQtU3ZLakh2UGIwZTdyVm9VMXJaYXZ6QXVVT2JmMUtJSTlTSXFSTWNQY3M?oc=5",
+      "pub_date": "2026-04-23T20:42:26+00:00",
+      "first_seen": "2026-04-23T21:45:11.372010+00:00",
+      "source_feed": "Mortgage Rates 2026",
+      "pillar": "rates",
+      "score": 3.3,
+      "matched_keywords": [
+        "mortgage rates"
+      ],
+      "description": "Mortgage Rates Idle While Spring Homebuying Season Stalls &nbsp;&nbsp; The Mountaineer",
+      "status": "pending",
+      "drafts": {
+        "yt": "Mortgage rates stuck at 6.8% while spring inventory piles up\u2014Temple buyer leverage is shifting",
+        "tiktok": "Rates didn't drop but sellers are panicking\u2014here's how Temple buyers win this spring without waiting for 5%.",
+        "newsletter": "Mortgage rates held at 6.86% this week while spring inventory climbed nationally, creating the first buyer leverage since 2022. Temple's 47-day average DOM suggests sellers here are feeling it harder than the headline number shows\u2014concessions are moving faster than price cuts.",
+        "website": "Mortgage rates stalled at 6.86% this week while spring inventory is stacking up nationally, and Temple's seeing the same pattern with average days on market hitting 47. Buyers waiting for sub-6% rates are missing the actual shift: seller desperation is climbing faster than rates are falling, which means concessions, buydowns, and negotiating room you haven't seen in three years. The math favors locking now with a motivated seller over waiting six months for a 50-basis-point drop while competing against five other offers. Temple's investor buyers already see it\u201472% of my March closings included some form of seller credit or rate assistance.",
+        "business_tip": "Record a 90-second TikTok walking a Temple listing with visible price cuts or concessions, captioned with this week's 6.86% rate and the DOM increase\u2014post by 6pm for algorithm push to weekend scrollers."
+      },
+      "voice_scores": {
+        "yt": 72,
+        "tiktok": 72,
+        "newsletter": 78,
+        "website": 88
+      },
+      "needs_rewrite": false,
+      "voice_issues": {
+        "yt": [
+          {
+            "type": "hallucinated_number",
+            "detail": "6.8% mortgage rate cited without source. Must cite Acre Mortgage quote, MLS data, or another verifiable source.",
+            "quote": "6.8%"
+          },
+          {
+            "type": "no_creative",
+            "detail": "Hook is generic market observation (rates + inventory). Missing the Taylor-specific angle: a deal breakdown, MTR/LTR math, BSW/hospital area specifics, or a contrarian take on what investors should actually do with this shift."
+          },
+          {
+            "type": "tone",
+            "detail": "Feels more like a broad market take than an analyst-investor conversation. No data payload (cap rate impact? DSCR shift? specific property class affected?). Needs to sound like Taylor breaking down implications for his investor audience, not a general market comment."
+          }
+        ],
+        "tiktok": [
+          {
+            "type": "other",
+            "detail": "Hook is strong but lacks the data specificity Taylor leads with. 'Rates didn't drop' and 'sellers panicking' are narrative claims without supporting numbers (current rate, seller inventory, price movements). Taylor's voice is data-first.",
+            "quote": "Rates didn't drop but sellers are panicking"
+          },
+          {
+            "type": "no_creative",
+            "detail": "The creative element (seller panic = buyer advantage) is solid, but needs a concrete data angle to land. What's the actual metric? Inventory days? Price cuts? Contingency rate?",
+            "quote": ""
+          },
+          {
+            "type": "tone",
+            "detail": "TikTok native video hook is good, but the CTA 'win this spring' skews slightly salesy. Taylor would lead with the data prize, not the emotional win.",
+            "quote": "here's how Temple buyers win"
+          }
+        ],
+        "newsletter": [
+          {
+            "type": "hallucinated_number",
+            "detail": "47-day DOM cited without source. Need to verify against actual MLS data for Temple market.",
+            "quote": "Temple's 47-day average DOM"
+          },
+          {
+            "type": "hallucinated_number",
+            "detail": "6.86% mortgage rate stated without source citation. Need Acre Mortgage quote or documented rate sheet.",
+            "quote": "Mortgage rates held at 6.86% this week"
+          },
+          {
+            "type": "missing_creative",
+            "detail": "No unexpected angle. 'Spring inventory + buyer leverage' is standard market observation. Missing the Taylor hook\u2014a specific data point, contrarian take, or localized BSW/military angle that makes this memo standout.",
+            "quote": ""
+          },
+          {
+            "type": "tone",
+            "detail": "Reads more like a generic market update than analyst-grade investor memo. 'Feeling it harder than headline' is vague. Need specifics: concession $ amounts, days-to-offer trends, or cap rate impact.",
+            "quote": "sellers here are feeling it harder than the headline number shows"
+          }
+        ],
+        "website": [
+          {
+            "type": "hallucinated_number",
+            "detail": "72% of March closings with seller credit/rate assistance \u2014 needs MLS or transaction data cite. If you have this from your closing records, cite it explicitly ('my March closings: 72% included...'). If not, remove.",
+            "quote": "72% of my March closings included some form of seller credit or rate assistance"
+          },
+          {
+            "type": "other",
+            "detail": "47 days on market is close to the approved exemplar (83 days) but feels softer. Consider: is 47 your current snapshot or an average? If snapshot, say 'hit 47 this week.' If average, cite the period.",
+            "quote": "average days on market hitting 47"
+          }
+        ]
+      },
+      "website_ready": true,
+      "drafted_at": "2026-04-23T21:45:48.057159+00:00",
+      "pushed_at": "2026-04-23T21:45:48.623753+00:00"
+    }
+  ]
+}

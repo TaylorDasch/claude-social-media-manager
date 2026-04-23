@@ -1,0 +1,177 @@
+<!-- ============================================================
+     OMEGA BUILDERS YOUTUBE DEEP DIVE — VIDEO EMBED SECTION
+     Paste inside <main> on templetxhomes.net/omega-builders/
+     Recommended placement: directly after the Hero section
+     and before the "Verdict" box (so it's above-the-fold on scroll).
+     CSS prefix: om-vid-
+     ============================================================
+
+     AFTER FILMING — swap these 4 values:
+     1. data-youtube-id="XXXXXXXXXXX"  (replace with real 11-char YT ID)
+     2. src="https://i.ytimg.com/vi/XXXXXXXXXXX/maxresdefault.jpg"
+     3. Update chapter timestamps (lines marked with [UPDATE])
+     4. Update video title if different from filming plan
+     ============================================================ -->
+
+<style>
+.om-vid-section{padding:64px 0 72px;background:#0b1521}
+.om-vid-inner{max-width:1100px;margin:0 auto;padding:0 24px}
+.om-vid-eyebrow{font-family:'Outfit',system-ui,sans-serif;font-size:12px;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;color:#059669;margin:0 0 12px}
+.om-vid-h2{font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(30px,4.5vw,42px);font-weight:600;color:#f8fafc;line-height:1.15;margin:0 0 14px}
+.om-vid-lead{font-family:'Outfit',system-ui,sans-serif;font-size:17px;line-height:1.6;color:#cbd5e1;max-width:760px;margin:0 0 32px}
+.om-vid-lead strong{color:#f8fafc;font-weight:600}
+
+/* Responsive 16:9 video wrapper */
+.om-vid-wrap{position:relative;width:100%;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;background:#000;border:1px solid #2d4a6b;box-shadow:0 20px 60px -20px rgba(0,0,0,0.6)}
+.om-vid-wrap iframe,.om-vid-wrap .om-vid-poster{position:absolute;top:0;left:0;width:100%;height:100%;border:0;display:block}
+.om-vid-poster{background-size:cover;background-position:center;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all 0.3s ease}
+.om-vid-poster::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.55) 100%);z-index:1}
+.om-vid-play-btn{position:relative;z-index:2;width:88px;height:88px;border-radius:50%;background:rgba(5,150,105,0.95);display:flex;align-items:center;justify-content:center;transition:all 0.25s ease;box-shadow:0 8px 32px rgba(5,150,105,0.4)}
+.om-vid-poster:hover .om-vid-play-btn{background:#10b981;transform:scale(1.08)}
+.om-vid-play-btn svg{width:32px;height:32px;fill:#fff;margin-left:6px}
+.om-vid-title-overlay{position:absolute;left:0;right:0;bottom:0;z-index:2;padding:28px 32px;background:linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 100%)}
+.om-vid-title-overlay h3{font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(20px,2.5vw,26px);font-weight:600;color:#f8fafc;margin:0 0 6px;line-height:1.2}
+.om-vid-title-overlay p{font-family:'Outfit',system-ui,sans-serif;font-size:13px;color:#cbd5e1;margin:0}
+
+/* Chapter / timestamp strip */
+.om-vid-chapters{margin:32px 0 0;background:#162032;border:1px solid #2d4a6b;border-radius:10px;overflow:hidden}
+.om-vid-chapters-header{padding:16px 24px;background:#0f1a29;border-bottom:1px solid #2d4a6b}
+.om-vid-chapters-header h4{font-family:'Outfit',system-ui,sans-serif;font-size:11px;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:#059669;margin:0}
+.om-vid-chapters-list{list-style:none;padding:0;margin:0}
+.om-vid-chapters-list li{display:grid;grid-template-columns:72px 1fr;gap:20px;align-items:baseline;padding:14px 24px;border-bottom:1px solid #243a56;transition:background 0.15s ease}
+.om-vid-chapters-list li:last-child{border-bottom:none}
+.om-vid-chapters-list li:hover{background:#1a2d42}
+.om-vid-ts{font-family:'Outfit',system-ui,sans-serif;font-size:13px;font-weight:700;color:#059669;letter-spacing:0.04em;font-variant-numeric:tabular-nums}
+.om-vid-ts a{color:#059669;text-decoration:none;border-bottom:1px solid rgba(5,150,105,0.3);padding-bottom:1px}
+.om-vid-ts a:hover{color:#10b981;border-bottom-color:#10b981}
+.om-vid-chapter-title{font-family:'Outfit',system-ui,sans-serif;font-size:15px;color:#e2e8f0;line-height:1.45}
+.om-vid-chapter-title strong{color:#f8fafc;font-weight:600}
+
+/* Context strip under video */
+.om-vid-context{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:32px 0 0}
+.om-vid-context-item{background:#1a2d42;border:1px solid #2d4a6b;border-radius:8px;padding:20px}
+.om-vid-context-label{font-family:'Outfit',system-ui,sans-serif;font-size:10px;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:#059669;margin:0 0 6px}
+.om-vid-context-val{font-family:'Cormorant Garamond',Georgia,serif;font-size:22px;font-weight:600;color:#f8fafc;margin:0 0 4px;line-height:1.2}
+.om-vid-context-sub{font-family:'Outfit',system-ui,sans-serif;font-size:12px;color:#94a3b8;margin:0;line-height:1.4}
+
+@media (max-width:640px){
+  .om-vid-section{padding:48px 0 56px}
+  .om-vid-play-btn{width:68px;height:68px}
+  .om-vid-play-btn svg{width:26px;height:26px}
+  .om-vid-title-overlay{padding:20px 22px}
+  .om-vid-chapters-list li{grid-template-columns:60px 1fr;gap:14px;padding:12px 18px}
+  .om-vid-context{grid-template-columns:1fr;gap:12px}
+}
+</style>
+
+<section class="om-vid-section" id="omega-deep-dive-video">
+  <div class="om-vid-inner">
+
+    <p class="om-vid-eyebrow">YouTube Deep Dive · Filmed On-Site</p>
+    <h2 class="om-vid-h2">Walking Three Omega Model Homes — What I Actually Found</h2>
+    <p class="om-vid-lead">I spent a day inside three Omega model homes at <strong>Three Creeks, Hartrick Ranch, and North Point</strong> to stress-test the construction, question the finish decisions, and walk every inch of these floor plans so you don't have to trust the glossy builder brochure.</p>
+
+    <!-- VIDEO PLAYER (click-to-load pattern — saves page weight) -->
+    <div class="om-vid-wrap" data-youtube-id="XXXXXXXXXXX" role="button" tabindex="0" aria-label="Play Omega Builders deep dive video" onclick="omLoadVideo(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();omLoadVideo(this)}">
+      <div class="om-vid-poster" style="background-image:url('https://i.ytimg.com/vi/XXXXXXXXXXX/maxresdefault.jpg')">
+        <div class="om-vid-play-btn" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+        </div>
+        <div class="om-vid-title-overlay">
+          <h3>Omega Builders Temple, TX — The Honest Deep Dive (3 Model Home Walkthrough)</h3>
+          <p>Three Creeks · Hartrick Ranch · North Point — with commentary from a local investor</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- CHAPTER / TIMESTAMP STRIP -->
+    <div class="om-vid-chapters">
+      <div class="om-vid-chapters-header">
+        <h4>Video Chapters</h4>
+      </div>
+      <ul class="om-vid-chapters-list">
+        <li>
+          <span class="om-vid-ts"><a href="https://youtu.be/XXXXXXXXXXX?t=0" target="_blank" rel="noopener">0:00</a></span>
+          <span class="om-vid-chapter-title"><strong>What to watch for in an Omega home</strong> — the 4 things buyers skip</span>
+        </li>
+        <li>
+          <span class="om-vid-ts"><a href="https://youtu.be/XXXXXXXXXXX?t=XX" target="_blank" rel="noopener">X:XX</a></span>
+          <span class="om-vid-chapter-title"><strong>Three Creeks</strong> — Medallion Series walkthrough (Sable / Denver)</span>
+        </li>
+        <li>
+          <span class="om-vid-ts"><a href="https://youtu.be/XXXXXXXXXXX?t=XX" target="_blank" rel="noopener">X:XX</a></span>
+          <span class="om-vid-chapter-title"><strong>Hartrick Ranch</strong> — Cottage Series entry point (Riley / Aiden)</span>
+        </li>
+        <li>
+          <span class="om-vid-ts"><a href="https://youtu.be/XXXXXXXXXXX?t=XX" target="_blank" rel="noopener">X:XX</a></span>
+          <span class="om-vid-chapter-title"><strong>North Point</strong> — pricing, lot sizes, and what you get for the money</span>
+        </li>
+        <li>
+          <span class="om-vid-ts"><a href="https://youtu.be/XXXXXXXXXXX?t=XX" target="_blank" rel="noopener">X:XX</a></span>
+          <span class="om-vid-chapter-title"><strong>Construction quality</strong> — drywall, trim, HVAC sizing, slab notes</span>
+        </li>
+        <li>
+          <span class="om-vid-ts"><a href="https://youtu.be/XXXXXXXXXXX?t=XX" target="_blank" rel="noopener">X:XX</a></span>
+          <span class="om-vid-chapter-title"><strong>The incentive math</strong> — are rate buydowns actually saving you money?</span>
+        </li>
+        <li>
+          <span class="om-vid-ts"><a href="https://youtu.be/XXXXXXXXXXX?t=XX" target="_blank" rel="noopener">X:XX</a></span>
+          <span class="om-vid-chapter-title"><strong>Who Omega is for</strong> — and who should walk away</span>
+        </li>
+        <li>
+          <span class="om-vid-ts"><a href="https://youtu.be/XXXXXXXXXXX?t=XX" target="_blank" rel="noopener">X:XX</a></span>
+          <span class="om-vid-chapter-title"><strong>Verdict</strong> — final take + what I'd negotiate before signing</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- CONTEXT STRIP (3 data points to support the video) -->
+    <div class="om-vid-context">
+      <div class="om-vid-context-item">
+        <p class="om-vid-context-label">Models Walked</p>
+        <p class="om-vid-context-val">3 communities</p>
+        <p class="om-vid-context-sub">Three Creeks, Hartrick Ranch, North Point</p>
+      </div>
+      <div class="om-vid-context-item">
+        <p class="om-vid-context-label">Plans Shown</p>
+        <p class="om-vid-context-val">9 floor plans</p>
+        <p class="om-vid-context-sub">Cottage + Medallion series</p>
+      </div>
+      <div class="om-vid-context-item">
+        <p class="om-vid-context-label">Price Range Covered</p>
+        <p class="om-vid-context-val">$249K – $360K+</p>
+        <p class="om-vid-context-sub">Riley entry to Finley top-end</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<script>
+function omLoadVideo(el){
+  var id=el.getAttribute('data-youtube-id');
+  if(!id||id==='XXXXXXXXXXX')return;
+  var iframe=document.createElement('iframe');
+  iframe.src='https://www.youtube.com/embed/'+id+'?autoplay=1&rel=0&modestbranding=1';
+  iframe.title='Omega Builders Temple TX Deep Dive';
+  iframe.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+  iframe.allowFullscreen=true;
+  el.innerHTML='';
+  el.appendChild(iframe);
+}
+</script>
+
+<!-- ============================================================
+     END VIDEO EMBED SECTION
+
+     ================= DATE REFRESH CHECKLIST =================
+     On the existing Omega page, do these find-and-replace edits:
+
+     1. "Last Updated: March 8, 2026"   →   "Last Updated: April 16, 2026"
+     2. "Last Updated: March 2026"      →   "Last Updated: April 2026"
+     3. Schema block — update "dateModified": "2026-03-08"  →  "2026-04-16"
+     4. Schema block — if "datePublished" exists and you want it kept,
+        leave it. Only dateModified should roll forward.
+     5. Add near hero or verdict: small line "Video deep dive filmed
+        April 16, 2026 — see below."
+     =========================================================== -->

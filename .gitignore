@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.local
+*.log
+scripts/cron.log
+node_modules/
+.venv/
+venv/
+
+# Third-party plugin (has its own origin)
+claude-seo/

@@ -1,0 +1,31 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"/Users/taylordasch_1/claude-social-media-manager/.claude/hooks/srt-auto-correct.js\"",
+            "timeout": 5
+          }
+        ],
+        "description": "After writing/saving an .SRT file, prompt to run srt-corrector skill"
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "F=$(jq -r '.tool_input.file_path // \"\"'); case \"$F\" in */claude-social-media-manager/output/*) /usr/bin/python3 /Users/taylordasch_1/claude-social-media-manager/scripts/output-integrity-check.py --single-file \"$F\" ;; esac",
+            "timeout": 15,
+            "statusMessage": "Checking quality gates on output file..."
+          }
+        ],
+        "description": "Machine-enforce Gate 1 (banned words), Gate 2 (entity), Gate 11 (no-send) on any Write/Edit under claude-social-media-manager/output/. HARD gate fails block the write via exit 2."
+      }
+    ]
+  }
+}

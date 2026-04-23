@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-04-19T20:10:57.726311+00:00",
+  "min_sample_size": 3,
+  "total_ledger_rows": 10,
+  "total_crush_rows": 2,
+  "total_solid_rows": 8,
+  "proven_patterns": [],
+  "thin_patterns": [
+    {
+      "dimensions": {
+        "pillar": "Relocation",
+        "persona": "General",
+        "content_type": "video",
+        "platform": "youtube",
+        "day_of_week": "Friday"
+      },
+      "sample_size": 1,
+      "avg_lift": 0.0,
+      "sample_content_ids": [
+        "LIT-010"
+      ],
+      "sample_titles": [
+        "Living in Temple TX The Unfiltered Guide Cost of Living Pros Cons Tour"
+      ]
+    },
+    {
+      "dimensions": {
+        "pillar": "Market Data",
+        "persona": "Investor",
+        "content_type": "video",
+        "platform": "youtube",
+        "day_of_week": "Wednesday"
+      },
+      "sample_size": 1,
+      "avg_lift": 0.0,
+      "sample_content_ids": [
+        "INV-004"
+      ],
+      "sample_titles": [
+        "Investing in Temple TX from Out of State Why This Market Part 1"
+      ]
+    }
+  ],
+  "directional_summary": {
+    "crush_by_pillar": {
+      "Relocation": 1,
+      "Market Data": 1
+    },
+    "crush_by_persona": {
+      "General": 1,
+      "Investor": 1
+    },
+    "crush_by_platform": {
+      "youtube": 2
+    },
+    "solid_by_pillar": {
+      "Market Data": 4,
+      "Property Tours": 3,
+      "Relocation": 1
+    },
+    "total_crush": 2,
+    "total_solid": 8
+  },
+  "_note": "Proven = CRUSH count >= 3 AND avg_lift >= 1.5. Thin patterns are single CRUSH instances \u2014 informational. Re-run weekly as weekly-pull.py builds CRUSH history."
+}

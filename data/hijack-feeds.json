@@ -1,0 +1,120 @@
+{
+  "_meta": {
+    "purpose": "News-Hijack feed config. Consumed by ~/.hermes/scripts/news-hijack.py. Editable by Taylor — script reloads every run.",
+    "last_updated": "2026-04-16",
+    "notes": "Google News RSS used for sources lacking native feeds. Adjust weights to bias scoring toward higher-value pillars."
+  },
+  "feeds": [
+    {
+      "name": "Temple Daily Telegram",
+      "url": "https://news.google.com/rss/search?q=site:tdtnews.com&hl=en-US&gl=US&ceid=US:en",
+      "pillar": "local_news",
+      "weight": 1.3
+    },
+    {
+      "name": "BSW Temple News",
+      "url": "https://news.google.com/rss/search?q=%22Baylor+Scott+%26+White%22+Temple&hl=en-US&gl=US&ceid=US:en",
+      "pillar": "bsw",
+      "weight": 1.6
+    },
+    {
+      "name": "Fort Hood Military News",
+      "url": "https://news.google.com/rss/search?q=%22Fort+Hood%22+OR+%22Fort+Cavazos%22+military&hl=en-US&gl=US&ceid=US:en",
+      "pillar": "military",
+      "weight": 1.3
+    },
+    {
+      "name": "Mortgage Rates 2026",
+      "url": "https://news.google.com/rss/search?q=mortgage+rates+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+      "pillar": "rates",
+      "weight": 1.1
+    },
+    {
+      "name": "Fed Rate Decision",
+      "url": "https://news.google.com/rss/search?q=%22Federal+Reserve%22+rate+decision&hl=en-US&gl=US&ceid=US:en",
+      "pillar": "rates",
+      "weight": 1.0
+    },
+    {
+      "name": "Temple TX Real Estate",
+      "url": "https://news.google.com/rss/search?q=%22Temple+TX%22+real+estate+OR+housing&hl=en-US&gl=US&ceid=US:en",
+      "pillar": "local_re",
+      "weight": 1.4
+    },
+    {
+      "name": "Bell County Housing",
+      "url": "https://news.google.com/rss/search?q=%22Bell+County%22+housing+OR+home+prices&hl=en-US&gl=US&ceid=US:en",
+      "pillar": "local_re",
+      "weight": 1.2
+    },
+    {
+      "name": "Killeen Harker Heights News",
+      "url": "https://news.google.com/rss/search?q=Killeen+OR+%22Harker+Heights%22+housing&hl=en-US&gl=US&ceid=US:en",
+      "pillar": "local_re",
+      "weight": 1.0
+    },
+    {
+      "name": "VA Loan / Military PCS",
+      "url": "https://news.google.com/rss/search?q=%22VA+loan%22+OR+%22military+PCS%22+housing&hl=en-US&gl=US&ceid=US:en",
+      "pillar": "military",
+      "weight": 1.1
+    },
+    {
+      "name": "Texas Housing Market",
+      "url": "https://news.google.com/rss/search?q=%22Texas+housing+market%22+OR+%22Central+Texas%22+real+estate&hl=en-US&gl=US&ceid=US:en",
+      "pillar": "local_re",
+      "weight": 1.0
+    },
+    {
+      "name": "Physician Home Loan News",
+      "url": "https://news.google.com/rss/search?q=%22physician+loan%22+OR+%22doctor+loan%22+mortgage&hl=en-US&gl=US&ceid=US:en",
+      "pillar": "bsw",
+      "weight": 1.3
+    }
+  ],
+  "scoring_keywords": {
+    "temple": 3,
+    "bsw": 4,
+    "baylor scott": 4,
+    "baylor scott & white": 4,
+    "fort hood": 3,
+    "fort cavazos": 3,
+    "military pcs": 2,
+    "bah": 2,
+    "mortgage rates": 3,
+    "fed rate": 2,
+    "federal reserve": 2,
+    "home prices": 3,
+    "housing market": 2,
+    "expired listing": 2,
+    "va loan": 2,
+    "physician loan": 3,
+    "doctor loan": 3,
+    "bell county": 2,
+    "belton": 1,
+    "killeen": 1,
+    "harker heights": 1,
+    "waco": 1,
+    "texas a&m": 1,
+    "central texas": 1,
+    "relocation": 1,
+    "new construction": 1,
+    "hospital expansion": 2
+  },
+  "threshold": 3.0,
+  "max_age_hours": 12,
+  "pillar_to_newsletter": {
+    "bsw": "investor_brief",
+    "rates": "investor_brief",
+    "local_re": "temple_insider",
+    "local_news": "temple_insider",
+    "military": "temple_insider"
+  },
+  "pillar_to_tiktok_audience": {
+    "bsw": "buyer",
+    "rates": "buyer",
+    "local_re": "buyer",
+    "local_news": "buyer",
+    "military": "buyer"
+  }
+}

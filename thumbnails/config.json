@@ -1,0 +1,11 @@
+{
+  "geminiApiKey": "",
+  "geminiApiKeyEnv": "GEMINI_API_KEY",
+  "defaultModel": "gemini-2.5-flash-image",
+  "hqModel": "gemini-3-pro-image-preview",
+  "defaultVariants": 3,
+  "defaultCompositeMode": "manual",
+  "expressionsDir": "./assets/expressions/",
+  "outputDir": "./output/",
+  "fontsDir": "./assets/fonts/"
+}

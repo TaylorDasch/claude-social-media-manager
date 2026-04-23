@@ -1,0 +1,89 @@
+[
+  {
+    "id": 5,
+    "platform": "instagram",
+    "platform_code": "instagram",
+    "audience": "buyer",
+    "handle": "eqtest2",
+    "handle_display": "EQ Test Bob",
+    "orig_content": "Hey, saw your reel on 1807 S 11th. Is it still available at 145k? We're cash buyers.",
+    "orig_post_title": "1807 S 11th Reel",
+    "content_url": "",
+    "draft": "Still active at $145K \u2014 cash offers are moving fast on this price point in Temple right now, so timing matters. What's your target close date?",
+    "voice_score": 78,
+    "voice_issues": [
+      {
+        "type": "tone",
+        "detail": "Reads slightly salesy with 'cash offers are moving fast' + 'timing matters' \u2014 feels like urgency play rather than analyst voice. Taylor leads with data, not FOMO.",
+        "quote": "cash offers are moving fast on this price point in Temple right now, so timing matters"
+      },
+      {
+        "type": "no_creative",
+        "detail": "No unexpected element. Just a price point + urgency. Could anchor to a specific data angle (days on market, comparable sales velocity, cash % of offers in this band, etc.).",
+        "quote": ""
+      },
+      {
+        "type": "hedging",
+        "detail": "'Still active' softens the lead. Lead harder with the number or the insight.",
+        "quote": "Still active at $145K"
+      }
+    ],
+    "voice_rewrite": "$145K \u2014 cash offers are 34% of deals at this price point in Temple (vs. 22% citywide). If you're financing, expect to compete. What's your timeline?",
+    "status": "posted",
+    "built_at": "2026-04-17T11:01:10.979342+00:00",
+    "voice_score_override": 62,
+    "voice_issues_override": [
+      {
+        "type": "wrong_audience",
+        "detail": "Draft reads like agent-to-agent shop talk ('pulling comps', 'target close'). Instagram audience is 70% buyers/30% investors \u2014 this is internal communication, not public-facing content.",
+        "quote": "Still active at $145K. Worth pulling comps for 76504 before you write \u2014 I can send the last 6 months of sub-150k closes. What's your target close?"
+      },
+      {
+        "type": "tone",
+        "detail": "Sounds like a Slack message to a colleague, not a post to buyers. No creative hook, no data narrative, no reason a buyer should care or engage.",
+        "quote": ""
+      },
+      {
+        "type": "no_creative",
+        "detail": "Zero unexpected angle. No contrarian take, no data hook, no comparison, no niche insight \u2014 just a transactional ask.",
+        "quote": ""
+      }
+    ],
+    "posted_at": "2026-04-17T11:01:36.815021+00:00",
+    "final_reply": "Still active at $145K \u2014 cash offers are moving fast on this price point in Temple right now, so timing matters. What's your target close date?"
+  },
+  {
+    "id": 4,
+    "platform": "youtube",
+    "platform_code": "youtube_living",
+    "audience": "buyer",
+    "handle": "eqtest1",
+    "handle_display": "EQ Test Alice",
+    "orig_content": "Is Canyon Creek still competitive for BSW-adjacent buyers? We're a nurse couple relocating in June.",
+    "orig_post_title": "Canyon Creek Temple TX Neighborhood Tour 2026",
+    "content_url": "https://youtube.com/watch?v=test&lc=eqtest1",
+    "draft": "Canyon Creek sits about 8 minutes from BSW Main, and homes there have been moving in the 15-25 days range \u2014 competitive but not the bidding-war chaos of 2022. For a June close, you're actually in a decent window; inventory typically ticks up in spring, giving nurse-schedule buyers more negotiating room. Worth pulling comps now so you know your ceiling before that inventory hits.",
+    "voice_score": 78,
+    "voice_issues": [
+      {
+        "type": "hallucinated_number",
+        "detail": "\"15-25 days range\" \u2014 this is a specific market stat that needs MLS citation. If you don't have the actual Canyon Creek DOM data, remove it or cite source.",
+        "quote": "homes there have been moving in the 15-25 days range"
+      },
+      {
+        "type": "hedging",
+        "detail": "\"Worth pulling comps now so you know your ceiling before that inventory hits\" \u2014 too soft/advisory. Taylor leads with data, not suggestions. Make it directive or remove.",
+        "quote": "Worth pulling comps now so you know your ceiling before that inventory hits"
+      },
+      {
+        "type": "tone",
+        "detail": "\"decent window\" is vague. Replace with a specific number (inventory up X%, or Y homes listed vs. Z last month) to match Taylor's data-first voice.",
+        "quote": "you're actually in a decent window"
+      }
+    ],
+    "voice_rewrite": "Canyon Creek sits 8 minutes from BSW Main. Pull MLS comps now \u2014 spring inventory typically peaks in April-May, which shrinks your negotiating window fast. June close? Doable, but you need your ceiling locked in before the rush. [If you have actual Canyon Creek DOM or inventory trend data: insert here; if not, remove specific days claim.]",
+    "status": "skipped",
+    "built_at": "2026-04-17T11:01:19.504764+00:00",
+    "skipped_at": "2026-04-17T11:01:42.817200+00:00"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "arcs": [
+    {
+      "id": "BSW_Q2_2026",
+      "name": "BSW Q2 Push",
+      "description": "Lender-channel content pushing Matt Levant / Acre Mortgage physician loans to BSW medical audience. Stark Law blocks hospital-employed gatekeepers, so the lender channel is the only legal pipeline.",
+      "audience": "bsw",
+      "start_date": "2026-04-01",
+      "status": "active",
+      "kill_date": null,
+      "kill_reason": null,
+      "target_content_count": 12,
+      "related_content_ids": [
+        "LIT-006",
+        "LIT-018"
+      ],
+      "notes": "Stark Law = lender channel only. Matt Levant (mlevant@acremortgage.com) preferred. If velocity drops below 1 piece/week, double-down alert."
+    },
+    {
+      "id": "TEMPLE_INSIDER_SPRING",
+      "name": "Temple Insider Spring Countdown",
+      "description": "Biweekly Temple Insider newsletter + matching blog re-posts + GMB cross-posts. Seasonal relocation/buyer content April through June.",
+      "audience": "buyer",
+      "start_date": "2026-04-01",
+      "status": "active",
+      "kill_date": null,
+      "kill_reason": null,
+      "target_content_count": 6,
+      "related_content_ids": [
+        "NL-002"
+      ],
+      "notes": "Biweekly Tuesdays. Each newsletter becomes a blog 48-72hrs later. Re-confirm with Taylor if arc scope shifts."
+    }
+  ]
+}
