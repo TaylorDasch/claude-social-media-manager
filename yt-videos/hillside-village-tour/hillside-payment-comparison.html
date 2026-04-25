@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hillside Village — Monthly Payment Comparison</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #000;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  .card {
+    width: 1280px;
+    height: 720px;
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .grid-bg {
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(5,150,105,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(5,150,105,0.04) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+
+  .corner { position: absolute; width: 28px; height: 28px; z-index: 20; }
+  .c-tl { top: 8px; left: 8px; border-top: 2px solid #059669; border-left: 2px solid #059669; }
+  .c-tr { top: 8px; right: 8px; border-top: 2px solid #059669; border-right: 2px solid #059669; }
+  .c-bl { bottom: 8px; left: 8px; border-bottom: 2px solid #059669; border-left: 2px solid #059669; }
+  .c-br { bottom: 8px; right: 8px; border-bottom: 2px solid #059669; border-right: 2px solid #059669; }
+
+  .top-label {
+    position: absolute;
+    top: 24px;
+    left: 32px;
+    font-size: 11px;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    z-index: 10;
+  }
+
+  .hood-label {
+    position: absolute;
+    top: 24px;
+    right: 32px;
+    font-size: 11px;
+    color: #059669;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    z-index: 10;
+  }
+
+  .title {
+    position: absolute;
+    top: 56px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #f8fafc;
+    z-index: 5;
+    animation: fadeUp 0.5s 0.2s both;
+  }
+  .title span { color: #059669; }
+
+  .subtitle {
+    position: absolute;
+    top: 106px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 15px;
+    color: #64748b;
+    z-index: 5;
+    animation: fadeUp 0.5s 0.3s both;
+  }
+
+  /* Comparison columns */
+  .compare {
+    position: absolute;
+    top: 145px;
+    left: 60px;
+    right: 60px;
+    bottom: 64px;
+    display: flex;
+    gap: 28px;
+    z-index: 5;
+  }
+
+  .col {
+    flex: 1;
+    border-radius: 16px;
+    padding: 24px 28px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+  }
+
+  .col-hv {
+    background: rgba(5,150,105,0.06);
+    border: 2px solid rgba(5,150,105,0.25);
+    animation: fadeRight 0.5s 0.4s both;
+  }
+
+  .col-other {
+    background: rgba(239,68,68,0.04);
+    border: 2px solid rgba(239,68,68,0.15);
+    animation: fadeRight 0.5s 0.6s both;
+  }
+
+  .col-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6px;
+  }
+
+  .col-name {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .col-hv .col-name { color: #34d399; }
+  .col-other .col-name { color: #f87171; }
+
+  .col-tax {
+    font-size: 28px;
+    font-weight: 800;
+    font-family: 'Cormorant Garamond', serif;
+  }
+  .col-hv .col-tax { color: #34d399; }
+  .col-other .col-tax { color: #f87171; }
+
+  .col-desc {
+    font-size: 13px;
+    color: #64748b;
+    margin-bottom: 18px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid rgba(248,250,252,0.06);
+  }
+
+  .line-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px 0;
+    border-bottom: 1px solid rgba(248,250,252,0.04);
+  }
+
+  .line-item:last-of-type {
+    border-bottom: none;
+  }
+
+  .line-label {
+    font-size: 14px;
+    color: #94a3b8;
+  }
+
+  .line-value {
+    font-size: 16px;
+    font-weight: 600;
+    color: #e2e8f0;
+  }
+
+  .total-row {
+    margin-top: auto;
+    padding-top: 14px;
+    border-top: 2px solid rgba(248,250,252,0.08);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .total-label {
+    font-size: 13px;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .total-value {
+    font-size: 32px;
+    font-weight: 800;
+  }
+
+  .col-hv .total-value { color: #34d399; }
+  .col-other .total-value { color: #f87171; }
+
+  .total-value .per {
+    font-size: 14px;
+    font-weight: 400;
+    color: #64748b;
+  }
+
+  /* Savings callout (center) */
+  .savings-badge {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+    background: #059669;
+    border-radius: 50%;
+    width: 96px;
+    height: 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 40px rgba(5,150,105,0.4);
+    opacity: 0;
+    animation: popIn 0.4s 1.0s both;
+  }
+
+  .savings-badge .amt {
+    font-size: 22px;
+    font-weight: 800;
+    color: #fff;
+    line-height: 1;
+  }
+
+  .savings-badge .sav {
+    font-size: 9px;
+    color: rgba(255,255,255,0.8);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 2px;
+  }
+
+  /* Annual callout */
+  .annual {
+    position: absolute;
+    bottom: 76px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(5,150,105,0.1);
+    border: 1px solid rgba(5,150,105,0.25);
+    border-radius: 100px;
+    padding: 8px 28px;
+    font-size: 14px;
+    color: #94a3b8;
+    z-index: 10;
+    opacity: 0;
+    animation: fadeUp 0.5s 1.3s both;
+    white-space: nowrap;
+  }
+
+  .annual strong {
+    color: #34d399;
+    font-weight: 700;
+  }
+
+  /* Brand bar */
+  .brand-bar {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 56px;
+    background: rgba(5,150,105,0.08);
+    border-top: 1px solid rgba(5,150,105,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 32px;
+    z-index: 10;
+  }
+  .brand-bar .nm { font-weight: 600; font-size: 14px; color: #f8fafc; }
+  .brand-bar .nm span { color: #94a3b8; font-weight: 400; }
+  .brand-bar .st { font-size: 13px; color: #64748b; letter-spacing: 1px; }
+
+  /* Toggle */
+  .toggle-bar {
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    background: rgba(15,23,42,0.8);
+    border: 1px solid rgba(248,250,252,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    z-index: 20;
+  }
+
+  .toggle-btn {
+    padding: 8px 20px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #64748b;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: 'Outfit', sans-serif;
+    transition: all 0.3s;
+  }
+
+  .toggle-btn.active {
+    background: #059669;
+    color: #fff;
+  }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes fadeRight {
+    from { opacity: 0; transform: translateX(-16px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+  @keyframes popIn {
+    0% { opacity: 0; transform: translate(-50%,-50%) scale(0.5); }
+    70% { transform: translate(-50%,-50%) scale(1.1); }
+    100% { opacity: 1; transform: translate(-50%,-50%) scale(1); }
+  }
+</style>
+</head>
+<body>
+
+<div class="card">
+  <div class="grid-bg"></div>
+  <div class="corner c-tl"></div><div class="corner c-tr"></div>
+  <div class="corner c-bl"></div><div class="corner c-br"></div>
+  <div class="top-label">Monthly Payment Breakdown</div>
+  <div class="hood-label">Hillside Village</div>
+
+  <div class="title">What You <span>Actually Pay</span></div>
+  <div class="subtitle">Same $250K home — different tax bill &middot; 6.75% rate, 30-yr fixed</div>
+
+  <div class="toggle-bar">
+    <button class="toggle-btn active" onclick="showPrice(250)">$250K Home</button>
+    <button class="toggle-btn" onclick="showPrice(300)">$300K Home</button>
+  </div>
+
+  <div class="compare">
+    <!-- Hillside Village -->
+    <div class="col col-hv">
+      <div class="col-header">
+        <div class="col-name">Hillside Village</div>
+        <div class="col-tax">1.69%</div>
+      </div>
+      <div class="col-desc">Lower tax district</div>
+      <div class="line-item">
+        <span class="line-label">Principal & Interest</span>
+        <span class="line-value" id="hv-pi">$1,621</span>
+      </div>
+      <div class="line-item">
+        <span class="line-label">Property Tax</span>
+        <span class="line-value" id="hv-tax" style="color:#34d399;">$352</span>
+      </div>
+      <div class="line-item">
+        <span class="line-label">Insurance (est.)</span>
+        <span class="line-value">$175</span>
+      </div>
+      <div class="total-row">
+        <span class="total-label">Total / Month</span>
+        <span class="total-value" id="hv-total">$2,149 <span class="per">/mo</span></span>
+      </div>
+    </div>
+
+    <!-- Savings badge -->
+    <div class="savings-badge">
+      <div class="amt" id="sav-amt">$127</div>
+      <div class="sav">saved/mo</div>
+    </div>
+
+    <!-- Other Temple -->
+    <div class="col col-other">
+      <div class="col-header">
+        <div class="col-name">Other Temple New Build</div>
+        <div class="col-tax">2.30%</div>
+      </div>
+      <div class="col-desc">Typical Temple tax rate</div>
+      <div class="line-item">
+        <span class="line-label">Principal & Interest</span>
+        <span class="line-value" id="ot-pi">$1,621</span>
+      </div>
+      <div class="line-item">
+        <span class="line-label">Property Tax</span>
+        <span class="line-value" id="ot-tax" style="color:#f87171;">$479</span>
+      </div>
+      <div class="line-item">
+        <span class="line-label">Insurance (est.)</span>
+        <span class="line-value">$175</span>
+      </div>
+      <div class="total-row">
+        <span class="total-label">Total / Month</span>
+        <span class="total-value" id="ot-total">$2,276 <span class="per">/mo</span></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="annual" id="annual-line">That's <strong>$1,525 back in your pocket every year</strong></div>
+
+  <div class="brand-bar">
+    <div class="nm">Taylor Dasch <span>· EG Realty</span></div>
+    <div class="st">templetxhomes.net</div>
+  </div>
+</div>
+
+<script>
+const data = {
+  250: { pi: 1621, hvTax: 352, otTax: 479, hvTotal: 2149, otTotal: 2276, save: 127, annual: 1525 },
+  300: { pi: 1946, hvTax: 422, otTax: 575, hvTotal: 2543, otTotal: 2696, save: 153, annual: 1830 }
+};
+
+function showPrice(k) {
+  const d = data[k];
+  document.getElementById('hv-pi').textContent = '$' + d.pi.toLocaleString();
+  document.getElementById('hv-tax').textContent = '$' + d.hvTax;
+  document.getElementById('hv-total').innerHTML = '$' + d.hvTotal.toLocaleString() + ' <span class="per">/mo</span>';
+  document.getElementById('ot-pi').textContent = '$' + d.pi.toLocaleString();
+  document.getElementById('ot-tax').textContent = '$' + d.otTax;
+  document.getElementById('ot-total').innerHTML = '$' + d.otTotal.toLocaleString() + ' <span class="per">/mo</span>';
+  document.getElementById('sav-amt').textContent = '$' + d.save;
+  document.getElementById('annual-line').innerHTML = 'That\\'s <strong>$' + d.annual.toLocaleString() + ' back in your pocket every year</strong>';
+
+  document.querySelector('.subtitle').textContent = 'Same $' + k + 'K home — different tax bill · 6.75% rate, 30-yr fixed';
+
+  document.querySelectorAll('.toggle-btn').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+}
+</script>
+
+</body>
+</html>

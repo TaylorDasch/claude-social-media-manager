@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hillside Village — Proximity Map</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #0f172a;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+
+  .map-card {
+    width: 1280px;
+    height: 720px;
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    border-radius: 16px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid rgba(5, 150, 105, 0.3);
+  }
+
+  /* Subtle grid background */
+  .map-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(5, 150, 105, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(5, 150, 105, 0.05) 1px, transparent 1px);
+    background-size: 40px 40px;
+    z-index: 0;
+  }
+
+  /* Top bar */
+  .top-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 64px;
+    background: rgba(5, 150, 105, 0.15);
+    border-bottom: 1px solid rgba(5, 150, 105, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 32px;
+    z-index: 10;
+  }
+
+  .top-bar h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #f8fafc;
+    letter-spacing: 1px;
+  }
+
+  .top-bar h1 span {
+    color: #059669;
+  }
+
+  .top-bar .subtitle {
+    font-size: 14px;
+    color: #94a3b8;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  /* Main map area */
+  .map-area {
+    position: absolute;
+    top: 64px;
+    left: 0;
+    right: 0;
+    bottom: 80px;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Road network (simplified schematic) */
+  .road-grid {
+    position: relative;
+    width: 900px;
+    height: 480px;
+  }
+
+  /* SVG road map */
+  .road-grid svg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  /* Location pins */
+  .pin {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+    animation: pinDrop 0.6s ease-out both;
+  }
+
+  .pin:nth-child(2) { animation-delay: 0.2s; }
+  .pin:nth-child(3) { animation-delay: 0.4s; }
+  .pin:nth-child(4) { animation-delay: 0.6s; }
+  .pin:nth-child(5) { animation-delay: 0.8s; }
+
+  @keyframes pinDrop {
+    0% { transform: translateY(-30px); opacity: 0; }
+    60% { transform: translateY(4px); opacity: 1; }
+    100% { transform: translateY(0); opacity: 1; }
+  }
+
+  .pin-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    position: relative;
+  }
+
+  .pin-icon::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+  }
+
+  /* Pin colors by type */
+  .pin--home .pin-icon {
+    background: linear-gradient(135deg, #059669, #047857);
+    border: 3px solid #34d399;
+  }
+  .pin--home .pin-icon::after { border-top: 10px solid #047857; }
+
+  .pin--hospital .pin-icon {
+    background: linear-gradient(135deg, #dc2626, #b91c1c);
+    border: 3px solid #f87171;
+  }
+  .pin--hospital .pin-icon::after { border-top: 10px solid #b91c1c; }
+
+  .pin--va .pin-icon {
+    background: linear-gradient(135deg, #1d4ed8, #1e40af);
+    border: 3px solid #60a5fa;
+  }
+  .pin--va .pin-icon::after { border-top: 10px solid #1e40af; }
+
+  .pin--school .pin-icon {
+    background: linear-gradient(135deg, #d97706, #b45309);
+    border: 3px solid #fbbf24;
+  }
+  .pin--school .pin-icon::after { border-top: 10px solid #b45309; }
+
+  .pin--shop .pin-icon {
+    background: linear-gradient(135deg, #7c3aed, #6d28d9);
+    border: 3px solid #a78bfa;
+  }
+  .pin--shop .pin-icon::after { border-top: 10px solid #6d28d9; }
+
+  .pin-label {
+    margin-top: 12px;
+    background: rgba(15, 23, 42, 0.95);
+    border: 1px solid rgba(248, 250, 252, 0.15);
+    border-radius: 8px;
+    padding: 6px 14px;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .pin-label .name {
+    font-weight: 600;
+    font-size: 13px;
+    color: #f8fafc;
+    display: block;
+  }
+
+  .pin-label .distance {
+    font-size: 12px;
+    font-weight: 700;
+    color: #34d399;
+    margin-top: 2px;
+    display: block;
+  }
+
+  /* Pulse ring on home pin */
+  .pulse-ring {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 2px solid #34d399;
+    animation: pulse 2s ease-out infinite;
+  }
+
+  @keyframes pulse {
+    0% { transform: scale(1); opacity: 0.6; }
+    100% { transform: scale(2.2); opacity: 0; }
+  }
+
+  /* Route lines (dashed) */
+  .route-line {
+    stroke-dasharray: 8 6;
+    stroke-linecap: round;
+    animation: dash 20s linear infinite;
+  }
+
+  @keyframes dash {
+    to { stroke-dashoffset: -280; }
+  }
+
+  /* Bottom bar */
+  .bottom-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background: rgba(5, 150, 105, 0.08);
+    border-top: 1px solid rgba(5, 150, 105, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 32px;
+    z-index: 10;
+  }
+
+  .stat-row {
+    display: flex;
+    gap: 40px;
+  }
+
+  .stat {
+    text-align: center;
+  }
+
+  .stat .value {
+    font-size: 22px;
+    font-weight: 700;
+    color: #34d399;
+  }
+
+  .stat .label {
+    font-size: 11px;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-top: 2px;
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .brand img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 2px solid #059669;
+    object-fit: cover;
+  }
+
+  .brand-text .agent-name {
+    font-weight: 600;
+    font-size: 15px;
+    color: #f8fafc;
+  }
+
+  .brand-text .brokerage {
+    font-size: 12px;
+    color: #94a3b8;
+  }
+
+  /* Legend */
+  .legend {
+    position: absolute;
+    top: 80px;
+    right: 24px;
+    background: rgba(15, 23, 42, 0.9);
+    border: 1px solid rgba(248, 250, 252, 0.1);
+    border-radius: 10px;
+    padding: 14px 18px;
+    z-index: 10;
+  }
+
+  .legend-title {
+    font-size: 10px;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+  }
+
+  .legend-item:last-child { margin-bottom: 0; }
+
+  .legend-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  .legend-dot--home { background: #059669; }
+  .legend-dot--hospital { background: #dc2626; }
+  .legend-dot--va { background: #1d4ed8; }
+  .legend-dot--school { background: #d97706; }
+  .legend-dot--shop { background: #7c3aed; }
+
+  .legend-label {
+    font-size: 12px;
+    color: #cbd5e1;
+  }
+
+  /* Corner accents */
+  .corner {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    z-index: 10;
+  }
+
+  .corner--tl { top: 6px; left: 6px; border-top: 2px solid #059669; border-left: 2px solid #059669; }
+  .corner--tr { top: 6px; right: 6px; border-top: 2px solid #059669; border-right: 2px solid #059669; }
+  .corner--bl { bottom: 6px; left: 6px; border-bottom: 2px solid #059669; border-left: 2px solid #059669; }
+  .corner--br { bottom: 6px; right: 6px; border-bottom: 2px solid #059669; border-right: 2px solid #059669; }
+</style>
+</head>
+<body>
+
+<div class="map-card">
+  <!-- Corner accents -->
+  <div class="corner corner--tl"></div>
+  <div class="corner corner--tr"></div>
+  <div class="corner corner--bl"></div>
+  <div class="corner corner--br"></div>
+
+  <!-- Top bar -->
+  <div class="top-bar">
+    <h1>Hillside Village <span>— Proximity Map</span></h1>
+    <div class="subtitle">Temple, TX 76502</div>
+  </div>
+
+  <!-- Legend -->
+  <div class="legend">
+    <div class="legend-title">Key</div>
+    <div class="legend-item"><div class="legend-dot legend-dot--home"></div><span class="legend-label">Hillside Village</span></div>
+    <div class="legend-item"><div class="legend-dot legend-dot--hospital"></div><span class="legend-label">BSW Medical</span></div>
+    <div class="legend-item"><div class="legend-dot legend-dot--va"></div><span class="legend-label">VA Hospital</span></div>
+    <div class="legend-item"><div class="legend-dot legend-dot--school"></div><span class="legend-label">Temple College</span></div>
+    <div class="legend-item"><div class="legend-dot legend-dot--shop"></div><span class="legend-label">H-E-B / Retail</span></div>
+  </div>
+
+  <!-- Map area -->
+  <div class="map-area">
+    <div class="road-grid">
+
+      <!-- SVG route lines -->
+      <svg viewbox="0 0 900 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- Major roads (faint) -->
+        <!-- I-35 (vertical, right side) -->
+        <line x1="720" y1="0" x2="720" y2="480" stroke="rgba(148,163,184,0.15)" stroke-width="12"/>
+        <line x1="720" y1="0" x2="720" y2="480" stroke="rgba(148,163,184,0.08)" stroke-width="20"/>
+
+        <!-- Hwy 190 / Adams Ave (horizontal) -->
+        <line x1="0" y1="180" x2="900" y2="180" stroke="rgba(148,163,184,0.12)" stroke-width="8"/>
+
+        <!-- S 31st / S General Bruce (vertical, left area) -->
+        <line x1="200" y1="0" x2="200" y2="480" stroke="rgba(148,163,184,0.08)" stroke-width="6"/>
+
+        <!-- Loop 363 (diagonal bottom) -->
+        <line x1="100" y1="380" x2="750" y2="420" stroke="rgba(148,163,184,0.08)" stroke-width="6"/>
+
+        <!-- Road labels -->
+        <text x="730" y="250" fill="rgba(148,163,184,0.25)" font-family="Outfit" font-size="11" font-weight="600" transform="rotate(90 730 250)">I-35</text>
+        <text x="400" y="172" fill="rgba(148,163,184,0.2)" font-family="Outfit" font-size="11" font-weight="500">HWY 190 / Adams Ave</text>
+        <text x="210" y="300" fill="rgba(148,163,184,0.18)" font-family="Outfit" font-size="10" font-weight="500" transform="rotate(90 210 300)">S 31st St</text>
+
+        <!-- Route: Hillside → BSW (emerald dashed) -->
+        <path d="M 450 310 C 400 310, 320 280, 280 220 C 260 180, 220 140, 180 120"
+              class="route-line" stroke="#34d399" stroke-width="3" fill="none" opacity="0.7"/>
+
+        <!-- Route: Hillside → VA Hospital (next to BSW) -->
+        <path d="M 450 300 C 400 280, 340 240, 300 190 C 280 160, 270 130, 270 110"
+              class="route-line" stroke="#60a5fa" stroke-width="3" fill="none" opacity="0.7"/>
+
+        <!-- Route: Hillside → Temple College -->
+        <path d="M 440 290 C 380 260, 340 220, 320 190"
+              class="route-line" stroke="#fbbf24" stroke-width="3" fill="none" opacity="0.5"/>
+
+        <!-- Route: Hillside → H-E-B -->
+        <path d="M 420 300 C 350 280, 220 240, 130 200"
+              class="route-line" stroke="#a78bfa" stroke-width="3" fill="none" opacity="0.5"/>
+      </svg>
+
+      <!-- Hillside Village (center-bottom) -->
+      <div class="pin pin--home" style="left: 410px; top: 280px;">
+        <div class="pulse-ring"></div>
+        <div class="pin-icon">
+          <svg width="26" height="26" viewbox="0 0 24 24" fill="white"><path d="M12 3L2 12h3v8h6v-6h2v6h6v-8h3L12 3z"/></svg>
+        </div>
+        <div class="pin-label">
+          <span class="name">Hillside Village</span>
+        </div>
+      </div>
+
+      <!-- BSW Medical Center (upper-left) -->
+      <div class="pin pin--hospital" style="left: 140px; top: 60px;">
+        <div class="pin-icon">
+          <svg width="24" height="24" viewbox="0 0 24 24" fill="white"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 11h-4v4h-4v-4H6v-4h4V6h4v4h4v4z"/></svg>
+        </div>
+        <div class="pin-label">
+          <span class="name">BSW Medical Center</span>
+          <span class="distance">3.7 mi · 9 min</span>
+        </div>
+      </div>
+
+      <!-- VA Hospital (next to BSW) -->
+      <div class="pin pin--va" style="left: 240px; top: 60px;">
+        <div class="pin-icon">
+          <svg width="22" height="22" viewbox="0 0 24 24" fill="white"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/></svg>
+        </div>
+        <div class="pin-label">
+          <span class="name">Olin E. Teague VA</span>
+          <span class="distance">3.6 mi · 10 min</span>
+        </div>
+      </div>
+
+      <!-- Temple College (center-upper) -->
+      <div class="pin pin--school" style="left: 290px; top: 140px;">
+        <div class="pin-icon">
+          <svg width="22" height="22" viewbox="0 0 24 24" fill="white"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/></svg>
+        </div>
+        <div class="pin-label">
+          <span class="name">Temple College</span>
+          <span class="distance">2.1 mi · 5 min</span>
+        </div>
+      </div>
+
+      <!-- H-E-B / Retail (left) -->
+      <div class="pin pin--shop" style="left: 70px; top: 150px;">
+        <div class="pin-icon">
+          <svg width="22" height="22" viewbox="0 0 24 24" fill="white"><path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg>
+        </div>
+        <div class="pin-label">
+          <span class="name">H-E-B & Retail</span>
+          <span class="distance">2.8 mi · 7 min</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Bottom bar -->
+  <div class="bottom-bar">
+    <div class="stat-row">
+      <div class="stat">
+        <div class="value">9 min</div>
+        <div class="label">To BSW Hospital</div>
+      </div>
+      <div class="stat">
+        <div class="value">10 min</div>
+        <div class="label">To VA Hospital</div>
+      </div>
+      <div class="stat">
+        <div class="value">5 min</div>
+        <div class="label">To Temple College</div>
+      </div>
+      <div class="stat">
+        <div class="value">10 min</div>
+        <div class="label">To I-35</div>
+      </div>
+    </div>
+    <div class="brand">
+      <img src="https://assets.agentfire3.com/uploads/sites/2128/2025/11/TaylorDaschImage.jpg" alt="Taylor Dasch">
+      <div class="brand-text">
+        <div class="agent-name">Taylor Dasch</div>
+        <div class="brokerage">EG Realty · templetxhomes.net</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

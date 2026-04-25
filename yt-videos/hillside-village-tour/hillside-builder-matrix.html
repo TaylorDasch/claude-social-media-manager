@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hillside Village — Builder Comparison</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #000;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  .card {
+    width: 1280px;
+    height: 720px;
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .grid-bg {
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(5,150,105,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(5,150,105,0.04) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+
+  .corner { position: absolute; width: 28px; height: 28px; z-index: 20; }
+  .c-tl { top: 8px; left: 8px; border-top: 2px solid #059669; border-left: 2px solid #059669; }
+  .c-tr { top: 8px; right: 8px; border-top: 2px solid #059669; border-right: 2px solid #059669; }
+  .c-bl { bottom: 8px; left: 8px; border-bottom: 2px solid #059669; border-left: 2px solid #059669; }
+  .c-br { bottom: 8px; right: 8px; border-bottom: 2px solid #059669; border-right: 2px solid #059669; }
+
+  .top-label {
+    position: absolute; top: 24px; left: 32px;
+    font-size: 11px; color: #64748b; text-transform: uppercase; letter-spacing: 3px; z-index: 10;
+  }
+  .hood-label {
+    position: absolute; top: 24px; right: 32px;
+    font-size: 11px; color: #059669; text-transform: uppercase; letter-spacing: 2px; font-weight: 600; z-index: 10;
+  }
+
+  .title {
+    position: absolute; top: 54px; left: 0; right: 0; text-align: center;
+    font-family: 'Cormorant Garamond', serif; font-size: 40px; font-weight: 700; color: #f8fafc; z-index: 5;
+    animation: fadeUp 0.5s 0.2s both;
+  }
+  .title span { color: #059669; }
+
+  .subtitle {
+    position: absolute; top: 104px; left: 0; right: 0; text-align: center;
+    font-size: 14px; color: #64748b; z-index: 5;
+    animation: fadeUp 0.5s 0.3s both;
+  }
+
+  /* Table */
+  .matrix {
+    position: absolute;
+    top: 140px;
+    left: 60px;
+    right: 60px;
+    bottom: 68px;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Header row */
+  .matrix-header {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr 1fr;
+    gap: 0;
+    margin-bottom: 4px;
+  }
+
+  .matrix-header .mh-cell {
+    padding: 16px 20px;
+    text-align: center;
+  }
+
+  .mh-cell.builder-name {
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 12px 12px 0 0;
+    padding-bottom: 8px;
+  }
+
+  .mh-omega {
+    background: rgba(5,150,105,0.1);
+    border: 1px solid rgba(5,150,105,0.25);
+    border-bottom: none;
+    color: #34d399;
+  }
+
+  .mh-omega .rec {
+    display: inline-block;
+    background: #059669;
+    color: #fff;
+    font-size: 9px;
+    padding: 3px 10px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    margin-left: 8px;
+    vertical-align: middle;
+  }
+
+  .mh-drh { background: rgba(248,250,252,0.02); color: #94a3b8; }
+  .mh-len { background: rgba(248,250,252,0.02); color: #94a3b8; }
+
+  .mh-cell .builder-sub {
+    font-size: 11px;
+    color: #64748b;
+    margin-top: 2px;
+  }
+
+  /* Data rows */
+  .matrix-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .matrix-row {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr 1fr;
+    gap: 0;
+    opacity: 0;
+    animation: fadeUp 0.4s both;
+  }
+
+  .matrix-row:nth-child(1) { animation-delay: 0.4s; }
+  .matrix-row:nth-child(2) { animation-delay: 0.55s; }
+  .matrix-row:nth-child(3) { animation-delay: 0.7s; }
+  .matrix-row:nth-child(4) { animation-delay: 0.85s; }
+  .matrix-row:nth-child(5) { animation-delay: 1.0s; }
+  .matrix-row:nth-child(6) { animation-delay: 1.15s; }
+  .matrix-row:nth-child(7) { animation-delay: 1.3s; }
+
+  .matrix-row .mr-label {
+    padding: 14px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #cbd5e1;
+    display: flex;
+    align-items: center;
+    background: rgba(248,250,252,0.02);
+  }
+
+  .matrix-row .mr-cell {
+    padding: 14px 20px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: #e2e8f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+  }
+
+  .mr-cell.omega-col {
+    background: rgba(5,150,105,0.05);
+    border-left: 1px solid rgba(5,150,105,0.15);
+    border-right: 1px solid rgba(5,150,105,0.15);
+  }
+
+  .mr-cell.other-col {
+    background: rgba(248,250,252,0.01);
+  }
+
+  /* Rating dots */
+  .dots {
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+  }
+
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+
+  .dot-on { background: #34d399; }
+  .dot-off { background: #334155; }
+  .dot-on-red { background: #f87171; }
+  .dot-on-yellow { background: #fbbf24; }
+
+  /* Check / X icons */
+  .icon-yes {
+    width: 22px; height: 22px; border-radius: 50%;
+    background: rgba(5,150,105,0.2);
+    display: inline-flex; align-items: center; justify-content: center;
+    color: #34d399; font-weight: 700; font-size: 14px;
+  }
+  .icon-no {
+    width: 22px; height: 22px; border-radius: 50%;
+    background: rgba(239,68,68,0.15);
+    display: inline-flex; align-items: center; justify-content: center;
+    color: #f87171; font-weight: 700; font-size: 14px;
+  }
+
+  /* Bottom note */
+  .note {
+    position: absolute;
+    bottom: 68px;
+    left: 0; right: 0;
+    text-align: center;
+    font-size: 12px;
+    color: #475569;
+    z-index: 10;
+    padding: 8px 0;
+    animation: fadeUp 0.4s 1.5s both;
+    opacity: 0;
+  }
+
+  .brand-bar {
+    position: absolute; bottom: 0; left: 0; right: 0;
+    height: 56px;
+    background: rgba(5,150,105,0.08);
+    border-top: 1px solid rgba(5,150,105,0.2);
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 32px; z-index: 10;
+  }
+  .brand-bar .nm { font-weight: 600; font-size: 14px; color: #f8fafc; }
+  .brand-bar .nm span { color: #94a3b8; font-weight: 400; }
+  .brand-bar .st { font-size: 13px; color: #64748b; letter-spacing: 1px; }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(14px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+</style>
+</head>
+<body>
+
+<div class="card">
+  <div class="grid-bg"></div>
+  <div class="corner c-tl"></div><div class="corner c-tr"></div>
+  <div class="corner c-bl"></div><div class="corner c-br"></div>
+  <div class="top-label">Builder Comparison</div>
+  <div class="hood-label">Temple TX New Construction</div>
+
+  <div class="title">Builder <span>Breakdown</span></div>
+  <div class="subtitle">How Omega stacks up against other Temple builders at this price point</div>
+
+  <div class="matrix">
+    <!-- Header -->
+    <div class="matrix-header">
+      <div class="mh-cell"></div>
+      <div class="mh-cell builder-name mh-omega">Omega <span class="rec">Taylor's Pick</span>
+        <div class="builder-sub">Hillside Village</div>
+      </div>
+      <div class="mh-cell builder-name mh-drh">DR Horton
+        <div class="builder-sub">Multiple subdivisions</div>
+      </div>
+      <div class="mh-cell builder-name mh-len">Lennar
+        <div class="builder-sub">Multiple subdivisions</div>
+      </div>
+    </div>
+
+    <!-- Body -->
+    <div class="matrix-body">
+      <div class="matrix-row">
+        <div class="mr-label">Standard Finishes</div>
+        <div class="mr-cell omega-col">
+          <div class="dots"><div class="dot dot-on"></div><div class="dot dot-on"></div><div class="dot dot-on"></div><div class="dot dot-on"></div><div class="dot dot-on"></div></div>
+        </div>
+        <div class="mr-cell other-col">
+          <div class="dots"><div class="dot dot-on-yellow"></div><div class="dot dot-on-yellow"></div><div class="dot dot-off"></div><div class="dot dot-off"></div><div class="dot dot-off"></div></div>
+        </div>
+        <div class="mr-cell other-col">
+          <div class="dots"><div class="dot dot-on-yellow"></div><div class="dot dot-on-yellow"></div><div class="dot dot-on-yellow"></div><div class="dot dot-off"></div><div class="dot dot-off"></div></div>
+        </div>
+      </div>
+
+      <div class="matrix-row">
+        <div class="mr-label">Quartz Countertops</div>
+        <div class="mr-cell omega-col"><span class="icon-yes">&check;</span> Standard</div>
+        <div class="mr-cell other-col"><span class="icon-no">&times;</span> Upgrade $</div>
+        <div class="mr-cell other-col"><span class="icon-no">&times;</span> Upgrade $</div>
+      </div>
+
+      <div class="matrix-row">
+        <div class="mr-label">Mid-Build Changes</div>
+        <div class="mr-cell omega-col"><span class="icon-yes">&check;</span> Yes</div>
+        <div class="mr-cell other-col"><span class="icon-no">&times;</span> No</div>
+        <div class="mr-cell other-col"><span class="icon-no">&times;</span> No</div>
+      </div>
+
+      <div class="matrix-row">
+        <div class="mr-label">Curb Appeal</div>
+        <div class="mr-cell omega-col">Stone + Brick</div>
+        <div class="mr-cell other-col">Basic siding</div>
+        <div class="mr-cell other-col">Mixed</div>
+      </div>
+
+      <div class="matrix-row">
+        <div class="mr-label">Price / Sq Ft</div>
+        <div class="mr-cell omega-col" style="color:#34d399;font-weight:700;">~$158</div>
+        <div class="mr-cell other-col">~$140&ndash;150</div>
+        <div class="mr-cell other-col">~$145&ndash;155</div>
+      </div>
+
+      <div class="matrix-row">
+        <div class="mr-label">Volume</div>
+        <div class="mr-cell omega-col">Local boutique</div>
+        <div class="mr-cell other-col">National (high vol)</div>
+        <div class="mr-cell other-col">National (high vol)</div>
+      </div>
+
+      <div class="matrix-row">
+        <div class="mr-label">Taylor's Verdict</div>
+        <div class="mr-cell omega-col" style="color:#34d399;font-weight:700;">Top 2 in Temple</div>
+        <div class="mr-cell other-col" style="color:#94a3b8;">Good if size > quality</div>
+        <div class="mr-cell other-col" style="color:#94a3b8;">Good if size > quality</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="note">Based on Taylor's experience across 100+ Temple TX transactions</div>
+
+  <div class="brand-bar">
+    <div class="nm">Taylor Dasch <span>· EG Realty</span></div>
+    <div class="st">templetxhomes.net</div>
+  </div>
+</div>
+
+</body>
+</html>

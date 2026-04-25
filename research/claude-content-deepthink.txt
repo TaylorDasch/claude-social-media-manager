@@ -1,0 +1,376 @@
+﻿Gemini said
+This is an incredibly well-architected content operations system. You have built a true competitive moat. Most real estate agents are still using AI to write generic "Top 5 reasons to buy a home!" posts, while you are engineering a bidirectional AEO citation loop with real, localized data.
+
+
+To achieve your goal of generating actual inbound leads from YouTube, growing the channel, and dominating AEO/GEO, we need to move your system from content creation to content-to-lead conversion and entity authority.
+
+
+Here are the specific Docs, Skills, and Strategic Ideas you should add to your Claude Code project today to make it a revenue-generating machine.
+
+
+📂 1. New "Skills" to Add (Reusable Workflows)
+Add these .md files to your /skills folder and update your CLAUDE.md to route to them. These directly execute your unbuilt Sub-Projects.
+
+
+1. Skill: /yt-to-blog (Executes Sub-Project #1 - Highest ROI)
+Why: AI engines parse transcripts, but they prefer highly structured, "Zero-Click" blog formats. This skill bridges the gap.
+
+
+Plaintext
+# Skill: /yt-to-blog
+**Description:** Converts a raw YouTube transcript into a GEO/AEO-optimized blog post with JSON-LD schema.
+**Prompt Logic for Claude:**
+1. **The BLUF (Bottom Line Up Front):** Start the post with a 50-word direct, factual summary answering the video's core question. (AI engines scrape this paragraph first).
+2. **Embed Placeholder:** Insert `[EMBED YOUTUBE VIDEO: Title]` right after the BLUF.
+3. **Structure:** Break the transcript into logical H2s/H3s using bullet points. Retain all hard data, numbers, and local neighborhood names.
+4. **"Scars & All" Callout:** Create a blockquote extracting the most brutally honest or negative reality mentioned in the video (triggers "Information Gain" for AI).
+5. **FAQ Section:** Extract the 3 most important questions answered and write them in Q&A format at the bottom.
+6. **Schema Generation:** Output a clean JSON-LD code block containing `VideoObject` schema and `FAQPage` schema based on the generated content.
+2. Skill: /community-post (For Channel Growth)
+Why: YouTube's algorithm heavily pushes Community Tab posts to NON-subscribers. It's the best organic growth hack for 2026.
+
+
+Plaintext
+# Skill: /community-post
+**Description:** Creates 3 engaging YouTube Community Tab posts to drive traffic to a specific video.
+**Prompt Logic for Claude:**
+Generate 3 variations based on the provided video topic:
+1. **The Data Poll:** A 4-option poll comparing two Temple realities (e.g., "Where would you put $350k right now?"). Include a 2-sentence context + link to video.
+2. **The "Scars & All" Image Post:** A short, punchy text post calling out a hard truth about the market. Suggests a specific image or chart to attach.
+3. **The Pop Quiz:** "How much are property taxes on a $400k home in Temple vs Belton? The answer will shock you. Watch the breakdown: [Link]"
+3. Skill: /linkedin-carousel (Missing Platform Opportunity)
+Why: You asked about missing opportunities. BSW Trauma Surgeons, residents, and high-net-worth out-of-state investors live on LinkedIn. They love data carousels.
+
+
+Plaintext
+# Skill: /linkedin-carousel
+**Description:** Repurposes a deal breakdown or market update into a high-dwell-time LinkedIn text/image carousel.
+**Prompt Logic for Claude:**
+- Tone: Analytical, authoritative, investor-mindset. Use exact numbers.
+- Format: 5-7 slide outline. Slide 1 is a contrarian data hook. Slides 2-5 are the step-by-step math. Slide 6 is the "Scars/Risks". Slide 7 is the Lead Magnet CTA.
+🧠 2. New Core Brain Docs (Make Claude Smarter)
+Claude knows your voice, but to get cited by AI, it needs hard data. Add these files to your root folder so Claude never hallucinate and always provides the "Information Gain" AI engines want.
+
+
+1. LOCAL-DATA-LAKE.md (The "Oracle")
+Create a file updated on the 1st of every month. Include:
+
+
+Current BAH rates for Fort Hood (E-5 to O-5).
+
+
+BSW residency match timeline (Match day, start day).
+
+
+Current Bell County tax multipliers (Temple vs Killeen vs Belton).
+
+
+Median home price, Days on Market, and average Cap Rates for 3/2s.
+
+
+Impact: When you run /produce, Claude will automatically pull actual numbers into your scripts. AI engines reward this data density.
+
+
+2. LEAD-MAGNET-MATRIX.md (The Conversion Funnel)
+A YouTube view without a Call-To-Action is wasted. Tell Claude exactly what to pitch.
+
+
+Investors ➔ Pitch the "Temple Deal Analyzer Spreadsheet" (captures email).
+
+
+Military ➔ Pitch the "Temple vs Killeen BAH Commute Map".
+
+
+Medical ➔ Pitch the "Zero-Down Physician Loan Guide".
+
+
+Impact: Claude will automatically append the correct CTA to your YouTube descriptions, blogs, and TikTok hooks based on the persona.
+
+
+3. WIKIDATA-SETUP-GUIDE.md (AEO Domination)
+Your research identified this as the #1 trigger for a Google Knowledge Panel.
+
+
+Action: Document the steps to go to wikidata.org, create an item for "Taylor Dasch", add properties (instance of: human, occupation: real estate broker, employer: EG Realty, location: Temple TX), and link your website/YouTube.
+
+
+💡 3. Strategic Lead Generation Ideas
+To bridge the gap between "getting views" and "getting Follow Up Boss leads":
+
+
+1. The "Zero-Click" Auto-DM Strategy (ManyChat)
+
+
+The Problem: "Link in bio" has a <1% click-through rate in 2026.
+
+
+The Solution: Use ManyChat for Instagram/FB/TikTok. Update your /tiktok-script skill to end with: "Comment the word TAXES and my AI will DM you the exact Bell County tax calculator spreadsheet I used in this video." This spikes algorithmic engagement (pushing the video viral) and captures the lead instantly via DM flow directly into Follow Up Boss.
+
+
+2. The YouTube "Pinned Comment" Micro-Tool Funnel
+
+
+The Problem: People rarely read YouTube descriptions anymore. They scroll straight to the comments.
+
+
+The Solution: For all 94+ existing videos, pin a comment from yourself offering the Persona-specific lead magnet from your matrix. (e.g., "👇 Grab the DSCR Calculator Spreadsheet I used in this video here: [Link]"). This turns your back catalog into an active lead capture net today.
+
+
+3. Reddit "Scars & All" Syndication (Multi-Source Citation)
+
+
+The Problem: AI engines need to see the same data in multiple places to trust it. Reddit makes up 10% of LLM training data.
+
+
+The Solution: Build a /reddit-syndicate skill. Take your YouTube transcripts, strip out ALL promotional language and links, and post them as pure, text-only "Market Observations" in r/realestateinvesting or r/military. Answer questions in the threads. AI engines will scrape these threads, corroborate them with your YouTube videos, and cite YOU as the localized entity.
+
+
+🚀 4. Your 7-Day Execution Sprint (Curing the "Empty Output Folder")
+You have a Ferrari sitting in the driveway. Here is how you turn the engine on this week:
+
+
+Fix the Embed & Schema Gap (Today - 2 Hours): Open your VIDEO-TO-PAGE-MAP.md. Go into your AgentFire site, embed the 18 Tier-1 videos onto their respective pages. Paste the RealEstateAgent and Person schema (from your research doc) into your site's global footer.
+
+
+Claim Your Entity (Today - 20 Mins): Execute the Wikidata setup.
+
+
+Run the Blog Pipeline (Days 2-3): Build the /yt-to-blog skill. Feed it your top 5 performing "Investing in Temple" videos. Post those 5 blogs to AgentFire with the video embedded and the JSON-LD schema injected. You instantly create 5 high-authority AEO assets.
+
+
+Film the AI Gap Videos (Weekend): Sit at your desk and film the Top 3 "AEO Gap Videos" identified in your research (Taxes, Deal Analyzer, 1% Rule). They are low-production (screen share) but massive AEO drivers.
+
+
+The Production Run (Next Monday): Run the /produce skill on those 3 new videos to fill your output folder with a month's worth of TikToks, Shorts, GMB posts, and Newsletters.
+
+
+You have built the engine block. Adding the Data Lake, the Lead Magnets, and the Blog pipeline is the fuel that will turn passive views into closed transactions.
+
+
+
+
+ChatGPT Output
+Your next version should stop acting like a content generator and start acting like a content operating system.
+
+
+Right now, the gap is not idea volume. You already have 8 working skills, 94+ videos, AEO research, a Telegram bot, and a ranked queue. The gap is execution infrastructure: no transcript-to-blog engine, no schema live on the site, no monitoring, incomplete video-page embedding, and an empty output folder. That means the next ROI comes from turning existing video assets into indexed pages, entity signals, and measurable lead paths.
+
+
+For Google’s March 2026 guidance, AEO is not a separate rulebook. Google says AI Overviews and AI Mode do not require special optimization beyond normal SEO; pages just need to be indexed, snippet-eligible, textually clear, internally linked, and supported by accurate structured data and current business information. Google also says these systems can use query fan-out, which is a strong argument for building more narrow, intent-specific local pages instead of one giant “Temple real estate” page.
+
+
+What to build first
+1) /transcript-to-blog-publisher
+
+
+This should become the new core skill. Google’s guidance allows AI-assisted content as long as it is original, helpful, and people-first, and Article markup works better when author identity is explicit. Your 94+ videos are already the raw material. The system should take one transcript and output: answer-first intro, cleaned article, embedded video, chapter table, Temple-specific FAQ, internal links, author block, CTA block, and schema pack.
+
+
+2) /video-page-builder
+
+
+Every YouTube video that matters should have a matching watch page on your site. Google says it prioritizes key moments you provide through structured data or the YouTube description, and Search Console gives you a video indexing report, video rich result report, and video search appearance filter. Translation: each page needs transcript text, timestamps, embed, VideoObject, and monitoring.
+
+
+3) /schema-pack
+
+
+This is the highest AEO/GEO multiplier per hour. Put Organization on the homepage, LocalBusiness on core business pages, ProfilePage on your author page, Article on blog posts, and VideoObject on video companion pages. Google explicitly uses Organization markup to disambiguate entities, recommends author.url or sameAs for authors, and supports ProfilePage markup for creators with first-hand perspectives.
+
+
+4) /lead-attribution-review
+
+
+You need a layer that judges content by revenue path, not vanity. Google recommends combining Search Console and Google Analytics in Looker Studio, and Search Console’s branded queries filter is now broadly available for eligible sites. That gives you a clean way to track whether content is increasing non-branded discovery versus just capturing people already searching your name.
+
+
+5) /comment-miner
+
+
+Mine YouTube comments, DMs, emails, and site form submissions into new query clusters. YouTube Analytics explicitly tells creators to use search terms viewers use to find the channel as inputs for new content. This skill should create new topics from real phrasing, not guessed keywords.
+
+
+Docs to add
+
+
+Add these as reference docs Claude can pull from:
+
+
+docs/temple/query-bank.md
+Real search phrasing by persona: “moving to Temple TX as a doctor,” “Temple TX cash flow rentals,” “best areas near Baylor Scott & White,” “Fort Hood commute to Temple,” “Temple property taxes by neighborhood.”
+docs/temple/neighborhood-truth-database.md
+Neighborhood-by-neighborhood pros, negatives, builder names, drainage issues, traffic patterns, school tradeoffs, HOA friction, lot sizes, flood concerns, tenant profile.
+docs/temple/investor-buy-boxes.md
+By zip, price band, rent band, rehab tolerance, tax tolerance, desired DSCR, target bedroom count, insurance red flags, property class.
+docs/temple/relocation-objections.md
+BSW, military, investor, luxury objections and exact responses.
+docs/seo/video-page-template.md
+Required page structure: answer-first summary, embedded video, transcript, chapter jump links, FAQ, internal links, author box, CTA.
+docs/schema/entity-map.json
+Canonical entity references for Taylor Dasch, EG Realty, Temple TX Homes, both YouTube channels, phone, email, site, socials, review profiles, BiggerPockets, brokerage details.
+docs/aeo/entity-consistency-rules.md
+Exact naming rules. One canonical version of your name, company name, phone, email, site, channel names, and bio line.
+docs/lead-gen/offer-map.md
+One lead magnet per persona. Example: BSW relocation guide, Temple rental property scorecard, PCS-to-closing checklist, luxury acreage due-diligence checklist.
+docs/analytics/content-scorecard.md
+A scoring model: search intent, commission value, investor value, ranking difficulty, filming ease, repurpose value, AI-citation fit.
+docs/tiktok/search-intent-framework.md
+Exact phrase library for spoken hooks, on-screen text, captions, and search-intent post types.
+docs/youtube/cta-library.md
+Soft CTA, consult CTA, download CTA, relocation CTA, investor CTA, seller CTA, all separated by persona.
+docs/freshness/expiration-rules.md
+What expires in 30/90/180 days: mortgage rates, BAH, stipend, tax discussion, rents, MLS counts, builder incentives.
+Skills to add
+
+
+These are the next skills worth building:
+
+
+/transcript-to-blog
+Input: video URL + transcript + persona.
+Output: full article, slug, title, meta, FAQ, internal links, schema.
+/video-page-builder
+Input: video URL + target page.
+Output: companion page copy + embed block + chapter list + VideoObject.
+/schema-pack
+Input: page type.
+Output: JSON-LD for homepage, author page, blog post, video page, service page.
+/query-gap-finder
+Input: current video catalog + website URLs + top queries.
+Output: missing page list ranked by intent and revenue.
+/lead-cta-optimizer
+Input: transcript/article.
+Output: persona-matched CTA block, downloadable offer suggestion, form question set.
+/content-freshness-scanner
+Input: page or post.
+Output: stale facts, stale dates, stale incentives, stale schema, refresh priority.
+/comment-miner
+Input: YouTube comments/DMs/email questions.
+Output: content ideas grouped by persona and search intent.
+/internal-linker
+Input: draft article.
+Output: exact anchor text and internal link placements to service pages, neighborhood pages, calculators, lead magnets.
+/entity-auditor
+Input: page copy or schema.
+Output: naming inconsistencies, missing sameAs, missing author references, missing NAP.
+/offer-matcher
+Input: topic + persona.
+Output: best lead magnet, CTA style, funnel destination, and follow-up sequence.
+What I would delay
+
+
+Delay the “enhanced YouTube description generator” until after the transcript/page/schema stack is live. Descriptions matter, but YouTube says viewers only see the first lines before clicking “more,” and Google can use the YouTube description mainly for things like key moments. Better descriptions help, but they are not the current bottleneck.
+
+
+Also, don’t overrate FAQ rich results. Google’s FAQ rich results are effectively restricted to authoritative government and health sites. Use FAQ markup for structure and machine readability if you want, but do not treat it as a core visibility lever for your site.
+
+
+And I would move Wikidata down the stack. It can help, but Google says knowledge panels are generated from various sources across the web, and claimed entities can suggest changes. So the real priority is consistency across your site, profiles, bios, and markup first.
+
+
+Temple-specific content opportunities you are still underusing
+
+
+These are the kinds of pages/videos most likely to compound:
+
+
+“Best neighborhoods in Temple for Baylor Scott & White employees”
+“Temple TX neighborhoods to avoid for rental property investors”
+“Can Fort Hood families commute from Temple?”
+“Temple vs Belton for doctors”
+“Temple property taxes: what investors miss”
+“New construction in Temple: builder quality, not just incentives”
+“Best 3-bedroom rental areas in Temple under $300K”
+“Temple TX flood, drainage, and slab-risk areas”
+“Living near BSW: actual commute times, traffic, and noise”
+“Temple luxury acreage: where utilities, wells, and access become problems”
+
+
+Those topics work because they are narrow, local, and first-hand. That fits Google’s AI/search guidance better than generic listicle content, and it matches the way AI systems surface supporting pages across subtopics.
+
+
+YouTube and TikTok changes to bake into the system
+
+
+On YouTube, use analytics as an editing tool, not just a reporting tool. YouTube’s own guidance frames performance as appeal → engagement → satisfaction, and it highlights intro retention, spikes, dips, and search terms as the places to improve. Your skills should ask for thumbnail/title hypothesis, first-30-second hook, retention-risk moments, and search terms to target next.
+
+
+On TikTok, the system should separate For You logic from Search logic. TikTok says watch behavior and interactions are heavily weighted in feeds, while in Search the content’s match to the query is weighted more heavily. So your TikTok skill should output two versions: one hook built for completion and one built for search intent with exact phrases in spoken audio, on-screen text, and caption. TikTok’s Trend Discovery and Keyword Planner tools are worth feeding into this process weekly.
+
+
+A missed paid test: TikTok Search Ads. TikTok’s current Search Ads Campaign supports traffic and web conversion objectives, keyword planning, and search-specific creative. Their internal testing claims incremental conversion lift when Search Ads run alongside In-Feed. I would treat that as directional, not gospel, but it is worth a controlled Temple-only test on high-intent relocation and investor queries.
+
+
+Folder structure I’d use
+/claude-social-media-manager
+  /docs
+    /aeo
+      entity-consistency-rules.md
+      ai-search-playbook.md
+    /schema
+      entity-map.json
+      page-type-rules.md
+    /temple
+      query-bank.md
+      neighborhood-truth-database.md
+      investor-buy-boxes.md
+      relocation-objections.md
+    /youtube
+      cta-library.md
+      retention-notes.md
+    /tiktok
+      search-intent-framework.md
+      trend-log.md
+    /lead-gen
+      offer-map.md
+      attribution-rules.md
+    /analytics
+      content-scorecard.md
+      dashboard-definitions.md
+    /freshness
+      expiration-rules.md
+
+
+  /skills
+    /transcript-to-blog
+    /video-page-builder
+    /schema-pack
+    /query-gap-finder
+    /lead-cta-optimizer
+    /content-freshness-scanner
+    /comment-miner
+    /internal-linker
+    /entity-auditor
+    /offer-matcher
+The build order I’d use
+
+
+This week
+
+
+Ship Organization, ProfilePage, Article, and VideoObject templates.
+Launch /transcript-to-blog.
+Publish 10 companion pages from your best existing videos.
+Add timestamps to those videos and align page chapters with YouTube chapters.
+Build branded vs non-branded dashboard in Search Console + GA.
+
+
+This month
+
+
+Convert 30–40 legacy videos into pages.
+Finish embedding the 18 mapped videos.
+Add persona-specific CTAs and lead magnets to every high-intent page.
+Launch content freshness scanner.
+
+
+This quarter
+
+
+Build mention monitoring.
+Build competitor gap analyzer.
+Run a small TikTok Search Ads test.
+Claim or improve any Google knowledge panel if one exists.
+
+
+The blunt version: your moat is not more content ideas; it is local truth packaged into crawlable, attributable, entity-consistent pages at scale. The fastest path to more leads is converting the 94-video backlog into a structured local content library.

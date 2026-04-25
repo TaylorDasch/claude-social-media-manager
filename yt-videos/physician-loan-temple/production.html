@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Physician Mortgage Loans — Video Production Package</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --midnight: #1e293b;
+    --emerald: #059669;
+    --emerald-light: #10b981;
+    --snow: #f8fafc;
+    --slate-100: #f1f5f9;
+    --slate-200: #e2e8f0;
+    --slate-300: #cbd5e1;
+    --slate-400: #94a3b8;
+    --slate-500: #64748b;
+    --slate-600: #475569;
+    --amber: #f59e0b;
+    --red: #ef4444;
+    --red-light: #fef2f2;
+    --green-light: #f0fdf4;
+    --blue-light: #eff6ff;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Outfit', sans-serif; background: var(--slate-100); color: var(--midnight); line-height: 1.6; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  /* ── COVER ── */
+  .cover { background: linear-gradient(135deg, var(--midnight) 0%, #0f172a 100%); color: var(--snow); min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 60px 40px; position: relative; overflow: hidden; }
+  .cover::before { content: ''; position: absolute; top: -200px; right: -200px; width: 600px; height: 600px; background: radial-gradient(circle, rgba(5,150,105,0.15) 0%, transparent 70%); border-radius: 50%; }
+  .cover-badge { font-weight: 600; font-size: 0.75rem; letter-spacing: 3px; text-transform: uppercase; color: var(--emerald); border: 1px solid rgba(5,150,105,0.4); padding: 8px 24px; border-radius: 100px; margin-bottom: 40px; position: relative; z-index: 1; }
+  .cover h1 { font-family: 'Cormorant Garamond', serif; font-size: 3.5rem; font-weight: 700; line-height: 1.15; margin-bottom: 8px; position: relative; z-index: 1; }
+  .cover h1 .accent { color: var(--emerald-light); }
+  .cover-subtitle { font-size: 1.15rem; color: var(--slate-400); margin-top: 20px; font-weight: 300; position: relative; z-index: 1; max-width: 600px; }
+  .cover-meta { margin-top: 50px; display: flex; gap: 40px; position: relative; z-index: 1; }
+  .cover-meta-item { text-align: center; }
+  .cover-meta-item .label { font-size: 0.65rem; letter-spacing: 2px; text-transform: uppercase; color: var(--slate-500); margin-bottom: 4px; }
+  .cover-meta-item .value { font-size: 1rem; font-weight: 500; color: var(--slate-300); }
+
+  /* ── CONTENT ── */
+  .content { max-width: 900px; margin: 0 auto; padding: 60px 40px; }
+
+  /* ── SECTIONS ── */
+  .section { margin-bottom: 60px; page-break-inside: avoid; }
+  .section-number { font-family: 'Cormorant Garamond', serif; font-size: 0.85rem; font-weight: 600; letter-spacing: 3px; text-transform: uppercase; color: var(--emerald); margin-bottom: 8px; }
+  .section h2 { font-family: 'Cormorant Garamond', serif; font-size: 2.2rem; font-weight: 700; color: var(--midnight); margin-bottom: 6px; line-height: 1.2; }
+  .section-line { width: 60px; height: 3px; background: var(--emerald); margin: 16px 0 24px; border-radius: 2px; }
+
+  /* ── DEEP THINK ── */
+  .deep-think { background: linear-gradient(135deg, #0f172a 0%, var(--midnight) 100%); color: var(--snow); border-radius: 16px; padding: 40px; margin-bottom: 40px; }
+  .deep-think h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; color: var(--emerald-light); margin-bottom: 20px; }
+  .deep-think p { color: var(--slate-300); margin-bottom: 16px; font-size: 0.95rem; }
+  .deep-think strong { color: var(--snow); }
+  .insight-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 24px; }
+  .insight-card { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 20px; }
+  .insight-card .num { font-family: 'Cormorant Garamond', serif; font-size: 2rem; font-weight: 700; color: var(--emerald); line-height: 1; margin-bottom: 8px; }
+  .insight-card .text { font-size: 0.85rem; color: var(--slate-400); line-height: 1.5; }
+  .insight-card .text strong { color: var(--slate-200); }
+
+  /* ── TITLE OPTIONS ── */
+  .title-options { display: flex; flex-direction: column; gap: 12px; margin: 20px 0; }
+  .title-option { background: white; border: 2px solid var(--slate-200); border-radius: 12px; padding: 16px 20px; font-size: 1rem; font-weight: 500; display: flex; align-items: center; gap: 12px; }
+  .title-option.recommended { border-color: var(--emerald); background: var(--green-light); }
+  .title-option .badge { font-size: 0.65rem; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; background: var(--emerald); color: white; padding: 3px 10px; border-radius: 100px; white-space: nowrap; }
+
+  /* ── SCRIPT BLOCKS ���─ */
+  .script-block { background: white; border-radius: 16px; padding: 32px; margin-bottom: 28px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); border-left: 4px solid var(--emerald); page-break-inside: avoid; }
+  .script-block.warning { border-left-color: var(--red); }
+  .script-block.verdict { border-left-color: var(--amber); }
+  .script-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 16px; }
+  .script-header h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 700; }
+  .timestamp { font-size: 0.75rem; font-weight: 600; color: var(--emerald); background: var(--green-light); padding: 4px 12px; border-radius: 100px; white-space: nowrap; }
+  .setup-tag { display: inline-block; font-size: 0.7rem; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; color: var(--slate-500); background: var(--slate-100); padding: 4px 10px; border-radius: 6px; margin-bottom: 16px; }
+  .dialogue { background: var(--slate-100); border-radius: 10px; padding: 20px 24px; margin: 16px 0; font-size: 0.95rem; line-height: 1.8; color: var(--slate-600); border-left: 3px solid var(--slate-300); }
+  .dialogue strong { color: var(--midnight); }
+  .screen-note { display: flex; align-items: flex-start; gap: 10px; margin: 12px 0; padding: 12px 16px; background: #fffbeb; border-radius: 8px; font-size: 0.85rem; color: #92400e; }
+  .screen-note .icon { font-size: 1rem; flex-shrink: 0; margin-top: 1px; }
+  .broll-note { display: flex; align-items: flex-start; gap: 10px; margin: 12px 0; padding: 12px 16px; background: var(--blue-light); border-radius: 8px; font-size: 0.85rem; color: #1e40af; }
+  .broll-note .icon { font-size: 1rem; flex-shrink: 0; margin-top: 1px; }
+  .red-text-note { display: flex; align-items: flex-start; gap: 10px; margin: 12px 0; padding: 12px 16px; background: var(--red-light); border-radius: 8px; font-size: 0.85rem; color: #991b1b; }
+  .red-text-note .icon { font-size: 1rem; flex-shrink: 0; margin-top: 1px; }
+
+  /* ── TABLES ── */
+  .data-table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.88rem; }
+  .data-table th { background: var(--midnight); color: var(--snow); padding: 12px 16px; text-align: left; font-weight: 600; font-size: 0.78rem; letter-spacing: 0.5px; text-transform: uppercase; }
+  .data-table th:first-child { border-radius: 8px 0 0 0; }
+  .data-table th:last-child { border-radius: 0 8px 0 0; }
+  .data-table td { padding: 12px 16px; border-bottom: 1px solid var(--slate-200); }
+  .data-table tr:nth-child(even) td { background: var(--slate-100); }
+  .winner { color: var(--emerald); font-weight: 700; }
+  .negative { color: var(--red); font-weight: 600; }
+  .positive { color: var(--emerald); font-weight: 600; }
+
+  /* ── SCENARIO CARDS ── */
+  .scenario-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin: 24px 0; }
+  .scenario-card { background: white; border-radius: 14px; padding: 24px; border: 2px solid var(--slate-200); position: relative; }
+  .scenario-card.recommended { border-color: var(--emerald); }
+  .scenario-card .sc-badge { position: absolute; top: -10px; left: 16px; font-size: 0.6rem; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; padding: 4px 12px; border-radius: 100px; }
+  .scenario-card .sc-badge.green { background: var(--emerald); color: white; }
+  .scenario-card .sc-badge.gray { background: var(--slate-400); color: white; }
+  .scenario-card .sc-badge.red { background: var(--red); color: white; }
+  .scenario-card h4 { font-family: 'Cormorant Garamond', serif; font-size: 1.15rem; font-weight: 700; margin: 8px 0 16px; }
+  .scenario-card .sc-row { display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid var(--slate-100); font-size: 0.82rem; }
+  .scenario-card .sc-row:last-child { border-bottom: none; }
+  .scenario-card .sc-row .label { color: var(--slate-500); }
+  .scenario-card .sc-row .val { font-weight: 600; }
+  .scenario-card .sc-total { margin-top: 12px; padding-top: 12px; border-top: 2px solid var(--slate-200); text-align: center; }
+  .scenario-card .sc-total .big { font-family: 'Cormorant Garamond', serif; font-size: 2rem; font-weight: 700; }
+  .scenario-card .sc-total .sub { font-size: 0.75rem; color: var(--slate-500); }
+
+  /* ── NEIGHBORHOOD TABLE ── */
+  .hood-section { margin: 20px 0; }
+  .hood-section h4 { font-size: 0.85rem; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; color: var(--emerald); margin-bottom: 8px; padding-bottom: 4px; border-bottom: 1px solid var(--slate-200); }
+  .hood-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 20px; }
+  .hood-card { background: white; border-radius: 10px; padding: 14px 16px; border: 1px solid var(--slate-200); }
+  .hood-card .name { font-weight: 600; font-size: 0.92rem; margin-bottom: 2px; }
+  .hood-card .price { font-size: 0.82rem; color: var(--emerald); font-weight: 500; }
+  .hood-card .note { font-size: 0.78rem; color: var(--slate-500); margin-top: 4px; }
+
+  /* ── TRAFFIC LIGHT ── */
+  .traffic-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin: 20px 0; }
+  .traffic-card { background: white; border-radius: 14px; padding: 24px 20px; border: 1px solid var(--slate-200); }
+  .traffic-card .light { width: 32px; height: 32px; border-radius: 50%; margin-bottom: 12px; }
+  .traffic-card .light.green { background: var(--emerald); }
+  .traffic-card .light.yellow { background: var(--amber); }
+  .traffic-card .light.red { background: var(--red); }
+  .traffic-card h4 { font-size: 0.95rem; font-weight: 600; margin-bottom: 6px; }
+  .traffic-card p { font-size: 0.82rem; color: var(--slate-500); line-height: 1.5; }
+
+  /* ── SHORTS ── */
+  .shorts-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin: 20px 0; }
+  .short-card { background: white; border-radius: 12px; padding: 20px; border: 1px solid var(--slate-200); text-align: center; }
+  .short-card .short-num { font-family: 'Cormorant Garamond', serif; font-size: 2.5rem; font-weight: 700; color: var(--emerald); line-height: 1; }
+  .short-card h4 { font-size: 0.9rem; font-weight: 600; margin: 8px 0 6px; }
+  .short-card p { font-size: 0.78rem; color: var(--slate-500); line-height: 1.5; }
+  .short-card .hook-text { font-size: 0.82rem; font-weight: 500; color: var(--midnight); background: var(--slate-100); padding: 8px 12px; border-radius: 6px; margin-top: 10px; font-style: italic; }
+
+  /* ── SHOT LIST ── */
+  .shot-list { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 20px 0; }
+  .shot-card { background: white; border-radius: 12px; padding: 20px; border: 1px solid var(--slate-200); }
+  .shot-card .shot-type { font-size: 0.65rem; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: var(--emerald); margin-bottom: 6px; }
+  .shot-card h4 { font-size: 0.95rem; font-weight: 600; margin-bottom: 6px; }
+  .shot-card p { font-size: 0.82rem; color: var(--slate-500); line-height: 1.5; }
+
+  /* ── CHECKLIST ── */
+  .checklist { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin: 20px 0; }
+  .checklist-col h4 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; font-weight: 700; margin-bottom: 12px; }
+  .checklist-item { display: flex; align-items: flex-start; gap: 10px; padding: 8px 0; font-size: 0.88rem; color: var(--slate-600); border-bottom: 1px solid var(--slate-200); }
+  .checklist-item .box { width: 18px; height: 18px; border: 2px solid var(--slate-300); border-radius: 4px; flex-shrink: 0; margin-top: 2px; }
+
+  /* ── PULL QUOTE ── */
+  .pull-quote { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-style: italic; color: var(--midnight); border-top: 2px solid var(--emerald); border-bottom: 2px solid var(--emerald); padding: 24px 0; margin: 32px 0; text-align: center; line-height: 1.4; }
+
+  /* ── THUMBNAIL ── */
+  .thumbnail-spec { background: var(--midnight); border-radius: 16px; padding: 40px; color: var(--snow); margin: 20px 0; }
+  .thumb-mockup { background: linear-gradient(135deg, #065f46, #064e3b); border-radius: 12px; height: 200px; display: flex; flex-direction: column; justify-content: center; align-items: center; margin: 20px 0; position: relative; }
+  .thumb-mockup .big-text { font-family: 'Outfit', sans-serif; font-size: 2.8rem; font-weight: 700; }
+  .thumb-mockup .sub-text { font-size: 1.1rem; font-weight: 400; opacity: 0.8; margin-top: 4px; }
+  .thumb-mockup .zero { position: absolute; right: 30px; top: 20px; font-size: 4rem; font-weight: 800; color: rgba(255,255,255,0.1); }
+
+  .divider { width: 100%; height: 1px; background: var(--slate-200); margin: 40px 0; }
+
+  @media print { body { background: white; } .cover { min-height: auto; padding: 80px 40px; page-break-after: always; } .section { page-break-inside: avoid; } .content { padding: 40px 20px; } }
+  @media (max-width: 700px) { .cover h1 { font-size: 2.2rem; } .insight-grid, .shot-list, .checklist, .scenario-grid, .hood-grid, .traffic-grid, .shorts-grid { grid-template-columns: 1fr; } .cover-meta { flex-direction: column; gap: 16px; } .content { padding: 30px 20px; } }
+</style>
+</head>
+<body>
+
+<!-- ═══ COVER ═══ -->
+<div class="cover">
+  <div class="cover-badge">Video Production Package</div>
+  <h1>Physician<br><span class="accent">Mortgage Loans</span></h1>
+  <p class="cover-subtitle">The $0 Down Home Loan for Doctors &mdash; What BSW Residents Need to Know Before Buying in Temple TX</p>
+  <div class="cover-meta">
+    <div class="cover-meta-item"><div class="label">Channel</div><div class="value">Living in Temple</div></div>
+    <div class="cover-meta-item"><div class="label">Format</div><div class="value">Explainer / Educational (10-12 min)</div></div>
+    <div class="cover-meta-item"><div class="label">Host</div><div class="value">Taylor Dasch, EG Realty</div></div>
+    <div class="cover-meta-item"><div class="label">Research Date</div><div class="value">March 29, 2026</div></div>
+  </div>
+</div>
+
+<div class="content">
+
+<!-- ═══ I. DEEP THINK ═══ -->
+<div class="section">
+  <div class="section-number">Section I</div>
+  <h2>Strategic Deep Think</h2>
+  <div class="section-line"></div>
+
+  <div class="deep-think">
+    <h3>Why This Video Fills a Massive Gap</h3>
+    <p>Every physician mortgage video on YouTube is generic national content from financial advisors or lenders. <strong>Nobody is doing this from a local real estate agent's perspective in a specific medical market.</strong></p>
+    <p>Taylor's unique edge: he actually works with BSW residents. He knows the neighborhoods block by block. He can show real MLS listings at physician-loan price points. And he'll tell residents NOT to buy if the math doesn't work &mdash; which no lender video ever does.</p>
+
+    <div class="insight-grid">
+      <div class="insight-card">
+        <div class="num">$0</div>
+        <div class="text"><strong>Down payment required.</strong> Physician loans allow 0% down up to $1M+ with no PMI. A PGY-1 arriving with $250K in student debt and no savings can still buy a home.</div>
+      </div>
+      <div class="insight-card">
+        <div class="num">150+</div>
+        <div class="text"><strong>New residents arrive at BSW Temple every June/July.</strong> 20 residency programs + 30 fellowship programs. This is a captive audience that needs housing advice right now.</div>
+      </div>
+      <div class="insight-card">
+        <div class="num">$250K</div>
+        <div class="text"><strong>Average medical school debt (Class of 2025).</strong> Conventional lenders count this as $2,500/mo in debt. Physician lenders count the actual IBR payment &mdash; often $0-$300/mo. That's the game-changer.</div>
+      </div>
+      <div class="insight-card">
+        <div class="num">38%</div>
+        <div class="text"><strong>Housing cost ratio on a $250K Temple home.</strong> A PGY-1 earning $71K can afford a $250K home at 38% of gross income. The same resident in Austin would need $430K for median &mdash; 73% of gross. Impossible.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pull-quote">
+    "A $300K physician loan in Temple buys an above-median 4BR. The same loan in Austin buys a below-median condo. That's the entire video in one sentence."
+  </div>
+
+  <div class="deep-think">
+    <h3>The Narrative Arc</h3>
+    <p><strong>Format 4: Explainer / Educational.</strong> Outcome hook &rarr; who it's for &rarr; how it works &rarr; the catch &rarr; real Temple example &rarr; next steps.</p>
+    <p>The key creative choice: <strong>the "Doctor House Trap" section.</strong> Banks will approve a resident for $500K+. On a $71K salary, that's financial suicide. This honest warning is what separates Taylor from every lender-sponsored video. It's the trust-building moment that turns viewers into leads.</p>
+    <p style="margin-bottom:0;"><strong>Target audience:</strong> BSW residents arriving in June/July, medical students researching Temple, attending physicians relocating for BSW positions. Secondary: any physician Googling "physician loan Texas" who doesn't know Temple exists.</p>
+  </div>
+</div>
+
+<!-- ═══ II. TITLE & THUMBNAIL ═══ -->
+<div class="section">
+  <div class="section-number">Section II</div>
+  <h2>Title Options & Thumbnail</h2>
+  <div class="section-line"></div>
+
+  <div class="title-options">
+    <div class="title-option recommended">
+      <span class="badge">Recommended</span>
+      0% Down Home Loan for Doctors &mdash; Is It Worth It? (Real Numbers from Temple TX)
+    </div>
+    <div class="title-option">
+      Physician Mortgage Loans Explained: What BSW Residents Need to Know
+    </div>
+    <div class="title-option">
+      Doctor Mortgage Loans: The $60K Mistake Nobody Talks About
+    </div>
+    <div class="title-option">
+      How Medical Residents Buy Homes in Temple TX (Physician Loan Breakdown)
+    </div>
+    <div class="title-option">
+      Physician Loans vs Conventional: I Ran the Math So You Don't Have To
+    </div>
+  </div>
+
+  <div class="thumbnail-spec">
+    <h3 style="font-family:'Cormorant Garamond',serif; font-size:1.4rem; margin-bottom:16px;">Thumbnail Design Spec</h3>
+    <div class="thumb-mockup">
+      <div class="big-text">$0 DOWN</div>
+      <div class="sub-text">The Doctor Loan Trap?</div>
+      <div class="zero">0%</div>
+    </div>
+    <p style="font-size:0.82rem; color:var(--slate-400); text-align:center; margin-top:8px;">
+      Taylor's face with "mind blown" or skeptical expression &bull; Home exterior photo background &bull; "$0 DOWN" in bold white &bull; "Doctor Loan" or stethoscope icon &bull; Emerald/midnight brand colors
+    </p>
+  </div>
+</div>
+
+<!-- ═══ III. FULL SCRIPT ═══ -->
+<div class="section">
+  <div class="section-number">Section III</div>
+  <h2>Full Script</h2>
+  <div class="section-line"></div>
+
+  <!-- COLD OPEN -->
+  <div class="script-block">
+    <div class="script-header">
+      <h3>Cold Open &mdash; Outcome Hook</h3>
+      <span class="timestamp">0:00 &ndash; 0:20</span>
+    </div>
+    <div class="setup-tag">Setup A: Desk / Talking Head</div>
+    <div class="dialogue">
+      "There's a loan that lets you buy a house with <strong>zero dollars down and no PMI</strong> &mdash; even if you have $250,000 in student debt. It's called a physician mortgage loan. And if you're a medical resident at Baylor Scott & White in Temple, Texas, it might be the smartest financial move you make this year. Or it might be a $60,000 mistake. I'm Taylor Dasch with EG Realty, and I'm going to show you exactly how the math works &mdash; and when you should NOT use this loan."
+    </div>
+    <div class="screen-note">
+      <span class="icon">&#9998;</span>
+      <span><strong>On-screen text:</strong> "$0 down" and "No PMI" when spoken. "$250,000 in student debt" in red. "$60,000 mistake" in red.</span>
+    </div>
+  </div>
+
+  <!-- WHO THIS IS FOR -->
+  <div class="script-block">
+    <div class="script-header">
+      <h3>Who This Is For</h3>
+      <span class="timestamp">0:20 &ndash; 1:30</span>
+    </div>
+    <div class="setup-tag">Setup A: Talking Head</div>
+    <div class="dialogue">
+      "This video is specifically for medical professionals &mdash; MDs, DOs, dentists, and in some cases podiatrists, optometrists, and veterinarians. If you're a resident, a fellow, or a new attending physician, you qualify. And if you're training at BSW Temple or considering a position here, pay attention, because Temple is one of the best markets in the country for this loan to actually work.
+      <br><br>
+      Quick context if you're new here &mdash; Baylor Scott & White Temple is a 640-bed Level I Trauma Center, the only one between Dallas and Austin. Over 7,000 employees, 20 residency programs, 30-plus fellowships. Every June, 100 to 150 new medical professionals arrive in Temple needing housing. If that's you &mdash; this is your video."
+    </div>
+    <div class="broll-note">
+      <span class="icon">&#127909;</span>
+      <span><strong>B-roll:</strong> BSW campus aerial, BSW entrance sign, white coat ceremony stock footage (2-3 sec each).</span>
+    </div>
+  </div>
+
+  <!-- HOW IT WORKS -->
+  <div class="script-block">
+    <div class="script-header">
+      <h3>How It Works &mdash; The 5 Benefits</h3>
+      <span class="timestamp">1:30 &ndash; 4:30</span>
+    </div>
+    <div class="setup-tag">Setup D: Screen share + facecam corner</div>
+
+    <div class="dialogue">
+      "Here's how a physician mortgage loan works. There are five key benefits that make it different from a conventional loan."
+    </div>
+
+    <div class="dialogue">
+      "<strong>Number one &mdash; zero or low down payment.</strong> Most lenders offer 0% down up to $750K to a million dollars. 5% down gets you up to $1.5 million. Compare that to a conventional loan where you need 5-20% down on anything.<br><br>
+
+      <strong>Number two &mdash; no PMI. Ever.</strong> This is the big one. On a conventional loan with less than 20% down, you pay private mortgage insurance. On a $300K loan, that's $125 to $375 a month, just gone. Physician loans waive PMI completely. That saves you $1,500 to $4,500 a year.<br><br>
+
+      <strong>Number three &mdash; student loan treatment.</strong> This is the game-changer. A conventional lender looks at your $250K in student debt and calculates 1% of the balance as your monthly obligation. That's $2,500 a month in debt that doesn't actually exist as a payment. You'd get denied instantly. A physician lender uses your <strong>actual IBR payment</strong> &mdash; which during residency is often zero to $300 a month. That single difference can increase your purchasing power by $100K to $200K.<br><br>
+
+      <strong>Number four &mdash; employment contracts accepted.</strong> You don't need two years of W-2 history. A signed employment contract or match letter is enough. A PGY-1 matched to BSW in March can close on a Temple home in May &mdash; before their first paycheck.<br><br>
+
+      <strong>Number five &mdash; high loan limits.</strong> Conforming loans cap at $806,500 in 2026. Physician loans go to a million, $1.5 million, even $2.5 million depending on the lender. In Temple, you'll never need that much &mdash; but it's there."
+    </div>
+
+    <div class="screen-note">
+      <span class="icon">&#9998;</span>
+      <span><strong>On-screen:</strong> Number each benefit with a graphic card (1-5). Show the student loan math side-by-side: "Conventional sees: $2,500/mo" vs "Physician lender sees: $250/mo" with visual comparison.</span>
+    </div>
+  </div>
+
+  <!-- THE CATCH -->
+  <div class="script-block warning">
+    <div class="script-header">
+      <h3>The Catch &mdash; What They Don't Tell You</h3>
+      <span class="timestamp">4:30 &ndash; 7:00</span>
+    </div>
+    <div class="setup-tag">Setup A: Talking Head &mdash; direct, trust-building</div>
+
+    <div class="dialogue">
+      "Okay, now here's the part every lender video skips. The catches.<br><br>
+
+      <strong>Catch number one: you're paying a rate premium.</strong> Physician loans run about a quarter to a half percent higher than what you'd get on a conventional loan with 20% down. On a $300K loan, that's $50 to $100 more per month &mdash; or $18,000 to $36,000 over 30 years. If you have the cash for 20% down, conventional is almost always cheaper.<br><br>
+
+      <strong>Catch number two: the ARM trap.</strong> A lot of physician loans are offered as adjustable rate mortgages because the initial rate looks amazing &mdash; like 5.75%. But after 5 years, it adjusts. If rates haven't come down, your $2,000 payment could become $2,600 overnight. If you're a resident buying for 3-5 years and you KNOW you're leaving, an ARM can save you $12K to $24K. If you're settling in &mdash; always go 30-year fixed."
+    </div>
+
+    <div class="red-text-note">
+      <span class="icon">&#9888;</span>
+      <span><strong>On-screen text (red):</strong> "ARM trap: $2,000/mo &rarr; $2,600/mo after adjustment"</span>
+    </div>
+
+    <div class="dialogue" style="border-left-color: var(--red);">
+      "<strong>Catch number three &mdash; and this is the one I really need you to hear &mdash; the Doctor House Trap.</strong><br><br>
+
+      Banks will approve you for WAY more than you should spend. A PGY-5 making $81K can get approved for $500K or more. Let me show you what that looks like."
+    </div>
+
+    <div class="screen-note">
+      <span class="icon">&#9998;</span>
+      <span><strong>Show on screen share:</strong><br>
+      $500K loan at 6.75% = $3,243/mo P&I<br>
+      + Property tax: $900/mo<br>
+      + Insurance: $200/mo<br>
+      = <strong>$4,343/mo = 64% of gross income</strong><br>
+      "Anything above 33% is financially dangerous" in red</span>
+    </div>
+
+    <div class="dialogue">
+      "64% of your gross income going to housing. You can't invest. You can't save. You can't breathe. And you still have $250K in student loans. This is the number one financial mistake young physicians make &mdash; buying at maximum approval because a bank said yes.<br><br>
+
+      <strong>The rule: buy at 2-3x gross income, not 5-6x.</strong> A PGY-1 at $71K should be looking at $200K to $280K homes. Not $500K. And in Temple? That range buys you something genuinely nice."
+    </div>
+
+    <div class="red-text-note">
+      <span class="icon">&#9888;</span>
+      <span><strong>On-screen text (bold, red):</strong> "Buy at 2-3x gross income. NOT 5-6x."</span>
+    </div>
+
+    <div class="dialogue">
+      "<strong>One more catch: zero equity risk.</strong> With nothing down, any market dip puts you underwater. Temple home values have already softened about 3-4% in the last year. If you bought a $300K home at 0% down and values drop 5%, you owe $300K on a home worth $285K. You can't sell without writing a check. So make sure your timeline is at least 3-5 years."
+    </div>
+  </div>
+
+  <!-- REAL TEMPLE EXAMPLE -->
+  <div class="script-block">
+    <div class="script-header">
+      <h3>Real Example &mdash; $300K Temple Home, 3 Scenarios</h3>
+      <span class="timestamp">7:00 &ndash; 9:00</span>
+    </div>
+    <div class="setup-tag">Setup D: Screen share with spreadsheet</div>
+
+    <div class="dialogue">
+      "Alright, let's make this real. I'm going to run three scenarios on a $300K home right here in Temple. Physician loan with 0% down, conventional with 5% down and PMI, and conventional with 20% down."
+    </div>
+
+    <div class="scenario-grid">
+      <div class="scenario-card recommended">
+        <div class="sc-badge green">Physician 0% Down</div>
+        <h4>Scenario A</h4>
+        <div class="sc-row"><span class="label">Down Payment</span><span class="val">$0</span></div>
+        <div class="sc-row"><span class="label">Loan Amount</span><span class="val">$300,000</span></div>
+        <div class="sc-row"><span class="label">Rate</span><span class="val">6.75%</span></div>
+        <div class="sc-row"><span class="label">Monthly P&I</span><span class="val">$1,946</span></div>
+        <div class="sc-row"><span class="label">Tax + Insurance</span><span class="val">$740</span></div>
+        <div class="sc-row"><span class="label">PMI</span><span class="val winner">$0</span></div>
+        <div class="sc-total">
+          <div class="big">$2,686</div>
+          <div class="sub">/month &bull; Cash to close: ~$7K</div>
+        </div>
+      </div>
+      <div class="scenario-card">
+        <div class="sc-badge gray">Conventional 5% Down</div>
+        <h4>Scenario B</h4>
+        <div class="sc-row"><span class="label">Down Payment</span><span class="val">$15,000</span></div>
+        <div class="sc-row"><span class="label">Loan Amount</span><span class="val">$285,000</span></div>
+        <div class="sc-row"><span class="label">Rate</span><span class="val">6.50%</span></div>
+        <div class="sc-row"><span class="label">Monthly P&I</span><span class="val">$1,802</span></div>
+        <div class="sc-row"><span class="label">Tax + Insurance</span><span class="val">$740</span></div>
+        <div class="sc-row"><span class="label">PMI</span><span class="val negative">$178</span></div>
+        <div class="sc-total">
+          <div class="big">$2,720</div>
+          <div class="sub">/month &bull; Cash to close: ~$22K</div>
+        </div>
+      </div>
+      <div class="scenario-card">
+        <div class="sc-badge red">Conventional 20% Down</div>
+        <h4>Scenario C</h4>
+        <div class="sc-row"><span class="label">Down Payment</span><span class="val">$60,000</span></div>
+        <div class="sc-row"><span class="label">Loan Amount</span><span class="val">$240,000</span></div>
+        <div class="sc-row"><span class="label">Rate</span><span class="val">6.40%</span></div>
+        <div class="sc-row"><span class="label">Monthly P&I</span><span class="val">$1,501</span></div>
+        <div class="sc-row"><span class="label">Tax + Insurance</span><span class="val">$740</span></div>
+        <div class="sc-row"><span class="label">PMI</span><span class="val winner">$0</span></div>
+        <div class="sc-total">
+          <div class="big">$2,241</div>
+          <div class="sub">/month &bull; Cash to close: ~$67K</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="dialogue">
+      "Look at this. The physician loan is actually $34 CHEAPER per month than conventional with 5% down &mdash; and you didn't put a single dollar down. The conventional with 20% down is cheapest monthly, but show me a resident who has $60,000 sitting in a bank account.
+      <br><br>
+      For a PGY-1 at $71K, the physician loan on a $300K home is 45% of gross income. That's workable but tight. <strong>The sweet spot? A $250K home. That drops to $2,271 a month &mdash; 38% of gross. And in Temple, $250K buys you a solid 3-bed, 2-bath in Canyon Creek or Bella Terra, 5-8 minutes from the hospital.</strong>"
+    </div>
+
+    <div class="screen-note">
+      <span class="icon">&#9998;</span>
+      <span><strong>Key on-screen text:</strong> "Physician loan: $34/mo LESS than conventional 5% down — with $0 out of pocket"</span>
+    </div>
+  </div>
+
+  <!-- TEMPLE VS AUSTIN/DALLAS -->
+  <div class="script-block">
+    <div class="script-header">
+      <h3>Temple vs Austin vs Dallas &mdash; Buying Power</h3>
+      <span class="timestamp">9:00 &ndash; 10:00</span>
+    </div>
+    <div class="setup-tag">Setup D: Screen share with comparison graphic</div>
+
+    <div class="dialogue">
+      "And here's why Temple specifically is the best place to use this loan. Let me show you what a $300K physician loan buys in three Texas markets."
+    </div>
+
+    <table class="data-table">
+      <tr>
+        <th>Market</th>
+        <th>Median Price</th>
+        <th>What $300K Buys</th>
+      </tr>
+      <tr>
+        <td><strong>Temple</strong></td>
+        <td class="positive">$255K</td>
+        <td><strong>Above-median home.</strong> 4BR/2BA, 2,000+ sqft, built after 2010, attached garage, neighborhood amenities.</td>
+      </tr>
+      <tr>
+        <td><strong>Austin</strong></td>
+        <td class="negative">$440K</td>
+        <td>Below-median condo or fixer. 2BR/1BA in suburbs, 30+ min commute.</td>
+      </tr>
+      <tr>
+        <td><strong>Dallas</strong></td>
+        <td class="negative">$385K</td>
+        <td>Well below median. 3BR/2BA starter in outer suburbs, 40+ min commute.</td>
+      </tr>
+    </table>
+
+    <div class="dialogue">
+      "In Temple, your physician loan puts you in an <strong>above-average home in a nice neighborhood five minutes from the hospital.</strong> In Austin, the same loan puts you in a below-average condo 30 minutes from anything. The purchasing power difference is massive. An Austin PGY-1 needs $430K just to buy median &mdash; that's 73% of gross income. In Temple, median is $255K &mdash; 38%. That's the difference between building wealth and drowning."
+    </div>
+
+    <div class="screen-note">
+      <span class="icon">&#9998;</span>
+      <span><strong>On-screen text:</strong> "Austin: 73% of income on housing" (red) vs "Temple: 38% of income" (green). Let that visual sit for 3-4 seconds.</span>
+    </div>
+  </div>
+
+  <!-- BEST NEIGHBORHOODS -->
+  <div class="script-block">
+    <div class="script-header">
+      <h3>Best Temple Neighborhoods for BSW Residents</h3>
+      <span class="timestamp">10:00 &ndash; 10:45</span>
+    </div>
+    <div class="setup-tag">Setup A: Talking Head + B-roll overlay</div>
+
+    <div class="dialogue">
+      "Real quick &mdash; if you're a BSW resident wondering where to live, here are the neighborhoods I recommend based on your situation."
+    </div>
+
+    <div class="hood-section">
+      <h4>Closest to BSW (5-8 min drive) &mdash; Best for Residents</h4>
+      <div class="hood-grid">
+        <div class="hood-card">
+          <div class="name">Canyon Creek</div>
+          <div class="price">$215K &ndash; $300K</div>
+          <div class="note">Most popular with residents. Best price/proximity/resale balance.</div>
+        </div>
+        <div class="hood-card">
+          <div class="name">Bella Terra</div>
+          <div class="price">$250K &ndash; $340K</div>
+          <div class="note">Newer construction, family-friendly, solid resale.</div>
+        </div>
+        <div class="hood-card">
+          <div class="name">Wyndham Hill</div>
+          <div class="price">$220K &ndash; $280K</div>
+          <div class="note">Close to hospital, good starter homes.</div>
+        </div>
+        <div class="hood-card">
+          <div class="name">Western Hills</div>
+          <div class="price">$180K &ndash; $260K</div>
+          <div class="note">Established, most affordable near BSW.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hood-section">
+      <h4>Belton ISD (12-15 min) &mdash; Best for Families</h4>
+      <div class="hood-grid">
+        <div class="hood-card">
+          <div class="name">Lake Pointe</div>
+          <div class="price">$250K &ndash; $340K</div>
+          <div class="note">Newer construction, parks, shopping nearby.</div>
+        </div>
+        <div class="hood-card">
+          <div class="name">Dawson Ranch</div>
+          <div class="price">$280K &ndash; $380K</div>
+          <div class="note">Popular with attendings. Belton ISD.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hood-section">
+      <h4>Premium (Attending Upgrades)</h4>
+      <div class="hood-grid">
+        <div class="hood-card">
+          <div class="name">Windmill Farms</div>
+          <div class="price">$350K &ndash; $500K+</div>
+          <div class="note">Estate lots. Top choice for established physicians.</div>
+        </div>
+        <div class="hood-card">
+          <div class="name">Legacy Ranch</div>
+          <div class="price">$350K &ndash; $550K</div>
+          <div class="note">Premium new construction, Belton ISD.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="broll-note">
+      <span class="icon">&#127909;</span>
+      <span><strong>B-roll:</strong> Quick 3-sec clips of each neighborhood as you mention them. Drive-by footage from existing neighborhood tour videos.</span>
+    </div>
+  </div>
+
+  <!-- WHO SHOULD / SHOULDN'T -->
+  <div class="script-block verdict">
+    <div class="script-header">
+      <h3>The Verdict &mdash; Should You Use It?</h3>
+      <span class="timestamp">10:45 &ndash; 12:00</span>
+    </div>
+    <div class="setup-tag">Setup A: Talking Head &mdash; lean in, direct</div>
+
+    <div class="dialogue">
+      "So &mdash; should you use a physician loan? Here's my honest take."
+    </div>
+
+    <div class="traffic-grid">
+      <div class="traffic-card">
+        <div class="light green"></div>
+        <h4>Green Light</h4>
+        <p><strong>PGY-1 arriving at BSW Temple in July</strong> with no savings, signed match letter, planning to stay 3-7 years. Renting costs $1,400-$1,800/mo anyway. Build equity instead. Target $200K-$280K. Close before orientation using your employment contract.</p>
+      </div>
+      <div class="traffic-card">
+        <div class="light yellow"></div>
+        <h4>Yellow Light</h4>
+        <p><strong>New attending tempted by $500K+ home.</strong> Banks will say yes. Your wallet will say no. First-year attending with $250K in debt should buy $300K, live below means 2-3 years, then upgrade.</p>
+      </div>
+      <div class="traffic-card">
+        <div class="light red"></div>
+        <h4>Red Light</h4>
+        <p><strong>Resident planning to leave Temple after 3-year training.</strong> Transaction costs (6% commission + closing costs) eat your equity. At 0% down + 3 years of ownership, you're likely losing money. <strong>Rent during residency. Buy at your attending destination.</strong></p>
+      </div>
+    </div>
+
+    <div class="dialogue">
+      "One more thing nobody mentions. BSW is a 501(c)(3) non-profit. That means every year of residency counts toward <strong>Public Service Loan Forgiveness</strong>. A 5-year surgical resident makes 60 of 120 required PSLF payments during training, with IBR payments as low as zero to $300 a month. Keep your student loan payments low, use the physician mortgage to build equity in a home, and let PSLF handle the rest. That's the triple play &mdash; physician loan, Temple cost of living, and PSLF."
+    </div>
+
+    <div class="screen-note">
+      <span class="icon">&#9998;</span>
+      <span><strong>On-screen text:</strong> "The Triple Play: Physician Loan + Temple Prices + PSLF = Build Wealth During Training"</span>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="script-block">
+    <div class="script-header">
+      <h3>Call to Action</h3>
+      <span class="timestamp">12:00 &ndash; 12:30</span>
+    </div>
+    <div class="setup-tag">Setup A: Talking Head, direct to camera</div>
+    <div class="dialogue">
+      "If you're a medical professional coming to Temple &mdash; or you're already here and wondering whether to rent or buy &mdash; I work with BSW residents every year. I can walk you through the neighborhoods, connect you with lenders who specialize in physician loans, and run the actual numbers on specific properties.<br><br>
+      Drop a comment with your specialty and what PGY year you're in &mdash; I'll tell you whether buying makes sense for your situation. And link is in the description to book a call.<br><br>
+      I'm Taylor Dasch with EG Realty. I'll see you in the next one."
+    </div>
+  </div>
+
+</div><!-- end script section -->
+
+<div class="divider"></div>
+
+<!-- ═══ IV. BSW SALARY REFERENCE ═══ -->
+<div class="section">
+  <div class="section-number">Section IV</div>
+  <h2>BSW Resident Salary Reference</h2>
+  <div class="section-line"></div>
+  <p style="color:var(--slate-500); margin-bottom:16px;">Baylor Scott & White system-wide rates, AY 2025-2026. Temple campus uses the same scale.</p>
+
+  <table class="data-table">
+    <tr><th>PGY Level</th><th>Annual Salary</th><th>Monthly Gross</th><th>Monthly Net (est.)</th></tr>
+    <tr><td>PGY-1</td><td>$70,993</td><td>$5,916</td><td>~$4,700</td></tr>
+    <tr><td>PGY-2</td><td>$73,123</td><td>$6,094</td><td>~$4,840</td></tr>
+    <tr><td>PGY-3</td><td>$75,500</td><td>$6,292</td><td>~$5,000</td></tr>
+    <tr><td>PGY-4</td><td>$78,142</td><td>$6,512</td><td>~$5,170</td></tr>
+    <tr><td>PGY-5</td><td>$81,072</td><td>$6,756</td><td>~$5,365</td></tr>
+    <tr><td>PGY-6</td><td>$84,113</td><td>$7,009</td><td>~$5,567</td></tr>
+    <tr><td>PGY-7</td><td>$87,687</td><td>$7,307</td><td>~$5,804</td></tr>
+  </table>
+
+  <p style="color:var(--slate-500); font-size:0.85rem; margin-top:12px;"><strong>BSW benefits that affect the math:</strong> Free medical insurance (employee-only), free parking, $120/mo food stipend, 5% 403(b) match, PSLF-qualifying employment, 6 weeks paid parental leave.</p>
+</div>
+
+<div class="divider"></div>
+
+<!-- ═══ V. LENDER REFERENCE ═══ -->
+<div class="section">
+  <div class="section-number">Section V</div>
+  <h2>Texas Physician Loan Lenders (2026)</h2>
+  <div class="section-line"></div>
+  <p style="color:var(--slate-500); margin-bottom:16px;">Reference for the video &mdash; don't read the full list on camera. Mention 2-3 lenders and say "I have a full list, DM me."</p>
+
+  <table class="data-table">
+    <tr><th>Lender</th><th>0% Down Limit</th><th>5% Down Limit</th><th>Notes</th></tr>
+    <tr><td><strong>BMO Bank</strong></td><td>$1M</td><td>$1.5M</td><td>Strong TX presence</td></tr>
+    <tr><td><strong>Cadence Bank</strong></td><td>$1.25M</td><td>&mdash;</td><td>400+ SE/TX locations</td></tr>
+    <tr><td><strong>Regions Bank</strong></td><td>$750K</td><td>$1M</td><td>Doctor Mortgage Program</td></tr>
+    <tr><td><strong>Fulton Mortgage</strong></td><td>$1.5M</td><td>$2M</td><td>Highest limits</td></tr>
+    <tr><td><strong>Federal Savings Bank</strong></td><td>$750K</td><td>$1M</td><td>Resident-friendly</td></tr>
+    <tr><td><strong>First Western Trust</strong></td><td>Varies</td><td>Varies</td><td>Below-market rates</td></tr>
+    <tr><td><strong>LendFriend</strong></td><td>Varies</td><td>Varies</td><td>TX-based specialist</td></tr>
+    <tr><td><strong>Panacea Financial</strong></td><td>Varies</td><td>Varies</td><td>Physician-only bank</td></tr>
+  </table>
+
+  <p style="color:var(--slate-500); font-size:0.85rem; margin-top:12px;"><strong>Current rates:</strong> Physician loans 6.50-7.00% (30yr fixed) vs conventional 6.38-6.56%. The "doctor tax" premium is 0.125-0.50%. Always shop 3-5 lenders.</p>
+</div>
+
+<div class="divider"></div>
+
+<!-- ═══ VI. B-ROLL SHOT LIST ═══ -->
+<div class="section">
+  <div class="section-number">Section VI</div>
+  <h2>B-Roll Shot List</h2>
+  <div class="section-line"></div>
+
+  <div class="shot-list">
+    <div class="shot-card">
+      <div class="shot-type">Exterior / Aerial</div>
+      <h4>BSW Campus</h4>
+      <p>Wide establishing shot of the hospital. SW H.K. Dodgen Loop. 20-30 sec of footage.</p>
+    </div>
+    <div class="shot-card">
+      <div class="shot-type">Signage</div>
+      <h4>BSW Entrance Signs</h4>
+      <p>Main campus entrance, GME building entrance if visible. 10 sec.</p>
+    </div>
+    <div class="shot-card">
+      <div class="shot-type">Driving / POV</div>
+      <h4>Canyon Creek Drive-Through</h4>
+      <p>Slow drive showing homes in the $220-$280K range near BSW. Reuse from existing tour footage.</p>
+    </div>
+    <div class="shot-card">
+      <div class="shot-type">Driving / POV</div>
+      <h4>Bella Terra Drive-Through</h4>
+      <p>Quick clip showing newer construction. Reuse from existing tour footage.</p>
+    </div>
+    <div class="shot-card">
+      <div class="shot-type">Stock / MLS</div>
+      <h4>$250K Temple Home Interior</h4>
+      <p>MLS photos of a representative 3BR/2BA at the "sweet spot" price point. Screen share insert.</p>
+    </div>
+    <div class="shot-card">
+      <div class="shot-type">Stock</div>
+      <h4>White Coat Ceremony / Medical</h4>
+      <p>Generic stock footage of young doctors or graduation. 3-5 sec inserts for "who this is for" section.</p>
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- ═══ VII. SHORTS ═══ -->
+<div class="section">
+  <div class="section-number">Section VII</div>
+  <h2>Shorts to Cut From This Video</h2>
+  <div class="section-line"></div>
+
+  <div class="shorts-grid">
+    <div class="short-card">
+      <div class="short-num">1</div>
+      <h4>The $0 Down Loan</h4>
+      <p>Cold open + benefit #1 and #2 (0% down, no PMI). 30-40 sec.</p>
+      <div class="hook-text">"$0 down, no PMI, even with $250K in student debt"</div>
+    </div>
+    <div class="short-card">
+      <div class="short-num">2</div>
+      <h4>The Doctor House Trap</h4>
+      <p>Catch #3 — the $500K mistake on $81K salary. 30-40 sec.</p>
+      <div class="hook-text">"Banks will approve you for $500K on a resident salary. Don't."</div>
+    </div>
+    <div class="short-card">
+      <div class="short-num">3</div>
+      <h4>Temple vs Austin Buying Power</h4>
+      <p>The $300K comparison across 3 markets. 25-35 sec.</p>
+      <div class="hook-text">"$300K buys a 4BR in Temple. The same loan buys a condo in Austin."</div>
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- ═══ VIII. CHECKLISTS ═══ -->
+<div class="section">
+  <div class="section-number">Section VIII</div>
+  <h2>Production Checklists</h2>
+  <div class="section-line"></div>
+
+  <div class="checklist">
+    <div class="checklist-col">
+      <h4>Pre-Production</h4>
+      <div class="checklist-item"><span class="box"></span>Build student loan math comparison graphic</div>
+      <div class="checklist-item"><span class="box"></span>Build 3-scenario spreadsheet in Sheets</div>
+      <div class="checklist-item"><span class="box"></span>Build Temple vs Austin vs Dallas comparison graphic</div>
+      <div class="checklist-item"><span class="box"></span>Build neighborhood recommendation graphic</div>
+      <div class="checklist-item"><span class="box"></span>Pull MLS photos of $250K "sweet spot" home</div>
+      <div class="checklist-item"><span class="box"></span>Film BSW campus B-roll (if not already)</div>
+      <div class="checklist-item"><span class="box"></span>Source white coat ceremony stock footage</div>
+      <div class="checklist-item"><span class="box"></span>Create thumbnail in Canva</div>
+      <div class="checklist-item"><span class="box"></span>Practice the 3-scenario walkthrough</div>
+      <div class="checklist-item"><span class="box"></span>Test OBS screen share setup</div>
+    </div>
+    <div class="checklist-col">
+      <h4>Post-Production</h4>
+      <div class="checklist-item"><span class="box"></span>Visual change every 15-20 sec</div>
+      <div class="checklist-item"><span class="box"></span>Captions added + medical terms corrected</div>
+      <div class="checklist-item"><span class="box"></span>Lower third on first appearance</div>
+      <div class="checklist-item"><span class="box"></span>Music killed during math segments</div>
+      <div class="checklist-item"><span class="box"></span>End screen: subscribe + BSW neighborhoods video</div>
+      <div class="checklist-item"><span class="box"></span>Card at 10:00 linking to BSW video</div>
+      <div class="checklist-item"><span class="box"></span>Thumbnail uploaded</div>
+      <div class="checklist-item"><span class="box"></span>Description with timestamps + lender list</div>
+      <div class="checklist-item"><span class="box"></span>Tags: physician loan, doctor mortgage, BSW Temple</div>
+      <div class="checklist-item"><span class="box"></span>Cut 3 shorts from long-form</div>
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- ═══ FOOTER ═══ -->
+<div style="text-align:center; padding:40px 0 60px; color:var(--slate-400); font-size:0.82rem;">
+  <p style="margin-bottom:4px;">Production package compiled by ClawdBot from 30+ verified sources</p>
+  <p style="margin-bottom:4px;">Research doc: <code>research/PHYSICIAN-MORTGAGE-LOAN-RESEARCH-2026.md</code></p>
+  <p style="color:var(--slate-300);">Taylor Dasch &bull; EG Realty &bull; 254-718-4249 &bull; templetxhomes.net</p>
+</div>
+
+</div><!-- end content -->
+</body>
+</html>

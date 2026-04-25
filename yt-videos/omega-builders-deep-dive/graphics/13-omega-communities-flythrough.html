@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Omega Builders — 5 Communities Flythrough</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --midnight:#1e293b;
+    --midnight-deep:#0f172a;
+    --emerald:#059669;
+    --emerald-bright:#10b981;
+    --gold:#d4af37;
+    --amber:#f59e0b;
+    --cream:#f8fafc;
+    --cream-dim:#cbd5e1;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%;background:var(--midnight-deep);font-family:'Outfit',sans-serif;color:var(--cream);overflow:hidden}
+  #map{position:absolute;inset:0;background:var(--midnight-deep)}
+
+  /* ============ HUD (top-right, dev info) ============ */
+  .hud{
+    position:absolute;top:18px;right:18px;z-index:10;
+    background:rgba(15,23,42,.85);border:1px solid rgba(5,150,105,.4);
+    padding:6px 14px;border-radius:2px;
+    font-family:'Outfit',sans-serif;font-size:10px;letter-spacing:.2em;
+    color:var(--emerald-bright);text-transform:uppercase;
+  }
+
+  /* ============ MASTER TITLE ============ */
+  .master-title{
+    position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:8;
+    text-align:center;opacity:0;transition:opacity 1.2s ease;
+    pointer-events:none;
+  }
+  .master-title.show{opacity:1}
+  .master-title .eyebrow{
+    font-family:'Outfit';font-size:11px;letter-spacing:.5em;color:var(--gold);
+    margin-bottom:14px;text-transform:uppercase;font-weight:500;
+  }
+  .master-title .headline{
+    font-family:'Cormorant Garamond';font-weight:600;font-size:64px;
+    color:var(--cream);letter-spacing:.02em;line-height:1;
+  }
+  .master-title .rule{
+    width:80px;height:2px;background:var(--emerald);margin:18px auto 0;
+  }
+
+  /* ============ COMMUNITY CARD (lower-third) ============ */
+  .card{
+    position:absolute;left:48px;bottom:48px;z-index:9;
+    width:480px;
+    background:linear-gradient(180deg,rgba(15,23,42,.96) 0%,rgba(30,41,59,.96) 100%);
+    border:1px solid rgba(5,150,105,.35);
+    border-left:4px solid var(--emerald);
+    padding:28px 32px 28px 32px;
+    box-shadow:0 24px 60px rgba(0,0,0,.65);
+    opacity:0;transform:translateX(-24px);
+    transition:opacity .6s ease,transform .6s ease;
+    pointer-events:none;
+  }
+  .card.show{opacity:1;transform:translateX(0)}
+  .card .rn{
+    font-family:'Cormorant Garamond';font-style:italic;font-weight:500;
+    color:var(--gold);font-size:18px;letter-spacing:.15em;margin-bottom:6px;
+  }
+  .card .eyebrow{
+    font-family:'Outfit';font-size:10px;letter-spacing:.35em;color:var(--cream-dim);
+    text-transform:uppercase;margin-bottom:12px;font-weight:500;
+  }
+  .card .name{
+    font-family:'Cormorant Garamond';font-weight:600;font-size:38px;line-height:1;
+    color:var(--cream);margin-bottom:14px;
+  }
+  .card .rule{
+    width:48px;height:2px;background:var(--emerald);margin-bottom:14px;
+  }
+  .card .stats{
+    display:flex;flex-direction:column;gap:6px;margin-bottom:14px;
+  }
+  .card .stat{
+    font-family:'Outfit';font-size:13px;letter-spacing:.12em;color:var(--cream);
+    text-transform:uppercase;font-weight:500;
+  }
+  .card .stat .em{color:var(--emerald-bright);font-weight:600}
+  .card .stat .gold{color:var(--gold);font-weight:600}
+  .card .stat .amber{color:var(--amber);font-weight:600}
+  .card .caption{
+    font-family:'Cormorant Garamond';font-style:italic;font-size:16px;
+    color:var(--cream-dim);line-height:1.45;margin-top:6px;
+  }
+  .card.amber-warn{border-left-color:var(--amber)}
+  .card.amber-warn .rule{background:var(--amber)}
+
+  /* ============ MARKER (emerald pin + label) ============ */
+  .marker-wrap{
+    display:flex;flex-direction:column;align-items:center;
+    pointer-events:none;
+  }
+  .marker-pin{
+    width:18px;height:18px;border-radius:50%;
+    background:var(--emerald-bright);
+    border:3px solid var(--cream);
+    box-shadow:0 0 0 4px rgba(5,150,105,.35),0 6px 16px rgba(0,0,0,.6);
+  }
+  .marker-pin.amber{background:var(--amber);box-shadow:0 0 0 4px rgba(245,158,11,.35),0 6px 16px rgba(0,0,0,.6)}
+  .marker-pin.gold{background:var(--gold);box-shadow:0 0 0 4px rgba(212,175,55,.35),0 6px 16px rgba(0,0,0,.6)}
+  .marker-label{
+    margin-top:8px;background:rgba(15,23,42,.92);
+    border:1px solid rgba(5,150,105,.5);
+    padding:4px 10px;border-radius:1px;
+    font-family:'Outfit';font-size:10px;letter-spacing:.2em;
+    color:var(--cream);text-transform:uppercase;font-weight:500;
+    white-space:nowrap;
+  }
+
+  /* ============ BRAND STAMP (final scene) ============ */
+  .stamp{
+    position:absolute;left:50%;bottom:60px;transform:translateX(-50%);z-index:9;
+    text-align:center;opacity:0;transition:opacity 1s ease;
+    pointer-events:none;
+  }
+  .stamp.show{opacity:1}
+  .stamp .head{
+    font-family:'Cormorant Garamond';font-weight:600;font-size:46px;color:var(--cream);
+    letter-spacing:.02em;
+  }
+  .stamp .sub{
+    font-family:'Outfit';font-size:11px;letter-spacing:.5em;color:var(--gold);
+    text-transform:uppercase;margin-top:10px;font-weight:500;
+  }
+  .stamp .rule{
+    width:60px;height:2px;background:var(--emerald);margin:14px auto;
+  }
+
+  /* ============ CONTROLS ============ */
+  .controls{
+    position:absolute;left:50%;bottom:24px;transform:translateX(-50%);z-index:11;
+    display:flex;gap:10px;
+  }
+  .controls button{
+    background:rgba(15,23,42,.92);
+    border:1px solid var(--emerald);
+    color:var(--cream);
+    font-family:'Outfit';font-weight:500;font-size:12px;letter-spacing:.25em;
+    text-transform:uppercase;padding:12px 22px;cursor:pointer;
+    transition:all .2s ease;
+  }
+  .controls button:hover{background:var(--emerald);color:var(--midnight-deep)}
+  .controls button:disabled{opacity:.4;cursor:wait}
+
+  /* ============ VIGNETTE ============ */
+  .vignette{
+    position:absolute;inset:0;z-index:2;pointer-events:none;
+    background:radial-gradient(ellipse at center,transparent 50%,rgba(15,23,42,.55) 100%);
+  }
+
+  /* ============ SCENE TIMER (bottom-left, hideable) ============ */
+  .timer{
+    position:absolute;bottom:20px;left:20px;z-index:11;
+    font-family:'Outfit';font-size:10px;letter-spacing:.3em;color:var(--cream-dim);
+    text-transform:uppercase;
+    background:rgba(15,23,42,.7);padding:5px 10px;
+    border-left:2px solid var(--emerald);
+  }
+
+  /* ============ HIDE-FOR-RECORD MODE ============
+     Add ?clean=1 to URL to hide controls/HUD/timer for clean screen recording */
+  body.clean .controls,body.clean .hud,body.clean .timer{display:none !important}
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div class="vignette"></div>
+
+<div class="hud" id="hud">LOADING…</div>
+
+<div class="master-title" id="masterTitle">
+  <div class="eyebrow">Omega Builders / Temple, Texas</div>
+  <div class="headline">Five Communities</div>
+  <div class="rule"></div>
+</div>
+
+<!-- 5 cards, one per community -->
+<div class="card" id="card-1">
+  <div class="rn">I</div>
+  <div class="eyebrow">North Temple / Belton ISD</div>
+  <div class="name">North Pointe</div>
+  <div class="rule"></div>
+  <div class="stats">
+    <div class="stat">School District: <span class="em">Belton ISD</span></div>
+    <div class="stat">Tax Note: <span class="amber">+0.14% PID add-on</span></div>
+    <div class="stat">Style: <span class="em">Cottage → Mid-Tier</span></div>
+  </div>
+  <div class="caption">"Prime location, priced well — but verify the PID before you offer."</div>
+</div>
+
+<div class="card amber-warn" id="card-1b">
+  <div class="rn">⚠</div>
+  <div class="eyebrow">Screenshot This</div>
+  <div class="name" style="color:var(--amber)">+0.14% PID</div>
+  <div class="rule"></div>
+  <div class="caption">On a $300K home — roughly $420 / year on top of standard property tax.</div>
+</div>
+
+<div class="card" id="card-2">
+  <div class="rn">II</div>
+  <div class="eyebrow">South Temple / Academy ISD</div>
+  <div class="name">Hartrick Ranch</div>
+  <div class="rule"></div>
+  <div class="stats">
+    <div class="stat">Cottage Series From: <span class="em">$249,900</span></div>
+    <div class="stat">School District: <span class="em">Academy ISD</span></div>
+    <div class="stat">Anchor: <span class="gold">The Resident's First House</span></div>
+  </div>
+  <div class="caption">"Brand-new construction. Academy ISD. Under $250K. In 2026."</div>
+</div>
+
+<div class="card" id="card-3">
+  <div class="rn">III</div>
+  <div class="eyebrow">West Temple / Temple ISD</div>
+  <div class="name">Hills of Westwood</div>
+  <div class="rule"></div>
+  <div class="stats">
+    <div class="stat">School District: <span class="em">Temple ISD</span></div>
+    <div class="stat">Tier: <span class="em">Mid-Range Family</span></div>
+    <div class="stat">Lots: <span class="em">Established Trees + Quiet Streets</span></div>
+  </div>
+  <div class="caption">"The quietest of the five. Settled feel. Zero PID."</div>
+</div>
+
+<div class="card" id="card-4">
+  <div class="rn">IV</div>
+  <div class="eyebrow">South Temple / Temple ISD</div>
+  <div class="name">Hillside Village</div>
+  <div class="rule"></div>
+  <div class="stats">
+    <div class="stat">School District: <span class="em">Temple ISD</span></div>
+    <div class="stat">Tier: <span class="em">Mid-Range Single-Story</span></div>
+    <div class="stat">Commute: <span class="em">12 min to BSW Medical Campus</span></div>
+  </div>
+  <div class="caption">"Closest of the five to BSW. Resident-friendly drive."</div>
+</div>
+
+<div class="card" id="card-5">
+  <div class="rn">V</div>
+  <div class="eyebrow">West / Belton ISD</div>
+  <div class="name">Three Creeks</div>
+  <div class="rule"></div>
+  <div class="stats">
+    <div class="stat">Tier: <span class="gold">Premium Tier</span></div>
+    <div class="stat">School District: <span class="em">Belton ISD</span></div>
+    <div class="stat">Signature: <span class="em">Quartz · Tray Ceilings · Floor-to-Ceiling Windows</span></div>
+  </div>
+  <div class="caption">"Where Omega's craft actually shows up."</div>
+</div>
+
+<!-- final brand stamp -->
+<div class="stamp" id="stamp">
+  <div class="head">Omega Builders</div>
+  <div class="rule"></div>
+  <div class="sub">55 Years · Temple, Texas · 5 Communities</div>
+</div>
+
+<div class="timer" id="timer">SCENE 0 / 7</div>
+
+<div class="controls">
+  <button id="play">▶ Play Flythrough</button>
+  <button id="restart">⟳ Restart</button>
+</div>
+
+<script>
+// Replace with a local Mapbox public token before rendering this map.
+mapboxgl.accessToken = 'MAPBOX_PUBLIC_TOKEN';
+
+// Add ?clean=1 to hide controls for screen recording
+if(new URLSearchParams(location.search).get('clean')==='1'){document.body.classList.add('clean');}
+
+const COORDS = {
+  templeCenter:    [-97.3550, 31.0900],
+  northPointe:     [-97.3167, 31.1705],   // Belton ISD per Taylor — North Temple
+  hartrickRanch:   [-97.3786, 31.0140],   // Academy ISD — South Temple
+  hillsOfWestwood: [-97.4270, 31.1034],   // Temple ISD — West
+  hillsideVillage: [-97.3374, 31.0490],   // Temple ISD — South
+  threeCreeks:     [-97.5217, 31.0335],   // Belton ISD — West (premium)
+};
+
+// 7 scenes — total ~50 seconds
+const SCENES = [
+  // 0 — Wide pull-back over Temple, master title fades in
+  { camera:{center:COORDS.templeCenter, zoom:9.8, pitch:50, bearing:0, duration:1},
+    show:['masterTitle'], hide:[], hold:5000 },
+
+  // 1 — North Pointe (with PID warning sub-card)
+  { camera:{center:COORDS.northPointe, zoom:14.2, pitch:65, bearing:35, duration:4500},
+    show:['card-1','card-1b'], hide:['masterTitle'], hold:6000 },
+
+  // 2 — Hartrick Ranch (Cottage Series anchor)
+  { camera:{center:COORDS.hartrickRanch, zoom:14.4, pitch:68, bearing:160, duration:4500},
+    show:['card-2'], hide:['card-1','card-1b'], hold:6000 },
+
+  // 3 — Hills of Westwood
+  { camera:{center:COORDS.hillsOfWestwood, zoom:14.3, pitch:65, bearing:240, duration:4500},
+    show:['card-3'], hide:['card-2'], hold:5500 },
+
+  // 4 — Hillside Village
+  { camera:{center:COORDS.hillsideVillage, zoom:14.5, pitch:68, bearing:90, duration:4500},
+    show:['card-4'], hide:['card-3'], hold:5500 },
+
+  // 5 — Three Creeks (premium tier hero)
+  { camera:{center:COORDS.threeCreeks, zoom:14.6, pitch:70, bearing:300, duration:5000},
+    show:['card-5'], hide:['card-4'], hold:7000 },
+
+  // 6 — Pull back to show all 5, brand stamp
+  { camera:{center:[-97.40,31.09], zoom:10.5, pitch:45, bearing:0, duration:5000},
+    show:['stamp'], hide:['card-5'], hold:5000 },
+];
+
+const map = new mapboxgl.Map({
+  container:'map',
+  style:'mapbox://styles/mapbox/satellite-streets-v12',
+  center:COORDS.templeCenter, zoom:9.8, pitch:50, bearing:0,
+  attributionControl:false,
+  antialias:true,
+});
+
+map.on('load',()=>{
+  // Add 3D terrain
+  map.addSource('mapbox-dem',{type:'raster-dem',url:'mapbox://mapbox.mapbox-terrain-dem-v1',tileSize:512,maxzoom:14});
+  map.setTerrain({source:'mapbox-dem',exaggeration:1.4});
+  map.setFog({range:[0.8,8],color:'#1e293b','horizon-blend':0.15,'high-color':'#0f172a','space-color':'#0f172a','star-intensity':0.0});
+
+  // 3D building extrusions
+  const layers = map.getStyle().layers;
+  const labelLayer = layers.find(l=>l.type==='symbol' && l.layout && l.layout['text-field']);
+  map.addLayer({
+    id:'3d-buildings', source:'composite','source-layer':'building',
+    filter:['==','extrude','true'], type:'fill-extrusion', minzoom:13,
+    paint:{
+      'fill-extrusion-color':['interpolate',['linear'],['get','height'],
+        0,'#475569', 30,'#64748b', 60,'#94a3b8', 100,'#cbd5e1'],
+      'fill-extrusion-height':['get','height'],
+      'fill-extrusion-base':['get','min_height'],
+      'fill-extrusion-opacity':0.85,
+    }
+  }, labelLayer ? labelLayer.id : undefined);
+
+  // Add 5 community markers
+  addMarker(COORDS.northPointe, 'NORTH POINTE', 'amber');
+  addMarker(COORDS.hartrickRanch, 'HARTRICK RANCH', 'emerald');
+  addMarker(COORDS.hillsOfWestwood, 'HILLS OF WESTWOOD', 'emerald');
+  addMarker(COORDS.hillsideVillage, 'HILLSIDE VILLAGE', 'emerald');
+  addMarker(COORDS.threeCreeks, 'THREE CREEKS', 'gold');
+
+  document.getElementById('hud').textContent='READY';
+  document.getElementById('hud').style.color='var(--emerald-bright)';
+});
+
+function addMarker(coord,label,color){
+  const wrap=document.createElement('div');
+  wrap.className='marker-wrap';
+  wrap.innerHTML=`<div class="marker-pin ${color==='amber'?'amber':color==='gold'?'gold':''}"></div><div class="marker-label">${label}</div>`;
+  new mapboxgl.Marker({element:wrap,anchor:'top'}).setLngLat(coord).addTo(map);
+}
+
+// ============ ANIMATION ENGINE ============
+let playing=false;
+const playBtn=document.getElementById('play');
+const restartBtn=document.getElementById('restart');
+const timer=document.getElementById('timer');
+
+playBtn.addEventListener('click',()=>{ if(!playing) runFlythrough(); });
+restartBtn.addEventListener('click',()=>{
+  hideAll();
+  map.flyTo({center:COORDS.templeCenter,zoom:9.8,pitch:50,bearing:0,duration:2000});
+  timer.textContent='SCENE 0 / 7';
+  playing=false;
+  playBtn.disabled=false;playBtn.textContent='▶ Play Flythrough';
+});
+
+function hideAll(){
+  document.querySelectorAll('.card,.master-title,.stamp').forEach(el=>el.classList.remove('show'));
+}
+
+function showElems(ids){ ids.forEach(id=>{ const el=document.getElementById(id); if(el) el.classList.add('show'); }); }
+function hideElems(ids){ ids.forEach(id=>{ const el=document.getElementById(id); if(el) el.classList.remove('show'); }); }
+
+async function runFlythrough(){
+  playing=true;
+  playBtn.disabled=true;playBtn.textContent='● Recording…';
+  hideAll();
+  for(let i=0;i<SCENES.length;i++){
+    const s=SCENES[i];
+    timer.textContent=`SCENE ${i+1} / ${SCENES.length}`;
+    map.flyTo({...s.camera, essential:true, curve:1.4, speed:0.6});
+    // Show scene cards 600ms after flyTo begins for cinematic timing
+    setTimeout(()=>{ if(s.hide) hideElems(s.hide); }, 200);
+    setTimeout(()=>{ if(s.show) showElems(s.show); }, Math.max(s.camera.duration-1200, 600));
+    await sleep(s.camera.duration + s.hold);
+  }
+  playing=false;
+  playBtn.disabled=false;playBtn.textContent='▶ Play Again';
+}
+
+function sleep(ms){ return new Promise(r=>setTimeout(r,ms)); }
+</script>
+</body>
+</html>

@@ -1,0 +1,1551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Temple TX vs Waco TX — Video Production Package</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --midnight: #1e293b;
+    --emerald: #059669;
+    --emerald-light: #10b981;
+    --snow: #f8fafc;
+    --slate-100: #f1f5f9;
+    --slate-200: #e2e8f0;
+    --slate-300: #cbd5e1;
+    --slate-400: #94a3b8;
+    --slate-500: #64748b;
+    --slate-600: #475569;
+    --amber: #f59e0b;
+    --red: #ef4444;
+    --red-light: #fef2f2;
+    --green-light: #f0fdf4;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Outfit', sans-serif;
+    background: var(--slate-100);
+    color: var(--midnight);
+    line-height: 1.6;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* ── COVER PAGE ── */
+  .cover {
+    background: linear-gradient(135deg, var(--midnight) 0%, #0f172a 100%);
+    color: var(--snow);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 40px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cover::before {
+    content: '';
+    position: absolute;
+    top: -200px; right: -200px;
+    width: 600px; height: 600px;
+    background: radial-gradient(circle, rgba(5,150,105,0.15) 0%, transparent 70%);
+    border-radius: 50%;
+  }
+
+  .cover::after {
+    content: '';
+    position: absolute;
+    bottom: -150px; left: -150px;
+    width: 400px; height: 400px;
+    background: radial-gradient(circle, rgba(5,150,105,0.1) 0%, transparent 70%);
+    border-radius: 50%;
+  }
+
+  .cover-badge {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--emerald);
+    border: 1px solid rgba(5,150,105,0.4);
+    padding: 8px 24px;
+    border-radius: 100px;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .cover h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 8px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .cover h1 .vs {
+    display: block;
+    font-size: 1.5rem;
+    color: var(--emerald);
+    letter-spacing: 6px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    margin: 12px 0;
+  }
+
+  .cover-subtitle {
+    font-size: 1.15rem;
+    color: var(--slate-400);
+    margin-top: 20px;
+    font-weight: 300;
+    position: relative;
+    z-index: 1;
+  }
+
+  .cover-meta {
+    margin-top: 50px;
+    display: flex;
+    gap: 40px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .cover-meta-item {
+    text-align: center;
+  }
+
+  .cover-meta-item .label {
+    font-size: 0.65rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--slate-500);
+    margin-bottom: 4px;
+  }
+
+  .cover-meta-item .value {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--slate-300);
+  }
+
+  /* ── MAIN CONTENT ── */
+  .content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 40px;
+  }
+
+  /* ── SECTION HEADERS ── */
+  .section {
+    margin-bottom: 60px;
+    page-break-inside: avoid;
+  }
+
+  .section-number {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--emerald);
+    margin-bottom: 8px;
+  }
+
+  .section h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--midnight);
+    margin-bottom: 6px;
+    line-height: 1.2;
+  }
+
+  .section-line {
+    width: 60px;
+    height: 3px;
+    background: var(--emerald);
+    margin: 16px 0 24px;
+    border-radius: 2px;
+  }
+
+  /* ── DEEP THINK BOX ── */
+  .deep-think {
+    background: linear-gradient(135deg, #0f172a 0%, var(--midnight) 100%);
+    color: var(--snow);
+    border-radius: 16px;
+    padding: 40px;
+    margin-bottom: 40px;
+  }
+
+  .deep-think h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.6rem;
+    color: var(--emerald-light);
+    margin-bottom: 20px;
+  }
+
+  .deep-think p {
+    color: var(--slate-300);
+    margin-bottom: 16px;
+    font-size: 0.95rem;
+  }
+
+  .deep-think strong { color: var(--snow); }
+
+  .insight-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 24px;
+  }
+
+  .insight-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 12px;
+    padding: 20px;
+  }
+
+  .insight-card .num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--emerald);
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+
+  .insight-card .text {
+    font-size: 0.85rem;
+    color: var(--slate-400);
+    line-height: 1.5;
+  }
+
+  .insight-card .text strong { color: var(--slate-200); }
+
+  /* ── TITLE OPTIONS ── */
+  .title-options {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 20px 0;
+  }
+
+  .title-option {
+    background: white;
+    border: 2px solid var(--slate-200);
+    border-radius: 12px;
+    padding: 16px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: border-color 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .title-option.recommended {
+    border-color: var(--emerald);
+    background: var(--green-light);
+  }
+
+  .title-option .badge {
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: var(--emerald);
+    color: white;
+    padding: 3px 10px;
+    border-radius: 100px;
+    white-space: nowrap;
+  }
+
+  /* ── SCRIPT BLOCKS ── */
+  .script-block {
+    background: white;
+    border-radius: 16px;
+    padding: 32px;
+    margin-bottom: 28px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    border-left: 4px solid var(--emerald);
+    page-break-inside: avoid;
+  }
+
+  .script-block.warning {
+    border-left-color: var(--red);
+  }
+
+  .script-block.verdict {
+    border-left-color: var(--amber);
+  }
+
+  .script-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 16px;
+  }
+
+  .script-header h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .timestamp {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--emerald);
+    background: var(--green-light);
+    padding: 4px 12px;
+    border-radius: 100px;
+    white-space: nowrap;
+  }
+
+  .setup-tag {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--slate-500);
+    background: var(--slate-100);
+    padding: 4px 10px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+  }
+
+  .dialogue {
+    background: var(--slate-100);
+    border-radius: 10px;
+    padding: 20px 24px;
+    margin: 16px 0;
+    font-size: 0.95rem;
+    line-height: 1.8;
+    color: var(--slate-600);
+    border-left: 3px solid var(--slate-300);
+  }
+
+  .dialogue strong { color: var(--midnight); }
+
+  .screen-note {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 12px 0;
+    padding: 12px 16px;
+    background: #fffbeb;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    color: #92400e;
+  }
+
+  .screen-note .icon { font-size: 1rem; flex-shrink: 0; margin-top: 1px; }
+
+  .broll-note {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 12px 0;
+    padding: 12px 16px;
+    background: #f0f9ff;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    color: #1e40af;
+  }
+
+  .broll-note .icon { font-size: 1rem; flex-shrink: 0; margin-top: 1px; }
+
+  .red-text-note {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 12px 0;
+    padding: 12px 16px;
+    background: var(--red-light);
+    border-radius: 8px;
+    font-size: 0.85rem;
+    color: #991b1b;
+  }
+
+  .red-text-note .icon { font-size: 1rem; flex-shrink: 0; margin-top: 1px; }
+
+  /* ── TABLES ── */
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 0.88rem;
+  }
+
+  .data-table th {
+    background: var(--midnight);
+    color: var(--snow);
+    padding: 12px 16px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.78rem;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+
+  .data-table th:first-child { border-radius: 8px 0 0 0; }
+  .data-table th:last-child { border-radius: 0 8px 0 0; }
+
+  .data-table td {
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--slate-200);
+  }
+
+  .data-table tr:nth-child(even) td { background: var(--slate-100); }
+
+  .data-table tr:last-child td:first-child { border-radius: 0 0 0 8px; }
+  .data-table tr:last-child td:last-child { border-radius: 0 0 8px 0; }
+
+  .winner { color: var(--emerald); font-weight: 700; }
+  .loser { color: var(--red); }
+  .negative { color: var(--red); font-weight: 600; }
+  .positive { color: var(--emerald); font-weight: 600; }
+
+  /* ── SCORECARD ── */
+  .scorecard {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 0.85rem;
+  }
+
+  .scorecard th {
+    background: var(--midnight);
+    color: var(--snow);
+    padding: 10px 14px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.75rem;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+
+  .scorecard th:first-child { text-align: left; border-radius: 8px 0 0 0; }
+  .scorecard th:last-child { border-radius: 0 8px 0 0; }
+
+  .scorecard td {
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--slate-200);
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .scorecard td:first-child { text-align: left; font-weight: 400; }
+  .scorecard tr:nth-child(even) td { background: rgba(241,245,249,0.5); }
+
+  .grade-a { color: var(--emerald); font-weight: 700; }
+  .grade-b { color: var(--slate-500); }
+  .grade-c { color: var(--amber); }
+  .grade-d { color: var(--red); }
+
+  .scorecard .winner-cell {
+    font-weight: 700;
+    color: var(--emerald);
+  }
+
+  .scorecard .winner-cell.waco { color: var(--amber); }
+
+  /* ── SHOT LIST ── */
+  .shot-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 20px 0;
+  }
+
+  .shot-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid var(--slate-200);
+  }
+
+  .shot-card .shot-type {
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--emerald);
+    margin-bottom: 6px;
+  }
+
+  .shot-card h4 {
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+
+  .shot-card p {
+    font-size: 0.82rem;
+    color: var(--slate-500);
+    line-height: 1.5;
+  }
+
+  /* ── THUMBNAIL SPEC ── */
+  .thumbnail-spec {
+    background: var(--midnight);
+    border-radius: 16px;
+    padding: 40px;
+    color: var(--snow);
+    margin: 20px 0;
+  }
+
+  .thumbnail-mockup {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 20px 0;
+    height: 200px;
+  }
+
+  .thumb-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+  }
+
+  .thumb-side.waco {
+    background: linear-gradient(135deg, #92400e 0%, #78350f 100%);
+  }
+
+  .thumb-side.temple {
+    background: linear-gradient(135deg, #065f46 0%, #064e3b 100%);
+  }
+
+  .thumb-side .thumb-label {
+    font-family: 'Outfit', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+  }
+
+  .thumb-side .thumb-sublabel {
+    font-size: 0.85rem;
+    font-weight: 300;
+    opacity: 0.7;
+    margin-top: 4px;
+  }
+
+  .thumb-bottom-text {
+    text-align: center;
+    margin-top: 16px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--emerald);
+  }
+
+  /* ── SHORTS ── */
+  .shorts-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    margin: 20px 0;
+  }
+
+  .short-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid var(--slate-200);
+    text-align: center;
+  }
+
+  .short-card .short-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--emerald);
+    line-height: 1;
+  }
+
+  .short-card h4 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin: 8px 0 6px;
+  }
+
+  .short-card p {
+    font-size: 0.78rem;
+    color: var(--slate-500);
+    line-height: 1.5;
+  }
+
+  .short-card .hook-text {
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: var(--midnight);
+    background: var(--slate-100);
+    padding: 8px 12px;
+    border-radius: 6px;
+    margin-top: 10px;
+    font-style: italic;
+  }
+
+  /* ── CHECKLIST ── */
+  .checklist {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin: 20px 0;
+  }
+
+  .checklist-col h4 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: var(--midnight);
+  }
+
+  .checklist-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    font-size: 0.88rem;
+    color: var(--slate-600);
+    border-bottom: 1px solid var(--slate-200);
+  }
+
+  .checklist-item .box {
+    width: 18px; height: 18px;
+    border: 2px solid var(--slate-300);
+    border-radius: 4px;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  /* ── GEMINI EVAL ── */
+  .eval-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+    margin: 20px 0;
+  }
+
+  .eval-table th {
+    background: var(--midnight);
+    color: var(--snow);
+    padding: 10px 14px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.75rem;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+
+  .eval-table th:first-child { border-radius: 8px 0 0 0; }
+  .eval-table th:last-child { border-radius: 0 8px 0 0; }
+
+  .eval-table td { padding: 10px 14px; border-bottom: 1px solid var(--slate-200); }
+  .eval-table tr:nth-child(even) td { background: var(--slate-100); }
+
+  .eval-use { color: var(--emerald); font-weight: 700; }
+  .eval-skip { color: var(--slate-400); font-weight: 600; }
+  .eval-wrong { color: var(--red); font-weight: 700; }
+
+  /* ── UTILITY ── */
+  .divider {
+    width: 100%;
+    height: 1px;
+    background: var(--slate-200);
+    margin: 40px 0;
+  }
+
+  .pull-quote {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.6rem;
+    font-style: italic;
+    color: var(--midnight);
+    border-top: 2px solid var(--emerald);
+    border-bottom: 2px solid var(--emerald);
+    padding: 24px 0;
+    margin: 32px 0;
+    text-align: center;
+    line-height: 1.4;
+  }
+
+  .strategy-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 20px 0;
+  }
+
+  .strategy-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid var(--slate-200);
+  }
+
+  .strategy-card .strat-num {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: var(--emerald);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+
+  .strategy-card h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+
+  .strategy-card p {
+    font-size: 0.82rem;
+    color: var(--slate-500);
+    line-height: 1.5;
+  }
+
+  /* ── PRINT ── */
+  @media print {
+    body { background: white; }
+    .cover { min-height: auto; padding: 80px 40px; page-break-after: always; }
+    .section { page-break-inside: avoid; }
+    .script-block { page-break-inside: avoid; }
+    .content { padding: 40px 20px; }
+  }
+
+  @media (max-width: 700px) {
+    .cover h1 { font-size: 2.5rem; }
+    .insight-grid, .shot-list, .checklist, .strategy-cards { grid-template-columns: 1fr; }
+    .shorts-grid { grid-template-columns: 1fr; }
+    .cover-meta { flex-direction: column; gap: 16px; }
+    .content { padding: 30px 20px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- COVER PAGE                             -->
+<!-- ═══════════════════════════════════════ -->
+<div class="cover">
+  <div class="cover-badge">Investing in Temple &mdash; Production Package</div>
+  <h1>
+    Temple, TX
+    <span class="vs">VS</span>
+    Waco, TX
+  </h1>
+  <p class="cover-subtitle">The 2026 Investor's Data Comparison &mdash; Full Video Script, Shot List & Production Guide</p>
+  <div class="cover-meta">
+    <div class="cover-meta-item">
+      <div class="label">Channel</div>
+      <div class="value">Investing in Temple</div>
+    </div>
+    <div class="cover-meta-item">
+      <div class="label">Format</div>
+      <div class="value">Comparison / VS (12-15 min)</div>
+    </div>
+    <div class="cover-meta-item">
+      <div class="label">Host</div>
+      <div class="value">Taylor Dasch, EG Realty</div>
+    </div>
+    <div class="cover-meta-item">
+      <div class="label">Research Date</div>
+      <div class="value">March 29, 2026</div>
+    </div>
+  </div>
+</div>
+
+<div class="content">
+
+<!-- ═══════════════════════════════════════ -->
+<!-- I. STRATEGIC DEEP THINK                -->
+<!-- ═══════════════════════════════════════ -->
+<div class="section">
+  <div class="section-number">Section I</div>
+  <h2>Strategic Deep Think</h2>
+  <div class="section-line"></div>
+
+  <div class="deep-think">
+    <h3>Why This Video Works Right Now</h3>
+    <p>The timing is perfect. You're making this comparison at the exact moment the two markets are diverging &mdash; and almost nobody on YouTube has noticed yet.</p>
+
+    <div class="insight-grid">
+      <div class="insight-card">
+        <div class="num">$810M</div>
+        <div class="text"><strong>Temple's committed capital investment.</strong> Rowan Digital data center ($700M, broke ground March 2, 2026) + SeAH Superalloy manufacturing ($110M, production Q1 2026). This is breaking ground NOW, not speculative.</div>
+      </div>
+      <div class="insight-card">
+        <div class="num">-0.9%</div>
+        <div class="text"><strong>Waco's year-over-year rent decline.</strong> Waco was just classified as a "demand-side decline" market by Tactica RES &mdash; not oversupply like Austin, but actual weakening demand fundamentals.</div>
+      </div>
+      <div class="insight-card">
+        <div class="num">3.14%</div>
+        <div class="text"><strong>Temple's annual population growth.</strong> That's 3x Waco's 1.02% rate. Temple added 10,000+ residents since 2020 &mdash; the fastest growing city in Central Texas.</div>
+      </div>
+      <div class="insight-card">
+        <div class="num">16%</div>
+        <div class="text"><strong>Waco buildings in flood zones.</strong> Extra $800-$1,500/yr in insurance NOT included in standard policies. 11 census tracts where 50%+ of buildings face significant flood risk.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pull-quote">
+    "Neither market cash-flows at 7.25% DSCR rates on a median-priced home. That's the honest truth that will separate you from every other investor YouTuber."
+  </div>
+
+  <div class="deep-think">
+    <h3>The Contrarian Angle (Your Edge)</h3>
+    <p>Every other comparison video says "Waco = Magnolia = appreciation" and "Temple = cheap = cash flow." That's the lazy take. <strong>Your angle is the opposite.</strong></p>
+    <p>The REAL question isn't "which one cash-flows?" &mdash; it's <strong>"which one gives you the best total return path over 5-10 years?"</strong> And the data isn't close.</p>
+    <p style="margin-bottom:0;">This video captures <strong>Waco search traffic</strong> and funnels it to your Temple brand. People searching "Waco real estate investing" don't know Temple exists. After this video, they will.</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- II. TITLE & THUMBNAIL                  -->
+<!-- ═══════════════════════════════════════ -->
+<div class="section">
+  <div class="section-number">Section II</div>
+  <h2>Title Options & Thumbnail</h2>
+  <div class="section-line"></div>
+
+  <div class="title-options">
+    <div class="title-option recommended">
+      <span class="badge">Recommended</span>
+      Temple TX vs Waco TX: Where Smart Investors Are Putting Their Money (2026 Data)
+    </div>
+    <div class="title-option">
+      I Compared Temple and Waco for Investing &mdash; One Market Already Peaked
+    </div>
+    <div class="title-option">
+      Waco or Temple? The $275K Investment Nobody's Talking About
+    </div>
+    <div class="title-option">
+      Temple vs Waco: Cash Flow, Cap Rates & The Data Nobody Shows You (2026)
+    </div>
+  </div>
+
+  <div class="thumbnail-spec">
+    <h3 style="font-family:'Cormorant Garamond',serif; font-size:1.4rem; margin-bottom:16px;">Thumbnail Design Spec</h3>
+    <div class="thumbnail-mockup">
+      <div class="thumb-side waco">
+        <div class="thumb-label">PEAKED?</div>
+        <div class="thumb-sublabel">Waco, TX</div>
+      </div>
+      <div class="thumb-side temple">
+        <div class="thumb-label">GROWING</div>
+        <div class="thumb-sublabel">Temple, TX</div>
+      </div>
+    </div>
+    <div class="thumb-bottom-text">$810M</div>
+    <p style="font-size:0.82rem; color:var(--slate-400); text-align:center; margin-top:8px;">
+      Split frame &bull; Taylor's face center with skeptical expression &bull; Magnolia Silos left, BSW/cranes right &bull; Brand colors
+    </p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- III. FULL SCRIPT                       -->
+<!-- ═══════════════════════════════════════ -->
+<div class="section">
+  <div class="section-number">Section III</div>
+  <h2>Full Script</h2>
+  <div class="section-line"></div>
+
+  <!-- COLD OPEN -->
+  <div class="script-block">
+    <div class="script-header">
+      <h3>Cold Open &mdash; The Hook</h3>
+      <span class="timestamp">0:00 &ndash; 0:25</span>
+    </div>
+    <div class="setup-tag">Setup A: Desk / Talking Head</div>
+
+    <div class="dialogue">
+      "Everyone keeps asking me about Waco. Chip and Joanna, Baylor, the tourism &mdash; I get it. But I just pulled the 2026 data on both markets, and one of them was just classified as a <strong>'demand-side decline'</strong> market. The other one has <strong>$810 million</strong> in new economic development breaking ground right now. I'm Taylor Dasch with EG Realty, and today we're putting Temple and Waco head-to-head, dollar for dollar, to figure out where your next investment should go."
+    </div>
+
+    <div class="screen-note">
+      <span class="icon">&#9998;</span>
+      <span><strong>On-screen text:</strong> "$810M" when you say it. "Demand-side decline" in red text when you say it.</span>
+    </div>
+    <div class="broll-note">
+      <span class="icon">&#127909;</span>
+      <span><strong>B-roll:</strong> Quick montage &mdash; Magnolia Silos aerial (1 sec), BSW campus aerial (1 sec), construction site (1 sec), back to face.</span>
+    </div>
+  </div>
+
+  <!-- SETUP -->
+  <div class="script-block">
+    <div class="script-header">
+      <h3>Setup &mdash; Why This Comparison Matters</h3>
+      <span class="timestamp">0:25 &ndash; 1:15</span>
+    </div>
+    <div class="setup-tag">Setup A: Desk + Google Maps on screen</div>
+
+    <div class="dialogue">
+      "Temple and Waco are 35 minutes apart on I-35. Both are in Central Texas. Both have median home prices in the low-to-mid $200s. On paper, they look almost identical. But they are fundamentally different investment markets.<br><br>
+      Waco is a tourism and university economy. Temple is a healthcare and industrial economy. And in 2026, those two economic engines are heading in very different directions.<br><br>
+      Here's what I'm going to cover: market prices, rental yield, tenant quality, appreciation potential, and the specific strategy that wins in each market. And at the end, I'll tell you exactly which one I'd buy in today. Let's get into it."
+    </div>
+
+    <div class="broll-note">
+      <span class="icon">&#127909;</span>
+      <span><strong>B-roll:</strong> I-35 dashcam hyper-lapse between the two cities (10 min footage compressed to 15 sec). Google Maps showing pins + 35-min drive time.</span>
+    </div>
+  </div>
+
+  <!-- ROUND 1 -->
+  <div class="script-block">
+    <div class="script-header">
+      <h3>Round 1 &mdash; Market Fundamentals</h3>
+      <span class="timestamp">1:15 &ndash; 3:30</span>
+    </div>
+    <div class="setup-tag">Setup D: Screen share + facecam corner</div>
+
+    <div class="dialogue">
+      "Alright, Round 1 &mdash; the market fundamentals. Let me pull up the numbers."
+    </div>
+
+    <table class="data-table">
+      <tr>
+        <th>Metric</th>
+        <th>Temple</th>
+        <th>Waco</th>
+      </tr>
+      <tr>
+        <td>Median Home Price (Zillow)</td>
+        <td>$255,731</td>
+        <td>$218,330</td>
+      </tr>
+      <tr>
+        <td>YoY Price Change</td>
+        <td class="negative">-2.9%</td>
+        <td class="positive">+0.1%</td>
+      </tr>
+      <tr>
+        <td>Median $/SqFt</td>
+        <td class="winner">$161</td>
+        <td>~$180</td>
+      </tr>
+      <tr>
+        <td>Days on Market</td>
+        <td>86-103</td>
+        <td>93-142</td>
+      </tr>
+      <tr>
+        <td>Months of Supply</td>
+        <td>5.3 (buyer's market)</td>
+        <td>3.2 (neutral-tight)</td>
+      </tr>
+      <tr>
+        <td>Sale-to-List Ratio</td>
+        <td class="winner">96-97%</td>
+        <td>98.4%</td>
+      </tr>
+    </table>
+
+    <div class="dialogue">
+      "So here's what jumps out. Waco's median is actually LOWER at $218K vs Temple's $255K. That surprises people. But look at the price per square foot &mdash; Waco is $180 per foot, Temple is $161. <strong>You're getting more house per dollar in Temple.</strong><br><br>
+      Now look at the days on market. Temple homes are sitting 86 to 103 days. And Temple has 5.3 months of supply &mdash; that's a buyer's market. Waco has 3.2 &mdash; neutral to tight.<br><br>
+      What does that mean for you? In Temple, sellers are negotiating. The sale-to-list ratio is 96-97%. You're getting 3-4% off asking price before you even start talking.<br><br>
+      If you're a BRRRR investor, <strong>Temple is where the deals are.</strong> More inventory, more days on market, more negotiation leverage. Period."
+    </div>
+
+    <div class="screen-note">
+      <span class="icon">&#9998;</span>
+      <span><strong>Visual pacing:</strong> Highlight each row as you discuss it. Green/red arrows for YoY changes. Zoom into key cells.</span>
+    </div>
+  </div>
+
+  <!-- ROUND 2 -->
+  <div class="script-block">
+    <div class="script-header">
+      <h3>Round 2 &mdash; Economic Engines</h3>
+      <span class="timestamp">3:30 &ndash; 6:00</span>
+    </div>
+    <div class="setup-tag">Setup D: Screen share (employer graphics) &rarr; Setup A: Talking head</div>
+
+    <div class="dialogue">
+      "Round 2 &mdash; and this is where it gets really interesting. Let's look at what's actually powering each economy."
+    </div>
+
+    <h4 style="color:var(--amber); margin:16px 0 8px; font-size:0.9rem; letter-spacing:1px; text-transform:uppercase;">Waco [3:30-4:30]</h4>
+
+    <div class="dialogue">
+      "Waco's economy runs on three things: Baylor University &mdash; about 20,000 students, Magnolia Market &mdash; which draws tourists from all over the country, and manufacturing &mdash; L-3, Mars Chocolate, Graphic Packaging, and a new $400 million Electrolit plant.<br><br>
+      But here's what nobody's talking about on YouTube. Magnolia tourism has been, quote, <strong>'treading water since COVID.'</strong> That's from the Waco Tribune. Attendance at major attractions crashed to about a million visitors in 2020 and hasn't fully recovered. And Baylor? Their graduate enrollment is intentionally shrinking. Total enrollment has been flat to slightly down.<br><br>
+      Now, to be fair &mdash; Waco does have a genuine bull case. SpaceX's testing facility in McGregor, just south of Waco, is expanding. 300 new jobs, $46 million in capital improvements. And Graphic Packaging just built a billion-dollar facility. So it's not all doom. But the tourism engine &mdash; the thing that drove Waco's housing boom &mdash; is maturing."
+    </div>
+
+    <div class="red-text-note">
+      <span class="icon">&#9888;</span>
+      <span><strong>On-screen text:</strong> "Magnolia tourism treading water since COVID" &mdash; Waco Tribune</span>
+    </div>
+
+    <h4 style="color:var(--emerald); margin:16px 0 8px; font-size:0.9rem; letter-spacing:1px; text-transform:uppercase;">Temple [4:30-6:00]</h4>
+
+    <div class="dialogue">
+      "Now let's look at Temple. Three pillars: healthcare, military, and industrial.<br><br>
+      Baylor Scott & White is the anchor &mdash; 640-bed hospital, the ONLY Level 1 Trauma Center between Dallas and Austin. Over 7,000 employees. Every single June, 100 to 150 new medical residents arrive for training. That's not a projection &mdash; it's been happening for decades. They need housing. Immediately.<br><br>
+      Fort Hood &mdash; 38,000 active duty soldiers. Military families cycling through on 2-3 year PCS rotations. Perpetual rental demand.<br><br>
+      But here's the 2026 kicker. <strong>Rowan Digital just broke ground on a $700 million data center</strong> on 700 acres in south Temple. March 2nd, 2026 &mdash; the groundbreaking literally just happened. Phase one opens fall 2026. They've already talked about expanding to $1.2 billion total.<br><br>
+      On top of that, <strong>SeAH Superalloy Technologies</strong> &mdash; a South Korean company that chose Temple over 75 other cities &mdash; is completing a $110 million manufacturing plant right now. Commercial production starts Q1 2026.<br><br>
+      Add it up: $810 million in committed capital investment. Temple's population is growing at 3.14% annually &mdash; that's three times Waco's growth rate."
+    </div>
+
+    <div class="screen-note">
+      <span class="icon">&#9998;</span>
+      <span><strong>On-screen text stack:</strong><br>
+      "$700M data center &mdash; BROKE GROUND March 2, 2026"<br>
+      "$110M SeAH plant &mdash; Commercial production Q1 2026"<br>
+      "Temple population growth: 3.14% &mdash; 3x Waco's rate"</span>
+    </div>
+
+    <div class="broll-note">
+      <span class="icon">&#127909;</span>
+      <span><strong>B-roll:</strong> BSW aerial/campus, south Temple construction footage (Bob White Rd), SeAH rendering, Rowan Digital rendering.</span>
+    </div>
+
+    <div class="dialogue" style="border-left-color:var(--emerald);">
+      "So on one hand, you have a tourism economy that's plateauing. On the other, you have a healthcare-industrial economy that's accelerating. <strong>That difference matters when you're holding a property for 5 to 10 years.</strong>"
+    </div>
+  </div>
+
+  <!-- ROUND 3 -->
+  <div class="script-block">
+    <div class="script-header">
+      <h3>Round 3 &mdash; The Rental Math</h3>
+      <span class="timestamp">6:00 &ndash; 8:30</span>
+    </div>
+    <div class="setup-tag">Setup D: Screen share + spreadsheet</div>
+
+    <div class="dialogue">
+      "Round 3 &mdash; let's talk about what everyone really cares about. The cash flow."
+    </div>
+
+    <table class="data-table">
+      <tr>
+        <th>Metric</th>
+        <th>Temple</th>
+        <th>Waco</th>
+      </tr>
+      <tr>
+        <td>Purchase Price</td>
+        <td>$255,000</td>
+        <td>$218,000</td>
+      </tr>
+      <tr>
+        <td>Monthly Rent (3BR)</td>
+        <td>$1,600</td>
+        <td>$1,550</td>
+      </tr>
+      <tr>
+        <td>Gross Yield</td>
+        <td>7.5%</td>
+        <td class="winner">8.5%</td>
+      </tr>
+      <tr>
+        <td>Est. Cap Rate</td>
+        <td>4.5%</td>
+        <td class="winner">5.1%</td>
+      </tr>
+    </table>
+
+    <div class="dialogue">
+      "On paper, Waco wins gross yield &mdash; 8.5% versus Temple's 7.5%. That lower entry price gives you a better rent-to-price ratio. But I need to show you the FULL picture."
+    </div>
+
+    <h4 style="margin:20px 0 12px; font-size:0.95rem;">Full Cash-on-Cash Breakdown (DSCR @ 7.25%, 25% Down)</h4>
+
+    <table class="data-table">
+      <tr>
+        <th>Line Item</th>
+        <th>Temple ($255K)</th>
+        <th>Waco ($218K)</th>
+      </tr>
+      <tr><td>Down Payment (25%)</td><td>$63,750</td><td>$54,500</td></tr>
+      <tr><td>Monthly P&I</td><td>$1,304</td><td>$1,115</td></tr>
+      <tr><td>Monthly Rent</td><td>$1,600</td><td>$1,550</td></tr>
+      <tr><td>Taxes/mo</td><td>$375</td><td>$325</td></tr>
+      <tr><td>Insurance/mo</td><td>$340</td><td>$340</td></tr>
+      <tr><td>Vacancy (7%)</td><td>$112</td><td>$109</td></tr>
+      <tr><td>Maintenance (5%)</td><td>$80</td><td>$78</td></tr>
+      <tr><td>PM (8%)</td><td>$128</td><td>$124</td></tr>
+      <tr>
+        <td><strong>Total Monthly Expense</strong></td>
+        <td><strong>$2,339</strong></td>
+        <td><strong>$2,091</strong></td>
+      </tr>
+      <tr>
+        <td><strong>Monthly Cash Flow</strong></td>
+        <td class="negative"><strong>-$739</strong></td>
+        <td class="negative"><strong>-$541</strong></td>
+      </tr>
+    </table>
+
+    <div class="dialogue" style="border-left-color:var(--red); background:var(--red-light);">
+      "And here's the truth that no investor YouTuber wants to tell you. At 7.25% DSCR rates, 25% down, with real expenses &mdash; <strong>neither market cash-flows on day one.</strong> Temple loses $739 a month. Waco loses $541. Waco bleeds less, but it still bleeds.<br><br>
+      So if the answer isn't day-one cash flow in either market, the question becomes: <strong>how do you MAKE it work?</strong> And that's where strategy matters."
+    </div>
+
+    <div class="red-text-note">
+      <span class="icon">&#9888;</span>
+      <span><strong>On-screen text (bold, red):</strong> "NEITHER market cash-flows at 7.25% on day 1" &mdash; Pause. Let it land. This is your credibility moment.</span>
+    </div>
+
+    <h4 style="margin:24px 0 12px; font-size:0.95rem;">The 4 Strategies That Make It Work</h4>
+
+    <div class="strategy-cards">
+      <div class="strategy-card">
+        <div class="strat-num">Strategy 1</div>
+        <h4>Buy Below Market</h4>
+        <p>Temple's 5.3 months of supply and 96% sale-to-list means you can find deals at $230-$240K that would appraise at $260K. That changes the math immediately.</p>
+      </div>
+      <div class="strategy-card">
+        <div class="strat-num">Strategy 2</div>
+        <h4>BRRRR</h4>
+        <p>Buy distressed, rehab, rent, refinance at the higher value, repeat. Temple has more distressed inventory and better negotiation leverage.</p>
+      </div>
+      <div class="strategy-card">
+        <div class="strat-num">Strategy 3</div>
+        <h4>Medium-Term Rental</h4>
+        <p>Furnish a unit near BSW and charge $1,800-$2,200/mo to travel nurses. That's a 40-70% premium over long-term rent.</p>
+      </div>
+      <div class="strategy-card">
+        <div class="strat-num">Strategy 4</div>
+        <h4>Ride the Rent Growth</h4>
+        <p>Temple rents are up 3.5% YoY. In 12-24 months, the gap closes. In Waco? Rents are DOWN 0.9% YoY. The gap is widening.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ROUND 4 -->
+  <div class="script-block warning">
+    <div class="script-header">
+      <h3>Round 4 &mdash; Hidden Risks</h3>
+      <span class="timestamp">8:30 &ndash; 10:15</span>
+    </div>
+    <div class="setup-tag">Setup A: Talking head &mdash; direct, no screen share</div>
+
+    <div class="dialogue">
+      "Round 4 &mdash; the risks. And I'm going to be honest about both sides, including my own market."
+    </div>
+
+    <h4 style="color:var(--emerald); margin:16px 0 8px; font-size:0.9rem; letter-spacing:1px; text-transform:uppercase;">Temple Risks</h4>
+
+    <div class="dialogue">
+      "The price correction could have more room to fall. We're down 3-4% already and we have a LOT of new construction &mdash; over 410 new homes for sale. Property taxes are higher &mdash; Temple ISD's tax rate is about 30% higher than McLennan County equivalents. And at 103 days on market, if you need to exit quickly, Temple is not a liquid market right now."
+    </div>
+
+    <h4 style="color:var(--red); margin:16px 0 8px; font-size:0.9rem; letter-spacing:1px; text-transform:uppercase;">Waco Risks</h4>
+
+    <div class="dialogue" style="border-left-color:var(--red);">
+      "This is where it gets serious. <strong>Sixteen percent of Waco's buildings are in flood zones.</strong> That's not my number &mdash; that's First Street Foundation data. If your property is in one of those zones, you're adding $800 to $1,500 a year in flood insurance that's NOT included in your standard policy. That eats your cash flow alive.<br><br>
+      Waco was just classified as a 'demand-side decline' rental market &mdash; not oversupply like Austin, but actual weakening demand. Rents fell 0.9% year over year.<br><br>
+      And I already mentioned Baylor's enrollment flattening. Twenty thousand students is a massive rental demand engine. If that number drops to 18,000 over the next few years, that's thousands of fewer renters in the Waco market."
+    </div>
+
+    <div class="red-text-note">
+      <span class="icon">&#9888;</span>
+      <span><strong>On-screen text (red, bold):</strong><br>
+      "16% of Waco buildings in flood zones"<br>
+      "Waco: demand-side decline market &mdash; Tactica RES"</span>
+    </div>
+  </div>
+
+  <!-- ROUND 5 / VERDICT -->
+  <div class="script-block verdict">
+    <div class="script-header">
+      <h3>Round 5 &mdash; The Verdict</h3>
+      <span class="timestamp">10:15 &ndash; 12:30</span>
+    </div>
+    <div class="setup-tag">Setup A: Talking head &mdash; lean in, payoff section</div>
+
+    <div class="dialogue">
+      "Alright &mdash; the verdict. I'm going to score this across the categories that matter to investors, and then I'll tell you the specific play I would make in each market today."
+    </div>
+
+    <table class="scorecard">
+      <tr>
+        <th>Category</th>
+        <th>Temple</th>
+        <th>Waco</th>
+        <th>Winner</th>
+      </tr>
+      <tr>
+        <td>Cash Flow (Day 1)</td>
+        <td class="grade-c">C-</td>
+        <td class="grade-c">C</td>
+        <td class="winner-cell waco">Waco (barely)</td>
+      </tr>
+      <tr>
+        <td>Appreciation Potential</td>
+        <td class="grade-a">A</td>
+        <td class="grade-b">B-</td>
+        <td class="winner-cell">Temple</td>
+      </tr>
+      <tr>
+        <td>BRRRR Opportunity</td>
+        <td class="grade-a">A</td>
+        <td class="grade-b">B-</td>
+        <td class="winner-cell">Temple</td>
+      </tr>
+      <tr>
+        <td>MTR / Travel Nurse</td>
+        <td class="grade-a">A+</td>
+        <td class="grade-b">B-</td>
+        <td class="winner-cell">Temple</td>
+      </tr>
+      <tr>
+        <td>STR / Airbnb</td>
+        <td class="grade-d">D</td>
+        <td class="grade-b">B+</td>
+        <td class="winner-cell waco">Waco</td>
+      </tr>
+      <tr>
+        <td>Tenant Quality</td>
+        <td class="grade-b">B+</td>
+        <td class="grade-b">B-</td>
+        <td class="winner-cell">Temple</td>
+      </tr>
+      <tr>
+        <td>Employment Stability</td>
+        <td class="grade-a">A</td>
+        <td class="grade-b">B</td>
+        <td class="winner-cell">Temple</td>
+      </tr>
+      <tr>
+        <td>Flood Risk</td>
+        <td class="grade-a">A</td>
+        <td class="grade-c">C-</td>
+        <td class="winner-cell">Temple</td>
+      </tr>
+      <tr>
+        <td>Economic Diversification</td>
+        <td class="grade-a">A</td>
+        <td class="grade-b">B-</td>
+        <td class="winner-cell">Temple</td>
+      </tr>
+      <tr>
+        <td>Population Growth</td>
+        <td class="grade-a">A</td>
+        <td class="grade-b">B</td>
+        <td class="winner-cell">Temple</td>
+      </tr>
+      <tr>
+        <td>Rent Growth Trajectory</td>
+        <td class="grade-b">B+</td>
+        <td class="grade-c">C-</td>
+        <td class="winner-cell">Temple</td>
+      </tr>
+    </table>
+
+    <div class="dialogue" style="border-left-color:var(--amber);">
+      "Temple wins 9 out of 11 categories. Waco takes short-term rentals &mdash; the Magnolia tourism play is real &mdash; and edges out day-one cash flow because of the lower entry price. But the trajectory is what matters.<br><br>
+      Here's how I think about it. Waco is a mature market. The big appreciation run already happened. You're buying at the top of a curve that's flattening. Temple is a growth market. You're buying during a correction, right before $810 million in economic development comes online.<br><br>
+      <strong>Five years from now, I believe the Temple investor who bought in 2026 is going to look like a genius. The Waco investor who bought in 2026 is going to do... fine. Not great. Fine.</strong>"
+    </div>
+
+    <h4 style="margin:24px 0 12px; font-size:0.95rem;">The Specific Plays</h4>
+
+    <div class="strategy-cards">
+      <div class="strategy-card" style="border-left:4px solid var(--emerald);">
+        <div class="strat-num">In Temple</div>
+        <h4>MTR Near BSW &mdash; The Underexploited Niche</h4>
+        <p>Buy a 3-bed near BSW for $230-$240K (below market because of the correction). Furnish it. Run it as a mid-term rental targeting travel nurses and medical residents at $1,800-$2,200/mo. That's $22K-$26K/yr gross vs $19K long-term. The BSW pipeline is the most underexploited niche in Central Texas.</p>
+      </div>
+      <div class="strategy-card" style="border-left:4px solid var(--amber);">
+        <div class="strat-num">In Waco</div>
+        <h4>STR Near Downtown &mdash; Only If Standout Property</h4>
+        <p>Only buy if you find a uniquely designable property in a non-flood zone near downtown or Baylor. Run as STR targeting Magnolia tourists at $176-$214/night avg. But the permit process takes 60-90 days, the market is competitive, and you need a standout property to win. It's not the layup it was in 2018.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="script-block">
+    <div class="script-header">
+      <h3>Call to Action</h3>
+      <span class="timestamp">12:30 &ndash; 13:00</span>
+    </div>
+    <div class="setup-tag">Setup A: Talking head, direct to camera</div>
+
+    <div class="dialogue">
+      "If you're an out-of-state investor or you're local and trying to figure out where your next dollar goes on the I-35 corridor &mdash; I run these numbers every single week. Drop a comment and tell me which market you're leaning toward and what strategy you're considering. And if you want me to pull live MLS data and run the actual numbers on a specific property, link is in the description to book a call.<br><br>
+      I'm Taylor Dasch with EG Realty. I'll see you in the next one."
+    </div>
+  </div>
+
+</div><!-- end script section -->
+
+<div class="divider"></div>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- IV. B-ROLL SHOT LIST                   -->
+<!-- ═══════════════════════════════════════ -->
+<div class="section">
+  <div class="section-number">Section IV</div>
+  <h2>B-Roll Shot List</h2>
+  <div class="section-line"></div>
+
+  <h4 style="margin-bottom:12px;">Must-Have (Film These)</h4>
+  <div class="shot-list">
+    <div class="shot-card">
+      <div class="shot-type">Driving / Timelapse</div>
+      <h4>I-35 Dashcam Hyper-Lapse</h4>
+      <p>Temple &rarr; Waco on I-35. Record 10 min real time, compress to 15 sec in edit. Dash-mount camera.</p>
+    </div>
+    <div class="shot-card">
+      <div class="shot-type">Aerial / Exterior</div>
+      <h4>BSW Campus Exterior</h4>
+      <p>SW H.K. Dodgen Loop, Temple. Wide establishing shot + slow zoom. 30 sec of footage.</p>
+    </div>
+    <div class="shot-card">
+      <div class="shot-type">Construction</div>
+      <h4>South Temple Development</h4>
+      <p>Bob White Rd / Eberhardt Rd area. Cranes, dirt moving, Rowan site if accessible. 30 sec.</p>
+    </div>
+    <div class="shot-card">
+      <div class="shot-type">Detail / Signage</div>
+      <h4>"Price Reduced" Listing Sign</h4>
+      <p>Any active Temple listing with price reduction. Shows buyer's market narrative. 10 sec.</p>
+    </div>
+    <div class="shot-card">
+      <div class="shot-type">Driving</div>
+      <h4>New Construction Drive-By</h4>
+      <p>South or west Temple subdivisions. Slow drive past new builds. 20 sec.</p>
+    </div>
+    <div class="shot-card">
+      <div class="shot-type">Exterior</div>
+      <h4>Temple Downtown / City Center</h4>
+      <p>Downtown Temple revitalization area. Shows growth narrative. 15 sec.</p>
+    </div>
+  </div>
+
+  <h4 style="margin:24px 0 12px;">Stock / Backup (Source Online)</h4>
+  <div class="shot-list">
+    <div class="shot-card">
+      <div class="shot-type">Stock Footage</div>
+      <h4>Magnolia Silos Aerial</h4>
+      <p>The iconic shot everyone recognizes. YouTube Creative Commons or stock library.</p>
+    </div>
+    <div class="shot-card">
+      <div class="shot-type">Stock Footage</div>
+      <h4>Baylor Campus / McLane Stadium</h4>
+      <p>Establishes Waco's brand identity. Quick 3-sec insert.</p>
+    </div>
+    <div class="shot-card">
+      <div class="shot-type">Stock Footage</div>
+      <h4>Texas Flooding / Flood Damage</h4>
+      <p>Visual impact for the 16% flood zone risk section. 3-5 sec insert.</p>
+    </div>
+    <div class="shot-card">
+      <div class="shot-type">Stock Footage</div>
+      <h4>Travel Nurse / Hospital Interior</h4>
+      <p>Visual for the MTR strategy section. Generic medical setting footage.</p>
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- V. GRAPHICS TO BUILD                   -->
+<!-- ═══════════════════════════════════════ -->
+<div class="section">
+  <div class="section-number">Section V</div>
+  <h2>Screen Share Graphics Needed</h2>
+  <div class="section-line"></div>
+
+  <p style="color:var(--slate-500); margin-bottom:20px;">Build these in Canva or Google Sheets before filming day. Brand colors: midnight #1e293b, emerald #059669, snow #f8fafc.</p>
+
+  <div class="shot-list">
+    <div class="shot-card">
+      <div class="shot-type">Google Sheets</div>
+      <h4>1. Market Fundamentals Table</h4>
+      <p>Side-by-side comparison (Round 1). 6 rows, highlight winners in emerald.</p>
+    </div>
+    <div class="shot-card">
+      <div class="shot-type">Canva</div>
+      <h4>2. Economic Drivers Comparison</h4>
+      <p>Logos/icons: BSW, Fort Hood, Rowan, SeAH vs Baylor, Magnolia, SpaceX, Graphic Packaging.</p>
+    </div>
+    <div class="shot-card">
+      <div class="shot-type">Google Sheets</div>
+      <h4>3. Cash-on-Cash Breakdown</h4>
+      <p>Full expense waterfall (Round 3). Negative cash flow in red. This is the hero graphic.</p>
+    </div>
+    <div class="shot-card">
+      <div class="shot-type">Canva</div>
+      <h4>4. Final Scorecard</h4>
+      <p>11-category grid with letter grades and color coding. "Temple 9 / Waco 2" at bottom.</p>
+    </div>
+    <div class="shot-card">
+      <div class="shot-type">Google Maps / Canva</div>
+      <h4>5. I-35 Corridor Map</h4>
+      <p>Temple and Waco pinned with 35-min drive time displayed. Clean, branded.</p>
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- VI. SHORTS TO CUT                      -->
+<!-- ═══════════════════════════════════════ -->
+<div class="section">
+  <div class="section-number">Section VI</div>
+  <h2>Shorts to Cut From This Video</h2>
+  <div class="section-line"></div>
+
+  <div class="shorts-grid">
+    <div class="short-card">
+      <div class="short-num">1</div>
+      <h4>The Cash Flow Truth</h4>
+      <p>Clip from Round 3 &mdash; the "neither market cash-flows" reveal. 30-40 sec.</p>
+      <div class="hook-text">"Neither one cash-flows. Here's the truth."</div>
+    </div>
+    <div class="short-card">
+      <div class="short-num">2</div>
+      <h4>Waco's Hidden Risk</h4>
+      <p>Clip from Round 4 &mdash; flood zone + demand decline. 25-35 sec.</p>
+      <div class="hook-text">"16% of Waco buildings are in flood zones"</div>
+    </div>
+    <div class="short-card">
+      <div class="short-num">3</div>
+      <h4>The $810M Play</h4>
+      <p>Clip from Round 2 &mdash; Temple economic development. 30-40 sec.</p>
+      <div class="hook-text">"$810 million just hit this Texas city"</div>
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- VII. CHECKLISTS                        -->
+<!-- ═══════════════════════════════════════ -->
+<div class="section">
+  <div class="section-number">Section VII</div>
+  <h2>Production Checklists</h2>
+  <div class="section-line"></div>
+
+  <div class="checklist">
+    <div class="checklist-col">
+      <h4>Pre-Production</h4>
+      <div class="checklist-item"><span class="box"></span>Build 4 Canva/Sheets graphics</div>
+      <div class="checklist-item"><span class="box"></span>Film I-35 dashcam hyper-lapse</div>
+      <div class="checklist-item"><span class="box"></span>Film BSW campus exterior B-roll</div>
+      <div class="checklist-item"><span class="box"></span>Film south Temple construction B-roll</div>
+      <div class="checklist-item"><span class="box"></span>Film "Price Reduced" sign at listing</div>
+      <div class="checklist-item"><span class="box"></span>Source Magnolia Silos stock footage</div>
+      <div class="checklist-item"><span class="box"></span>Source flood damage stock footage</div>
+      <div class="checklist-item"><span class="box"></span>Practice Round 3 cash flow walkthrough</div>
+      <div class="checklist-item"><span class="box"></span>Create thumbnail in Canva</div>
+      <div class="checklist-item"><span class="box"></span>Test OBS screen share setup</div>
+    </div>
+    <div class="checklist-col">
+      <h4>Post-Production</h4>
+      <div class="checklist-item"><span class="box"></span>Visual change every 15-20 sec</div>
+      <div class="checklist-item"><span class="box"></span>Captions added + names corrected</div>
+      <div class="checklist-item"><span class="box"></span>Lower third on first appearance</div>
+      <div class="checklist-item"><span class="box"></span>Background music (kill during math)</div>
+      <div class="checklist-item"><span class="box"></span>End screen: subscribe + next video</div>
+      <div class="checklist-item"><span class="box"></span>Cards at 3:30 + 8:30</div>
+      <div class="checklist-item"><span class="box"></span>Thumbnail uploaded</div>
+      <div class="checklist-item"><span class="box"></span>Description with timestamps + links</div>
+      <div class="checklist-item"><span class="box"></span>Tags added</div>
+      <div class="checklist-item"><span class="box"></span>Cut 3 shorts from long-form</div>
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- VIII. GEMINI EVAL                      -->
+<!-- ═══════════════════════════════════════ -->
+<div class="section">
+  <div class="section-number">Section VIII</div>
+  <h2>Gemini Ideas &mdash; Evaluated</h2>
+  <div class="section-line"></div>
+
+  <p style="color:var(--slate-500); margin-bottom:16px;">Cross-referenced Gemini's deep research output. Kept what's useful, corrected what's wrong.</p>
+
+  <table class="eval-table">
+    <tr>
+      <th>Gemini Suggestion</th>
+      <th>Verdict</th>
+      <th>Notes</th>
+    </tr>
+    <tr>
+      <td>Split-screen $275K listing challenge</td>
+      <td class="eval-use">USE</td>
+      <td>Great visual. Optional insert in Round 1 &mdash; show actual MLS screenshots of what each price buys.</td>
+    </tr>
+    <tr>
+      <td>I-35 dashcam hyper-lapse</td>
+      <td class="eval-use">USE</td>
+      <td>Already in script. Easy to film, high production value, establishes proximity.</td>
+    </tr>
+    <tr>
+      <td>SpaceX McGregor mention</td>
+      <td class="eval-use">USE</td>
+      <td>Verified: 300 jobs, $46.3M expansion. Give Waco fair credit. Included in Round 2.</td>
+    </tr>
+    <tr>
+      <td>"Baylor buffer" rent-by-room play</td>
+      <td class="eval-use">MENTION</td>
+      <td>Valid student housing strategy but not Taylor's lane. Brief Waco section mention only.</td>
+    </tr>
+    <tr>
+      <td>"Tale of Two Tenants" wardrobe change</td>
+      <td class="eval-skip">SKIP</td>
+      <td>Stethoscope + hard hat props are gimmicky. Doesn't match the analyst brand. Data IS the entertainment.</td>
+    </tr>
+    <tr>
+      <td>"Meta (Facebook) data center" claim</td>
+      <td class="eval-wrong">WRONG</td>
+      <td>It's Rowan Digital, NOT Meta. Classic hallucination. Corrected throughout script.</td>
+    </tr>
+    <tr>
+      <td>Median price "$265-285K"</td>
+      <td class="eval-wrong">WRONG</td>
+      <td>Zillow: $255K Temple / $218K Waco. Gemini averaged inaccurately. Corrected.</td>
+    </tr>
+  </table>
+</div>
+
+<div class="divider"></div>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- FOOTER                                 -->
+<!-- ═══════════════════════════════════════ -->
+<div style="text-align:center; padding:40px 0 60px; color:var(--slate-400); font-size:0.82rem;">
+  <p style="margin-bottom:4px;">Production package compiled by ClawdBot from 30+ verified sources</p>
+  <p style="margin-bottom:4px;">Research doc: <code>research/temple-vs-waco-investment-research.md</code></p>
+  <p style="color:var(--slate-300);">Taylor Dasch &bull; EG Realty &bull; 254-718-4249 &bull; templetxhomes.net</p>
+</div>
+
+</div><!-- end content -->
+
+</body>
+</html>

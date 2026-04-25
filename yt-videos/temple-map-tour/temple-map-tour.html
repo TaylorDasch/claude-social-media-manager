@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Temple TX Map Tour — Living in Temple</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.js"></script>
+<link href="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Outfit:wght@400;600;800;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --emerald: #059669;
+    --emerald-bright: #10b981;
+    --midnight: #0f172a;
+    --snow: #f8fafc;
+    --danger: #dc2626;
+    --amber: #f59e0b;
+  }
+  * { box-sizing: border-box; }
+  body, html { margin: 0; padding: 0; font-family: 'Outfit', sans-serif; background: #000; color: var(--snow); overflow: hidden; }
+  #map { position: absolute; top: 0; left: 0; right: 0; bottom: 0; }
+
+  /* Top-right HUD */
+  .hud-topright {
+    position: absolute; top: 24px; right: 24px; z-index: 10;
+    background: rgba(15, 23, 42, 0.85); padding: 12px 18px; border-radius: 8px;
+    font-family: 'Outfit', sans-serif; font-size: 14px; font-weight: 600;
+    border-left: 3px solid var(--emerald);
+  }
+  .hud-topright .section-name { color: var(--emerald-bright); font-size: 11px; letter-spacing: 2px; text-transform: uppercase; }
+  .hud-topright .step-counter { color: #fff; font-family: 'Outfit'; font-size: 15px; font-weight: 700; font-variant-numeric: tabular-nums; margin-top: 4px; }
+  .hud-topright .timer { color: #94a3b8; font-family: 'Outfit'; font-size: 12px; font-variant-numeric: tabular-nums; margin-top: 2px; }
+
+  /* Controls */
+  .controls { position: absolute; bottom: 24px; left: 24px; z-index: 10; display: flex; gap: 10px; align-items: center; }
+  .controls button {
+    padding: 14px 28px; font-family: 'Outfit', sans-serif; font-size: 14px; font-weight: 700;
+    letter-spacing: 2px; text-transform: uppercase; border: none; border-radius: 4px; cursor: pointer;
+    background: var(--emerald); color: #fff; transition: background 0.2s;
+  }
+  .controls button:hover { background: var(--emerald-bright); }
+  .controls button.secondary { background: rgba(15,23,42,0.85); border: 1px solid #334155; padding: 10px 18px; font-size: 12px; }
+  .controls button:disabled { opacity: 0.4; cursor: not-allowed; background: #334155; }
+  .controls .big-next { font-size: 16px; padding: 16px 36px; box-shadow: 0 4px 20px rgba(5, 150, 105, 0.4); }
+
+  /* Keyboard hint */
+  .kbd-hint {
+    position: absolute; bottom: 80px; left: 24px; z-index: 10;
+    background: rgba(15, 23, 42, 0.75); padding: 8px 14px; border-radius: 4px;
+    font-family: 'Outfit'; font-size: 11px; color: #cbd5e1; letter-spacing: 1px;
+  }
+  .kbd-hint kbd {
+    background: #1e293b; color: #fff; padding: 2px 8px; border-radius: 3px;
+    border: 1px solid #334155; font-family: monospace; margin: 0 2px;
+  }
+
+  /* Main hook title */
+  .hook-container {
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    z-index: 5; text-align: center; pointer-events: none; width: 90%; max-width: 1200px;
+  }
+  .hook-title {
+    font-family: 'Cormorant Garamond', serif; font-size: 96px; font-weight: 700;
+    letter-spacing: 8px; text-transform: uppercase; color: #fff;
+    text-shadow: 0 4px 30px rgba(0,0,0,0.95); line-height: 1;
+  }
+  .hook-subtitle {
+    font-family: 'Outfit'; font-size: 22px; font-weight: 600;
+    letter-spacing: 6px; text-transform: uppercase; color: var(--emerald-bright);
+    margin-top: 16px; text-shadow: 0 2px 20px rgba(0,0,0,0.9);
+  }
+  .hook-hook {
+    font-family: 'Outfit'; font-size: 28px; font-weight: 400;
+    color: #fbbf24; margin-top: 32px; font-style: italic;
+    text-shadow: 0 2px 15px rgba(0,0,0,0.95);
+  }
+
+  /* Zone label (top-center) */
+  .zone-banner {
+    position: absolute; top: 40px; left: 50%; transform: translateX(-50%);
+    z-index: 5; pointer-events: none;
+    background: rgba(15, 23, 42, 0.92);
+    padding: 16px 40px; border-radius: 50px;
+    border: 1px solid var(--emerald);
+    text-align: center;
+  }
+  .zone-banner .zone-number {
+    font-family: 'Cormorant Garamond', serif; font-size: 14px; color: var(--emerald-bright);
+    letter-spacing: 3px; text-transform: uppercase;
+  }
+  .zone-banner .zone-name {
+    font-family: 'Outfit'; font-size: 32px; font-weight: 800; color: #fff;
+    letter-spacing: 4px; text-transform: uppercase;
+  }
+
+  /* Price cards (right side) */
+  .price-stack {
+    position: absolute; top: 50%; right: 40px; transform: translateY(-50%);
+    z-index: 5; pointer-events: none; display: flex; flex-direction: column; gap: 12px;
+    max-width: 340px;
+  }
+  .price-card {
+    background: rgba(15, 23, 42, 0.92);
+    border-left: 4px solid var(--emerald);
+    padding: 14px 20px; border-radius: 4px;
+  }
+  .price-card .neighborhood {
+    font-size: 16px; font-weight: 700; color: #fff; letter-spacing: 1px;
+  }
+  .price-card .price { font-size: 20px; font-weight: 800; color: var(--emerald-bright); }
+  .price-card .note { font-size: 12px; color: #cbd5e1; margin-top: 4px; }
+
+  /* Danger callout (3 zones to avoid) */
+  .danger-card { border-left-color: var(--danger); }
+  .danger-card .price { color: #fca5a5; }
+
+  /* Big finale stat */
+  .stat-burst {
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    z-index: 5; pointer-events: none; text-align: center;
+    background: rgba(15, 23, 42, 0.95); padding: 40px 80px; border-radius: 8px;
+    border: 2px solid var(--emerald);
+  }
+  .stat-burst .stat-label {
+    font-family: 'Outfit'; font-size: 16px; letter-spacing: 4px;
+    text-transform: uppercase; color: var(--emerald-bright);
+  }
+  .stat-burst .stat-value {
+    font-family: 'Cormorant Garamond', serif; font-size: 84px; font-weight: 700;
+    color: #fff; line-height: 1; margin: 12px 0;
+  }
+  .stat-burst .stat-context { font-size: 18px; color: #cbd5e1; }
+
+  /* Budget legend */
+  .budget-legend {
+    position: absolute; bottom: 80px; right: 40px; z-index: 5; pointer-events: none;
+    background: rgba(15, 23, 42, 0.92); padding: 20px 24px; border-radius: 4px;
+    font-family: 'Outfit';
+  }
+  .budget-legend .legend-title { font-size: 12px; letter-spacing: 3px; text-transform: uppercase; color: var(--emerald-bright); margin-bottom: 10px; }
+  .budget-row { display: flex; align-items: center; gap: 12px; padding: 6px 0; font-size: 14px; color: #fff; }
+  .budget-dot { width: 16px; height: 16px; border-radius: 50%; flex-shrink: 0; }
+
+  /* Generic fade */
+  .fadeable { opacity: 0; transition: opacity 0.6s ease-in-out; }
+  .fadeable.on { opacity: 1; }
+
+  /* Outro card */
+  .cta-container {
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    z-index: 5; pointer-events: none; text-align: center;
+    background: rgba(15, 23, 42, 0.93); padding: 48px 80px; border-radius: 8px;
+    border-top: 3px solid var(--emerald); border-bottom: 3px solid var(--emerald);
+    max-width: 900px;
+  }
+  .cta-title { font-family: 'Cormorant Garamond'; font-size: 54px; color: #fff; font-weight: 700; }
+  .cta-sub { font-family: 'Outfit'; font-size: 22px; color: var(--emerald-bright); margin-top: 16px; letter-spacing: 3px; text-transform: uppercase; }
+  .cta-contact { font-family: 'Outfit'; font-size: 18px; color: #fff; margin-top: 32px; line-height: 1.8; }
+</style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<!-- HUD -->
+<div class="hud-topright">
+  <div class="section-name" id="hudSection">LOADING...</div>
+  <div class="step-counter" id="stepCounter">Step — / —</div>
+  <div class="timer" id="timer" style="display:none;">0:00 / 10:00</div>
+</div>
+
+<!-- Keyboard hint -->
+<div class="kbd-hint">
+  <kbd>Space</kbd> or <kbd>→</kbd> next · <kbd>←</kbd> prev · <kbd>Home</kbd> restart
+</div>
+
+<!-- Controls -->
+<div class="controls">
+  <button id="prevBtn" class="secondary" title="Previous step">← PREV</button>
+  <button id="nextBtn" class="big-next" title="Next step (Space)">NEXT →</button>
+  <button id="restartBtn" class="secondary" title="Back to start">⟲ RESTART</button>
+  <button id="autoPlayBtn" class="secondary" title="Auto-play entire 10-min tour">▶ AUTO-PLAY</button>
+</div>
+
+<!-- Overlays (hidden by default, toggled by JS) -->
+<div class="hook-container fadeable" id="hookOverlay">
+  <div class="hook-title">TEMPLE, TX</div>
+  <div class="hook-subtitle">The Complete Map Tour • 2026</div>
+  <div class="hook-hook" id="hookLine"></div>
+</div>
+
+<div class="zone-banner fadeable" id="zoneBanner">
+  <div class="zone-number" id="zoneNumber">ZONE 1 OF 5</div>
+  <div class="zone-name" id="zoneName">WEST TEMPLE</div>
+</div>
+
+<div class="price-stack fadeable" id="priceStack"></div>
+
+<div class="stat-burst fadeable" id="statBurst">
+  <div class="stat-label" id="statLabel"></div>
+  <div class="stat-value" id="statValue"></div>
+  <div class="stat-context" id="statContext"></div>
+</div>
+
+<div class="budget-legend fadeable" id="budgetLegend">
+  <div class="legend-title">Budget Map</div>
+  <div class="budget-row"><div class="budget-dot" style="background:#10b981"></div><div>Under $250K</div></div>
+  <div class="budget-row"><div class="budget-dot" style="background:#3b82f6"></div><div>$250K–$400K</div></div>
+  <div class="budget-row"><div class="budget-dot" style="background:#a855f7"></div><div>$400K–$600K</div></div>
+  <div class="budget-row"><div class="budget-dot" style="background:#f59e0b"></div><div>$600K+</div></div>
+</div>
+
+<div class="cta-container fadeable" id="ctaOverlay">
+  <div class="cta-title">That's the map.</div>
+  <div class="cta-sub">Now let's find your zone.</div>
+  <div class="cta-contact">
+    Taylor Dasch · EG Realty<br>
+    <strong>254-718-4249</strong> · templetxhomes.net<br>
+    <span style="color:#fbbf24">Free Temple Neighborhood Map in description ↓</span>
+  </div>
+</div>
+
+<script>
+// ============================================================================
+// TEMPLE TX MAP TOUR — Auto-Play 3D Flythrough
+// Mapbox GL JS v3.8.0 + satellite-streets-v12 + 3D terrain + 3D buildings
+// Total runtime: 10:00 (600 seconds)
+// ============================================================================
+
+// Replace with a local Mapbox public token before rendering this map.
+mapboxgl.accessToken = 'MAPBOX_PUBLIC_TOKEN';
+
+// --- NEIGHBORHOOD COORDINATES (VERIFY THESE AGAINST YOUR KNOWLEDGE) -----------
+// Format: [longitude, latitude]. These are best-guess centroids.
+// If any feel off, update the values below — the camera will follow.
+const COORDS = {
+  templeCenter:      [-97.3428, 31.0982],
+  bsw:               [-97.3490, 31.0890],
+  downtown:          [-97.3430, 31.0980],
+
+  // Zone 1 — West Temple / Belton ISD
+  lakePointe:        [-97.4580, 31.1255],
+  legacyRanch:       [-97.4240, 31.1400],
+  sageMeadows:       [-97.4600, 31.0500],
+
+  // Zone 2 — South Temple
+  canyonRidge:       [-97.3900, 31.0550],
+  bellaTerra:        [-97.3680, 31.0780],
+  parksAtWestfield:  [-97.3950, 31.0700],
+
+  // Zone 3 — North Temple
+  altaVista:         [-97.3700, 31.1200],
+  windmillFarms:     [-97.3550, 31.1350],
+
+  // Zone 4 — East / Inner Temple
+  hillsOfWestwood:   [-97.3200, 31.0900],
+  cimmaron:          [-97.3350, 31.0850],
+  canyonCreek:       [-97.3350, 31.0700],
+  theCliffs:         [-97.3400, 31.0750],
+
+  // Zone 5 — Belton-Side
+  hillsideVillage:   [-97.4400, 31.0950],
+  grovesLakewoodRanch:[-97.4700, 31.0600],
+
+  // Avoid zones (approx — adjust per your comfort)
+  southTempleOld:    [-97.3350, 31.0750],
+  floodRisk:         [-97.3550, 31.1100],
+  industrialBorder:  [-97.3200, 31.0650],
+};
+
+// --- SEQUENCE DEFINITION ------------------------------------------------------
+// Each step: time (sec), camera move, what overlay to show, what section label.
+// flyDuration is how long the camera takes to animate to new position.
+const SEQUENCE = [
+  // 0:00-0:15 — HOOK
+  {
+    time: 0, section: 'HOOK',
+    camera: { center: COORDS.templeCenter, zoom: 9.5, pitch: 45, bearing: 0, duration: 1 },
+    overlay: 'hook',
+    hookLine: '"If you don\'t know this map, you\'re about to make a $50,000 mistake."'
+  },
+  // 0:15-0:45 — INTRO / Orbit over full city
+  {
+    time: 15, section: 'THE FRAMEWORK',
+    camera: { center: COORDS.templeCenter, zoom: 11.5, pitch: 65, bearing: 30, duration: 6 },
+    overlay: 'stat', statLabel: 'Temple, TX', statValue: '85,000', statContext: 'People · 20 min from Fort Cavazos · BSW Hospital anchor'
+  },
+  {
+    time: 35, section: 'THE FRAMEWORK',
+    camera: { center: COORDS.templeCenter, zoom: 11.5, pitch: 65, bearing: 60, duration: 10 },
+    overlay: 'none'
+  },
+
+  // 0:45-2:15 — ZONE 1 WEST TEMPLE
+  {
+    time: 45, section: 'ZONE 1 · WEST TEMPLE',
+    camera: { center: COORDS.lakePointe, zoom: 14, pitch: 68, bearing: 45, duration: 5 },
+    overlay: 'zone', zoneNumber: 'ZONE 1 OF 5', zoneName: 'WEST TEMPLE / BELTON ISD',
+  },
+  {
+    time: 60, section: 'ZONE 1 · WEST TEMPLE',
+    camera: { center: COORDS.lakePointe, zoom: 14.8, pitch: 70, bearing: 90, duration: 4 },
+    overlay: 'prices', prices: [
+      { n: 'Lake Pointe', p: '$220K – $350K', note: '$142/sqft · best value' },
+      { n: 'Legacy Ranch', p: '$350K – $500K', note: 'Premium new construction' },
+      { n: 'Sage Meadows', p: '$200K – $280K', note: 'Entry Belton ISD' },
+    ]
+  },
+  {
+    time: 90, section: 'ZONE 1 · WEST TEMPLE',
+    camera: { center: COORDS.legacyRanch, zoom: 14.5, pitch: 68, bearing: 180, duration: 4 },
+    overlay: 'keep'
+  },
+  {
+    time: 120, section: 'ZONE 1 · WEST TEMPLE',
+    camera: { center: COORDS.sageMeadows, zoom: 14, pitch: 65, bearing: 225, duration: 4 },
+    overlay: 'keep'
+  },
+
+  // 2:15-3:45 — ZONE 2 SOUTH TEMPLE
+  {
+    time: 135, section: 'ZONE 2 · SOUTH TEMPLE',
+    camera: { center: COORDS.canyonRidge, zoom: 14, pitch: 68, bearing: 315, duration: 5 },
+    overlay: 'zone', zoneNumber: 'ZONE 2 OF 5', zoneName: 'SOUTH TEMPLE'
+  },
+  {
+    time: 150, section: 'ZONE 2 · SOUTH TEMPLE',
+    camera: { center: COORDS.canyonRidge, zoom: 14.8, pitch: 70, bearing: 0, duration: 4 },
+    overlay: 'prices', prices: [
+      { n: 'Canyon Ridge', p: '$200K – $315K', note: 'No HOA · parks · 1st-time buyers' },
+      { n: 'Bella Terra', p: '$280K – $420K', note: 'BSW medical favorite' },
+      { n: 'Parks at Westfield', p: '$300K – $450K', note: 'Family tier · Academy ISD zones nearby' },
+    ]
+  },
+  {
+    time: 180, section: 'ZONE 2 · SOUTH TEMPLE',
+    camera: { center: COORDS.bellaTerra, zoom: 14.5, pitch: 68, bearing: 90, duration: 4 },
+    overlay: 'keep'
+  },
+  {
+    time: 210, section: 'ZONE 2 · SOUTH TEMPLE',
+    camera: { center: COORDS.parksAtWestfield, zoom: 14.2, pitch: 65, bearing: 135, duration: 4 },
+    overlay: 'keep'
+  },
+
+  // 3:45-5:15 — ZONE 3 NORTH TEMPLE
+  {
+    time: 225, section: 'ZONE 3 · NORTH TEMPLE',
+    camera: { center: COORDS.altaVista, zoom: 14, pitch: 68, bearing: 225, duration: 5 },
+    overlay: 'zone', zoneNumber: 'ZONE 3 OF 5', zoneName: 'NORTH TEMPLE'
+  },
+  {
+    time: 240, section: 'ZONE 3 · NORTH TEMPLE',
+    camera: { center: COORDS.altaVista, zoom: 14.7, pitch: 70, bearing: 270, duration: 4 },
+    overlay: 'prices', prices: [
+      { n: 'Alta Vista', p: '$250K – $400K', note: 'Quietest zone · mature trees' },
+      { n: 'Windmill Farms', p: '$280K – $350K', note: 'New construction · growing' },
+    ]
+  },
+  {
+    time: 270, section: 'ZONE 3 · NORTH TEMPLE',
+    camera: { center: COORDS.windmillFarms, zoom: 14.5, pitch: 68, bearing: 315, duration: 4 },
+    overlay: 'keep'
+  },
+  {
+    time: 300, section: 'ZONE 3 · NORTH TEMPLE',
+    camera: { center: [(COORDS.altaVista[0]+COORDS.windmillFarms[0])/2, (COORDS.altaVista[1]+COORDS.windmillFarms[1])/2], zoom: 13.5, pitch: 65, bearing: 0, duration: 4 },
+    overlay: 'keep'
+  },
+
+  // 5:15-6:45 — ZONE 4 EAST / INNER TEMPLE
+  {
+    time: 315, section: 'ZONE 4 · INNER / EAST TEMPLE',
+    camera: { center: COORDS.hillsOfWestwood, zoom: 14, pitch: 68, bearing: 45, duration: 5 },
+    overlay: 'zone', zoneNumber: 'ZONE 4 OF 5', zoneName: 'INNER / EAST TEMPLE'
+  },
+  {
+    time: 330, section: 'ZONE 4 · INNER / EAST TEMPLE',
+    camera: { center: COORDS.hillsOfWestwood, zoom: 14.7, pitch: 70, bearing: 90, duration: 4 },
+    overlay: 'prices', prices: [
+      { n: 'Hills of Westwood', p: '$250K – $400K', note: 'Established · mixed ages' },
+      { n: 'Cimmaron', p: '$150K – $190K', note: 'Entry tier · investor zone' },
+      { n: 'Canyon Creek / The Cliffs', p: '$350K – $600K+', note: 'Luxury lane · quiet' },
+    ]
+  },
+  {
+    time: 360, section: 'ZONE 4 · INNER / EAST TEMPLE',
+    camera: { center: COORDS.cimmaron, zoom: 14.5, pitch: 65, bearing: 135, duration: 4 },
+    overlay: 'keep'
+  },
+  {
+    time: 390, section: 'ZONE 4 · INNER / EAST TEMPLE',
+    camera: { center: COORDS.theCliffs, zoom: 14.7, pitch: 70, bearing: 180, duration: 4 },
+    overlay: 'keep'
+  },
+
+  // 6:45-8:15 — ZONE 5 BELTON-SIDE EXPANSION
+  {
+    time: 405, section: 'ZONE 5 · BELTON-SIDE',
+    camera: { center: COORDS.hillsideVillage, zoom: 14, pitch: 68, bearing: 225, duration: 5 },
+    overlay: 'zone', zoneNumber: 'ZONE 5 OF 5', zoneName: 'BELTON-SIDE EXPANSION'
+  },
+  {
+    time: 420, section: 'ZONE 5 · BELTON-SIDE',
+    camera: { center: COORDS.hillsideVillage, zoom: 14.5, pitch: 70, bearing: 270, duration: 4 },
+    overlay: 'prices', prices: [
+      { n: 'Hillside Village', p: '$300K – $500K', note: 'Lowest tax rate in Temple' },
+      { n: 'Groves at Lakewood Ranch', p: '$320K – $450K', note: 'Belton ISD · family draw' },
+    ]
+  },
+  {
+    time: 450, section: 'ZONE 5 · BELTON-SIDE',
+    camera: { center: COORDS.grovesLakewoodRanch, zoom: 14.3, pitch: 68, bearing: 315, duration: 4 },
+    overlay: 'keep'
+  },
+  {
+    time: 480, section: 'ZONE 5 · BELTON-SIDE',
+    camera: { center: [(COORDS.hillsideVillage[0]+COORDS.grovesLakewoodRanch[0])/2, (COORDS.hillsideVillage[1]+COORDS.grovesLakewoodRanch[1])/2], zoom: 13.5, pitch: 65, bearing: 0, duration: 4 },
+    overlay: 'keep'
+  },
+
+  // 8:15-9:30 — THE 3 ZONES TO AVOID
+  {
+    time: 495, section: 'AVOID · 3 PROBLEM ZONES',
+    camera: { center: COORDS.templeCenter, zoom: 11.5, pitch: 55, bearing: 0, duration: 6 },
+    overlay: 'zone', zoneNumber: 'PATTERN INTERRUPT', zoneName: '3 ZONES TO AVOID'
+  },
+  {
+    time: 515, section: 'AVOID · 3 PROBLEM ZONES',
+    camera: { center: COORDS.southTempleOld, zoom: 14.5, pitch: 65, bearing: 45, duration: 4 },
+    overlay: 'danger', prices: [
+      { n: 'Below S 11th Street', p: 'Verify in person', note: 'Infrastructure gaps · block-by-block' },
+    ]
+  },
+  {
+    time: 540, section: 'AVOID · 3 PROBLEM ZONES',
+    camera: { center: COORDS.floodRisk, zoom: 14.5, pitch: 65, bearing: 135, duration: 4 },
+    overlay: 'danger', prices: [
+      { n: 'Flood Plain Pockets', p: 'Check FEMA map', note: 'Insurance adds $1,200-2,400/yr' },
+    ]
+  },
+  {
+    time: 565, section: 'AVOID · 3 PROBLEM ZONES',
+    camera: { center: COORDS.industrialBorder, zoom: 14.5, pitch: 65, bearing: 225, duration: 4 },
+    overlay: 'danger', prices: [
+      { n: 'Industrial Border Zones', p: 'Site visit required', note: 'Noise · truck traffic · resale risk' },
+    ]
+  },
+
+  // 9:30-10:00 — BUDGET MAP + CTA
+  {
+    time: 585, section: 'YOUR BUDGET MAP',
+    camera: { center: COORDS.templeCenter, zoom: 11, pitch: 50, bearing: 0, duration: 6 },
+    overlay: 'budget'
+  },
+  {
+    time: 600, section: 'CALL TO ACTION',
+    camera: { center: COORDS.templeCenter, zoom: 10.5, pitch: 40, bearing: 0, duration: 4 },
+    overlay: 'cta'
+  },
+];
+
+// --- MAP SETUP ----------------------------------------------------------------
+const map = new mapboxgl.Map({
+  container: 'map',
+  style: 'mapbox://styles/mapbox/satellite-streets-v12',
+  center: COORDS.templeCenter, zoom: 9.5, pitch: 45, bearing: 0,
+  antialias: true,
+});
+
+map.on('load', () => {
+  // 3D terrain
+  map.addSource('mapbox-dem', {
+    type: 'raster-dem',
+    url: 'mapbox://mapbox.mapbox-terrain-dem-v1',
+    tileSize: 512, maxzoom: 14,
+  });
+  map.setTerrain({ source: 'mapbox-dem', exaggeration: 1.4 });
+
+  // Atmospheric sky
+  map.setFog({
+    color: 'rgb(186,210,235)', 'horizon-blend': 0.05,
+    'high-color': 'rgb(36,92,223)', 'space-color': 'rgb(11,11,25)',
+    'star-intensity': 0.1,
+  });
+
+  // 3D buildings
+  map.addLayer({
+    id: '3d-buildings', source: 'composite', 'source-layer': 'building',
+    filter: ['==', 'extrude', 'true'], type: 'fill-extrusion', minzoom: 13,
+    paint: {
+      'fill-extrusion-color': '#cbd5e1',
+      'fill-extrusion-height': ['get', 'height'],
+      'fill-extrusion-base': ['get', 'min_height'],
+      'fill-extrusion-opacity': 0.9,
+    },
+  });
+
+  document.getElementById('hudSection').textContent = 'READY';
+  document.getElementById('playBtn').disabled = false;
+});
+
+// --- OVERLAY HELPERS ----------------------------------------------------------
+const els = {
+  hook: document.getElementById('hookOverlay'),
+  hookLine: document.getElementById('hookLine'),
+  zone: document.getElementById('zoneBanner'),
+  zoneNumber: document.getElementById('zoneNumber'),
+  zoneName: document.getElementById('zoneName'),
+  priceStack: document.getElementById('priceStack'),
+  statBurst: document.getElementById('statBurst'),
+  statLabel: document.getElementById('statLabel'),
+  statValue: document.getElementById('statValue'),
+  statContext: document.getElementById('statContext'),
+  budget: document.getElementById('budgetLegend'),
+  cta: document.getElementById('ctaOverlay'),
+  hudSection: document.getElementById('hudSection'),
+  timer: document.getElementById('timer'),
+};
+
+function hideAll() {
+  ['hook','zone','priceStack','statBurst','budget','cta'].forEach(k=>{
+    els[k].classList.remove('on');
+  });
+}
+
+function showOverlay(step) {
+  // Do NOT hide if overlay is 'keep'
+  if (step.overlay === 'keep') return;
+  hideAll();
+
+  if (step.overlay === 'hook') {
+    els.hookLine.textContent = step.hookLine || '';
+    els.hook.classList.add('on');
+  }
+  else if (step.overlay === 'zone') {
+    els.zoneNumber.textContent = step.zoneNumber;
+    els.zoneName.textContent = step.zoneName;
+    els.zone.classList.add('on');
+  }
+  else if (step.overlay === 'prices' || step.overlay === 'danger') {
+    els.priceStack.innerHTML = '';
+    step.prices.forEach(p => {
+      const card = document.createElement('div');
+      card.className = 'price-card' + (step.overlay === 'danger' ? ' danger-card' : '');
+      card.innerHTML = `<div class="neighborhood">${p.n}</div><div class="price">${p.p}</div><div class="note">${p.note}</div>`;
+      els.priceStack.appendChild(card);
+    });
+    els.priceStack.classList.add('on');
+  }
+  else if (step.overlay === 'stat') {
+    els.statLabel.textContent = step.statLabel;
+    els.statValue.textContent = step.statValue;
+    els.statContext.textContent = step.statContext;
+    els.statBurst.classList.add('on');
+  }
+  else if (step.overlay === 'budget') {
+    els.budget.classList.add('on');
+  }
+  else if (step.overlay === 'cta') {
+    els.cta.classList.add('on');
+  }
+}
+
+// --- STEP-BASED NAVIGATION (PRIMARY MODE) ------------------------------------
+let currentStepIdx = -1;
+let autoPlayActive = false;
+let autoPlayStart = null;
+
+function fmt(sec) {
+  const m = Math.floor(sec / 60), s = Math.floor(sec % 60);
+  return `${m}:${s.toString().padStart(2,'0')}`;
+}
+
+// Resolve effective overlay: if step.overlay === 'keep', walk backward.
+function resolveOverlay(idx) {
+  for (let i = idx; i >= 0; i--) {
+    if (SEQUENCE[i].overlay && SEQUENCE[i].overlay !== 'keep') {
+      return SEQUENCE[i];
+    }
+  }
+  return SEQUENCE[0];
+}
+
+function goToStep(idx) {
+  if (idx < 0 || idx >= SEQUENCE.length) return;
+  currentStepIdx = idx;
+  const step = SEQUENCE[idx];
+
+  els.hudSection.textContent = step.section;
+  els.stepCounter.textContent = `Step ${idx + 1} of ${SEQUENCE.length}`;
+  document.getElementById('prevBtn').disabled = (idx === 0);
+  document.getElementById('nextBtn').disabled = (idx === SEQUENCE.length - 1);
+
+  // Fly camera
+  map.flyTo({
+    center: step.camera.center,
+    zoom: step.camera.zoom,
+    pitch: step.camera.pitch,
+    bearing: step.camera.bearing,
+    duration: (step.camera.duration || 4) * 1000,
+    essential: true,
+    curve: 1.4,
+  });
+
+  // Render overlay using resolver (handles 'keep')
+  const overlayStep = resolveOverlay(idx);
+  showOverlay(overlayStep);
+
+  // Update timer display (hidden by default, shown during auto-play)
+  if (autoPlayActive) {
+    els.timer.textContent = `${fmt(step.time)} / 10:00`;
+  }
+}
+
+function nextStep() {
+  if (currentStepIdx < SEQUENCE.length - 1) goToStep(currentStepIdx + 1);
+}
+
+function prevStep() {
+  if (currentStepIdx > 0) goToStep(currentStepIdx - 1);
+}
+
+function restart() {
+  autoPlayActive = false;
+  autoPlayStart = null;
+  currentStepIdx = -1;
+  hideAll();
+  els.hudSection.textContent = 'READY';
+  els.stepCounter.textContent = `Step 0 of ${SEQUENCE.length}`;
+  els.timer.style.display = 'none';
+  document.getElementById('prevBtn').disabled = true;
+  document.getElementById('nextBtn').disabled = false;
+  document.getElementById('autoPlayBtn').textContent = '▶ AUTO-PLAY';
+  map.flyTo({ center: COORDS.templeCenter, zoom: 9.5, pitch: 45, bearing: 0, duration: 2000 });
+}
+
+// --- AUTO-PLAY MODE (OPTIONAL) ------------------------------------------------
+function runAutoPlay(now) {
+  if (!autoPlayActive) return;
+  if (autoPlayStart === null) autoPlayStart = now;
+  const elapsed = (now - autoPlayStart) / 1000;
+
+  els.timer.textContent = `${fmt(elapsed)} / 10:00`;
+
+  // Find current timed step
+  let newIdx = -1;
+  for (let i = SEQUENCE.length - 1; i >= 0; i--) {
+    if (elapsed >= SEQUENCE[i].time) { newIdx = i; break; }
+  }
+
+  if (newIdx !== currentStepIdx && newIdx >= 0) {
+    goToStep(newIdx);
+  }
+
+  if (elapsed < 610 && autoPlayActive) {
+    requestAnimationFrame(runAutoPlay);
+  } else {
+    autoPlayActive = false;
+    els.hudSection.textContent = 'TOUR COMPLETE';
+    document.getElementById('autoPlayBtn').textContent = '▶ AUTO-PLAY';
+  }
+}
+
+function toggleAutoPlay() {
+  if (autoPlayActive) {
+    autoPlayActive = false;
+    autoPlayStart = null;
+    document.getElementById('autoPlayBtn').textContent = '▶ AUTO-PLAY';
+    els.timer.style.display = 'none';
+  } else {
+    autoPlayActive = true;
+    autoPlayStart = null;
+    currentStepIdx = -1;
+    hideAll();
+    els.timer.style.display = 'block';
+    document.getElementById('autoPlayBtn').textContent = '⏸ PAUSE AUTO';
+    requestAnimationFrame(runAutoPlay);
+  }
+}
+
+// --- BUTTON HANDLERS ----------------------------------------------------------
+document.getElementById('nextBtn').addEventListener('click', () => {
+  if (autoPlayActive) toggleAutoPlay(); // stop auto-play if user takes manual control
+  if (currentStepIdx === -1) goToStep(0);
+  else nextStep();
+});
+
+document.getElementById('prevBtn').addEventListener('click', () => {
+  if (autoPlayActive) toggleAutoPlay();
+  prevStep();
+});
+
+document.getElementById('restartBtn').addEventListener('click', restart);
+document.getElementById('autoPlayBtn').addEventListener('click', toggleAutoPlay);
+
+// --- KEYBOARD SHORTCUTS -------------------------------------------------------
+document.addEventListener('keydown', (e) => {
+  // Ignore if typing in an input (not used here but safe)
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+
+  if (e.key === ' ' || e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === 'PageDown') {
+    e.preventDefault();
+    if (autoPlayActive) toggleAutoPlay();
+    if (currentStepIdx === -1) goToStep(0);
+    else nextStep();
+  } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp' || e.key === 'PageUp') {
+    e.preventDefault();
+    if (autoPlayActive) toggleAutoPlay();
+    prevStep();
+  } else if (e.key === 'Home') {
+    e.preventDefault();
+    restart();
+  } else if (e.key === 'End') {
+    e.preventDefault();
+    if (autoPlayActive) toggleAutoPlay();
+    goToStep(SEQUENCE.length - 1);
+  } else if (e.key === 'p' || e.key === 'P') {
+    e.preventDefault();
+    toggleAutoPlay();
+  }
+});
+
+// Initialize step counter display on load
+map.on('load', () => {
+  setTimeout(() => {
+    els.stepCounter.textContent = `Step 0 of ${SEQUENCE.length}`;
+    document.getElementById('prevBtn').disabled = true;
+  }, 100);
+});
+</script>
+</body>
+</html>

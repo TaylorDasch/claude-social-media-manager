@@ -1,0 +1,85 @@
+{
+  "generated": "2026-04-13T06:15:01.692019",
+  "week_number": 16,
+  "market_snapshot": {
+    "median_price_3mo": 265000,
+    "price_change_pct": -3.6,
+    "median_dom": 76,
+    "sp_lp_ratio": 98.0,
+    "market_condition": "Buyers"
+  },
+  "top_stories": [
+    {
+      "type": "price_trend",
+      "text": "Temple median price is $265,000 (-3.6% vs prior quarter). Market is trending down."
+    },
+    {
+      "type": "hot_neighborhood",
+      "text": "Lake Pointe is the fastest-moving farming target at 27 median DOM."
+    },
+    {
+      "type": "stat",
+      "text": "Buyers negotiating 2.0% off asking -- leverage for buyers."
+    }
+  ],
+  "farming_highlights": {
+    "Alta Vista": {
+      "active": 5,
+      "median": 258000,
+      "dom": 81
+    },
+    "Canyon Creek": {
+      "active": 7,
+      "median": 232000,
+      "dom": 68
+    },
+    "Windmill Farms": {
+      "active": 7,
+      "median": 250000,
+      "dom": 46
+    },
+    "Lake Pointe": {
+      "active": 9,
+      "median": 262000,
+      "dom": 24
+    }
+  },
+  "content_ideas": [
+    {
+      "day": "Monday",
+      "type": "MARKET STAT",
+      "idea": "Last month: $265,000 median, 77 DOM. Carousel or graphic with your take."
+    },
+    {
+      "day": "Tuesday",
+      "type": "NEIGHBORHOOD SPOTLIGHT",
+      "idea": "Film 60-second driving tour of a farming target with market stats overlay."
+    },
+    {
+      "day": "Wednesday",
+      "type": "BUYER TIP",
+      "idea": "SP/LP at 98.0% -- buyers getting deals, post negotiation tips."
+    },
+    {
+      "day": "Thursday",
+      "type": "VIDEO IDEA",
+      "idea": "Temple TX Market Update -- use market brain stats for a data-driven take."
+    },
+    {
+      "day": "Friday",
+      "type": "DEAL OF THE WEEK / HOT TAKE",
+      "idea": "Pick the most surprising stat and share honest analysis."
+    },
+    {
+      "day": "Saturday",
+      "type": "LIFESTYLE / COMMUNITY",
+      "idea": "Share a local event, restaurant, or hidden gem in Temple."
+    },
+    {
+      "day": "Sunday",
+      "type": "REST or BATCH PREP",
+      "idea": "Prep next week's content. Schedule posts."
+    }
+  ],
+  "data_warning": "MLS data is 59 days old -- update export"
+}

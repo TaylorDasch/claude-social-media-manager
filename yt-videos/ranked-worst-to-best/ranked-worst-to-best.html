@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Every Temple Neighborhood Ranked Worst to Best</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.js"></script>
+<link href="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Outfit:wght@400;600;800;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --emerald:#059669; --emerald-bright:#10b981;
+    --tier-s:#fbbf24; --tier-a:#10b981; --tier-b:#3b82f6; --tier-c:#a855f7; --tier-d:#f97316; --tier-f:#dc2626;
+    --midnight:#0f172a; --snow:#f8fafc;
+  }
+  * { box-sizing: border-box; }
+  body, html { margin:0; padding:0; font-family:'Outfit', sans-serif; background:#000; color:var(--snow); overflow:hidden; }
+  #map { position:absolute; top:0; left:0; right:0; bottom:0; }
+
+  .hud-topright { position:absolute; top:24px; right:24px; z-index:10; background:rgba(15,23,42,0.85); padding:12px 18px; border-radius:8px; font-size:14px; font-weight:600; border-left:3px solid var(--emerald); }
+  .hud-topright .section-name { color:var(--emerald-bright); font-size:11px; letter-spacing:2px; text-transform:uppercase; }
+  .hud-topright .step-counter { color:#fff; font-size:15px; font-weight:700; font-variant-numeric:tabular-nums; margin-top:4px; }
+
+  .controls { position:absolute; bottom:24px; left:24px; z-index:10; display:flex; gap:10px; align-items:center; }
+  .controls button { padding:14px 28px; font-family:'Outfit'; font-size:14px; font-weight:700; letter-spacing:2px; text-transform:uppercase; border:none; border-radius:4px; cursor:pointer; background:var(--emerald); color:#fff; transition:background 0.2s; }
+  .controls button:hover { background:var(--emerald-bright); }
+  .controls button.secondary { background:rgba(15,23,42,0.85); border:1px solid #334155; padding:10px 18px; font-size:12px; }
+  .controls button:disabled { opacity:0.4; cursor:not-allowed; background:#334155; }
+  .controls .big-next { font-size:16px; padding:16px 36px; box-shadow:0 4px 20px rgba(5,150,105,0.4); }
+
+  .kbd-hint { position:absolute; bottom:80px; left:24px; z-index:10; background:rgba(15,23,42,0.75); padding:8px 14px; border-radius:4px; font-size:11px; color:#cbd5e1; letter-spacing:1px; }
+  .kbd-hint kbd { background:#1e293b; color:#fff; padding:2px 8px; border-radius:3px; border:1px solid #334155; font-family:monospace; margin:0 2px; }
+
+  .hook-container { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); z-index:5; text-align:center; pointer-events:none; width:90%; max-width:1200px; }
+  .hook-title { font-family:'Cormorant Garamond', serif; font-size:84px; font-weight:700; letter-spacing:4px; text-transform:uppercase; color:#fff; text-shadow:0 4px 30px rgba(0,0,0,0.95); line-height:1; }
+  .hook-subtitle { font-family:'Outfit'; font-size:22px; font-weight:600; letter-spacing:5px; text-transform:uppercase; color:var(--tier-f); margin-top:16px; text-shadow:0 2px 20px rgba(0,0,0,0.9); }
+  .hook-hook { font-family:'Outfit'; font-size:28px; font-weight:400; color:var(--emerald-bright); margin-top:32px; font-style:italic; text-shadow:0 2px 15px rgba(0,0,0,0.95); }
+
+  /* TIER REVEAL — the money overlay */
+  .tier-reveal {
+    position:absolute; top:50%; left:40px; transform:translateY(-50%);
+    z-index:5; pointer-events:none;
+    background:rgba(15,23,42,0.93); padding:28px 36px; border-radius:8px;
+    border-left:8px solid #fff; max-width:520px;
+  }
+  .tier-reveal .tier-label {
+    font-family:'Cormorant Garamond', serif; font-size:88px; font-weight:700;
+    line-height:0.9; margin-bottom:8px;
+  }
+  .tier-reveal .tier-descriptor {
+    font-family:'Outfit'; font-size:14px; font-weight:600;
+    letter-spacing:4px; text-transform:uppercase; color:#cbd5e1; margin-bottom:20px;
+  }
+  .tier-reveal .tier-item {
+    padding:10px 0; border-top:1px solid #334155;
+    font-size:16px;
+  }
+  .tier-reveal .tier-item:first-child { border-top: none; }
+  .tier-reveal .tier-name { font-weight:700; color:#fff; font-size:18px; }
+  .tier-reveal .tier-reason { font-size:13px; color:#94a3b8; margin-top:3px; line-height:1.4; }
+
+  /* Tier-specific colors */
+  .tier-f { border-left-color:var(--tier-f); }
+  .tier-f .tier-label { color:var(--tier-f); }
+  .tier-d { border-left-color:var(--tier-d); }
+  .tier-d .tier-label { color:var(--tier-d); }
+  .tier-c { border-left-color:var(--tier-c); }
+  .tier-c .tier-label { color:var(--tier-c); }
+  .tier-b { border-left-color:var(--tier-b); }
+  .tier-b .tier-label { color:var(--tier-b); }
+  .tier-a { border-left-color:var(--tier-a); }
+  .tier-a .tier-label { color:var(--tier-a); }
+  .tier-s { border-left-color:var(--tier-s); }
+  .tier-s .tier-label { color:var(--tier-s); }
+
+  /* Upset pick card (right side) */
+  .upset-card {
+    position:absolute; top:50%; right:40px; transform:translateY(-50%);
+    z-index:5; pointer-events:none;
+    background:rgba(60,40,10,0.95); padding:28px 32px; border-radius:8px;
+    border-top:3px solid var(--tier-s); border-bottom:3px solid var(--tier-s);
+    max-width:420px;
+  }
+  .upset-card .upset-label { font-size:12px; letter-spacing:4px; text-transform:uppercase; color:var(--tier-s); font-weight:700; }
+  .upset-card .upset-name { font-family:'Cormorant Garamond', serif; font-size:42px; font-weight:700; color:#fff; margin-top:6px; line-height:1; }
+  .upset-card .upset-why { font-size:14px; color:#fed7aa; margin-top:14px; line-height:1.5; }
+
+  /* Rules card */
+  .rules-card {
+    position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
+    z-index:5; pointer-events:none;
+    background:rgba(15,23,42,0.95); padding:32px 48px; border-radius:8px;
+    border:1px solid var(--emerald); max-width:760px;
+  }
+  .rules-card h3 { font-family:'Cormorant Garamond'; font-size:32px; color:#fff; margin:0 0 20px; }
+  .rules-card ul { list-style:none; padding:0; margin:0; }
+  .rules-card li { padding:10px 0; color:#cbd5e1; font-size:16px; border-top:1px solid #334155; display:flex; gap:14px; }
+  .rules-card li:first-child { border-top:none; }
+  .rules-card .rule-num { color:var(--emerald-bright); font-weight:800; font-family:'Outfit'; }
+
+  .fadeable { opacity:0; transition:opacity 0.6s ease-in-out; }
+  .fadeable.on { opacity:1; }
+
+  .cta-container { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); z-index:5; pointer-events:none; text-align:center; background:rgba(15,23,42,0.93); padding:48px 80px; border-radius:8px; border-top:3px solid var(--tier-s); border-bottom:3px solid var(--emerald); max-width:900px; }
+  .cta-title { font-family:'Cormorant Garamond'; font-size:48px; color:#fff; font-weight:700; }
+  .cta-sub { font-family:'Outfit'; font-size:20px; color:var(--tier-s); margin-top:14px; letter-spacing:3px; text-transform:uppercase; }
+  .cta-contact { font-family:'Outfit'; font-size:18px; color:#fff; margin-top:32px; line-height:1.8; }
+</style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<div class="hud-topright">
+  <div class="section-name" id="hudSection">LOADING...</div>
+  <div class="step-counter" id="stepCounter">Step — / —</div>
+</div>
+
+<div class="kbd-hint"><kbd>Space</kbd> next · <kbd>←</kbd> prev · <kbd>Home</kbd> restart</div>
+
+<div class="controls">
+  <button id="prevBtn" class="secondary">← PREV</button>
+  <button id="nextBtn" class="big-next">NEXT →</button>
+  <button id="restartBtn" class="secondary">⟲ RESTART</button>
+</div>
+
+<div class="hook-container fadeable" id="hookOverlay">
+  <div class="hook-title">TEMPLE, TX<br>RANKED</div>
+  <div class="hook-subtitle">Worst to Best · 2026</div>
+  <div class="hook-hook" id="hookLine"></div>
+</div>
+
+<div class="rules-card fadeable" id="rulesCard">
+  <h3>How I'm Ranking</h3>
+  <ul>
+    <li><span class="rule-num">1.</span><div><strong>Price per sqft vs quality</strong> — are you getting value?</div></li>
+    <li><span class="rule-num">2.</span><div><strong>School district</strong> — Belton / Academy / Temple ISD rating</div></li>
+    <li><span class="rule-num">3.</span><div><strong>Commute</strong> — to BSW Hospital and Fort Cavazos</div></li>
+    <li><span class="rule-num">4.</span><div><strong>Infrastructure</strong> — age of utilities, street drainage, sidewalks</div></li>
+    <li><span class="rule-num">5.</span><div><strong>Resale velocity</strong> — how fast does it sell, how much below list?</div></li>
+    <li><span class="rule-num">6.</span><div><strong>The honest gut check</strong> — would I put my own family here?</div></li>
+  </ul>
+</div>
+
+<div class="tier-reveal fadeable" id="tierReveal">
+  <div class="tier-label" id="tierLabel">—</div>
+  <div class="tier-descriptor" id="tierDescriptor">—</div>
+  <div id="tierItems"></div>
+</div>
+
+<div class="upset-card fadeable" id="upsetCard">
+  <div class="upset-label">THE UPSET PICK</div>
+  <div class="upset-name" id="upsetName">—</div>
+  <div class="upset-why" id="upsetWhy">—</div>
+</div>
+
+<div class="cta-container fadeable" id="ctaOverlay">
+  <div class="cta-title">That's the ranking.</div>
+  <div class="cta-sub">Now let's find yours.</div>
+  <div class="cta-contact">
+    Taylor Dasch · EG Realty<br>
+    <strong>254-718-4249</strong> · templetxhomes.net<br>
+    <span style="color:#fbbf24">Full ranking PDF + block-by-block notes in description ↓</span>
+  </div>
+</div>
+
+<script>
+// Replace with a local Mapbox public token before rendering this map.
+mapboxgl.accessToken = 'MAPBOX_PUBLIC_TOKEN';
+
+const COORDS = {
+  templeCenter:[-97.3428,31.0982],
+  // F tier (avoid)
+  floodPlain:[-97.3550,31.1100],
+  industrialEast:[-97.3200,31.0650],
+  belowS11:[-97.3350,31.0750],
+  // D tier
+  oldMidEast:[-97.3250,31.0900],
+  // C tier
+  cimmaron:[-97.3350,31.0850],
+  hillsOfWestwood:[-97.3200,31.0900],
+  // B tier
+  sageMeadows:[-97.4600,31.0500],
+  windmillFarms:[-97.3550,31.1350],
+  parksAtWestfield:[-97.3950,31.0700],
+  // A tier
+  altaVista:[-97.3700,31.1200],
+  lakePointe:[-97.4580,31.1255],
+  legacyRanch:[-97.4240,31.1400],
+  hillsideVillage:[-97.4400,31.0950],
+  // S tier
+  canyonRidge:[-97.3900,31.0550],
+  bellaTerra:[-97.3680,31.0780],
+  theCliffs:[-97.3400,31.0750],
+  // Upset
+  grovesLakewoodRanch:[-97.4700,31.0600],
+};
+
+const SEQUENCE = [
+  // HOOK
+  { section:'HOOK', camera:{center:COORDS.templeCenter, zoom:10, pitch:50, bearing:0, duration:2},
+    overlay:'hook', hookLine:'"I\'m going to make half the Temple real estate community mad. Let\'s go."' },
+
+  // Rules
+  { section:'THE RULES', camera:{center:COORDS.templeCenter, zoom:10.5, pitch:45, bearing:30, duration:5},
+    overlay:'rules' },
+
+  // TIER F
+  { section:'TIER F · AVOID', camera:{center:COORDS.belowS11, zoom:13, pitch:60, bearing:90, duration:5},
+    overlay:'tier', tier:'f', label:'F', descriptor:'AVOID · PROBLEM ZONES',
+    items:[
+      {name:'Below S 11th Street (pockets)', reason:'Aging infrastructure · foundation history · block-by-block reality'},
+      {name:'Flood plain pockets', reason:'FEMA-designated zones · insurance adds $1,200-2,400/yr'},
+      {name:'Industrial border (east edge)', reason:'Noise · truck traffic · 7-12% resale discount'},
+    ]},
+  { section:'TIER F · AVOID', camera:{center:COORDS.floodPlain, zoom:13.5, pitch:60, bearing:180, duration:4}, overlay:'keep' },
+  { section:'TIER F · AVOID', camera:{center:COORDS.industrialEast, zoom:13.5, pitch:60, bearing:270, duration:4}, overlay:'keep' },
+
+  // TIER D
+  { section:'TIER D · BELOW AVERAGE', camera:{center:COORDS.oldMidEast, zoom:13.5, pitch:60, bearing:45, duration:5},
+    overlay:'tier', tier:'d', label:'D', descriptor:'BELOW AVERAGE · VERIFY EVERYTHING',
+    items:[
+      {name:'Older mid-east pockets', reason:'Mid-century homes · varied condition · street-by-street'},
+      {name:'Anything without a newer build within 5 years', reason:'Signals slower appreciation + aging stock'},
+    ]},
+
+  // TIER C
+  { section:'TIER C · FAIR', camera:{center:COORDS.cimmaron, zoom:14, pitch:65, bearing:90, duration:5},
+    overlay:'tier', tier:'c', label:'C', descriptor:'FAIR · SPECIFIC USE CASES',
+    items:[
+      {name:'Cimmaron', reason:'$150K-$190K · investor entry zone · not for owner-occupants unless you love the deal'},
+      {name:'Hills of Westwood (older sections)', reason:'Established but uneven · newer-build sections move up a tier'},
+    ]},
+  { section:'TIER C · FAIR', camera:{center:COORDS.hillsOfWestwood, zoom:14, pitch:65, bearing:180, duration:4}, overlay:'keep' },
+
+  // TIER B
+  { section:'TIER B · SOLID', camera:{center:COORDS.sageMeadows, zoom:14, pitch:65, bearing:270, duration:5},
+    overlay:'tier', tier:'b', label:'B', descriptor:'SOLID · GOOD FOR THE RIGHT BUYER',
+    items:[
+      {name:'Sage Meadows', reason:'$200-280K · Belton ISD entry · best value for junior enlisted / first-time'},
+      {name:'Windmill Farms', reason:'New construction · growing · lower density'},
+      {name:'Parks at Westfield', reason:'Family tier · bigger lots · newer stock'},
+    ]},
+  { section:'TIER B · SOLID', camera:{center:COORDS.windmillFarms, zoom:14, pitch:65, bearing:0, duration:4}, overlay:'keep' },
+  { section:'TIER B · SOLID', camera:{center:COORDS.parksAtWestfield, zoom:14, pitch:65, bearing:90, duration:4}, overlay:'keep' },
+
+  // TIER A
+  { section:'TIER A · STRONG', camera:{center:COORDS.lakePointe, zoom:14, pitch:68, bearing:225, duration:5},
+    overlay:'tier', tier:'a', label:'A', descriptor:'STRONG · HIGH CONFIDENCE',
+    items:[
+      {name:'Lake Pointe', reason:'$142/sqft · Belton ISD · lake access · best value'},
+      {name:'Alta Vista', reason:'Quietest zone in Temple · low turnover · mature trees'},
+      {name:'Legacy Ranch', reason:'Premium new construction · BSW docs + Fort Cavazos officers'},
+      {name:'Hillside Village', reason:'LOWEST TAX RATE in Temple area · $1,800-2,400/yr savings'},
+    ]},
+  { section:'TIER A · STRONG', camera:{center:COORDS.altaVista, zoom:14, pitch:68, bearing:315, duration:4}, overlay:'keep' },
+  { section:'TIER A · STRONG', camera:{center:COORDS.legacyRanch, zoom:14, pitch:68, bearing:0, duration:4}, overlay:'keep' },
+  { section:'TIER A · STRONG', camera:{center:COORDS.hillsideVillage, zoom:14, pitch:68, bearing:90, duration:4}, overlay:'keep' },
+
+  // TIER S — the top
+  { section:'TIER S · BEST IN TEMPLE', camera:{center:COORDS.canyonRidge, zoom:14.5, pitch:70, bearing:135, duration:6},
+    overlay:'tier', tier:'s', label:'S', descriptor:'BEST · I\'D PUT MY OWN FAMILY HERE',
+    items:[
+      {name:'Canyon Ridge', reason:'No HOA · parks · sub-$300K new builds · first-time buyer gold'},
+      {name:'Bella Terra', reason:'BSW medical favorite · newer code · 8 min to hospital'},
+      {name:'The Cliffs at Canyon Creek', reason:'Quiet luxury lane · tree-lined · undervalued vs Austin'},
+    ]},
+  { section:'TIER S · BEST IN TEMPLE', camera:{center:COORDS.bellaTerra, zoom:14.5, pitch:70, bearing:225, duration:4}, overlay:'keep' },
+  { section:'TIER S · BEST IN TEMPLE', camera:{center:COORDS.theCliffs, zoom:14.5, pitch:70, bearing:315, duration:4}, overlay:'keep' },
+
+  // THE UPSET
+  { section:'THE UPSET PICK', camera:{center:COORDS.grovesLakewoodRanch, zoom:14.5, pitch:68, bearing:0, duration:5},
+    overlay:'upset', upsetName:'Groves at Lakewood Ranch',
+    upsetWhy:'Under-ranked by everyone else. Belton ISD, direct US-190 access, family-heavy, and Temple\'s fastest value appreciation over the last 24 months. Nobody\'s talking about it. Which is exactly why you should be.' },
+
+  // CTA
+  { section:'CALL TO ACTION', camera:{center:COORDS.templeCenter, zoom:10.5, pitch:40, bearing:0, duration:4}, overlay:'cta' },
+];
+
+const map = new mapboxgl.Map({
+  container:'map', style:'mapbox://styles/mapbox/satellite-streets-v12',
+  center:COORDS.templeCenter, zoom:10, pitch:45, bearing:0, antialias:true,
+});
+
+map.on('load', () => {
+  map.addSource('mapbox-dem', { type:'raster-dem', url:'mapbox://mapbox.mapbox-terrain-dem-v1', tileSize:512, maxzoom:14 });
+  map.setTerrain({ source:'mapbox-dem', exaggeration:1.3 });
+  map.setFog({ color:'rgb(186,210,235)', 'horizon-blend':0.05, 'high-color':'rgb(36,92,223)', 'space-color':'rgb(11,11,25)', 'star-intensity':0.1 });
+  map.addLayer({ id:'3d-buildings', source:'composite', 'source-layer':'building', filter:['==','extrude','true'], type:'fill-extrusion', minzoom:13,
+    paint:{ 'fill-extrusion-color':'#cbd5e1', 'fill-extrusion-height':['get','height'], 'fill-extrusion-base':['get','min_height'], 'fill-extrusion-opacity':0.9 } });
+  setTimeout(() => {
+    els.stepCounter.textContent = `Step 0 of ${SEQUENCE.length}`;
+    document.getElementById('prevBtn').disabled = true;
+    els.hudSection.textContent = 'READY — Click NEXT';
+  }, 100);
+});
+
+const els = {
+  hook: document.getElementById('hookOverlay'),
+  hookLine: document.getElementById('hookLine'),
+  rules: document.getElementById('rulesCard'),
+  tier: document.getElementById('tierReveal'),
+  tierLabel: document.getElementById('tierLabel'),
+  tierDescriptor: document.getElementById('tierDescriptor'),
+  tierItems: document.getElementById('tierItems'),
+  upset: document.getElementById('upsetCard'),
+  upsetName: document.getElementById('upsetName'),
+  upsetWhy: document.getElementById('upsetWhy'),
+  cta: document.getElementById('ctaOverlay'),
+  hudSection: document.getElementById('hudSection'),
+  stepCounter: document.getElementById('stepCounter'),
+};
+
+function hideAll() {
+  ['hook','rules','tier','upset','cta'].forEach(k => els[k].classList.remove('on'));
+  // Remove tier-specific classes
+  els.tier.classList.remove('tier-f','tier-d','tier-c','tier-b','tier-a','tier-s');
+}
+
+function showOverlay(step) {
+  if (step.overlay === 'keep') return;
+  hideAll();
+  if (step.overlay === 'hook') {
+    els.hookLine.textContent = step.hookLine || '';
+    els.hook.classList.add('on');
+  } else if (step.overlay === 'rules') {
+    els.rules.classList.add('on');
+  } else if (step.overlay === 'tier') {
+    els.tierLabel.textContent = step.label;
+    els.tierDescriptor.textContent = step.descriptor;
+    els.tierItems.innerHTML = '';
+    (step.items || []).forEach(it => {
+      const div = document.createElement('div');
+      div.className = 'tier-item';
+      div.innerHTML = `<div class="tier-name">${it.name}</div><div class="tier-reason">${it.reason}</div>`;
+      els.tierItems.appendChild(div);
+    });
+    els.tier.classList.add('tier-' + step.tier, 'on');
+  } else if (step.overlay === 'upset') {
+    els.upsetName.textContent = step.upsetName;
+    els.upsetWhy.textContent = step.upsetWhy;
+    els.upset.classList.add('on');
+  } else if (step.overlay === 'cta') {
+    els.cta.classList.add('on');
+  }
+}
+
+let currentStepIdx = -1;
+
+function resolveOverlay(idx) {
+  for (let i = idx; i >= 0; i--) {
+    if (SEQUENCE[i].overlay && SEQUENCE[i].overlay !== 'keep') return SEQUENCE[i];
+  }
+  return SEQUENCE[0];
+}
+
+function goToStep(idx) {
+  if (idx < 0 || idx >= SEQUENCE.length) return;
+  currentStepIdx = idx;
+  const step = SEQUENCE[idx];
+  els.hudSection.textContent = step.section;
+  els.stepCounter.textContent = `Step ${idx+1} of ${SEQUENCE.length}`;
+  document.getElementById('prevBtn').disabled = (idx === 0);
+  document.getElementById('nextBtn').disabled = (idx === SEQUENCE.length - 1);
+  map.flyTo({ center:step.camera.center, zoom:step.camera.zoom, pitch:step.camera.pitch, bearing:step.camera.bearing, duration:(step.camera.duration||4)*1000, essential:true, curve:1.4 });
+  showOverlay(resolveOverlay(idx));
+}
+
+function nextStep() { if (currentStepIdx < SEQUENCE.length - 1) goToStep(currentStepIdx + 1); }
+function prevStep() { if (currentStepIdx > 0) goToStep(currentStepIdx - 1); }
+function restart() { currentStepIdx = -1; hideAll(); els.hudSection.textContent = 'READY'; els.stepCounter.textContent = `Step 0 of ${SEQUENCE.length}`; document.getElementById('prevBtn').disabled = true; document.getElementById('nextBtn').disabled = false; map.flyTo({ center:COORDS.templeCenter, zoom:10, pitch:45, bearing:0, duration:2000 }); }
+
+document.getElementById('nextBtn').addEventListener('click', () => { if (currentStepIdx === -1) goToStep(0); else nextStep(); });
+document.getElementById('prevBtn').addEventListener('click', prevStep);
+document.getElementById('restartBtn').addEventListener('click', restart);
+
+document.addEventListener('keydown', (e) => {
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+  if (e.key === ' ' || e.key === 'ArrowRight' || e.key === 'ArrowDown') { e.preventDefault(); if (currentStepIdx === -1) goToStep(0); else nextStep(); }
+  else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') { e.preventDefault(); prevStep(); }
+  else if (e.key === 'Home') { e.preventDefault(); restart(); }
+  else if (e.key === 'End') { e.preventDefault(); goToStep(SEQUENCE.length - 1); }
+});
+</script>
+</body>
+</html>

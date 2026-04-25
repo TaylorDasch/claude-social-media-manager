@@ -1,0 +1,191 @@
+[
+  {
+    "id": 6,
+    "platform": "youtube",
+    "platform_code": "youtube_living",
+    "audience": "buyer",
+    "handle": "UCtExe2L0K6gYd97gLcmuNSg",
+    "handle_display": "@Tbridge25",
+    "orig_content": "Canyon huh hmm...",
+    "orig_post_title": "Canyon Ridge Neighborhood Tour | Park + No HOA | Under $300K!",
+    "content_url": "https://youtube.com/watch?v=Fjmwt72X7Sg&lc=Ugx2S0gM_ujHNzwY8m14AaABAg",
+    "draft": "Canyon Ridge sits right around $270\u2013290K for most active listings, no HOA fees eating into your budget, and that community park is a legit amenity at that price point. Worth a closer look if you're in the under-$300K range.",
+    "voice_score": 78,
+    "voice_issues": [
+      {
+        "type": "hallucinated_number",
+        "detail": "Price range ($270\u2013290K) and HOA claim need MLS verification. Cannot cite source.",
+        "quote": "$270\u2013290K for most active listings, no HOA fees"
+      },
+      {
+        "type": "no_creative",
+        "detail": "Neighborhood summary with prices is baseline content. Missing the unexpected angle that makes it Taylor\u2014a contrarian take, a data insight, a surprising comparison, or a niche hook."
+      },
+      {
+        "type": "tone",
+        "detail": "Phrase 'Worth a closer look' is borderline salesy hedge. Taylor would commit harder or give a specific reason why (e.g., inventory, days-on-market, school district data)."
+      }
+    ],
+    "voice_rewrite": "Canyon Ridge: Pull live MLS data for active listings under $300K. Lead with a specific number (e.g., 'Average days on market: 45 days' or 'No HOA\u2014saves $X/month vs. nearby developments'). Add one unexpected angle: e.g., school ratings vs. price, proximity to BSW, or walk score. End with a specific question or next-step CTA, not 'worth a closer look.'",
+    "status": "pushed",
+    "built_at": "2026-04-17T12:43:44.867460+00:00",
+    "pushed_at": "2026-04-17T13:05:01.458258+00:00"
+  },
+  {
+    "id": 10,
+    "platform": "youtube",
+    "platform_code": "youtube_living",
+    "audience": "buyer",
+    "handle": "UCaS5uizb59xKTLYkt9sOCxA",
+    "handle_display": "@vee7747",
+    "orig_content": "Legacy Ranch and Bella Terra.\nI notice there\u2019s no sidewalks in Texas! \ud83d\ude02 \nGreat video. Thank you.",
+    "orig_post_title": "Best Neighborhoods in Temple TX 2026 ($150K to $500K+)",
+    "content_url": "https://youtube.com/watch?v=q2qWEGJ-z54&lc=UgxADuWtsnhI05IVcdN4AaABAg",
+    "draft": "Sidewalks are genuinely one of the top complaints I hear from out-of-state buyers \u2014 it's a real adjustment. Legacy Ranch and Bella Terra are solid picks across that price range; Bella Terra in particular has held value well with median days on market staying under 30 even as the broader Temple market softened.",
+    "voice_score": 78,
+    "voice_issues": [
+      {
+        "type": "generic",
+        "detail": "Lead is soft observation ('genuinely one of the top complaints') instead of data-first. Should open with a number or specific stat about sidewalk infrastructure in Temple.",
+        "quote": "Sidewalks are genuinely one of the top complaints I hear from out-of-state buyers"
+      },
+      {
+        "type": "no_creative",
+        "detail": "Lacks the unexpected hook. Sidewalk complaints are predictable; needs a contrarian angle, a comparison to other Texas markets, or a data point that surprises.",
+        "quote": ""
+      },
+      {
+        "type": "hedging",
+        "detail": "'solid picks' and 'in particular' are soft endorsements. Should be more decisive or backed by specific MLS data (price appreciation %, inventory depth, etc.).",
+        "quote": "Legacy Ranch and Bella Terra are solid picks"
+      },
+      {
+        "type": "hallucinated_number",
+        "detail": "'median days on market staying under 30' for Bella Terra is cited without source. Must cite MLS or remove.",
+        "quote": "median days on market staying under 30"
+      }
+    ],
+    "voice_rewrite": "Out-of-state buyers consistently cite sidewalk infrastructure as a deal-breaker \u2014 Temple's older core is car-dependent, but Legacy Ranch and Bella Terra flip that script with grid-style layouts. Bella Terra's median days on market: [INSERT MLS DATA]. That's 20+ days faster than Temple's broader 83-day average, even as supply tightened last quarter. If walkability matters, those two are your anchors.",
+    "status": "pushed",
+    "built_at": "2026-04-17T12:46:05.503536+00:00",
+    "pushed_at": "2026-04-17T13:05:02.254206+00:00"
+  },
+  {
+    "id": 9,
+    "platform": "youtube",
+    "platform_code": "youtube_living",
+    "audience": "buyer",
+    "handle": "UCbndXVtdOPTeY5aYc0mdljA",
+    "handle_display": "@nieslvidz",
+    "orig_content": "cool man",
+    "orig_post_title": "Is Hills of Westwood Worth It? $250K-$400K Homes in Temple TX",
+    "content_url": "https://youtube.com/watch?v=znYRGD9vMUU&lc=UgxqfmU15D0PUlTxTXp4AaABAg",
+    "draft": "Median price per sq ft in Hills of Westwood runs about $145-$160 \u2014 let me know if you want a deeper breakdown on any specific street or price tier.",
+    "voice_score": 42,
+    "voice_issues": [
+      {
+        "type": "hallucinated_number",
+        "detail": "Price per sq ft range ($145-$160) is stated without MLS source citation. Per numerical rules, if you can't cite it, remove it.",
+        "quote": "$145-$160"
+      },
+      {
+        "type": "no_creative",
+        "detail": "No unexpected angle, data hook, or contrarian take. This reads like a generic listing agent placeholder, not an analyst lead."
+      },
+      {
+        "type": "tone",
+        "detail": "Passive, invitation-based CTA ('let me know if you want') reads soft and salesy. Should lead with a specific data insight or neighborhood comparison, not a vague offer."
+      },
+      {
+        "type": "wrong_audience",
+        "detail": "This is too thin for YouTube_Living (buyers/relocators). Buyers need context: How does $145-160/sqft compare to Temple average? What are the trade-offs (schools, commute, amenities)? Why should a relocator care about this specific neighborhood?"
+      },
+      {
+        "type": "other",
+        "detail": "Hills of Westwood is a niche luxury neighborhood. Buyers watching YouTube_Living are likely entry-level to mid-market. Needs audience clarity or a comparison anchor."
+      }
+    ],
+    "voice_rewrite": "Hills of Westwood runs about 30% above Temple's median per sq ft \u2014 mostly because of lot size and proximity to I-35. Here's the trade-off: you're paying for space and commute, not schools (they're solid but not top-ranked). If you're relocating for BSW and want a yard, this works. If you're military and maxing BAH in the $250K range, look south instead \u2014 better value.",
+    "status": "pushed",
+    "built_at": "2026-04-17T12:46:13.956889+00:00",
+    "pushed_at": "2026-04-17T13:05:03.000367+00:00"
+  },
+  {
+    "id": 12,
+    "platform": "youtube",
+    "platform_code": "youtube_living",
+    "audience": "buyer",
+    "handle": "UC6J6Q7Mwf0eoR9RvGRP1Cug",
+    "handle_display": "@withRatan",
+    "orig_content": "Wow! This video is truly amazing \ud83d\ude0d The effort and quality really stand out. Keep it up!",
+    "orig_post_title": "Best Neighborhoods in Temple TX 2026 ($150K to $500K+)",
+    "content_url": "https://youtube.com/watch?v=q2qWEGJ-z54&lc=UgwY0J0Z-plvIMklzCt4AaABAg",
+    "draft": "Appreciate that! If you're weighing neighborhoods in Temple, drop your budget and must-haves \u2014 I can tell you which ones are actually holding value right now.",
+    "voice_score": 62,
+    "voice_issues": [
+      {
+        "type": "generic",
+        "detail": "Sounds like a generic real estate agent, not Taylor's data-first analyst voice. No numbers, no specifics, no unexpected element.",
+        "quote": "If you're weighing neighborhoods in Temple, drop your budget and must-haves"
+      },
+      {
+        "type": "no_creative",
+        "detail": "Missing the one creative/unexpected element required per voice rules. Should lead with a data insight (e.g., specific MLS stat, neighborhood comparison, price-to-value anomaly).",
+        "quote": ""
+      },
+      {
+        "type": "hedging",
+        "detail": "Vague CTA ('drop your budget') without a concrete next step or data hook. Should include attachment, specific metric, or analyst insight.",
+        "quote": "drop your budget and must-haves \u2014 I can tell you which ones are actually holding value right now"
+      },
+      {
+        "type": "tone",
+        "detail": "Reads as order-taker, not analyst. Taylor sounds like an investor with 27M+ in deals, not a receptionist taking neighborhood questions.",
+        "quote": "Appreciate that! If you're weighing neighborhoods"
+      }
+    ],
+    "voice_rewrite": "Temple neighborhoods sorting hard right now: median prices up 8% YoY in Midway, flat in downtown core, down 3% in south Bell Ave. Your budget determines which one actually appreciates \u2014 drop a number and I'll show you the data.",
+    "status": "pushed",
+    "built_at": "2026-04-17T12:46:21.429333+00:00",
+    "pushed_at": "2026-04-17T13:05:03.762578+00:00"
+  },
+  {
+    "id": 13,
+    "platform": "youtube",
+    "platform_code": "youtube_living",
+    "audience": "buyer",
+    "handle": "UCpKdx-jJHPWmpuOGFJ0RuvQ",
+    "handle_display": "@WalkerOne",
+    "orig_content": "Good video",
+    "orig_post_title": "Cost of Living in Temple TX (2026) \u2014 What You&#39;ll Actually Pay",
+    "content_url": "https://youtube.com/watch?v=ZdKKZ8RRy4M&lc=Ugyjvce-RHAjhHLLsYF4AaABAg",
+    "draft": "Appreciate it \u2014 anything specific you want me to dig deeper on, like utilities, groceries, or how Temple compares to Round Rock or Waco on housing costs?",
+    "voice_score": 28,
+    "voice_issues": [
+      {
+        "type": "other",
+        "detail": "This is a fragment/CTA, not a complete piece. No opening hook, no data, no narrative structure. Reads like an email response or conversation snippet, not YouTube content.",
+        "quote": "Appreciate it \u2014 anything specific you want me to dig deeper on..."
+      },
+      {
+        "type": "no_creative",
+        "detail": "No creative or unexpected element. Generic 'what do you want to know' approach. YouTube Living requires a pillar-driven hook (Moving to Temple TX, Neighborhood tours, Cost of living, Schools, Home tours) with data upfront.",
+        "quote": ""
+      },
+      {
+        "type": "wrong_audience",
+        "detail": "Reads like a direct-message response to an existing viewer, not a standalone YouTube video opener or title. YouTube Living audience (buyers/relocators) needs a self-contained pitch that works without prior context.",
+        "quote": ""
+      },
+      {
+        "type": "other",
+        "detail": "No MLS data, no real numbers, no specifics. 'Utilities, groceries, housing costs' are vague. If you're comparing Temple to Round Rock/Waco, lead with the actual cost delta (e.g., 'Round Rock median $X vs Temple $Y').",
+        "quote": "utilities, groceries, or how Temple compares to Round Rock or Waco on housing costs"
+      }
+    ],
+    "voice_rewrite": "Temple vs. Round Rock: $87K median price gap. Here's what your money actually buys in each market \u2014 and why 200+ families are choosing Temple over the suburbs. [Show data, neighborhood tours, home prices side-by-side.] What matters most to you: schools, commute, or cost?",
+    "status": "pushed",
+    "built_at": "2026-04-17T12:46:29.010272+00:00",
+    "pushed_at": "2026-04-17T13:05:04.466103+00:00"
+  }
+]

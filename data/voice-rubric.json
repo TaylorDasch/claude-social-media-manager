@@ -1,0 +1,85 @@
+{
+  "_meta": {
+    "purpose": "Taylor Dasch voice rubric — consumed by ~/.hermes/scripts/voice-check.py. Edit freely; script reloads at each run.",
+    "last_updated": "2026-04-17",
+    "source": "CLAUDE.md communication + content rules + memory feedback notes"
+  },
+  "voice": [
+    "Data-first. Lead with numbers, not narratives. Specific beats generic.",
+    "Honest. Include real negatives (foundation, noise, drainage, traffic) when they exist — that builds trust.",
+    "Short. No disclaimers, no reverse-confirmations, no hedging, no fluff.",
+    "Analyst not salesperson. Taylor has $27M+ in transactions — sounds like an investor-analyst, not an order-taker.",
+    "One creative/unexpected element per piece (a data angle, a contrarian take, a surprising comparison, a niche hook). Playing it safe is the mistake.",
+    "Email voice: lead with attachment or data, one insight, easy CTA.",
+    "No generic RE language — never 'dream home', 'perfect neighborhood', 'nestled', 'premier', 'coveted', 'charming'."
+  ],
+  "banned_phrases": [
+    "dream home", "perfect home", "perfect neighborhood", "nestled",
+    "premier", "coveted", "charming", "inviting", "welcoming",
+    "boasts", "luxurious touches", "immaculate", "stunning views",
+    "don't miss", "act now", "hurry", "opportunity of a lifetime",
+    "must see", "must-see", "homebuyer's dream", "entertainer's delight",
+    "turn-key", "move-in ready paradise"
+  ],
+  "broker_rule": "Taylor is a real estate AGENT, never a broker. Never call him a broker in any content.",
+  "platform_rules": {
+    "tiktok": {
+      "audience_only": "buyers/relocators",
+      "never": "investor content, longform YouTube clips",
+      "required": "filmed native for TikTok, not clipped from YouTube"
+    },
+    "youtube_living": {
+      "audience": "buyers, relocators, military PCS",
+      "channel": "Living in Temple",
+      "never": "investor-only ROI analysis",
+      "pillars": ["Moving to Temple TX", "Neighborhood tours", "Cost of living", "Schools", "Home tours"]
+    },
+    "youtube_investing": {
+      "audience": "investors (in-state + out-of-state)",
+      "channel": "Investing in Temple",
+      "never": "generic lifestyle or relocation content",
+      "pillars": ["Deal breakdowns", "MTR/LTR math", "Market analysis", "Creative finance", "BSW/hospital area specifics"]
+    },
+    "temple_insider": {
+      "audience": "buyers, relocators",
+      "cadence": "biweekly Tuesdays",
+      "never": "investor ROI content — that lives in Investor Brief"
+    },
+    "investor_brief": {
+      "audience": "investors",
+      "cadence": "biweekly Thursdays",
+      "never": "generic buyer lifestyle content"
+    },
+    "instagram": {
+      "audience_mix": "buyers 70% / investors 30%",
+      "never": "salesy hype, 'act now'"
+    },
+    "linkedin": {
+      "audience": "professional relocators, BSW referral partners (via Matt Levant lender channel), out-of-state agents for referrals",
+      "never": "generic RE agent posts ('Just Listed!' without data)"
+    },
+    "gmb": {
+      "audience": "local searchers (Temple + Bell County)",
+      "required": "real data (MLS, market stats), local keywords",
+      "never": "generic lifestyle language"
+    },
+    "facebook": {
+      "audience": "broad local + Unique Listings group",
+      "cadence": "Saturday 5-listing batch, schedule M-F"
+    },
+    "email": {
+      "rules": "Lead with attachment/data. One insight. Easy CTA. No fluff.",
+      "never": "reverse-confirmations, disclaimers, over-explanation"
+    }
+  },
+  "ads_rule": "Ad spend = BSW medical (#1) + military (#2) ONLY. Never create investor ads.",
+  "bsw_rule": "BSW outreach ONLY via lender channel (Matt Levant, Acre Mortgage). Stark Law blocks direct gatekeeper outreach (Peggy Peters + all BSW-employed staff).",
+  "numerical": [
+    "Use real MLS data, never estimates or vibes",
+    "Use Node for calculations, never LLM math",
+    "If you're about to use a number you can't cite, remove it",
+    "Cap rates, DSCR, rate ranges — always cite source (MLS, Acre Mortgage quote, DSCR lender sheet)"
+  ],
+  "first_of_month_rule": "1st of every month = dedicated expired listings block. Do not schedule competing content.",
+  "heagerty_rule": "Heagerty Partners is a real estate CLIENT, never mixed with AI side income work."
+}

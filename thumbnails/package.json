@@ -1,0 +1,20 @@
+{
+  "name": "yt-thumbnail-generator",
+  "version": "1.0.0",
+  "description": "YouTube thumbnail generator for Living in Temple + Investing in Temple channels",
+  "main": "cli.js",
+  "bin": {
+    "yt-thumb": "./cli.js"
+  },
+  "type": "commonjs",
+  "scripts": {
+    "generate": "node cli.js generate",
+    "setup": "node cli.js setup-expressions"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@napi-rs/canvas": "^0.1.53",
+    "commander": "^12.1.0",
+    "sharp": "^0.33.5"
+  }
+}

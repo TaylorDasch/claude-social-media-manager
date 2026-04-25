@@ -1,0 +1,132 @@
+{
+  "_help": {
+    "purpose": "Auto-scoring thresholds for content performance. Read by scripts/pattern-miner.py (and future /weekly-scorecard) to assign CRUSH/SOLID/MEH/MISS ratings from platform metrics. Taylor's explicit taylor_rating column in performance-ledger.csv ALWAYS wins over auto-score.",
+    "tuning": "Edit this file to adjust thresholds. Changes take effect next run — no code edits required.",
+    "source_format": "JSON (not YAML) because system python3 is 3.9 with no PyYAML. Stdlib only.",
+    "updated": "2026-04-19",
+    "version": 1
+  },
+
+  "calendar_weights": {
+    "_comment": "60% from pattern-miner winners, 30% new angles on proven pillars, 10% experiments",
+    "proven": 0.60,
+    "new": 0.30,
+    "experiment": 0.10
+  },
+  "min_sample_size": 3,
+
+  "platforms": {
+
+    "youtube": {
+      "_comment": "Re-tune channel_avg_views quarterly or when audience shifts. Used as denominator for views_multiple.",
+      "channel_avg_views_living_in_temple": 2000,
+      "channel_avg_views_investing_in_temple": 1500,
+
+      "thresholds": {
+        "_comment": "engagement_pct = (likes + comments) / views * 100",
+        "crush": {
+          "views_multiple_min": 2.5,
+          "engagement_pct_min": 8.0
+        },
+        "solid": {
+          "views_multiple_min": 1.0,
+          "views_floor": 500
+        },
+        "meh": {
+          "views_multiple_min": 0.5
+        },
+        "miss": {
+          "views_multiple_max": 0.5
+        }
+      },
+
+      "shorts": {
+        "_comment": "Shorts have different dynamics — separate thresholds",
+        "thresholds": {
+          "crush": { "views_min": 5000 },
+          "solid": { "views_min": 1000 },
+          "meh":   { "views_min": 300 },
+          "miss":  { "views_max": 300 }
+        }
+      }
+    },
+
+    "beehiiv": {
+      "_comment": "2026 real-estate newsletter benchmarks. Avg open: 30-40%, top 10%: 45%+. Avg click: 2-4%, top 10%: 8%+.",
+      "thresholds": {
+        "crush": {
+          "open_rate_pct_min": 45,
+          "click_rate_pct_min": 8
+        },
+        "solid": {
+          "open_rate_pct_min": 30,
+          "click_rate_pct_min": 4
+        },
+        "meh": {
+          "open_rate_pct_min": 20
+        },
+        "miss": {
+          "open_rate_pct_max": 20
+        }
+      }
+    },
+
+    "fub": {
+      "_comment": "Per-source weekly new-lead counts",
+      "thresholds": {
+        "crush": { "leads_min": 3 },
+        "solid": { "leads_min": 1 },
+        "meh":   { "leads_min": 0 },
+        "miss":  { "regression_vs_last_month": true }
+      }
+    },
+
+    "tiktok": {
+      "_comment": "Placeholder — real thresholds after TrendsMCP data seeds",
+      "thresholds": {
+        "crush": { "views_min": 10000 },
+        "solid": { "views_min": 2000 },
+        "meh":   { "views_min": 500 },
+        "miss":  { "views_max": 500 }
+      }
+    },
+
+    "gmb": {
+      "_comment": "Google Business Profile post views",
+      "thresholds": {
+        "crush": { "views_min": 500 },
+        "solid": { "views_min": 100 },
+        "meh":   { "views_min": 25 },
+        "miss":  { "views_max": 25 }
+      }
+    }
+  },
+
+  "attribution_priority": {
+    "_comment": "When multiple signals point to different ratings, priority wins top-down.",
+    "order": [
+      "taylor_override",
+      "deal_conversation",
+      "booked_call",
+      "platform_metrics"
+    ],
+    "deal_conversation_min_rating": "SOLID",
+    "booked_call_min_rating": "SOLID"
+  },
+
+  "pattern_miner": {
+    "_comment": "Group CRUSH rows by these dimensions to find winning patterns. Combinations with >= min_sample_size CRUSH instances become patterns. Dimensions must match enriched-row field names in pattern-miner.py.",
+    "group_by": [
+      "pillar",
+      "persona",
+      "content_type",
+      "platform",
+      "day_of_week"
+    ],
+    "report_only": [
+      "cta_keyword",
+      "lead_magnet"
+    ],
+    "min_lift": 1.5
+  }
+}
