@@ -8,6 +8,12 @@ scripts/cron.log
 node_modules/
 .venv/
 venv/
+data/drafts.db
+exports/
+yt-videos/**/audio/
+*.m4a
+*.AAC
+*.bak-*
 
 # Third-party plugin (has its own origin)
 claude-seo/
