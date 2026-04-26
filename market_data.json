@@ -1,0 +1,168 @@
+{
+  "_meta": {
+    "schema": "smm-market-data-v1",
+    "last_updated": "2026-04-24",
+    "maintainer": "Taylor Dasch",
+    "purpose": "Verified local-market facts. Generators PREFER this file over inventing numbers. Fields marked `needs_verification: true` must be refreshed before use in public content.",
+    "refresh_cadence": "Monthly on the 1st (pair with expired-listings block)"
+  },
+  "cities": [
+    {
+      "city": "Temple",
+      "state": "TX",
+      "county": "Bell County",
+      "zip_codes": ["76501", "76502", "76504"],
+      "median_price": {
+        "value_range": [247450, 288000],
+        "source": "MLS pull, Bell County active inventory",
+        "last_verified_date": "2026-04-13",
+        "needs_verification": false
+      },
+      "average_rent_3br": {
+        "value": 1650,
+        "source": "MLS rental comps",
+        "last_verified_date": "2026-04-13",
+        "needs_verification": false,
+        "note": "Varies by zip; 76502 trends higher, 76501 lower"
+      },
+      "tax_rate_notes": {
+        "city_rate": "$0.6999 per $100 valuation (2025)",
+        "county_effective_non_homestead": "~2.366%",
+        "county_effective_range": "2.4%-2.7%",
+        "source": "Bell CAD, City of Temple",
+        "last_verified_date": "2026-04-13",
+        "needs_verification": false,
+        "disclaimer": "Bell County reassesses annually — verify current rate."
+      },
+      "major_employers": [
+        {"name": "Baylor Scott & White Temple (BSW)", "employees": 8800, "notes": "Flagship hospital campus; PGY-1 stipend $70,993/yr"},
+        {"name": "Fort Hood", "notes": "~50K active-duty + dependents; BAH drives rental demand"},
+        {"name": "McLane Group", "notes": "Temple-HQ'd; distribution/corporate"},
+        {"name": "Wilsonart", "notes": "Temple-HQ'd manufacturing"}
+      ],
+      "commute_notes": {
+        "bsw_to_76502": "8-12 min (76502/76504 corridor)",
+        "fort_hood_to_killeen": "5-15 min (Killeen has closest workforce housing)",
+        "source": "Google Maps typical conditions",
+        "needs_verification": true
+      },
+      "school_district_notes": {
+        "district": "Temple ISD (most of 76501/76504), Belton ISD (south/west edges)",
+        "disclaimer": "Verify by address — boundaries change. TEA ratings shift annually."
+      },
+      "investor_notes": {
+        "power_zip": "76502 ranks 753/1000 (top 5%); 5,101-unit housing deficit; 24.1% population growth",
+        "hospital_district_rule": "South Temple odd-numbered streets: above 1200 block = solid, 1100-1200 = decent but verify, below 1100 = must visit in person",
+        "rental_demand_drivers": ["BSW medical employment", "Fort Hood commuter demand", "I-35 corridor industrial"],
+        "tenant_pool_notes": "Medical residents (3-5 year stays), military (orders-driven turnover), I-35 industrial workforce"
+      },
+      "relocation_notes": {
+        "primary_drivers": ["BSW physician relocation", "Fort Hood PCS", "Austin/Round Rock commuter overflow", "affordability vs Austin"],
+        "corridors": {
+          "bsw_corridor": "76502 / 76504",
+          "fort_hood_corridor": "Killeen / Harker Heights (closer than Temple itself)",
+          "austin_commute": "Salado / north Belton — I-35 access"
+        }
+      },
+      "last_verified_date": "2026-04-13",
+      "source_notes": "social-media-config.json (compiled 2026-04-13), reference/TEMPLE-TX-DATA-VAULT.md"
+    },
+    {
+      "city": "Belton",
+      "state": "TX",
+      "county": "Bell County",
+      "zip_codes": ["76513"],
+      "median_price": {
+        "value": null,
+        "needs_verification": true,
+        "note": "Pull from MLS resale-only-temple-0-1500.csv subset; historically ~5-10% below Temple median"
+      },
+      "average_rent_3br": {
+        "value": null,
+        "needs_verification": true,
+        "note": "Correlates with Temple; UMHB + commute to Fort Hood drives demand"
+      },
+      "tax_rate_notes": {
+        "notes": "Belton ISD tax adds to Bell County base; verify per-property.",
+        "needs_verification": true
+      },
+      "school_district_notes": {
+        "district": "Belton ISD (strong reputation; verify by address)"
+      },
+      "investor_notes": {
+        "notes": "Steadier, more family-driven; lower MTR demand than Temple; LTR strong near UMHB"
+      },
+      "relocation_notes": {
+        "drivers": ["BSW relocators seeking Belton ISD", "UMHB faculty/staff", "Austin commuter overflow via Salado corridor"]
+      },
+      "last_verified_date": null,
+      "needs_verification": true
+    },
+    {
+      "city": "Killeen",
+      "state": "TX",
+      "county": "Bell County",
+      "zip_codes": ["76541", "76542", "76543", "76549"],
+      "median_price": {
+        "value": null,
+        "needs_verification": true,
+        "note": "Historically lower than Temple; Fort Hood BAH drives floor"
+      },
+      "average_rent_3br": {
+        "value": null,
+        "needs_verification": true,
+        "note": "Tracks Fort Hood BAH — E-6 w/ dependents $1,920/month"
+      },
+      "investor_notes": {
+        "rental_demand_drivers": ["Fort Hood orders-driven turnover", "VA loan househack candidates"],
+        "military_income_note": "BAH is tax-free and non-counted for debt-to-income in VA underwriting",
+        "deployment_risk": "PCS orders change quickly — shorter tenant LOS than Temple medical residents"
+      },
+      "relocation_notes": {
+        "drivers": ["Fort Hood PCS (primary)", "VA househack buyers"]
+      },
+      "last_verified_date": null,
+      "needs_verification": true
+    },
+    {
+      "city": "Harker Heights",
+      "state": "TX",
+      "county": "Bell County",
+      "investor_notes": {
+        "notes": "Premium Killeen-adjacent. BAH-capped rents. Family-friendly military buyers. Verify specific streets."
+      },
+      "needs_verification": true
+    },
+    {
+      "city": "Salado",
+      "state": "TX",
+      "county": "Bell County",
+      "investor_notes": {
+        "notes": "Austin-commuter overflow, luxury segment, thin rental market"
+      },
+      "relocation_notes": {
+        "drivers": ["Austin commuters", "lifestyle buyers"]
+      },
+      "needs_verification": true
+    }
+  ],
+  "county_wide": {
+    "active_inventory": "500+ listings",
+    "months_supply": "~6 months (2026-04)",
+    "average_dom_days": 83,
+    "last_verified_date": "2026-04-13",
+    "source": "MLS, social-media-config.json"
+  },
+  "rates_reference": {
+    "investor_conventional": {"range_pct": [6.8, 7.5], "default_for_math": 7.0, "as_of": "2026-03"},
+    "dscr": {"range_pct": [6.5, 8.75], "default_for_math": 7.25, "as_of": "2026-03"},
+    "physician_loan_matt_levant": {"down_payment_pct": 0, "pmi": false, "max_concessions_pct": 3, "source": "Acre Mortgage (Matt Levant)", "notes": "Preferred BSW lender; only legal BSW pipeline per Stark Law"},
+    "va_loan_reference": {"down_payment_pct": 0, "funding_fee_varies": true, "source": "VA"}
+  },
+  "banned_data_patterns": [
+    "Do not publish exact cap rate projections on specific addresses — use range + 'underwrite conservatively'",
+    "Do not state guaranteed appreciation — Temple is growing but cycles exist",
+    "Do not cite BAH without 'verify current rate at DFAS'",
+    "Do not state school ratings without 'verify by address'"
+  ]
+}

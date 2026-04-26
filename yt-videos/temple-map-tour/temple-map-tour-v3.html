@@ -1,0 +1,1292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Temple TX Map Tour V3 — Cinematic Master</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.js"></script>
+<link href="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Outfit:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --emerald: #059669;
+    --emerald-bright: #10b981;
+    --midnight: #0f172a;
+    --snow: #f8fafc;
+    --danger: #dc2626;
+    --amber: #f59e0b;
+    --slate: #334155;
+    --slate-bright: #64748b;
+    --cyan: #06b6d4;
+  }
+  * { box-sizing: border-box; }
+  body, html { margin: 0; padding: 0; font-family: 'Outfit', sans-serif; background: #000; color: var(--snow); overflow: hidden; }
+  #map { position: absolute; top: 0; left: 0; right: 0; bottom: 0; }
+
+  /* ===== CINEMATIC OVERLAY (vignette + film grain) ===== */
+  .cinematic-overlay {
+    position: fixed; inset: 0; pointer-events: none; z-index: 3;
+    background: radial-gradient(ellipse at center,
+      transparent 35%,
+      rgba(0,0,0,0.18) 70%,
+      rgba(0,0,0,0.55) 100%);
+    transition: opacity 0.5s;
+  }
+  .cinematic-overlay::after {
+    content: '';
+    position: absolute; inset: -50%;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.92' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.55 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+    opacity: 0.10;
+    mix-blend-mode: overlay;
+    animation: grainShift 0.7s steps(6) infinite;
+    will-change: transform;
+  }
+  @keyframes grainShift {
+    0%   { transform: translate(0%, 0%); }
+    16%  { transform: translate(-3%, 2%); }
+    33%  { transform: translate(2%, -3%); }
+    50%  { transform: translate(-2%, -2%); }
+    66%  { transform: translate(3%, 1%); }
+    83%  { transform: translate(-1%, 3%); }
+    100% { transform: translate(0%, 0%); }
+  }
+  body.no-grain .cinematic-overlay::after { display: none; }
+  body.no-vignette .cinematic-overlay { opacity: 0; }
+
+  /* ===== MAP CAMERA SHAKE ===== */
+  @keyframes mapShake {
+    0%   { transform: translate(0, 0); }
+    20%  { transform: translate(-3px, 1px); }
+    40%  { transform: translate(2px, -2px); }
+    60%  { transform: translate(-2px, 2px); }
+    80%  { transform: translate(2px, -1px); }
+    100% { transform: translate(0, 0); }
+  }
+  .mapboxgl-canvas.shake { animation: mapShake 280ms cubic-bezier(0.36, 0.07, 0.19, 0.97); }
+
+  /* ===== SONAR PULSE RINGS (zone reveals) ===== */
+  .sonar-ring {
+    position: absolute;
+    width: 12px; height: 12px;
+    border: 3px solid var(--emerald-bright);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 4;
+    transform: translate(-50%, -50%);
+    animation: sonarExpand 2200ms cubic-bezier(0.0, 0.0, 0.2, 1) forwards;
+    box-shadow: 0 0 24px rgba(16, 185, 129, 0.55);
+  }
+  .sonar-ring.warning { border-color: var(--amber); box-shadow: 0 0 24px rgba(245, 158, 11, 0.55); }
+  @keyframes sonarExpand {
+    0%   { width: 12px;  height: 12px;  opacity: 1.0; border-width: 3px; }
+    50%  { opacity: 0.7; }
+    100% { width: 480px; height: 480px; opacity: 0;   border-width: 1px; }
+  }
+
+  /* ===== PROGRESS BAR (full-width thin bar at bottom) ===== */
+  .progress-track {
+    position: absolute; bottom: 0; left: 0; right: 0; height: 3px;
+    background: rgba(255,255,255,0.08); z-index: 9;
+  }
+  .progress-fill {
+    height: 100%; background: linear-gradient(to right, var(--emerald), var(--emerald-bright));
+    width: 0%; transition: width 200ms linear;
+    box-shadow: 0 0 16px rgba(16, 185, 129, 0.7);
+  }
+  .progress-chapters {
+    position: absolute; bottom: 4px; left: 0; right: 0; height: 12px; z-index: 9;
+    pointer-events: none;
+  }
+  .progress-chapter {
+    position: absolute; width: 2px; height: 8px; background: rgba(255,255,255,0.35);
+    bottom: 0;
+  }
+
+  /* ===== HUD ===== */
+  .hud-topright {
+    position: absolute; top: 24px; right: 24px; z-index: 10;
+    background: rgba(15, 23, 42, 0.88); padding: 12px 18px; border-radius: 8px;
+    font-family: 'Outfit', sans-serif; font-weight: 600;
+    border-left: 3px solid var(--emerald);
+    min-width: 220px;
+    backdrop-filter: blur(6px);
+  }
+  .hud-topright .section-name { color: var(--emerald-bright); font-size: 11px; letter-spacing: 2px; text-transform: uppercase; }
+  .hud-topright .timer { color: #fff; font-size: 15px; font-variant-numeric: tabular-nums; margin-top: 6px; }
+  .hud-topright .audio-state { color: #94a3b8; font-size: 10px; margin-top: 4px; letter-spacing: 1px; text-transform: uppercase; }
+
+  /* ===== B-ROLL CUE BADGE ===== */
+  .broll-badge {
+    position: absolute; top: 130px; right: 24px; z-index: 11;
+    background: rgba(220, 38, 38, 0.96); color: #fff;
+    padding: 12px 20px; border-radius: 4px;
+    font-family: 'Outfit'; font-weight: 800; font-size: 13px;
+    letter-spacing: 2px; text-transform: uppercase;
+    box-shadow: 0 6px 24px rgba(220, 38, 38, 0.55);
+    animation: pulseBroll 1.3s ease-in-out infinite;
+    display: none;
+    border-left: 4px solid #fff;
+    max-width: 320px;
+    backdrop-filter: blur(4px);
+  }
+  .broll-badge.on { display: block; }
+  .broll-badge .label { font-size: 11px; opacity: 0.85; margin-bottom: 4px; letter-spacing: 3px; }
+  .broll-badge .text { font-size: 13px; line-height: 1.3; }
+  @keyframes pulseBroll {
+    0%, 100% { transform: scale(1); box-shadow: 0 6px 24px rgba(220, 38, 38, 0.55); }
+    50%      { transform: scale(1.04); box-shadow: 0 8px 36px rgba(220, 38, 38, 0.85); }
+  }
+
+  /* ===== ANCHOR PINS ===== */
+  .anchor-pin {
+    width: 18px; height: 18px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 0 18px currentColor, 0 2px 8px rgba(0,0,0,0.6);
+    cursor: default; position: relative;
+  }
+  .anchor-pin::after {
+    content: '';
+    position: absolute; top: -4px; left: -4px; right: -4px; bottom: -4px;
+    border-radius: 50%; border: 2px solid currentColor; opacity: 0.4;
+    animation: pinPulse 2s ease-in-out infinite;
+  }
+  @keyframes pinPulse {
+    0%, 100% { transform: scale(1); opacity: 0.4; }
+    50%      { transform: scale(1.6); opacity: 0; }
+  }
+  .anchor-label {
+    position: absolute; top: 24px; left: 50%; transform: translateX(-50%);
+    font-family: 'Outfit'; font-size: 11px; font-weight: 800;
+    letter-spacing: 2px; text-transform: uppercase;
+    color: #fff; padding: 5px 10px;
+    background: rgba(15, 23, 42, 0.95);
+    border-radius: 3px;
+    white-space: nowrap; pointer-events: none;
+    border-left: 3px solid currentColor;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.45);
+  }
+
+  /* ===== JUMP NAV ===== */
+  .jump-nav {
+    position: absolute; top: 24px; left: 24px; z-index: 10;
+    display: flex; gap: 6px; flex-wrap: wrap; max-width: 600px;
+  }
+  .jump-nav button {
+    padding: 8px 14px; font-family: 'Outfit'; font-size: 11px; font-weight: 700;
+    letter-spacing: 1.5px; text-transform: uppercase; border: 1px solid var(--slate);
+    border-radius: 4px; background: rgba(15,23,42,0.85); color: #cbd5e1; cursor: pointer;
+    transition: all 0.15s; backdrop-filter: blur(4px);
+  }
+  .jump-nav button:hover { background: rgba(5,150,105,0.35); color: #fff; border-color: var(--emerald); }
+  .jump-nav button.active { background: var(--emerald); color: #fff; border-color: var(--emerald); }
+
+  /* ===== CONTROLS ===== */
+  .controls { position: absolute; bottom: 24px; left: 24px; z-index: 10; display: flex; gap: 10px; align-items: center; }
+  .controls button {
+    padding: 14px 28px; font-family: 'Outfit'; font-size: 14px; font-weight: 700;
+    letter-spacing: 2px; text-transform: uppercase; border: none; border-radius: 4px; cursor: pointer;
+    background: var(--emerald); color: #fff; transition: all 0.2s;
+  }
+  .controls button:hover { background: var(--emerald-bright); transform: translateY(-1px); }
+  .controls button.secondary { background: rgba(15,23,42,0.85); border: 1px solid var(--slate); padding: 10px 18px; font-size: 12px; backdrop-filter: blur(4px); }
+  .controls .big-start { font-size: 16px; padding: 16px 36px; box-shadow: 0 4px 20px rgba(5, 150, 105, 0.4); }
+
+  /* ===== ANCHOR LEGEND ===== */
+  .anchor-legend {
+    position: absolute; bottom: 24px; right: 24px; z-index: 10;
+    background: rgba(15, 23, 42, 0.92); padding: 14px 18px; border-radius: 6px;
+    font-family: 'Outfit'; font-size: 11px;
+    border-left: 3px solid var(--emerald); backdrop-filter: blur(6px);
+  }
+  .anchor-legend .legend-title { color: var(--emerald-bright); letter-spacing: 3px; text-transform: uppercase; margin-bottom: 8px; font-weight: 700; }
+  .anchor-legend .legend-row { display: flex; align-items: center; gap: 10px; padding: 3px 0; color: #fff; }
+  .anchor-legend .legend-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; box-shadow: 0 0 8px currentColor; }
+
+  /* ===== KEYBOARD HINT ===== */
+  .kbd-hint {
+    position: absolute; bottom: 80px; left: 24px; z-index: 10;
+    background: rgba(15, 23, 42, 0.75); padding: 8px 14px; border-radius: 4px;
+    font-family: 'Outfit'; font-size: 11px; color: #cbd5e1; letter-spacing: 1px;
+    backdrop-filter: blur(4px);
+  }
+  .kbd-hint kbd {
+    background: #1e293b; color: #fff; padding: 2px 8px; border-radius: 3px;
+    border: 1px solid var(--slate); font-family: monospace; margin: 0 2px;
+  }
+
+  /* ===== HOOK ===== */
+  .hook-container {
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    z-index: 5; text-align: center; pointer-events: none; width: 90%; max-width: 1200px;
+  }
+  .hook-title {
+    font-family: 'Cormorant Garamond', serif; font-size: 124px; font-weight: 700;
+    letter-spacing: 10px; text-transform: uppercase; color: #fff;
+    text-shadow: 0 4px 30px rgba(0,0,0,0.95), 0 0 60px rgba(16, 185, 129, 0.25);
+    line-height: 1;
+  }
+  .hook-subtitle {
+    font-family: 'Outfit'; font-size: 20px; font-weight: 600;
+    letter-spacing: 6px; text-transform: uppercase; color: var(--emerald-bright);
+    margin-top: 16px; text-shadow: 0 2px 20px rgba(0,0,0,0.9);
+  }
+  .hook-hook {
+    font-family: 'Outfit'; font-size: 30px; font-weight: 500;
+    color: #fbbf24; margin-top: 32px; font-style: italic;
+    text-shadow: 0 2px 15px rgba(0,0,0,0.95);
+  }
+
+  /* ===== ZONE BANNER ===== */
+  .zone-banner {
+    position: absolute; top: 40px; left: 50%; transform: translateX(-50%);
+    z-index: 5; pointer-events: none;
+    background: rgba(15, 23, 42, 0.92);
+    padding: 16px 44px; border-radius: 50px;
+    border: 1px solid var(--emerald);
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.5), 0 0 40px rgba(16, 185, 129, 0.2);
+    backdrop-filter: blur(8px);
+  }
+  .zone-banner.warning { border-color: var(--amber); box-shadow: 0 8px 32px rgba(0,0,0,0.5), 0 0 40px rgba(245, 158, 11, 0.25); }
+  .zone-banner .zone-number { font-family: 'Cormorant Garamond', serif; font-size: 14px; color: var(--emerald-bright); letter-spacing: 4px; text-transform: uppercase; }
+  .zone-banner.warning .zone-number { color: var(--amber); }
+  .zone-banner .zone-name { font-family: 'Outfit'; font-size: 30px; font-weight: 800; color: #fff; letter-spacing: 3px; text-transform: uppercase; }
+
+  /* ===== PRICE STACK ===== */
+  .price-stack {
+    position: absolute; top: 50%; right: 40px; transform: translateY(-50%);
+    z-index: 5; pointer-events: none; display: flex; flex-direction: column; gap: 12px;
+    max-width: 360px;
+  }
+  .price-card {
+    background: rgba(15, 23, 42, 0.92);
+    border-left: 4px solid var(--emerald);
+    padding: 14px 20px; border-radius: 4px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+    backdrop-filter: blur(6px);
+    animation: cardSlide 0.6s cubic-bezier(0.16, 1, 0.3, 1) backwards;
+  }
+  .price-card:nth-child(2) { animation-delay: 0.1s; }
+  .price-card:nth-child(3) { animation-delay: 0.2s; }
+  @keyframes cardSlide {
+    from { opacity: 0; transform: translateX(40px); }
+    to   { opacity: 1; transform: translateX(0); }
+  }
+  .price-card.warning { border-left-color: var(--amber); }
+  .price-card .neighborhood { font-size: 16px; font-weight: 700; color: #fff; letter-spacing: 1px; }
+  .price-card .price { font-size: 20px; font-weight: 800; color: var(--emerald-bright); margin-top: 2px; }
+  .price-card.warning .price { color: #fca5a5; }
+  .price-card .note { font-size: 12px; color: #cbd5e1; margin-top: 4px; line-height: 1.4; }
+
+  /* ===== STAT BURST ===== */
+  .stat-burst {
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    z-index: 5; pointer-events: none; text-align: center;
+    background: rgba(15, 23, 42, 0.95); padding: 36px 72px; border-radius: 8px;
+    border: 2px solid var(--emerald);
+    box-shadow: 0 12px 40px rgba(0,0,0,0.6), 0 0 60px rgba(16, 185, 129, 0.2);
+    backdrop-filter: blur(8px);
+  }
+  .stat-burst .stat-label { font-family: 'Outfit'; font-size: 14px; letter-spacing: 4px; text-transform: uppercase; color: var(--emerald-bright); }
+  .stat-burst .stat-value { font-family: 'Cormorant Garamond', serif; font-size: 92px; font-weight: 700; color: #fff; line-height: 1; margin: 10px 0; }
+  .stat-burst .stat-context { font-size: 16px; color: #cbd5e1; max-width: 520px; margin: 0 auto; }
+
+  /* ===== ZONES PREVIEW ===== */
+  .zones-preview {
+    position: absolute; bottom: 120px; left: 50%; transform: translateX(-50%);
+    z-index: 5; pointer-events: none;
+    background: rgba(15, 23, 42, 0.88); padding: 20px 36px; border-radius: 6px;
+    border: 1px solid var(--slate); text-align: center;
+    backdrop-filter: blur(6px);
+  }
+  .zones-preview .label { font-family: 'Outfit'; font-size: 12px; letter-spacing: 3px; text-transform: uppercase; color: var(--emerald-bright); margin-bottom: 8px; }
+  .zones-preview .list { display: flex; gap: 18px; font-family: 'Outfit'; font-size: 14px; font-weight: 600; color: #fff; }
+  .zones-preview .list .deferred { color: #64748b; font-style: italic; }
+
+  /* ===== PRICE RANGE CARD ===== */
+  .price-range-card {
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    z-index: 5; pointer-events: none; text-align: center;
+    background: rgba(15, 23, 42, 0.95); padding: 32px 64px; border-radius: 6px;
+    border-top: 3px solid var(--emerald); border-bottom: 3px solid var(--emerald);
+    backdrop-filter: blur(8px);
+  }
+  .price-range-card .pr-label { font-family: 'Outfit'; font-size: 13px; letter-spacing: 3px; text-transform: uppercase; color: var(--emerald-bright); }
+  .price-range-card .pr-value { font-family: 'Cormorant Garamond', serif; font-size: 76px; font-weight: 700; color: #fff; margin-top: 12px; }
+
+  /* ===== GENERIC FADE ===== */
+  .fadeable { opacity: 0; transition: opacity 0.55s ease-in-out; }
+  .fadeable.on { opacity: 1; }
+
+  /* ===== OUTRO ===== */
+  .cta-container {
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    z-index: 5; pointer-events: none; text-align: center;
+    background: rgba(15, 23, 42, 0.95); padding: 48px 80px; border-radius: 8px;
+    border-top: 3px solid var(--emerald); border-bottom: 3px solid var(--emerald);
+    max-width: 900px;
+    backdrop-filter: blur(8px);
+  }
+  .cta-title { font-family: 'Cormorant Garamond'; font-size: 60px; color: #fff; font-weight: 700; }
+  .cta-sub { font-family: 'Outfit'; font-size: 22px; color: var(--emerald-bright); margin-top: 16px; letter-spacing: 3px; text-transform: uppercase; }
+  .cta-contact { font-family: 'Outfit'; font-size: 18px; color: #fff; margin-top: 32px; line-height: 1.8; }
+
+  /* ===== CLEAN MODE ===== */
+  body.clean .hud-topright,
+  body.clean .jump-nav,
+  body.clean .controls,
+  body.clean .anchor-legend,
+  body.clean .kbd-hint,
+  body.clean .progress-track,
+  body.clean .progress-chapters,
+  body.clean .broll-badge { display: none !important; }
+</style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<!-- Cinematic overlay (vignette + film grain) -->
+<div class="cinematic-overlay" id="cinematicOverlay"></div>
+
+<audio id="voiceover" preload="auto" crossorigin="anonymous">
+  <source src="./audio/master.mp3" type="audio/mpeg">
+  <source src="./audio/master.m4a" type="audio/mp4">
+  <source src="./audio/master.wav" type="audio/wav">
+</audio>
+
+<div class="hud-topright">
+  <div class="section-name" id="hudSection">LOADING...</div>
+  <div class="timer" id="timer">0:00 / 18:59</div>
+  <div class="audio-state" id="audioState">• timer mode</div>
+</div>
+
+<div class="broll-badge" id="brollBadge">
+  <div class="label">🎬 Cut to B-Roll</div>
+  <div class="text" id="brollText">Lake Pointe street level</div>
+</div>
+
+<div class="jump-nav" id="jumpNav">
+  <button data-jump="0">Intro</button>
+  <button data-jump="74">Zone 1 · West</button>
+  <button data-jump="451">Zone 2 · South</button>
+  <button data-jump="785">Zone 3 · North</button>
+  <button data-jump="915">Zone 4 · East</button>
+  <button data-jump="1108">Outro</button>
+</div>
+
+<div class="kbd-hint">
+  <kbd>Space</kbd> play/pause · <kbd>R</kbd> restart · <kbd>1-4</kbd> zone · <kbd>C</kbd> clean · <kbd>L</kbd> legend · <kbd>G</kbd> grain · <kbd>V</kbd> vignette
+</div>
+
+<div class="controls">
+  <button id="startBtn" class="big-start">▶ START</button>
+  <button id="pauseBtn" class="secondary">⏸ PAUSE</button>
+  <button id="restartBtn" class="secondary">⟲ RESTART</button>
+  <button id="cleanBtn" class="secondary">◻ CLEAN MODE</button>
+</div>
+
+<div class="anchor-legend" id="anchorLegend">
+  <div class="legend-title">Anchors</div>
+  <div class="legend-row"><div class="legend-dot" style="background:#dc2626;color:#dc2626"></div><span>BSW Hospital</span></div>
+  <div class="legend-row"><div class="legend-dot" style="background:#06b6d4;color:#06b6d4"></div><span>Lake Belton · Morgan's Point</span></div>
+  <div class="legend-row"><div class="legend-dot" style="background:#3b82f6;color:#3b82f6"></div><span>Downtown Temple</span></div>
+  <div class="legend-row"><div class="legend-dot" style="background:#f59e0b;color:#f59e0b"></div><span>Fort Hood (30–40 min)</span></div>
+</div>
+
+<!-- Progress bar (chapter markers populated by JS) -->
+<div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+<div class="progress-chapters" id="progressChapters"></div>
+
+<!-- Overlays -->
+<div class="hook-container fadeable" id="hookOverlay">
+  <div class="hook-title">TEMPLE, TX</div>
+  <div class="hook-subtitle">The Complete Map Tour</div>
+  <div class="hook-hook" id="hookLine"></div>
+</div>
+
+<div class="zone-banner fadeable" id="zoneBanner">
+  <div class="zone-number" id="zoneNumber">ZONE 1 OF 4</div>
+  <div class="zone-name" id="zoneName">WEST TEMPLE</div>
+</div>
+
+<div class="price-stack fadeable" id="priceStack"></div>
+
+<div class="stat-burst fadeable" id="statBurst">
+  <div class="stat-label" id="statLabel"></div>
+  <div class="stat-value" id="statValue"></div>
+  <div class="stat-context" id="statContext"></div>
+</div>
+
+<div class="zones-preview fadeable" id="zonesPreview">
+  <div class="label">The Five Zones</div>
+  <div class="list">
+    <span>1 · West Temple</span>
+    <span>2 · South Temple</span>
+    <span>3 · North Temple</span>
+    <span>4 · East Temple</span>
+    <span class="deferred">5 · Belton-side (next video)</span>
+  </div>
+</div>
+
+<div class="price-range-card fadeable" id="priceRangeCard">
+  <div class="pr-label" id="priceRangeLabel">Price Range</div>
+  <div class="pr-value" id="priceRangeValue">$142 — $225+ / sqft</div>
+</div>
+
+<div class="cta-container fadeable" id="ctaOverlay">
+  <div class="cta-title">That's the map.</div>
+  <div class="cta-sub">Now let's find your zone.</div>
+  <div class="cta-contact">
+    Taylor Dasch · EG Realty<br>
+    <strong>254-718-4249</strong> · templetxhomes.net<br>
+    <span style="color:#fbbf24">Free Temple Neighborhood Map in description ↓</span>
+  </div>
+</div>
+
+<script>
+// ============================================================================
+// TEMPLE TX MAP TOUR V3 — Cinematic Master
+// New: drawing-trace routes · sonar pulses · map-earns-color ·
+//      vignette + grain · camera shake · progress bar
+// ============================================================================
+
+// Replace with a local Mapbox public token before rendering this map.
+mapboxgl.accessToken = 'MAPBOX_PUBLIC_TOKEN';
+
+// --- COORDS -----------------------------------------------------------------
+const COORDS = {
+  templeCenter:       [-97.3428, 31.0982],
+  bsw:                [-97.3639, 31.0778],
+  downtown:           [-97.3409, 31.0957],
+
+  westTempleCenter:   [-97.4400, 31.1230],
+  lakePointe:         [-97.4312, 31.1341],
+  sageMeadows:        [-97.4411, 31.1125],
+  groveLakewood:      [-97.4521, 31.1269],
+  carriageHouse:      [-97.4416, 31.0999],
+  westAdams:          [-97.4063, 31.1148],
+
+  southTempleCenter:  [-97.3780, 31.0555],
+  legacyRanch:        [-97.3926, 31.0413],
+  deerfieldEstates:   [-97.3871, 31.0437],
+  bellaTerra:         [-97.3895, 31.0435],
+  canyonCreek:        [-97.3726, 31.0613],
+  stratford:          [-97.3886, 31.0577],
+  stagecoach:         [-97.3822, 31.0604],
+  olympia:            [-97.3879, 31.0604],
+  hemlock:            [-97.3874, 31.0632],
+  buckskin:           [-97.3816, 31.0597],
+  stratfordCluster:   [-97.3850, 31.0610],
+  olympiaHemlock:     [-97.3876, 31.0618],
+  canyonRidge:        [-97.3689, 31.0561],
+  canyonRidgeSfh:     [-97.3680, 31.0550],
+  brutusHartrick:     [-97.3700, 31.0460],
+  silverstonePark:    [-97.3629, 31.0506],
+
+  northTempleCenter:  [-97.3428, 31.0990],
+  historicDistrict:   [-97.3450, 31.0980],
+
+  eastTempleCenter:   [-97.3000, 31.0800],
+  pecanRidge:         [-97.2866, 31.1561],
+  southPoint:         [-97.3334, 31.0600],
+  flintRock:          [-97.3735, 31.0495],
+  eastNewConstruction:[-97.3100, 31.0650],
+  eastTempleAvoid:    [-97.3200, 31.0850],
+};
+
+const ANCHORS = {
+  bsw:          { coord: [-97.3639, 31.0778], name: 'BSW Hospital',          color: '#dc2626' },
+  morgansPoint: { coord: [-97.4636, 31.1484], name: "Morgan's Point · Lake", color: '#06b6d4' },
+  downtown:     { coord: [-97.3409, 31.0957], name: 'Downtown Temple',       color: '#3b82f6' },
+  fortHood:     { coord: [-97.7396, 31.1298], name: 'Fort Hood',             color: '#f59e0b' },
+};
+
+// --- BEZIER ARC -------------------------------------------------------------
+function makeArc(from, to, segments = 80, heightFactor = 0.18) {
+  const dx = to[0] - from[0], dy = to[1] - from[1];
+  const dist = Math.sqrt(dx*dx + dy*dy);
+  if (dist < 1e-6) return [from, to];
+  const mid = [(from[0]+to[0])/2, (from[1]+to[1])/2];
+  const px = -dy / dist, py = dx / dist;
+  const arcHeight = dist * heightFactor;
+  const apex = [mid[0] + px * arcHeight, mid[1] + py * arcHeight];
+  const points = [];
+  for (let i = 0; i <= segments; i++) {
+    const t = i / segments;
+    const x = (1-t)*(1-t)*from[0] + 2*(1-t)*t*apex[0] + t*t*to[0];
+    const y = (1-t)*(1-t)*from[1] + 2*(1-t)*t*apex[1] + t*t*to[1];
+    points.push([x, y]);
+  }
+  return points;
+}
+
+// --- ZONE POLYGONS ----------------------------------------------------------
+const ZONES = {
+  type: 'FeatureCollection',
+  features: [
+    { type: 'Feature', id: 1, properties: { zoneId: 1, name: 'West Temple / Belton ISD', state: 'idle' },
+      geometry: { type: 'Polygon', coordinates: [[[-97.4680,31.1450],[-97.4080,31.1450],[-97.4080,31.0960],[-97.4680,31.0960],[-97.4680,31.1450]]] } },
+    { type: 'Feature', id: 2, properties: { zoneId: 2, name: 'South Temple', state: 'idle' },
+      geometry: { type: 'Polygon', coordinates: [[[-97.4000,31.0820],[-97.3530,31.0820],[-97.3530,31.0280],[-97.4000,31.0280],[-97.4000,31.0820]]] } },
+    { type: 'Feature', id: 3, properties: { zoneId: 3, name: 'North Temple', state: 'idle' },
+      geometry: { type: 'Polygon', coordinates: [[[-97.3600,31.1220],[-97.3240,31.1220],[-97.3240,31.0860],[-97.3600,31.0860],[-97.3600,31.1220]]] } },
+    { type: 'Feature', id: 4, properties: { zoneId: 4, name: 'East Temple', state: 'idle' },
+      geometry: { type: 'Polygon', coordinates: [[[-97.3240,31.1400],[-97.2550,31.1400],[-97.2550,31.0480],[-97.3240,31.0480],[-97.3240,31.1400]]] } },
+    { type: 'Feature', id: 5, properties: { zoneId: 5, name: 'Belton-Side (Next Video)', state: 'deferred' },
+      geometry: { type: 'Polygon', coordinates: [[[-97.5000,31.0960],[-97.4690,31.0960],[-97.4690,31.0480],[-97.5000,31.0480],[-97.5000,31.0960]]] } }
+  ]
+};
+
+// --- SEQUENCE (V3 adds: cinematicShake + sonarPulse on zone reveals) --------
+const SEQUENCE = [
+  { time: 0,   section: 'HOOK',
+    camera: { center: COORDS.templeCenter, zoom: 10.2, pitch: 50, bearing: 15, duration: 2 },
+    overlay: 'hook', hookLine: '"Three things you\'re going to learn in this video."', zoneFocus: null },
+  { time: 12,  section: 'FIVE ZONES',
+    camera: { center: COORDS.templeCenter, zoom: 10.6, pitch: 45, bearing: 30, duration: 3 },
+    overlay: 'zonesPreview', zoneFocus: null },
+  { time: 30,  section: 'TEMPLE OVERVIEW',
+    camera: { center: COORDS.templeCenter, zoom: 11.2, pitch: 55, bearing: 50, duration: 4 },
+    overlay: 'stat', statLabel: 'Temple, Texas', statValue: '85,000', statContext: 'Population · 30–40 min Fort Hood · 45 min Waco · 1 hr Austin',
+    routes: [{ from: 'templeCenter', to: 'fortHood' }] },
+  { time: 42,  section: 'BSW ANCHOR',
+    camera: { center: COORDS.bsw, zoom: 13.8, pitch: 60, bearing: 80, duration: 4 },
+    overlay: 'stat', statLabel: 'Anchor', statValue: 'BSW', statContext: 'Baylor Scott & White — one of the largest hospitals in Texas',
+    cinematicShake: true },
+  { time: 51,  section: 'MATH VARIES WILDLY',
+    camera: { center: COORDS.templeCenter, zoom: 10.8, pitch: 48, bearing: 110, duration: 3 },
+    overlay: 'priceRange', priceRangeLabel: 'Same city · Same zip code', priceRangeValue: '$142 — $225+ / sqft' },
+
+  // ZONE 1 WEST TEMPLE
+  { time: 74,  section: 'ZONE 1 · WEST TEMPLE',
+    camera: { center: COORDS.westTempleCenter, zoom: 12.6, pitch: 60, bearing: 60, duration: 5 },
+    overlay: 'zoneBanner', zoneNumber: 'ZONE 1 OF 4', zoneName: 'West Temple · Belton ISD', zoneFocus: 1,
+    cinematicShake: true, sonarPulse: true,
+    routes: [
+      { from: 'westTempleCenter', to: 'bsw' },
+      { from: 'westTempleCenter', to: 'morgansPoint' }
+    ] },
+  { time: 158, section: 'LAKE POINTE',
+    camera: { center: COORDS.lakePointe, zoom: 14.6, pitch: 65, bearing: 100, duration: 4 },
+    overlay: 'prices', prices: [
+      { n: 'Lake Pointe', p: 'From $142/sqft', note: 'Dr. Horton · Style Craft · Belton ISD · close to West Adams' },
+      { n: 'Lake Pointe Terrace', p: 'Newer section', note: 'Dr. Horton model home · 2017+ builds' }
+    ],
+    routes: [{ from: 'lakePointe', to: 'morgansPoint' }, { from: 'lakePointe', to: 'bsw' }] },
+  { time: 196, section: 'LAKE POINTE · STREET LEVEL',
+    camera: { center: COORDS.lakePointe, zoom: 17.0, pitch: 78, bearing: 130, duration: 4 },
+    overlay: 'keep', brollMoment: true, brollText: 'Lake Pointe · Dr. Horton model home', routes: 'keep' },
+  { time: 248, section: 'SAGE MEADOWS',
+    camera: { center: COORDS.sageMeadows, zoom: 14.6, pitch: 65, bearing: 145, duration: 4 },
+    overlay: 'prices', prices: [
+      { n: 'Sage Meadows', p: 'From $210K', note: '1200–1900 sqft one-story · cookie-cutter · Belton ISD' }
+    ],
+    routes: [{ from: 'sageMeadows', to: 'bsw' }] },
+  { time: 285, section: 'SAGE MEADOWS · STREET LEVEL',
+    camera: { center: COORDS.sageMeadows, zoom: 17.2, pitch: 78, bearing: 175, duration: 4 },
+    overlay: 'keep', brollMoment: true, brollText: 'Sage Meadows · Lonesome Oak Dr · cookie-cutter row', routes: 'keep' },
+  { time: 320, section: 'THE GROVE',
+    camera: { center: COORDS.groveLakewood, zoom: 14.4, pitch: 68, bearing: 195, duration: 4 },
+    overlay: 'prices', prices: [
+      { n: 'Grove at Lakewood Ranch', p: 'Premium', note: 'Omega · Kiella · 3-car garages · fireplaces · quartz counters' }
+    ],
+    routes: [{ from: 'groveLakewood', to: 'bsw' }, { from: 'groveLakewood', to: 'morgansPoint' }] },
+  { time: 358, section: 'THE GROVE · STREET LEVEL',
+    camera: { center: COORDS.groveLakewood, zoom: 17.0, pitch: 78, bearing: 220, duration: 4 },
+    overlay: 'keep', brollMoment: true, brollText: 'Grove at Lakewood Ranch · Raven Dr · luxury detail', routes: 'keep' },
+  { time: 397, section: 'WEST TEMPLE WIDE',
+    camera: { center: COORDS.westTempleCenter, zoom: 13.0, pitch: 55, bearing: 220, duration: 4 },
+    overlay: 'keep' },
+  { time: 430, section: 'WEST TEMPLE PRICE',
+    camera: { center: COORDS.westTempleCenter, zoom: 13.0, pitch: 50, bearing: 255, duration: 3 },
+    overlay: 'priceRange', priceRangeLabel: 'West Temple / Belton ISD', priceRangeValue: '$242K — $550K+' },
+
+  // ZONE 2 SOUTH TEMPLE
+  { time: 451, section: 'ZONE 2 · SOUTH TEMPLE',
+    camera: { center: COORDS.southTempleCenter, zoom: 13.2, pitch: 62, bearing: 30, duration: 5 },
+    overlay: 'zoneBanner', zoneNumber: 'ZONE 2 OF 4', zoneName: 'South Temple · Close to BSW', zoneFocus: 2,
+    cinematicShake: true, sonarPulse: true,
+    routes: [
+      { from: 'southTempleCenter', to: 'bsw' },
+      { from: 'southTempleCenter', to: 'downtown' }
+    ] },
+  { time: 498, section: 'LEGACY RANCH',
+    camera: { center: COORDS.legacyRanch, zoom: 15.0, pitch: 70, bearing: 60, duration: 3 },
+    overlay: 'prices', prices: [
+      { n: 'Legacy Ranch', p: '$350K — $700K', note: 'John Houston · Arnold Design · newer luxury' }
+    ],
+    routes: [{ from: 'legacyRanch', to: 'bsw' }] },
+  { time: 512, section: 'DEERFIELD ESTATES',
+    camera: { center: COORDS.deerfieldEstates, zoom: 15.0, pitch: 68, bearing: 95, duration: 3 },
+    overlay: 'prices', prices: [
+      { n: 'Deerfield Estates', p: 'Older luxury', note: 'Across from Legacy · mature trees · larger lots' }
+    ], routes: 'keep' },
+  { time: 521, section: 'BELLA TERRA',
+    camera: { center: COORDS.bellaTerra, zoom: 15.0, pitch: 70, bearing: 130, duration: 3 },
+    overlay: 'prices', prices: [
+      { n: 'Bella Terra', p: '$320K — $450K', note: 'One-story premium · right next to Legacy Ranch' }
+    ], routes: 'keep' },
+  { time: 545, section: 'CANYON CREEK — FAVORITE',
+    camera: { center: COORDS.canyonCreek, zoom: 14.6, pitch: 70, bearing: 170, duration: 4 },
+    overlay: 'prices', prices: [
+      { n: 'Canyon Creek', p: '$160K — $1M+', note: "Taylor's favorite · Stratford → Olympia gradient" }
+    ],
+    routes: [{ from: 'canyonCreek', to: 'bsw' }] },
+  { time: 575, section: 'CANYON CREEK · STREET LEVEL',
+    camera: { center: COORDS.stratfordCluster, zoom: 17.5, pitch: 78, bearing: 200, duration: 4 },
+    overlay: 'keep', brollMoment: true, brollText: 'Canyon Creek · Stratford → Buckskin first-time buyer box', routes: 'keep' },
+  { time: 584, section: 'STRATFORD → BUCKSKIN',
+    camera: { center: COORDS.stratfordCluster, zoom: 15.4, pitch: 72, bearing: 210, duration: 4 },
+    overlay: 'prices', prices: [
+      { n: 'Stratford → Buckskin box', p: '$225K+', note: 'First-time buyer range · remodeled condition' },
+      { n: 'San Jacinto · Alamo · Travis', p: '$160K — $200K', note: '2/1 and 3/2 smaller homes · equity-build starter' }
+    ], routes: 'keep' },
+  { time: 645, section: 'OLYMPIA · STREET LEVEL',
+    camera: { center: COORDS.olympia, zoom: 17.5, pitch: 78, bearing: 240, duration: 4 },
+    overlay: 'keep', brollMoment: true, brollText: 'Olympia → Hemlock · custom luxury · mature trees', routes: 'keep' },
+  { time: 661, section: 'OLYMPIA · HEMLOCK',
+    camera: { center: COORDS.olympiaHemlock, zoom: 15.4, pitch: 72, bearing: 240, duration: 4 },
+    overlay: 'prices', prices: [
+      { n: 'Olympia · Hemlock', p: '$400K — $1M+', note: "Custom homes · mature trees · large lots · favorite streets" }
+    ], routes: 'keep' },
+  { time: 703, section: 'CANYON RIDGE',
+    camera: { center: COORDS.canyonRidge, zoom: 15.0, pitch: 65, bearing: 270, duration: 4 },
+    overlay: 'zoneBanner', zoneNumber: 'CANYON RIDGE', zoneName: 'Investor · Military · House-Hack', zoneFocus: 2,
+    routes: [{ from: 'canyonRidge', to: 'bsw' }] },
+  { time: 717, section: 'SFH SIDE',
+    camera: { center: COORDS.canyonRidgeSfh, zoom: 16.0, pitch: 72, bearing: 300, duration: 4 },
+    overlay: 'prices', prices: [
+      { n: 'Kacie · Karey · Ridgeway', p: '$240K — $315K', note: 'Single-family · well-built one-story' }
+    ], routes: 'keep' },
+  { time: 733, section: 'SFH · STREET LEVEL',
+    camera: { center: COORDS.canyonRidgeSfh, zoom: 17.6, pitch: 78, bearing: 320, duration: 3 },
+    overlay: 'keep', brollMoment: true, brollText: 'Canyon Ridge SFH · Kacie / Karey walking path', routes: 'keep' },
+  { time: 745, section: 'DUPLEX SIDE',
+    camera: { center: COORDS.brutusHartrick, zoom: 15.8, pitch: 72, bearing: 330, duration: 4 },
+    overlay: 'prices', prices: [
+      { n: 'Brutus → Hartrick', p: '$315K — $365K', note: '2012 duplexes · investor + house-hack · VA-friendly' }
+    ], routes: 'keep' },
+  { time: 759, section: 'DUPLEX · STREET LEVEL',
+    camera: { center: COORDS.brutusHartrick, zoom: 17.8, pitch: 78, bearing: 350, duration: 3 },
+    overlay: 'keep', brollMoment: true, brollText: 'Canyon Ridge duplex wall · Brutus Lane', routes: 'keep' },
+  { time: 766, section: 'SILVERSTONE PARK',
+    camera: { center: COORDS.silverstonePark, zoom: 15.5, pitch: 65, bearing: 0, duration: 3 },
+    overlay: 'prices', prices: [
+      { n: 'Silverstone Park · South Temple Park', p: 'No HOA', note: '~3-mile running trail · creek · trees' }
+    ], routes: [] },
+
+  // ZONE 3 NORTH TEMPLE
+  { time: 785, section: 'ZONE 3 · NORTH TEMPLE',
+    camera: { center: COORDS.northTempleCenter, zoom: 13.8, pitch: 60, bearing: 45, duration: 5 },
+    overlay: 'zoneBanner', zoneNumber: 'ZONE 3 OF 4', zoneName: 'North Temple · Historic District', zoneFocus: 3,
+    cinematicShake: true, sonarPulse: true,
+    routes: [{ from: 'northTempleCenter', to: 'bsw' }] },
+  { time: 815, section: 'HISTORIC DISTRICT',
+    camera: { center: COORDS.historicDistrict, zoom: 15.0, pitch: 68, bearing: 90, duration: 4 },
+    overlay: 'prices', prices: [
+      { n: 'Historic District', p: 'Pre-1919 — 1960', note: 'Plans approved by city · 2017 build can mimic 1950s' }
+    ], routes: 'keep' },
+  { time: 850, section: 'HISTORIC · STREET LEVEL',
+    camera: { center: COORDS.historicDistrict, zoom: 17.5, pitch: 78, bearing: 120, duration: 4 },
+    overlay: 'keep', brollMoment: true, brollText: 'Historic District walking · door-knock story spot', routes: 'keep' },
+  { time: 880, section: 'DOWNTOWN TEMPLE',
+    camera: { center: COORDS.downtown, zoom: 15.5, pitch: 70, bearing: 135, duration: 4 },
+    overlay: 'prices', prices: [
+      { n: 'Downtown Restaurants', p: 'Walkable', note: "Chief's Brother Steakhouse · Pignetti's · Nami's · Thai Place" }
+    ], routes: 'keep' },
+  { time: 894, section: 'DOWNTOWN · STREET LEVEL',
+    camera: { center: COORDS.downtown, zoom: 17.8, pitch: 78, bearing: 160, duration: 4 },
+    overlay: 'keep', brollMoment: true, brollText: "Downtown row · Chiefs · Nami's · Thai Place", routes: 'keep' },
+  { time: 908, section: 'TEMPLE ISD',
+    camera: { center: COORDS.northTempleCenter, zoom: 14.2, pitch: 60, bearing: 170, duration: 3 },
+    overlay: 'stat', statLabel: 'School District', statValue: 'Temple ISD', statContext: 'Important factor for North Temple buyers — not Belton ISD',
+    routes: [] },
+
+  // ZONE 4 EAST TEMPLE
+  { time: 915, section: 'ZONE 4 · EAST TEMPLE',
+    camera: { center: COORDS.eastTempleCenter, zoom: 12.8, pitch: 55, bearing: 200, duration: 5 },
+    overlay: 'zoneBanner', zoneNumber: 'ZONE 4 OF 4', zoneName: 'East Temple · The Honest Truth', zoneFocus: 4, warning: true,
+    cinematicShake: true, sonarPulse: true,
+    routes: [{ from: 'eastTempleCenter', to: 'bsw' }] },
+  { time: 962, section: 'AVOID SIGNAL',
+    camera: { center: COORDS.eastTempleAvoid, zoom: 14.0, pitch: 65, bearing: 230, duration: 4 },
+    overlay: 'prices', warning: true, prices: [
+      { n: 'South even-numbered streets', p: 'Verify in person', note: 'Lower income · higher crime · walk the block before buying' }
+    ], routes: 'keep' },
+  { time: 1001, section: 'NEW CONSTRUCTION GOLDMINE',
+    camera: { center: COORDS.eastNewConstruction, zoom: 13.6, pitch: 62, bearing: 260, duration: 4 },
+    overlay: 'prices', prices: [
+      { n: 'Pecan Ridge · South Point', p: 'From $210K', note: 'Style Craft · Dr. Horton · ~7 min to BSW' },
+      { n: 'Flint Rock', p: '$210K — $220K', note: 'Good budget new-construction option' }
+    ],
+    routes: [{ from: 'eastNewConstruction', to: 'bsw' }] },
+  { time: 1031, section: 'EAST · STREET LEVEL',
+    camera: { center: COORDS.southPoint, zoom: 17.4, pitch: 78, bearing: 285, duration: 4 },
+    overlay: 'keep', brollMoment: true, brollText: 'East new-construction site · Style Craft · Dr. Horton', routes: 'keep' },
+  { time: 1074, section: 'MORE LAND · LARGER LOTS',
+    camera: { center: COORDS.eastTempleCenter, zoom: 12.8, pitch: 58, bearing: 290, duration: 3 },
+    overlay: 'keep', routes: [] },
+
+  // OUTRO
+  { time: 1108, section: 'OUTRO · FULL MAP',
+    camera: { center: COORDS.templeCenter, zoom: 10.8, pitch: 50, bearing: 320, duration: 5 },
+    overlay: 'none', zoneFocus: null,
+    cinematicShake: true,
+    routes: [
+      { from: 'westTempleCenter', to: 'bsw' },
+      { from: 'southTempleCenter', to: 'bsw' },
+      { from: 'northTempleCenter', to: 'bsw' },
+      { from: 'eastTempleCenter', to: 'bsw' }
+    ] },
+  { time: 1129, section: 'CALL TO ACTION',
+    camera: { center: COORDS.templeCenter, zoom: 10.5, pitch: 45, bearing: 0, duration: 4 },
+    overlay: 'cta', routes: [] },
+];
+
+const TOTAL_DURATION = 1139;
+
+// --- MAP SETUP --------------------------------------------------------------
+const map = new mapboxgl.Map({
+  container: 'map',
+  style: 'mapbox://styles/mapbox/satellite-streets-v12',
+  center: COORDS.templeCenter, zoom: 9.8, pitch: 40, bearing: 0,
+  antialias: true,
+});
+
+// --- ZONE STATE TRACKER (for map-earns-its-color) --------------------------
+// Tracks which zones have been "revealed" so they keep color afterward.
+const REVEALED = new Set();
+
+map.on('load', () => {
+  map.addSource('mapbox-dem', { type: 'raster-dem', url: 'mapbox://mapbox.mapbox-terrain-dem-v1', tileSize: 512, maxzoom: 14 });
+  map.setTerrain({ source: 'mapbox-dem', exaggeration: 1.3 });
+
+  map.setFog({
+    color: 'rgb(20, 30, 50)', 'horizon-blend': 0.05,
+    'high-color': 'rgb(36, 92, 160)', 'space-color': 'rgb(8, 12, 28)',
+    'star-intensity': 0.15
+  });
+
+  map.addLayer({
+    id: '3d-buildings', source: 'composite', 'source-layer': 'building',
+    filter: ['==', 'extrude', 'true'], type: 'fill-extrusion', minzoom: 13,
+    paint: {
+      'fill-extrusion-color': '#cbd5e1',
+      'fill-extrusion-height': ['get', 'height'],
+      'fill-extrusion-base': ['get', 'min_height'],
+      'fill-extrusion-opacity': 0.85
+    }
+  });
+
+  // ZONES — now with 'idle' (gray), 'revealed' (dim color, persistent), 'active' (bright color)
+  map.addSource('zones', { type: 'geojson', data: ZONES, promoteId: 'zoneId' });
+  map.addLayer({
+    id: 'zones-fill', type: 'fill', source: 'zones',
+    paint: {
+      'fill-color': ['case',
+        ['==', ['feature-state', 'state'], 'active'],         '#10b981',
+        ['==', ['feature-state', 'state'], 'active-warning'], '#f59e0b',
+        ['==', ['feature-state', 'state'], 'revealed'],         '#10b981',
+        ['==', ['feature-state', 'state'], 'revealed-warning'], '#f59e0b',
+        ['==', ['feature-state', 'state'], 'deferred'],       '#475569',
+        '#1e293b'],   // idle = subtle gray-blue
+      'fill-opacity': ['case',
+        ['==', ['feature-state', 'state'], 'active'],         0.34,
+        ['==', ['feature-state', 'state'], 'active-warning'], 0.30,
+        ['==', ['feature-state', 'state'], 'revealed'],         0.16,
+        ['==', ['feature-state', 'state'], 'revealed-warning'], 0.14,
+        ['==', ['feature-state', 'state'], 'deferred'],       0.18,
+        0.04],   // idle = nearly invisible
+      'fill-opacity-transition': { duration: 800 },
+      'fill-color-transition': { duration: 800 }
+    }
+  });
+  map.addLayer({
+    id: 'zones-line', type: 'line', source: 'zones',
+    paint: {
+      'line-color': ['case',
+        ['==', ['feature-state', 'state'], 'active'],         '#10b981',
+        ['==', ['feature-state', 'state'], 'active-warning'], '#f59e0b',
+        ['==', ['feature-state', 'state'], 'revealed'],         '#059669',
+        ['==', ['feature-state', 'state'], 'revealed-warning'], '#b45309',
+        ['==', ['feature-state', 'state'], 'deferred'],       '#64748b',
+        '#475569'],
+      'line-width': ['case',
+        ['==', ['feature-state', 'state'], 'active'],         5.0,
+        ['==', ['feature-state', 'state'], 'active-warning'], 5.0,
+        ['==', ['feature-state', 'state'], 'revealed'],         2.4,
+        ['==', ['feature-state', 'state'], 'revealed-warning'], 2.4,
+        1.4],
+      'line-dasharray': ['case',
+        ['==', ['feature-state', 'state'], 'deferred'], ['literal', [3, 3]],
+        ['literal', [1, 0]]],
+      'line-width-transition': { duration: 600 }
+    }
+  });
+  map.addLayer({
+    id: 'zones-label', type: 'symbol', source: 'zones',
+    layout: {
+      'text-field': ['get', 'name'],
+      'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'],
+      'text-size': 14, 'text-letter-spacing': 0.15,
+      'text-transform': 'uppercase', 'text-allow-overlap': true, 'text-ignore-placement': true
+    },
+    paint: {
+      'text-color': '#fff', 'text-halo-color': '#0f172a', 'text-halo-width': 2,
+      'text-opacity': ['case',
+        ['==', ['feature-state', 'state'], 'active'],         1,
+        ['==', ['feature-state', 'state'], 'active-warning'], 1,
+        ['==', ['feature-state', 'state'], 'revealed'],         0.7,
+        ['==', ['feature-state', 'state'], 'revealed-warning'], 0.7,
+        0.35],
+      'text-opacity-transition': { duration: 600 }
+    }
+  });
+
+  // ROUTES — drawing-trace via line-trim-offset animation
+  map.addSource('routes', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
+  map.addLayer({
+    id: 'routes-glow', type: 'line', source: 'routes',
+    paint: {
+      'line-color': ['get', 'color'],
+      'line-width': 11, 'line-opacity': 0.32, 'line-blur': 5,
+      'line-trim-offset': [0, 1],
+      'line-opacity-transition': { duration: 700 }
+    },
+    layout: { 'line-cap': 'round', 'line-join': 'round' }
+  });
+  map.addLayer({
+    id: 'routes-line', type: 'line', source: 'routes',
+    paint: {
+      'line-color': ['get', 'color'],
+      'line-width': 3.2, 'line-opacity': 1,
+      'line-dasharray': [2.4, 1.2],
+      'line-trim-offset': [0, 1],
+      'line-opacity-transition': { duration: 700 }
+    },
+    layout: { 'line-cap': 'round', 'line-join': 'round' }
+  });
+
+  // Anchor markers
+  Object.entries(ANCHORS).forEach(([key, a]) => {
+    const wrap = document.createElement('div');
+    wrap.style.position = 'relative';
+    wrap.style.color = a.color;
+    const pin = document.createElement('div');
+    pin.className = 'anchor-pin';
+    pin.style.background = a.color;
+    pin.style.color = a.color;
+    wrap.appendChild(pin);
+    const label = document.createElement('div');
+    label.className = 'anchor-label';
+    label.textContent = a.name;
+    label.style.color = '#fff';
+    label.style.borderLeftColor = a.color;
+    wrap.appendChild(label);
+    new mapboxgl.Marker({ element: wrap, anchor: 'center' }).setLngLat(a.coord).addTo(map);
+  });
+
+  applyZoneStates({});
+  buildChapterMarkers();
+
+  document.getElementById('hudSection').textContent = 'READY';
+});
+
+// --- ZONE STATE -------------------------------------------------------------
+function applyZoneStates(map_override, opts = {}) {
+  const base = { 1: 'idle', 2: 'idle', 3: 'idle', 4: 'idle', 5: 'deferred' };
+  // Map-earns-its-color: any zone in REVEALED set stays revealed unless it's currently active
+  REVEALED.forEach(zid => {
+    if (zid !== 5) base[zid] = 'revealed';
+  });
+  const merged = { ...base, ...map_override };
+  Object.entries(merged).forEach(([zid, state]) => {
+    if (opts.warning) {
+      if (state === 'active')   state = 'active-warning';
+      if (state === 'revealed') state = 'revealed-warning';
+    }
+    map.setFeatureState({ source: 'zones', id: Number(zid) }, { state });
+  });
+}
+
+// --- ROUTES with drawing-trace animation ------------------------------------
+let routeAnimFrame = null;
+
+function resolvePoint(key) {
+  if (COORDS[key]) return COORDS[key];
+  if (ANCHORS[key]) return ANCHORS[key].coord;
+  return null;
+}
+
+function showRoutes(routes) {
+  if (!map.getSource('routes')) return;
+  if (routeAnimFrame) { cancelAnimationFrame(routeAnimFrame); routeAnimFrame = null; }
+
+  const features = (routes || []).map(r => {
+    const a = resolvePoint(r.from);
+    const b = resolvePoint(r.to);
+    if (!a || !b) return null;
+    const color = (ANCHORS[r.to] && ANCHORS[r.to].color) || (ANCHORS[r.from] && ANCHORS[r.from].color) || '#10b981';
+    return {
+      type: 'Feature',
+      properties: { from: r.from, to: r.to, color },
+      geometry: { type: 'LineString', coordinates: makeArc(a, b) }
+    };
+  }).filter(Boolean);
+  map.getSource('routes').setData({ type: 'FeatureCollection', features });
+
+  if (features.length === 0) return;
+
+  // Reset to fully-trimmed (invisible)
+  map.setPaintProperty('routes-line', 'line-trim-offset', [0, 1]);
+  map.setPaintProperty('routes-glow', 'line-trim-offset', [0, 1]);
+
+  // Animate trim from 1 → 0 (drawing the line from start to end)
+  const startT = performance.now();
+  const duration = 1500;
+  function step() {
+    const elapsed = performance.now() - startT;
+    const progress = Math.min(elapsed / duration, 1);
+    const eased = 1 - Math.pow(1 - progress, 3); // ease-out cubic
+    const trimEnd = 1 - eased;
+    map.setPaintProperty('routes-line', 'line-trim-offset', [0, trimEnd]);
+    map.setPaintProperty('routes-glow', 'line-trim-offset', [0, trimEnd]);
+    if (progress < 1) {
+      routeAnimFrame = requestAnimationFrame(step);
+    } else {
+      routeAnimFrame = null;
+    }
+  }
+  routeAnimFrame = requestAnimationFrame(step);
+}
+
+function hideRoutes() {
+  if (!map.getSource('routes')) return;
+  if (routeAnimFrame) { cancelAnimationFrame(routeAnimFrame); routeAnimFrame = null; }
+  map.getSource('routes').setData({ type: 'FeatureCollection', features: [] });
+}
+
+// --- SONAR PULSE (zone reveals) ---------------------------------------------
+function sonarPulseAt(coord, opts = {}) {
+  if (!coord) return;
+  const screen = map.project(coord);
+  // Two staggered rings for a richer pulse
+  [0, 350].forEach(delay => {
+    setTimeout(() => {
+      const ring = document.createElement('div');
+      ring.className = 'sonar-ring' + (opts.warning ? ' warning' : '');
+      ring.style.left = screen.x + 'px';
+      ring.style.top  = screen.y + 'px';
+      document.body.appendChild(ring);
+      setTimeout(() => ring.remove(), 2400);
+    }, delay);
+  });
+}
+
+// --- CAMERA SHAKE -----------------------------------------------------------
+let shakePending = false;
+map.on('moveend', () => {
+  if (shakePending) {
+    shakePending = false;
+    const canvas = map.getCanvas();
+    canvas.classList.add('shake');
+    setTimeout(() => canvas.classList.remove('shake'), 320);
+  }
+});
+
+// --- B-ROLL BADGE -----------------------------------------------------------
+function updateBrollBadge(active, label) {
+  const badge = document.getElementById('brollBadge');
+  if (active) {
+    document.getElementById('brollText').textContent = label || 'Cut to ground-level B-roll';
+    badge.classList.add('on');
+  } else {
+    badge.classList.remove('on');
+  }
+}
+
+// --- OVERLAYS ---------------------------------------------------------------
+const els = {
+  hook: document.getElementById('hookOverlay'),
+  hookLine: document.getElementById('hookLine'),
+  zone: document.getElementById('zoneBanner'),
+  zoneNumber: document.getElementById('zoneNumber'),
+  zoneName: document.getElementById('zoneName'),
+  priceStack: document.getElementById('priceStack'),
+  statBurst: document.getElementById('statBurst'),
+  statLabel: document.getElementById('statLabel'),
+  statValue: document.getElementById('statValue'),
+  statContext: document.getElementById('statContext'),
+  zonesPreview: document.getElementById('zonesPreview'),
+  priceRangeCard: document.getElementById('priceRangeCard'),
+  priceRangeLabel: document.getElementById('priceRangeLabel'),
+  priceRangeValue: document.getElementById('priceRangeValue'),
+  cta: document.getElementById('ctaOverlay'),
+  hudSection: document.getElementById('hudSection'),
+  timer: document.getElementById('timer'),
+  audioState: document.getElementById('audioState'),
+  progressFill: document.getElementById('progressFill'),
+};
+
+function hideAll() {
+  ['hook','zone','priceStack','statBurst','zonesPreview','priceRangeCard','cta'].forEach(k => {
+    els[k].classList.remove('on');
+  });
+}
+
+function showOverlay(step) {
+  if (step.overlay === 'keep') return;
+  hideAll();
+  els.zone.classList.toggle('warning', !!step.warning);
+
+  if (step.overlay === 'hook') {
+    els.hookLine.textContent = step.hookLine || '';
+    els.hook.classList.add('on');
+  }
+  else if (step.overlay === 'zonesPreview') els.zonesPreview.classList.add('on');
+  else if (step.overlay === 'zoneBanner') {
+    els.zoneNumber.textContent = step.zoneNumber;
+    els.zoneName.textContent = step.zoneName;
+    els.zone.classList.add('on');
+  }
+  else if (step.overlay === 'prices') {
+    els.priceStack.innerHTML = '';
+    step.prices.forEach(p => {
+      const card = document.createElement('div');
+      card.className = 'price-card' + (step.warning ? ' warning' : '');
+      card.innerHTML = `<div class="neighborhood">${p.n}</div><div class="price">${p.p}</div><div class="note">${p.note}</div>`;
+      els.priceStack.appendChild(card);
+    });
+    els.priceStack.classList.add('on');
+  }
+  else if (step.overlay === 'stat') {
+    els.statLabel.textContent = step.statLabel || '';
+    els.statValue.textContent = step.statValue || '';
+    els.statContext.textContent = step.statContext || '';
+    els.statBurst.classList.add('on');
+  }
+  else if (step.overlay === 'priceRange') {
+    els.priceRangeLabel.textContent = step.priceRangeLabel || 'Price Range';
+    els.priceRangeValue.textContent = step.priceRangeValue || '';
+    els.priceRangeCard.classList.add('on');
+  }
+  else if (step.overlay === 'cta') els.cta.classList.add('on');
+}
+
+// --- PROGRESS BAR -----------------------------------------------------------
+function buildChapterMarkers() {
+  const container = document.getElementById('progressChapters');
+  const chapters = [74, 451, 785, 915, 1108];
+  chapters.forEach(t => {
+    const m = document.createElement('div');
+    m.className = 'progress-chapter';
+    m.style.left = (t / TOTAL_DURATION * 100) + '%';
+    container.appendChild(m);
+  });
+}
+
+// --- SCENE EXECUTION --------------------------------------------------------
+let currentSceneIdx = -1;
+
+function playScene(idx) {
+  if (idx < 0 || idx >= SEQUENCE.length) return;
+  if (idx === currentSceneIdx) return;
+  currentSceneIdx = idx;
+  const step = SEQUENCE[idx];
+
+  els.hudSection.textContent = step.section;
+
+  // Camera (with optional shake on arrival)
+  if (step.cinematicShake) shakePending = true;
+  map.flyTo({
+    center: step.camera.center, zoom: step.camera.zoom,
+    pitch: step.camera.pitch, bearing: step.camera.bearing,
+    duration: (step.camera.duration || 4) * 1000,
+    essential: true, curve: 1.4
+  });
+
+  // Zone state — track REVEALED set for map-earns-its-color
+  if (step.zoneFocus !== undefined) {
+    const override = {};
+    if (step.zoneFocus !== null) {
+      // Mark this zone as active and add to REVEALED set
+      REVEALED.add(step.zoneFocus);
+      [1,2,3,4].forEach(z => {
+        if (z === step.zoneFocus) override[z] = 'active';
+        else if (REVEALED.has(z)) override[z] = 'revealed';
+        else override[z] = 'idle';
+      });
+    } else {
+      // No active zone — show all revealed in their persistent state
+      [1,2,3,4].forEach(z => {
+        override[z] = REVEALED.has(z) ? 'revealed' : 'idle';
+      });
+    }
+    applyZoneStates(override, { warning: !!step.warning });
+  }
+
+  // Sonar pulse on zone reveals
+  if (step.sonarPulse && step.camera.center) {
+    // Wait briefly so camera is in motion before pulse fires
+    setTimeout(() => sonarPulseAt(step.camera.center, { warning: !!step.warning }), 600);
+  }
+
+  // Routes
+  if (step.routes !== undefined && step.routes !== 'keep') {
+    if (Array.isArray(step.routes) && step.routes.length === 0) hideRoutes();
+    else showRoutes(step.routes);
+  }
+
+  // B-roll badge
+  updateBrollBadge(!!step.brollMoment, step.brollText);
+
+  // Overlay
+  const overlayStep = resolveOverlay(idx);
+  showOverlay(overlayStep);
+
+  updateJumpNavActive(step.time);
+}
+
+function resolveOverlay(idx) {
+  for (let i = idx; i >= 0; i--) {
+    if (SEQUENCE[i].overlay && SEQUENCE[i].overlay !== 'keep') return SEQUENCE[i];
+  }
+  return SEQUENCE[0];
+}
+
+// --- PLAYBACK ---------------------------------------------------------------
+const audio = document.getElementById('voiceover');
+let audioReady = false;
+let running = false;
+let timerStart = 0;
+let timerOffset = 0;
+
+audio.addEventListener('canplay', () => {
+  audioReady = true;
+  els.audioState.textContent = '● audio ready';
+  els.audioState.style.color = '#10b981';
+});
+audio.addEventListener('error', () => {
+  audioReady = false;
+  els.audioState.textContent = '• timer mode (drop audio/master.mp3)';
+  els.audioState.style.color = '#94a3b8';
+});
+
+function fmt(sec) {
+  const m = Math.floor(sec / 60), s = Math.floor(sec % 60);
+  return `${m}:${s.toString().padStart(2,'0')}`;
+}
+
+function elapsed() {
+  if (audioReady && !audio.paused) return audio.currentTime;
+  if (audioReady && audio.paused && audio.currentTime > 0) return audio.currentTime;
+  if (!running) return timerOffset;
+  return timerOffset + (performance.now() - timerStart) / 1000;
+}
+
+function tick() {
+  if (!running) return;
+  const e = elapsed();
+  els.timer.textContent = `${fmt(e)} / ${fmt(TOTAL_DURATION)}`;
+  els.progressFill.style.width = Math.min(100, (e / TOTAL_DURATION) * 100) + '%';
+  let newIdx = 0;
+  for (let i = SEQUENCE.length - 1; i >= 0; i--) {
+    if (e >= SEQUENCE[i].time) { newIdx = i; break; }
+  }
+  if (newIdx !== currentSceneIdx) playScene(newIdx);
+  if (e >= TOTAL_DURATION) { stop(); return; }
+  requestAnimationFrame(tick);
+}
+
+function start() {
+  if (audioReady) audio.play().catch(err => console.warn('audio play failed', err));
+  else timerStart = performance.now();
+  running = true;
+  requestAnimationFrame(tick);
+}
+
+function pause() {
+  if (audioReady) audio.pause();
+  else timerOffset = elapsed();
+  running = false;
+}
+
+function stop() {
+  pause();
+  if (audioReady) audio.currentTime = 0;
+  timerOffset = 0;
+  currentSceneIdx = -1;
+  REVEALED.clear();
+  hideAll();
+  hideRoutes();
+  updateBrollBadge(false);
+  applyZoneStates({});
+  els.hudSection.textContent = 'READY';
+  els.timer.textContent = `0:00 / ${fmt(TOTAL_DURATION)}`;
+  els.progressFill.style.width = '0%';
+  map.flyTo({ center: COORDS.templeCenter, zoom: 9.8, pitch: 40, bearing: 0, duration: 2000 });
+}
+
+function jumpTo(sec) {
+  if (audioReady) audio.currentTime = sec;
+  else { timerOffset = sec; timerStart = performance.now(); }
+  // Rebuild REVEALED set based on jump target
+  REVEALED.clear();
+  SEQUENCE.forEach(s => {
+    if (s.time <= sec && s.zoneFocus && s.zoneFocus !== null) REVEALED.add(s.zoneFocus);
+  });
+  currentSceneIdx = -1;
+  let newIdx = 0;
+  for (let i = SEQUENCE.length - 1; i >= 0; i--) {
+    if (sec >= SEQUENCE[i].time) { newIdx = i; break; }
+  }
+  playScene(newIdx);
+  if (!running) running = true;
+  requestAnimationFrame(tick);
+  if (audioReady && audio.paused) audio.play().catch(() => {});
+}
+
+function updateJumpNavActive(currentTime) {
+  const buttons = document.querySelectorAll('#jumpNav button');
+  let activeIdx = 0;
+  buttons.forEach((btn, i) => {
+    const t = parseFloat(btn.dataset.jump);
+    if (currentTime >= t) activeIdx = i;
+  });
+  buttons.forEach((btn, i) => btn.classList.toggle('active', i === activeIdx));
+}
+
+// --- HANDLERS ---------------------------------------------------------------
+document.getElementById('startBtn').addEventListener('click', start);
+document.getElementById('pauseBtn').addEventListener('click', pause);
+document.getElementById('restartBtn').addEventListener('click', stop);
+document.getElementById('cleanBtn').addEventListener('click', () => document.body.classList.toggle('clean'));
+document.querySelectorAll('#jumpNav button').forEach(btn => {
+  btn.addEventListener('click', () => jumpTo(parseFloat(btn.dataset.jump)));
+});
+
+document.addEventListener('keydown', (e) => {
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+  if (e.key === ' ')        { e.preventDefault(); running ? pause() : start(); }
+  else if (e.key === 'r' || e.key === 'R') { e.preventDefault(); stop(); }
+  else if (e.key === 'c' || e.key === 'C') { e.preventDefault(); document.body.classList.toggle('clean'); }
+  else if (e.key === 'l' || e.key === 'L') { e.preventDefault(); const lg = document.getElementById('anchorLegend'); lg.style.display = lg.style.display === 'none' ? 'block' : 'none'; }
+  else if (e.key === 'g' || e.key === 'G') { e.preventDefault(); document.body.classList.toggle('no-grain'); }
+  else if (e.key === 'v' || e.key === 'V') { e.preventDefault(); document.body.classList.toggle('no-vignette'); }
+  else if (e.key >= '1' && e.key <= '4') {
+    e.preventDefault();
+    const zoneTimes = { '1': 74, '2': 451, '3': 785, '4': 915 };
+    jumpTo(zoneTimes[e.key]);
+  }
+});
+
+if (new URLSearchParams(location.search).get('clean') === '1') document.body.classList.add('clean');
+if (new URLSearchParams(location.search).get('grain') === '0')  document.body.classList.add('no-grain');
+if (new URLSearchParams(location.search).get('vignette') === '0') document.body.classList.add('no-vignette');
+
+window.TEMPLE_TOUR_V3 = { map, COORDS, ANCHORS, ZONES, SEQUENCE, jumpTo, showRoutes, hideRoutes, sonarPulseAt };
+</script>
+</body>
+</html>
