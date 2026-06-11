@@ -10,7 +10,10 @@
 
 # ⭐ 3 HOOK VARIANTS (pick one for the first ~16 seconds)
 
-**Hook 1 — Contrarian / Georgetown [RECOMMENDED]:**
+**Hook 1 — Contrarian / Georgetown, quantified [RECOMMENDED — sharpened 2026-06-11]:**
+> "A lot of Texas retirement advice points you to Georgetown's Sun City. I'm going to make the case for the city 35 minutes north where the median home costs about $150,000 less and the Level I trauma center is in town — Temple — and then give you the one honest reason you might still pick Georgetown."
+
+**Hook 1 original (softer, no numbers):**
 > "A lot of Texas retirement advice points you to Georgetown's Sun City. I'm going to make the case for the city about 35 minutes north that rarely gets marketed as a retirement town — Temple — and then give you the one honest reason you might still pick Georgetown."
 
 **Hook 2 — Healthcare-led:**
@@ -58,7 +61,7 @@ Now the money, because Texas does two things most states don't. First — no sta
 
 **[3:14–3:59 — MONEY: COST + COMPARISON. GRAPHIC: comparison card "Temple vs Georgetown (verify medians)."]**
 
-Now stack that on top of home prices, and the price gap becomes hard to ignore. The median home in Temple has been running around 255 thousand; Georgetown's closer to 425; Fredericksburg is higher still — verify those the month you actually shop, because they move. A median isn't the same house, so compare honestly: age, condition, lot, HOA, tax district. But in the same budget, you typically get more home in Temple — *and* you've got that Level I trauma center in town. For Level I adult trauma, Georgetown is tied into the Austin and Round Rock network up the road.
+Now stack that on top of home prices, and the price gap becomes hard to ignore. The median home in Temple has been running around 274 thousand; Georgetown's closer to 425; Fredericksburg is higher still — verify those the month you actually shop, because they move. A median isn't the same house, so compare honestly: age, condition, lot, HOA, tax district. But in the same budget, you typically get more home in Temple — *and* you've got that Level I trauma center in town. For Level I adult trauma, Georgetown is tied into the Austin and Round Rock network up the road.
 
 **[beat]** A retired couple's monthly cost here lands in a wide range depending on whether you carry a mortgage, but it's well below the Austin metro. Build your own budget from the real line items — payment or cash, taxes, insurance, HOA, utilities, healthcare, transportation.
 
@@ -82,6 +85,8 @@ Let me make this concrete. My own parents are looking at retiring here, from Man
 
 **[beat]** And the real reason most people land here? Family. A lot of folks come to be near kids and grandkids who already work at Baylor Scott & White or out at Fort Hood. Close enough to visit daily, affordable enough to buy outright or with a small mortgage, and the hospital's right there for peace of mind.
 
+**[beat — optional, only if pacing allows]** One more honest option while we're at it: if you want more of a village feel and your budget stretches past half a million, Salado — fifteen minutes south — is Bell County's upscale answer, with acreage and a walkable Main Street. Different price tier entirely; I've got a full Salado breakdown linked below if that's closer to what you're picturing.
+
 **[7:09–7:55 — VERDICT + CTA (closes the hook loop). Talking head, confident close. LOWER-THIRD: page URL.]**
 
 So here's my verdict, and it ties right back to where we started. If you want that resort-style retirement — the master-planned community, the activities director — then take this as permission to go look hard at Georgetown. But if you put healthcare, cost, and family first, Temple is the better fit, and most retirees I meet are in that second group. Figure out which one you are before you start looking — that single decision saves you a lot of second-guessing later.
@@ -99,7 +104,7 @@ So here's my verdict, and it ties right back to where we started. If you want th
 - **HEALTHCARE:** Real fear = not the golf course, it's needing a hospital fast. BSW = Level I trauma center, *by their own designation* the only one on I-35 Dallas↔Austin, 600+ beds (verify exact), 30+ specialties one campus. Hub → specialists are HERE. Timing depends on insurance/referral/specialty — call your doctors. VA hospital (Olin E. Teague) in town → dual access; for many veterans THE reason.
 - **PULL-QUOTE (deliver verbatim — your real line):** Came for the hospital, stayed for the cost of living. The ones who leave came for cost, left from boredom. = the whole decision.
 - **TAXES:** No state income tax — worth depends on income mix/old state, run w/ CPA, but thousands/yr for high-tax-state movers. Over-65 school-tax freeze: school taxes capped at the year-you-turn-65 amount as value rises + extra over-65 exemptions. NO exact savings number on camera (depends on rate/value/current exemptions — they change); run real numbers w/ Bell CAD. Freeze transfers but proportional + filing deadline — ask appraisal district which certificate, file the year you move or lose it.
-- **COST/COMPARISON:** Median ~$255K Temple vs ~$425K Georgetown vs higher Fredericksburg (VERIFY the month you shop). Median ≠ same house — compare age/condition/lot/HOA/tax district. Same budget → more home + Level I in town (Georgetown ties into Austin/Round Rock for Level I trauma). Build own budget from real line items.
+- **COST/COMPARISON:** Median ~$274K Temple vs ~$425K Georgetown vs higher Fredericksburg (VERIFY the month you shop). Median ≠ same house — compare age/condition/lot/HOA/tax district. Same budget → more home + Level I in town (Georgetown ties into Austin/Round Rock for Level I trauma). Build own budget from real line items.
 - **HOUSING:** Pattern: want acreage, narrow to newer single-story once roof/foundation/HVAC math hits. Fixed income → $15K foundation / $12K roof = budget-breaker. 2018+ may still carry part of builder/structural warranty + modern HVAC + accessible — verify the docs. Criteria > neighborhood-by-demographic: hospital distance, single-story inventory, HOA, lot size, system age, trail/lake. Bella Terra & Lake Pointe (newer/low-maint/near hospital); Three Creeks (lake trails); Canyon Creek (bigger lots/mature trees). Match home to criteria.
 - **WHO SHOULD NOT (the promised payoff — prominent):** THE BIG ONE = no Sun City *equivalent* (large master-planned 55+ resort ecosystem); Temple HAS senior-living/apartment options — check them — but not the resort ecosystem. Resort lifestyle = the one reason → go to Georgetown, say it. Smaller catches: (a) brutal summers, mid-upper 90s, electric climbs; (b) car-dependent — Uber + micro-transit exist but not Austin-level, test your routes; (c) verify true continuing-care/CCRC licensing before committing — ecosystem not built out like Georgetown/Austin; matters most solo.
 - **TAYLOR'S TAKE:** Parents from Mansfield. Similar budget = meaningfully more home here; healthcare comparable/better (Level I). Tradeoff = dining/shows → Austin ~1hr. Biggest driver = family near BSW / Fort Hood kids & grandkids.
@@ -111,11 +116,24 @@ So here's my verdict, and it ties right back to where we started. If you want th
 # ⚠️ STATS TO RE-VERIFY DAY-OF (flagged by the Codex cross-lab critic)
 
 1. **BSW bed count** — script says "more than 600 beds" (safe). Live page says 636; BSW's current materials may say ~640. Confirm BSW's current language if you want to state a specific number on a graphic.
-2. **The over-65 transfer FORM** — script names NO form number on camera (says "ask the appraisal district which certificate to file") — keep it that way. ✅ VERIFIED vs the TX Comptroller (2026-06-07): **Form 50-132 is the Notice of Protest, NOT the transfer form.** The correct one is **Form 50-272 (School Tax Ceiling Certificate, Age 65+)**. Source files corrected; the **live-page fix is queued in `AMPLIFY-2026-06-07.md` §0** (pending the next Codex pass).
-3. **Median home prices** — Temple ~$255K / Georgetown ~$425K / Fredericksburg ~$490K+. Re-pull before filming; the script says "verify the month you shop."
+2. **The over-65 transfer FORM** — script names NO form number on camera (says "ask the appraisal district which certificate to file") — keep it that way. ✅ VERIFIED vs the TX Comptroller (2026-06-07): **Form 50-132 is the Notice of Protest, NOT the transfer form.** The correct one is **Form 50-272 (School Tax Ceiling Certificate, Age 65+)**. **Status 2026-06-11:** live-page VISIBLE text is fixed (3× 50-272); ONE residual 50-132 remains in the FAQ JSON-LD injected from the AgentFire SEO schema field (not page content — needs a 2-min wp-admin edit, on the Codex list).
+3. **Median home prices** — Temple **~$274K** (june-01 MLS pull, trailing-12-mo median — updated 2026-06-11 from the stale ~$255K) / Georgetown ~$425K / Fredericksburg ~$490K+. Re-pull before filming; the script says "verify the month you shop."
 4. **Over-65 exemption amounts** — TX exemption amounts changed recently. Don't put a specific savings number on a graphic without confirming current amounts (script keeps it off-camera).
 5. **Specialist wait times** — the ~2–3 wk vs 4–6 wk Austin comparison is kept OFF-camera as a hard claim (framed as "specialists are here / timing depends on your situation"). Don't state the numbers as fact.
 6. **"Fort Hood" (CORRECTED)** — Taylor's standing rule: ALWAYS say "Fort Hood," never "Fort Cavazos," regardless of the official rename. The Codex critic had swapped in "Fort Cavazos"; reverted to "Fort Hood" in the script (lines 83, 105). Keep the live page as "Fort Hood."
+
+---
+
+# ✂️ SHORTS CUTS (3 self-contained verticals — film in the same session; added 2026-06-11)
+
+**Short 1 — "The $150K retirement mistake" (30–40s, contrarian/money — the proven format)**
+Hook: "Texas retirement advice keeps sending people to Georgetown. That advice costs about $150,000." → the Temple-vs-Georgetown median beat (~$274K vs ~$425K, "verify the month you shop") → "and the Level I trauma center? It's in Temple, not Georgetown." → CTA: full breakdown pinned.
+
+**Short 2 — "The tax freeze nobody files" (35–45s, money/PSA)**
+Hook: "Texas will freeze your school taxes at 65 — and almost nobody files the second form when they move." → freeze beat (script 2:12 section, compressed) → the transfer-deadline warning ("proportional, not dollar-for-dollar, and there's a deadline — ask the appraisal district which certificate") → CTA.
+
+**Short 3 — "Who should NOT retire in Temple" (40–50s, honest-negative — highest trust density)**
+Straight lift of the 4:59–6:14 section: no Sun City equivalent → if resort-style is the picture, Georgetown is genuinely better → brutal summers + car-dependent + CCRC caveat. CTA: "the full honest version is on the channel."
 
 ---
 
