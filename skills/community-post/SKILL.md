@@ -81,7 +81,7 @@ Save to `output/YYYY-WXX/community/[topic-slug].md`
 - Polls should map to the 4 personas (investor, military, medical, luxury) when possible
 - Hook must be specific: a number, a neighborhood name, a tax figure, a price point
 - No agent speak — no "dream home," "charming," "nestled," "white glove," "turnkey"
-- Never use "Fort Cavazos" — always "Fort Hood" (name reverted July 2025)
+- Never use "Fort Hood" — always "Fort Hood" (name reverted July 2025)
 - Never use "turnkey investors" — always "buy-and-hold"
 - Post 2-3x per week between video uploads for maximum organic reach
 - Community posts are the #1 free organic growth hack on YouTube — they surface to non-subscribers in Home and Explore feeds

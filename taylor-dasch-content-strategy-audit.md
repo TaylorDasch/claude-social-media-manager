@@ -39,7 +39,7 @@
 **What's Missing (Gaps in Your 91 Titles)**
 
 - No "cost of living" comparison video against Austin using exact dollar figures
-- No Fort Cavazos/military-specific title despite BAH data you have
+- No Fort Hood/military-specific title despite BAH data you have
 - No "data center effect" or "Meta/Rowan development" angle tying catalysts to appreciation
 - No DSCR loan explainer (Investing channel)
 - No "Belton vs Temple" head-to-head for buyers
@@ -78,7 +78,7 @@ Drawn from analysis of Ken Pozek (Orlando, ~65K subs), Jackson Wilkey's Living i
 
 3. **"Belton vs Temple TX: The Honest Verdict for First-Time Buyers"** — Your Belton ISD content outperforms; this funnels buyers choosing between the two.
 
-4. **"Fort Cavazos BAH in 2026: What You Can Actually Afford in Temple TX"** — Military families using BAH of $1,695–$2,070 are an underserved search pool.
+4. **"Fort Hood BAH in 2026: What You Can Actually Afford in Temple TX"** — Military families using BAH of $1,695–$2,070 are an underserved search pool.
 
 5. **"7 Temple TX Neighborhoods Ranked (Worst to Best for Families)"** — List format with payoff hook; generates session depth as viewers watch to #1.
 
@@ -166,7 +166,7 @@ Based on analysis from Channel Junkies (Jackson Wilkey), Ken Pozek's growth jour
 
 2. **"Vlog of the city" format** — Not polished studio content. Filming while driving through neighborhoods, at new construction sites, at the BSW campus parking lot during shift change. Authenticity outperforms production by 31% in retention metrics, per [2026 TikTok algorithm analysis](https://opus.pro/blog/tiktoks-new-algorithm-2026).
 
-3. **Playlist architecture** — Every video should land in at least one playlist. Create playlists around: First-Time Buyers | New Construction | BSW/Medical | Military/Fort Cavazos | Neighborhoods Under $300K | Market Updates. This drives Session Contribution scores.
+3. **Playlist architecture** — Every video should land in at least one playlist. Create playlists around: First-Time Buyers | New Construction | BSW/Medical | Military/Fort Hood | Neighborhoods Under $300K | Market Updates. This drives Session Contribution scores.
 
 4. **Early CTA placement** — Move your CTA to appear between 90–120 seconds into the video (not at the end). Ken Pozek's data shows this placement converts at 3–4x the end-of-video CTA rate.
 
@@ -351,7 +351,7 @@ These are queries where templetxhomes.net likely has no dedicated page or your Y
 |---|-------|-------------|-----------------|
 | 1 | "cost of living Temple TX vs Austin" | Detailed comparison page + video | Living in Temple YouTube |
 | 2 | "BSW Temple TX where to live" | Neighborhood guide for medical staff | Living in Temple YouTube + Blog page |
-| 3 | "Fort Cavazos BAH 2026 Temple TX" | Military buyer guide with BAH table | Living in Temple YouTube + Blog |
+| 3 | "Fort Hood BAH 2026 Temple TX" | Military buyer guide with BAH table | Living in Temple YouTube + Blog |
 | 4 | "Temple TX crime rate by neighborhood" | Data-driven safety breakdown | Living in Temple YouTube |
 | 5 | "DSCR loan Texas investment property" | Investor explainer with Temple examples | Investing in Temple YouTube |
 | 6 | "Temple TX property tax rate 2026" | Tax explainer with exemptions | Blog + Investor Brief newsletter |
@@ -387,7 +387,7 @@ STRUCTURE EVERY PAGE LIKE THIS:
 **YouTube Description Structure for AI Citation**
 
 Open every video description with a paragraph that reads like a Wikipedia excerpt:
-> "Temple, Texas (population 96,267, Bell County) is a rapidly growing Central Texas city located 65 miles north of Austin on I-35. As of March 2026, the median home price is $270,000, with strong demand from Baylor Scott & White Medical Center (8,884 employees) and Fort Cavazos (59,695 personnel). Key economic catalysts include the $700M Rowan Data Center and $800M Meta facility."
+> "Temple, Texas (population 96,267, Bell County) is a rapidly growing Central Texas city located 65 miles north of Austin on I-35. As of March 2026, the median home price is $270,000, with strong demand from Baylor Scott & White Medical Center (8,884 employees) and Fort Hood (59,695 personnel). Key economic catalysts include the $700M Rowan Data Center and $800M Meta facility."
 
 This exact text will get scraped and cited by AI engines. Every video that has this block contributes to your entity authority.
 
@@ -564,7 +564,7 @@ At $300/month, you cannot run multiple campaign types. Focus 100% on one objecti
 | **Week 1 (Apr 7–11)** | 1. Install FAQPage + Article schema on your top 5 templetxhomes.net pages. Validate with Google Rich Results Test. 2. Set up UTM tracking links for both YouTube channels in every description. 3. Create Opus Clip account and auto-clip your last 5 best-performing videos into Shorts. |
 | **Week 2 (Apr 14–18)** | 1. Publish: "BSW Nurses: Every Neighborhood Within 15 Minutes of the Hospital" (Living in Temple). 2. Launch YouTube Shorts cadence: 1 Short per day Mon–Fri from existing content. 3. Rewrite your 3 lowest-CTR video titles using the price-specific formula. |
 | **Week 3 (Apr 21–25)** | 1. Publish: "The DSCR Loan Playbook for Temple TX Investors" (Investing in Temple). 2. Activate Beehiiv referral program with the "Temple TX Investor Calculator" reward. 3. Set up unique phone numbers (Grasshopper) for each YouTube channel for attribution. |
-| **Week 4 (Apr 28–May 2)** | 1. Publish: "Commuting from Temple TX to Austin: Is the 45-Minute Drive Worth It?" (Living in Temple). 2. Retitle and optimize your top 5 Investing in Temple videos using compression formula. 3. Create a YouTube playlist for "First-Time Buyers" and "Military/Fort Cavazos" — place existing videos inside. |
+| **Week 4 (Apr 28–May 2)** | 1. Publish: "Commuting from Temple TX to Austin: Is the 45-Minute Drive Worth It?" (Living in Temple). 2. Retitle and optimize your top 5 Investing in Temple videos using compression formula. 3. Create a YouTube playlist for "First-Time Buyers" and "Military/Fort Hood" — place existing videos inside. |
 
 ### May 2026: Content Velocity & SEO Infrastructure
 
@@ -581,7 +581,7 @@ At $300/month, you cannot run multiple campaign types. Focus 100% on one objecti
 |------|----------------|
 | **Week 9 (Jun 2–6)** | 1. Launch $10/day YouTube ad campaign geo-targeting Austin, Dallas, Houston zip codes with your top retention video as creative. 2. Publish: "7 Temple TX Neighborhoods Ranked (Worst to Best for Families)" (Living in Temple). 3. Create "off-market deal alert" email segment within Investor Brief — start growing this list. |
 | **Week 10 (Jun 9–13)** | 1. Publish: "Bell County Off-Market Deal Finding: My System for 2026" (Investing). 2. Upgrade schema on all templetxhomes.net blog pages to include Author schema with sameAs (LinkedIn, BiggerPockets, YouTube). 3. Query ChatGPT and Perplexity: "Who are the top real estate experts in Temple TX?" — verify you're being cited. If not, identify which pages need more direct-answer content. |
-| **Week 11 (Jun 16–20)** | 1. Publish: "Fort Cavazos BAH 2026: What You Can Actually Afford in Temple TX" (Living in Temple). 2. Evaluate TikTok progress: if any video hits 10K views, double TikTok posting frequency. 3. Launch a biweekly YouTube Community post rhythm. |
+| **Week 11 (Jun 16–20)** | 1. Publish: "Fort Hood BAH 2026: What You Can Actually Afford in Temple TX" (Living in Temple). 2. Evaluate TikTok progress: if any video hits 10K views, double TikTok posting frequency. 3. Launch a biweekly YouTube Community post rhythm. |
 | **Week 12 (Jun 23–27)** | 1. Q2 audit: review YouTube analytics for New Viewer Attraction rate (goal: 50%+), top 3 traffic sources, and best-performing title formulas. 2. Publish Q2 review newsletter issue — share your numbers with subscribers (transparency builds trust and referrals). 3. Set Q3 targets: subscriber goals for both channels, newsletter growth rate, YouTube ad CPL. |
 
 ---

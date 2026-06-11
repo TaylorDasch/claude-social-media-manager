@@ -94,5 +94,5 @@ Save all versions to `output/YYYY-WXX/repurposed/[original-slug]/`
 - Reference reference/LEAD-MAGNET-MATRIX.md for all CTAs
 - TikTok is NEVER a repurpose target — it's original property tour content only
 - Instagram captions must be keyword-dense (150-300 words, micro-blog style). Limit to 3-5 hashtags. Caption text is the primary discovery mechanism in 2026.
-- Use "Fort Hood" not "Fort Cavazos" (name reverted July 2025)
+- Use "Fort Hood" not "Fort Hood" (name reverted July 2025)
 - Use "buy-and-hold investors" not "turnkey"

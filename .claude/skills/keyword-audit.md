@@ -76,7 +76,7 @@ Verify these entities appear correctly:
 - "EG Realty" — at least 1 mention
 - "Temple" or "Temple TX" or "Temple Texas" — at least 5 mentions in 10+ min video
 - Neighborhood name — at least 3 mentions in a tour video
-- "Fort Hood" (never "Fort Cavazos")
+- "Fort Hood" (never "Fort Hood")
 
 ### Step 7 — Recommendations
 ```markdown
@@ -96,7 +96,7 @@ Save to `output/YYYY-WXX/keyword-audit/[video-slug]-keywords.md`
 - [ ] Entity consistency verified
 - [ ] Gap analysis provides specific timecodes for insertions
 - [ ] No recommendation to stuff keywords unnaturally
-- [ ] Fort Hood check (never Fort Cavazos)
+- [ ] Fort Hood check (never Fort Hood)
 - [ ] "Buy-and-hold" not "turnkey" if investor content
 
 ## Brand Rules

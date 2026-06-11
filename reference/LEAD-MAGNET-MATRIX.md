@@ -12,19 +12,57 @@ When generating any content (video scripts, descriptions, blog posts, social cap
 
 ## INVESTOR PERSONA
 
-**Lead Magnet:** Temple TX Deal Analyzer Spreadsheet
-- Pre-loaded with Bell County tax rates, insurance estimates, and Taylor's investment zone map
-- **CTA (YouTube):** "Grab the exact spreadsheet I use to underwrite Temple deals — link in the description."
-- **CTA (TikTok):** "Comment SPREADSHEET and I'll DM you the template."
+**Lead Magnet:** Temple Rental Pro Forma Template
+- Static HTML worksheet for underwriting Temple/Belton rentals against taxes, insurance, repairs, vacancy, rent demand, and strategy fit
+- **Local Source:** `/Users/taylordasch_1/real-estate-redefined/lead-magnets/investor/temple-rental-pro-forma-template.html`
+- **Local PDF:** `/Users/taylordasch_1/real-estate-redefined/lead-magnets/investor/temple-rental-pro-forma-template.pdf`
+- **LIVE LINKS:**
+  - AgentFire: https://assets.agentfire3.com/uploads/sites/2128/2026/05/temple-rental-pro-forma-template.pdf
+- **CTA (YouTube):** "Grab the rental pro forma I use to sanity-check Temple deals — link in the description."
+- **CTA (TikTok):** "Comment PROFORMA and I'll DM you the worksheet."
 - **CTA (Blog):** Download button with email capture form
-- **CTA (Newsletter):** "Reply ANALYZER and I'll send it over."
-- **Pinned Comment:** "Want the DSCR calculator I used in this video? Grab it here: [LINK]"
-- **DM Keyword:** SPREADSHEET, DEALS, ANALYZER
+- **CTA (Newsletter):** "Reply PROFORMA and I'll send it over."
+- **Pinned Comment:** "Want the worksheet I use before calling a Temple rental a deal? Grab it here: https://assets.agentfire3.com/uploads/sites/2128/2026/05/temple-rental-pro-forma-template.pdf"
+- **DM Keyword:** PROFORMA, DEALS, ANALYZER, RENTAL
 
 **Secondary Magnet:** 2026 Temple Investment Playbook
 - Market data, neighborhood breakdown, cap rate ranges, buy box criteria
 - **CTA:** "Comment PLAYBOOK for the full Temple investment breakdown."
 - **DM Keyword:** PLAYBOOK
+
+---
+
+## FAMILY RELOCATOR PERSONA (Temple vs Belton)
+
+**Lead Magnet:** Belton vs Temple Family Decision Guide
+- School district, commute, tax stack, overlap-zone, and neighborhood-fit worksheet for families choosing between Temple and Belton
+- **Local Source:** `/Users/taylordasch_1/real-estate-redefined/lead-magnets/relocator/belton-vs-temple-family-decision-guide.html`
+- **Local PDF:** `/Users/taylordasch_1/real-estate-redefined/lead-magnets/relocator/belton-vs-temple-family-decision-guide.pdf`
+- **LIVE LINKS:**
+  - AgentFire: https://assets.agentfire3.com/uploads/sites/2128/2026/05/belton-vs-temple-family-decision-guide.pdf
+- **CTA (YouTube):** "I built a Belton vs Temple family decision guide with the tax, school, and commute tradeoffs — link below."
+- **CTA (TikTok):** "Comment BELTON and I'll DM you the family decision guide."
+- **CTA (Blog):** Download button after the school/tax comparison section
+- **CTA (Newsletter):** "Reply BELTON and I'll send the Temple vs Belton guide."
+- **Pinned Comment:** "Moving to Bell County? Use this before choosing Belton or Temple: https://assets.agentfire3.com/uploads/sites/2128/2026/05/belton-vs-temple-family-decision-guide.pdf"
+- **DM Keyword:** BELTON, TEMPLE, FAMILY, SCHOOLS
+
+---
+
+## NEW CONSTRUCTION BUYER PERSONA
+
+**Lead Magnet:** Temple Belton Builder Scorecard
+- 12-point worksheet for comparing builder warranty, incentives, lender terms, inspection risk, tax stack, and resale fit
+- **Local Source:** `/Users/taylordasch_1/real-estate-redefined/lead-magnets/new-build/temple-belton-builder-scorecard.html`
+- **Local PDF:** `/Users/taylordasch_1/real-estate-redefined/lead-magnets/new-build/temple-belton-builder-scorecard.pdf`
+- **LIVE LINKS:**
+  - AgentFire: https://assets.agentfire3.com/uploads/sites/2128/2026/05/temple-belton-builder-scorecard.pdf
+- **CTA (YouTube):** "Before you tour model homes, grab my 12-point Temple builder scorecard — link below."
+- **CTA (TikTok):** "Comment BUILDER and I'll DM you the scorecard."
+- **CTA (Blog):** Download button near builder comparison tables
+- **CTA (Newsletter):** "Reply BUILDER and I'll send the scorecard."
+- **Pinned Comment:** "Comparing Temple/Belton builders? Score them before you sign: https://assets.agentfire3.com/uploads/sites/2128/2026/05/temple-belton-builder-scorecard.pdf"
+- **DM Keyword:** BUILDER, NEWBUILD, SCORECARD, WARRANTY
 
 ---
 
@@ -106,8 +144,10 @@ When generating any content (video scripts, descriptions, blog posts, social cap
 
 | Lead Magnet | Built? | Hosted? | Links |
 |-------------|--------|---------|-------|
-| Deal Analyzer Spreadsheet | ? | ? | -- |
+| Temple Rental Pro Forma Template | YES | YES | [AgentFire](https://assets.agentfire3.com/uploads/sites/2128/2026/05/temple-rental-pro-forma-template.pdf) / HTML + PDF in `/Users/taylordasch_1/real-estate-redefined/lead-magnets/investor/` |
 | Investment Playbook | ? | ? | -- |
+| Belton vs Temple Family Decision Guide | YES | YES | [AgentFire](https://assets.agentfire3.com/uploads/sites/2128/2026/05/belton-vs-temple-family-decision-guide.pdf) / HTML + PDF in `/Users/taylordasch_1/real-estate-redefined/lead-magnets/relocator/` |
+| Temple Belton Builder Scorecard | YES | YES | [AgentFire](https://assets.agentfire3.com/uploads/sites/2128/2026/05/temple-belton-builder-scorecard.pdf) / HTML + PDF in `/Users/taylordasch_1/real-estate-redefined/lead-magnets/new-build/` |
 | Fort Hood PCS Housing Guide | YES | YES | [AgentFire](https://assets.agentfire3.com/uploads/sites/2128/2026/04/fort-hood-pcs-housing-guide.pdf) / [Drive](https://drive.google.com/file/d/11t1BRnay-LNJFhnCHkLLZM0XpcDZDJUF/view?usp=drive_link) |
 | BSW Relocation Guide | YES | YES | [AgentFire](https://assets.agentfire3.com/uploads/sites/2128/2026/04/BSW-Temple-Relocation-Guide.pdf) / [Drive](https://drive.google.com/file/d/10V-3_80adxWVMF6OJDIMozAqonbrIwC_/view?usp=drive_link) |
 | BSW Commute Map | ? | ? | -- |

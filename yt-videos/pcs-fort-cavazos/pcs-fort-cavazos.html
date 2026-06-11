@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>PCS to Fort Cavazos — Why Temple Wins</title>
+<title>PCS to Fort Hood — Why Temple Wins</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.js"></script>
 <link href="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.css" rel="stylesheet">
@@ -85,7 +85,7 @@
 </div>
 
 <div class="hook-container fadeable" id="hookOverlay">
-  <div class="hook-title">PCS TO<br>FORT CAVAZOS</div>
+  <div class="hook-title">PCS TO<br>FORT HOOD</div>
   <div class="hook-subtitle">Why Temple Beats Killeen · 2026</div>
   <div class="hook-hook" id="hookLine"></div>
 </div>
@@ -121,7 +121,7 @@
   <div class="cta-contact">
     Taylor Dasch · EG Realty · VA Loan familiar<br>
     <strong>254-718-4249</strong> · templetxhomes.net<br>
-    <span style="color:#fbbf24">Free Fort Cavazos → Temple PCS guide ↓</span>
+    <span style="color:#fbbf24">Free Fort Hood → Temple PCS guide ↓</span>
   </div>
 </div>
 
@@ -130,7 +130,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoidGF5bG9yZGFzY2giLCJhIjoiY21sam1sZXRjMDFjdDNlb
 
 // --- COORDINATES (verify if any feel off) ------------------------------------
 const COORDS = {
-  // Fort Cavazos main gate (Killeen)
+  // Fort Hood main gate (Killeen)
   cavazosGate:      [-97.7590, 31.1350],
   cavazosCenter:    [-97.7800, 31.1900],
 
@@ -155,11 +155,11 @@ const COORDS = {
 
 // --- SEQUENCE ----------------------------------------------------------------
 const SEQUENCE = [
-  // HOOK — over Fort Cavazos gate
+  // HOOK — over Fort Hood gate
   { section:'HOOK', camera:{center:COORDS.cavazosGate, zoom:14, pitch:60, bearing:60, duration:2},
     overlay:'hook', hookLine:'"Your $2,000 BAH gets you 1985 in Killeen. Or 2024 in Temple. Let me show you."' },
 
-  // Framework — zoom out showing Cavazos → Temple corridor
+  // Framework — zoom out showing Fort Hood → Temple corridor
   { section:'THE FRAMEWORK', camera:{center:[-97.55,31.12], zoom:10, pitch:55, bearing:75, duration:6}, overlay:'none' },
 
   // Commute path visualization
@@ -191,7 +191,7 @@ const SEQUENCE = [
   { section:'TEMPLE · LAKE POINTE', camera:{center:COORDS.lakePointe, zoom:14.8, pitch:70, bearing:270, duration:4},
     overlay:'prices', prices:[
       {n:'Lake Pointe', p:'$220K – $350K', note:'$142/sqft · Belton ISD · lake access'},
-      {n:'Commute to Cavazos', p:'~27 min', note:'I-14 / US-190 corridor'},
+      {n:'Commute to Fort Hood', p:'~27 min', note:'I-14 / US-190 corridor'},
       {n:'VA loan friendly', p:'0% down', note:'Most builders accept VA'},
     ] },
 
@@ -219,7 +219,7 @@ const SEQUENCE = [
   { section:'TEMPLE · GROVES AT LAKEWOOD RANCH', camera:{center:COORDS.grovesLakewoodRanch, zoom:14.7, pitch:70, bearing:180, duration:4},
     overlay:'prices', prices:[
       {n:'Groves at Lakewood Ranch', p:'$320K – $450K', note:'Belton ISD · family-heavy zone'},
-      {n:'Commute to Cavazos', p:'~25 min', note:'Direct shot via US-190'},
+      {n:'Commute to Fort Hood', p:'~25 min', note:'Direct shot via US-190'},
     ] },
 
   // School district angle
@@ -270,7 +270,7 @@ map.on('load', () => {
   map.addLayer({ id:'3d-buildings', source:'composite', 'source-layer':'building', filter:['==','extrude','true'], type:'fill-extrusion', minzoom:13,
     paint:{ 'fill-extrusion-color':'#cbd5e1', 'fill-extrusion-height':['get','height'], 'fill-extrusion-base':['get','min_height'], 'fill-extrusion-opacity':0.9 } });
 
-  // Cavazos → Temple commute path line
+  // Fort Hood → Temple commute path line
   map.addSource('commutePath', {
     type:'geojson',
     data:{ type:'Feature', geometry:{ type:'LineString', coordinates:[

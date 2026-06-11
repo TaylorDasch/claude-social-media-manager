@@ -179,8 +179,8 @@ Match the video's persona and topic to a lead magnet from `reference/LEAD-MAGNET
 
 | Check | Rule |
 |-------|------|
-| Banned words | No "turnkey", "dream home", "charming", "nestled", "white glove", "Fort Cavazos", "approximately", "around" (when exact data exists) |
-| Fort Hood | Always "Fort Hood" never "Fort Cavazos" (name reverted July 2025) |
+| Banned words | No "turnkey", "dream home", "charming", "nestled", "white glove", "Fort Hood", "approximately", "around" (when exact data exists) |
+| Fort Hood | Always "Fort Hood" never "Fort Hood" (name reverted July 2025) |
 | Investor language | "Buy-and-hold investors" not "turnkey investors" |
 | Specific numbers | Every data point is exact — no "approximately $250K" when "$247,500" was said |
 | Entity consistency | "Taylor Dasch" + "EG Realty" + "Temple, TX" — same every time, matching research/AEO-DIRECTIVES.md |

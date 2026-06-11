@@ -167,7 +167,7 @@ Save all sections to `yt-videos/[slug]/` as:
 - [ ] No title duplication with existing catalogs
 - [ ] CTA placement follows the CTA map (no CTA before 2:00)
 - [ ] Every overlay uses brand colors
-- [ ] Fort Hood (not Fort Cavazos), buy-and-hold (not turnkey)
+- [ ] Fort Hood (not Fort Hood), buy-and-hold (not turnkey)
 
 ## Brand Rules
 - 7-second rule: visual or audio change every 7 seconds minimum

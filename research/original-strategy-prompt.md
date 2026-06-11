@@ -447,7 +447,7 @@ Post 15-30 minutes BEFORE these times so the video is indexed when audience logs
 
 \- BAH E-6 with dependents \= $1,920/month (tax-free)
 
-\- Content focus: buying vs renting on base, commute logistics Temple/Belton to Cavazos, wealth accumulation by retaining property as rental
+\- Content focus: buying vs renting on base, commute logistics Temple/Belton to Fort Hood, wealth accumulation by retaining property as rental
 
 \- DM script: "Thanks for checking out the video on the Fort Hood area. Are you actively prepping for a PCS move, or just browsing? I have a digital relocation guide with commute times and BAH rates. Happy to send it to your email."
 
@@ -949,7 +949,7 @@ Example: $700M Rowan data center →
 
 \- Convert to Spark Ads using best-performing organic video
 
-\- Target by ZIP codes: 76501, 76502, 76504, 76508 (Temple); 76541-76544 (Killeen/Cavazos)
+\- Target by ZIP codes: 76501, 76502, 76504, 76508 (Temple); 76541-76544 (Killeen/Fort Hood)
 
 \- Behavioral targeting: users who engaged with RE content last 15 days
 

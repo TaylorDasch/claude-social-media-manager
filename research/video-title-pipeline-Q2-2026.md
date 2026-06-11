@@ -89,3 +89,16 @@ Based on Taylor's lead source data (YouTube = $7.5K, BSW = #1 audience, Military
 | Authority + Pain | "[Credential] reveals [truth]" | "5 Fatal Mistakes OOS Investors Make" |
 | List + Payoff | "[N] [Things] — Wait Until #[N]" | NEW — not yet used |
 | Novelty/Update | "What's Actually Happening [Month Year]" | Market update videos |
+
+---
+
+## Series Idea — "Top 3 Neighborhoods at Every Price Point" (Price-Ladder Series)
+
+**Added 2026-05-26 (Taylor's call).** Systematic price-laddered relocation series for the Living in Temple channel. One video per budget tier; each names the **top 3 Temple neighborhoods at that price point** by MLS-verified closed-sale volume (trailing 365 days, Temple-only).
+
+- **Tiers:** $250K · $300K · $400K · $500K · $600K+ (extend up as inventory supports).
+- **Formula:** Price-Specific + List (Taylor's 3.1x pattern). Each tier video chains to the next ($300K viewers → $400K) for session depth.
+- **AEO lock:** pair each with the matching price-band page (e.g. /homes-for-sale-temple-tx-under-300k/) — video + page.
+- **Anti-dup:** distinct from "Best Neighborhoods ($150K–$500K+)" (one ranked video) and "What $300K Buys" (trade-off framework). This is a REPEATABLE per-tier top-3 format, not a one-off.
+- **Data source:** market-monitor `closed-temple-belton-0-365.csv` → top-3 subdivisions by closed volume within each tier.
+- **Status:** $300K tier effectively in production now (council run 2026-05-26). Build $250K and $400K next.

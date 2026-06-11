@@ -166,7 +166,7 @@ Save to: `output/YYYY-WXX/tiktok/[property-address-slug].md`
 
 5. **No investor content on TikTok.** No cap rates, no cash-on-cash, no rental comps, no "great investment property" angles. Investors stay on YouTube. If the property is objectively an investment play, find the owner-occupant angle instead.
 
-6. **Use "Fort Hood" not "Fort Cavazos."** Name reverted July 2025. This applies to all talking points, captions, and hashtags.
+6. **Use "Fort Hood" not "Fort Hood."** Name reverted July 2025. This applies to all talking points, captions, and hashtags.
 
 7. **Use "buy-and-hold investors" not "turnkey."** Unlikely to come up since no investor content on TikTok, but if referencing in any context, use the correct term.
 
@@ -193,4 +193,4 @@ Before delivering the prep sheet:
 - [ ] Quick-reference table has every stop in one scannable line
 - [ ] Persona overlay has real data (commute times, BAH figures, school names)
 - [ ] Total tour stops: 5-8 (not fewer, not more)
-- [ ] "Fort Hood" used (never "Fort Cavazos")
+- [ ] "Fort Hood" used (never "Fort Hood")

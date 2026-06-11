@@ -26,7 +26,7 @@ With TWO channels kept separate (corrected from original consolidation recommend
 - **Investing in Temple TX = bi-weekly or event-driven.** Film investor content when you have a real deal to analyze, not on a calendar. One long-form every 2 weeks maximum, 1 short per week. Acts as top-of-funnel for BiggerPockets ($9K proven channel).
 - **Unequal cadence is the solution.** Trying to post equally on both = the "half-weak, half-weak" trap. Weight the buyer channel because buyer YouTube search converts faster; let the investor channel run at a sustainable pace.
 - **Anchor loop: "Neighborhood + Dollar Bracket" weekly series** on Living. Proven winner in Taylor's own data (Cimmaron 3.1x, Lake Pointe 2.6x).
-- **Military househack = new high-ROI bucket on Investing.** Opens a massive underserved audience (young Fort Cavazos soldiers with BAH + VA loan).
+- **Military househack = new high-ROI bucket on Investing.** Opens a massive underserved audience (young Fort Hood soldiers with BAH + VA loan).
 
 **Meta-finding:** Your real problem is "consistency of deal flow," not "YouTube reach." The YouTube answer is evergreen Living videos that generate leads while you sleep — not investor content churn that educates your competitors.
 
@@ -78,7 +78,7 @@ Ranked by YouTube opportunity = search demand × lead quality × local moat × c
 
 | Rank | Audience | Search Demand | Lead Quality | Local Moat | Convert Speed |
 |------|----------|---------------|--------------|------------|---------------|
-| 1 | **Fort Cavazos military relocators** | High/predictable | High (PCS = deadline) | Very high | Fast (60-120 days) |
+| 1 | **Fort Hood military relocators** | High/predictable | High (PCS = deadline) | Very high | Fast (60-120 days) |
 | 2 | **BSW medical relocators** | Growing, underserved | Very high (price point) | Very high (Stark Law blocks institutional referrals) | Moderate |
 | 3 | **General Temple relocators** (non-military, non-BSW) | Moderate | Moderate-high | Very high | Moderate (90-180 days) |
 | 4 | **Out-of-state buy-and-hold investors** | High (investor-broad) | Variable (lumpy) | Medium (competitive space) | Slow (6-12 months, then multi-deal) |
@@ -96,7 +96,7 @@ Ranked by YouTube opportunity = search demand × lead quality × local moat × c
 |--------|---|-------|
 | Neighborhood tours (dollar-bracketed) | 35% | 18 |
 | **BSW relocators (dedicated flagship slots)** | **18%** | **9** |
-| Military / Fort Cavazos | 15% | 8 |
+| Military / Fort Hood | 15% | 8 |
 | General relocation (non-BSW, non-military) | 12% | 6 |
 | Comparison videos (Temple vs X) | 10% | 5 |
 | New construction (buyer critique) | 5% | 3 |
@@ -154,7 +154,7 @@ Ranked by YouTube opportunity = search demand × lead quality × local moat × c
 - moving to Temple TX with family
 - best neighborhoods in Temple TX
 - Temple TX neighborhoods ranked
-- Fort Cavazos housing (keep "Fort Hood housing" variants — still heavily searched)
+- Fort Hood housing (keep "Fort Hood housing" variants — still heavily searched)
 - best neighborhoods near BSW Temple
 - [Neighborhood name] Temple TX (one per neighborhood)
 - Temple TX vs Belton
@@ -173,11 +173,11 @@ Ranked by YouTube opportunity = search demand × lead quality × local moat × c
 
 ### Tier 3 — Experimental
 - VA loan Temple TX
-- PCS to Fort Cavazos
+- PCS to Fort Hood
 - BSW physician housing Temple
 - **househacking Killeen TX** (new — very low competition)
 - **VA loan duplex Killeen** (new)
-- **BAH househack Fort Cavazos** (new)
+- **BAH househack Fort Hood** (new)
 
 ### Title patterns that work
 - `[Price Point] Homes in [Location] — What You Actually Get`
@@ -191,7 +191,7 @@ Ranked by YouTube opportunity = search demand × lead quality × local moat × c
 ### What competitors miss
 - Specific dollar amounts in titles (most use "affordable" — you use "$385K")
 - Honest negatives in title/thumbnail ("2 Neighborhoods I'd Skip")
-- Commute times as primary selling point (BSW, Fort Cavazos, industrial corridor)
+- Commute times as primary selling point (BSW, Fort Hood, industrial corridor)
 - Tax-rate-by-neighborhood breakdowns
 - Foundation-risk and drainage commentary (analyst voice)
 - Military househack math (nobody covers this)
@@ -234,7 +234,7 @@ Five things only you can produce:
 
 ### Lead magnet pairing
 - Neighborhood tour → neighborhood-specific PDF (comps, schools, commute, tax rate)
-- Military content → Fort Cavazos Relocation Starter Kit
+- Military content → Fort Hood Relocation Starter Kit
 - Investor content → Temple Rental Pro Forma template
 - **Military househack content → VA Loan Househacker's Playbook (Bell County specifics)**
 - Comparison video → two-city decision PDF
@@ -254,7 +254,7 @@ Email capture > Calendly call > direct message. Every description, pinned commen
 | 1 | Moving to Temple TX in 2026 — The Honest Complete Guide (pillar) | HIGH |
 | 2 | Temple TX Neighborhood Guide — All 18 Ranked | HIGH |
 | 3 | **Where BSW Doctors Actually Live in Temple — Mapped, Timed, Ranked** | HIGH |
-| 4 | Fort Cavazos to Temple TX — PCS Family's Housing Guide | HIGH |
+| 4 | Fort Hood to Temple TX — PCS Family's Housing Guide | HIGH |
 | 5 | $400K Homes in Temple TX — What You Actually Get | HIGH |
 | 6 | **BSW Physicians: 3 Neighborhoods That Make Sense, 2 That Don't** | HIGH |
 | 7 | Belton vs Temple TX — Which One Actually Fits Your Family (city flagship #1) | HIGH |
@@ -270,7 +270,7 @@ Email capture > Calendly call > direct message. Every description, pinned commen
 |---|-------|--------|
 | 1 | **House Hacking in Killeen with a VA Loan — The Actual Math** (pillar) | HIGH |
 | 2 | 5 Rental Properties I'd Buy in Temple Right Now — The Actual Math | HIGH |
-| 3 | **How a Fort Cavazos Soldier Can Own a Rental with $0 Down** | HIGH |
+| 3 | **How a Fort Hood Soldier Can Own a Rental with $0 Down** | HIGH |
 | 4 | The South Temple Investment Zone — Which Streets Cash Flow | HIGH |
 | 5 | **Killeen Duplex Tour — $285K, VA Loan Eligible, $2,400/mo Rent** | MED-HIGH |
 | 6 | Bell County Tax for Investors — The Hidden 2.366% Nobody Explains | MED |
@@ -283,7 +283,7 @@ Email capture > Calendly call > direct message. Every description, pinned commen
 3. 3 streets I'd never buy on in Temple (lifestyle framing)
 4. BSW commute times by neighborhood (compiled)
 5. Tax rates by neighborhood — they're NOT all the same
-6. Fort Cavazos VA loan — the 3 mistakes agents make
+6. Fort Hood VA loan — the 3 mistakes agents make
 7. Where BSW doctors actually live
 8. Military family asked me where to buy — my answer
 9. Best breakfast near BSW for doctors on call
@@ -328,7 +328,7 @@ Email capture > Calendly call > direct message. Every description, pinned commen
 - **Data hook:** "Median home price in [Neighborhood] is [$X]. Here's what that actually gets you. I'm Taylor Dasch with EG Realty."
 - **Contrarian hook:** "Everyone says [common belief]. After [X] transactions in this market, I disagree. Taylor Dasch, EG Realty."
 - **Insider hook:** "If I was moving to Temple with [specific situation], here are the [N] neighborhoods I'd look at. I'm Taylor Dasch — I live here and I invest here."
-- **Deadline hook (military):** "If you just got orders to Fort Cavazos, the first thing you need to know is [X]. Taylor Dasch, EG Realty."
+- **Deadline hook (military):** "If you just got orders to Fort Hood, the first thing you need to know is [X]. Taylor Dasch, EG Realty."
 
 ### Title patterns
 - `[Price] Homes in [Location] — What You Actually Get`
@@ -344,7 +344,7 @@ Email capture > Calendly call > direct message. Every description, pinned commen
 ## 12. AI Visibility Layer
 
 1. **Speak in full declarative sentences.** Transcripts get crawled. "Temple, Texas is home to Baylor Scott & White, which employs approximately 7,800 people" is AI-indexable.
-2. **Hit specific entities by name, repeatedly.** "Baylor Scott & White," "Fort Cavazos," "Bell County," "EG Realty," "Taylor Dasch" — every video.
+2. **Hit specific entities by name, repeatedly.** "Baylor Scott & White," "Fort Hood," "Bell County," "EG Realty," "Taylor Dasch" — every video.
 3. **Answer-first structure in video + description.**
 4. **Description template:**
    - Line 1: Answer/hook with a number
@@ -428,7 +428,7 @@ Email capture > Calendly call > direct message. Every description, pinned commen
 |--------|-----------|
 | Deserves flagship? | **YES, but military-first framing, not generic** |
 | Reason to exist | Killeen search traffic is huge, but generic "Living in Killeen" competes with 50 videos. Military-truth-focused competes with very few. |
-| Best framing | "Moving to Killeen TX — What Fort Cavazos Doesn't Tell You About Housing" |
+| Best framing | "Moving to Killeen TX — What Fort Hood Doesn't Tell You About Housing" |
 | Cadence | **One-and-done pillar + military househack content on Investing refreshes the audience signal.** Refresh every 18-24 months. |
 | Lead quality | MIXED — high volume, lower price points, higher turnover. Household hack investor side = real ROI. |
 | Risk | Medium. Killeen has reputational baggage (crime stats, transience). Saying it = credibility. Dodging = generic. |
@@ -438,7 +438,7 @@ Email capture > Calendly call > direct message. Every description, pinned commen
 | Factor | Assessment |
 |--------|-----------|
 | Deserves flagship? | **YES — as a SHARP comparison, not a standalone "Living in"** |
-| Reason to exist | HH sits between Killeen and Belton — military officers and upper-middle families pick it specifically to escape Killeen while staying near Fort Cavazos. That tradeoff IS the story. |
+| Reason to exist | HH sits between Killeen and Belton — military officers and upper-middle families pick it specifically to escape Killeen while staying near Fort Hood. That tradeoff IS the story. |
 | Best framing | "Harker Heights vs Killeen — Where Military Officers Actually Live" |
 | Cadence | **One-and-done flagship + light refresh every 2-3 years** |
 | Lead quality | HIGH — officers, DoD civilians, upper-middle dual-income |
@@ -461,7 +461,7 @@ Email capture > Calendly call > direct message. Every description, pinned commen
 |-------|----------|---------|
 | Month 1 | Moving to Temple TX in 2026 — The Honest Complete Guide | Living |
 | Month 2 | **Belton vs Temple TX — Which Fits Your Family** (flagship #1) | Living |
-| Month 4 | **Moving to Killeen TX — What Fort Cavazos Doesn't Tell You** (flagship #2) | Living |
+| Month 4 | **Moving to Killeen TX — What Fort Hood Doesn't Tell You** (flagship #2) | Living |
 | Month 6 | **Harker Heights vs Killeen — Where Officers Actually Live** (flagship #3) | Living |
 | Month 9 | **Moving to Salado TX — Who It's For and Who It's Not** (flagship #4) | Living |
 | Month 12 | Temple TX 2027 Update (annual pillar refresh) | Living |
@@ -472,7 +472,7 @@ Email capture > Calendly call > direct message. Every description, pinned commen
 ## Clean List — Exact City Pillar Videos + Cadence
 
 1. **Belton:** "Belton vs Temple TX — Which One Actually Fits Your Family?" → **Refresh annually.** Tier-1 priority flagship #1.
-2. **Killeen:** "Moving to Killeen TX — What Fort Cavazos Doesn't Tell You" → **One-and-done, refresh every 18-24 months.** Feeds military househack content.
+2. **Killeen:** "Moving to Killeen TX — What Fort Hood Doesn't Tell You" → **One-and-done, refresh every 18-24 months.** Feeds military househack content.
 3. **Harker Heights:** "Harker Heights vs Killeen — Where Officers Actually Live" → **One-and-done, light refresh every 2-3 years.**
 4. **Salado:** "Moving to Salado TX — Who It's For and Who It's Not" → **One-and-done, refresh every 3-5 years.** Prestige play; judge by revenue per viewer.
 
@@ -572,7 +572,7 @@ Email capture > Calendly call > direct message. Every description, pinned commen
 > "If you're choosing between Belton and Temple, here are the three family situations where Belton is the clear answer — and two where Temple still wins. I'm Taylor Dasch, EG Realty. I work this market every week."
 
 ### First 30 seconds
-> "I'm not here to tell you Belton is better or Temple is better. I'm here to give you the decision framework I give relocating families every single week. In this video: the real differences in schools, commute times to BSW and Fort Cavazos, what lot sizes and home prices actually look like in each, the small-town vs hospital-town lifestyle split, and the two family types who should stay in Temple even when everyone's telling them Belton is the move. Let's go."
+> "I'm not here to tell you Belton is better or Temple is better. I'm here to give you the decision framework I give relocating families every single week. In this video: the real differences in schools, commute times to BSW and Fort Hood, what lot sizes and home prices actually look like in each, the small-town vs hospital-town lifestyle split, and the two family types who should stay in Temple even when everyone's telling them Belton is the move. Let's go."
 
 ### Chapter structure
 
@@ -581,7 +581,7 @@ Email capture > Calendly call > direct message. Every description, pinned commen
 | 0:00-0:30 | Hook + setup | Name, brand, promise |
 | 0:30-2:00 | Honest snapshot | Population, job base, price ranges side-by-side |
 | 2:00-3:30 | Schools | Belton ISD vs Temple ISD ratings, zoning traps, feeder patterns |
-| 3:30-5:00 | Commute | Belton→BSW, Belton→Fort Cavazos, Temple→BSW, Temple→Fort Cavazos, Austin |
+| 3:30-5:00 | Commute | Belton→BSW, Belton→Fort Hood, Temple→BSW, Temple→Fort Hood, Austin |
 | 5:00-6:30 | Homes + lot sizes + $ | Direct comparison at $400K, $500K, $600K |
 | 6:30-8:00 | Lifestyle | Downtown Belton vs Temple revitalization, lake, church/community, football |
 | 8:00-9:30 | 3 family types who should choose Belton | Case profiles |
@@ -678,7 +678,7 @@ Belton vs Temple TX family decision PDF (free): [link]
 ### FAQ-style subtopics (spoken aloud = AI-citation bait)
 1. "Is Belton ISD better than Temple ISD?"
 2. "How far is Belton from BSW Hospital?"
-3. "How far is Belton from Fort Cavazos?"
+3. "How far is Belton from Fort Hood?"
 4. "What's the property tax rate in Belton vs Temple?"
 5. "Is Belton more expensive than Temple?"
 6. "What's the commute from Belton to Austin?"
@@ -709,7 +709,7 @@ Belton vs Temple TX family decision PDF (free): [link]
 - Side-by-side snapshot (population, median price, ISD rating)
 - Property tax breakdown by zone
 - School feeder maps
-- Commute table (Belton and Temple → BSW, Fort Cavazos, Austin, Waco)
+- Commute table (Belton and Temple → BSW, Fort Hood, Austin, Waco)
 - Taylor's neighborhood shortlist per priority profile
 - 5-question decision checklist
 - Taylor's contact
@@ -769,7 +769,7 @@ Belton vs Temple TX family decision PDF (free): [link]
 "If you're choosing between Belton and Temple, here are the three family situations where Belton is the clear answer — and two where Temple still wins. I'm Taylor Dasch, EG Realty. I work this market every week."
 
 *[0:08 — drone or B-roll of both cities]*
-"I'm not here to tell you Belton is better or Temple is better. I'm here to give you the decision framework I give relocating families every single week. In this video: schools, commute to BSW and Fort Cavazos, lot sizes and home prices at the same budget in each city, lifestyle, and the two family types who should stay in Temple even when everyone's telling them Belton is the move."
+"I'm not here to tell you Belton is better or Temple is better. I'm here to give you the decision framework I give relocating families every single week. In this video: schools, commute to BSW and Fort Hood, lot sizes and home prices at the same budget in each city, lifestyle, and the two family types who should stay in Temple even when everyone's telling them Belton is the move."
 
 *[0:28 — transition]*
 "Let's start with the honest snapshot."
@@ -781,7 +781,7 @@ Belton vs Temple TX family decision PDF (free): [link]
 | 0:00-0:30 | Hook + setup | Name, brand, promise, what video covers |
 | 0:30-2:00 | Honest snapshot | Population, job base, price ranges side-by-side, visual chart |
 | 2:00-3:30 | Schools | Belton ISD vs Temple ISD (cite TEA, Niche), zoning traps, feeder patterns |
-| 3:30-5:00 | Commute | Table: Belton→BSW, Belton→Fort Cavazos, Temple→BSW, Temple→Fort Cavazos, both→Austin. Name specific routes. |
+| 3:30-5:00 | Commute | Table: Belton→BSW, Belton→Fort Hood, Temple→BSW, Temple→Fort Hood, both→Austin. Name specific routes. |
 | 5:00-6:30 | Homes + lot sizes + $ | $400K, $500K, $600K in each. Name neighborhoods: Belton (Summit, Homestead, White Rock, older downtown), Temple (Canyon Creek, Alta Vista, Westfield, Lake Pointe) |
 | 6:30-8:00 | Lifestyle | Downtown Belton vs Temple revitalization, Stillhouse Lake, football + church, restaurants |
 | 8:00-9:30 | 3 Belton family types | Case 1: young family, stay-at-home parent, school-first. Case 2: Austin transplant wanting small-town. Case 3: lake-life family. |
@@ -820,7 +820,7 @@ If you're relocating to Bell County, Texas and deciding between Belton and Templ
 
 In this video:
 • Belton ISD vs Temple ISD — ratings and zoning traps
-• Commute from both cities to BSW Hospital, Fort Cavazos, and Austin
+• Commute from both cities to BSW Hospital, Fort Hood, and Austin
 • Home prices and lot sizes at $400K, $500K, and $600K
 • Downtown Belton vs Temple's revitalization
 • Stillhouse Lake access and lifestyle tradeoffs
@@ -833,7 +833,7 @@ Chapters:
 0:00 The decision framework
 0:30 Belton vs Temple — the honest snapshot
 2:00 Schools: Belton ISD vs Temple ISD
-3:30 Commute: BSW, Fort Cavazos, Austin
+3:30 Commute: BSW, Fort Hood, Austin
 5:00 Homes and lot sizes at your budget
 6:30 Lifestyle, downtown, and lake access
 8:00 3 family types who should choose Belton
@@ -842,7 +842,7 @@ Chapters:
 12:00 Your next step
 
 About Taylor:
-Taylor Dasch is a real estate agent with EG Realty in Temple, Texas. He serves Temple, Belton, Killeen, Harker Heights, Salado, and Bell County families — with deep expertise in relocation, BSW physician moves, Fort Cavazos military families, and investor buyers.
+Taylor Dasch is a real estate agent with EG Realty in Temple, Texas. He serves Temple, Belton, Killeen, Harker Heights, Salado, and Bell County families — with deep expertise in relocation, BSW physician moves, Fort Hood military families, and investor buyers.
 
 Connect:
 Email: taylor@egrealty.com
@@ -869,7 +869,7 @@ Common questions answered in this video:
 0:00 The decision framework
 0:30 Belton vs Temple honest snapshot
 2:00 Schools — Belton ISD vs Temple ISD
-3:30 The commute chapter — BSW, Fort Cavazos, Austin
+3:30 The commute chapter — BSW, Fort Hood, Austin
 5:00 Homes and lot sizes at $400K, $500K, $600K
 6:30 Lifestyle, downtown, and lake access
 8:00 3 family types who should choose Belton
@@ -882,7 +882,7 @@ Common questions answered in this video:
 
 1. "Is Belton ISD better than Temple ISD?"
 2. "How far is Belton from BSW Hospital?"
-3. "How far is Belton from Fort Cavazos?"
+3. "How far is Belton from Fort Hood?"
 4. "What's the property tax rate difference between Belton and Temple?"
 5. "Is Belton cheaper than Temple for the same size home?"
 6. "What's the commute from Belton to Austin?"

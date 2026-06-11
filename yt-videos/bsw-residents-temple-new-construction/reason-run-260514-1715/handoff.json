@@ -1,0 +1,68 @@
+{
+  "version": "1.0",
+  "tool": "reason",
+  "generated_at": "2026-05-14T17:30:00-05:00",
+  "task": "Living in Temple flagship video — BSW residents and Temple new construction representation",
+  "domain": "content",
+  "mode": "convergent",
+  "summary": {
+    "rounds_run": 2,
+    "converged": true,
+    "consecutive_wins": 2,
+    "oscillation_detected": false,
+    "final_winner": "AB'",
+    "reason_score": 86.7
+  },
+  "converged_candidate": {
+    "ship_files": [
+      "../script.md",
+      "../titles-thumbnails.md",
+      "../description-pinned.md",
+      "../shot-list.md",
+      "../shorts.md"
+    ],
+    "source_file": "r2-candidate-AB.md",
+    "script_word_count": 1485,
+    "script_runtime_target": "9:10",
+    "won_in_round": 2,
+    "vote_margin": "5-0",
+    "consecutive_wins": 2
+  },
+  "lineage_path": "reason-run-260514-1715/reason-lineage.jsonl",
+  "critique_themes": [
+    "Hook-to-payoff timing — direct answer must precede credentials",
+    "Verbatim deflection scripts — viewer needs memorizable lines, not narrated explanations",
+    "Defensible data anchors — single-subdivision specificity beats aggregate counts for survival of fact-check",
+    "Parallel lender categories — asymmetric naming reads as pitch funnel",
+    "Cut markers in script — editor needs cued intercuts for retention",
+    "Mid-roll CTAs at 2:30 and 5:45 — single back-stacked CTA loses the 3-6 min bounce cohort",
+    "Residency-to-closing timing math — PGY-1 July start must drive contract sign date",
+    "Toured-without-1502 recovery — 30-day window + post-30-day legal/compliance posture",
+    "Registration handcuff + procuring-cause naming — sign-in desk trap viewers must avoid",
+    "Hook-to-close structural symmetry — 60-second-move anchor must callback at close",
+    "Banned-word audit — final must pass with zero hits",
+    "Lane discipline — BSW buyer only, no investor pivots, no military mixing"
+  ],
+  "quality_signals": {
+    "critic_fatals_addressed": 2,
+    "judge_consensus_final_round": 1.0,
+    "quality_delta": 0.39,
+    "banned_word_audit": "PASS",
+    "lane_discipline_audit": "PASS",
+    "legal_framework_defensibility": "PASS — RESPA 8, TREC 535.148, TREC 535.155, DTPA 17.46 all correctly named; Stark Law correction (42 USC 1395nn) statutorily accurate"
+  },
+  "production_blockers": [
+    "Verify Calendly URL (https://calendly.com/dealswithdasch/bsw-new-construction-call) — placeholder, may need swap",
+    "Re-pull Temple MLS 24h before shoot to confirm 1484/468/145/$40M numbers still defensible",
+    "Confirm Matt Levant at Acre Mortgage contact still active for PGY income-recognition program",
+    "Confirm current TREC Form 1502 number with EG Realty brokerage compliance",
+    "Verify Builder Scorecard landing page is live at the UTM-tagged URL",
+    "Secure generic location (community center / EG Realty office / rented space) — NOT a builder sales office"
+  ],
+  "honest_limits": [
+    "5 judges are Claude personas, not independent minds — 5-0 reflects rigor-disciplined consensus, not external validation",
+    "Single-pass adversarial loop cannot stress-test against actual viewer behavior — first 48 hours of analytics will reveal whether the hook-to-close architecture actually holds retention as predicted",
+    "Legal framework references are accurate but informational only — Texas attorney consultation required for any specific transaction questions",
+    "Specific BSW resident demographics (age, family status, dual-income share) are inferred from typical PGY cohorts — actual audience may skew differently"
+  ]
+}

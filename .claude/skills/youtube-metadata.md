@@ -114,7 +114,7 @@ Single markdown file with all sections clearly labeled. Save to `output/YYYY-WXX
 - [ ] Pinned comment includes lead magnet + phone number
 - [ ] No banned words (governance/QUALITY-GATES.md Gate 1)
 - [ ] Chapter markers formatted as questions where possible
-- [ ] Fort Hood (never Fort Cavazos)
+- [ ] Fort Hood (never Fort Hood)
 - [ ] Buy-and-hold (never turnkey)
 
 ## Brand Rules

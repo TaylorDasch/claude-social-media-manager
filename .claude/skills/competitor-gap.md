@@ -117,7 +117,7 @@ Save to `output/audits/competitor-gap-YYYY-MM-DD.md`
 - Data-first differentiation: Taylor has MLS/CAD/PropStream access
 - Honesty differentiation: competitors avoid negatives, Taylor includes them
 - Never salesy framing in recommendations
-- Fort Hood (not Fort Cavazos)
+- Fort Hood (not Fort Hood)
 
 ## IMPORTANT: Manual Input Needed
 This skill requires Taylor to provide:

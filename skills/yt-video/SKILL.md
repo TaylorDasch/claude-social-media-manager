@@ -190,7 +190,7 @@ yt-videos/[video-slug]/
 
 ## Quality Gate
 Before delivering, verify:
-- [ ] No banned words (turnkey, dream home, charming, nestled, white glove, Fort Cavazos)
+- [ ] No banned words (turnkey, dream home, charming, nestled, white glove, Fort Hood)
 - [ ] All data points are specific — no "approximately" or "around"
 - [ ] Entity declaration included in script
 - [ ] At least one Scars & All moment in the outline

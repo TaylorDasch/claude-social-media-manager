@@ -1,6 +1,70 @@
 # YOUTUBE GROWTH PLAYBOOK — Real Estate / Hyperlocal
 ## Reference for skills that generate YouTube metadata, plan content, or suggest topics
-## Updated: March 2026
+## Updated: May 2026 (Sherrard insights integrated)
+
+---
+
+## ⭐ THE PRIORITY ORDER (Most Agents Get This Backwards)
+
+The reverse-priority truth most agents miss:
+
+| Priority | Element | Why |
+|----------|---------|-----|
+| 1 | Thumbnail + Title | If nobody clicks, value never gets consumed. ~80% of CTR is here. |
+| 2 | Hook (0–30 sec) | Determines if the click stays. Decides AVD. |
+| 3 | Early CTA (right after hook) | ~70% of viewers see this vs ~30% who see end CTA → ~2.5× lead conversion. |
+| 4 | Body / value content | Most agents spend 80% of time here. It's priority 4. |
+| 5 | Editing polish | Raw + authentic now outperforms polished. Don't over-edit. |
+
+**Practical:** Spend script time on Title, Thumbnail, Hook, and CTA placement — not on B-roll stacks or transitions. A modest video with a great thumbnail + hook + early CTA prints leads for years. A great video with a weak thumbnail dies.
+
+---
+
+## 2026 ALGORITHM RULES (Updated)
+
+1. **Early CTAs win.** Place primary CTA right after the hook (~0:30–1:00 mark), not at the end. End-of-video CTAs only reach the ~30% who watch through; post-hook CTAs reach ~70%.
+2. **Repetition compounds, novelty doesn't.** YouTube rewards channels that repeatedly cover one cluster (neighborhood tours, market updates, etc.). "Won't this look repetitive?" → no, it builds topical authority. Resist the urge to chase new niches.
+3. **Hyperlocal > broad city.** A "Lake Pointe Temple TX" video outperforms a "Temple TX" video for lead quality. Niche down to neighborhood / zip / school district whenever possible.
+4. **Raw beats polished.** Heavy editing, B-roll stacks, and text-overlay decoration are no longer rewarded (that was 2021–2024). Talking-head + screen-share + minimal cuts is the new ideal. Less polish = more output + better algorithm signal.
+5. **Small channels are tested faster.** YouTube now pushes new uploads from sub-5k channels to more viewers faster than established channels to keep them on the platform. The "I'm too late" excuse is dead.
+6. **AI is the production teammate.** Hooks, scripts, thumbnails, SEO. Manual ideation without AI is now a disadvantage.
+
+---
+
+## ⭐ THE 5 CONTENT PILLARS (Lead-Generating Mix)
+
+Every real estate channel should run all 5 pillars in the first 3 months, then double-down on whichever pillar produces the best leads in your market. Pillar tag goes in every registry entry so we can read pillar performance against lead data.
+
+| # | Pillar | Lead Type | Evergreen? | Example Title |
+|---|--------|-----------|------------|---------------|
+| 1 | **Relocation** | Buyer leads (highest volume, fastest to close) | High | "Moving to Temple TX in 2026 — What to Know" |
+| 2 | **Market Updates** | Seller leads (controls "is now a good time to sell" narrative) | No — monthly refresh | "Temple TX Housing Market — May 2026 Update" |
+| 3 | **Neighborhood Deep Dives** | Mixed buyer/seller, highest LTV; long-tail SEO + Google AI surface | Years | "Lake Pointe vs Westfield — Which Is Better?" |
+| 4 | **Home Tours** | Mostly seller leads (proves marketing capability); some buyer | Medium | "What $400K Buys You in Temple TX (Full Tour)" |
+| 5 | **Lifestyle & Community** | Top-of-funnel; the 99% not in-market today (1–5 year window) | High | "Best Restaurants in Temple TX 2026" |
+
+**Pillar rotation rules:**
+- Never run 2 consecutive videos from the same pillar (already enforced in QUALITY-GATES Gate 12).
+- Pillars #3 and #5 are evergreen flywheels — print leads for years from a single recording.
+- Pillar #2 (market updates) is the only non-evergreen pillar but is the strongest **seller-lead** producer. Run ≥1/month per channel.
+- Pillar #4 (home tours) doubles as a listing-presentation asset — "this is the marketing your listing will get."
+- Pillar #5 (lifestyle/community) is the most ignored by competing agents → cheapest market to win.
+
+**Channel split (cross-reference with social-media-config.json):**
+- **Living in Temple** (buyers/relocators): Pillars 1, 3, 4, 5
+- **Investing in Temple** (investors): Pillars 2 (investor framing), 3, 4 (investor-focused tours) + Deal of the Week (custom format)
+
+---
+
+## WATCH TIME (AVD) BENCHMARKS
+
+- **<25% AVD** — Hook broken or video too long. Re-cut.
+- **25–30% AVD** — Below algorithm reward threshold. Tolerable for older videos.
+- **30–40% AVD** — Good. Algorithm starts pushing.
+- **40%+ AVD** — Excellent. YouTube recommends aggressively.
+- **50%+ AVD** — Tentpole. Build the next 3 videos around the same hook structure.
+
+Pull retention curve in YouTube Studio after 7 days. The biggest drops are the moments to fix in the next video. Don't repeat what dropped retention; replicate what held it.
 
 ---
 
@@ -118,12 +182,64 @@ I've closed $27M+ in transactions and completed 100+ personal investment deals a
 
 ---
 
-## END SCREEN + CARDS
+## END SCREEN HANDOFF (Drives Session Time — Most Under-Used Lever)
 
-- Every video gets an end screen: subscribe button + next video recommendation
-- Cards at relevant moments (mention BSW → card to BSW video, mention investing → card to investing video)
-- NEVER put a card in the first 30 seconds (kills retention)
-- Cross-promote between channels: Living in Temple video mentions investment potential → card to Investing in Temple video
+End screens are the most under-utilized YouTube lever for real estate agents. YouTube rewards channels that keep viewers ON YouTube — a handoff to your own video beats losing them to a competitor.
+
+**The wrong way (what most agents do):** "Thanks for watching, please like and subscribe!"
+**The right way:** Curiosity tease into the most logically-related next video on your channel.
+
+### Verbal handoff template (script in last 20–30 seconds):
+> "We covered [TOPIC of this video], but if you're [TARGET ACTION — e.g., actually moving to Temple, analyzing a rental], the next thing you need to know is [TOPIC of recommended video] — and there's one piece of that most people miss. I broke the whole thing down in this video right here. Click it and I'll walk you through it."
+
+### Pairing rules (pick the next video based on logical funnel step):
+- Pros/cons of [neighborhood] → cost of living in [neighborhood]
+- Market update → neighborhood deep dive matching the trend
+- Deal of the Week → "how to analyze a Temple rental in 5 minutes"
+- BSW relocation → physician loan explainer
+- Home tour at $X → home tour at $X + $50K (price-ladder up)
+- "Where NOT to invest" → "Where I'd actually buy right now"
+
+### Configuration in YouTube Studio:
+- Add end-screen element pointing to the specific recommended video (not "best for viewer" auto-pick).
+- Verbal handoff at ~30 sec before cut; end-screen element visible from -20 sec.
+- NEVER put a card element in the first 30 seconds (kills retention).
+- Cross-promote between Taylor's two channels when topic crosses lanes (Living → Investing or vice versa).
+
+### Why this matters more than likes/subscribes:
+- A "like" generates nothing. A handoff click extends session time → YouTube reads the channel as sticky → boosts the original video AND all subsequent uploads.
+- Track in YouTube Studio: "Click-through rate from end screens" per video; <3% = re-script the handoff, >8% = excellent.
+
+---
+
+## THUMBNAIL ANATOMY (The #1 Click Driver)
+
+Every video ships with 3 thumbnail variants for YouTube's built-in A/B test. Most agents make ONE thumbnail in Canva and call it done — that's leaving CTR on the table.
+
+### Anatomy:
+- **Face**: ~33% of the frame, clear emotion that matches the title (curious, surprised, concerned — not just smiling)
+- **Text**: 3–5 words max, BIG and BOLD, mobile-readable at 200px wide
+- **Contrast**: High contrast text vs background. Test by squinting — if text disappears, contrast is too low.
+- **Text ≠ Title**: Thumbnail text must say something DIFFERENT from the title. Two angles into one curiosity gap (not the same words twice).
+- **Color**: 1–2 saturated colors max. Avoid pastels, gradients, dainty script fonts.
+- **Background**: Recognizable Temple / Bell County landmark, neighborhood, or property — not a stock photo.
+
+### Common failures (audit existing thumbnails for these):
+- Dainty script font (pretty in Canva, invisible on phone)
+- Text same color as background (low contrast = no click)
+- Same words as title (no curiosity gap)
+- No face or face too small (loses ~30–50% CTR vs face-prominent)
+- Too many words (>6 = unreadable at thumbnail size)
+
+### A/B Test Protocol:
+- Upload **3 thumbnails per video** (YouTube Studio → Content → Test & Compare on the video)
+- Let it run 7–14 days minimum before declaring a winner
+- Document the winner pattern in `data/thumbnail-winners.csv` (variant pattern + CTR delta + pillar)
+- Reuse the winning pattern as the starting point for the next video in the same pillar
+
+### "Why not Canva":
+- Canva pulls people toward decorative type that fails mobile contrast tests.
+- AI thumbnail generation (e.g., `nano-banana-pro`, agent-prompt-style flows) produces 3 variants in seconds vs hours per thumbnail, and locks in the anatomy rules above by default. See `/thumbnail-brief` skill — outputs feed an AI image gen, not manual Canva.
 
 ---
 

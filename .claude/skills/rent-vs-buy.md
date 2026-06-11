@@ -134,5 +134,5 @@ Include a clean data table that can be screenshotted or turned into a video over
 - Never pressure to buy — present the data honestly
 - If renting makes more sense, say so
 - "The math works like this..." framing
-- Fort Hood (not Fort Cavazos)
+- Fort Hood (not Fort Hood)
 - Include real negatives: property taxes are high in Texas, maintenance costs, etc.

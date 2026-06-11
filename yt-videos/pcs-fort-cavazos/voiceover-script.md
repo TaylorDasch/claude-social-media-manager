@@ -1,16 +1,16 @@
-# PCS to Fort Cavazos — Why Temple Beats Killeen
+# PCS to Fort Hood — Why Temple Beats Killeen
 ## Voiceover Script (Click-Through Mode)
 
 **Format:** 12-15 min long-form · **Lane:** Military relocation (Lane #2 priority in Taylor's business)
 **Pacing:** Click NEXT after each numbered section · HTML has 24 steps · You control the tempo
 
-**Critical:** Verify current-year BAH rates at **https://www.defensetravel.dod.mil/site/bahCalc.cfm** before filming. Numbers below are 2026 approximations based on Fort Cavazos / Killeen area (zip 76544 and surrounding). Update the script + HTML BAH card to match the day you film.
+**Critical:** Verify current-year BAH rates at **https://www.defensetravel.dod.mil/site/bahCalc.cfm** before filming. Numbers below are 2026 approximations based on Fort Hood / Killeen area (zip 76544 and surrounding). Update the script + HTML BAH card to match the day you film.
 
 ---
 
 ## Step 1 — HOOK (15 sec)
 
-> If you're PCS-ing to Fort Cavazos…
+> If you're PCS-ing to Fort Hood…
 > and you're about to sign a contract in Killeen…
 >
 > `[1]` **Stop.**
@@ -25,9 +25,9 @@
 
 ## Step 2 — THE FRAMEWORK (30 sec)
 
-> `[map zooms out · shows Cavazos to Temple corridor]`
+> `[map zooms out · shows Fort Hood to Temple corridor]`
 >
-> Here's what nobody tells you when you get your orders to Fort Cavazos.
+> Here's what nobody tells you when you get your orders to Fort Hood.
 >
 > The sponsor's going to point you at Killeen.
 > The realtor on the relocation list is probably in Killeen.
@@ -45,7 +45,7 @@
 
 > `[commute line highlighted · gate → Temple]`
 >
-> This is the route. Fort Cavazos gate to Temple:
+> This is the route. Fort Hood gate to Temple:
 > **20 to 25 minutes** on US-190 / I-14.
 > Early morning PT traffic? Add 5.
 > Late formation? You're still home before 7.
@@ -114,7 +114,7 @@
 > `[1]` Here's the play: newer builds, good lots, **five minutes to Lake Belton.**
 > Your kids get a lake. You get a garage. The cost-per-square-foot wins on paper AND at the appraisal.
 >
-> Commute to Cavazos: about **27 minutes** up I-14.
+> Commute to Fort Hood: about **27 minutes** up I-14.
 > Belton ISD is a **B-plus rated district.** That matters when you PCS out in 3 years — homes in strong school districts **resell faster and hold value tighter.**
 >
 > VA loan works here. **Zero down.** Most builders accept VA financing.
@@ -141,7 +141,7 @@
 
 > `[fly to Hillside Village · tax hack angle]`
 >
-> Now — if you're senior NCO or officer, or you've got longer at Cavazos, this one's my pick.
+> Now — if you're senior NCO or officer, or you've got longer at Fort Hood, this one's my pick.
 >
 > **Hillside Village.** $300 to $500 thousand.
 > Here's the hack **nobody talks about:** this neighborhood has the **lowest effective tax rate** in the Temple area.
@@ -162,7 +162,7 @@
 > Round out the four with **Groves at Lakewood Ranch.**
 > $320 to $450 thousand. Belton ISD. **Family-heavy zone** — lots of other military, lots of first responders.
 >
-> Commute to Cavazos: **25 minutes.** Direct shot down US-190.
+> Commute to Fort Hood: **25 minutes.** Direct shot down US-190.
 >
 > `[1]` If your spouse wants a community where **your kids have neighbor friends week one,** this is that community. I've sold in here. The turnover is mostly military.
 
@@ -244,7 +244,7 @@
 >
 > **Your BAH goes further in Temple.** Your kids get better schools. Your resale value is protected.
 >
-> `[1]` If you want my **free Fort Cavazos to Temple PCS Guide** — zones, commute times, builder list, and a VA loan checklist —
+> `[1]` If you want my **free Fort Hood to Temple PCS Guide** — zones, commute times, builder list, and a VA loan checklist —
 > link is in the description.
 >
 > Or text me at **254-718-4249** with your rank and your timeline. I'll send it direct.
@@ -270,7 +270,7 @@
 - Anything that sounds like a pitch
 
 **Numbers to verify TODAY before filming:**
-1. Current Fort Cavazos BAH rates (E-4, E-6, O-3 w/dep) at defensetravel.dod.mil
+1. Current Fort Hood BAH rates (E-4, E-6, O-3 w/dep) at defensetravel.dod.mil
 2. Median Killeen home price (check MLS or Redfin Killeen market report)
 3. Temple non-homestead tax rate (verify via Bell County appraisal district)
 4. Belton ISD + Killeen ISD current TEA ratings (texasprograms.com or TEA data)

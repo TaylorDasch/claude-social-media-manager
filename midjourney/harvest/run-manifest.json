@@ -1,0 +1,486 @@
+{
+  "source": "/Users/taylordasch_1/claude-social-media-manager/midjourney/BRANDED-PROMPTS.md",
+  "created_at": "2026-05-25 16:48:49 -0500",
+  "prompts": [
+    {
+      "section": "A",
+      "number": 1,
+      "id": "A1",
+      "folder": "A-thumbnails",
+      "slug": "aerial-drone-view",
+      "hero": true,
+      "prompt": "aerial drone view of a modern Central Texas suburban neighborhood, golden hour, mature oak trees, big Texas sky, wide clean copy space on the left third --ar 16:9 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": ""
+    },
+    {
+      "section": "A",
+      "number": 2,
+      "id": "A2",
+      "folder": "A-thumbnails",
+      "slug": "single-temple-two",
+      "hero": true,
+      "prompt": "single modern Temple Texas two-story home exterior, board-and-batten and limestone, warm twilight, emerald landscape lighting, copy space on the right --ar 16:9 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": ""
+    },
+    {
+      "section": "A",
+      "number": 3,
+      "id": "A3",
+      "folder": "A-thumbnails",
+      "slug": "established-tree-lined",
+      "hero": true,
+      "prompt": "established tree-lined Texas neighborhood street, mature live oaks, brick homes, warm afternoon light, clean copy space center --ar 16:9 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": ""
+    },
+    {
+      "section": "A",
+      "number": 4,
+      "id": "A4",
+      "folder": "A-thumbnails",
+      "slug": "bright-home-interior",
+      "hero": true,
+      "prompt": "bright modern Texas home interior, sunlit open-concept living room, moving boxes stacked neatly, hopeful relocation feeling, copy space upper left --ar 16:9 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": ""
+    },
+    {
+      "section": "A",
+      "number": 5,
+      "id": "A5",
+      "folder": "A-thumbnails",
+      "slug": "warm-amber-lit",
+      "hero": true,
+      "prompt": "warm amber-lit modern Texas home at dusk, \"money\" tone, inviting glow from every window, copy space left --ar 16:9 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": "for \"what $300K gets you\" / value videos"
+    },
+    {
+      "section": "A",
+      "number": 6,
+      "id": "A6",
+      "folder": "A-thumbnails",
+      "slug": "moody-dramatic-home",
+      "hero": true,
+      "prompt": "moody dramatic Texas home exterior under a heavy sky, cooler desaturated grade with a hint of red warning tone, tension, copy space right --ar 16:9 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": "for \"mistakes / caution\" videos"
+    },
+    {
+      "section": "A",
+      "number": 7,
+      "id": "A7",
+      "folder": "A-thumbnails",
+      "slug": "aerial-view-belton",
+      "hero": true,
+      "prompt": "aerial view of Belton Lake shoreline near Central Texas neighborhoods, golden hour, lifestyle, copy space lower third --ar 16:9 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": ""
+    },
+    {
+      "section": "A",
+      "number": 8,
+      "id": "A8",
+      "folder": "A-thumbnails",
+      "slug": "wide-cinematic-establishing",
+      "hero": true,
+      "prompt": "wide cinematic establishing shot, new-construction Texas community with homes under build, cranes and fresh framing, optimistic morning light, copy space left --ar 16:9 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": ""
+    },
+    {
+      "section": "B",
+      "number": 9,
+      "id": "B9",
+      "folder": "B-heroes",
+      "slug": "temple-style-small",
+      "hero": true,
+      "prompt": "Temple Texas style small historic downtown street, brick storefronts, warm community feel, people walking, editorial, navy-emerald grade --ar 16:9 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": ""
+    },
+    {
+      "section": "B",
+      "number": 10,
+      "id": "B10",
+      "folder": "B-heroes",
+      "slug": "medical-campus-building",
+      "hero": true,
+      "prompt": "modern medical campus building exterior, clean architecture, professionals walking, bright daylight, premium editorial — generic, no branding --ar 16:9 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": "physician-relocation pages"
+    },
+    {
+      "section": "B",
+      "number": 11,
+      "id": "B11",
+      "folder": "B-heroes",
+      "slug": "young-professional-family",
+      "hero": true,
+      "prompt": "young professional family in front of a modern Central Texas home, candid lifestyle, warm natural light, aspirational but real --ar 16:9 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": ""
+    },
+    {
+      "section": "B",
+      "number": 12,
+      "id": "B12",
+      "folder": "B-heroes",
+      "slug": "aerial-rolling-bell",
+      "hero": true,
+      "prompt": "aerial of rolling Bell County Central Texas landscape, patchwork of neighborhoods, oak mottes, big sky, golden hour --ar 16:9 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": ""
+    },
+    {
+      "section": "B",
+      "number": 13,
+      "id": "B13",
+      "folder": "B-heroes",
+      "slug": "new-construction-farmhouse",
+      "hero": true,
+      "prompt": "new-construction modern farmhouse close-up, board-and-batten + limestone + black-framed windows, architectural detail, premium --ar 16:9 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": ""
+    },
+    {
+      "section": "C",
+      "number": 14,
+      "id": "C14",
+      "folder": "C-social",
+      "slug": "calm-sunlit-living",
+      "hero": false,
+      "prompt": "calm sunlit modern Texas living room, soft emerald and navy styling, large clean negative space for a quote, editorial --ar 4:5 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": ""
+    },
+    {
+      "section": "C",
+      "number": 15,
+      "id": "C15",
+      "folder": "C-social",
+      "slug": "vertical-exterior-home",
+      "hero": false,
+      "prompt": "vertical exterior of a modern Central Texas home, golden hour, generous clean sky at top for a headline --ar 9:16 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": ""
+    },
+    {
+      "section": "C",
+      "number": 16,
+      "id": "C16",
+      "folder": "C-social",
+      "slug": "vertical-lifestyle-person",
+      "hero": false,
+      "prompt": "vertical lifestyle, a person seen from behind walking up to a modern Texas home, hopeful relocation mood, natural light --ar 9:16 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": ""
+    },
+    {
+      "section": "C",
+      "number": 17,
+      "id": "C17",
+      "folder": "C-social",
+      "slug": "minimal-abstract-background",
+      "hero": false,
+      "prompt": "minimal abstract background, deep midnight-navy with subtle emerald geometric accents, premium, lots of space for text --ar 1:1 --sref YOURCODE --no text, watermark, logo, signage",
+      "note": "tips/stats cards"
+    },
+    {
+      "section": "C",
+      "number": 18,
+      "id": "C18",
+      "folder": "C-social",
+      "slug": "textured-navy-backdrop",
+      "hero": false,
+      "prompt": "clean textured navy backdrop with a single emerald light streak, editorial, space for a carousel headline --ar 4:5 --sref YOURCODE --no text, watermark, logo, signage",
+      "note": ""
+    },
+    {
+      "section": "D",
+      "number": 19,
+      "id": "D19",
+      "folder": "D-newsletter",
+      "slug": "wide-email-banner",
+      "hero": false,
+      "prompt": "wide premium email banner, Central Texas community at golden hour, warm and inviting, navy-emerald grade, clean space for a logo and headline --ar 3:1 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": "Temple Insider"
+    },
+    {
+      "section": "D",
+      "number": 20,
+      "id": "D20",
+      "folder": "D-newsletter",
+      "slug": "wide-abstract-data",
+      "hero": false,
+      "prompt": "wide abstract data-art banner, deep navy field with emerald and amber data lines and subtle chart motifs, premium financial feel --ar 3:1 --sref YOURCODE --no text, watermark, logo, signage",
+      "note": "Investor Brief — investor lane"
+    },
+    {
+      "section": "E",
+      "number": 21,
+      "id": "E21",
+      "folder": "E-covers",
+      "slug": "aspirational-vertical-cover",
+      "hero": true,
+      "prompt": "aspirational vertical cover image, modern Central Texas home under a wide Texas sky, golden hour, premium, clean space at top for a title --ar 2:3 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": "Relocation Guide"
+    },
+    {
+      "section": "E",
+      "number": 22,
+      "id": "E22",
+      "folder": "E-covers",
+      "slug": "vertical-cover-friendly",
+      "hero": true,
+      "prompt": "vertical cover, friendly modern Texas home exterior, welcoming front door and porch, warm light, space for title --ar 2:3 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": "Buyer Guide"
+    },
+    {
+      "section": "E",
+      "number": 23,
+      "id": "E23",
+      "folder": "E-covers",
+      "slug": "vertical-report-cover",
+      "hero": true,
+      "prompt": "vertical premium report cover, abstract navy background with emerald topographic contour lines and a small modern home silhouette, data feel --ar 2:3 --sref YOURCODE --no text, watermark, logo, signage",
+      "note": "Builder Incentive report"
+    },
+    {
+      "section": "E",
+      "number": 24,
+      "id": "E24",
+      "folder": "E-covers",
+      "slug": "vertical-cover-charming",
+      "hero": true,
+      "prompt": "vertical cover, charming established Texas neighborhood with mature oaks, warm community, space for title --ar 4:5 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": "Neighborhood Guide"
+    },
+    {
+      "section": "F",
+      "number": 25,
+      "id": "F25",
+      "folder": "F-listing",
+      "slug": "warm-celebratory-home",
+      "hero": false,
+      "prompt": "warm celebratory modern Texas home at dusk, soft golden bokeh light particles in the air, joyful, copy space for a SOLD headline --ar 16:9 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": "Just Sold"
+    },
+    {
+      "section": "F",
+      "number": 26,
+      "id": "F26",
+      "folder": "F-listing",
+      "slug": "home-half-shadow",
+      "hero": false,
+      "prompt": "modern Texas home half in shadow with a dramatic reveal of warm light, mysterious teaser mood, copy space --ar 16:9 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": "Coming Soon"
+    },
+    {
+      "section": "F",
+      "number": 27,
+      "id": "F27",
+      "folder": "F-listing",
+      "slug": "bright-welcoming-home",
+      "hero": false,
+      "prompt": "bright welcoming modern Texas home exterior, open front door, balloons-free clean invite mood, midday, copy space --ar 4:5 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": "Open House"
+    },
+    {
+      "section": "G",
+      "number": 28,
+      "id": "G28",
+      "folder": "G-ads",
+      "slug": "professional-couple-business",
+      "hero": false,
+      "prompt": "professional couple in business-casual attire touring a modern Central Texas home, hopeful and warm, natural light, lifestyle ad quality, copy space right --ar 4:5 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": "BSW physician relocation"
+    },
+    {
+      "section": "G",
+      "number": 29,
+      "id": "G29",
+      "folder": "G-ads",
+      "slug": "military-family-arriving",
+      "hero": false,
+      "prompt": "military family arriving at a modern Texas home, moving day, warm and proud mood, tasteful and understated, copy space --ar 4:5 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": "military relocation"
+    },
+    {
+      "section": "G",
+      "number": 30,
+      "id": "G30",
+      "folder": "G-ads",
+      "slug": "wide-hero-ad",
+      "hero": false,
+      "prompt": "wide hero ad backplate, modern Central Texas home at golden hour with a clean open left side for a value-prop headline --ar 1.91:1 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": "Meta/Facebook ad ratio"
+    },
+    {
+      "section": "H",
+      "number": 31,
+      "id": "H31",
+      "folder": "H-concept",
+      "slug": "conceptual-image-home",
+      "hero": false,
+      "prompt": "editorial conceptual image, a Texas home with warm amber light beside a stylized stretching dollar / coin motif, \"your money goes further\" feeling, premium, not cheesy --ar 16:9 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": "BAH / affordability"
+    },
+    {
+      "section": "H",
+      "number": 32,
+      "id": "H32",
+      "folder": "H-concept",
+      "slug": "conceptual-balance-scale",
+      "hero": false,
+      "prompt": "conceptual balance scale weighing a small modern home against a stack of warm amber coins, clean editorial, navy background --ar 16:9 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": "cost-of-living comparison"
+    },
+    {
+      "section": "H",
+      "number": 33,
+      "id": "H33",
+      "folder": "H-concept",
+      "slug": "stylized-map-concept",
+      "hero": false,
+      "prompt": "stylized Central Texas map concept with a glowing emerald route line connecting points, relocation journey, premium navy and amber --ar 16:9 --sref YOURCODE --no text, watermark, logo, signage",
+      "note": "relocation journey"
+    },
+    {
+      "section": "H",
+      "number": 34,
+      "id": "H34",
+      "folder": "H-concept",
+      "slug": "abstract-financial-data",
+      "hero": false,
+      "prompt": "abstract financial data-art, deep navy with rising emerald line graph and amber highlights, subtle home silhouette, premium market-update feel --ar 16:9 --sref YOURCODE --no text, watermark, logo, signage",
+      "note": "market/rate updates"
+    },
+    {
+      "section": "I",
+      "number": 35,
+      "id": "I35",
+      "folder": "I-seasonal",
+      "slug": "home-field-bluebonnets",
+      "hero": false,
+      "prompt": "modern Central Texas home with a field of Texas bluebonnets in the foreground, bright spring morning, iconic, premium editorial --ar 16:9 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": "spring"
+    },
+    {
+      "section": "I",
+      "number": 36,
+      "id": "I36",
+      "folder": "I-seasonal",
+      "slug": "home-bright-summer",
+      "hero": false,
+      "prompt": "modern Texas home with bright summer sun, lush green lawn, deep blue sky, backyard pool sparkle, premium lifestyle --ar 16:9 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": "summer"
+    },
+    {
+      "section": "I",
+      "number": 37,
+      "id": "I37",
+      "folder": "I-seasonal",
+      "slug": "neighborhood-subtle-autumn",
+      "hero": false,
+      "prompt": "Central Texas neighborhood in subtle autumn tones, warm oak foliage, soft late-afternoon light, cozy --ar 16:9 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": "fall"
+    },
+    {
+      "section": "I",
+      "number": 38,
+      "id": "I38",
+      "folder": "I-seasonal",
+      "slug": "home-glowing-warm",
+      "hero": false,
+      "prompt": "modern Texas home glowing with warm holiday lights at dusk, tasteful, light winter mood, no snow piles, inviting --ar 16:9 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": "winter/holiday"
+    },
+    {
+      "section": "J",
+      "number": 39,
+      "id": "J39",
+      "folder": "J-textures",
+      "slug": "seamless-subtle-texture",
+      "hero": false,
+      "prompt": "seamless subtle texture, deep midnight-navy with faint emerald geometric grid, premium, minimal --tile --sref YOURCODE --no text, watermark, logo",
+      "note": ""
+    },
+    {
+      "section": "J",
+      "number": 40,
+      "id": "J40",
+      "folder": "J-textures",
+      "slug": "seamless-emerald-green",
+      "hero": false,
+      "prompt": "seamless emerald-green topographic contour line pattern on navy, elegant, subtle, Bell County map feel --tile --sref YOURCODE --no text, watermark, logo",
+      "note": ""
+    },
+    {
+      "section": "J",
+      "number": 41,
+      "id": "J41",
+      "folder": "J-textures",
+      "slug": "seamless-natural-limestone",
+      "hero": false,
+      "prompt": "seamless natural limestone texture, warm neutral Texas stone, high detail --tile --no text, watermark, logo",
+      "note": ""
+    },
+    {
+      "section": "J",
+      "number": 42,
+      "id": "J42",
+      "folder": "J-textures",
+      "slug": "abstract-horizontal-divider",
+      "hero": false,
+      "prompt": "abstract horizontal divider, smooth navy-to-emerald gradient with a thin amber light line, premium web section break --ar 5:1 --sref YOURCODE --no text, watermark, logo",
+      "note": ""
+    },
+    {
+      "section": "K",
+      "number": 43,
+      "id": "K43",
+      "folder": "K-flex",
+      "slug": "ultra-wide-cinematic",
+      "hero": true,
+      "prompt": "ultra-wide cinematic aerial drone hero shot, sweeping over Central Texas neighborhoods and oak-dotted hills at golden hour, magazine cover quality, epic but grounded --ar 16:9 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": ""
+    },
+    {
+      "section": "K",
+      "number": 44,
+      "id": "K44",
+      "folder": "K-flex",
+      "slug": "architectural-macro-detail",
+      "hero": true,
+      "prompt": "architectural macro detail, close-up of modern farmhouse materials — limestone, black steel, board-and-batten, warm wood — dramatic raking light, premium --ar 3:2 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": ""
+    },
+    {
+      "section": "K",
+      "number": 45,
+      "id": "K45",
+      "folder": "K-flex",
+      "slug": "flat-style-illustration",
+      "hero": true,
+      "prompt": "editorial flat-style illustration of a modern Central Texas home and neighborhood, navy-emerald-amber palette, clean vector feel, premium brand illustration --ar 16:9 --sref YOURCODE --no text, watermark, logo",
+      "note": "alternate non-photo look for variety"
+    },
+    {
+      "section": "K",
+      "number": 46,
+      "id": "K46",
+      "folder": "K-flex",
+      "slug": "long-exposure-twilight",
+      "hero": true,
+      "prompt": "long-exposure twilight street scene in a modern Texas neighborhood, soft light trails, glowing windows, cinematic and premium --ar 16:9 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": ""
+    },
+    {
+      "section": "K",
+      "number": 47,
+      "id": "K47",
+      "folder": "K-flex",
+      "slug": "dramatic-low-angle",
+      "hero": true,
+      "prompt": "dramatic low-angle hero of a single modern Texas home against a vivid blue-hour sky, emerald landscape uplighting, amber interior glow, aspirational --ar 16:9 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": ""
+    },
+    {
+      "section": "K",
+      "number": 48,
+      "id": "K48",
+      "folder": "K-flex",
+      "slug": "cozy-interior-detail",
+      "hero": true,
+      "prompt": "cozy interior detail, sunlit modern Texas kitchen with warm wood and emerald accents, steam from coffee, lifestyle warmth, shallow depth of field --ar 4:5 --style raw --sref YOURCODE --no text, watermark, logo, signage",
+      "note": ""
+    }
+  ]
+}

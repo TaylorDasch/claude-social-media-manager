@@ -93,7 +93,7 @@ If a content calendar for this week already exists (`output/YYYY-WXX/content-cal
 - Trend data must be real — if TrendsMCP returns no data for a query, say so. Don't fabricate trend volumes.
 - Always include "Top 3 TikToks to Film This Week" — this is the actionable output Taylor acts on.
 - Cross-referencing the content registry is mandatory — don't suggest content that already exists unless it's a deliberate refresh.
-- Use "Fort Hood" not "Fort Cavazos"
+- Use "Fort Hood" not "Fort Hood"
 
 ## Dependencies
 - TrendsMCP tools (check available tools via ToolSearch — not yet connected)

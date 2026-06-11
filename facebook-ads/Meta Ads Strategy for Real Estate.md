@@ -100,7 +100,7 @@ Operating within the Special Ad Category (SAC) for housing eliminates the abilit
 
 ### **Military Audience Build**
 
-* **Geo-Radius:** 15 miles centered on Fort Hood (Cavazos) Main Gate.38  
+* **Geo-Radius:** 15 miles centered on Fort Hood (Fort Hood) Main Gate.38  
 * **Detailed Targeting:** United States Army, Department of Veterans Affairs, Military, VA Loan.  
 * **Life Events:** "Recently Moved" or "Away from Hometown."
 

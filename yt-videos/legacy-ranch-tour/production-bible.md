@@ -352,6 +352,6 @@ End Screen  — Subscribe + Best Neighborhoods Near BSW video
 - [x] No title duplication with existing catalogs (verified — no Legacy Ranch tour exists)
 - [x] CTA placement follows the map (no CTA before 2:00)
 - [x] All overlays use brand colors
-- [x] Fort Hood (not Fort Cavazos) ✓
+- [x] Fort Hood (not Fort Hood) ✓
 - [x] Buy-and-hold (not turnkey) ✓
 - [x] No banned words ✓

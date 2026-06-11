@@ -100,6 +100,6 @@ Reference `reference/LEAD-MAGNET-MATRIX.md` to match the video's primary persona
 - Timestamps/chapters are required for videos over 3 minutes
 - Tags should be VidIQ-informed if Taylor provides them, otherwise use config hashtags adapted for YouTube
 - Pinned comment uses persona-matched lead magnet from reference/LEAD-MAGNET-MATRIX.md
-- Use "Fort Hood" not "Fort Cavazos" (name reverted July 2025)
+- Use "Fort Hood" not "Fort Hood" (name reverted July 2025)
 - Use "buy-and-hold investors" not "turnkey"
 - Reference reference/SCHEMA-LIBRARY.md for VideoObject template if generating schema

@@ -18,7 +18,7 @@ If a URL is provided, fetch the page content. If HTML is pasted, use it directly
 - Load `VIDEO-TO-PAGE-MAP.md` to check if the correct video is embedded
 - Load `reference/SCHEMA-LIBRARY.md` for exact schema templates to recommend
 - Load `reference/LEAD-MAGNET-MATRIX.md` for persona-matched CTA recommendations
-- Load banned word list: "turnkey", "dream home", "white glove", "nestled", "charming", "Fort Cavazos"
+- Load banned word list: "turnkey", "dream home", "white glove", "nestled", "charming", "Fort Hood"
 
 ### Step 2.5: Pull Live Ranking Data (GSC + Playwright)
 
@@ -89,7 +89,7 @@ Save to `output/audits/[page-slug]-audit-YYYY-MM-DD.md`
 - Be specific about what is missing — do not just say "add schema," provide the exact template from reference/SCHEMA-LIBRARY.md
 - Reference reference/LEAD-MAGNET-MATRIX.md for CTA recommendations matched to the page's target persona
 - Reference VIDEO-TO-PAGE-MAP.md for video embed recommendations
-- Flag any banned words found ("turnkey", "dream home", "white glove", "nestled", "charming", "Fort Cavazos")
+- Flag any banned words found ("turnkey", "dream home", "white glove", "nestled", "charming", "Fort Hood")
 - Flag any "approximately" or rounded numbers — recommend replacing with exact MLS/CAD data
 - SPECIFIC CONTENT TO ADD must include copy-paste-ready text, schema blocks, or HTML elements
 - If scoring a draft (not yet published), note which freshness/schema items are pre-publication and score accordingly

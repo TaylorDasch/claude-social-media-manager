@@ -131,7 +131,7 @@ These are proven formats you haven't produced, ranked by impact potential:
 | 1 | **City Map Tour (Google Earth)** | BIGVU reports 10x views vs average. Jackson Wilkey's 2nd-highest converter. | ⭐⭐⭐⭐⭐ |
 | 2 | **"Warning: 3 Mistakes Buying in Temple"** | You have ingredients in scattered Shorts. No consolidated long-form with "Warning" CTR trigger. | ⭐⭐⭐⭐⭐ |
 | 3 | **Temple Ranked Tier List (Worst to Best)** | Controversy fuel. Zero competition locally. Your analyst voice fits. | ⭐⭐⭐⭐⭐ |
-| 4 | **PCS to Fort Cavazos → Temple (not Killeen)** | Previously flagged in audit. Zero-competition lane. | ⭐⭐⭐⭐⭐ |
+| 4 | **PCS to Fort Hood → Temple (not Killeen)** | Previously flagged in audit. Zero-competition lane. | ⭐⭐⭐⭐⭐ |
 | 5 | **Academy ISD 4-Day Week Parent Guide** | Commenters are literally asking. Zero real estate competition. | ⭐⭐⭐⭐⭐ |
 | 6 | **"Hidden Gems Only Locals Know" reframed neighborhood tour** | BIGVU CTR winner — your existing neighborhoods, new angle | ⭐⭐⭐⭐ |
 | 7 | **Interest Rate Explainer (Temple-specific)** | Every buyer Googles this. You have the physician loan angle built in. | ⭐⭐⭐⭐ |
@@ -162,9 +162,9 @@ Taylor's next 20 videos, in priority order, using what the data says will perfor
 - **Why:** 10x view potential per BIGVU data. You don't have one. Jackson Wilkey's highest single-video generator.
 - **Hook:** "I'm going to show you the exact 4 zones in Temple where every buyer lands — and the 2 you should avoid."
 
-**2. "PCS to Fort Cavazos? Why Smart Military Families Skip Killeen and Live in Temple"**
+**2. "PCS to Fort Hood? Why Smart Military Families Skip Killeen and Live in Temple"**
 - **Format:** 12-15 min long-form
-- **Why:** Fort Cavazos YouTube SERP is 100% Killeen-focused. Zero Temple angle.
+- **Why:** Fort Hood YouTube SERP is 100% Killeen-focused. Zero Temple angle.
 - **Hook:** "Your BAH stretches 40% further in Temple than Killeen — and you're 20 minutes from the gate. Here's the full math."
 
 **3. "I Ranked Every Temple TX Neighborhood Worst to Best (Honest Red/Yellow/Green)"**

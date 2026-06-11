@@ -117,7 +117,7 @@ Read the saved PNG back to visually confirm rendering.
 - [ ] Text is readable at YouTube video scale
 - [ ] Bottom bar includes Taylor's contact info
 - [ ] No typos in displayed text
-- [ ] Fort Hood (not Fort Cavazos) if location appears
+- [ ] Fort Hood (not Fort Hood) if location appears
 - [ ] No banned words
 
 ## Brand Rules

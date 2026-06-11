@@ -48,7 +48,7 @@ You may append rows, update state fields, or add columns only if the job card ex
 - No `send_email` or `send_message`. Always `create_draft`. Taylor sends manually.
 - No live API calls without a `--live` flag. Default mode is dry-run or draft.
 - No banned words (see QUALITY-GATES.md Gate 1). HARD gate — output is blocked if violated.
-- No "Fort Cavazos." Always "Fort Hood."
+- No "Fort Hood." Always "Fort Hood."
 - No commits of `.env`, API keys, or `~/shared-keys.env`.
 - No broad refactors. Stay inside the job card's "Own these paths" scope.
 - No IDX widgets or `[afx_search_page]` shortcodes in generated HTML.

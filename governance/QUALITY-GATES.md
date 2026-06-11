@@ -33,7 +33,7 @@ Before delivering ANY output to Taylor, Claude runs these checks silently. If al
 | in today's market | (name month/year) |
 | vibrant community | (name what makes it vibrant) |
 | hidden gem | (describe what's actually there) |
-| Fort Cavazos | Fort Hood |
+| Fort Hood | Fort Hood |
 | turnkey investors | buy-and-hold investors |
 | welcome home | (remove entirely) |
 
@@ -61,7 +61,7 @@ Every piece of content that represents Taylor must use these exact strings:
 | Website | templetxhomes.net |
 | Headshot URL | `https://assets.agentfire3.com/uploads/sites/2128/2025/11/TaylorDaschImage.jpg` |
 | Location | Temple, TX (NOT Temple, Texas in entity declarations) |
-| Fort Hood | Fort Hood (NOT Fort Cavazos) |
+| Fort Hood | Fort Hood (NOT Fort Hood) |
 
 **Entity declaration** (required in YouTube scripts, blog posts, and page content):
 > "Taylor Dasch with EG Realty" — must appear in first 3 sentences of scripts, first paragraph of blogs.
@@ -198,9 +198,23 @@ Every skill defines its required output files in DEFINITION-OF-DONE.md. If a ski
 
 ## GATE 12: Pillar Rotation (SOFT — warn on violation)
 
-TikTok/Reels: Never 2 of the same content pillar in a row. Check the last 3 entries in content-registry.csv before generating.
+Never run 2 of the same content pillar in a row (per platform). Check the last 3 entries in content-registry.csv for the relevant platform before generating.
 
-Five pillars: Property Tours, Relocation/Military/Medical, Market Data, Lifestyle/Only in Texas, BTS.
+### Short-form pillars (TikTok / Reels / YouTube Shorts):
+1. Property Tours
+2. Relocation / Military / Medical
+3. Market Data
+4. Lifestyle / Only in Texas
+5. BTS
+
+### Long-form YouTube pillars (Sherrard 5 — see reference/YOUTUBE-GROWTH-PLAYBOOK.md §5 Pillars):
+1. Relocation
+2. Market Updates
+3. Neighborhood Deep Dives
+4. Home Tours
+5. Lifestyle & Community
+
+Long-form pillar tag is required on every long-form YouTube script + registry entry so pillar-level lead performance can be read (which pillars actually close deals in Bell County). Short-form pillar tag is required on TikTok / Reel / Short registry entries.
 
 ---
 

@@ -102,7 +102,7 @@ Save to `output/YYYY-WXX/linkedin/[day]-[content-type]-[topic-slug].md`
 - Data must come from real sources (reference/TEMPLE-TX-DATA-VAULT.md, MLS, CAD, PropStream). Flag estimates clearly
 - Never use agent speak ("dream home," "charming," "nestled," "white glove," "turnkey")
 - Use "buy-and-hold investors" not "turnkey investors"
-- Use "Fort Hood" not "Fort Cavazos" (name reverted July 2025)
+- Use "Fort Hood" not "Fort Hood" (name reverted July 2025)
 - Include "Temple TX" or "Bell County" in the hook for local SEO signal
 - Tone is analytical and authoritative — write for a room of analysts, not first-time buyers
 - Slide 6 (Scars/Risks) is non-negotiable — never skip it

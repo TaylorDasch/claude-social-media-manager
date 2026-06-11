@@ -28,7 +28,7 @@
 
 ## Dependencies (Resolve Before Execution)
 
-- [ ] **Fort Hood vs Fort Cavazos naming decision** — my ultraplan skill says "Always use Fort Hood never Fort Cavazos." The PCS video package I built this session uses "Fort Cavazos" throughout. Pick one:
+- [ ] **Fort Hood vs Fort Hood naming decision** — my ultraplan skill says "Always use Fort Hood never Fort Hood." The PCS video package I built this session uses "Fort Hood" throughout. Pick one:
   - **A.** Rename PCS package to "Fort Hood" (edit HTML + script + README). Aligns to rule + higher search volume. 10 min of my time.
   - **B.** Keep "Fort Cavazos" (DoD-official name post-2023 rename). Update the rule in the skill file.
   - **Owner:** Taylor. Default if no answer by 48hr: follow rule (Option A).
@@ -426,7 +426,7 @@ Repeat this 3-shot cycle every 60-90 seconds of long-form content. That's your p
 - Tier S: film at Canyon Ridge park or Bella Terra entrance — show where "best" actually looks
 - **Creative move:** Hold up a physical printed tier-list card in the thumbnail shot
 
-### PCS to Fort Hood (or Cavazos) — MILITARY-RESPECTFUL
+### PCS to Fort Hood (or Fort Hood) — MILITARY-RESPECTFUL
 - Film with Fort Hood gate visible in background (from public road — never cross onto installation without media escort)
 - Film on I-14/US-190 commute corridor (use dash cam OR have someone drive while you talk from passenger)
 - Bella Terra exterior for "where BSW docs live" b-roll
@@ -567,7 +567,7 @@ Skill file coming in the next write (separate file for cleanliness). Location: `
   - `~/.claude/skills/yt-daily/SKILL.md` (next write — daily practice skill)
   - `~/.claude/skills/yt-optimize/SKILL.md` (next write — weekly optimizer skill)
 - **Verification run:** 4 Firecrawl searches (realtor equipment · YouTube Studio settings · top small-city realtor channels · vocal warmup routines) · cross-referenced prior channel data pull · mapped against prior audit + retention research deliverables
-- **Unresolved risk:** (1) Fort Hood vs Fort Cavazos naming decision blocks PCS video from publish-ready state. (2) Equipment tier 1 purchase ($180-250) should happen this week — audio quality is the #1 unfixable-in-post variable. (3) This plan assumes you'll actually calendar-block filming days; without that, everything downstream fails.
+- **Unresolved risk:** (1) Fort Hood vs Fort Hood naming decision blocks PCS video from publish-ready state. (2) Equipment tier 1 purchase ($180-250) should happen this week — audio quality is the #1 unfixable-in-post variable. (3) This plan assumes you'll actually calendar-block filming days; without that, everything downstream fails.
 - **Rollback path:** `rm /Users/taylordasch_1/claude-social-media-manager/output/audits/youtube-ultraplan-2026-04-20.md` + remove skill files if created
 - **Next physical action:** Open YouTube Studio. Retitle 8 scheduled videos. 20 minutes. Before lunch today.
 - **BSW Next:** Video #7 (BSW Residency) is queued in the New 20 list. This ultraplan does NOT pull it forward — it's still slotted for Weeks 9-10. The PCS video (once renamed if needed) is your nearest BSW-adjacent asset and should ship first to test the military/medical audience response before committing to the BSW-specific long-form. Keep the Matt Levant (Acre Mortgage) pinned-comment play ready for whichever military/medical video lands first.

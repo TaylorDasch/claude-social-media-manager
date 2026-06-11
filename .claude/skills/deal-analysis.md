@@ -164,4 +164,4 @@ Save to `output/YYYY-WXX/deal-analysis/[address-slug].md`
 - MTR near BSW = best risk-adjusted return in Temple market
 - Be honest about deals that don't work — Taylor's credibility depends on it
 - If the deal doesn't pencil, say so clearly
-- Fort Hood (not Fort Cavazos)
+- Fort Hood (not Fort Hood)

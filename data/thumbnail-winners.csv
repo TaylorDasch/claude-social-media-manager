@@ -1,0 +1,4 @@
+video_id,upload_date,pillar,channel,winning_variant_pattern,ctr_delta_pct,test_window_days,notes
+# Log A/B winners here after 7-14 day test in YouTube Studio (Test & Compare).
+# Variant pattern examples: "face-curious-3words-numbers", "face-shocked-priceanchor", "split-side-by-side-comparison".
+# CTR delta = (winner CTR - loser median CTR) / loser median CTR * 100.

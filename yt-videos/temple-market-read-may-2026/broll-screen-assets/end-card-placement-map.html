@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600;1,700&family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1920px;height:1080px;overflow:hidden;background:#0b1220;color:#f8fafc;font-family:'Outfit',sans-serif;-webkit-font-smoothing:antialiased}
+.frame{position:relative;width:1920px;height:1080px;background:radial-gradient(ellipse at top right,#172a44 0%,#0b1220 50%,#05080f 100%);overflow:hidden}
+.frame::before{content:'';position:absolute;inset:0;
+  background-image:linear-gradient(to right,rgba(16,185,129,.025) 1px,transparent 1px),
+                   linear-gradient(to bottom,rgba(16,185,129,.025) 1px,transparent 1px);
+  background-size:80px 80px;pointer-events:none}
+
+.corner{position:absolute;width:60px;height:60px;border-color:rgba(16,185,129,.45);border-style:solid;border-width:0;z-index:5}
+.corner.tl{top:36px;left:36px;border-top-width:1px;border-left-width:1px}
+.corner.tr{top:36px;right:36px;border-top-width:1px;border-right-width:1px}
+.corner.bl{bottom:36px;left:36px;border-bottom-width:1px;border-left-width:1px}
+.corner.br{bottom:36px;right:36px;border-bottom-width:1px;border-right-width:1px}
+
+.content{position:absolute;inset:0;padding:60px 70px;display:grid;grid-template-rows:auto 1fr auto;gap:24px;z-index:3}
+
+/* Header */
+.head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;padding-bottom:18px;border-bottom:1px solid rgba(255,255,255,.08)}
+.head .left{display:flex;flex-direction:column;gap:8px}
+.head .eyebrow{display:flex;align-items:center;gap:14px;font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.36em;text-transform:uppercase;color:#94a3b8}
+.head .eyebrow::before{content:'';width:11px;height:11px;background:#10b981;transform:rotate(45deg);box-shadow:0 0 14px rgba(16,185,129,.6)}
+.head h1{font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;font-size:62px;line-height:1;letter-spacing:-.02em;color:#f8fafc}
+.head h1 .accent{color:#34d399}
+.head .right{font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.24em;text-transform:uppercase;color:#94a3b8;text-align:right;line-height:1.7}
+.head .right .em{color:#34d399;font-weight:600}
+
+/* Two-column body */
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:36px;height:100%}
+.card-panel{position:relative;display:flex;flex-direction:column;gap:14px}
+
+.panel-head{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.panel-tag{display:flex;align-items:center;gap:12px}
+.panel-num{font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:700;color:#0b1220;background:#34d399;padding:5px 10px;letter-spacing:.18em}
+.panel-name{font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:600;font-size:30px;color:#f8fafc;letter-spacing:-.01em;line-height:1}
+.panel-pill{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:#34d399;border:1px solid rgba(16,185,129,.55);padding:5px 10px;border-radius:4px}
+
+/* Card preview wrapper */
+.preview-wrap{position:relative;border-radius:6px;overflow:visible;aspect-ratio:16/9}
+.preview{position:relative;width:100%;aspect-ratio:16/9;border:1px solid rgba(255,255,255,.12);border-radius:6px;overflow:hidden;background:#0f172a}
+.preview img{width:100%;height:100%;display:block;object-fit:cover}
+
+/* Overlay markers placed on top of the preview at the actual safe-zone positions of the end card */
+.markers{position:absolute;inset:0;pointer-events:none}
+.marker{position:absolute;width:36px;height:36px;border-radius:50%;background:#34d399;color:#0b1220;font-family:'JetBrains Mono',monospace;font-weight:700;font-size:14px;display:flex;align-items:center;justify-content:center;box-shadow:0 0 0 3px rgba(11,18,32,.85),0 0 14px rgba(16,185,129,.6);letter-spacing:0}
+/* Coordinates align with the right-side YouTube end-screen safe zones on the source HTML
+   Source layout: padding 90px 100px; right column = 760px wide; zones occupy roughly 50%-95% of width, vertical center.
+   In the preview which is the entire 1920×1080 scaled into the panel, percentages map directly. */
+.m1{top:34%;left:60%}        /* Watch Next 1 */
+.m2{top:34%;left:84%}        /* Watch Next 2 */
+.m3{top:64%;left:64%}        /* Sub CTA */
+.m4{top:64%;left:88%}        /* Sub circle */
+
+/* Meta table */
+.meta{display:grid;grid-template-columns:96px 1fr;row-gap:8px;column-gap:14px;padding:14px 16px;border:1px solid rgba(255,255,255,.10);border-radius:6px;background:linear-gradient(135deg,rgba(16,185,129,.04),rgba(16,185,129,0))}
+.meta .k{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:#34d399;font-weight:600;padding-top:2px}
+.meta .v{font-family:'Outfit',sans-serif;font-size:15px;color:#e2e8f0;line-height:1.4}
+.meta .v.path{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.04em;color:#94a3b8;word-break:break-all}
+.meta .v .em{color:#34d399;font-weight:600}
+
+/* Legend */
+.legend{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;padding:14px 16px;border:1px solid rgba(255,255,255,.10);border-radius:6px;background:linear-gradient(135deg,rgba(16,185,129,.04),rgba(16,185,129,0))}
+.leg{display:flex;align-items:center;gap:10px}
+.leg .dot{width:24px;height:24px;border-radius:50%;background:#34d399;color:#0b1220;font-family:'JetBrains Mono',monospace;font-weight:700;font-size:11px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.leg .lab{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#cbd5e1;line-height:1.3}
+.leg .lab .sub{color:#64748b;font-size:9px;display:block;margin-top:2px;letter-spacing:.14em}
+
+/* Footer notes */
+.foot{display:grid;grid-template-columns:1fr 1fr 1fr;gap:18px;padding:16px 18px;border:1px solid rgba(255,255,255,.10);border-radius:6px;background:linear-gradient(135deg,rgba(16,185,129,.06),rgba(16,185,129,.01))}
+.foot .cell{display:flex;flex-direction:column;gap:5px}
+.foot .key{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.3em;text-transform:uppercase;color:#34d399;font-weight:700}
+.foot .val{font-family:'Outfit',sans-serif;font-size:14px;color:#e2e8f0;line-height:1.45}
+.foot .val .em{color:#f8fafc;font-weight:600}
+.foot .val .mono{font-family:'JetBrains Mono',monospace;font-size:12px;color:#94a3b8}
+</style></head><body>
+<div class="frame">
+  <div class="corner tl"></div><div class="corner tr"></div><div class="corner bl"></div><div class="corner br"></div>
+
+  <div class="content">
+    <div class="head">
+      <div class="left">
+        <div class="eyebrow">Production · End-Screen Assets · 2026-05-20</div>
+        <h1>End Card <span class="accent">Placement Map</span></h1>
+      </div>
+      <div class="right">
+        2 new assets · 1920×1080<br>
+        <span class="em">YouTube end-screen window · last 20s</span>
+      </div>
+    </div>
+
+    <div class="cols">
+      <!-- Panel 1: Troy end card -->
+      <div class="card-panel">
+        <div class="panel-head">
+          <div class="panel-tag">
+            <div class="panel-num">01</div>
+            <div class="panel-name">Troy TX · End Card</div>
+          </div>
+          <div class="panel-pill">Emerald · Default</div>
+        </div>
+
+        <div class="preview-wrap">
+          <div class="preview">
+            <img src="file:///Users/taylordasch_1/claude-video/troy-tx-video-graphics/end-card.png" alt="Troy end card">
+          </div>
+          <div class="markers">
+            <div class="marker m1">1</div>
+            <div class="marker m2">2</div>
+            <div class="marker m3">3</div>
+            <div class="marker m4">4</div>
+          </div>
+        </div>
+
+        <div class="meta">
+          <div class="k">Video</div><div class="v">Troy TX Deep Read · 8-chapter buyer breakdown</div>
+          <div class="k">Path</div><div class="v path">~/claude-video/troy-tx-video-graphics/end-card.png</div>
+          <div class="k">Placement</div><div class="v"><span class="em">Last 20s</span> · full-screen hold · animate-in: fade 12f</div>
+          <div class="k">Use When</div><div class="v">Shipping the Troy video to Living in Temple channel</div>
+        </div>
+      </div>
+
+      <!-- Panel 2: Vintage Temple end card -->
+      <div class="card-panel">
+        <div class="panel-head">
+          <div class="panel-tag">
+            <div class="panel-num">02</div>
+            <div class="panel-name">Temple Market Read · Vintage</div>
+          </div>
+          <div class="panel-pill">Parchment · A/B Variant</div>
+        </div>
+
+        <div class="preview-wrap">
+          <div class="preview">
+            <img src="file:///Users/taylordasch_1/claude-social-media-manager/yt-videos/temple-market-read-may-2026/broll-screen-assets/09-end-card-vintage.png" alt="Vintage Temple end card">
+          </div>
+          <div class="markers">
+            <div class="marker m1">1</div>
+            <div class="marker m2">2</div>
+            <div class="marker m3">3</div>
+            <div class="marker m4">4</div>
+          </div>
+        </div>
+
+        <div class="meta">
+          <div class="k">Video</div><div class="v">Temple TX Market Read · May 2026 (alt look)</div>
+          <div class="k">Path</div><div class="v path">~/claude-social-media-manager/yt-videos/temple-market-read-may-2026/broll-screen-assets/09-end-card-vintage.png</div>
+          <div class="k">Placement</div><div class="v"><span class="em">Last 20s</span> · full-screen hold · swap-in for emerald end card if testing editorial look</div>
+          <div class="k">Use When</div><div class="v">A/B testing vintage atlas treatment vs. emerald default (#09)</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Legend + Production notes combined into one strip -->
+    <div class="foot">
+      <div class="cell">
+        <div class="key">YouTube End-Screen Markers</div>
+        <div class="val">
+          <span class="mono">①</span> Watch Next slot A &nbsp;·&nbsp; <span class="mono">②</span> Watch Next slot B<br>
+          <span class="mono">③</span> Subscribe CTA banner &nbsp;·&nbsp; <span class="mono">④</span> Sub circle button<br>
+          <span class="mono" style="color:#64748b">Add in YouTube Studio → Editor → End screen → snap each element to the dashed safe zone.</span>
+        </div>
+      </div>
+      <div class="cell">
+        <div class="key">Timing & Music</div>
+        <div class="val">
+          End card must be on screen <span class="em">≥5s</span> (YouTube minimum) and <span class="em">≤20s</span> (engagement falloff).<br>
+          <span class="mono" style="color:#64748b">Music: fade outro ~3s before final frame · keep VO room-tone-only over the card.</span>
+        </div>
+      </div>
+      <div class="cell">
+        <div class="key">Source Files</div>
+        <div class="val">
+          <span class="mono">end-card.html</span> · <span class="mono">09-end-card-vintage.html</span><br>
+          <span class="mono" style="color:#64748b">Re-render via headless Chrome:<br>--window-size=1920,1080 --screenshot=&lt;out.png&gt;</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body></html>

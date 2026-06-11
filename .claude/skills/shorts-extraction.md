@@ -113,7 +113,7 @@ Save to `output/YYYY-WXX/shorts/[video-slug]/`:
 - [ ] No clip starts with "Hey guys" or "So..."
 - [ ] DM keyword CTA on every clip
 - [ ] No investor content on TikTok (TikTok = buyers/relocators ONLY)
-- [ ] Fort Hood (not Fort Cavazos)
+- [ ] Fort Hood (not Fort Hood)
 - [ ] No banned words from QUALITY-GATES.md
 - [ ] Each clip score ≥ 18/25
 

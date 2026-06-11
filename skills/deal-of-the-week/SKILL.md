@@ -129,7 +129,7 @@ Save all components to `output/YYYY-WXX/deal-of-the-week/[address-slug]/`
 
 ## Rules
 - NEVER say "turnkey" — use "buy-and-hold" or "rental property"
-- NEVER say "Fort Cavazos" — use "Fort Hood" (name reverted July 2025)
+- NEVER say "Fort Hood" — use "Fort Hood" (name reverted July 2025)
 - Include honest negatives (Scars and All)
 - All numbers must be specific — no ranges or "approximately"
 - Blog post must have FAQ schema structure for AEO

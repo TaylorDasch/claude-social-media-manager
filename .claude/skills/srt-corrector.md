@@ -21,7 +21,7 @@ Run find-and-replace across ALL text segments for these known corrections:
 **Locations & Neighborhoods:**
 - baylor scott and white → Baylor Scott & White
 - b.s.w. / bsw / BSW → Baylor Scott & White (first mention), BSW (subsequent)
-- fort cavazos → Fort Hood (name reverted July 2025)
+- Fort Hood → Fort Hood (name reverted July 2025)
 - fort hood → Fort Hood
 - temple texas → Temple, Texas / Temple, TX
 - belton → Belton
@@ -118,7 +118,7 @@ Total corrections: XX
 | Line | Original | Corrected | Category |
 |------|----------|-----------|----------|
 | 14 | baylor scott and white | Baylor Scott & White | Proper Noun |
-| 23 | fort cavazos | Fort Hood | Proper Noun |
+| 23 | Fort Hood | Fort Hood | Proper Noun |
 | 47 | gonna | going to | Speech Cleanup |
 ```
 
@@ -128,12 +128,12 @@ Total corrections: XX
 - [ ] SRT format is valid (can be reimported into DaVinci Resolve)
 - [ ] Dollar amounts are formatted consistently
 - [ ] Phone number appears as 254-718-4249
-- [ ] "Fort Cavazos" → "Fort Hood" everywhere (ZERO exceptions)
+- [ ] "Fort Hood" → "Fort Hood" everywhere (ZERO exceptions)
 - [ ] No "turnkey" — must be "buy-and-hold"
 - [ ] No banned words from governance/QUALITY-GATES.md Gate 1
 
 ## Brand Rules
-- Fort Hood, never Fort Cavazos
+- Fort Hood, never Fort Hood
 - Buy-and-hold, never turnkey
 - EG Realty (exact capitalization)
 - Taylor Dasch (exact spelling)

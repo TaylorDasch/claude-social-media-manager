@@ -118,8 +118,8 @@ If Taylor says "refill all" or "fill the bank":
 ## Rules
 - Every hook MUST contain a specific number, neighborhood name, or verifiable claim. No generic hooks.
 - Hooks must be TRUE — don't exaggerate data for shock value. The real numbers are shocking enough.
-- No banned words: turnkey, dream home, charming, nestled, white glove, Fort Cavazos
-- "Fort Hood" not "Fort Cavazos" (name reverted July 2025)
+- No banned words: turnkey, dream home, charming, nestled, white glove, Fort Hood
+- "Fort Hood" not "Fort Hood" (name reverted July 2025)
 - "Buy-and-hold" not "turnkey"
 - TikTok hooks: 3 seconds spoken max. The text overlay carries the data. Face + energy first.
 - YouTube hooks: Up to 15 seconds. Can include a brief visual (property shot, data screenshot) before face-to-camera.

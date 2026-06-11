@@ -252,7 +252,7 @@ See `governance/QUALITY-GATES.md` Gate 1. Additionally for the Insider:
 - No "whether you're a..." constructions
 - No "in today's market" -- name the month/year
 - No "amenities" -- name the actual things
-- No "Fort Cavazos" -- use "Fort Hood" (name reverted July 2025)
+- No "Fort Hood" -- use "Fort Hood" (name reverted July 2025)
 
 ### Data Rules
 - Real MLS data only. Never estimate. Never fabricate.
@@ -481,7 +481,7 @@ Check `output/` for previous issues. Increment the issue number. File naming: `t
 - **MTR vs LTR comparison** whenever the property could plausibly run either strategy.
 - **Real data only.** MLS comps, CAD values, actual insurance quotes, real rental comps. Flag any estimate explicitly: "Estimated -- verify before underwriting."
 - **Never say "turnkey."** Use "buy-and-hold" or "buy-and-hold investors."
-- **Fort Hood** -- not "Fort Cavazos" (name reverted July 2025).
+- **Fort Hood** -- not "Fort Hood" (name reverted July 2025).
 
 ### Success Metric
 Success is NOT open rate. It is: "Did this issue lead to a conversation that turned into a deal?" One reply from a serious investor beats 50% open rate on passive readers.

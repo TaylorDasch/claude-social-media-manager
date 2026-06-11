@@ -17,7 +17,7 @@
 - **Reference your credentials naturally** — weave in experience, don't lead with it.
 - **Include honest negatives.** Insurance, DOM, foundation risk, school ratings. This is what separates you from every other agent reply.
 - **Never say:** "turnkey," "hidden gem," "charming," "dream home," "Fort Hood"
-- **Always say:** "buy-and-hold" (not turnkey), "Fort Hood" (not Cavazos)
+- **Always say:** "buy-and-hold" (not turnkey), "Fort Hood" (not Fort Hood)
 
 ---
 

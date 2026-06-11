@@ -2,7 +2,7 @@
 
 **Date:** 2026-04-20
 **Scope:** Instagram + TikTok strategy for qualified local real estate leads
-**Audiences:** BSW relocators, Fort Cavazos military, out-of-state investors
+**Audiences:** BSW relocators, Fort Hood military, out-of-state investors
 **Market:** Temple / Belton / Killeen / Harker Heights / Salado / Bell County, TX
 
 ---
@@ -17,7 +17,7 @@ Your top two lead sources ($9.7K expired + $9K BiggerPockets) are both text/dire
 
 If you only ever post this mix, you win:
 
-1. **One BSW/Fort Cavazos relocation video** — specific neighborhood, commute time, price range, what it's actually like (TikTok-native + IG Reel)
+1. **One BSW/Fort Hood relocation video** — specific neighborhood, commute time, price range, what it's actually like (TikTok-native + IG Reel)
 2. **One "Brutal Truth About [Neighborhood]"** — 45 sec, name one negative other agents won't (flooding, school rezoning, train noise on 29th, whatever's real)
 3. **One investor deal teardown** — IG only. Real property, real cap rate, real cash-on-cash. 60–90 sec.
 4. **One Temple lifestyle / "what it's like"** — TikTok-native, not salesy, shot on location (HEB, downtown, Lions Park, crawfish season)
@@ -50,12 +50,12 @@ That's it. Five slots. Don't chase content calendars beyond that in the first 90
 
 ## 3. Audience Strategy
 
-**Biggest lever by volume + intent:** BSW relocators + Fort Cavazos military. Both are forced migrators (new job, new orders). They have a timeline. They will sign with someone. If you show up as the Temple authority while they're Googling, you win.
+**Biggest lever by volume + intent:** BSW relocators + Fort Hood military. Both are forced migrators (new job, new orders). They have a timeline. They will sign with someone. If you show up as the Temple authority while they're Googling, you win.
 
 **Investor audience is revenue-strong but saturated nationally.** Good for IG. Bad for TikTok (per your rules, but also because investor TikTok is crowded with louder operators with bigger markets).
 
 **Content mix across BOTH platforms (total output):**
-- **Relocation (BSW + Fort Cavazos + general buyer):** 55%
+- **Relocation (BSW + Fort Hood + general buyer):** 55%
 - **Investor (IG-heavy):** 25%
 - **Local market / lifestyle / authority:** 15%
 - **Personal / BTS:** 5% (minimum viable — you're not a personality brand)
@@ -96,7 +96,7 @@ Three moats in one sentence:
 | # | Pillar | Purpose | Platform Weight |
 |---|--------|---------|-----------------|
 | 1 | **Street-level neighborhood intel (with negatives named)** | Trust + Reach | Both |
-| 2 | **BSW & Fort Cavazos relocation playbook** | Lead conversion | TikTok-heavy |
+| 2 | **BSW & Fort Hood relocation playbook** | Lead conversion | TikTok-heavy |
 | 3 | **Investor deal math (real properties, real numbers)** | Authority + Lead conversion | IG only |
 | 4 | **"Would I buy this?" — active listings analyzed like an investor** | Reach + Trust | Both (IG investor angle / TikTok buyer angle, filmed separately) |
 | 5 | **Builder teardowns — honest pros/cons of new construction** | Trust + Lead conversion | Both |
@@ -113,7 +113,7 @@ Seven is the ceiling. Don't add more; add depth.
 2. **"$X Down in Temple"** — what $50K / $75K / $100K actually buys as a rental (IG)
 3. **"BSW Commute Check"** — drive from the neighborhood to the main BSW hospital at 7:15am, timer on screen
 4. **"Would I Buy This?"** — you walk a live listing and score it like an investor: roof, foundation, lot, comps, exit
-5. **"From Fort Cavazos to ___"** — military-specific neighborhood tours: VA loan friendly, schools, commute to base
+5. **"From Fort Hood to ___"** — military-specific neighborhood tours: VA loan friendly, schools, commute to base
 6. **"The Math on This One"** — real deal teardown: purchase, rehab, rent, cap rate, cash-on-cash (IG)
 7. **"Expired Autopsy"** — why listings expired last month, no names, lessons for sellers
 8. **"Temple vs. [Austin/Dallas/Round Rock]"** — price, commute, schools, taxes, honest comparison (huge for out-of-state)
@@ -131,7 +131,7 @@ Pick **3–4 of these to run on repeat** for 90 days. Don't try to run all 10.
 1. "This Temple neighborhood looks perfect. It's not. Here's why."
 2. "If you're moving to BSW, don't buy in [neighborhood] until you hear this."
 3. "I've owned rentals in Temple for [X] years. This is the street I'd avoid."
-4. "Fort Cavazos families keep asking me this question. Let me answer it once."
+4. "Fort Hood families keep asking me this question. Let me answer it once."
 5. "The cheapest house in Temple right now is $___. Here's what's wrong with it."
 6. "Everyone's telling you to buy in [neighborhood]. I wouldn't."
 7. "I just walked a $___ listing. The math doesn't work. Here's why."
@@ -217,7 +217,7 @@ Never end a video with "follow for more." Ends weak, doesn't convert.
 
 **Lead magnets (build these before Day 1 of posting):**
 1. **BSW Relocation Kit** — 8-page PDF: 6 neighborhoods ranked for physicians, commute times, price bands, school ratings, physician loan sheet
-2. **Fort Cavazos PCS Guide** — VA-friendly neighborhoods, commute to base, PCS timeline, rental market if they want to buy-and-hold after the tour
+2. **Fort Hood PCS Guide** — VA-friendly neighborhoods, commute to base, PCS timeline, rental market if they want to buy-and-hold after the tour
 3. **Monthly Bell County Deal Sheet** — 5–10 properties scored for cap rate, cash-on-cash (investor-only, IG only)
 4. **Temple vs. Austin Cost-of-Living Cheatsheet** — the comparison that sells itself to out-of-state buyers
 
@@ -243,7 +243,7 @@ Never end a video with "follow for more." Ends weak, doesn't convert.
 |-----|----------|--------|------|
 | Mon | TikTok | Walking, 45 sec | "If you're moving to BSW, avoid [neighborhood] — here's why" |
 | Tue | IG Reel | On-site, 60 sec | "Would I Buy This?" #2 — different price band |
-| Wed | TikTok | Sit-down, 60 sec | "From Fort Cavazos to Harker Heights" — military family neighborhood tour |
+| Wed | TikTok | Sit-down, 60 sec | "From Fort Hood to Harker Heights" — military family neighborhood tour |
 | Thu | IG Reel | Desk, 60 sec | "$75K down in Temple" — what that buys as a rental |
 | Fri | TikTok | On-location, 30 sec | "Temple vs. Austin" — cost of living one-shot |
 
@@ -263,7 +263,7 @@ Never end a video with "follow for more." Ends weak, doesn't convert.
 |-----|----------|--------|------|
 | Mon | TikTok | Walking, 45 sec | "If I were relocating to BSW tomorrow, here's what I'd do first" (hard CTA to lead magnet) |
 | Tue | IG Reel | Chart/data, 60 sec | **Monthly Market Receipts** — one chart, one number, one take |
-| Wed | TikTok | On-location, 30 sec | "Fort Cavazos PCS — which school districts are actually good" (CTA: "DM CAVAZOS") |
+| Wed | TikTok | On-location, 30 sec | "Fort Hood PCS — which school districts are actually good" (CTA: "DM CAVAZOS") |
 | Thu | IG Reel | Desk, 75 sec | "Would I Buy This?" #3 + running mini-leaderboard of Yes/No listings |
 | Fri | TikTok | Sit-down, 45 sec | "Expired Autopsy — what killed Temple listings in [month]" |
 
@@ -320,7 +320,7 @@ This is where the compound happens. One topic → 4 assets. AI crawlers see the 
 
 **Name:** "The Bell County Operator" 90-day system.
 
-**One sentence:** Own BSW + Fort Cavazos relocation on TikTok with native short-form, own investor authority on IG with deal teardowns, funnel everything to three DM keywords and one lead magnet landing page, and let YouTube + blog repurposing compound AI visibility in the background.
+**One sentence:** Own BSW + Fort Hood relocation on TikTok with native short-form, own investor authority on IG with deal teardowns, funnel everything to three DM keywords and one lead magnet landing page, and let YouTube + blog repurposing compound AI visibility in the background.
 
 **The 90-day commitment:**
 
@@ -331,7 +331,7 @@ This is where the compound happens. One topic → 4 assets. AI crawlers see the 
   1. "Brutal Truth About [neighborhood]" — weekly TikTok
   2. "BSW Commute Check" — biweekly TikTok
   3. "Would I Buy This?" — weekly IG Reel
-- **Lead magnets built by Day 7:** BSW Kit, Cavazos Guide, Investor Deal Sheet. Landing page + FUB action plan enrollment live by Day 10.
+- **Lead magnets built by Day 7:** BSW Kit, Fort Hood Guide, Investor Deal Sheet. Landing page + FUB action plan enrollment live by Day 10.
 - **DM keywords automated by Day 10:** TEMPLE, BSW, DEAL
 - **Every post filmed on-location or with real data on screen.** No desk-and-webcam-only content except for the Monthly Market Receipts piece.
 - **YouTube extension within 7 days** of any short that popped (>5K views on TikTok or >2K on IG). Then blog post within 14 days.
@@ -359,7 +359,7 @@ This is where the compound happens. One topic → 4 assets. AI crawlers see the 
 
 ## Build Order (If Executing)
 
-**Day 1–3:** Build 3 lead magnets (BSW Kit, Cavazos Guide, Investor Deal Sheet) as PDFs
+**Day 1–3:** Build 3 lead magnets (BSW Kit, Fort Hood Guide, Investor Deal Sheet) as PDFs
 **Day 4–6:** Build landing page `/bsw-relocation-kit/` on templetxhomes.net with Railway relay form capture
 **Day 7:** Set up FUB action plans for each magnet (BSW Relocator, Military PCS, Investor Deal List)
 **Day 8–10:** Automate DM keyword replies on IG/TikTok (ManyChat or equivalent)

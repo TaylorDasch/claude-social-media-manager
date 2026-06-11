@@ -111,5 +111,5 @@ Save to `output/audits/freshness-scan-YYYY-MM-DD.md`
 ## Brand Rules
 - Use real MLS data for updated values — never estimate
 - Flag any number you can't verify as `[VERIFY — need MLS pull]`
-- Fort Hood (not Fort Cavazos)
+- Fort Hood (not Fort Hood)
 - dateModified should reflect actual content update, not just schema update

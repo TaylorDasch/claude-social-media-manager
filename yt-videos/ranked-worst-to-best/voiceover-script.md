@@ -36,7 +36,7 @@
 >
 > **One.** `[1]` Price per square foot versus quality. Are you getting value?
 > **Two.** School district. Belton, Academy, or Temple ISD rating.
-> **Three.** Commute. To BSW Hospital. To Fort Cavazos. To I-35.
+> **Three.** Commute. To BSW Hospital. To Fort Hood. To I-35.
 > **Four.** Infrastructure. Age of utilities. Street drainage. Sidewalks.
 > **Five.** Resale velocity. How fast does it sell? How much below list?
 > **Six.** `[1]` The honest gut check. **Would I put my own family here?**
@@ -158,7 +158,7 @@
 > If you want **"old Temple" in the best sense** — this is it.
 >
 > **Legacy Ranch.** Premium new construction tier.
-> Stone exteriors. 3-car garages. BSW docs and Fort Cavazos officers buy here. That tells you everything about the quality.
+> Stone exteriors. 3-car garages. BSW docs and Fort Hood officers buy here. That tells you everything about the quality.
 >
 > **Hillside Village.** This is the **tax-hack play.**
 > Lowest effective tax rate in the Temple area. Over a 5-year hold, that's **$8,000 to $12,000 in tax savings** vs comparable Temple purchases.
@@ -217,7 +217,7 @@
 >
 > `[1]` Here's why:
 > - **Belton ISD.**
-> - Direct access to US-190 — **fastest commute to Fort Cavazos** from any Temple zone.
+> - Direct access to US-190 — **fastest commute to Fort Hood** from any Temple zone.
 > - Family-heavy, turnover is mostly military and first responders.
 > - **Fastest value appreciation of any Temple-adjacent zone over the last 24 months.**
 >

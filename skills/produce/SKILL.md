@@ -180,7 +180,7 @@ Auto-generated at the end of every pipeline run:
 Before delivering, run the two-pass check:
 1. **Actor pass** — Generate all assets
 2. **Revisor pass** — Check against:
-   - No banned words (turnkey, dream home, charming, nestled, white glove, Fort Cavazos)
+   - No banned words (turnkey, dream home, charming, nestled, white glove, Fort Hood)
    - All numbers are specific (no "approximately" or ranges where exact data exists)
    - Every CTA uses a DM keyword from the approved list
    - Hashtags follow three-tier system

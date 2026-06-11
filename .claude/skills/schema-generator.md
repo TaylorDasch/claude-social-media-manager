@@ -164,4 +164,4 @@
 - Author is always "Taylor Dasch" with jobTitle "Real Estate Agent" (not broker)
 - Organization is always "EG Realty"
 - sameAs links must be real, verified profiles
-- knowsAbout uses "Fort Hood" not "Fort Cavazos"
+- knowsAbout uses "Fort Hood" not "Fort Hood"

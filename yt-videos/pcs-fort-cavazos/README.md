@@ -1,4 +1,4 @@
-# PCS to Fort Cavazos — Production Package
+# PCS to Fort Hood — Production Package
 
 **Video #2 in the "New 20" priority list** · ⭐⭐⭐⭐⭐ impact (zero-competition lane per SERP audit)
 
@@ -6,7 +6,7 @@
 
 | File | Purpose |
 |---|---|
-| `pcs-fort-cavazos.html` | Click-through 3D map tour. 24 steps. Starts over Fort Cavazos gate, shows commute path to Temple, walks through 4 military-friendly zones, includes BAH math card. |
+| `pcs-fort-cavazos.html` | Click-through 3D map tour. 24 steps. Starts over Fort Hood gate, shows commute path to Temple, walks through 4 military-friendly zones, includes BAH math card. |
 | `voiceover-script.md` | Teleprompter-ready 12-15 min script synced to the HTML steps. |
 | `README.md` | This file. |
 
@@ -14,7 +14,7 @@
 
 The BAH and school-district numbers in the HTML and script are 2026 approximations. **Verify current values on the day you film:**
 
-1. **Fort Cavazos BAH rates** — https://www.defensetravel.dod.mil/site/bahCalc.cfm (use zip 76544)
+1. **Fort Hood BAH rates** — https://www.defensetravel.dod.mil/site/bahCalc.cfm (use zip 76544)
 2. **Killeen median home price** — Redfin/Zillow Killeen market report
 3. **Temple + Killeen ISD current ratings** — TEA or schooldigger
 4. **Bell County non-homestead tax rate** — Bell CAD website
@@ -33,12 +33,12 @@ Update the HTML's `bah` overlay step (search for `bahValue` in the SEQUENCE) and
 
 Same as Temple Map Tour — see `../temple-map-tour/README.md` for the Mac screen-record instructions and CapCut edit flow. Key differences:
 
-- **Title:** "PCS to Fort Cavazos? Why Smart Military Families Skip Killeen and Live in Temple (2026)"
+- **Title:** "PCS to Fort Hood? Why Smart Military Families Skip Killeen and Live in Temple (2026)"
 - **Thumbnail text options:**
   - "SKIP KILLEEN"
   - "YOUR BAH GOES FURTHER"
   - "20 MIN FROM THE GATE"
-- **Tags:** pcs to fort cavazos, fort cavazos housing, moving to fort cavazos, military relocation temple tx, temple tx military, va loan temple, fort hood housing 2026
+- **Tags:** pcs to Fort Hood, Fort Hood housing, moving to Fort Hood, military relocation temple tx, temple tx military, va loan temple, fort hood housing 2026
 - **Chapters:**
   ```
   0:00 Hook
@@ -60,7 +60,7 @@ Same as Temple Map Tour — see `../temple-map-tour/README.md` for the Mac scree
 
 ## Honest Limits
 
-- I have not verified every coordinate for 100% accuracy. The Fort Cavazos gate at `[-97.7590, 31.1350]` is the **main gate (Marvin Leath)** approximation. If you want the camera to center over a different gate (Clarke, Chaffee, Tank Destroyer), update `COORDS.cavazosGate` in the HTML.
+- I have not verified every coordinate for 100% accuracy. The Fort Hood gate at `[-97.7590, 31.1350]` is the **main gate (Marvin Leath)** approximation. If you want the camera to center over a different gate (Clarke, Chaffee, Tank Destroyer), update `COORDS.cavazosGate` in the HTML.
 - Killeen "old neighborhoods" coord is a stand-in — the camera just needs to pan over *some* of the older Killeen housing stock. If you want a specific neighborhood shown, update `COORDS.killeenOld`.
 - BAH numbers WILL change. Do not ship this video with 2024 or 2025 data — verify current-year first.
 

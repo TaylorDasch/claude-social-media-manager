@@ -11,3 +11,9 @@ venv/
 
 # Third-party plugin (has its own origin)
 claude-seo/
+
+# C3 backup repair (2026-06-11): video never goes to git (1.7GB+, >100MB files)
+*.mp4
+*.mov
+postiz/
+posted/

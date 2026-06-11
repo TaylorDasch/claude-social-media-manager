@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1920px;height:1080px;overflow:hidden;background:#0f172a;color:#f8fafc;font-family:'Outfit',sans-serif;-webkit-font-smoothing:antialiased}
+.frame{position:relative;width:1920px;height:1080px;background:radial-gradient(ellipse at top left,#131e36 0%,#0f172a 50%,#080d18 100%);padding:48px 60px;display:grid;grid-template-rows:auto 1fr auto;gap:32px}
+.topbar{display:flex;justify-content:space-between;align-items:flex-start;border-bottom:1px solid rgba(255,255,255,.08);padding-bottom:24px}
+.brand{display:flex;align-items:center;gap:18px}
+.logo{width:14px;height:14px;background:#10b981;transform:rotate(45deg);box-shadow:0 0 16px rgba(16,185,129,.7)}
+.brand-name{font-family:'JetBrains Mono',monospace;font-size:14px;font-weight:600;letter-spacing:.32em;text-transform:uppercase;color:rgba(248,250,252,.85)}
+.brand-sub{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:#64748b;margin-top:6px}
+.pull-stamp{text-align:right;font-family:'JetBrains Mono',monospace;font-size:13px;color:#94a3b8;letter-spacing:.18em;text-transform:uppercase}
+.pull-stamp .date{color:#34d399;font-weight:600;font-size:15px}
+.pull-stamp .rec{margin-top:6px;color:#64748b}
+h1{font-family:'Outfit',sans-serif;font-weight:700;font-size:42px;letter-spacing:-.02em;color:#f8fafc;margin-bottom:6px}
+h1 .accent{color:#34d399}
+.subtitle{font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.22em;text-transform:uppercase;color:#94a3b8}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.card{background:linear-gradient(135deg,rgba(255,255,255,.025),rgba(255,255,255,.01));border:1px solid rgba(255,255,255,.08);border-radius:6px;padding:28px 30px;position:relative;overflow:hidden}
+.card.accent{border-left:3px solid #10b981;background:linear-gradient(135deg,rgba(16,185,129,.08),rgba(16,185,129,.01))}
+.card.red{border-left:3px solid #ef4444;background:linear-gradient(135deg,rgba(239,68,68,.06),rgba(239,68,68,.01))}
+.k{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:#94a3b8;margin-bottom:14px}
+.v{font-family:'Outfit',sans-serif;font-weight:700;font-size:54px;letter-spacing:-.02em;color:#f8fafc;line-height:1}
+.v.green{color:#34d399}.v.red{color:#fca5a5}
+.unit{font-size:18px;color:#94a3b8;margin-left:4px;font-weight:500}
+.delta{font-family:'JetBrains Mono',monospace;font-size:12px;color:#64748b;letter-spacing:.06em;margin-top:10px}
+.delta.up{color:#fca5a5}.delta.down{color:#34d399}
+.row{display:grid;grid-template-columns:1.4fr 1fr;gap:32px;margin-top:8px}
+.panel{background:linear-gradient(135deg,rgba(255,255,255,.025),rgba(255,255,255,.005));border:1px solid rgba(255,255,255,.08);border-radius:6px;padding:32px 36px;position:relative}
+.panel-title{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:#10b981;margin-bottom:24px;display:flex;align-items:center;gap:12px}
+.panel-title::before{content:'';width:6px;height:6px;background:#10b981;transform:rotate(45deg)}
+table{width:100%;border-collapse:collapse;font-family:'JetBrains Mono',monospace}
+th{text-align:left;font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:#64748b;padding:10px 0;border-bottom:1px solid rgba(255,255,255,.06);font-weight:500}
+th.r,td.r{text-align:right}
+td{padding:12px 0;font-size:14px;color:#cbd5e1;border-bottom:1px solid rgba(255,255,255,.04)}
+td.bucket{color:#f8fafc;font-weight:500}
+td.pct{color:#34d399;font-weight:600}
+.bar-wrap{display:flex;align-items:center;gap:10px}
+.bar{height:6px;background:linear-gradient(90deg,#10b981,#34d399);border-radius:2px;opacity:.7}
+.subdivs{display:flex;flex-direction:column;gap:14px}
+.subdiv-row{display:flex;justify-content:space-between;align-items:center;font-family:'JetBrains Mono',monospace;font-size:13px;padding:6px 0;border-bottom:1px solid rgba(255,255,255,.04)}
+.subdiv-row .name{color:#f8fafc;font-weight:500}
+.subdiv-row .count{color:#10b981;font-weight:600}
+.footer{display:flex;justify-content:space-between;align-items:center;padding-top:16px;border-top:1px solid rgba(255,255,255,.08);font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:#64748b}
+.footer .status{color:#10b981;display:flex;align-items:center;gap:8px}
+.footer .status::before{content:'';width:8px;height:8px;background:#10b981;border-radius:50%;box-shadow:0 0 10px rgba(16,185,129,.6);animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.5}}
+</style></head><body>
+<div class="frame">
+  <div class="topbar">
+    <div class="brand">
+      <div class="logo"></div>
+      <div>
+        <div class="brand-name">Temple TX MLS Monitor</div>
+        <div class="brand-sub">Bell County · Active + Sold · Live Pull</div>
+      </div>
+    </div>
+    <div class="pull-stamp">
+      <div>MLS Pull <span class="date">2026-05-14</span></div>
+      <div class="rec">3,326 Records · Within 7-Day Window</div>
+    </div>
+  </div>
+
+  <div>
+    <h1>May Market Read — <span class="accent">Active Inventory</span> Dashboard</h1>
+    <div class="subtitle">Temple + Belton · Active Listings + Last 30-Day Closings</div>
+
+    <div class="grid" style="margin-top:30px">
+      <div class="card accent"><div class="k">Active Listings</div><div class="v green">1,218</div><div class="delta up">Temple 859 · Belton 359</div></div>
+      <div class="card red"><div class="k">% With Price Cut</div><div class="v red">52.6%</div><div class="delta up">641 of 1,218 active</div></div>
+      <div class="card"><div class="k">Median Price Cut</div><div class="v">$15,000</div><div class="delta">Max cut: $1.8M (outlier)</div></div>
+      <div class="card"><div class="k">Median DOM (Active)</div><div class="v">65.5<span class="unit">days</span></div><div class="delta up">2.1× the 2022 baseline</div></div>
+    </div>
+
+    <div class="grid" style="margin-top:24px">
+      <div class="card"><div class="k">Closed Sales (30D)</div><div class="v">165</div><div class="delta">Median DOM at sale: 74</div></div>
+      <div class="card"><div class="k">Median Sold Price</div><div class="v">$293,000</div><div class="delta">vs. $301,548 active median</div></div>
+      <div class="card"><div class="k">New Construction Share</div><div class="v">29%</div><div class="delta">348 active · YB 2024+</div></div>
+      <div class="card"><div class="k">Median Active List</div><div class="v">$301,548</div><div class="delta">50% of inventory under $300K</div></div>
+    </div>
+
+    <div class="row" style="margin-top:24px">
+      <div class="panel">
+        <div class="panel-title">Active Price Distribution</div>
+        <table>
+          <thead><tr><th>Bucket</th><th class="r">Count</th><th class="r">% of Active</th><th>Concentration</th></tr></thead>
+          <tbody>
+            <tr><td class="bucket">&lt; $200K</td><td class="r">131</td><td class="r pct">11%</td><td><div class="bar-wrap"><div class="bar" style="width:55px"></div></div></td></tr>
+            <tr><td class="bucket">$200–300K</td><td class="r">471</td><td class="r pct">39%</td><td><div class="bar-wrap"><div class="bar" style="width:195px"></div></div></td></tr>
+            <tr><td class="bucket">$300–400K</td><td class="r">314</td><td class="r pct">26%</td><td><div class="bar-wrap"><div class="bar" style="width:130px"></div></div></td></tr>
+            <tr><td class="bucket">$400–500K</td><td class="r">120</td><td class="r pct">10%</td><td><div class="bar-wrap"><div class="bar" style="width:50px"></div></div></td></tr>
+            <tr><td class="bucket">$500–750K</td><td class="r">114</td><td class="r pct">9%</td><td><div class="bar-wrap"><div class="bar" style="width:45px"></div></div></td></tr>
+            <tr><td class="bucket">$750K+</td><td class="r">68</td><td class="r pct">6%</td><td><div class="bar-wrap"><div class="bar" style="width:30px"></div></div></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="panel">
+        <div class="panel-title">Top Active Subdivisions</div>
+        <div class="subdivs">
+          <div class="subdiv-row"><span class="name">Three Creeks</span><span class="count">43 active</span></div>
+          <div class="subdiv-row"><span class="name">Mesa Ridge</span><span class="count">30 active</span></div>
+          <div class="subdiv-row"><span class="name">Pecan Creek</span><span class="count">23 active</span></div>
+          <div class="subdiv-row"><span class="name">Hubbard Branch</span><span class="count">17 active</span></div>
+          <div class="subdiv-row"><span class="name">Oak Ridge · Tanglewood</span><span class="count">16 each</span></div>
+          <div class="subdiv-row"><span class="name">Parks at Westfield</span><span class="count">14 active</span></div>
+          <div class="subdiv-row"><span class="name">Hills of Westwood</span><span class="count">14 active</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="status">Connection Live · Last sync 2026-05-14 06:42 CT</div>
+    <div>Taylor Dasch · EG Realty · 254-718-4249</div>
+  </div>
+</div>
+</body></html>

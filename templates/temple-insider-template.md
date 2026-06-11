@@ -279,7 +279,7 @@ templetxhomes.net
 - [ ] No em dashes
 - [ ] No "whether you're a..." constructions
 - [ ] No "in today's market" filler
-- [ ] No "Fort Cavazos" -- use "Fort Hood"
+- [ ] No "Fort Hood" -- use "Fort Hood"
 - [ ] Voice check: would Taylor actually say this out loud?
 - [ ] One creative/unexpected element included somewhere in the issue
 

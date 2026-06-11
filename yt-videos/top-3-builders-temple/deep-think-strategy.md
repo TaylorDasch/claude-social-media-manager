@@ -112,7 +112,7 @@
 
 **3 Genuine Strengths:**
 1. **Spray foam insulation standard** — This is the single biggest construction quality differentiator in the Temple market. Spray foam creates an airtight envelope. Your HVAC doesn't fight against 105-degree attic air seeping through fiberglass gaps. Your energy bills are 20-30% lower. Your house is quieter. And it never settles, sags, or loses R-value over time like batt insulation does.
-2. **4th generation, 50+ years** — The Carothers family has been building in Bell County since before Fort Hood was Fort Cavazos — and it's Fort Hood again. Four generations means they're not chasing quarterly earnings or cutting corners to hit a national production quota. Their reputation IS their business.
+2. **4th generation, 50+ years** — The Carothers family has been building in Bell County since before Fort Hood was Fort Hood — and it's Fort Hood again. Four generations means they're not chasing quarterly earnings or cutting corners to hit a national production quota. Their reputation IS their business.
 3. **Semi-custom capability** — Want to move a wall? Add a study? Change the roofline? Carothers can do it. National builders can't. This is the difference between buying a product and building a home. They have 4 distinct series (Lone Star, Diamond, Executive, Signature) covering $349K-$869K, so there's a Carothers home at almost every move-up price point.
 
 **2 Honest Weaknesses:**

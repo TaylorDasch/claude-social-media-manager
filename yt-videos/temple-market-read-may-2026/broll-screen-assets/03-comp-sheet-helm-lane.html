@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+@page{size:letter;margin:0}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html,body{width:8.5in;height:11in;background:#fff;color:#0f172a;font-family:'Outfit',sans-serif;font-size:11pt;line-height:1.4}
+.sheet{padding:.55in .6in;width:8.5in;height:11in;position:relative}
+.header{display:flex;justify-content:space-between;align-items:flex-start;padding-bottom:14px;border-bottom:2px solid #0f172a;margin-bottom:18px}
+.brand{display:flex;align-items:center;gap:12px}
+.logo{width:12px;height:12px;background:#059669;transform:rotate(45deg)}
+.brand-name{font-family:'JetBrains Mono',monospace;font-size:10pt;font-weight:600;letter-spacing:.24em;text-transform:uppercase}
+.brand-sub{font-family:'JetBrains Mono',monospace;font-size:7pt;letter-spacing:.2em;text-transform:uppercase;color:#475569;margin-top:3px}
+.stamp{text-align:right;font-family:'JetBrains Mono',monospace;font-size:8pt;color:#475569;letter-spacing:.16em;text-transform:uppercase}
+.stamp .pull{color:#059669;font-weight:600;font-size:9pt;display:block;margin-bottom:3px}
+h1{font-family:'Outfit',sans-serif;font-weight:700;font-size:22pt;letter-spacing:-.01em;line-height:1.05;margin-bottom:6px}
+.address{font-family:'JetBrains Mono',monospace;font-size:11pt;color:#475569;letter-spacing:.04em;margin-bottom:18px}
+.headline-bar{background:#fef2f2;border-left:4px solid #dc2626;padding:14px 18px;margin-bottom:18px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:18px}
+.hl-block .hl-label{font-family:'JetBrains Mono',monospace;font-size:8pt;letter-spacing:.2em;text-transform:uppercase;color:#7f1d1d;margin-bottom:4px}
+.hl-block .hl-value{font-family:'Outfit',sans-serif;font-weight:700;font-size:18pt;color:#7f1d1d;line-height:1}
+.hl-block.win .hl-label{color:#065f46}.hl-block.win .hl-value{color:#065f46}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid #e2e8f0;border-left:1px solid #e2e8f0}
+.field{padding:9px 14px;border-right:1px solid #e2e8f0;border-bottom:1px solid #e2e8f0;display:flex;justify-content:space-between;align-items:baseline}
+.field .label{font-family:'JetBrains Mono',monospace;font-size:8pt;letter-spacing:.18em;text-transform:uppercase;color:#475569}
+.field .value{font-family:'Outfit',sans-serif;font-weight:600;font-size:11pt;color:#0f172a}
+.field .value.hi{color:#059669}
+.field .value.lo{color:#dc2626}
+.section-title{font-family:'JetBrains Mono',monospace;font-size:9pt;letter-spacing:.26em;text-transform:uppercase;color:#0f172a;font-weight:600;margin:24px 0 10px;display:flex;align-items:center;gap:10px}
+.section-title::before{content:'';width:6px;height:6px;background:#059669;transform:rotate(45deg)}
+.notes{font-size:10pt;line-height:1.55;color:#1e293b;padding:14px 18px;background:#f8fafc;border-radius:3px;border-left:3px solid #059669}
+.timeline{display:grid;grid-template-columns:80px 1fr 100px;gap:8px;font-family:'JetBrains Mono',monospace;font-size:9pt;align-items:center;padding:8px 0;border-bottom:1px dashed #e2e8f0}
+.timeline:last-child{border-bottom:0}
+.tl-date{color:#475569}.tl-event{color:#0f172a;font-weight:500}.tl-price{color:#0f172a;text-align:right;font-weight:600}
+.tl-price.down{color:#dc2626}
+.footer{position:absolute;bottom:.35in;left:.6in;right:.6in;display:flex;justify-content:space-between;padding-top:10px;border-top:1px solid #e2e8f0;font-family:'JetBrains Mono',monospace;font-size:8pt;letter-spacing:.18em;text-transform:uppercase;color:#64748b}
+.footer .right{color:#059669;font-weight:600}
+.tag{display:inline-block;padding:3px 10px;background:#fef2f2;border:1px solid #fca5a5;color:#7f1d1d;font-family:'JetBrains Mono',monospace;font-size:8pt;letter-spacing:.16em;text-transform:uppercase;border-radius:2px;margin-left:8px;vertical-align:middle}
+</style></head><body>
+<div class="sheet">
+  <div class="header">
+    <div class="brand">
+      <div class="logo"></div>
+      <div>
+        <div class="brand-name">EG Realty · Comp Sheet</div>
+        <div class="brand-sub">Temple TX · Active Inventory Lineage</div>
+      </div>
+    </div>
+    <div class="stamp">
+      <span class="pull">MLS Pull 2026-05-14</span>
+      Comp #1 of 3 · Page 1/1
+    </div>
+  </div>
+
+  <h1>5588 Helm Lane <span class="tag">53.5% Cut</span></h1>
+  <div class="address">Temple, TX 76502 · Lakeaire Sec II · MLS Active</div>
+
+  <div class="headline-bar">
+    <div class="hl-block"><div class="hl-label">Original List</div><div class="hl-value">$157,999</div></div>
+    <div class="hl-block"><div class="hl-label">Current List</div><div class="hl-value">$73,500</div></div>
+    <div class="hl-block win"><div class="hl-label">Total Reduction</div><div class="hl-value">– $84,499</div></div>
+  </div>
+
+  <div class="grid2">
+    <div class="field"><span class="label">Subdivision</span><span class="value">Lakeaire Sec II</span></div>
+    <div class="field"><span class="label">City</span><span class="value">Temple</span></div>
+    <div class="field"><span class="label">Square Feet</span><span class="value">1,056 sqft</span></div>
+    <div class="field"><span class="label">$/Sqft (Current)</span><span class="value lo">$69.60</span></div>
+    <div class="field"><span class="label">Year Built</span><span class="value">Pre-1950</span></div>
+    <div class="field"><span class="label">Bedrooms / Bath</span><span class="value">2 / 1</span></div>
+    <div class="field"><span class="label">Days on Market</span><span class="value lo">379 days</span></div>
+    <div class="field"><span class="label">Status</span><span class="value">Active</span></div>
+    <div class="field"><span class="label">Lot Size</span><span class="value">0.18 acres</span></div>
+    <div class="field"><span class="label">Property Type</span><span class="value">Single Family</span></div>
+  </div>
+
+  <div class="section-title">Price History</div>
+  <div class="timeline"><span class="tl-date">2025-05-01</span><span class="tl-event">Listed</span><span class="tl-price">$157,999</span></div>
+  <div class="timeline"><span class="tl-date">2025-08-12</span><span class="tl-event">Price Reduced</span><span class="tl-price down">$139,000</span></div>
+  <div class="timeline"><span class="tl-date">2025-11-04</span><span class="tl-event">Price Reduced</span><span class="tl-price down">$119,500</span></div>
+  <div class="timeline"><span class="tl-date">2026-02-18</span><span class="tl-event">Price Reduced</span><span class="tl-price down">$95,000</span></div>
+  <div class="timeline"><span class="tl-date">2026-04-22</span><span class="tl-event">Price Reduced</span><span class="tl-price down">$73,500</span></div>
+
+  <div class="section-title">Analyst Note</div>
+  <div class="notes">Sub-$200K starter inventory at 1,056 sqft is the Pool A pattern: sellers anchored at 2022 valuations, cut at +90, +180, +270 day intervals. Five reductions over 379 DOM signals seller capitulation, not price discovery. Original list was 38% above comparable closed sales in Lakeaire Sec II ($110-130K range). Treat current price as floor, not bargain — building condition and lot drive the discount.</div>
+
+  <div class="footer">
+    <span>Taylor Dasch · 254-718-4249 · dealswithdasch@gmail.com</span>
+    <span class="right">templetxhomes.net</span>
+  </div>
+</div>
+</body></html>

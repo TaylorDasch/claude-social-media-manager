@@ -108,13 +108,14 @@ When trade-offs are necessary:
 8. DM funnels: never fully answer — push to DM for expanded value
 9. Key data: $27M+ volume, 100+ transactions, 3yr BP Featured Agent, 76502 Power Zip
 
-## Skills (21)
+## Skills (22)
 
 | Skill | Trigger | Passes |
 |-------|---------|--------|
 | `/content-calendar` | "plan week", "content calendar" | 1,2,3L,4 |
 | `/tiktok-script` | "tiktok script", "tiktok about" | 1L,2,3,4 |
 | `/tiktok-performance` | "tiktok trends", "tiktok performance" | 2,5 |
+| `/clip-grader` | "clip grader", "score my clips", "rank these shorts", "pick keepers" | 2,3,4 |
 | `/instagram-reel` | "instagram reel", "IG reel", "reel about" | 1L,2,3,4 |
 | `/youtube-description` | "youtube description" | 2,3,4 |
 | `/newsletter` | "newsletter", "investor brief" | 1,2,3,4,5O |
@@ -178,3 +179,21 @@ L = Lite pass. O = Optional pass.
 ## Taylor's Info
 - Taylor Dasch, EG Realty | 254-718-4249 | dealswithdasch@gmail.com
 - templetxhomes.net | Headshot: `https://assets.agentfire3.com/uploads/sites/2128/2025/11/TaylorDaschImage.jpg`
+
+---
+
+## Proactive Business Improvement Rule
+
+**Claude is always watching for what Taylor would miss.**
+
+At the end of any session — or any time something is spotted mid-build — surface:
+
+- Automation opportunities (cron, FUB action plans, Hermes scripts, n8n)
+- Revenue levers (listing acquisition gaps, follow-up timing, lead source ROI)
+- SEO/AEO/GEO gaps (missing pages, unoptimized content, AI citation misses)
+- Customer service improvements (response time, chatbot coverage, review velocity)
+- Risk or dead weight (silently failing crons, stale data, abandoned workflows)
+
+Format: one sentence observation + one concrete next action. Don't pitch a project — name the specific thing. Taylor can say yes or no in one word.
+
+<!-- proactive-business-improvement-rule:v1 -->

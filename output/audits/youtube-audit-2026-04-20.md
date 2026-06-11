@@ -93,7 +93,7 @@ I ran live YouTube SERPs on 6 strategic queries. Here's the landscape:
 | Query | Competition | Your Position | Lane Open? |
 |---|---|---|---|
 | "moving to Temple Texas" | Moderate — "Pros and Cons of Temple Texas" #1, Real Estate Steph playlist, Austin agents | You rank #2 | **Defend + expand** |
-| "Fort Cavazos / Fort Hood PCS" | Heavy Killeen competition (Real Estate Steph 5K+ views) | **Not ranking at all** | **Wide open for Temple angle** |
+| "Fort Hood / Fort Hood PCS" | Heavy Killeen competition (Real Estate Steph 5K+ views) | **Not ranking at all** | **Wide open for Temple angle** |
 | "Academy ISD / Belton ISD" | **Zero agent content.** Only school board meeting recordings. | **Not ranking** | **Completely uncontested** |
 | "Killeen vs Temple / Temple vs Belton" | 3-4 Central TX agents active | One 62-view video | **Retitle + repost** |
 | "BSW residency housing" | **Zero results.** | **Not ranking** | **Uncontested** (small audience) |
@@ -102,7 +102,7 @@ I ran live YouTube SERPs on 6 strategic queries. Here's the landscape:
 ### The 3 Lanes Nobody Owns
 
 1. **Academy ISD 4-day school week** — Parents Google this constantly. Zero agent has a video on it.
-2. **Fort Cavazos PCS → Temple** (not Killeen) — 20-min commute, better schools, BAH stretches further. Every Fort Cavazos video is Killeen-focused.
+2. **Fort Hood PCS → Temple** (not Killeen) — 20-min commute, better schools, BAH stretches further. Every Fort Hood video is Killeen-focused.
 3. **Military retiree settling in Temple** — BAH + VA disability retirees + spouse medical career. Zero content exists.
 
 ---
@@ -128,14 +128,14 @@ I ran live YouTube SERPs on 6 strategic queries. Here's the landscape:
 - "The Zip Codes in Temple Where Kids Get Fridays Off"
 - "Belton ISD vs Temple ISD — Which Wins? (Honest Data)"
 
-### Pillar 4: FORT CAVAZOS / MILITARY (1 Short/week + 1 long-form/month)
-**Job:** Steal the Fort Cavazos PCS lane from Killeen-focused agents.
+### Pillar 4: FORT HOOD / MILITARY (1 Short/week + 1 long-form/month)
+**Job:** Steal the Fort Hood PCS lane from Killeen-focused agents.
 **Format:** Mix.
 **Sample titles:**
-- Long: "PCS to Fort Cavazos? Why Temple Beats Killeen (20-min commute + better schools)"
+- Long: "PCS to Fort Hood? Why Temple Beats Killeen (20-min commute + better schools)"
 - Long: "Army Retiree's Honest Guide to Temple TX (From a Temple Agent)"
-- Short: "BAH for Fort Cavazos Stretches Way Further in Temple"
-- Short: "The 20-Min Commute Nobody's Talking About (Temple → Fort Cavazos)"
+- Short: "BAH for Fort Hood Stretches Way Further in Temple"
+- Short: "The 20-Min Commute Nobody's Talking About (Temple → Fort Hood)"
 
 ### Pillar 5: CONTRARIAN / HOT TAKE (1 Short every 2 weeks)
 **Job:** Retention + shares + comment activity. Breaks the "real estate ad" pattern.
@@ -156,7 +156,7 @@ I ran live YouTube SERPs on 6 strategic queries. Here's the landscape:
 
 | Wk | Mon Short | Wed Short | Fri Short | ★Long-form |
 |---|---|---|---|---|
-| 1 | Bella Terra \| Worth the Premium? \| $350K-$500K | Academy ISD 4-Day Week — What Parents Don't Know | BAH for Fort Cavazos Stretches Way Further in Temple | **"PCS to Fort Cavazos? Why Temple Beats Killeen"** (12-15 min) |
+| 1 | Bella Terra \| Worth the Premium? \| $350K-$500K | Academy ISD 4-Day Week — What Parents Don't Know | BAH for Fort Hood Stretches Way Further in Temple | **"PCS to Fort Hood? Why Temple Beats Killeen"** (12-15 min) |
 | 2 | Legacy Ranch \| Avoid If You Want a Walkable Neighborhood \| $350K+ | Belton ISD vs Temple ISD vs Academy ISD — Honest Breakdown | The 3 Temple Neighborhoods I'd Never Buy In | — |
 | 3 | Prairie Ridge \| No HOA + Low Tax Rate \| Under $300K | Why Academy ISD Keeps Beating Temple ISD (Data) | Moving to Temple for BSW Residency? Avoid These 3 Zips | **"Living in Temple TX 2026 Spring Update — What's Changed"** (10-12 min, re-cut intro lesson applied) |
 | 4 | Alta Vista \| Quietest Neighborhood in Temple \| $250K-$400K | The Zip Codes in Temple Where Kids Get Fridays Off | Temple vs Waco for First-Time Buyers (Data) | — |
@@ -165,7 +165,7 @@ I ran live YouTube SERPs on 6 strategic queries. Here's the landscape:
 
 | Wk | Mon Short | Wed Short | Fri Short | ★Long-form |
 |---|---|---|---|---|
-| 5 | Canyon Creek \| The Cliffs Luxury Lane \| $500K+ | Is Temple TX Just a Retirement Community? | The 20-Min Commute Nobody's Talking About (Temple → Fort Cavazos) | **"I Ranked Every Temple TX Neighborhood Worst to Best"** (15 min, red/yellow/green dot system) |
+| 5 | Canyon Creek \| The Cliffs Luxury Lane \| $500K+ | Is Temple TX Just a Retirement Community? | The 20-Min Commute Nobody's Talking About (Temple → Fort Hood) | **"I Ranked Every Temple TX Neighborhood Worst to Best"** (15 min, red/yellow/green dot system) |
 | 6 | Windmill Farms \| New Construction Trap? \| Under $350K | VA Loan Builder Incentives in Temple TX (Shortlist) | That Data Center Is About to Double Your Electric Bill | — |
 | 7 | Lake Pointe \| Best $/sqft in Temple \| $142/sqft | The School District Loophole Nobody Tells Buyers | BSW Nurses — Where Temple Staff Actually Live | **"Army Retiree's Honest Guide to Temple TX"** (12 min) |
 | 8 | Parks at Westfield \| Family Tier Neighborhood \| $300K-$450K | Why Temple Has No Sidewalks (And Where You Can Walk) | Temple vs Killeen — The 2026 Real Answer | — |
@@ -175,9 +175,9 @@ I ran live YouTube SERPs on 6 strategic queries. Here's the landscape:
 | Wk | Mon Short | Wed Short | Fri Short | ★Long-form |
 |---|---|---|---|---|
 | 9 | Sage Meadows \| Best Belton ISD Entry \| $200K-$280K | Academy ISD 4-Day Week Zip Code Map | Moving to Temple with Kids? Skip These Neighborhoods | **"What $300K Actually Buys in Temple TX in 2026"** (12 min) |
-| 10 | Hills of Westwood \| Honest Take \| $250K-$400K | Is Belton ISD Really Better? (Data + Scores) | PCS to Fort Cavazos With Kids — School District Guide | — |
+| 10 | Hills of Westwood \| Honest Take \| $250K-$400K | Is Belton ISD Really Better? (Data + Scores) | PCS to Fort Hood With Kids — School District Guide | — |
 | 11 | South Temple \| Investor Territory \| Under $200K | Temple's Fastest-Growing Suburb You've Never Heard Of | The "Temple vs Belton" Question Finally Answered | **"Living in Temple TX 6-Month Update — Summer 2026"** (12 min) |
-| 12 | Hillside Village \| Lowest Tax Rate in Temple \| $400K+ | 3 Places Temple Relocators Regret Moving To | The Short Commute Families Are Sleeping On (Temple → Fort Cavazos) | — |
+| 12 | Hillside Village \| Lowest Tax Rate in Temple \| $400K+ | 3 Places Temple Relocators Regret Moving To | The Short Commute Families Are Sleeping On (Temple → Fort Hood) | — |
 
 **Totals:** 36 Shorts + 6 long-forms = 42 videos over 12 weeks. All inside Living in Temple pillar.
 
@@ -206,7 +206,7 @@ From your top-performing thumbnail (Top 5 Neighborhoods):
 
 ### Long-form
 - `Living in Temple TX 2026: [Specific Lens] ([Honest/Unfiltered/What Nobody Tells You])`
-- `PCS to Fort Cavazos? Why [Contrarian Position] ([Specific Detail])`
+- `PCS to Fort Hood? Why [Contrarian Position] ([Specific Detail])`
 - `I Ranked Every [Set] in Temple TX Worst to Best`
 - `What $[Price] Actually Buys in Temple TX in 2026`
 - `[Audience]'s Honest Guide to Temple TX — From a Temple Agent`
@@ -261,4 +261,4 @@ This is a duplicate title of your 1,253-view Canyon Ridge Short. Change it to a 
 - **Verification run:** YouTube API pulled 50 videos + comments on 3 top performers; Firecrawl ran 6 competitive SERPs
 - **Unresolved risk:** Plan assumes VidIQ retention data is accurate; if real retention on Shorts is lower than 44-52%, weekly 3-Short cadence may be too aggressive for algo compounding. Revisit after 4 weeks.
 - **Rollback path:** Nothing to roll back — advisory doc only. Delete this file to revert: `rm claude-social-media-manager/output/audits/youtube-audit-2026-04-20.md`
-- **BSW Next:** Pillar 4 (Fort Cavazos) Week 1 long-form is the closest BSW-adjacent play — "PCS to Fort Cavazos? Why Temple Beats Killeen" gets military families into Temple, where BSW lender referrals (Matt Levant, Acre Mortgage) become the follow-on play. This is parallel to BSW physician pipeline, not a replacement. BSW-specific content stays quiet on the public channel (per Stark Law block); keep it at 1 BSW-related Short every 2 weeks max.
+- **BSW Next:** Pillar 4 (Fort Hood) Week 1 long-form is the closest BSW-adjacent play — "PCS to Fort Hood? Why Temple Beats Killeen" gets military families into Temple, where BSW lender referrals (Matt Levant, Acre Mortgage) become the follow-on play. This is parallel to BSW physician pipeline, not a replacement. BSW-specific content stays quiet on the public channel (per Stark Law block); keep it at 1 BSW-related Short every 2 weeks max.
