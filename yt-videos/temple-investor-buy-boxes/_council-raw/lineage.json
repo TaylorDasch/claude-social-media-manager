@@ -1,0 +1,32 @@
+[
+  {
+    "round": 1,
+    "tally": {
+      "A": 0,
+      "B": 0,
+      "AB": 5
+    },
+    "winner": "AB",
+    "votes": 5,
+    "consecutive": 1,
+    "top_critique": [
+      "MAJOR: [10:45] Money table line: \"The 76502 slab, point-eight-five percent \u2014 light.\""
+    ],
+    "winning_strength": "Every number matches ground truth (verified by recomputing the rent-to-price ratios), and X is the only candidate whose table is internally consistent with its own 'sorted best to worst' claim \u2014 West Temple 0.72% is listed before Morgan's Point 0.69%, descending. It pairs that with the fullest ground-truth BSW tenant-engine stat (~12,000 employees / 640-bed / 125+ residency AND fellowship programs) and mid-target pacing (CTA at 12:25). It passes all eight inverse-fail checks: hook lands before the entity declaration, MTR is correctly the ONLY 25%-down-positive box, Morgan's Point is correctly Belton-addressed and never sold as leveraged cash flow, ADU is flagged never-underwrite, pier-and-beam is warned, the duplex is honestly left off the table with 'I won't fake a price,' zero banned words, and a clean investor-only lane."
+  },
+  {
+    "round": 2,
+    "tally": {
+      "A": 0,
+      "B": 1,
+      "AB": 4
+    },
+    "winner": "AB",
+    "votes": 5,
+    "consecutive": 2,
+    "top_critique": [
+      "MAJOR: [10:40] Honest Money Table \u2014 turnkey row + the on-screen invitation \"I'm putting the all-in price next to every ratio so you can divide it yourself on the freeze-frame.\""
+    ],
+    "winning_strength": "Numerically airtight against ground truth (165K all-in MTR +$198@25%/+$323@40%, flips to -$136 with 20% MTR mgmt; 62 sold/median $151K/1962/81 DOM/95.7% of ask kept precise on-screen; 6 turnkey in 365 days; West Temple -$581; Canyon Creek -$999; 0.8% line) PAIRED with explicit MLS-verified vs operator-triangulated flagging on every rent, and the tightest operator-P&L candor \u2014 it explains WHY the one green box is fragile (no buy-right cushion, margin lives entirely in self-management + holding $1,900) rather than just asserting it positive."
+  }
+]

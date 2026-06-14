@@ -1,0 +1,42 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Selling a Home in Temple TX? Builders Are Your Competition",
+  "description": "How to position a Temple or Belton resale home against active new-construction builder incentives instead of trying to out-discount a national builder — covering district (MUD/PID) tax, preferred-lender locks, and time-to-sale, using a June 13, 2026 builder-incentive market pull. Education and strategy only; not a guarantee of sale price or timeline.",
+  "thumbnailUrl": [
+    "{{THUMBNAIL_URL_1280x720}}",
+    "{{THUMBNAIL_URL_640x360}}",
+    "{{THUMBNAIL_URL_480x360}}"
+  ],
+  "uploadDate": "{{UPLOAD_DATE}}",
+  "duration": "{{DURATION_ISO8601}}",
+  "contentUrl": "https://www.youtube.com/watch?v={{YOUTUBE_ID}}",
+  "embedUrl": "https://www.youtube-nocookie.com/embed/{{YOUTUBE_ID}}",
+  "publisher": {
+    "@type": ["RealEstateAgent", "Person"],
+    "@id": "https://templetxhomes.net/#agent",
+    "name": "Taylor Dasch",
+    "url": "https://templetxhomes.net/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{LOGO_URL}}"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "2015 Birdcreek Terrace",
+      "addressLocality": "Temple",
+      "addressRegion": "TX",
+      "postalCode": "76502",
+      "addressCountry": "US"
+    }
+  },
+  "creator": {
+    "@id": "https://templetxhomes.net/#agent"
+  },
+  "isFamilyFriendly": true,
+  "inLanguage": "en-US",
+  "potentialAction": {
+    "@type": "WatchAction",
+    "target": "https://www.youtube.com/watch?v={{YOUTUBE_ID}}"
+  }
+}
