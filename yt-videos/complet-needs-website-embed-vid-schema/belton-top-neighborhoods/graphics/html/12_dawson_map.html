@@ -1,0 +1,81 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:'CG';src:url('../fonts/cg500.woff2') format('woff2');font-weight:500;font-display:block}
+@font-face{font-family:'CG';src:url('../fonts/cg600.woff2') format('woff2');font-weight:600;font-display:block}
+@font-face{font-family:'CG';src:url('../fonts/cg700.woff2') format('woff2');font-weight:700;font-display:block}
+@font-face{font-family:'JB';src:url('../fonts/jb500.woff2') format('woff2');font-weight:500;font-display:block}
+@font-face{font-family:'JB';src:url('../fonts/jb700.woff2') format('woff2');font-weight:700;font-display:block}
+@font-face{font-family:'IN';src:url('../fonts/in500.woff2') format('woff2');font-weight:500;font-display:block}
+@font-face{font-family:'IN';src:url('../fonts/in600.woff2') format('woff2');font-weight:600;font-display:block}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1920px;height:1080px;overflow:hidden}
+body{font-family:'IN',sans-serif;color:#f8fafc;position:relative}
+body.em{background:radial-gradient(1200px 760px at 50% -12%, rgba(16,185,129,.14), transparent 60%),
+   linear-gradient(135deg,#10192e 0%,#0c1424 50%,#070c16 100%)}
+body.gold{background:radial-gradient(1200px 760px at 70% -12%, rgba(227,199,137,.13), transparent 60%),
+   linear-gradient(135deg,#121627 0%,#0c1322 50%,#070b13 100%)}
+body:after{content:"";position:absolute;inset:0;box-shadow:inset 0 0 360px rgba(0,0,0,.55);pointer-events:none}
+.eyebrow{font-family:'JB';font-weight:500;font-size:24px;letter-spacing:.42em;text-transform:uppercase}
+.bug{position:absolute;left:120px;bottom:54px;display:flex;align-items:center;gap:16px;
+ font-family:'JB';font-size:20px;letter-spacing:.16em;color:#94a3b8;text-transform:uppercase}
+.bug .mark{width:32px;height:32px;border-radius:9px;display:flex;align-items:center;justify-content:center;
+ font-family:'CG';font-weight:700;font-size:21px}
+.src{position:absolute;right:120px;bottom:56px;font-family:'JB';font-size:17px;letter-spacing:.06em;color:#64748b;text-align:right}
+text{font-family:'IN'} .tlabel{font-family:'CG';font-weight:600} .mono{font-family:'JB'}
+</style></head><body class="em">
+<div style="position:absolute;left:120px;top:92px">
+  <div class="eyebrow" style="color:#34d399">Dawson Ranch &amp; Ridge · Location</div>
+  <div style="font-family:'CG';font-weight:600;font-size:100px;line-height:.98;margin-top:12px">
+     Minutes to <span style="color:#34d399;position:relative">everything<span style="position:absolute;left:0;right:0;bottom:-.1em;height:5px;border-radius:3px;background:linear-gradient(90deg,#10b981,#34d399)"></span></span>.</div>
+  <div style="font-size:31px;color:#cbd5e1;margin-top:20px;max-width:1480px;line-height:1.4">
+     The established, big-lot side of Belton — close to the university, the lake, downtown, the hospital and the base.</div>
+</div>
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+ <defs><pattern id="grid" width="58" height="58" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.3" fill="rgba(255,255,255,0.05)"/></pattern></defs>
+ <rect x="120" y="300" width="1680" height="600" rx="28" fill="rgba(10,16,30,0.5)" stroke="rgba(255,255,255,0.08)"/>
+ <rect x="120" y="300" width="1680" height="600" rx="28" fill="url(#grid)"/>
+ <path d="M980,576 L300,548" stroke="#8fb3d6" stroke-width="5" stroke-dasharray="2 15" stroke-linecap="round" opacity="0.65"/><path d="M980,576 L715,372" stroke="#34d399" stroke-width="5" stroke-dasharray="2 15" stroke-linecap="round" opacity="0.65"/><path d="M980,576 L660,742" stroke="#8fb3d6" stroke-width="5" stroke-dasharray="2 15" stroke-linecap="round" opacity="0.65"/><path d="M980,576 L1605,536" stroke="#34d399" stroke-width="5" stroke-dasharray="2 15" stroke-linecap="round" opacity="0.65"/><path d="M980,576 L1360,742" stroke="#34d399" stroke-width="5" stroke-dasharray="2 15" stroke-linecap="round" opacity="0.65"/><g>
+  <circle cx="300" cy="548" r="46" fill="#8fb3d6" opacity="0.10"/>
+  <circle cx="300" cy="548" r="34" fill="#0c1424" stroke="#8fb3d6" stroke-width="3"/>
+  <text x="300" y="562" text-anchor="middle" font-size="30" fill="#8fb3d6" font-family="JB" font-weight="700">&#9733;</text>
+  <text x="300" y="626" text-anchor="middle" class="tlabel" font-size="34" fill="#f1f5f9">Fort Cavazos</text>
+  <text x="300" y="656" text-anchor="middle" font-family="JB" font-size="20" letter-spacing="2" fill="#94a3b8">MILITARY BASE</text>
+  <text x="300" y="688" text-anchor="middle" font-family="JB" font-weight="700" font-size="30" fill="#8fb3d6">&#8776; 26 min</text>
+</g><g>
+  <circle cx="715" cy="372" r="46" fill="#34d399" opacity="0.10"/>
+  <circle cx="715" cy="372" r="34" fill="#0c1424" stroke="#34d399" stroke-width="3"/>
+  <text x="715" y="386" text-anchor="middle" font-size="30" fill="#34d399" font-family="JB" font-weight="700">&#9650;</text>
+  <text x="715" y="450" text-anchor="middle" class="tlabel" font-size="34" fill="#f1f5f9">UMHB</text>
+  <text x="715" y="480" text-anchor="middle" font-family="JB" font-size="20" letter-spacing="2" fill="#94a3b8">UNIVERSITY</text>
+  <text x="715" y="512" text-anchor="middle" font-family="JB" font-weight="700" font-size="30" fill="#34d399">&#8776; 10 min</text>
+</g><g>
+  <circle cx="660" cy="742" r="46" fill="#8fb3d6" opacity="0.10"/>
+  <circle cx="660" cy="742" r="34" fill="#0c1424" stroke="#8fb3d6" stroke-width="3"/>
+  <text x="660" y="756" text-anchor="middle" font-size="30" fill="#8fb3d6" font-family="JB" font-weight="700">&#9650;</text>
+  <text x="660" y="820" text-anchor="middle" class="tlabel" font-size="34" fill="#f1f5f9">Belton Lake</text>
+  <text x="660" y="850" text-anchor="middle" font-family="JB" font-size="20" letter-spacing="2" fill="#94a3b8">RECREATION</text>
+  <text x="660" y="882" text-anchor="middle" font-family="JB" font-weight="700" font-size="30" fill="#8fb3d6">&#8776; 13 min</text>
+</g><g>
+  <circle cx="1605" cy="536" r="46" fill="#34d399" opacity="0.10"/>
+  <circle cx="1605" cy="536" r="34" fill="#0c1424" stroke="#34d399" stroke-width="3"/>
+  <text x="1605" y="550" text-anchor="middle" font-size="30" fill="#34d399" font-family="JB" font-weight="700">&#9632;</text>
+  <text x="1605" y="614" text-anchor="middle" class="tlabel" font-size="34" fill="#f1f5f9">Downtown Belton</text>
+  <text x="1605" y="644" text-anchor="middle" font-family="JB" font-size="20" letter-spacing="2" fill="#94a3b8">SHOPS · DINING</text>
+  <text x="1605" y="676" text-anchor="middle" font-family="JB" font-weight="700" font-size="30" fill="#34d399">&#8776; 13 min</text>
+</g><g>
+  <circle cx="1360" cy="742" r="46" fill="#34d399" opacity="0.10"/>
+  <circle cx="1360" cy="742" r="34" fill="#0c1424" stroke="#34d399" stroke-width="3"/>
+  <text x="1360" y="756" text-anchor="middle" font-size="30" fill="#34d399" font-family="JB" font-weight="700">+</text>
+  <text x="1360" y="820" text-anchor="middle" class="tlabel" font-size="34" fill="#f1f5f9">Baylor Scott &amp; White</text>
+  <text x="1360" y="850" text-anchor="middle" font-family="JB" font-size="20" letter-spacing="2" fill="#94a3b8">MEDICAL</text>
+  <text x="1360" y="882" text-anchor="middle" font-family="JB" font-weight="700" font-size="30" fill="#34d399">&#8776; 24 min</text>
+</g>
+ <g><circle cx="980" cy="576" r="76" fill="#34d399" opacity="0.12"/><circle cx="980" cy="576" r="60" fill="#34d399" opacity="0.10"/><circle cx="980" cy="576" r="46" fill="#0c1424" stroke="#34d399" stroke-width="4"/>
+  <text x="980" y="591" text-anchor="middle" font-size="42" fill="#34d399" font-family="JB" font-weight="700">&#9650;</text>
+  <text x="980" y="506" text-anchor="middle" font-family="JB" font-weight="700" font-size="22" letter-spacing="3" fill="#34d399">YOU ARE HERE</text>
+  <text x="980" y="670" text-anchor="middle" class="tlabel" font-size="38" fill="#f1f5f9">Dawson Ranch &amp; Ridge</text>
+  <text x="980" y="702" text-anchor="middle" font-family="JB" font-size="21" letter-spacing="2" fill="#94a3b8">BELTON · BIG LOTS</text>
+</g>
+</svg>
+<div class="bug"><span class="mark" style="background:linear-gradient(135deg,#10b981,#059669);color:#06210f">T</span>TEMPLETXHOMES.NET · TAYLOR DASCH · EG REALTY</div>
+<div class="src">Drive times: Google Maps · off-peak<br>Origin: Dawson Ranch, Belton TX</div>
+</body></html>

@@ -1,0 +1,93 @@
+<!doctype html><html class="transparent"><head><meta charset="utf-8"><style>
+@font-face{font-family:'CG';src:url('../fonts/cg400.woff2') format('woff2');font-weight:400;font-display:block}
+@font-face{font-family:'CG';src:url('../fonts/cg500.woff2') format('woff2');font-weight:500;font-display:block}
+@font-face{font-family:'CG';src:url('../fonts/cg600.woff2') format('woff2');font-weight:600;font-display:block}
+@font-face{font-family:'CG';src:url('../fonts/cg700.woff2') format('woff2');font-weight:700;font-display:block}
+@font-face{font-family:'JB';src:url('../fonts/jb400.woff2') format('woff2');font-weight:400;font-display:block}
+@font-face{font-family:'JB';src:url('../fonts/jb500.woff2') format('woff2');font-weight:500;font-display:block}
+@font-face{font-family:'JB';src:url('../fonts/jb700.woff2') format('woff2');font-weight:700;font-display:block}
+@font-face{font-family:'IN';src:url('../fonts/in400.woff2') format('woff2');font-weight:400;font-display:block}
+@font-face{font-family:'IN';src:url('../fonts/in500.woff2') format('woff2');font-weight:500;font-display:block}
+@font-face{font-family:'IN';src:url('../fonts/in600.woff2') format('woff2');font-weight:600;font-display:block}
+@font-face{font-family:'IN';src:url('../fonts/in700.woff2') format('woff2');font-weight:700;font-display:block}
+:root{
+ --midnight:#0f172a;--deep:#080d18;--elev:#131e36;--card:#1a2d42;--cardh:#223656;
+ --snow:#f8fafc;--muted:#cbd5e1;--subtle:#94a3b8;--faint:#64748b;
+ --em:#10b981;--emd:#059669;--emb:#34d399;
+ --gold:#e3c789;--goldd:#b9974f;
+ --rose:#fb7185;--amber:#fbbf24;
+ --hair:rgba(255,255,255,.07);--hair2:rgba(255,255,255,.12);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1920px;height:1080px;overflow:hidden}
+body{font-family:'IN',sans-serif;color:var(--snow);
+ background:
+   radial-gradient(1100px 700px at 18% -8%, rgba(16,185,129,.16), transparent 60%),
+   radial-gradient(900px 700px at 108% 118%, rgba(52,211,153,.08), transparent 55%),
+   linear-gradient(135deg,#10192e 0%,#0c1424 48%,#070c16 100%);
+ position:relative}
+body.tier-gold{background:
+   radial-gradient(1100px 700px at 18% -8%, rgba(227,199,137,.16), transparent 60%),
+   radial-gradient(900px 700px at 108% 118%, rgba(227,199,137,.07), transparent 55%),
+   linear-gradient(135deg,#141526 0%,#0d1120 48%,#070a12 100%)}
+/* faint dot grid + vignette */
+body:before{content:"";position:absolute;inset:0;
+ background-image:radial-gradient(rgba(255,255,255,.05) 1.1px, transparent 1.2px);
+ background-size:46px 46px;opacity:.5;mask-image:linear-gradient(135deg,rgba(0,0,0,.9),transparent 70%)}
+body:after{content:"";position:absolute;inset:0;box-shadow:inset 0 0 360px rgba(0,0,0,.55);pointer-events:none}
+.transparent,.transparent body{background:transparent !important}
+.transparent:before,.transparent:after{display:none}
+.stage{position:absolute;inset:0;padding:96px 120px;display:flex;flex-direction:column}
+.eyebrow{font-family:'JB';font-weight:500;font-size:24px;letter-spacing:.42em;text-transform:uppercase;color:var(--emb)}
+.tier-gold .eyebrow{color:var(--gold)}
+.serif{font-family:'CG';font-weight:600;line-height:.98;letter-spacing:-.01em}
+.mono{font-family:'JB'}
+.em{color:var(--emb)} .tier-gold .em{color:var(--gold)}
+.flourish{position:relative;white-space:nowrap}
+.flourish:after{content:"";position:absolute;left:0;right:0;bottom:-.12em;height:5px;border-radius:3px;
+ background:linear-gradient(90deg,var(--em),var(--emb));opacity:.9}
+.tier-gold .flourish:after{background:linear-gradient(90deg,var(--goldd),var(--gold))}
+/* brand bug */
+.bug{position:absolute;left:120px;bottom:60px;display:flex;align-items:center;gap:18px;
+ font-family:'JB';font-size:21px;letter-spacing:.16em;color:var(--subtle);text-transform:uppercase}
+.bug .mark{width:34px;height:34px;border-radius:9px;background:linear-gradient(135deg,var(--em),var(--emd));
+ display:flex;align-items:center;justify-content:center;font-family:'CG';font-weight:700;color:#06210f;font-size:22px}
+.tier-gold .bug .mark{background:linear-gradient(135deg,var(--gold),var(--goldd));color:#241a06}
+.src{position:absolute;right:120px;bottom:62px;font-family:'JB';font-size:18px;letter-spacing:.08em;color:var(--faint);text-align:right}
+.rankwm{position:absolute;font-family:'CG';font-weight:700;line-height:1;color:rgba(255,255,255,.045);
+ font-size:760px;right:40px;top:-90px;user-select:none}
+.tier-gold .rankwm{color:rgba(227,199,137,.07)}
+/* pills + chips */
+.pill{display:inline-flex;align-items:center;gap:10px;padding:13px 22px;border-radius:999px;
+ background:rgba(16,185,129,.10);border:1px solid rgba(16,185,129,.28);color:var(--emb);
+ font-family:'IN';font-weight:600;font-size:26px}
+.tier-gold .pill{background:rgba(227,199,137,.10);border-color:rgba(227,199,137,.30);color:var(--gold)}
+.chip{display:inline-flex;align-items:center;padding:11px 20px;border-radius:10px;background:var(--card);
+ border:1px solid var(--hair2);color:var(--muted);font-family:'JB';font-size:23px;font-weight:500}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--emb)} .tier-gold .dot{background:var(--gold)}
+/* stat grid */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;background:var(--hair);
+ border:1px solid var(--hair);border-radius:20px;overflow:hidden}
+.stat{background:linear-gradient(180deg,rgba(26,45,66,.82),rgba(19,30,54,.82));padding:34px 34px 30px}
+.stat .k{font-family:'JB';font-size:21px;letter-spacing:.14em;text-transform:uppercase;color:var(--subtle)}
+.stat .v{font-family:'JB';font-weight:700;font-size:62px;color:var(--snow);margin-top:12px;letter-spacing:-.02em}
+.tier-gold .stat .v{color:#fbf3df}
+.stat .v.em{color:var(--emb)} .tier-gold .stat .v.em{color:var(--gold)}
+.stat .u{font-family:'IN';font-size:21px;color:var(--faint);margin-top:6px}
+.watch{display:flex;gap:18px;align-items:flex-start;padding:26px 30px;border-radius:16px;
+ background:rgba(251,113,133,.07);border:1px solid rgba(251,113,133,.24)}
+.watch .tag{font-family:'JB';font-size:21px;letter-spacing:.16em;color:var(--rose);text-transform:uppercase;white-space:nowrap;padding-top:4px}
+.watch .txt{font-family:'IN';font-size:28px;line-height:1.45;color:#fecdd3}
+</style></head><body class="">
+<div style="position:absolute;left:96px;bottom:118px">
+  <div style="display:flex;align-items:flex-end;gap:24px">
+    <div style="font-family:'CG';font-weight:700;font-size:150px;line-height:.8;color:#34d399;
+       text-shadow:0 16px 40px rgba(0,0,0,.6)">3</div>
+    <div style="background:rgba(15,23,42,.9);border:1px solid rgba(255,255,255,.12);border-radius:16px;
+       padding:22px 36px;box-shadow:0 24px 60px rgba(0,0,0,.5)">
+      <div style="font-family:'JB';font-size:22px;letter-spacing:.2em;color:#34d399;text-transform:uppercase">Belton · top pick</div>
+      <div style="font-family:'CG';font-weight:600;font-size:64px;color:#f8fafc;line-height:1.04;margin-top:6px">Three Creeks</div>
+      <div style="font-family:'JB';font-size:30px;color:#cbd5e1;margin-top:10px">Median $316K &nbsp;·&nbsp; $166/sf</div>
+    </div>
+  </div>
+</div></body></html>
