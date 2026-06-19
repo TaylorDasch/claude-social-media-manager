@@ -1,0 +1,114 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:'CG';src:url('../fonts/cg500.woff2') format('woff2');font-weight:500;font-display:block}
+@font-face{font-family:'CG';src:url('../fonts/cg600.woff2') format('woff2');font-weight:600;font-display:block}
+@font-face{font-family:'CG';src:url('../fonts/cg700.woff2') format('woff2');font-weight:700;font-display:block}
+@font-face{font-family:'JB';src:url('../fonts/jb500.woff2') format('woff2');font-weight:500;font-display:block}
+@font-face{font-family:'JB';src:url('../fonts/jb700.woff2') format('woff2');font-weight:700;font-display:block}
+@font-face{font-family:'IN';src:url('../fonts/in500.woff2') format('woff2');font-weight:500;font-display:block}
+@font-face{font-family:'IN';src:url('../fonts/in600.woff2') format('woff2');font-weight:600;font-display:block}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1920px;height:1080px;overflow:hidden}
+body{font-family:'IN',sans-serif;color:#f8fafc;position:relative;
+ background:radial-gradient(1200px 760px at 50% -12%, rgba(16,185,129,.14), transparent 60%),
+   linear-gradient(135deg,#10192e 0%,#0c1424 50%,#070c16 100%)}
+body.gold{background:radial-gradient(1200px 760px at 50% -12%, rgba(227,199,137,.14), transparent 60%),
+   linear-gradient(135deg,#141526 0%,#0d1120 50%,#070a12 100%)}
+body:after{content:"";position:absolute;inset:0;box-shadow:inset 0 0 360px rgba(0,0,0,.55);pointer-events:none}
+.eyebrow{font-family:'JB';font-weight:500;font-size:24px;letter-spacing:.42em;text-transform:uppercase;color:#34d399}
+.gold .eyebrow{color:#e3c789}
+.flourish{position:relative;white-space:nowrap}
+.flourish:after{content:"";position:absolute;left:0;right:0;bottom:-.10em;height:5px;border-radius:3px;background:linear-gradient(90deg,#10b981,#34d399)}
+.gold .flourish:after{background:linear-gradient(90deg,#b9974f,#e3c789)}
+.bug{position:absolute;left:120px;bottom:54px;display:flex;align-items:center;gap:16px;
+ font-family:'JB';font-size:20px;letter-spacing:.16em;color:#94a3b8;text-transform:uppercase}
+.bug .mark{width:32px;height:32px;border-radius:9px;background:linear-gradient(135deg,#10b981,#059669);
+ display:flex;align-items:center;justify-content:center;font-family:'CG';font-weight:700;color:#06210f;font-size:21px}
+.gold .bug .mark{background:linear-gradient(135deg,#e3c789,#b9974f);color:#241a06}
+.src{position:absolute;right:120px;bottom:56px;font-family:'JB';font-size:17px;letter-spacing:.06em;color:#64748b;text-align:right}
+.tlabel{font-family:'CG';font-weight:600}.mono{font-family:'JB'}
+</style></head><body>
+<div style="position:absolute;left:120px;top:84px">
+  <div class="eyebrow">The whole map · Proximity to BSW</div>
+  <div class="tlabel" style="font-family:'CG';font-weight:600;font-size:94px;line-height:.98;margin-top:12px">
+     Every pick, <span class="flourish">5&ndash;11 minutes</span> from the hospital.</div>
+</div>
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+   <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="10"/></filter>
+   <pattern id="grid" width="58" height="58" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.3" fill="rgba(255,255,255,0.05)"/></pattern>
+ </defs>
+ <rect x="100" y="250" width="1720" height="720" rx="30" fill="rgba(10,16,30,0.45)" stroke="rgba(255,255,255,0.08)"/>
+ <rect x="100" y="250" width="1720" height="720" rx="30" fill="url(#grid)"/>
+ <path d="M960,548 L335,350" stroke="#34d399" stroke-width="4" stroke-dasharray="2 14" stroke-linecap="round" opacity="0.5"/><path d="M960,548 L1585,345" stroke="#34d399" stroke-width="4" stroke-dasharray="2 14" stroke-linecap="round" opacity="0.5"/><path d="M960,548 L1690,605" stroke="#34d399" stroke-width="4" stroke-dasharray="2 14" stroke-linecap="round" opacity="0.5"/><path d="M960,548 L1210,848" stroke="#34d399" stroke-width="4" stroke-dasharray="2 14" stroke-linecap="round" opacity="0.5"/><path d="M960,548 L735,852" stroke="#e3c789" stroke-width="7" stroke-dasharray="2 14" stroke-linecap="round" opacity="0.95"/><path d="M960,548 L300,660" stroke="#34d399" stroke-width="4" stroke-dasharray="2 14" stroke-linecap="round" opacity="0.5"/>
+ <g><circle cx="335" cy="350" r="52" fill="#34d399" opacity="0.10"/><circle cx="335" cy="350" r="37" fill="#0c1424" stroke="#34d399" stroke-width="3"/>
+  <text x="335" y="362" text-anchor="middle" font-size="32" fill="#34d399" font-family="JB" font-weight="700">#2</text>
+  
+  <text x="335" y="437" text-anchor="middle" class="tlabel" font-size="33" fill="#f8fafc">Western Hills</text>
+  <text x="335" y="471" text-anchor="middle" font-family="JB" font-size="21" letter-spacing="2" fill="#94a3b8">MEDIAN $210K</text>
+</g><g><circle cx="1585" cy="345" r="52" fill="#34d399" opacity="0.10"/><circle cx="1585" cy="345" r="37" fill="#0c1424" stroke="#34d399" stroke-width="3"/>
+  <text x="1585" y="357" text-anchor="middle" font-size="32" fill="#34d399" font-family="JB" font-weight="700">#4</text>
+  
+  <text x="1585" y="432" text-anchor="middle" class="tlabel" font-size="33" fill="#f8fafc">Oak Ridge</text>
+  <text x="1585" y="466" text-anchor="middle" font-family="JB" font-size="21" letter-spacing="2" fill="#94a3b8">MEDIAN $237K</text>
+</g><g><circle cx="1690" cy="605" r="52" fill="#34d399" opacity="0.10"/><circle cx="1690" cy="605" r="37" fill="#0c1424" stroke="#34d399" stroke-width="3"/>
+  <text x="1690" y="617" text-anchor="middle" font-size="32" fill="#34d399" font-family="JB" font-weight="700">#3</text>
+  
+  <text x="1690" y="692" text-anchor="middle" class="tlabel" font-size="33" fill="#f8fafc">Heritage Place</text>
+  <text x="1690" y="726" text-anchor="middle" font-family="JB" font-size="21" letter-spacing="2" fill="#94a3b8">MEDIAN $220K</text>
+</g><g><circle cx="1210" cy="848" r="52" fill="#34d399" opacity="0.10"/><circle cx="1210" cy="848" r="37" fill="#0c1424" stroke="#34d399" stroke-width="3"/>
+  <text x="1210" y="860" text-anchor="middle" font-size="32" fill="#34d399" font-family="JB" font-weight="700">#5</text>
+  
+  <text x="1210" y="935" text-anchor="middle" class="tlabel" font-size="33" fill="#f8fafc">Alta Vista</text>
+  <text x="1210" y="969" text-anchor="middle" font-family="JB" font-size="21" letter-spacing="2" fill="#94a3b8">MEDIAN $228K</text>
+</g><g><circle cx="735" cy="852" r="84" fill="#e3c789" opacity="0.12"/><circle cx="735" cy="852" r="66" fill="#e3c789" opacity="0.10"/><circle cx="735" cy="852" r="48" fill="#0c1424" stroke="#e3c789" stroke-width="4"/>
+  <text x="735" y="866" text-anchor="middle" font-size="40" fill="#e3c789" font-family="JB" font-weight="700">#1</text>
+  <text x="735" y="778" text-anchor="middle" font-family="JB" font-weight="700" font-size="22" letter-spacing="3" fill="#e3c789">CLOSEST</text>
+  <text x="735" y="950" text-anchor="middle" class="tlabel" font-size="40" fill="#f8fafc">Canyon Creek</text>
+  <text x="735" y="984" text-anchor="middle" font-family="JB" font-size="21" letter-spacing="2" fill="#94a3b8">MEDIAN $219K</text>
+</g><g><circle cx="300" cy="660" r="52" fill="#34d399" opacity="0.10"/><circle cx="300" cy="660" r="37" fill="#0c1424" stroke="#34d399" stroke-width="3"/>
+  <text x="300" y="672" text-anchor="middle" font-size="32" fill="#34d399" font-family="JB" font-weight="700">HM</text>
+  
+  <text x="300" y="747" text-anchor="middle" class="tlabel" font-size="33" fill="#f8fafc">Cimarron</text>
+  <text x="300" y="781" text-anchor="middle" font-family="JB" font-size="21" letter-spacing="2" fill="#94a3b8">MEDIAN $197K</text>
+</g>
+ <g>
+  <rect x="568.5" y="397.0" width="158" height="104" rx="20" fill="rgba(13,20,36,0.94)" stroke="#34d399" stroke-opacity="0.55" stroke-width="2"/>
+  <rect x="568.5" y="397.0" width="8" height="104" rx="4" fill="#34d399"/>
+  <text x="602.5" y="447.0" class="mono" font-weight="700" font-size="46" fill="#f8fafc">8 min</text>
+  <text x="602.5" y="483.0" class="mono" font-size="22" letter-spacing="1.2" fill="#94a3b8"></text>
+</g><g>
+  <rect x="1193.5" y="394.5" width="158" height="104" rx="20" fill="rgba(13,20,36,0.94)" stroke="#34d399" stroke-opacity="0.55" stroke-width="2"/>
+  <rect x="1193.5" y="394.5" width="8" height="104" rx="4" fill="#34d399"/>
+  <text x="1227.5" y="444.5" class="mono" font-weight="700" font-size="46" fill="#f8fafc">11 min</text>
+  <text x="1227.5" y="480.5" class="mono" font-size="22" letter-spacing="1.2" fill="#94a3b8"></text>
+</g><g>
+  <rect x="1246.0" y="524.5" width="158" height="104" rx="20" fill="rgba(13,20,36,0.94)" stroke="#34d399" stroke-opacity="0.55" stroke-width="2"/>
+  <rect x="1246.0" y="524.5" width="8" height="104" rx="4" fill="#34d399"/>
+  <text x="1280.0" y="574.5" class="mono" font-weight="700" font-size="46" fill="#f8fafc">9 min</text>
+  <text x="1280.0" y="610.5" class="mono" font-size="22" letter-spacing="1.2" fill="#94a3b8"></text>
+</g><g>
+  <rect x="1006.0" y="646.0" width="158" height="104" rx="20" fill="rgba(13,20,36,0.94)" stroke="#34d399" stroke-opacity="0.55" stroke-width="2"/>
+  <rect x="1006.0" y="646.0" width="8" height="104" rx="4" fill="#34d399"/>
+  <text x="1040.0" y="696.0" class="mono" font-weight="700" font-size="46" fill="#f8fafc">8 min</text>
+  <text x="1040.0" y="732.0" class="mono" font-size="22" letter-spacing="1.2" fill="#94a3b8"></text>
+</g><g>
+  <rect x="768.5" y="648.0" width="158" height="104" rx="20" fill="rgba(13,20,36,0.94)" stroke="#e3c789" stroke-opacity="0.55" stroke-width="2"/>
+  <rect x="768.5" y="648.0" width="8" height="104" rx="4" fill="#e3c789"/>
+  <text x="802.5" y="698.0" class="mono" font-weight="700" font-size="46" fill="#f8fafc">5 min</text>
+  <text x="802.5" y="734.0" class="mono" font-size="22" letter-spacing="1.2" fill="#94a3b8"></text>
+</g><g>
+  <rect x="551.0" y="552.0" width="158" height="104" rx="20" fill="rgba(13,20,36,0.94)" stroke="#34d399" stroke-opacity="0.55" stroke-width="2"/>
+  <rect x="551.0" y="552.0" width="8" height="104" rx="4" fill="#34d399"/>
+  <text x="585.0" y="602.0" class="mono" font-weight="700" font-size="46" fill="#f8fafc">7 min</text>
+  <text x="585.0" y="638.0" class="mono" font-size="22" letter-spacing="1.2" fill="#94a3b8"></text>
+</g>
+ <g>
+   <circle cx="960" cy="548" r="118" fill="#34d399" opacity="0.10"/>
+   <rect x="735" y="482" width="450" height="132" rx="22" fill="#0b1322" stroke="#34d399" stroke-width="3"/>
+   <circle cx="810" cy="548" r="44" fill="#0c1424" stroke="#34d399" stroke-width="4"/>
+   <text x="810" y="565" text-anchor="middle" font-size="46" fill="#34d399" font-family="JB" font-weight="700">+</text>
+   <text x="882" y="542" class="tlabel" font-size="38" fill="#f8fafc">Baylor Scott &amp; White</text>
+   <text x="882" y="580" font-family="JB" font-size="19" letter-spacing="2" fill="#94a3b8">MEDICAL DISTRICT · TEMPLE</text>
+ </g>
+ <text x="150" y="300" class="mono" font-size="22" letter-spacing="3" fill="#64748b">&#8593; NORTH</text>
+</svg><div class="bug"><span class="mark">T</span>TEMPLETXHOMES.NET · TAYLOR DASCH · EG REALTY</div><div class="src">Positions = real geocoded bearings (Google Maps, Jun 18 2026)<br>Drive times → Baylor Scott &amp; White, 2401 S 31st St</div></body></html>
