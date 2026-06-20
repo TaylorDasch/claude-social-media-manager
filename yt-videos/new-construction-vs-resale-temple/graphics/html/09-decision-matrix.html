@@ -1,0 +1,156 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:'CG';src:url('../fonts/cg400.woff2') format('woff2');font-weight:400;font-display:block}
+@font-face{font-family:'CG';src:url('../fonts/cg500.woff2') format('woff2');font-weight:500;font-display:block}
+@font-face{font-family:'CG';src:url('../fonts/cg600.woff2') format('woff2');font-weight:600;font-display:block}
+@font-face{font-family:'CG';src:url('../fonts/cg700.woff2') format('woff2');font-weight:700;font-display:block}
+@font-face{font-family:'JB';src:url('../fonts/jb400.woff2') format('woff2');font-weight:400;font-display:block}
+@font-face{font-family:'JB';src:url('../fonts/jb500.woff2') format('woff2');font-weight:500;font-display:block}
+@font-face{font-family:'JB';src:url('../fonts/jb700.woff2') format('woff2');font-weight:700;font-display:block}
+@font-face{font-family:'IN';src:url('../fonts/in400.woff2') format('woff2');font-weight:400;font-display:block}
+@font-face{font-family:'IN';src:url('../fonts/in500.woff2') format('woff2');font-weight:500;font-display:block}
+@font-face{font-family:'IN';src:url('../fonts/in600.woff2') format('woff2');font-weight:600;font-display:block}
+@font-face{font-family:'IN';src:url('../fonts/in700.woff2') format('woff2');font-weight:700;font-display:block}
+:root{
+  --ink:#111315;
+  --forest:#13271f;
+  --panel:#f7f4ed;
+  --panel2:#ece4d5;
+  --snow:#f8fafc;
+  --muted:#cbd5d2;
+  --subtle:#8fa29b;
+  --faint:#6f7f79;
+  --emerald:#059669;
+  --emerald2:#34d399;
+  --gold:#d4a853;
+  --amber:#f2b84b;
+  --blue:#4d87a8;
+  --rose:#c95b55;
+  --hair:rgba(255,255,255,.12);
+  --hair2:rgba(17,19,21,.12);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1920px;height:1080px;overflow:hidden}
+body{
+  font-family:'IN',sans-serif;
+  color:var(--snow);
+  background:
+    linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px),
+    linear-gradient(0deg,rgba(255,255,255,.026) 1px,transparent 1px),
+    linear-gradient(135deg,#111315 0%,#13271f 52%,#181815 100%);
+  background-size:72px 72px,72px 72px,auto;
+  position:relative;
+}
+body:before{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:
+    linear-gradient(118deg,transparent 0 50%,rgba(212,168,83,.075) 50.1% 50.6%,transparent 50.7%),
+    linear-gradient(22deg,transparent 0 61%,rgba(77,135,168,.07) 61.1% 61.6%,transparent 61.7%);
+  opacity:.8;
+}
+body:after{content:"";position:absolute;inset:0;box-shadow:inset 0 0 300px rgba(0,0,0,.48);pointer-events:none}
+html.transparent,html.transparent body{background:transparent!important}
+html.transparent body:before,html.transparent body:after{display:none!important}
+.stage{position:absolute;inset:0;padding:86px 112px;display:flex;flex-direction:column;z-index:1}
+.eyebrow{font-family:'JB';font-size:22px;font-weight:500;letter-spacing:.32em;text-transform:uppercase;color:var(--emerald2)}
+.eyebrow.gold{color:var(--gold)}
+.serif{font-family:'CG';font-weight:600;line-height:.96;letter-spacing:0}
+.mono{font-family:'JB'}
+.em{color:var(--emerald2)}
+.gold{color:var(--gold)}
+.blue{color:var(--blue)}
+.rose{color:var(--rose)}
+.rule{width:100%;height:1px;background:linear-gradient(90deg,transparent,var(--hair),transparent)}
+.brandbug{
+  position:absolute;left:112px;bottom:54px;display:flex;align-items:center;gap:16px;
+  font-family:'JB';font-size:19px;letter-spacing:.14em;color:var(--subtle);text-transform:uppercase;z-index:2;
+}
+.brandbug .mark{
+  width:34px;height:34px;border-radius:8px;background:linear-gradient(135deg,var(--emerald2),var(--emerald));
+  color:#052115;display:flex;align-items:center;justify-content:center;font-family:'CG';font-weight:700;font-size:22px;
+}
+.source{
+  position:absolute;right:112px;bottom:58px;max-width:720px;text-align:right;
+  font-family:'JB';font-size:17px;letter-spacing:.06em;color:var(--faint);z-index:2;
+}
+.panel{
+  background:linear-gradient(180deg,var(--panel),var(--panel2));
+  color:var(--ink);border:1px solid rgba(255,255,255,.36);border-radius:10px;
+  box-shadow:0 26px 90px rgba(0,0,0,.28);
+}
+.darkpanel{
+  background:rgba(17,19,21,.68);border:1px solid var(--hair);border-radius:10px;
+  box-shadow:0 26px 90px rgba(0,0,0,.22);
+}
+.mini{font-family:'JB';font-size:20px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint)}
+.big{font-family:'CG';font-size:132px;font-weight:700;line-height:.9;letter-spacing:0}
+.num{font-family:'JB';font-weight:700;letter-spacing:-.03em}
+.metric-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;background:rgba(17,19,21,.14);border-radius:8px;overflow:hidden}
+.metric{background:rgba(255,255,255,.68);padding:30px 28px}
+.metric .k{font-family:'JB';font-size:18px;letter-spacing:.12em;text-transform:uppercase;color:#69756f}
+.metric .v{font-family:'JB';font-size:48px;font-weight:700;color:var(--ink);margin-top:10px;letter-spacing:-.03em}
+.metric .s{font-size:19px;color:#68746f;margin-top:4px}
+.pill{
+  display:inline-flex;align-items:center;gap:10px;padding:12px 18px;border-radius:999px;
+  background:rgba(5,150,105,.11);border:1px solid rgba(5,150,105,.28);color:#dffcef;
+  font-family:'JB';font-size:22px;font-weight:500;
+}
+.pill.gold{background:rgba(212,168,83,.12);border-color:rgba(212,168,83,.34);color:#fee8ad}
+.pill.blue{background:rgba(77,135,168,.14);border-color:rgba(77,135,168,.34);color:#d8effa}
+.pill.rose{background:rgba(201,91,85,.14);border-color:rgba(201,91,85,.36);color:#ffd4d1}
+.lightpill{
+  display:inline-flex;align-items:center;gap:10px;padding:12px 18px;border-radius:999px;
+  font-family:'JB';font-size:22px;font-weight:700;
+  background:#eef5f0;border:1px solid rgba(17,19,21,.16);color:#143329;
+}
+.lightpill.gold{background:#f6ecd2;border-color:rgba(212,168,83,.38);color:#7a5515}
+.lightpill.blue{background:#e4edf1;border-color:rgba(77,135,168,.36);color:#24566f}
+.tag{
+  display:inline-flex;align-items:center;padding:8px 14px;border-radius:7px;
+  font-family:'JB';font-size:18px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+  background:#102820;color:#bfffe5;border:1px solid rgba(5,150,105,.36);
+}
+.tag.gold{background:#302614;color:#ffe4a3;border-color:rgba(212,168,83,.46)}
+.tag.rose{background:#321a18;color:#ffd7d4;border-color:rgba(201,91,85,.46)}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:34px}
+.column-title{font-family:'JB';font-size:26px;letter-spacing:.18em;text-transform:uppercase}
+.bullet{display:flex;gap:16px;align-items:flex-start;font-size:28px;line-height:1.28;color:#24302c}
+.bullet:before{content:"";width:10px;height:10px;border-radius:50%;margin-top:12px;background:var(--emerald)}
+.bullet.gold:before{background:var(--gold)}
+.lower{
+  position:absolute;left:112px;bottom:76px;width:max-content;max-width:1320px;
+  display:flex;align-items:center;gap:18px;padding:22px 28px;border-radius:10px;
+  background:rgba(17,19,21,.88);border:1px solid rgba(255,255,255,.18);
+  box-shadow:0 18px 60px rgba(0,0,0,.35);z-index:5;
+}
+.lower .label{font-family:'JB';font-size:18px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+.lower .text{font-family:'IN';font-size:31px;font-weight:700;color:var(--snow)}
+.tiny{font-size:20px;line-height:1.35;color:var(--faint)}
+</style></head><body>
+<div class="stage">
+  <div class="eyebrow">Thirty-second decision framework</div>
+  <div class="serif" style="font-size:114px;margin-top:18px">Which one fits you?</div>
+  <div class="split" style="margin-top:48px">
+    <div class="panel" style="padding:40px">
+      <div class="column-title" style="color:var(--emerald)">Choose new if...</div>
+      <div style="display:grid;gap:18px;margin-top:28px">
+        <div class="bullet">You want lower early maintenance</div>
+        <div class="bullet">You want a modern layout</div>
+        <div class="bullet">Your timeline can handle the builder process</div>
+        <div class="bullet"><span><span class="tag rose">Must pass</span>&nbsp;&nbsp;Budget works after any MUD / PID cost</span></div>
+        <div class="bullet"><span><span class="tag rose">Must pass</span>&nbsp;&nbsp;Incentive still wins after fees and long-term payment</span></div>
+      </div>
+    </div>
+    <div class="panel" style="padding:40px">
+      <div class="column-title" style="color:var(--gold)">Choose resale if...</div>
+      <div style="display:grid;gap:18px;margin-top:28px">
+        <div class="bullet gold">You want an established street or mature lot</div>
+        <div class="bullet gold">You need a shorter closing timeline</div>
+        <div class="bullet gold">You want freedom to shop lenders</div>
+        <div class="bullet gold">You are comfortable budgeting repairs by inspection</div>
+        <div class="bullet gold">The total payment beats the builder deal</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="brandbug"><span class="mark">T</span>Living in Temple TX&nbsp;&nbsp;|&nbsp;&nbsp;Taylor Dasch · EG Realty</div><div class="source">Temple MLS closed sales, Jun. 18, 2026 pull</div>
+</body></html>

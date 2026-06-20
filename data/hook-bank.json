@@ -238,5 +238,41 @@
     "status": "fresh",
     "dateCreated": "2026-04-02",
     "dateUsed": null
+  },
+  {
+    "id": "HK-ML-001",
+    "text": "An agent had real production proof, but the first screen still felt like a template",
+    "formula": "Proof Gap",
+    "pillar": "Product Marketing",
+    "persona": "Real Estate Agent",
+    "platform": "tiktok",
+    "pairsWith": "Marrow build-reveal",
+    "status": "used",
+    "dateCreated": "2026-06-19",
+    "dateUsed": "2026-06-19"
+  },
+  {
+    "id": "HK-ML-002",
+    "text": "Some agents have listings, photos, experience, and no real website",
+    "formula": "Problem Snapshot",
+    "pillar": "Product Marketing",
+    "persona": "Real Estate Agent",
+    "platform": "tiktok",
+    "pairsWith": "Marrow no-site rebuild",
+    "status": "fresh",
+    "dateCreated": "2026-06-19",
+    "dateUsed": null
+  },
+  {
+    "id": "HK-ML-003",
+    "text": "Open your site on your phone. If the first screen does not show proof and contact, it is leaking attention",
+    "formula": "Quick Test",
+    "pillar": "Product Marketing",
+    "persona": "Real Estate Agent",
+    "platform": "tiktok",
+    "pairsWith": "Marrow mobile audit",
+    "status": "fresh",
+    "dateCreated": "2026-06-19",
+    "dateUsed": null
   }
 ]

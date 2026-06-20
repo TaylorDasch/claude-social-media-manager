@@ -7,11 +7,11 @@
 ---
 
 ## ▸ Pairing A — PRIMARY (launch with this)
-- **Title (49):** `New vs Resale in Temple TX: The 46-Day Gap (2026)`
-- **On-image words (4):** `THE 46-DAY GAP`
+- **Title (49):** `New vs Resale in Temple TX: The 77-Day Gap (2026)`
+- **On-image words (4):** `THE 77-DAY GAP`
 - **Thumbnail:** Split-frame base. Taylor pointing toward the new-build side. A property-tax statement corner peeks in, one figure red-circled.
-- **Pikzels prompt:** *"Split-screen YouTube thumbnail, left half a brand-new suburban house with young sparse landscaping, right half an older established home on a tree-lined street, bold white vertical divider, confident real estate agent in foreground pointing left looking skeptical, bold text 'THE 46-DAY GAP' in white with red accent, a property tax document corner with one number circled in red, high contrast, dramatic, 16:9."*
-- **Why #1:** the "46-day" number reads as proprietary local MLS data and is the exact figure the body pays off (DOM 106 vs 60). Opens a loop at second one; tracks cluster intent for suggested-feed pickup.
+- **Pikzels prompt:** *"Split-screen YouTube thumbnail, left half a brand-new suburban house with young sparse landscaping, right half an older established home on a tree-lined street, bold white vertical divider, confident real estate agent in foreground pointing left looking skeptical, bold text 'THE 77-DAY GAP' in white with red accent, a property tax document corner with one number circled in red, high contrast, dramatic, 16:9."*
+- **Why #1:** the "77-day" number reads as proprietary local MLS data and is the exact figure the body pays off (DOM 133 vs 56). Opens a loop at second one; tracks cluster intent for suggested-feed pickup.
 
 ## ▸ Pairing B — SEO-DURABLE FALLBACK
 - **Title (48):** `Should You Buy New or Resale in Temple TX? (2026)`
