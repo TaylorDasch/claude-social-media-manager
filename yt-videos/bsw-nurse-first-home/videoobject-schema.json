@@ -1,0 +1,42 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "New-Grad Nurse Buying Your First Home in Temple? What You Can Actually Afford (2026)",
+  "description": "Hospital nurses usually aren't eligible for the Homes for Texas Heroes down-payment program (that's mostly for school nurses) — but they almost always qualify for the income-based Home Sweet Texas program from TSAHC, which gives 3–5% toward a down payment plus an MCC mortgage tax credit. Taylor Dasch with EG Realty, a Temple market-data analyst, runs the real FHA monthly payment on Temple homes from $200K to $265K, shows how the down payment gets nearly erased, and gives the honest trade-offs. Education and strategy only; not lending, tax, or financial advice — confirm your numbers with a lender. Verified June 2026.",
+  "thumbnailUrl": [
+    "{{THUMBNAIL_URL_1280x720}}",
+    "{{THUMBNAIL_URL_640x360}}",
+    "{{THUMBNAIL_URL_480x360}}"
+  ],
+  "uploadDate": "{{UPLOAD_DATE}}",
+  "duration": "{{DURATION_ISO8601}}",
+  "contentUrl": "https://www.youtube.com/watch?v={{YOUTUBE_ID}}",
+  "embedUrl": "https://www.youtube-nocookie.com/embed/{{YOUTUBE_ID}}",
+  "publisher": {
+    "@type": ["RealEstateAgent", "Person"],
+    "@id": "https://templetxhomes.net/#agent",
+    "name": "Taylor Dasch",
+    "url": "https://templetxhomes.net/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{LOGO_URL}}"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "2015 Birdcreek Terrace",
+      "addressLocality": "Temple",
+      "addressRegion": "TX",
+      "postalCode": "76502",
+      "addressCountry": "US"
+    }
+  },
+  "creator": {
+    "@id": "https://templetxhomes.net/#agent"
+  },
+  "isFamilyFriendly": true,
+  "inLanguage": "en-US",
+  "potentialAction": {
+    "@type": "WatchAction",
+    "target": "https://www.youtube.com/watch?v={{YOUTUBE_ID}}"
+  }
+}
