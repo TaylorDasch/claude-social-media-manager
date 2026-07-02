@@ -34,8 +34,8 @@ Legend: 🟢 autonomous (Claude can do / technical) · 🟡 GATED (needs Taylor'
 - [ ] 🟡 Short 2 ("The hospital…") — +3 days.
 - [ ] 🟡 Short 3 ("Don't retire in Temple if…") — +5 days.
 - [ ] 🟡 Short 4 ("Tax freeze trap") — week 2. (Never 2 Shorts same CT weekday.)
-- [ ] 🟡 Temple Insider newsletter (`newsletter-draft.md`) — manual publish in Beehiiv (API is enterprise-gated). Send only after the video is live.
-- [ ] 🟡 GBP post tying the video to the retiree hub — ready-to-paste draft in `gbp-post-draft.md` (fits the "Neighborhood Guide / Expertise Tip" rotation).
+- [x] ✅ Temple Insider newsletter — APPROVED (2026-07-01), sends July 14 via the launch trigger (Beehiiv; falls back to ready-to-paste + notify if enterprise-gated).
+- [x] ✅ GBP post — APPROVED (2026-07-01), auto-publishes July 14 via the launch trigger (draft: `gbp-post-draft.md`).
 - [ ] 🟡 (Optional) Spanish cut of the strongest Short (Short 1 "$180K gap" or Short 2 "hospital"), or a Spanish caption track on the long-form — Central TX Hispanic-buyer reach. Keep numbers/claims identical; re-run banned-word + lane checks on the translated copy.
 
 ### Attribution (web AND phone/text/DM)
@@ -44,8 +44,10 @@ Legend: 🟢 autonomous (Claude can do / technical) · 🟡 GATED (needs Taylor'
 
 ---
 
-### Gate summary (what needs Taylor's explicit OK)
-1. Publishing the video itself (Taylor uploads) and pinned comment.
-2. Publishing the 4 Shorts to social audiences.
-3. Sending the Temple Insider newsletter.
-Everything technical (page embed, schema, data refresh, deploy) is autonomous — Claude ships and states a go/no-go on July 14. The VIDEO_ID blocker is cleared (`lgupQUgJcvo` wired into all page assets); the page deploy waits only for the video to flip public on July 14.
+### ⚙️ Automation scheduled (2026-07-01)
+Scheduled task **`retiring-temple-july14-launch`** (`~/.claude/scheduled-tasks/…`) fires **July 14, 8:00 PM CT**: verifies the video is public → deploys the hub embed + comparison H2 + July-2026 data refresh → publishes the GBP post → sends the Temple Insider newsletter → reports go/no-go + what needs a manual click. **Caveat:** it runs only while the Claude app is open; if closed at 8pm CT it runs on next launch. (The `create_trigger` cloud service was 404'ing, so this uses the local scheduled-tasks runner instead.)
+
+### Gate summary (updated 2026-07-01)
+- ✅ **AUTO on July 14 via the launch trigger** (Taylor pre-approved): page deploy (embed + comparison H2 + data refresh), **GBP post**, and **Temple Insider newsletter**.
+- ⚪ **Still Taylor-manual at upload:** the video going public (already scheduled), the pinned first comment, end screens/cards, and the 4 Shorts to social.
+- The VIDEO_ID blocker is cleared (`lgupQUgJcvo` wired into all page assets). The trigger verifies the video is public before deploying; it will not embed a private video.

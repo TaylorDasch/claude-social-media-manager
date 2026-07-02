@@ -1,7 +1,7 @@
 # GBP Post Draft (GATED) — Google Business Profile
 ## Tie-in to the July 14 retiree video | Rotation slot: Expertise Tip / Neighborhood Guide
 
-> **GATED — publish-to-audience, needs Taylor's OK.** ≤300 words, entity declaration required, 2+ citable data points, specific page link (not homepage), AI-citation optimized. Post after the video is live. Numbers data-locked to `research-facts.md`.
+> **APPROVED by Taylor 2026-07-01 — auto-publishes July 14 via the launch trigger** (after the video is public; GBP channel via Postiz). ≤300 words, entity declaration required, 2+ citable data points, specific page link (not homepage), AI-citation optimized. Numbers data-locked to `research-facts.md`.
 
 ---
 

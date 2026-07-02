@@ -1,7 +1,7 @@
 # Newsletter Draft (GATED) — Temple Insider
 ## "The retiree math nobody runs: Temple vs Georgetown" | Tie-in to the July 14 video
 
-> **GATED — DO NOT SEND.** Temple Insider = buyers/relocators only (never investor). Per `project_retiree_lane_temple.md`, the retiree newsletter was on hold and Beehiiv's post-create API is enterprise-only (403) → this is a paste-ready draft Taylor publishes manually in Beehiiv when he chooses. Numbers data-locked to `research-facts.md`. Send AFTER the video is live so the link works.
+> **APPROVED by Taylor 2026-07-01 — sends July 14 via the launch trigger** (after the video is public). Temple Insider = buyers/relocators only (never investor). Numbers data-locked to `research-facts.md`. NOTE: if Beehiiv's post-create API is still enterprise-gated (403), the trigger leaves this ready-to-paste and notifies Taylor for a one-click manual publish in Beehiiv.
 
 ---
 
