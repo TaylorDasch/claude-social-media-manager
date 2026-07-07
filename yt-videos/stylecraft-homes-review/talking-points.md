@@ -30,7 +30,8 @@
 **TRUE QUALITY (2:55–4:10)** — page H2: *What's the True Quality?*
 - Real résumé: founded 1988, HQ College Station, president Randy French, 857 homes / ~$277M in 2024, ~#74 nationally. Not fly-by-night.
 - Bones OK for price: engineered slabs (Central TX expansive soil, wet-dry cycles), Hardie cement-fiberboard + stone/brick, granite + smart-home standard.
-- PATTERN (say it plainly): grading by eye → water pooling; plumbing fails weeks post-close; LVP lifting off slab. Not every home — often enough to be a pattern.
+- DISCLOSURE FIRST (Taylor rule 2026-07-05): "I've closed multiple Stylecraft homes myself — my own buyers have never hit these problems. Not once." NEVER voice the defects as firsthand experience.
+- PATTERN (attribute to the complaint record): grading by eye → water pooling; plumbing fails weeks post-close; LVP lifting off slab. Not every home — documented often enough to be a pattern.
 - Manual-J HVAC sizing they will NOT let you override.
 - Verdict: good materials, inconsistent execution → warranty is the whole game.
 
@@ -38,7 +39,7 @@
 - 1-2-10 (1 yr workmanship / 2 systems / 10 structure). Standard on paper.
 - Workmanship dies at exactly Day 365 — hard cutoff, zero grace.
 - Loophole: install done wrong but "not yet failing" can get declined because it hasn't broken.
-- Dept requires escalation — not a yes on the first call. Document, push.
+- Dept requires escalation — per the documented complaints, not a yes on the first call (not firsthand). Document, push.
 - **THE MOVE (write it down):** ~Month 11, hire your own independent inspector, $400–$500, list every defect while the clock runs, submit in writing before Day 365.
 - Highest-ROI thing a Stylecraft owner does; saves thousands. Skip it → repairs on you Day 366.
 

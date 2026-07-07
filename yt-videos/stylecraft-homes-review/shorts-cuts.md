@@ -16,8 +16,8 @@
 - **On-screen text:** "3.99%... BUT" / "OUTSIDE LENDER = LOSE IT ALL"
 
 ## SHORT 3 — "3.99% but read this"
-- **[0–3s hook]** "The best builder mortgage rate in Bell County — and why I still only give it 3.5 stars."
-- **[3–40s]** 3.99% for two years, genuinely the best payment in Temple and Belton. But: drainage graded by eye, plumbing failing weeks after closing, a warranty department you have to fight. Great financing, inconsistent build — buy it with your eyes open.
+- **[0–3s hook]** "The lowest advertised fixed rate of any builder in Bell County — and why I still only give it 3.5 stars."
+- **[3–40s]** 3.99% for two years, genuinely the best payment in Temple and Belton. But the complaint record shows a pattern: drainage graded by eye, plumbing failing weeks after closing, a warranty department that treats "no" as its opening position. My own Stylecraft buyers? Zero issues — but you buy with your eyes open. Great financing, inconsistent execution.
 - **[CTA]** "Honest 3.5-star breakdown, link in bio. —Taylor."
 - **On-screen text:** "BEST RATE" (green) / "READ THIS FIRST" (red) / "3.5★"
 

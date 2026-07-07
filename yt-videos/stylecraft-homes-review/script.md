@@ -1,13 +1,14 @@
 # Stylecraft Homes Review — Full Video Script (Living in Temple)
 
 # Stylecraft Homes: The Best Financing in Bell County — But Read This First
-### Full Word-for-Word Script · ~1,470 spoken words · ≈ 8.7 min at ~165 wpm · Verdict LOCKED 3.5 / 5
+### Full Word-for-Word Script · ~1,865 spoken words · ≈ 10–11 min as written (~9 min at a brisk 200 wpm) · Verdict LOCKED 3.5 / 5
+### Fable pass 2026-07-05: firsthand defect claims re-attributed to the complaint record + clean-closings disclosure added (Taylor's own Stylecraft buyers: zero defect issues); hook payoff, fourth-star line, and line-level polish applied.
 
 ---
 
 **[COLD OPEN — 0:00–0:20 — no logo, no name, no credential]**
 
-Stylecraft has the best mortgage rate of any builder in Bell County right now. On select move-in-ready homes they're advertising three-point-nine-nine percent — and nobody else in Temple or Belton is close.
+Stylecraft is advertising the lowest fixed rate of any builder in Bell County right now — three-point-nine-nine percent on select move-in-ready homes. The next-closest advertised fixed rate in this county is a full point higher.
 
 It's also the one builder where I tell every client to spend four hundred dollars of their own money before a specific deadline — or they lose thousands.
 
@@ -25,7 +26,7 @@ I'm Taylor Dasch, an agent with EG Realty here in the Temple–Belton–Killeen 
 
 So here's the quick answer up front, because your time matters. Is Stylecraft a good builder in Temple and Belton? Yes — with an asterisk. Three and a half stars out of five.
 
-The financing is genuinely the most aggressive in the market. The homes look sharp on paper — James Hardie siding, granite, smart-home tech standard. But there's a repeating pattern of drainage and grading problems, plumbing that fails within weeks of closing, and a warranty department you have to fight to get a yes out of. So the score is high enough to buy — and low enough that you do not walk in unprepared. Let me show you the math first, because the math is the reason people sign.
+The financing is genuinely the most aggressive in the market. The homes look sharp on paper — James Hardie siding, granite, smart-home tech standard. But there's a repeating pattern of drainage and grading problems, plumbing that fails within weeks of closing, and a warranty department that treats "no" as its opening position. So the score is high enough to buy — and low enough that you do not walk in unprepared. Let me show you the math first, because the math is the reason people sign.
 
 ---
 
@@ -41,6 +42,8 @@ What does that do to a monthly payment? On a home around three-fifteen, you're l
 
 On top of the rate, there's a flex credit they call "Your Way" — up to fifteen thousand dollars you can steer toward closing costs, buying the rate down further, or options. And if you'd rather skip the buydown entirely, their flat build rates are running somewhere around four-point-nine-nine to five-point-four-nine.
 
+One caution while you shop: you will see lower teaser numbers advertised around Bell County — I've seen one in the threes — but check the loan type, because those are adjustable-rate loans that reset after a few years. This one is a thirty-year fixed. Compare fixed to fixed, and read the APR line, not the billboard number.
+
 Now — here's the string, and it's a big one. *[GRAPHIC: "Every incentive requires Kangaroo Home Lending"]* Every dollar of that incentive requires you to finance through their lender, Kangaroo Home Lending. And Kangaroo is not a neutral third party — Stylecraft owns forty-nine percent of it. It's a captive lender. You are not required to use them to buy the house. But the second you bring your own outside lender, you forfeit the rate buydown, you forfeit the flex credit — all of it. So the honest way to shop this: go get one real competing quote from an outside lender on your own, then hand it to Kangaroo and make them earn your business. The incentive is real. The leverage is yours — if you use it.
 
 ---
@@ -49,21 +52,21 @@ Now — here's the string, and it's a big one. *[GRAPHIC: "Every incentive requi
 
 So the money's good. What are you actually buying? *[B-ROLL: model exterior — Hardie siding, stone, granite counter]*
 
-First, the résumé — because it's a real one. Stylecraft was founded in 1988, headquartered in College Station, run by president Randy French. In 2024 they closed 857 homes worth about two hundred seventy-seven million dollars, which put them roughly seventy-fourth among builders nationally. This is not a fly-by-night operation. Structurally, the bones are reasonable for the price: engineered slabs — which matters in Central Texas, where the soil expands and contracts hard through our wet-and-dry cycles. James Hardie cement-fiberboard siding, not vinyl, with stone or brick accents. Granite counters and a smart-home package come standard, not as a five-figure upcharge.
+First, the résumé — because it's a real one. Stylecraft was founded in 1988, headquartered in College Station, run by president Randy French. In 2024 they closed 857 homes worth about two hundred seventy-seven million dollars, which put them roughly seventy-fourth among builders nationally. You're not buying from a pop-up operation. Structurally, the bones are reasonable for the price: engineered slabs — which matters in Central Texas, where the soil expands and contracts hard through our wet-and-dry cycles. James Hardie cement-fiberboard siding, not vinyl, with stone or brick accents. Granite counters and a smart-home package come standard, not as a five-figure upcharge.
 
-But here's the pattern I'd be lying to leave out. Drainage and grading — I've seen lots graded by eye instead of properly surveyed, and the result is water pooling where it shouldn't. Plumbing failures showing up within weeks of closing. LVP flooring lifting off the slab. None of that is every home — but it shows up often enough that it's a pattern, not a fluke. And one more thing the rep won't foreground: the HVAC is sized by a Manual-J calculation they will not let you override. If you wanted a bigger system, that's not a conversation they'll have. So the quality verdict: good materials, inconsistent execution. Which is exactly why the next part matters more than anything else in this video.
+But here's the part I'd be lying to leave out — and let me be fully transparent about where it comes from. I've closed multiple Stylecraft homes myself, and my own buyers have never hit these problems. Not once. But the complaint record shows a repeating pattern, and you deserve to see it: lots graded by eye instead of surveyed, so water pools where it shouldn't. Plumbing failures showing up within weeks of closing. LVP flooring lifting off the slab. Not every home — but documented often enough that it's a pattern, not a fluke. And one more thing the rep won't foreground: the HVAC is sized by a Manual-J calculation they will not let you override. If you wanted a bigger system, that's not a conversation they'll have. So the quality verdict: good materials, inconsistent execution. Hold that thought — it's exactly why the next ninety seconds are the most valuable in this video.
 
 ---
 
 **[WARRANTY — 4:10–5:35 — page H2: "How Does Stylecraft's Warranty Actually Work?"]**
 
-The warranty. This is where the three-and-a-half stars comes from, and it's the single most important thing I'll tell you today.
+The warranty. This is the section that costs Stylecraft the fourth star — and the single most important thing I'll say today.
 
 Stylecraft runs a one-two-ten warranty — one year on workmanship, two on systems, ten on the structure. Standard on paper. The problem is how the one-year workmanship piece gets enforced. *[GRAPHIC: warranty timeline bar, red marker at Day 365]*
 
-It expires at exactly three hundred sixty-five days — a hard cutoff, zero grace period. And there's a loophole in the language that catches people: if an install was done wrong but it isn't actively failing yet, they can call it compliant-enough and decline to fix it — because it hasn't broken. So the defect is real, the coverage is technically there, and you still walk away with nothing. And from what I've watched clients go through, the warranty department is not one that says yes on the first call. You escalate, you document, you push.
+It expires at exactly three hundred sixty-five days — a hard cutoff, zero grace period. And there's a loophole in the language that catches real families: if something was installed wrong but hasn't failed yet — wrong material, wrong placement, not leaking *yet* — they can decline it. Because it hasn't broken. So the defect is real, the coverage is technically there, and you still walk away with nothing. And based on the documented complaints, this is not a warranty department that says yes on the first call. You escalate, you document, you push.
 
-So here's the move. Write this down. *[GRAPHIC: "Month 11 → independent inspection · $400–$500"]* Around month eleven — before that Day-365 cliff — you hire your own independent inspector, out of pocket, four to five hundred dollars, to go find every workmanship defect while the clock is still running. Then you submit that list in writing before the deadline. That single four-hundred-dollar inspection is the highest-return thing you will do as a Stylecraft owner. It routinely saves people thousands. Skip it, and you're eating those repairs yourself on Day three-sixty-six.
+So here's the move — the four hundred dollars from the top of this video. Write it down. *[GRAPHIC: "Month 11 → independent inspection · $400–$500"]* Around month eleven — before that Day-365 cliff — you hire your own independent inspector, out of pocket, four to five hundred dollars, to go find every workmanship defect while the clock is still running. Then you submit that list in writing before the deadline. That single four-hundred-dollar inspection is the highest-return thing you will do as a Stylecraft owner. It routinely saves people thousands. Skip it, and you're eating those repairs yourself on Day three-sixty-six.
 
 ---
 
@@ -73,7 +76,7 @@ Two more traps before we compare. *[B-ROLL: community signage — public street 
 
 First, the price on the sign isn't the payment. On new construction, the county often taxes you the first year on just the lot or a partially-built value — then they reassess the finished home, and in year two the tax portion of your escrow jumps. New buyers get blindsided by that every single year. Budget for the reassessed number now, not in month fourteen.
 
-Second — the contract, and this is where you need me, or an agent like me, in the room. There are five things buried in a builder contract like this. One: there's no option period — that strips out the standard inspect-and-walk protection Texas buyers are used to. Two: a material-substitution clause lets them swap specified materials without your sign-off. Three: no guaranteed closing date — they can move it, and your rate lock and your lease timing become your problem, not theirs. Four: the earnest-money terms lean the builder's way, so your deposit is more forfeitable than you think. And five: that preferred-lender lock — the incentive only exists through Kangaroo.
+Second — the contract. Stylecraft writes its own, and five things hide in builder paper like this. One: there's no option period — that strips out the standard inspect-and-walk protection Texas buyers are used to. Two: a material-substitution clause lets them swap specified materials without your sign-off. Three: no guaranteed closing date — they can move it, and your rate lock and your lease timing become your problem, not theirs. Four: the earnest-money terms lean the builder's way, so your deposit is more forfeitable than you think. And five: that preferred-lender lock — the incentive only exists through Kangaroo. This is where representation earns its keep.
 
 So who should skip Stylecraft entirely? If you need to modify floor plans, they're rigid — walk away. If you have a low tolerance for chasing post-closing repairs, this isn't your builder. If you refuse to touch a captive lender on principle, you'll never see the incentive that makes the deal worth it. And honestly, once you're pushing past the low four-hundreds — their range runs up to about four-eighty on the top plans — you have stronger craftsmanship options. Which brings me to the field.
 
@@ -91,10 +94,10 @@ Now the lanes. If your priority is the lowest monthly payment — VA, FHA, first
 
 **[TAYLOR'S TAKE / CTA — 7:50–8:50 — page H2: "Should You Tour Without an Agent?"]**
 
-So — Taylor's take. Three and a half stars, and I'd stand behind that number to your face.
+So — Taylor's take. Three and a half stars. I'd say that number to their sales manager's face, and I just gave you every reason behind it.
 
-Here's the reusable rule I give every buyer, and it's the one that changes how you walk into any model home: builders aren't handing you a deal because they're generous. A vacant spec home bleeds them roughly three thousand dollars a month in carrying costs. Understand that, and you stop negotiating like a guest and start negotiating from strength.
+Here's the reusable rule I give every buyer, and it's the one that changes how you walk into any model home: builders aren't handing you a deal because they're generous. A vacant spec home bleeds them roughly three thousand dollars a month in carrying costs. Understand that, and you stop negotiating like a guest and start negotiating from strength — you're not asking for a favor, you're solving their three-thousand-dollar-a-month problem.
 
-And the last thing — do not tour a Stylecraft model, or register at one, without your own agent already representing you. The day you sign that registration card alone, you've handed the only person in the room who works for the builder your entire negotiating position. Bring representation to the first visit. It costs you nothing, and it's the cheapest leverage in real estate.
+Last thing, and this one's free: do not tour a Stylecraft model — and do not sign their registration card — without your own agent already on record. Walk in alone and register, and you've handed the only person in that room who works for the builder your entire negotiating position. Bring representation to the first visit. It costs you nothing, and it's the cheapest leverage in real estate.
 
 If you're weighing a Stylecraft home right now, the full written breakdown — every rate, every contract trap, the community-by-community list — is linked below. And if you want me in your corner on an actual contract, reach out. I'm Taylor Dasch, EG Realty. I'll see you on the next one.

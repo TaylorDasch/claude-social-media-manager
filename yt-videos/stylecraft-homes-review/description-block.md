@@ -2,7 +2,7 @@
 
 # YouTube Description
 
-Stylecraft has the most aggressive builder financing in Bell County right now — a 3.99% subsidized buydown on select move-in-ready homes through their in-house lender. That's the real reason buyers sign. But there's a warranty catch and a proprietary contract you need to understand before you do. Here's my honest 3.5-star breakdown for anyone weighing a Stylecraft home in Temple, Belton, Killeen, or Nolanville.
+Stylecraft has the most aggressive builder financing in Bell County right now — a 3.99% subsidized buydown on a 30-year fixed, on select move-in-ready homes through their in-house lender. That's the real reason buyers sign. But there's a warranty catch and a proprietary contract you need to understand before you do. Here's my honest 3.5-star breakdown for anyone weighing a Stylecraft home in Temple, Belton, Killeen, or Nolanville.
 
 📄 Full written breakdown — every rate, every contract trap, the community-by-community list:
 https://templetxhomes.net/stylecraft/?utm_source=youtube&utm_medium=description&utm_campaign=stylecraft-homes-review
