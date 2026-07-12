@@ -33,11 +33,11 @@ SCORE_LIMITS = {
     "hook_strength": 30,
     "angle_quality": 30,
     "audience_fit": 15,
-    "arc_payoff": 15,
-    "cta_strength": 10,
+    "arc_payoff": 20,
+    "cta_strength": 5,
 }
 RANKING_INPUT_SCHEMA_VERSION = "shorts-ranking-input/v1"
-RANKING_RUBRIC_VERSION = "taylor-shorts-rubric/v2-complete-standalone"
+RANKING_RUBRIC_VERSION = "taylor-shorts-rubric/v3-one-subject"
 
 
 class ModelClient(Protocol):
@@ -508,20 +508,33 @@ hooks, or a payoff. Taylor's observed short-form rubric is the only rubric:
 - Angle quality (0-30): honest/contrarian framing, Temple/Belton/BSW/Fort Hood
   specificity, and concrete names or numbers.
 - Audience fit (0-15): one clear buyer/relocator/local audience; specificity wins.
-- Arc and payoff (0-15): complete standalone thought with the promised answer.
-- CTA strength (0-10): natural comment/DM keyword; no CTA earns zero.
+- Arc and payoff (0-20): complete standalone thought with the promised answer.
+- CTA strength (0-5): natural comment/DM keyword; no CTA earns zero. A CTA can
+  never compensate for mixed subjects or an incomplete payoff.
+
+One-subject rule (hard gate): every clip must answer one viewer question with one
+promise and one payoff. Multiple facts/examples are allowed only when they support
+that same question. `topic_axes` means independent listener decision criteria,
+not umbrella labels: taxes, schools, BSW commute, military proximity, downtown,
+flood risk, and housing age are separate axes. BSW and military may share one
+"work commute" axis only if every sentence answers that exact commute question.
+Never hide several criteria under "Temple vs Belton" or "relocation." Mark the
+payoff complete only when the spoken excerpt resolves its stated promise.
 
 Flag every factual claim that should be checked. Investor material is not eligible
 for TikTok. Long-form YouTube derivatives are also not eligible for TikTok under
-this repository's governance. Duration must be 10-90 seconds. Do not reward hype.
+this repository's governance. Prefer 15-55 seconds. Do not reward a longer clip
+merely because it contains more facts. Do not reward hype.
 Output raw JSON only."""
 
 PASS2_SYSTEM = """You are Taylor Dasch's independent senior short-form editor.
 Rerank the already-scored finalists. Favor a spoken hook that works immediately,
 a complete standalone payoff, Taylor-specific local insight, honest negatives,
-and a set of clips with distinct angles. Penalize setup, repeated moments,
-unsupported certainty, and clips that need prior context. Do not rewrite or invent
-transcript content. Output raw JSON only."""
+and a set of clips with distinct angles. Every kept clip must stay on exactly one
+subject from hook through payoff. Penalize setup, repeated moments, unsupported
+certainty, and clips that need prior context. Never keep a finalist marked
+more than one topic axis, topic_purity below 85, or payoff_complete=false. Do not
+rewrite or invent transcript content. Output raw JSON only."""
 
 
 def ranking_input_context(
@@ -623,6 +636,11 @@ def validate_pass1(
         "scores",
         "total_score",
         "standalone",
+        "topic_axes",
+        "promise",
+        "payoff",
+        "payoff_complete",
+        "topic_purity",
         "claim_flags",
         "warnings",
         "reasons",
@@ -651,6 +669,21 @@ def validate_pass1(
             )
         if not isinstance(value["standalone"], bool):
             raise ModelOutputError(f"{candidate_id}.standalone must be boolean")
+        topic_axes = _require_string_list(
+            value["topic_axes"], f"{candidate_id}.topic_axes"
+        )
+        if not topic_axes or len(topic_axes) != len(value["topic_axes"]):
+            raise ModelOutputError(
+                f"{candidate_id}.topic_axes must contain one or more non-empty labels"
+            )
+        topic_axes = list(dict.fromkeys(topic_axes))
+        promise = _require_string(value["promise"], f"{candidate_id}.promise")
+        payoff = _require_string(value["payoff"], f"{candidate_id}.payoff")
+        if not isinstance(value["payoff_complete"], bool):
+            raise ModelOutputError(f"{candidate_id}.payoff_complete must be boolean")
+        topic_purity = _require_score(
+            value["topic_purity"], f"{candidate_id}.topic_purity"
+        )
         claims = value["claim_flags"]
         if not isinstance(claims, list):
             raise ModelOutputError(f"{candidate_id}.claim_flags must be a list")
@@ -685,6 +718,11 @@ def validate_pass1(
                 "scores": checked_scores,
                 "total_score": total,
                 "standalone": value["standalone"],
+                "topic_axes": topic_axes,
+                "promise": promise,
+                "payoff": payoff,
+                "payoff_complete": value["payoff_complete"],
+                "topic_purity": topic_purity,
                 "claim_flags": normalized_claims,
                 "warnings": _require_string_list(value["warnings"], "warnings"),
                 "reasons": _require_string_list(value["reasons"], "reasons"),
@@ -697,6 +735,18 @@ def validate_pass1(
             f"got {actual_ids}"
         )
     return {"evaluations": normalized}
+
+
+def is_single_subject_evaluation(value: dict[str, Any]) -> bool:
+    """The exact semantic focus gate shared by reranking and cached reuse."""
+    return (
+        isinstance(value.get("topic_axes"), list)
+        and len(value["topic_axes"]) == 1
+        and value.get("payoff_complete") is True
+        and bool(str(value.get("promise", "")).strip())
+        and bool(str(value.get("payoff", "")).strip())
+        and int(value.get("topic_purity", 0)) >= 85
+    )
 
 
 def validate_pass2(
@@ -751,6 +801,11 @@ def _pass1_user(candidates: list[dict[str, Any]]) -> str:
                 "scores": {name: f"integer 0-{maximum}" for name, maximum in SCORE_LIMITS.items()},
                 "total_score": "integer rubric sum 0-100",
                 "standalone": True,
+                "topic_axes": ["one independent listener decision criterion"],
+                "promise": "the exact viewer question or promise opened by the excerpt",
+                "payoff": "the exact answer delivered inside the excerpt",
+                "payoff_complete": True,
+                "topic_purity": "integer 0-100",
                 "claim_flags": [
                     {
                         "text": "exact claim",
@@ -886,11 +941,20 @@ def rank_two_pass(
         evaluation["candidate_id"]: evaluation for evaluation in pass1_values
     }
     candidate_by_id = {str(candidate["id"]): candidate for candidate in candidates}
+    eligible_evaluations = [
+        evaluation
+        for evaluation in pass1_values
+        if is_single_subject_evaluation(evaluation)
+    ]
+    if not eligible_evaluations:
+        raise ModelOutputError(
+            "no candidate passed the one-subject topic-purity gate"
+        )
     finalist_evaluations = sorted(
-        pass1_values,
+        eligible_evaluations,
         key=lambda value: value["total_score"],
         reverse=True,
-    )[: min(rerank_limit, len(pass1_values))]
+    )[: min(rerank_limit, len(eligible_evaluations))]
     finalists = [
         {
             "candidate": candidate_by_id[evaluation["candidate_id"]],

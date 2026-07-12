@@ -26,6 +26,11 @@ def ranked(candidate_id: str = "cand-w0000100-w0000200") -> dict:
             "hook": "Temple or Belton?",
             "summary": "A complete comparison.",
             "lane": "relocator",
+            "topic_axes": ["work commute"],
+            "topic_purity": 96,
+            "promise": "Which city fits the commute?",
+            "payoff": "The clip gives the commute tradeoff.",
+            "payoff_complete": True,
             "reasons": [],
         },
         "rerank": {

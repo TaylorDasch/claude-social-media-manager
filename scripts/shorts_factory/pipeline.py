@@ -14,6 +14,7 @@ from .ranking import (
     DEFAULT_CLAUDE_MODEL,
     DEFAULT_OPENAI_MODEL,
     AutoModelClient,
+    is_single_subject_evaluation,
     ModelClient,
     StrictJsonCaller,
     rank_two_pass,
@@ -184,6 +185,11 @@ def _clip_manifest(
         "summary": evaluation["summary"],
         "transcript": candidate["text"],
         "lane": evaluation["lane"],
+        "topic_axes": evaluation["topic_axes"],
+        "topic_purity": evaluation["topic_purity"],
+        "promise": evaluation["promise"],
+        "payoff": evaluation["payoff"],
+        "payoff_complete": evaluation["payoff_complete"],
         "distinct_angle": rerank["distinct_angle"],
         "reasons": evaluation["reasons"] + [rerank["selection_reason"]],
         "warnings": item["warnings"],
@@ -378,7 +384,11 @@ def _load_validated_ranking(
     expected_finalist_ids = [
         item["candidate_id"]
         for item in sorted(
-            pass1["evaluations"],
+            [
+                item
+                for item in pass1["evaluations"]
+                if is_single_subject_evaluation(item)
+            ],
             key=lambda value: value["total_score"],
             reverse=True,
         )[: min(rerank_limit, len(pass1["evaluations"]))]
@@ -447,7 +457,7 @@ def analyze_job(
         )
         if not candidates:
             raise ManifestError(
-                "no complete 10-90 second candidate windows could be built from transcript"
+                "no complete 10-60 second candidate windows could be built from transcript"
             )
         boundaries_path = analysis_dir / "boundaries.json"
         candidates_path = analysis_dir / "candidates.json"
@@ -699,8 +709,8 @@ def analyze_job(
                 "minimum_score": minimum_score,
                 "top_n": top_n,
                 "dedupe": {
-                    "time_iou_threshold": 0.55,
-                    "text_similarity_threshold": 0.82,
+                    "time_iou_threshold": 0.20,
+                    "text_similarity_threshold": 0.75,
                 },
             }
             job.setdefault("history", []).append(

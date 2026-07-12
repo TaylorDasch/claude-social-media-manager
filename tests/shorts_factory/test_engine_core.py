@@ -106,11 +106,16 @@ def ranked_item(candidate_id: str, start: float, end: float, text: str, score: i
                 "hook_strength": 24,
                 "angle_quality": 24,
                 "audience_fit": 12,
-                "arc_payoff": 12,
-                "cta_strength": 8,
+                "arc_payoff": 15,
+                "cta_strength": 5,
             },
             "total_score": 80,
             "standalone": True,
+            "topic_axes": ["city tax comparison"],
+            "topic_purity": 95,
+            "promise": "Show the annual tax difference.",
+            "payoff": "Belton carries the lower city tax in this example.",
+            "payoff_complete": True,
             "claim_flags": [],
             "warnings": [],
             "reasons": ["Complete thought."],
@@ -141,6 +146,46 @@ class DedupeTests(unittest.TestCase):
         self.assertEqual([item["candidate"]["id"] for item in selected], ["cand-a", "cand-c"])
         duplicate = next(item for item in rejected if item["candidate"]["id"] == "cand-b")
         self.assertEqual(duplicate["duplicate_of"], "cand-a")
+
+    def test_modest_temporal_overlap_is_removed_before_review(self) -> None:
+        ranked = [
+            ranked_item(
+                "cand-a",
+                0,
+                40,
+                "Temple city taxes change the monthly payment on a typical home.",
+                92,
+            ),
+            ranked_item(
+                "cand-b",
+                25,
+                65,
+                "The city-rate comparison changes the annual ownership cost.",
+                88,
+            ),
+        ]
+        selected, rejected = deduplicate_ranked(
+            ranked,
+            source_kind="other",
+            minimum_score=60,
+            top_n=5,
+        )
+        self.assertEqual([item["candidate"]["id"] for item in selected], ["cand-a"])
+        self.assertEqual(rejected[0]["duplicate_of"], "cand-a")
+
+    def test_clip_over_sixty_seconds_never_reaches_review(self) -> None:
+        item = ranked_item(
+            "cand-long",
+            0,
+            60.01,
+            "This is a complete tax comparison that still runs too long.",
+            99,
+        )
+        selected, rejected = deduplicate_ranked(
+            [item], source_kind="other", minimum_score=60, top_n=5
+        )
+        self.assertEqual(selected, [])
+        self.assertIn("10-60", " ".join(rejected[0]["hard_rejections"]))
 
     def test_standalone_flag_cannot_override_cutoff_warning(self) -> None:
         item = ranked_item(
@@ -189,6 +234,41 @@ class DedupeTests(unittest.TestCase):
             [setup, payoff], source_kind="other", minimum_score=60, top_n=1
         )
         self.assertEqual(selected[0]["candidate"]["id"], "cand-payoff")
+
+    def test_high_score_cannot_override_multiple_topic_axes(self) -> None:
+        item = ranked_item(
+            "cand-mixed",
+            0,
+            55,
+            "Check the school zone. BSW is closer from Temple. Belton is closer to Fort Hood.",
+            99,
+        )
+        item["evaluation"]["topic_axes"] = [
+            "school attendance zone",
+            "BSW commute",
+            "military proximity",
+        ]
+        item["evaluation"]["topic_purity"] = 42
+        selected, rejected = deduplicate_ranked(
+            [item], source_kind="other", minimum_score=60, top_n=5
+        )
+        self.assertEqual(selected, [])
+        self.assertIn("exactly one topic axis", " ".join(rejected[0]["hard_rejections"]))
+
+    def test_unfinished_second_promise_is_rejected(self) -> None:
+        item = ranked_item(
+            "cand-unfinished",
+            0,
+            38,
+            "The ETJ removes city tax. But before you buy new construction, check this.",
+            92,
+        )
+        item["evaluation"]["payoff_complete"] = False
+        selected, rejected = deduplicate_ranked(
+            [item], source_kind="other", minimum_score=60, top_n=5
+        )
+        self.assertEqual(selected, [])
+        self.assertIn("does not complete", " ".join(rejected[0]["hard_rejections"]))
 
 
 class StateTests(unittest.TestCase):
@@ -407,6 +487,11 @@ class ModelValidationTests(unittest.TestCase):
                                 },
                                 "total_score": 60,
                                 "standalone": True,
+                                "topic_axes": ["city comparison"],
+                                "topic_purity": 95,
+                                "promise": "Compare the cities.",
+                                "payoff": "The excerpt resolves the comparison.",
+                                "payoff_complete": True,
                                 "claim_flags": [],
                                 "warnings": [],
                                 "reasons": ["Complete thought."],

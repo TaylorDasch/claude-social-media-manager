@@ -25,10 +25,10 @@ OUTPUT_WIDTH = 1080
 OUTPUT_HEIGHT = 1920
 OUTPUT_FPS = 30
 MIN_DURATION_S = 10.0
-MAX_DURATION_S = 90.0
+MAX_DURATION_S = 60.0
 RENDERER_SCHEMA_VERSION = 2
 REFRAME_ALGORITHM_VERSION = "opencv-haar-eye-dark-slide-v2"
-CAPTION_STYLE_VERSION = "karaoke-safe-v2-numeric-join"
+CAPTION_STYLE_VERSION = "active-amber-v4-avenir-condensed-heavy"
 
 
 class RenderError(RuntimeError):

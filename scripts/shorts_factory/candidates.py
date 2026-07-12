@@ -9,11 +9,10 @@ from typing import Any, Iterable
 
 
 WINDOW_TARGETS: tuple[tuple[str, float], ...] = (
-    ("punchy", 22.0),
-    ("standard", 38.0),
-    ("explainer", 58.0),
-    ("complete", 70.0),
-    ("deep", 78.0),
+    ("punchy", 18.0),
+    ("short", 28.0),
+    ("standard", 40.0),
+    ("complete", 55.0),
 )
 
 _STOPWORDS = {
@@ -107,7 +106,7 @@ def generate_overlapping_candidates(
     units: list[dict[str, Any]],
     *,
     min_seconds: float = 10.0,
-    max_seconds: float = 90.0,
+    max_seconds: float = 60.0,
     targets: Iterable[tuple[str, float]] = WINDOW_TARGETS,
     topic_pause_seconds: float = 1.40,
 ) -> list[dict[str, Any]]:

@@ -6,10 +6,21 @@ import shutil
 import subprocess
 import tempfile
 import unittest
+from collections import Counter
 from pathlib import Path
 
-from scripts.shorts_factory.captions import build_ass_captions
-from scripts.shorts_factory.qa import verify_render
+from scripts.shorts_factory.captions import (
+    CAPTION_FONT_SIZE,
+    CAPTION_OUTLINE,
+    CAPTION_SIDE_MARGIN,
+    DEFAULT_PLAY_RES_X,
+    _caption_layout,
+    _group_words,
+    _normalise_words,
+    _text_width_px,
+    build_ass_captions,
+)
+from scripts.shorts_factory.qa import _validate_captions, verify_render
 from scripts.shorts_factory.render import render_clip, render_input_fingerprint
 from scripts.shorts_factory.vision import (
     build_static_analysis,
@@ -68,7 +79,7 @@ def _make_source(
 
 
 class CaptionTests(unittest.TestCase):
-    def test_karaoke_cards_are_safe_and_three_to_five_words(self) -> None:
+    def test_karaoke_cards_are_safe_and_two_to_four_words(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             destination = Path(directory) / "clip.ass"
             words = [
@@ -90,6 +101,7 @@ class CaptionTests(unittest.TestCase):
             self.assertEqual(result["word_count"], 11)
             self.assertIn("PlayResX: 1080", text)
             self.assertIn("PlayResY: 1920", text)
+            self.assertIn("Style: Karaoke,Avenir Next Condensed Heavy,92", text)
             self.assertIn("MarginV", text)
             events = [line for line in text.splitlines() if line.startswith("Dialogue:")]
             self.assertGreaterEqual(len(events), 2)
@@ -97,10 +109,98 @@ class CaptionTests(unittest.TestCase):
                 payload = event.split(",", 9)[-1]
                 visible = re.sub(r"\{[^}]*\}", "", payload).replace(r"\N", " ")
                 count = len(visible.split())
-                self.assertGreaterEqual(count, 3)
-                self.assertLessEqual(count, 5)
+                self.assertGreaterEqual(count, 2)
+                self.assertLessEqual(count, 4)
                 self.assertLessEqual(payload.count(r"\N"), 1)
+                self.assertEqual(payload.count(r"{\c&H0000D7FF&}"), 1)
             self.assertNotIn("{UNSAFE}", text)
+
+    def test_long_caption_cards_hold_a_stable_layout_per_spoken_word(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            destination = Path(directory) / "long.ass"
+            words = [
+                {"word": word, "start": index * 0.3, "end": index * 0.3 + 0.25}
+                for index, word in enumerate(
+                    ["EXTRATERRITORIAL", "JURISDICTION", "CHANGES", "TAXES"]
+                )
+            ]
+            build_ass_captions(words, destination)
+            events = [
+                line
+                for line in destination.read_text(encoding="utf-8").splitlines()
+                if line.startswith("Dialogue:")
+            ]
+            self.assertEqual(len(events), 4)
+            visible_layouts = {
+                re.sub(r"\{[^}]*\}", "", event.split(",", 9)[-1])
+                for event in events
+            }
+            self.assertEqual(len(visible_layouts), 2)
+            self.assertEqual(
+                sorted(Counter(
+                    re.sub(r"\{[^}]*\}", "", event.split(",", 9)[-1])
+                    for event in events
+                ).values()),
+                [2, 2],
+            )
+            for event in events:
+                payload = event.split(",", 9)[-1]
+                self.assertLessEqual(payload.count(r"\N"), 1)
+                self.assertEqual(payload.count(r"{\c&H0000D7FF&}"), 1)
+
+    def test_known_overflow_phrases_fit_the_measured_safe_width(self) -> None:
+        safe_width = float(
+            DEFAULT_PLAY_RES_X - 2 * CAPTION_SIDE_MARGIN - 2 * CAPTION_OUTLINE
+        )
+        for phrase in (
+            "ESTABLISHED NEIGHBORHOODS LIKE CANYON",
+            "OR THE EXTRATERRITORIAL JURISDICTION",
+        ):
+            group = [
+                {"word": word, "start": index * 0.25, "end": index * 0.25 + 0.2}
+                for index, word in enumerate(phrase.split())
+            ]
+            groups = _group_words(
+                group,
+                min_words=2,
+                max_words=4,
+                safe_width_px=safe_width,
+            )
+            for card in groups:
+                font_size, line_break_at = _caption_layout(
+                    card,
+                    max_lines=2,
+                    safe_width_px=safe_width,
+                )
+                words = [str(item["word"]) for item in card]
+                lines = (
+                    [" ".join(words)]
+                    if not line_break_at
+                    else [
+                        " ".join(words[:line_break_at]),
+                        " ".join(words[line_break_at:]),
+                    ]
+                )
+                self.assertGreaterEqual(font_size, 80)
+                self.assertLessEqual(font_size, CAPTION_FONT_SIZE)
+                self.assertLessEqual(
+                    max(_text_width_px(line, font_size=font_size) for line in lines),
+                    safe_width + 1.0,
+                )
+
+    def test_natural_two_word_card_passes_render_qa(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            destination = Path(directory) / "two-words.ass"
+            build_ass_captions(
+                [
+                    {"word": "NO", "start": 0.0, "end": 0.3},
+                    {"word": "WAY.", "start": 0.3, "end": 0.7},
+                ],
+                destination,
+                min_words=2,
+                max_words=4,
+            )
+            self.assertEqual(_validate_captions(destination), [])
 
     def test_numeric_fragments_never_split_across_caption_cards(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
@@ -122,6 +222,46 @@ class CaptionTests(unittest.TestCase):
             self.assertIn("$350,000", visible)
             self.assertIn("2.39%", visible)
             self.assertNotRegex(visible, r"(?:^|\\N|\s),000(?:\s|$)")
+
+    def test_transcript_fragments_merge_into_readable_tokens(self) -> None:
+        tokens = ["$350", ",000,", "2", ".0%.", "13", "-minute", "non", "-answer"]
+        words = [
+            {"word": token, "start": index * 0.2, "end": index * 0.2 + 0.18}
+            for index, token in enumerate(tokens)
+        ]
+        normalised = _normalise_words(
+            words,
+            clip_start_s=0.0,
+            clip_end_s=None,
+        )
+        self.assertEqual(
+            [word["word"] for word in normalised],
+            ["$350,000,", "2.0%.", "13-MINUTE", "NON-ANSWER"],
+        )
+
+    def test_terminal_single_word_card_never_leaks_into_next_sentence(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            destination = Path(directory) / "terminal.ass"
+            build_ass_captions(
+                [
+                    {"word": "GONE.", "start": 0.0, "end": 0.35},
+                    {"word": "THAT", "start": 0.55, "end": 0.8},
+                    {"word": "MATTERS.", "start": 0.8, "end": 1.2},
+                ],
+                destination,
+            )
+            events = [
+                line
+                for line in destination.read_text(encoding="utf-8").splitlines()
+                if line.startswith("Dialogue:")
+            ]
+            visible = [
+                re.sub(r"\{[^}]*\}", "", event.split(",", 9)[-1]).replace(r"\N", " ")
+                for event in events
+            ]
+            self.assertEqual(visible[0], "GONE.")
+            self.assertNotIn("GONE. THAT", visible)
+            self.assertEqual(_validate_captions(destination), [])
 
 
 class VisualPlanTests(unittest.TestCase):

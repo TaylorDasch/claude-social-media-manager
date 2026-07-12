@@ -181,14 +181,14 @@ def platform_eligibility(
         return {"eligible": eligible, "reasons": reasons}
 
     instagram_reasons = list(base_reasons)
-    if not 10 <= duration_s <= 90:
-        instagram_reasons.append("Factory review duration must be 10-90 seconds.")
+    if not 10 <= duration_s <= 60:
+        instagram_reasons.append("Factory review duration must be 10-60 seconds.")
     youtube_reasons = list(base_reasons)
-    if not 10 <= duration_s <= 90:
-        youtube_reasons.append("Factory YouTube Short duration must be 10-90 seconds.")
+    if not 10 <= duration_s <= 60:
+        youtube_reasons.append("Factory YouTube Short duration must be 10-60 seconds.")
     facebook_reasons = list(base_reasons)
-    if not 10 <= duration_s <= 90:
-        facebook_reasons.append("Factory Facebook Reel duration must be 10-90 seconds.")
+    if not 10 <= duration_s <= 60:
+        facebook_reasons.append("Factory Facebook Reel duration must be 10-60 seconds.")
 
     tiktok_reasons = list(base_reasons)
     if source_kind == "youtube_long":
@@ -219,8 +219,8 @@ def assess_ranked_candidate(
     text = str(candidate["text"])
     duration = float(candidate["duration_s"])
     hard_rejections: list[str] = []
-    if not 10 <= duration <= 90:
-        hard_rejections.append("Duration is outside the 10-90 second review range.")
+    if not 10 <= duration <= 60:
+        hard_rejections.append("Duration is outside the 10-60 second review range.")
     if not text.strip():
         hard_rejections.append("Transcript is empty.")
     banned = find_banned_phrases(text)
@@ -242,6 +242,21 @@ def assess_ranked_candidate(
         hard_rejections.append(
             "Semantic evaluator flagged an incomplete or context-dependent cut: "
             + " | ".join(str(warning) for warning in structural_warnings)
+        )
+    topic_axes = evaluation.get("topic_axes")
+    topic_purity = int(evaluation.get("topic_purity", 0))
+    if not isinstance(topic_axes, list) or len(topic_axes) != 1:
+        labels = ", ".join(str(value) for value in topic_axes or []) or "none"
+        hard_rejections.append(
+            f"One-subject gate requires exactly one topic axis; found: {labels}."
+        )
+    if topic_purity < 85:
+        hard_rejections.append(
+            f"Topic purity {topic_purity} is below the required 85."
+        )
+    if evaluation.get("payoff_complete") is not True:
+        hard_rejections.append(
+            "The clip does not complete its stated promise and payoff."
         )
     opening = " ".join(text.split()[:12]).casefold()
     if opening.startswith(_GENERIC_OPENERS):
@@ -282,8 +297,8 @@ def deduplicate_ranked(
     source_kind: str,
     minimum_score: int = 60,
     top_n: int = 8,
-    time_iou_threshold: float = 0.55,
-    text_similarity_threshold: float = 0.82,
+    time_iou_threshold: float = 0.20,
+    text_similarity_threshold: float = 0.75,
 ) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
     """Apply hard thresholds, then keep the best non-duplicate moments."""
     assessed = [

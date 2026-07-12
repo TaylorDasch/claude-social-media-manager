@@ -8,6 +8,7 @@ timestamps or clip-relative timestamps; ``clip_start_s`` selects the former.
 from __future__ import annotations
 
 import re
+from functools import lru_cache
 from pathlib import Path
 from typing import Any, Mapping, Sequence
 
@@ -15,6 +16,15 @@ from typing import Any, Mapping, Sequence
 DEFAULT_PLAY_RES_X = 1080
 DEFAULT_PLAY_RES_Y = 1920
 DEFAULT_SAFE_MARGIN_BOTTOM = 430
+CAPTION_FONT = "Avenir Next Condensed Heavy"
+CAPTION_FONT_SIZE = 92
+CAPTION_MIN_FONT_SIZE = 80
+CAPTION_SIDE_MARGIN = 130
+CAPTION_OUTLINE = 5
+CAPTION_SPACING = 0.4
+DEFAULT_MIN_WORDS_PER_CARD = 2
+DEFAULT_MAX_WORDS_PER_CARD = 4
+QA_MIN_WORDS_PER_EVENT = 1
 
 
 def _ass_header(
@@ -36,7 +46,7 @@ YCbCr Matrix: TV.709
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Karaoke,Arial,78,&H00FFFFFF,&H0000D7FF,&H00111111,&H70000000,1,0,0,0,100,100,0,0,1,5,2,2,90,90,{safe_margin_bottom},1
+Style: Karaoke,{CAPTION_FONT},{CAPTION_FONT_SIZE},&H00FFFFFF,&H00FFFFFF,&H00111111,&H70000000,0,0,0,0,100,100,{CAPTION_SPACING},0,1,{CAPTION_OUTLINE},2,2,{CAPTION_SIDE_MARGIN},{CAPTION_SIDE_MARGIN},{safe_margin_bottom},1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -101,17 +111,22 @@ def _normalise_words(
             # "2.39" + "%" as separate timed tokens. They are one readable
             # unit and must never straddle caption cards.
             (
-                re.fullmatch(r"[,\.]\d+", text)
+                re.fullmatch(r"[,\.]\d+(?:%?)(?:[,.!?;:]?)", text)
                 and re.search(r"(?:\$?\d)$", str(previous["word"]))
             )
             or (
-                text == "%"
+                bool(re.fullmatch(r"%(?:[,.!?;:]?)", text))
                 and re.search(r"\d$", str(previous["word"]))
             )
             or (
                 str(previous["word"]) in {"$", "£", "€"}
                 and re.fullmatch(r"\d[\d,.]*", text)
             )
+            or (
+                bool(re.fullmatch(r"-[A-Z0-9]+(?:[,.!?;:]?)", text))
+                and re.search(r"[A-Z0-9]$", str(previous["word"]))
+            )
+            or bool(re.fullmatch(r"[,.!?;:]+", text))
         ):
             previous["word"] = f"{previous['word']}{text}"
             previous["end"] = max(float(previous["end"]), float(item["end"]))
@@ -138,6 +153,7 @@ def _group_words(
     *,
     min_words: int,
     max_words: int,
+    safe_width_px: float,
 ) -> list[list[dict[str, Any]]]:
     if not words:
         return []
@@ -153,20 +169,33 @@ def _group_words(
             if next_word is not None
             else 0.0
         )
-        punctuation = bool(re.search(r"[.!?,;:]$", str(word["word"])))
-        if len(current) >= max_words or (
-            len(current) >= min_words and (punctuation or pause >= 0.55)
+        terminal = bool(re.search(r"[.!?;:]$", str(word["word"])))
+        soft_punctuation = bool(re.search(r",$", str(word["word"])))
+        card_duration = float(word["end"]) - float(current[0]["start"])
+        if (
+            terminal
+            or len(current) >= max_words
+            or (
+                len(current) >= min_words
+                and (soft_punctuation or pause >= 0.30 or card_duration >= 1.35)
+            )
         ):
             groups.append(current)
             current = []
     if current:
         groups.append(current)
 
-    # A greedy natural break can leave a one/two-word orphan.  Rebalance the
-    # final neighboring cards so normal captions stay strictly 3-5 words.
+    # A greedy natural break can leave a one-word orphan. Rebalance the final
+    # neighboring cards so normal captions stay strictly 2-4 words.
     index = 1
     while index < len(groups):
         if len(groups[index]) >= min_words:
+            index += 1
+            continue
+        if re.search(r"[.!?;:]$", str(groups[index][-1]["word"])):
+            index += 1
+            continue
+        if re.search(r"[.!?;:]$", str(groups[index - 1][-1]["word"])):
             index += 1
             continue
         combined = groups[index - 1] + groups[index]
@@ -179,25 +208,132 @@ def _group_words(
         groups[index - 1 : index + 1] = replacement
         index = max(1, index - 1)
 
-    return groups
+    # A fixed four-word card can remain wider than the safe box even with one
+    # line break. Split it into two independently wrapped cards instead of
+    # trusting word count as a proxy for rendered width.
+    refined: list[list[dict[str, Any]]] = []
+    for group in groups:
+        _, widest = _best_line_break(group, font_size=CAPTION_FONT_SIZE)
+        if len(group) == 4 and widest > safe_width_px:
+            refined.extend([group[:2], group[2:]])
+        else:
+            refined.append(group)
+    return refined
 
 
-def _karaoke_text(group: Sequence[dict[str, Any]], *, max_lines: int) -> str:
+def _display_width(value: str) -> float:
+    """Fallback width units when the exact local font cannot be loaded."""
+    width = 0.0
+    for character in value:
+        if character in "MW@%&$":
+            width += 1.35
+        elif character in "I1.,:;'!|":
+            width += 0.48
+        elif character.isspace():
+            width += 0.55
+        else:
+            width += 1.0
+    return width
+
+
+@lru_cache(maxsize=32)
+def _caption_font(font_size: int) -> Any | None:
+    try:
+        from PIL import ImageFont
+
+        # Fontconfig resolves Avenir Next Condensed Heavy to face index 8 on
+        # Taylor's Mac, matching the exact family named in the ASS style.
+        return ImageFont.truetype(
+            "/System/Library/Fonts/Avenir Next Condensed.ttc",
+            size=font_size,
+            index=8,
+        )
+    except (ImportError, OSError):
+        return None
+
+
+def _text_width_px(value: str, *, font_size: int = CAPTION_FONT_SIZE) -> float:
+    font = _caption_font(font_size)
+    if font is not None:
+        return float(font.getlength(value)) + max(0, len(value) - 1) * CAPTION_SPACING
+    return _display_width(value) * font_size * 0.57
+
+
+def _best_line_break(
+    group: Sequence[dict[str, Any]],
+    *,
+    font_size: int,
+) -> tuple[int, float]:
+    words = [str(item["word"]) for item in group]
+    full_width = _text_width_px(" ".join(words), font_size=font_size)
+    if len(group) < 2:
+        return 0, full_width
+    options: list[tuple[float, float, int]] = []
+    for index in range(1, len(words)):
+        left = _text_width_px(" ".join(words[:index]), font_size=font_size)
+        right = _text_width_px(" ".join(words[index:]), font_size=font_size)
+        widest = max(left, right)
+        cost = widest + abs(left - right) * 0.12
+        options.append((cost, widest, index))
+    _, widest, index = min(options)
+    return index, min(full_width, widest)
+
+
+def _line_break_index(
+    group: Sequence[dict[str, Any]],
+    *,
+    max_lines: int,
+    font_size: int,
+    safe_width_px: float,
+) -> int:
+    if max_lines < 2 or len(group) < 2:
+        return 0
+    full_width = _text_width_px(
+        " ".join(str(item["word"]) for item in group),
+        font_size=font_size,
+    )
+    if len(group) < 4 and full_width <= safe_width_px:
+        return 0
+    return _best_line_break(group, font_size=font_size)[0]
+
+
+def _caption_layout(
+    group: Sequence[dict[str, Any]],
+    *,
+    max_lines: int,
+    safe_width_px: float,
+) -> tuple[int, int]:
+    _, widest = _best_line_break(group, font_size=CAPTION_FONT_SIZE)
+    font_size = CAPTION_FONT_SIZE
+    if widest > safe_width_px:
+        font_size = max(
+            CAPTION_MIN_FONT_SIZE,
+            int(CAPTION_FONT_SIZE * safe_width_px / widest),
+        )
+    line_break_at = _line_break_index(
+        group,
+        max_lines=max_lines,
+        font_size=font_size,
+        safe_width_px=safe_width_px,
+    )
+    return font_size, line_break_at
+
+
+def _highlighted_text(
+    group: Sequence[dict[str, Any]],
+    *,
+    active_index: int,
+    font_size: int,
+    line_break_at: int,
+) -> str:
     pieces: list[str] = []
-    line_break_at = 0
-    if max_lines >= 2 and len(group) >= 4:
-        line_break_at = (len(group) + 1) // 2
 
     for index, word in enumerate(group):
-        if index + 1 < len(group):
-            # Include inter-word silence so highlighting remains aligned with
-            # absolute word timestamps instead of running early after pauses.
-            highlight_end = max(float(word["end"]), float(group[index + 1]["start"]))
-        else:
-            highlight_end = float(word["end"])
-        duration_cs = max(1, round((highlight_end - float(word["start"])) * 100))
         prefix = r"\N" if line_break_at and index == line_break_at else ""
-        pieces.append(f"{prefix}{{\\kf{duration_cs}}}{word['word']}")
+        if index == 0 and font_size != CAPTION_FONT_SIZE:
+            prefix = f"{{\\fs{font_size}}}" + prefix
+        color = r"{\c&H0000D7FF&}" if index == active_index else r"{\c&H00FFFFFF&}"
+        pieces.append(f"{prefix}{color}{word['word']}")
     return " ".join(pieces).replace(r"\N ", r"\N")
 
 
@@ -209,8 +345,8 @@ def build_ass_captions(
     clip_end_s: float | None = None,
     width: int = DEFAULT_PLAY_RES_X,
     height: int = DEFAULT_PLAY_RES_Y,
-    min_words: int = 3,
-    max_words: int = 5,
+    min_words: int = DEFAULT_MIN_WORDS_PER_CARD,
+    max_words: int = DEFAULT_MAX_WORDS_PER_CARD,
     max_lines: int = 2,
     safe_margin_bottom: int = DEFAULT_SAFE_MARGIN_BOTTOM,
 ) -> dict[str, Any]:
@@ -221,8 +357,8 @@ def build_ass_captions(
     """
     if not 1 <= min_words <= max_words:
         raise ValueError("min_words must be between 1 and max_words")
-    if max_words > 5:
-        raise ValueError("short-form caption cards are limited to five words")
+    if max_words > 4:
+        raise ValueError("premium short-form caption cards are limited to four words")
     if not 1 <= max_lines <= 2:
         raise ValueError("short-form captions support one or two lines")
     if width <= 0 or height <= 0:
@@ -237,17 +373,39 @@ def build_ass_captions(
         clip_start_s=float(clip_start_s),
         clip_end_s=float(clip_end_s) if clip_end_s is not None else None,
     )
-    groups = _group_words(prepared, min_words=min_words, max_words=max_words)
+    safe_width_px = float(width - 2 * CAPTION_SIDE_MARGIN - 2 * CAPTION_OUTLINE)
+    if safe_width_px <= 0:
+        raise ValueError("caption side margins leave no readable width")
+    groups = _group_words(
+        prepared,
+        min_words=min_words,
+        max_words=max_words,
+        safe_width_px=safe_width_px,
+    )
 
     events: list[str] = []
     for group in groups:
-        start = float(group[0]["start"])
-        end = max(start + 0.20, float(group[-1]["end"]))
-        text = _karaoke_text(group, max_lines=max_lines)
-        events.append(
-            f"Dialogue: 0,{_fmt_ass_time(start)},{_fmt_ass_time(end)},"
-            f"Karaoke,,0,0,0,,{text}"
+        font_size, line_break_at = _caption_layout(
+            group,
+            max_lines=max_lines,
+            safe_width_px=safe_width_px,
         )
+        for active_index, word in enumerate(group):
+            start = float(word["start"])
+            if active_index + 1 < len(group):
+                end = max(start + 0.01, float(group[active_index + 1]["start"]))
+            else:
+                end = max(start + 0.08, float(word["end"]))
+            text = _highlighted_text(
+                group,
+                active_index=active_index,
+                font_size=font_size,
+                line_break_at=line_break_at,
+            )
+            events.append(
+                f"Dialogue: 0,{_fmt_ass_time(start)},{_fmt_ass_time(end)},"
+                f"Karaoke,,0,0,0,,{text}"
+            )
 
     destination.write_text(
         _ass_header(
@@ -262,12 +420,20 @@ def build_ass_captions(
     return {
         "path": str(destination),
         "event_count": len(events),
+        "card_count": len(groups),
         "word_count": len(prepared),
         "min_words_per_card": min_words,
         "max_words_per_card": max_words,
         "max_lines": max_lines,
         "play_resolution": {"width": width, "height": height},
         "safe_margin_bottom": safe_margin_bottom,
+        "style": {
+            "font": CAPTION_FONT,
+            "font_size": CAPTION_FONT_SIZE,
+            "active_word_color": "#FFD700",
+            "case": "uppercase",
+            "safe_text_width_px": safe_width_px,
+        },
     }
 
 

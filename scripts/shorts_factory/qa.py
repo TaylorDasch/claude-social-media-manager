@@ -10,6 +10,7 @@ import subprocess
 from pathlib import Path
 from typing import Any
 
+from .captions import DEFAULT_MAX_WORDS_PER_CARD, QA_MIN_WORDS_PER_EVENT
 from .vision import validate_visual_analysis
 
 
@@ -17,7 +18,7 @@ DELIVERY_WIDTH = 1080
 DELIVERY_HEIGHT = 1920
 DELIVERY_FPS = 30.0
 MIN_DURATION_S = 10.0
-MAX_DURATION_S = 90.0
+MAX_DURATION_S = 60.0
 
 
 def sha256_file(path: str | Path, *, chunk_size: int = 1024 * 1024) -> str:
@@ -104,10 +105,16 @@ def _validate_captions(path: Path) -> list[str]:
             errors.append(f"caption event {index} exceeds two lines")
         visible = re.sub(r"\{[^}]*\}", "", payload).replace(r"\N", " ")
         word_count = len(visible.split())
-        if word_count < 3:
-            errors.append(f"caption event {index} has fewer than three words")
-        if word_count > 5:
-            errors.append(f"caption event {index} exceeds five words")
+        if word_count < QA_MIN_WORDS_PER_EVENT:
+            errors.append(
+                f"caption event {index} has fewer than "
+                f"{QA_MIN_WORDS_PER_EVENT} words"
+            )
+        if word_count > DEFAULT_MAX_WORDS_PER_CARD:
+            errors.append(
+                f"caption event {index} exceeds "
+                f"{DEFAULT_MAX_WORDS_PER_CARD} words"
+            )
     return errors
 
 
