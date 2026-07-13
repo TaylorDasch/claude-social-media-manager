@@ -13,6 +13,7 @@ from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen as stdlib_urlopen
 
 from .errors import ModelOutputError, ShortsFactoryError
+from .policy import MIN_TOPIC_PURITY
 
 
 DEFAULT_CLAUDE_MODEL = "claude-sonnet-4-6"
@@ -37,7 +38,7 @@ SCORE_LIMITS = {
     "cta_strength": 5,
 }
 RANKING_INPUT_SCHEMA_VERSION = "shorts-ranking-input/v1"
-RANKING_RUBRIC_VERSION = "taylor-shorts-rubric/v3-one-subject"
+RANKING_RUBRIC_VERSION = "taylor-shorts-rubric/v4-strict-one-subject"
 
 
 class ModelClient(Protocol):
@@ -519,7 +520,9 @@ not umbrella labels: taxes, schools, BSW commute, military proximity, downtown,
 flood risk, and housing age are separate axes. BSW and military may share one
 "work commute" axis only if every sentence answers that exact commute question.
 Never hide several criteria under "Temple vs Belton" or "relocation." Mark the
-payoff complete only when the spoken excerpt resolves its stated promise.
+payoff complete only when the spoken excerpt resolves its stated promise. Topic
+purity below 90 means the excerpt contains a distinct adjacent detour, even if
+that detour provides background for the main subject.
 
 Flag every factual claim that should be checked. Investor material is not eligible
 for TikTok. Long-form YouTube derivatives are also not eligible for TikTok under
@@ -527,13 +530,13 @@ this repository's governance. Prefer 15-55 seconds. Do not reward a longer clip
 merely because it contains more facts. Do not reward hype.
 Output raw JSON only."""
 
-PASS2_SYSTEM = """You are Taylor Dasch's independent senior short-form editor.
+PASS2_SYSTEM = f"""You are Taylor Dasch's independent senior short-form editor.
 Rerank the already-scored finalists. Favor a spoken hook that works immediately,
 a complete standalone payoff, Taylor-specific local insight, honest negatives,
 and a set of clips with distinct angles. Every kept clip must stay on exactly one
 subject from hook through payoff. Penalize setup, repeated moments, unsupported
 certainty, and clips that need prior context. Never keep a finalist marked
-more than one topic axis, topic_purity below 85, or payoff_complete=false. Do not
+more than one topic axis, topic_purity below {MIN_TOPIC_PURITY}, or payoff_complete=false. Do not
 rewrite or invent transcript content. Output raw JSON only."""
 
 
@@ -745,7 +748,7 @@ def is_single_subject_evaluation(value: dict[str, Any]) -> bool:
         and value.get("payoff_complete") is True
         and bool(str(value.get("promise", "")).strip())
         and bool(str(value.get("payoff", "")).strip())
-        and int(value.get("topic_purity", 0)) >= 85
+        and int(value.get("topic_purity", 0)) >= MIN_TOPIC_PURITY
     )
 
 

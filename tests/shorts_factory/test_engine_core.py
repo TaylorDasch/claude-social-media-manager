@@ -270,6 +270,21 @@ class DedupeTests(unittest.TestCase):
         self.assertEqual(selected, [])
         self.assertIn("does not complete", " ".join(rejected[0]["hard_rejections"]))
 
+    def test_borderline_topic_purity_is_rejected(self) -> None:
+        item = ranked_item(
+            "cand-borderline",
+            0,
+            38,
+            "MUD rates add cost. Belton also sold a lot of new construction last year.",
+            96,
+        )
+        item["evaluation"]["topic_purity"] = 89
+        selected, rejected = deduplicate_ranked(
+            [item], source_kind="other", minimum_score=60, top_n=5
+        )
+        self.assertEqual(selected, [])
+        self.assertIn("required 90", " ".join(rejected[0]["hard_rejections"]))
+
 
 class StateTests(unittest.TestCase):
     def test_approval_checksum_locks_render_without_changing_version(self) -> None:

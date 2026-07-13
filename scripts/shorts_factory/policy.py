@@ -11,6 +11,7 @@ from .candidates import text_similarity, time_iou
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 QUALITY_GATES_PATH = PROJECT_ROOT / "governance" / "QUALITY-GATES.md"
+MIN_TOPIC_PURITY = 90
 
 _NUMBER_CLAIM = re.compile(
     r"(?:\$\s?\d[\d,.]*|\b\d+(?:\.\d+)?\s?(?:%|percent|minutes?|miles?|"
@@ -250,9 +251,9 @@ def assess_ranked_candidate(
         hard_rejections.append(
             f"One-subject gate requires exactly one topic axis; found: {labels}."
         )
-    if topic_purity < 85:
+    if topic_purity < MIN_TOPIC_PURITY:
         hard_rejections.append(
-            f"Topic purity {topic_purity} is below the required 85."
+            f"Topic purity {topic_purity} is below the required {MIN_TOPIC_PURITY}."
         )
     if evaluation.get("payoff_complete") is not True:
         hard_rejections.append(
