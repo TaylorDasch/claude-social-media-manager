@@ -11,6 +11,7 @@ from pathlib import Path
 from typing import Any
 
 from .captions import DEFAULT_MAX_WORDS_PER_CARD, QA_MIN_WORDS_PER_EVENT
+from .graphics import validate_applied_graphics_plan
 from .vision import validate_visual_analysis
 
 
@@ -35,6 +36,7 @@ def sidecar_paths(path: str | Path) -> dict[str, Path]:
     return {
         "captions": Path(f"{stem}.ass"),
         "crop_track": Path(f"{stem}.crop.json"),
+        "graphics": Path(f"{stem}.graphics.json"),
         "checksum": Path(f"{stem}.sha256"),
         "manifest": Path(f"{stem}.render.json"),
     }
@@ -139,6 +141,7 @@ def verify_render(
     *,
     captions_path: str | Path | None = None,
     crop_track_path: str | Path | None = None,
+    graphics_plan_path: str | Path | None = None,
     checksum_path: str | Path | None = None,
     ffprobe_path: str | None = None,
     duration_tolerance_s: float = 0.40,
@@ -153,6 +156,9 @@ def verify_render(
     captions = Path(captions_path).resolve() if captions_path else defaults["captions"]
     crop_track = (
         Path(crop_track_path).resolve() if crop_track_path else defaults["crop_track"]
+    )
+    graphics_plan = (
+        Path(graphics_plan_path).resolve() if graphics_plan_path else None
     )
     checksum = Path(checksum_path).resolve() if checksum_path else defaults["checksum"]
     errors: list[str] = []
@@ -240,6 +246,8 @@ def verify_render(
             errors.append(f"ffprobe validation failed: {exc}")
 
     errors.extend(_validate_captions(captions))
+    if graphics_plan is not None:
+        errors.extend(validate_applied_graphics_plan(graphics_plan))
     if not crop_track.is_file() or crop_track.stat().st_size == 0:
         errors.append(f"crop-track sidecar missing or empty: {crop_track}")
     else:
@@ -260,6 +268,7 @@ def verify_render(
         "sidecars": {
             "captions": str(captions),
             "crop_track": str(crop_track),
+            "graphics": str(graphics_plan) if graphics_plan else None,
             "checksum": str(checksum),
         },
     }

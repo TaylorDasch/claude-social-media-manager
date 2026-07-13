@@ -8,6 +8,7 @@ from typing import Any
 from .boundaries import build_sentence_units
 from .candidates import generate_overlapping_candidates, preselect_diverse_candidates
 from .errors import InvalidTransition, ManifestError, ModelOutputError, RevisionConflict
+from .graphics import load_visual_replacements, replacements_for_clip
 from .policy import deduplicate_ranked
 from .qa import verify_render
 from .ranking import (
@@ -224,6 +225,7 @@ def _render_review_clip(
     transcript_words: list[dict[str, Any]],
     job_dir: Path,
     render_mode: str,
+    visual_replacements: list[dict[str, Any]] | None = None,
 ) -> dict[str, Any]:
     """Render one selected span; fail closed before review eligibility."""
     output_path = (
@@ -233,6 +235,8 @@ def _render_review_clip(
     )
     existing_manifest_path = output_path.with_suffix(".render.json")
     render_metadata: dict[str, Any] = {"source_sha256": source_sha256}
+    if visual_replacements:
+        render_metadata["visual_replacements"] = visual_replacements
     # A caption-only revision does not need to rescan the 6 GB source for the
     # same shot/crop plan. Reuse only a validated, contained prior sidecar for
     # the exact same source span; render bytes and captions are still rebuilt
@@ -293,6 +297,7 @@ def _render_review_clip(
                     str(existing.get("sha256")),
                     captions_path=sidecars.get("captions"),
                     crop_track_path=sidecars.get("crop_track"),
+                    graphics_plan_path=sidecars.get("graphics"),
                     checksum_path=sidecars.get("checksum"),
                 )
                 if qa.get("passed") is True:
@@ -303,6 +308,7 @@ def _render_review_clip(
                         "manifest_path": str(existing_manifest_path),
                         "sidecars": sidecars,
                         "dominant_mode": existing.get("dominant_mode"),
+                        "visual_replacements": existing.get("visual_replacements"),
                         "reused_verified_render": True,
                     }
                     clip["status"] = AWAITING_REVIEW
@@ -331,6 +337,7 @@ def _render_review_clip(
             "manifest_path": rendered.get("sidecars", {}).get("manifest"),
             "sidecars": rendered.get("sidecars", {}),
             "dominant_mode": rendered.get("dominant_mode"),
+            "visual_replacements": rendered.get("visual_replacements"),
         }
         clip["status"] = AWAITING_REVIEW
         clip["render_error"] = None
@@ -590,6 +597,21 @@ def analyze_job(
         ]
         clips = []
         source_path = _verify_source_integrity(started, phase="pre-render")
+        replacement_manifest_path = analysis_dir / "visual-replacements.json"
+        replacement_manifest: dict[str, Any] | None = None
+        if replacement_manifest_path.is_file():
+            source_probe = started.get("source", {}).get("probe", {})
+            source_duration = (
+                float(source_probe.get("duration_s"))
+                if isinstance(source_probe, dict)
+                and source_probe.get("duration_s") is not None
+                else None
+            )
+            replacement_manifest = load_visual_replacements(
+                replacement_manifest_path,
+                expected_source_sha256=str(started["source"]["sha256"]),
+                source_duration_s=source_duration,
+            )
         transcript_words = transcript.get("words")
         if not isinstance(transcript_words, list) or not transcript_words:
             raise ManifestError("word-level transcript is required for rendering")
@@ -607,6 +629,15 @@ def analyze_job(
                     transcript_words=transcript_words,
                     job_dir=job_path.parent,
                     render_mode=render_mode,
+                    visual_replacements=(
+                        replacements_for_clip(
+                            replacement_manifest,
+                            float(clip["start"]),
+                            float(clip["end"]),
+                        )
+                        if replacement_manifest
+                        else []
+                    ),
                 )
             )
         _verify_source_integrity(started, phase="post-render")
@@ -706,6 +737,14 @@ def analyze_job(
                 "review_clip_count": len(review_clips),
                 "render_failed_clip_count": len(failed_clips),
                 "render_mode": render_mode,
+                "visual_replacements_path": (
+                    str(replacement_manifest_path) if replacement_manifest else None
+                ),
+                "visual_replacement_count": (
+                    len(replacement_manifest["replacements"])
+                    if replacement_manifest
+                    else 0
+                ),
                 "minimum_score": minimum_score,
                 "top_n": top_n,
                 "dedupe": {

@@ -11,6 +11,10 @@ from pathlib import Path
 from typing import Any, Mapping, Sequence
 
 from .captions import build_ass_captions
+from .graphics import (
+    build_applied_graphics_plan,
+    validate_applied_graphics_plan,
+)
 from .qa import sha256_file, sidecar_paths, verify_render
 from .vision import (
     VALID_MODES,
@@ -26,9 +30,10 @@ OUTPUT_HEIGHT = 1920
 OUTPUT_FPS = 30
 MIN_DURATION_S = 10.0
 MAX_DURATION_S = 60.0
-RENDERER_SCHEMA_VERSION = 2
+RENDERER_SCHEMA_VERSION = 3
 REFRAME_ALGORITHM_VERSION = "opencv-haar-eye-dark-slide-v2"
 CAPTION_STYLE_VERSION = "active-amber-v4-avenir-condensed-heavy"
+GRAPHICS_COMPOSITOR_VERSION = "source-timeline-overlay-v1"
 
 
 class RenderError(RuntimeError):
@@ -41,6 +46,34 @@ class RenderValidationError(RenderError):
     def __init__(self, message: str, qa: Mapping[str, Any]):
         super().__init__(message)
         self.qa = dict(qa)
+
+
+def _graphics_fingerprint(
+    replacements: object,
+) -> list[dict[str, Any]]:
+    if replacements is None:
+        return []
+    if not isinstance(replacements, list):
+        raise ValueError("metadata.visual_replacements must be a list")
+    result: list[dict[str, Any]] = []
+    for raw in replacements:
+        if not isinstance(raw, Mapping):
+            raise ValueError("metadata.visual_replacements entries must be objects")
+        result.append(
+            {
+                "id": str(raw.get("id") or ""),
+                "timeline_start_s": round(float(raw.get("timeline_start_s", 0)), 6),
+                "timeline_end_s": round(float(raw.get("timeline_end_s", 0)), 6),
+                "source_start_s": round(float(raw.get("source_start_s", 0)), 6),
+                "source_end_s": round(float(raw.get("source_end_s", 0)), 6),
+                "clip_start_s": round(float(raw.get("clip_start_s", 0)), 6),
+                "clip_end_s": round(float(raw.get("clip_end_s", 0)), 6),
+                "asset_start_s": round(float(raw.get("asset_start_s", 0)), 6),
+                "asset_sha256": str(raw.get("asset_sha256") or ""),
+                "timing_mode": str(raw.get("timing_mode") or ""),
+            }
+        )
+    return result
 
 
 def render_input_fingerprint(
@@ -70,10 +103,14 @@ def render_input_fingerprint(
         and float(word.get("start", 0)) <= float(end_s)
     ]
     supplied_analysis = options.get("visual_analysis")
+    visual_replacements = _graphics_fingerprint(
+        options.get("visual_replacements")
+    )
     payload = {
         "renderer_schema": RENDERER_SCHEMA_VERSION,
         "reframe_algorithm": REFRAME_ALGORITHM_VERSION,
         "caption_style": CAPTION_STYLE_VERSION,
+        "graphics_compositor": GRAPHICS_COMPOSITOR_VERSION,
         "source": source_identity,
         "start_s": round(float(start_s), 6),
         "end_s": round(float(end_s), 6),
@@ -85,6 +122,7 @@ def render_input_fingerprint(
         "preset": str(options.get("preset", "fast")),
         "crf": int(options.get("crf", 20)),
         "visual_analysis": supplied_analysis,
+        "visual_replacements": visual_replacements,
     }
     encoded = json.dumps(payload, sort_keys=True, separators=(",", ":")).encode("utf-8")
     return hashlib.sha256(encoded).hexdigest()
@@ -304,7 +342,11 @@ def _normalise_segments(
 
 
 def _build_filter_graph(
-    analysis: Mapping[str, Any], duration_s: float, captions_path: Path, burn_captions: bool
+    analysis: Mapping[str, Any],
+    duration_s: float,
+    captions_path: Path,
+    burn_captions: bool,
+    visual_replacements: Sequence[Mapping[str, Any]] = (),
 ) -> str:
     segments = _normalise_segments(analysis, duration_s)
     graph: list[str] = []
@@ -360,6 +402,38 @@ def _build_filter_graph(
     # frame and can cumulatively shorten a real clip by almost half a second.
     graph.append(f"{base}fps={OUTPUT_FPS},format=yuv420p,setsar=1[vbase]")
     base = "[vbase]"
+
+    # Replacement inputs are native vertical graphics bound to exact absolute
+    # source ranges. They replace pixels only; source input 0 remains the sole
+    # audio source. Captions are intentionally applied after every replacement.
+    for index, replacement in enumerate(visual_replacements):
+        input_index = index + 1
+        local_start = float(replacement["clip_start_s"])
+        local_end = float(replacement["clip_end_s"])
+        asset_start = float(replacement["asset_start_s"])
+        asset_duration = float(replacement["asset"]["duration_s"])
+        timeline_duration = float(replacement["timeline_end_s"]) - float(
+            replacement["timeline_start_s"]
+        )
+        hold_duration = max(0.0, timeline_duration - asset_duration) + 0.10
+        overlap_duration = local_end - local_start
+        graphic_label = f"graphic{index}"
+        replaced_label = f"replaced{index}"
+        graph.append(
+            f"[{input_index}:v:0]settb=AVTB,setpts=PTS-STARTPTS,"
+            f"fps={OUTPUT_FPS},scale={OUTPUT_WIDTH}:{OUTPUT_HEIGHT}:flags=lanczos,"
+            f"setsar=1,format=yuv420p,"
+            f"tpad=stop_mode=clone:stop_duration={hold_duration:.6f},"
+            f"trim=start={asset_start:.6f}:duration={overlap_duration:.6f},"
+            f"setpts=PTS-STARTPTS+{local_start:.6f}/TB[{graphic_label}]"
+        )
+        graph.append(
+            f"{base}[{graphic_label}]overlay=x=0:y=0:eof_action=pass:"
+            f"repeatlast=0:shortest=0:"
+            f"enable='gte(t,{local_start:.6f})*lt(t,{local_end:.6f})'"
+            f"[{replaced_label}]"
+        )
+        base = f"[{replaced_label}]"
 
     if burn_captions:
         escaped = _escape_filter_path(captions_path)
@@ -432,7 +506,8 @@ def render_clip(
 
     ``metadata`` accepts operational overrides used by tests/integration:
     ``visual_analysis``, ``ffmpeg_path``, ``ffprobe_path``, ``preset``,
-    ``crf``, ``sample_period_s``, ``center_x`` and ``center_y``.
+    ``crf``, ``sample_period_s``, ``center_x``, ``center_y`` and validated
+    ``visual_replacements``.
     """
     source = Path(source_path).expanduser().resolve()
     destination = Path(output_path).expanduser().resolve()
@@ -456,6 +531,12 @@ def render_clip(
         )
 
     options = dict(metadata or {})
+    raw_replacements = options.get("visual_replacements") or []
+    if not isinstance(raw_replacements, list) or not all(
+        isinstance(replacement, Mapping) for replacement in raw_replacements
+    ):
+        raise ValueError("metadata.visual_replacements must be a list of objects")
+    visual_replacements = [dict(replacement) for replacement in raw_replacements]
     input_fingerprint = render_input_fingerprint(
         source,
         start,
@@ -493,6 +574,21 @@ def render_clip(
         metadata=options,
     )
     write_visual_analysis(analysis, sidecars["crop_track"])
+    graphics_plan = build_applied_graphics_plan(
+        source_sha256=options.get("source_sha256"),
+        clip_start_s=start,
+        clip_end_s=end,
+        replacements=visual_replacements,
+    )
+    sidecars["graphics"].write_text(
+        json.dumps(graphics_plan, indent=2), encoding="utf-8"
+    )
+    graphics_errors = validate_applied_graphics_plan(sidecars["graphics"])
+    if graphics_errors:
+        raise RenderError(
+            "visual replacement plan failed validation: "
+            + "; ".join(graphics_errors)
+        )
 
     burn_captions = True
     ffmpeg = _resolve_ffmpeg(
@@ -500,7 +596,11 @@ def render_clip(
         explicit=options.get("ffmpeg_path"),
     )
     filter_graph = _build_filter_graph(
-        analysis, duration, sidecars["captions"], burn_captions
+        analysis,
+        duration,
+        sidecars["captions"],
+        burn_captions,
+        visual_replacements,
     )
     preset = str(options.get("preset", "fast"))
     crf = int(options.get("crf", 20))
@@ -517,42 +617,48 @@ def render_clip(
         f"{start:.6f}",
         "-i",
         str(source),
-        "-filter_complex",
-        filter_graph,
-        "-map",
-        "[vout]",
-        "-map",
-        "0:a:0",
-        "-af",
-        (
-            "asetpts=PTS-STARTPTS,loudnorm=I=-16:LRA=11:TP=-1.5,"
-            f"apad=whole_dur={duration:.6f},atrim=duration={duration:.6f}"
-        ),
-        "-c:v",
-        "libx264",
-        "-preset",
-        preset,
-        "-crf",
-        str(crf),
-        "-profile:v",
-        "high",
-        "-pix_fmt",
-        "yuv420p",
-        "-r",
-        str(OUTPUT_FPS),
-        "-c:a",
-        "aac",
-        "-b:a",
-        "160k",
-        "-ar",
-        "48000",
-        "-ac",
-        "2",
-        "-movflags",
-        "+faststart",
-        "-shortest",
-        str(destination),
     ]
+    for replacement in visual_replacements:
+        command.extend(["-i", str(replacement["asset_path"])])
+    command.extend(
+        [
+            "-filter_complex",
+            filter_graph,
+            "-map",
+            "[vout]",
+            "-map",
+            "0:a:0",
+            "-af",
+            (
+                "asetpts=PTS-STARTPTS,loudnorm=I=-16:LRA=11:TP=-1.5,"
+                f"apad=whole_dur={duration:.6f},atrim=duration={duration:.6f}"
+            ),
+            "-c:v",
+            "libx264",
+            "-preset",
+            preset,
+            "-crf",
+            str(crf),
+            "-profile:v",
+            "high",
+            "-pix_fmt",
+            "yuv420p",
+            "-r",
+            str(OUTPUT_FPS),
+            "-c:a",
+            "aac",
+            "-b:a",
+            "160k",
+            "-ar",
+            "48000",
+            "-ac",
+            "2",
+            "-movflags",
+            "+faststart",
+            "-shortest",
+            str(destination),
+        ]
+    )
     try:
         subprocess.run(command, check=True, capture_output=True, text=True)
     except subprocess.CalledProcessError as exc:
@@ -569,6 +675,7 @@ def render_clip(
         checksum,
         captions_path=sidecars["captions"],
         crop_track_path=sidecars["crop_track"],
+        graphics_plan_path=sidecars["graphics"],
         checksum_path=sidecars["checksum"],
         ffprobe_path=options.get("ffprobe_path"),
     )
@@ -590,6 +697,7 @@ def render_clip(
         "watermark": False,
         "dominant_mode": analysis.get("dominant_mode"),
         "segment_count": len(analysis.get("segments") or []),
+        "visual_replacements": graphics_plan,
         "captions": captions,
         "sidecars": {key: str(value) for key, value in sidecars.items()},
         "qa": qa,

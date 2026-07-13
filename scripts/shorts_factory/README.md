@@ -53,6 +53,41 @@ Approval is checksum-locked. `approve` fails until `render.path` exists; it
 computes the media SHA-256, verifies any recorded checksum, and stores
 `approved_sha256` plus the unchanged render `version`. Approval never publishes.
 
+## Native vertical graphic replacements
+
+An exact source edit may contain baked 16:9 cards that should be replaced in a
+vertical delivery. Place an optional manifest at:
+
+```text
+<job-dir>/analysis/visual-replacements.json
+```
+
+The timeline is bound to the ingested master checksum, not to selected clip IDs,
+so it remains valid when ranking chooses a different overlapping span:
+
+```json
+{
+  "schema_version": "shorts-visual-replacements/v1",
+  "source_sha256": "<master-sha256>",
+  "replacements": [
+    {
+      "id": "annual-tax",
+      "source_start_s": 223.36,
+      "source_end_s": 232.46,
+      "asset_path": "../../vertical-assets/annual-tax.mp4",
+      "asset_sha256": "<asset-sha256>",
+      "timing_mode": "hold_last"
+    }
+  ]
+}
+```
+
+Assets must be 1080x1920, 30fps H.264 MP4 files in `yuv420p`. Ranges may touch
+but may not overlap. `hold_last` extends the final asset frame when the source
+range is longer than the animation. Rendering preserves source audio, applies
+the graphic before burned captions, fingerprints asset checksums and timing,
+and writes a `.graphics.json` QA sidecar.
+
 ## Review reminders
 
 The dedicated macOS reminder checks every four hours and suppresses an unchanged

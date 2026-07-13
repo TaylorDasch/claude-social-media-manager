@@ -20,7 +20,13 @@ from scripts.shorts_factory.captions import (
     _text_width_px,
     build_ass_captions,
 )
-from scripts.shorts_factory.qa import _validate_captions, verify_render
+from scripts.shorts_factory.errors import ManifestError
+from scripts.shorts_factory.graphics import (
+    GRAPHICS_MANIFEST_VERSION,
+    load_visual_replacements,
+    replacements_for_clip,
+)
+from scripts.shorts_factory.qa import _validate_captions, sha256_file, verify_render
 from scripts.shorts_factory.render import render_clip, render_input_fingerprint
 from scripts.shorts_factory.vision import (
     build_static_analysis,
@@ -76,6 +82,107 @@ def _make_source(
         check=True,
         capture_output=True,
     )
+
+
+def _make_color_source(path: Path, *, color: str, duration_s: float = 10.4) -> None:
+    ffmpeg = shutil.which("ffmpeg")
+    if not ffmpeg:
+        raise unittest.SkipTest("ffmpeg is not installed")
+    subprocess.run(
+        [
+            ffmpeg,
+            "-hide_banner",
+            "-loglevel",
+            "error",
+            "-y",
+            "-f",
+            "lavfi",
+            "-i",
+            f"color=c={color}:size=320x180:rate=30:duration={duration_s}",
+            "-f",
+            "lavfi",
+            "-i",
+            f"sine=frequency=440:sample_rate=48000:duration={duration_s}",
+            "-t",
+            str(duration_s),
+            "-c:v",
+            "libx264",
+            "-preset",
+            "ultrafast",
+            "-pix_fmt",
+            "yuv420p",
+            "-c:a",
+            "aac",
+            str(path),
+        ],
+        check=True,
+        capture_output=True,
+    )
+
+
+def _make_vertical_asset(
+    path: Path,
+    *,
+    color: str = "blue",
+    duration_s: float = 2.0,
+) -> None:
+    ffmpeg = shutil.which("ffmpeg")
+    if not ffmpeg:
+        raise unittest.SkipTest("ffmpeg is not installed")
+    subprocess.run(
+        [
+            ffmpeg,
+            "-hide_banner",
+            "-loglevel",
+            "error",
+            "-y",
+            "-f",
+            "lavfi",
+            "-i",
+            f"color=c={color}:size=1080x1920:rate=30:duration={duration_s}",
+            "-c:v",
+            "libx264",
+            "-preset",
+            "ultrafast",
+            "-pix_fmt",
+            "yuv420p",
+            "-movflags",
+            "+faststart",
+            str(path),
+        ],
+        check=True,
+        capture_output=True,
+    )
+
+
+def _sample_rgb(path: Path, time_s: float) -> tuple[int, int, int]:
+    ffmpeg = shutil.which("ffmpeg")
+    if not ffmpeg:
+        raise unittest.SkipTest("ffmpeg is not installed")
+    result = subprocess.run(
+        [
+            ffmpeg,
+            "-hide_banner",
+            "-loglevel",
+            "error",
+            "-ss",
+            str(time_s),
+            "-i",
+            str(path),
+            "-frames:v",
+            "1",
+            "-vf",
+            "format=rgb24,crop=1:1:100:100",
+            "-f",
+            "rawvideo",
+            "pipe:1",
+        ],
+        check=True,
+        capture_output=True,
+    )
+    if len(result.stdout) < 3:
+        raise AssertionError("could not sample rendered pixel")
+    return tuple(result.stdout[:3])  # type: ignore[return-value]
 
 
 class CaptionTests(unittest.TestCase):
@@ -284,6 +391,75 @@ class VisualPlanTests(unittest.TestCase):
         self.assertTrue(validate_visual_analysis(plan))
 
 
+class GraphicsManifestTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls) -> None:
+        cls.temp = tempfile.TemporaryDirectory()
+        cls.root = Path(cls.temp.name)
+        cls.asset = cls.root / "vertical.mp4"
+        _make_vertical_asset(cls.asset)
+        cls.asset_sha = sha256_file(cls.asset)
+
+    @classmethod
+    def tearDownClass(cls) -> None:
+        cls.temp.cleanup()
+
+    def _write_manifest(self, *, source_sha: str = "a" * 64) -> Path:
+        manifest = self.root / "visual-replacements.json"
+        manifest.write_text(
+            json.dumps(
+                {
+                    "schema_version": GRAPHICS_MANIFEST_VERSION,
+                    "source_sha256": source_sha,
+                    "replacements": [
+                        {
+                            "id": "annual-tax",
+                            "source_start_s": 2.0,
+                            "source_end_s": 6.0,
+                            "asset_path": self.asset.name,
+                            "asset_sha256": self.asset_sha,
+                            "timing_mode": "hold_last",
+                        }
+                    ],
+                }
+            ),
+            encoding="utf-8",
+        )
+        return manifest
+
+    def test_manifest_is_source_bound_and_partial_clip_keeps_asset_offset(self) -> None:
+        manifest_path = self._write_manifest()
+        loaded = load_visual_replacements(
+            manifest_path,
+            expected_source_sha256="a" * 64,
+            source_duration_s=10.0,
+        )
+        replacements = replacements_for_clip(loaded, 4.0, 10.0)
+        self.assertEqual(len(replacements), 1)
+        self.assertEqual(replacements[0]["clip_start_s"], 0.0)
+        self.assertEqual(replacements[0]["clip_end_s"], 2.0)
+        self.assertEqual(replacements[0]["asset_start_s"], 2.0)
+
+        with self.assertRaisesRegex(ManifestError, "different source"):
+            load_visual_replacements(
+                manifest_path,
+                expected_source_sha256="b" * 64,
+                source_duration_s=10.0,
+            )
+
+    def test_manifest_rejects_asset_checksum_changes(self) -> None:
+        manifest_path = self._write_manifest()
+        payload = json.loads(manifest_path.read_text(encoding="utf-8"))
+        payload["replacements"][0]["asset_sha256"] = "f" * 64
+        manifest_path.write_text(json.dumps(payload), encoding="utf-8")
+        with self.assertRaisesRegex(ManifestError, "checksum mismatch"):
+            load_visual_replacements(
+                manifest_path,
+                expected_source_sha256="a" * 64,
+                source_duration_s=10.0,
+            )
+
+
 class RenderIntegrationTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
@@ -331,7 +507,7 @@ class RenderIntegrationTests(unittest.TestCase):
             metadata={"preset": "ultrafast", "crf": 32},
         )
         self.assertEqual(manifest["status"], "verified")
-        self.assertEqual(manifest["version"], 2)
+        self.assertEqual(manifest["version"], 3)
         self.assertRegex(manifest["input_fingerprint"], r"^[0-9a-f]{64}$")
         self.assertTrue(manifest["qa"]["passed"])
         media = manifest["qa"]["media"]
@@ -410,6 +586,122 @@ class RenderIntegrationTests(unittest.TestCase):
         self.assertEqual(manifest["status"], "verified")
         self.assertEqual(manifest["segment_count"], 2)
         self.assertTrue(manifest["qa"]["passed"])
+
+    def test_vertical_replacement_holds_last_frame_and_preserves_source_audio(self) -> None:
+        source = self.root / "replacement-source.mp4"
+        blue_asset = self.root / "replacement-blue.mp4"
+        green_asset = self.root / "replacement-green.mp4"
+        output = self.root / "replacement-delivery.mp4"
+        manifest_path = self.root / "visual-replacements.json"
+        _make_color_source(source, color="red")
+        _make_vertical_asset(blue_asset, color="blue", duration_s=1.0)
+        _make_vertical_asset(green_asset, color="green", duration_s=1.0)
+        source_sha = sha256_file(source)
+        blue_sha = sha256_file(blue_asset)
+        green_sha = sha256_file(green_asset)
+        manifest_path.write_text(
+            json.dumps(
+                {
+                    "schema_version": GRAPHICS_MANIFEST_VERSION,
+                    "source_sha256": source_sha,
+                    "replacements": [
+                        {
+                            "id": "blue-card",
+                            "source_start_s": 2.0,
+                            "source_end_s": 4.0,
+                            "asset_path": blue_asset.name,
+                            "asset_sha256": blue_sha,
+                            "timing_mode": "hold_last",
+                        },
+                        {
+                            "id": "green-card",
+                            "source_start_s": 4.0,
+                            "source_end_s": 6.0,
+                            "asset_path": green_asset.name,
+                            "asset_sha256": green_sha,
+                            "timing_mode": "hold_last",
+                        }
+                    ],
+                }
+            ),
+            encoding="utf-8",
+        )
+        loaded = load_visual_replacements(
+            manifest_path,
+            expected_source_sha256=source_sha,
+            source_duration_s=10.4,
+        )
+        replacements = replacements_for_clip(loaded, 0.0, 10.2)
+        words = [
+            {
+                "word": f"graphic{index}",
+                "start": index * 0.40,
+                "end": index * 0.40 + 0.32,
+            }
+            for index in range(24)
+        ]
+        metadata = {
+            "preset": "ultrafast",
+            "crf": 32,
+            "source_sha256": source_sha,
+            "visual_replacements": replacements,
+        }
+        rendered = render_clip(
+            source,
+            output,
+            0.0,
+            10.2,
+            words=words,
+            mode="center_crop",
+            metadata=metadata,
+        )
+
+        self.assertEqual(rendered["status"], "verified")
+        self.assertEqual(rendered["version"], 3)
+        self.assertEqual(rendered["visual_replacements"]["replacement_count"], 2)
+        self.assertTrue(rendered["qa"]["passed"])
+        self.assertEqual(rendered["qa"]["media"]["audio_codec"], "aac")
+        self.assertIsNotNone(rendered["qa"]["sidecars"]["graphics"])
+        self.assertNotEqual(
+            rendered["input_fingerprint"],
+            render_input_fingerprint(
+                source,
+                0.0,
+                10.2,
+                words,
+                "center_crop",
+                {"preset": "ultrafast", "crf": 32, "source_sha256": source_sha},
+            ),
+        )
+
+        before = _sample_rgb(output, 1.0)
+        blue_held = _sample_rgb(output, 3.0)
+        green_held = _sample_rgb(output, 5.0)
+        after = _sample_rgb(output, 7.0)
+        self.assertGreater(before[0], before[2] + 100)
+        self.assertGreater(blue_held[2], blue_held[0] + 100)
+        self.assertGreater(green_held[1], green_held[0] + 40)
+        self.assertGreater(green_held[1], green_held[2] + 40)
+        self.assertGreater(after[0], after[2] + 100)
+
+        graphics_path = Path(rendered["sidecars"]["graphics"])
+        graphics_plan = json.loads(graphics_path.read_text(encoding="utf-8"))
+        graphics_plan["replacements"][0]["asset_sha256"] = "f" * 64
+        graphics_path.write_text(json.dumps(graphics_plan), encoding="utf-8")
+        failed = verify_render(
+            output,
+            10.2,
+            rendered["sha256"],
+            captions_path=rendered["sidecars"]["captions"],
+            crop_track_path=rendered["sidecars"]["crop_track"],
+            graphics_plan_path=graphics_path,
+            checksum_path=rendered["sidecars"]["checksum"],
+        )
+        self.assertFalse(failed["passed"])
+        self.assertTrue(
+            any("asset checksum" in error for error in failed["errors"]),
+            failed["errors"],
+        )
 
     def test_short_source_audio_is_padded_to_exact_video_span(self) -> None:
         source = self.root / "short-audio-source.mp4"
