@@ -15,8 +15,8 @@ Early-comment velocity + fast creator replies in the first 24h are a real algori
 **1. "Temple or Georgetown for [my situation]?"**
 > Depends on two things: how much the 55+ resort lifestyle matters to you, and where your family is. If you want Sun City's setup, Georgetown. If it's healthcare + cost + being near family, Temple usually wins. Happy to talk through your specifics — text me at 254-718-4249.
 
-**2. "How does the over-65 tax freeze / transfer actually work?"**
-> Short version: school taxes freeze at 65 on your homestead, and the freeze can transfer to your next Texas home — but it's proportional and there's a filing deadline. I lay out the certificate and the deadline in the written guide (linked in the description). Confirm the specifics with your county appraisal district — I'm an agent, not a tax advisor.
+**2. "How does the over-65 school-tax ceiling / transfer actually work?"**
+> Short version: a qualifying homestead gets a ceiling on the school-district tax bill. When you move to another Texas homestead, a percentage of the ceiling can transfer; it is not a blanket freeze on the entire property-tax bill. I link the official certificate in the written guide. Confirm eligibility, timing, and local-option rules with the appraisal district—I'm an agent, not a tax advisor.
 
 **3. "What about [other town] — Belton / Salado / Killeen?"**
 > Good question — each trades off differently (price, healthcare distance, lot size). Salado's the upscale option past ~$500K; Belton's got the lake. Tell me your budget and must-haves and I'll point you straight. 254-718-4249.
@@ -30,6 +30,6 @@ Early-comment velocity + fast creator replies in the first 24h are a real algori
 ---
 
 ## Guardrails
-- Never fully answer the tax-freeze mechanics in a comment — send to the guide (protects the page CTA + avoids giving tax advice).
+- Never overstate the school-tax-ceiling mechanics in a comment—send to the guide and official appraisal-district/Comptroller sources.
 - No dollar-volume credential in replies.
 - These are drafts/guidance — Taylor posts. Do not auto-post.

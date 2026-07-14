@@ -1,3 +1,7 @@
+> **ARCHIVED PRODUCTION SOURCE - DO NOT REUSE AS CURRENT COPY**
+>
+> This source produced the video published as `39Y6UpSFqu0` on 2026-06-30. Its market snapshot, public naming, school language, title concepts, and description are superseded. Use `POST-PUBLISH-OPTIMIZATION-2026-07-13.md` for current packaging and metadata. Use the July production bibles for new scripts.
+
 # Where to ACTUALLY Live Near Fort Cavazos (Fort Hood) in 2026 — 5 Cities Compared
 
 **Channel:** Living In Temple, TX | Taylor Dasch

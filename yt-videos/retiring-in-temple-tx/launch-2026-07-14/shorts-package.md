@@ -44,14 +44,14 @@
 
 ---
 
-## BONUS SHORT 4 — "The over-65 tax freeze trap" *(hold for week 2)*
-- **Source clip:** ~3:05–3:43 (tax freeze + transfer).
-- **YT Shorts title:** `Texas over-65 property tax freeze: the trap when you move #shorts`
-- **Hook (0–2s):** "Texas freezes your school taxes at 65 — but most people lose it when they move."
+## BONUS SHORT 4 — "The over-65 school-tax ceiling" *(hold for week 2)*
+- **Source clip:** ~3:05–3:43 (school-tax ceiling + transfer).
+- **YT Shorts title:** `Texas over-65 school-tax ceiling: what happens when you move #shorts`
+- **Hook (0–2s):** "Texas can cap your school-tax bill after 65 — but the transfer is proportional when you move."
 - **Script (~40s):**
-  "At 65, your school taxes on your homestead freeze — they stay put even as the home value climbs. Here's the part almost everyone misses: that freeze can transfer to your next home. But it's proportional, not dollar-for-dollar, and there's a filing deadline. Move and forget to file the certificate the year you move, and you can lose the benefit entirely. Don't trust a 40-second video for the exact form — get with the county appraisal district. I break down the certificate and the deadline in the written guide."
+  "If you qualify at 65, your school-district tax bill gets a ceiling. When you move to another Texas homestead, a percentage of that ceiling may transfer—it is not a dollar-for-dollar freeze on your entire property-tax bill. Ask the appraisal district about the certificate and timing for your situation. I break down the official form and process in the written guide."
 - **On-screen text beats:** `School taxes freeze at 65` / `Transfers — but proportional` / `Filing deadline = don't miss it` / `Full guide → link`
-- **Caption:** The Texas over-65 school tax freeze is real money — and most people lose part of it when they move because the transfer is proportional and time-sensitive. The how-to is in the written breakdown. Not tax advice — confirm with your county appraisal district. — Taylor Dasch, EG Realty
+- **Caption:** The Texas over-65 school-tax ceiling can materially affect the school-district portion of a homestead bill. A move uses a proportional transfer process; it is not a blanket freeze on every property-tax line. Confirm eligibility, forms, and timing with the appraisal district. — Taylor Dasch, EG Realty
 - **Hashtags:** `#TexasTaxes #RetireInTexas #TempleTX` · `#propertytax #over65 #CentralTexas` · `#texasretirement #homestead`
 - **CTA:** "Comment or text for the written guide — link in comments." (Don't name the form number in the Short; send them to the page where Form 50-272 is detailed.)
 

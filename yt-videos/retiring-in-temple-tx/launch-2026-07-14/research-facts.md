@@ -31,8 +31,9 @@ This sheet locks every number the description, thumbnail, Shorts, page embed, an
 ## 3. Tax claims — VERIFIED / form correction
 
 - **No Texas state income tax** (Social Security, 401k, pension): ✓ True.
-- **Over-65 school tax freeze (ceiling) on homestead at 65, frozen even as value rises:** ✓ True (Texas Tax Code §11.26).
-- **Freeze TRANSFERS to next home, proportional (not dollar-for-dollar), with a filing deadline:** ✓ True. ⚠️ **The correct certificate is Form 50-272 (Request for School Tax Ceiling Certificate, Age 65+).** The video deliberately says "don't trust this video for the exact form — get with the county appraisal district" — good, keep that disclaimer. In the WRITTEN breakdown we CAN name Form 50-272 (already corrected on the live hub per `project_retiree_lane_temple.md`). **Do NOT cite Form 50-132 — that's the Notice of Protest, a known prior error.**
+- **Over-65 school-district tax ceiling on a qualifying homestead:** ✓ True (Texas Tax Code §11.26). This is not a blanket freeze on the entire property-tax bill.
+- **A percentage of the ceiling can transfer to a subsequent Texas homestead:** ✓ True. ⚠️ **The correct certificate is Form 50-272 (School Tax Ceiling Certificate for Homeowner Age 65 or Older, Disabled or Surviving Spouse Age 55 or Older).** Eligibility, local-option rules, and timing must be confirmed with the appraisal district. **Do NOT cite Form 50-132 — that's the Notice of Protest, a known prior error.**
+- **Current statewide school-district exemptions:** the Texas Comptroller lists a $140,000 general residence-homestead exemption plus an additional $60,000 exemption for a qualifying owner age 65 or older or disabled. Any page table, FAQ, or schema still showing $100,000 + $10,000 is stale and must be recalculated before launch.
 
 ---
 

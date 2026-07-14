@@ -15,7 +15,7 @@ Two numbers that frame the whole decision (June 2026 MLS):
 
 The honest catch: Temple has no Sun City-style 55+ resort community. If that lifestyle is your picture, Georgetown is the better call — and I'd rather you hear that now.
 
-Full breakdown (over-65 tax freeze, retiree neighborhoods, the healthcare picture):
+Full breakdown (over-65 school-tax ceiling, housing criteria, and the healthcare picture):
 https://templetxhomes.net/retiring-in-temple-tx/?utm_source=gbp&utm_medium=post&utm_campaign=retiring-in-temple-tx
 
 Verify current figures before deciding. Call or text 254-718-4249.

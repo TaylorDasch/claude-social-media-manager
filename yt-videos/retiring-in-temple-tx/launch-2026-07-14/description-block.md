@@ -19,11 +19,11 @@
 
 Thinking about retiring in Temple, TX? Here's the honest breakdown most Texas retirement guides skip — why people quietly choose Temple over Georgetown's Sun City, and the one real reason you still might pick Georgetown.
 
-I'm Taylor Dasch with EG Realty — ranked #28 of 2,013 Bell County agents (top 1.4%) across 100+ closings, and I work with retirees and downsizers most weeks of the year. This isn't a brochure for Temple. It's the real picture: the healthcare, the over-65 tax freeze, the cost-of-living math, and exactly who should NOT retire here.
+I'm Taylor Dasch with EG Realty — ranked #28 of 2,013 Bell County agents (top 1.4%) across 100+ closings, and I work with retirees and downsizers most weeks of the year. This isn't a brochure for Temple. It's the real picture: the healthcare, the over-65 school-tax ceiling, the cost-of-living math, and exactly who should NOT retire here.
 
 The short version: Temple has one of the strongest healthcare-to-cost combinations in Central Texas — a Level I trauma center and a full VA hospital in a midsize city where the median home runs around $275K, versus about $455K in Georgetown. The catch: Temple has no Sun City-style 55+ resort community. If that lifestyle is your picture, Georgetown is the better call — and I'd rather you hear that from me now.
 
-📍 FULL WRITTEN RETIREMENT BREAKDOWN (over-65 tax-freeze details + the transfer trap, retiree neighborhoods, the healthcare picture):
+📍 FULL WRITTEN RETIREMENT BREAKDOWN (over-65 school-tax-ceiling details + the transfer process, housing criteria, and the healthcare picture):
 https://templetxhomes.net/retiring-in-temple-tx/?utm_source=youtube&utm_medium=description&utm_campaign=retiring-in-temple-tx
 
 ⏱️ CHAPTERS
@@ -31,7 +31,7 @@ https://templetxhomes.net/retiring-in-temple-tx/?utm_source=youtube&utm_medium=d
 0:39 The thesis: healthcare-to-cost
 1:09 Healthcare: the Level I trauma advantage
 2:05 The VA hospital + dual access
-2:38 Taxes: no income tax + the over-65 freeze
+2:38 Taxes: no income tax + the over-65 school-tax ceiling
 3:43 Temple ~$275K vs Georgetown ~$455K
 4:55 What retirees actually buy
 5:36 Neighborhoods: Bella Terra, Lake Pointe, Three Creeks, Canyon Creek
@@ -54,13 +54,13 @@ Taylor Dasch | EG Realty | Temple, TX | templetxhomes.net
 
 ## 🏷️ TAGS (copy into the YouTube tags field)
 
-retiring in temple tx, temple tx vs georgetown, best places to retire in texas, retire in central texas, temple texas retirement, georgetown tx vs temple tx, over 65 property tax freeze texas, temple tx cost of living, baylor scott and white temple, living in temple tx, moving to temple texas, central texas retirement, temple tx real estate, salado texas homes, downsizing in temple tx
+retiring in temple tx, temple tx vs georgetown, best places to retire in texas, retire in central texas, temple texas retirement, georgetown tx vs temple tx, over 65 school tax ceiling texas, temple tx cost of living, baylor scott white temple, living in temple tx, moving to temple texas, central texas retirement, temple tx real estate, salado texas homes, downsizing in temple tx
 
 ---
 
 ## 📌 PINNED FIRST COMMENT (post immediately after upload, then pin)
 
-The full written breakdown — the over-65 school-tax-freeze details (and the transfer trap most people miss), the retiree neighborhoods, and the honest healthcare picture — is here:
+The full written breakdown — the over-65 school-tax-ceiling details (and the proportional transfer process), housing criteria, and the honest healthcare picture — is here:
 https://templetxhomes.net/retiring-in-temple-tx/?utm_source=youtube&utm_medium=description&utm_campaign=retiring-in-temple-tx
 
 And if you want to talk through whether Temple actually fits YOUR situation — healthcare needs, budget, where your family is — call or text me at 254-718-4249. I answer. — Taylor

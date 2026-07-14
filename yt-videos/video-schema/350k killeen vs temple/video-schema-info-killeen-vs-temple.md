@@ -1,3 +1,7 @@
+> **ARCHIVED PUBLISHED RECORD - SUPPORTING VIDEO ONLY**
+>
+> This 2026-02-03 upload remains public, but its packaging, description, transcript claims, and page assignment are not current source copy. The replacement relocation pillar is at `/Users/taylordasch_1/claude-video/production-bibles/2026-07_killeen-vs-temple-pillar/PRODUCTION-BIBLE.md`. Keep this video as a price-tour card on `/temple-vs-killeen/` after the new pillar becomes the primary embed.
+
 [https://youtu.be/30qMJW6SRBw](https://youtu.be/30qMJW6SRBw)  
 Killeen vs Temple TX: What $350K Buys You in 2026 (Side-by-Side Tour)  
 Length: 5:53  

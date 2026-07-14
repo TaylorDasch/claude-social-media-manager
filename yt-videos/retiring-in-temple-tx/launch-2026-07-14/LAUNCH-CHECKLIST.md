@@ -7,6 +7,9 @@ Legend: 🟢 autonomous (Claude can do / technical) · 🟡 GATED (needs Taylor'
 
 ### T-minus (before July 14)
 - [ ] ⚪ Confirm the final cut matches the captioned SRT runtime (~10:12) and the chapter timestamps in `chapters.txt`.
+- [ ] ⚪ **FACT CHECK — stop-ship:** replace or visibly correct “your taxes are frozen” at ~3:33. The Texas over-65 benefit is a school-district tax ceiling, not a freeze on the entire property-tax bill.
+- [ ] ⚪ **CAPTION CHECK — stop-ship:** use **Olin E. Teague Veterans' Medical Center** and **Salado**; remove “Allen E. Teague” and “Selah.”
+- [ ] ⚪ **FAIR-HOUSING CHECK — stop-ship:** recaption/remove “alongside a lot of other retirees” and “Salado is great for retirees.” Describe housing, price, access, and amenities instead of resident demographics.
 - [x] ✅ Title SET: **"Retiring in Temple TX: The Honest Georgetown Alternative"** — video scheduled July 14 (ID `lgupQUgJcvo`). Locked; don't A/B below ~1k impressions.
 - [ ] ⚪ Send Concept-1 thumbnail to **Pikzels** using the prompt in `thumbnail-brief.md` + Taylor's headshot as face reference. (Backup: Concept 3.)
 - [ ] 🟢 Generate the social Shorts cuts (4 scripts ready in `shorts-package.md`) — stage in Postiz as drafts.
@@ -26,6 +29,8 @@ Legend: 🟢 autonomous (Claude can do / technical) · 🟡 GATED (needs Taylor'
 - [x] ✅ `video-embed-and-schema.html` + `comparison-h2-block.html` wired with ID `lgupQUgJcvo` — ready.
 - [ ] 🟢 Insert the `<section>` + VideoObject schema into the live hub `/retiring-in-temple-tx/` (page 2812), above the AI Answer Box. (See `amplify-spec.md`.)
 - [ ] 🟢 Do the July-2026 data refresh on the hub (medians, Form 50-272, "Olin E. Teague," Updated: July 2026 stamp).
+- [ ] 🟢 **Recalculate every tax example, table, FAQ, and FAQ schema entry** using the current statewide school exemptions: $140,000 general residence homestead + $60,000 additional age-65-or-older/disabled exemption. Remove the stale $100,000 + $10,000 figures.
+- [ ] 🟢 Update SEO metadata to use **school-tax ceiling**, not a blanket **tax freeze**, and reframe the safety H2 around objective safety/emergency-access evaluation.
 - [ ] 🟢 Deploy via `tools/rocket_publish.py`, then run `tools/contrast_fix.py audit` — must NOT flag the page BROKEN.
 - [ ] 🟢 Verify the live page: video renders, link in description resolves, UTM intact. **Claude will give a go/no-go at deploy time.**
 
