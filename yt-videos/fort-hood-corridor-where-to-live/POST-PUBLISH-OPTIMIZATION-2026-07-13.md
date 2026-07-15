@@ -5,13 +5,15 @@
 **Length:** 18:08
 **Review date:** 2026-07-13
 **Decision:** FIX PACKAGING FIRST - do not reshoot yet
-**External status:** draft only; no YouTube changes applied
+**External status:** military title updated and verified in YouTube Studio on 2026-07-14; thumbnail replacement remains pending.
+
+**Current public title:** `PCS to Fort Hood (2026): 6 Towns Compared by BAH & Commute`
 
 ## 1. What Is Already Done
 
 This is the completed version of the requested "PCS to Fort Hood" corridor concept. It compares six towns, covers BAH and commute logic, and points viewers toward the PCS guide and calculators.
 
-Current public title:
+Previous public title, retained for rollback history:
 
 > PCS to Fort Hood: Don't Move Here Until You Watch This
 

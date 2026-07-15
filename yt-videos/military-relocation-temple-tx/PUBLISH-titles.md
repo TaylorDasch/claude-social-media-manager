@@ -1,5 +1,13 @@
 # Fort Hood PCS Video — FINAL Titles (publish package)
 
+## Live update — 2026-07-14
+
+YouTube title changed and verified in Studio:
+
+**`PCS to Fort Hood (2026): 6 Towns Compared by BAH & Commute`**
+
+This preserves the indexed `PCS to Fort Hood` phrase, makes the six-town payoff explicit, and aligns the title with neutral decision criteria rather than winner/loser framing. Hold this title while testing the two thumbnails in `PIKZELS-RETITLE-2026-07-14.md`.
+
 > Supersedes `titles-thumbnails.md` (council draft, pre-final-cut). Built 2026-06-30 from the finished video + live vidiq title scoring + DataForSEO search volume. vidiq scores are relative (long-form, no channelId), but the spread is decisive.
 
 ## The data behind the pick
