@@ -513,3 +513,9 @@ Mark `generate_lead`, `bah_calc_result`, and `calendly_click` as key events. CRM
 - BAH-calc retitle → after the 7-day window (clean CTR measurement on its 4,197 impressions).
 - Title switch + intro trim → day-9 / day-14 gates.
 - Shorts #1–3, community posts, Temple Insider draft, GBP draft → amplification calendar (sends gated).
+
+### Pre-reset baseline logged (Studio via Codex, window Jul 14–16 = new title + DEFECTIVE thumbnail era)
+- 87 impressions (~29/day) · **CTR 6.9%** (~6 clicks — noise-level n, but up from 3.71% lifetime under the old title) · 10 views · unique viewers 7 (2 days still processing)
+- By source (impressions / CTR / AVD): Suggested 34 / 8.8% / **8:59** · Search 25 / 4.0% / 0:24 · Browse 19 / 5.3% / 1:02 · Channel pages 9 / 11.1% / 18:38. Search terms report: insufficient traffic. External + Direct not shown.
+- End screens: 0 clicks / 0.0% (window predates the July 16 end-screen setup). Watch time 94.2% non-subscribed.
+- **Reading:** Suggested remains the quality channel (8:59 AVD) and search clicks still bounce (0:24) — consistent with the diagnosis. CTR is already above the 6% "strong" bar but the sample is 1/11th of the 1,000-impression minimum. **Impressions velocity is the binding constraint:** at ~29/day the 7-day window lands ~200 impressions, far under the gate. Unless the corrected thumbnail + amplification lift velocity ~5x, the day-9 call will fall in the pre-committed "<1,000 impressions → do NOT churn the title; feed Suggested (Shorts, cards, playlist, sibling videos)" branch. Day-9 pull (Jul 17–23 window) decides.
