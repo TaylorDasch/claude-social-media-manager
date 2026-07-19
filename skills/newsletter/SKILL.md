@@ -1,5 +1,22 @@
 # Skill: Newsletter (`/newsletter`)
 
+## Chat-First Newsletter Desk
+
+Taylor does not work in a newsletter designer. The default operating surface is the current Codex conversation plus `newsletter/README.md` and `scripts/newsletter_desk.py`.
+
+Run one Thursday newsletter each week, alternating audiences so each publication remains biweekly:
+
+- Week A: Temple Insider (buyers/relocators only)
+- Week B: Investor Brief (investors only)
+
+The weekly sequence is: inspect prior send and audience due -> talk through the issue with Taylor -> write -> build local preview -> validate contacts and recipient count -> Taylor approves the content -> stage in Beehiiv -> Taylor performs the final send step. Beehiiv remains the delivery system for unsubscribe state, bounces, and analytics. Never use Gmail BCC as the mass-newsletter engine.
+
+Contacts must pass `newsletter_desk.py contacts validate`. Active contacts require an audience, `consent_status=subscribed`, a consent source, and an ISO consent date. Never reactivate an existing unsubscribe. Private contact files stay under the gitignored `newsletter/private/` folder.
+
+Issue drafts use the frontmatter format in `newsletter/issues/weekly.template.md`. Build the preview with `newsletter_desk.py issue build`. The generated manifest must remain `NOT_SENT` until the Beehiiv delivery is independently verified.
+
+This workflow inherits every gate in `governance/QUALITY-GATES.md`, `governance/FACT-HANDLING.md`, `governance/DEFINITION-OF-DONE.md`, and `governance/WORKFLOW-STATE-MACHINE.md`. Gate 11 remains hard: no auto-send and no publish as a side effect of drafting or importing contacts.
+
 ## Trigger
 User says: "newsletter", "temple insider", "investor brief", "write the brief", "next issue", "newsletter draft"
 

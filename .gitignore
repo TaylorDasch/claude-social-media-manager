@@ -9,6 +9,12 @@ node_modules/
 .venv/
 venv/
 
+# Newsletter Desk — local contact data and generated import payloads contain PII
+newsletter/private/
+newsletter/*.contacts.csv
+newsletter/*-contacts.csv
+newsletter/*payload*.json
+
 # Third-party plugin (has its own origin)
 claude-seo/
 
