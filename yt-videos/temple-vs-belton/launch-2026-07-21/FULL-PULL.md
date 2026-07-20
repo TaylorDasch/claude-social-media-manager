@@ -7,8 +7,9 @@ Decision: which address profile best fits commute, total tax bill, school-zone r
 
 ## Stop-ship before launch
 
-- Remove or replace the line near 9:02: “pick Belton if your priority is the school rating.” Use: “If a specific school zone matters, verify the exact campus for the address.”
-- Confirm the scheduled export is the reviewed 10:11–10:12 cut before applying the chapters below.
+- **School-line edit complete in the current YouTube Studio upload.** Taylor confirmed on 2026-07-19 that the uploaded cut is already in the next section at 8:58 and does not contain the deleted school-rating line.
+- Treat the current YouTube Studio upload as the launch master. Do **not** replace it with `/Users/taylordasch_1/Downloads/temple-vs-belton-yt/temple-vs-belton-yt.mp4` or the adjacent `.srt`; those local artifacts are stale and still contain the deleted line.
+- Confirm the Studio runtime and re-stamp the chapters against the uploaded cut before publishing.
 - Do not publish a thumbnail that repeats “Temple vs Belton.” The title already does that job.
 - Review and approve the two existing Short renders; both are currently `awaiting_review`, not approved.
 
@@ -20,10 +21,14 @@ Title:
 
 Thumbnail:
 
-`SAME HOUSE`  
-`$3K TAX GAP`
+`$1,035`  
+`TAX TRAP?`
 
-Visual: clean split-city frame, Taylor at the seam, one house-price cue. No winner/loser checks, school ratings, or redundant title text.
+Primary upload-ready asset: `/Users/taylordasch_1/claude-social-media-manager/yt-videos/temple-vs-belton/launch-2026-07-21/thumbnail/temple-vs-belton-1035-tax-trap-pikzels.jpg`
+
+Visual: Pikzels-style warning composition with Taylor large at left, the exact annual-bill difference dominating the frame, matched Central Texas houses in Temple-green and Belton-amber light, and one red tax-receipt cue. The `$1,035` figure is the exact difference between the video's `$6,450` and `$5,415` city examples. The question mark keeps the promise address-specific rather than declaring a universal city winner. No school ratings or redundant city names.
+
+Fallback test only: `/Users/taylordasch_1/claude-social-media-manager/yt-videos/temple-vs-belton/launch-2026-07-21/thumbnail/temple-vs-belton-same-house-1035-more.jpg`
 
 Description:
 
@@ -143,4 +148,3 @@ FUB:
 - 30-second retention under 60% → opening failed; 70%+ → opening landed.
 - Day 7: AVD, taxes/MUD/school-map transition drops, end-screen CTR, cost-sheet requests.
 - Day 30: search growth, watch time, calls/texts, forms, and qualified parcel requests—not views alone.
-

@@ -1,0 +1,918 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Temple Investor Desk - Premium Tech Brief</title>
+  <style type="text/css">
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #080b0f;
+      color: #f3f6f8;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      font-feature-settings: "ss01";
+    }
+    a { color: inherit; }
+    .internal-panel {
+      width: 100%;
+      max-width: 800px;
+      margin: 22px auto 14px;
+      padding: 17px 20px;
+      background: #eef4f6;
+      border: 1px solid #86a7ac;
+      color: #25383b;
+      font-size: 12px;
+      line-height: 1.55;
+    }
+    .internal-panel strong {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 10px;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+    }
+    .source-key { margin-top: 9px; }
+    .source-tag {
+      display: inline-block;
+      margin: 4px 5px 0 0;
+      padding: 4px 7px;
+      border: 1px solid currentColor;
+      border-radius: 3px;
+      font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+      font-size: 8px;
+      font-weight: 700;
+      letter-spacing: .08em;
+      line-height: 1;
+      text-transform: uppercase;
+    }
+    .tag-mls { color: #28705f; }
+    .tag-taylor { color: #8e6527; }
+    .tag-codex { color: #465fc5; }
+    .email-shell {
+      width: 100%;
+      max-width: 680px;
+      margin: 0 auto 54px;
+      overflow: hidden;
+      background: #0c1015;
+      border: 1px solid #2a3440;
+    }
+    .signal-line {
+      height: 3px;
+      background: #6f86ff;
+    }
+    .status-bar {
+      padding: 11px 25px;
+      background: #11161d;
+      border-bottom: 1px solid #2a3440;
+      color: #95a2b0;
+      font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+      font-size: 8px;
+      letter-spacing: .11em;
+      line-height: 1.5;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    .status-live { color: #73e2c0; }
+    .masthead {
+      padding: 25px 27px;
+      background: #0c1015;
+      border-bottom: 1px solid #2a3440;
+    }
+    .masthead-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .masthead-table td { vertical-align: middle; }
+    .brand-mark { width: 48px; }
+    .brand-chip {
+      display: block;
+      width: 40px;
+      height: 40px;
+      padding-top: 12px;
+      background: #6f86ff;
+      border-radius: 8px;
+      color: #ffffff;
+      font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+      font-size: 12px;
+      font-weight: 700;
+      text-align: center;
+    }
+    .brand-kicker {
+      margin: 0 0 5px;
+      color: #7f8b97;
+      font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+      font-size: 8px;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+    }
+    .brand-title {
+      margin: 0;
+      font-size: 22px;
+      font-weight: 600;
+      letter-spacing: -.035em;
+      line-height: 1;
+    }
+    .issue-meta {
+      width: 122px;
+      color: #86929e;
+      font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+      font-size: 8px;
+      letter-spacing: .05em;
+      line-height: 1.55;
+      text-align: right;
+      text-transform: uppercase;
+    }
+    .hero {
+      padding: 46px 31px 37px;
+      background: #0c1015;
+    }
+    .hero-badge {
+      display: inline-block;
+      margin-bottom: 19px;
+      padding: 5px 9px;
+      background: #151c24;
+      border: 1px solid #344150;
+      border-radius: 999px;
+      color: #73e2c0;
+      font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+      font-size: 8px;
+      font-weight: 700;
+      letter-spacing: .09em;
+      text-transform: uppercase;
+    }
+    .hero h1 {
+      margin: 0;
+      max-width: 570px;
+      color: #f5f7f9;
+      font-size: 44px;
+      font-weight: 600;
+      letter-spacing: -.052em;
+      line-height: 1.02;
+    }
+    .hero-copy {
+      max-width: 550px;
+      margin: 19px 0 0;
+      color: #a7b1bc;
+      font-size: 15px;
+      letter-spacing: -.01em;
+      line-height: 1.62;
+    }
+    .hero-copy strong { color: #e8ecef; }
+    .run-meta {
+      width: 100%;
+      margin-top: 26px;
+      border-collapse: collapse;
+      table-layout: fixed;
+      border-top: 1px solid #28323d;
+      border-bottom: 1px solid #28323d;
+    }
+    .run-meta td {
+      width: 33.333%;
+      padding: 13px 10px 13px 0;
+      color: #7f8b97;
+      font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+      font-size: 8px;
+      letter-spacing: .05em;
+      line-height: 1.5;
+      text-transform: uppercase;
+      vertical-align: top;
+    }
+    .run-meta td + td { padding-left: 10px; border-left: 1px solid #28323d; }
+    .run-value {
+      display: block;
+      margin-top: 4px;
+      color: #e9edf0;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+    .desk-signal {
+      margin: 0 27px 30px;
+      padding: 22px 22px 21px;
+      background: #141a22;
+      border: 1px solid #2b3744;
+      border-radius: 10px;
+    }
+    .desk-signal-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .desk-signal-table td { vertical-align: top; }
+    .signal-icon {
+      width: 33px;
+      padding-top: 2px;
+      color: #73e2c0;
+      font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+      font-size: 14px;
+    }
+    .micro-label {
+      display: block;
+      margin-bottom: 7px;
+      color: #7f8b97;
+      font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+      font-size: 8px;
+      font-weight: 700;
+      letter-spacing: .11em;
+      text-transform: uppercase;
+    }
+    .signal-headline {
+      margin: 0 0 8px;
+      color: #f1f4f6;
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: -.025em;
+      line-height: 1.24;
+    }
+    .signal-copy {
+      margin: 0;
+      color: #99a5b1;
+      font-size: 12px;
+      line-height: 1.58;
+    }
+    .section {
+      padding: 39px 27px;
+      border-top: 1px solid #242e39;
+    }
+    .section-header {
+      width: 100%;
+      margin-bottom: 22px;
+      border-collapse: collapse;
+    }
+    .section-header td { vertical-align: top; }
+    .section-code {
+      width: 45px;
+      padding-top: 3px;
+      color: #6f86ff;
+      font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+      font-size: 9px;
+      font-weight: 700;
+    }
+    .section-eyebrow {
+      margin: 0 0 7px;
+      color: #73e2c0;
+      font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+      font-size: 8px;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    .section-title {
+      margin: 0;
+      color: #f3f6f8;
+      font-size: 28px;
+      font-weight: 600;
+      letter-spacing: -.04em;
+      line-height: 1.12;
+    }
+    .section-intro {
+      margin: -7px 0 22px 45px;
+      color: #939fac;
+      font-size: 13px;
+      line-height: 1.62;
+    }
+    .short-card {
+      margin-top: 10px;
+      padding: 20px;
+      background: #121820;
+      border: 1px solid #293542;
+      border-radius: 9px;
+    }
+    .short-card:first-of-type { margin-top: 0; }
+    .short-top {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .short-top td { vertical-align: top; }
+    .short-class {
+      display: block;
+      margin-bottom: 6px;
+      color: #7f8b97;
+      font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+      font-size: 8px;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+    .short-property {
+      color: #f0f3f5;
+      font-size: 17px;
+      font-weight: 600;
+      letter-spacing: -.02em;
+      line-height: 1.25;
+    }
+    .short-price {
+      width: 110px;
+      color: #f0f3f5;
+      font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+      font-feature-settings: "tnum";
+      font-size: 16px;
+      font-weight: 700;
+      text-align: right;
+    }
+    .short-thesis {
+      margin: 12px 0 13px;
+      color: #a0abb6;
+      font-size: 12px;
+      line-height: 1.58;
+    }
+    .short-bottom {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .short-bottom td {
+      padding-top: 12px;
+      border-top: 1px solid #2a3440;
+      color: #84919d;
+      font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+      font-size: 8px;
+      line-height: 1.5;
+      vertical-align: top;
+    }
+    .short-bottom td:last-child { text-align: right; }
+    .risk-text { color: #dda0a0; }
+    .status-pill {
+      display: inline-block;
+      padding: 4px 7px;
+      background: #173128;
+      border: 1px solid #2b6d59;
+      border-radius: 999px;
+      color: #85e5c7;
+      font-size: 8px;
+      font-weight: 700;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+    }
+    .deal-section {
+      padding: 40px 27px;
+      background: #0f141a;
+      border-top: 1px solid #2a3440;
+    }
+    .deal-head {
+      width: 100%;
+      margin-bottom: 20px;
+      border-collapse: collapse;
+    }
+    .deal-head td { vertical-align: top; }
+    .deal-index {
+      width: 42px;
+      color: #6f86ff;
+      font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+      font-size: 9px;
+      font-weight: 700;
+    }
+    .deal-class {
+      margin: 0 0 6px;
+      color: #73e2c0;
+      font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+      font-size: 8px;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    .deal-title {
+      margin: 0;
+      color: #f4f6f8;
+      font-size: 27px;
+      font-weight: 600;
+      letter-spacing: -.04em;
+      line-height: 1.1;
+    }
+    .deal-price {
+      width: 120px;
+      padding-top: 14px;
+      color: #f4f6f8;
+      font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+      font-feature-settings: "tnum";
+      font-size: 21px;
+      font-weight: 700;
+      text-align: right;
+    }
+    .deal-status {
+      margin: 0 0 20px 42px;
+      color: #7f8b97;
+      font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+      font-size: 8px;
+      letter-spacing: .07em;
+      text-transform: uppercase;
+    }
+    .deal-status strong { color: #73e2c0; }
+    .metric-grid {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+      border: 1px solid #2a3440;
+      border-radius: 8px;
+    }
+    .metric-grid td {
+      width: 50%;
+      padding: 17px 16px;
+      background: #131920;
+      border-right: 1px solid #2a3440;
+      border-bottom: 1px solid #2a3440;
+      vertical-align: top;
+    }
+    .metric-grid td:last-child { border-right: 0; }
+    .metric-label {
+      display: block;
+      color: #76828e;
+      font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+      font-size: 8px;
+      font-weight: 700;
+      letter-spacing: .09em;
+      text-transform: uppercase;
+    }
+    .metric-value {
+      display: block;
+      margin: 7px 0 4px;
+      color: #edf1f4;
+      font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+      font-feature-settings: "tnum";
+      font-size: 21px;
+      font-weight: 700;
+      letter-spacing: -.03em;
+      line-height: 1;
+    }
+    .metric-note {
+      display: block;
+      color: #727f8b;
+      font-size: 9px;
+      line-height: 1.45;
+    }
+    .thesis-box {
+      margin-top: 17px;
+      padding: 19px 20px;
+      background: #151c24;
+      border-left: 3px solid #6f86ff;
+    }
+    .thesis-box p {
+      margin: 0;
+      color: #aab4be;
+      font-size: 13px;
+      line-height: 1.62;
+    }
+    .thesis-box strong { color: #f1f4f6; }
+    .assumption-table {
+      width: 100%;
+      margin-top: 17px;
+      border-collapse: collapse;
+    }
+    .assumption-table td {
+      padding: 12px 10px;
+      border-bottom: 1px solid #29343f;
+      color: #a0abb6;
+      font-size: 11px;
+      line-height: 1.55;
+      vertical-align: top;
+    }
+    .assumption-table td:first-child {
+      width: 125px;
+      padding-left: 0;
+      color: #74818e;
+      font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+      font-size: 8px;
+      font-weight: 700;
+      letter-spacing: .07em;
+      text-transform: uppercase;
+    }
+    .risk-panel {
+      margin-top: 17px;
+      padding: 17px 19px;
+      background: #21191b;
+      border: 1px solid #58363c;
+      border-radius: 7px;
+    }
+    .risk-label {
+      display: block;
+      margin-bottom: 7px;
+      color: #e4a2aa;
+      font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+      font-size: 8px;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+    .risk-panel p {
+      margin: 0;
+      color: #d5bfc2;
+      font-size: 12px;
+      line-height: 1.58;
+    }
+    .verify-row {
+      margin-top: 13px;
+      padding: 13px 16px;
+      background: #121820;
+      border: 1px solid #293542;
+      color: #9ba7b2;
+      font-size: 11px;
+      line-height: 1.55;
+    }
+    .verify-row strong {
+      color: #73e2c0;
+      font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+      font-size: 8px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    .portfolio-grid {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+      border-top: 1px solid #34404d;
+    }
+    .portfolio-grid td {
+      width: 33.333%;
+      padding: 19px 14px;
+      background: #121820;
+      border-right: 1px solid #2a3440;
+      border-bottom: 1px solid #2a3440;
+      vertical-align: top;
+    }
+    .portfolio-grid td:last-child { border-right: 0; }
+    .portfolio-class {
+      display: block;
+      margin-bottom: 9px;
+      color: #6f86ff;
+      font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+      font-size: 8px;
+      font-weight: 700;
+      letter-spacing: .09em;
+      text-transform: uppercase;
+    }
+    .portfolio-value {
+      display: block;
+      margin-bottom: 6px;
+      color: #eef2f4;
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 1.25;
+    }
+    .portfolio-copy {
+      color: #84919d;
+      font-size: 10px;
+      line-height: 1.52;
+    }
+    .condition-grid {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+    .condition-grid td {
+      width: 33.333%;
+      padding: 17px 14px;
+      background: #141a22;
+      border: 1px solid #2b3744;
+      vertical-align: top;
+    }
+    .condition-value {
+      display: block;
+      margin: 6px 0 5px;
+      color: #f0f3f5;
+      font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+      font-feature-settings: "tnum";
+      font-size: 18px;
+      font-weight: 700;
+    }
+    .condition-copy {
+      color: #7e8b97;
+      font-size: 9px;
+      line-height: 1.5;
+    }
+    .rotation-band {
+      padding: 34px 27px;
+      background: #151b25;
+      border-top: 1px solid #33404e;
+      border-bottom: 1px solid #33404e;
+    }
+    .rotation-kicker {
+      margin: 0 0 9px;
+      color: #73e2c0;
+      font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+      font-size: 8px;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    .rotation-band h2 {
+      margin: 0 0 12px;
+      color: #f1f4f6;
+      font-size: 26px;
+      font-weight: 600;
+      letter-spacing: -.035em;
+      line-height: 1.15;
+    }
+    .rotation-band p {
+      margin: 0;
+      color: #a1acb7;
+      font-size: 13px;
+      line-height: 1.62;
+    }
+    .desk-note {
+      padding: 38px 29px;
+      background: #f2f5f5;
+      color: #172126;
+    }
+    .desk-note-label {
+      margin: 0 0 15px;
+      color: #3d615a;
+      font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+      font-size: 8px;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    .desk-note blockquote {
+      margin: 0;
+      font-size: 24px;
+      font-weight: 500;
+      letter-spacing: -.035em;
+      line-height: 1.35;
+    }
+    .desk-note-byline {
+      margin: 17px 0 0;
+      color: #647177;
+      font-size: 9px;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+    }
+    .cta-section {
+      padding: 42px 29px 43px;
+      background: #6f86ff;
+      color: #ffffff;
+      text-align: center;
+    }
+    .cta-kicker {
+      margin: 0 0 9px;
+      font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+      font-size: 8px;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    .cta-section h2 {
+      margin: 0 0 12px;
+      font-size: 29px;
+      font-weight: 600;
+      letter-spacing: -.04em;
+      line-height: 1.12;
+    }
+    .cta-section p {
+      max-width: 500px;
+      margin: 0 auto 22px;
+      color: #edf0ff;
+      font-size: 13px;
+      line-height: 1.62;
+    }
+    .cta-button {
+      display: inline-block;
+      padding: 13px 18px;
+      background: #0c1015;
+      border-radius: 7px;
+      color: #ffffff !important;
+      font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: .09em;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+    .footer {
+      padding: 26px 27px;
+      background: #080b0f;
+      color: #6f7b87;
+      font-size: 9px;
+      line-height: 1.65;
+    }
+    .footer strong { color: #c7cfd5; }
+    .footer-rule {
+      width: 34px;
+      height: 2px;
+      margin-bottom: 13px;
+      background: #73e2c0;
+    }
+    .legal {
+      margin-top: 15px;
+      padding-top: 15px;
+      border-top: 1px solid #242d36;
+      color: #65717d;
+    }
+    @media only screen and (max-width: 540px) {
+      .internal-panel { margin: 0; border-left: 0; border-right: 0; }
+      .email-shell { border-left: 0; border-right: 0; }
+      .status-bar, .masthead, .hero, .section, .deal-section, .rotation-band, .desk-note, .cta-section, .footer {
+        padding-left: 18px !important;
+        padding-right: 18px !important;
+      }
+      .desk-signal { margin-left: 18px !important; margin-right: 18px !important; }
+      .brand-mark { width: 44px !important; }
+      .brand-title { font-size: 18px !important; }
+      .issue-meta { width: 84px !important; font-size: 7px !important; }
+      .hero h1 { font-size: 35px !important; }
+      .run-meta, .run-meta tbody, .run-meta tr, .run-meta td,
+      .portfolio-grid, .portfolio-grid tbody, .portfolio-grid tr, .portfolio-grid td,
+      .condition-grid, .condition-grid tbody, .condition-grid tr, .condition-grid td {
+        display: block !important;
+        width: 100% !important;
+      }
+      .run-meta td + td { padding-left: 0 !important; border-left: 0 !important; border-top: 1px solid #28323d; }
+      .portfolio-grid td, .condition-grid td { border-right: 1px solid #2a3440 !important; }
+      .section-intro { margin-left: 0 !important; }
+      .short-price, .deal-price { width: 95px !important; font-size: 17px !important; }
+      .deal-title { font-size: 23px !important; }
+      .deal-status { margin-left: 0 !important; }
+      .assumption-table td:first-child { width: 98px !important; }
+      .metric-value { font-size: 18px !important; }
+      .desk-note blockquote { font-size: 21px !important; }
+    }
+  </style>
+</head>
+<body>
+  <div class="internal-panel">
+    <strong>Approved investor design — nothing has been sent</strong>
+    Every bracketed item is placeholder copy. Source tags and workflow labels are internal production aids and disappear from the delivered email.
+    <div class="source-key">
+      <span class="source-tag tag-mls">MLS + rents</span>
+      <span class="source-tag tag-taylor">Taylor desk</span>
+      <span class="source-tag tag-codex">Codex model</span>
+    </div>
+  </div>
+
+  <div class="email-shell">
+    <div class="signal-line"></div>
+    <div class="status-bar"><span class="status-live">● Desk online</span> &nbsp; / &nbsp; Central Texas opportunity scan &nbsp; / &nbsp; [July 30, 2026]</div>
+
+    <div class="masthead">
+      <table class="masthead-table" role="presentation">
+        <tr>
+          <td class="brand-mark"><span class="brand-chip">TID</span></td>
+          <td><p class="brand-kicker">Taylor Dasch / EG Realty</p><p class="brand-title">Temple Investor Desk</p></td>
+          <td class="issue-meta">Deal brief [001]<br>Cycle [15]<br>Temple, TX</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="hero">
+      <span class="hero-badge">Screened / Three asset classes</span>
+      <h1>Three deals worth opening the model for.</h1>
+      <p class="hero-copy">I screened current Central Texas inventory and pulled the strongest candidate in three classes. <strong>These are leads for underwriting—not promises of returns.</strong></p>
+      <table class="run-meta" role="presentation">
+        <tr>
+          <td>Universe screened<span class="run-value">[000 listings]</span></td>
+          <td>Shortlist<span class="run-value">03 opportunities</span></td>
+          <td>Status checked<span class="run-value">[Date / time]</span></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="desk-signal">
+      <table class="desk-signal-table" role="presentation">
+        <tr>
+          <td class="signal-icon">↗</td>
+          <td>
+            <span class="micro-label">Desk signal / This cycle</span>
+            <h2 class="signal-headline">[The condition shaping every deal in this edition]</h2>
+            <p class="signal-copy">[One compact read on rates, insurance, rents, concessions, inventory, or pricing—and how it changes the underwriting threshold.]</p>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <table class="section-header" role="presentation">
+        <tr><td class="section-code">00</td><td><p class="section-eyebrow">The shortlist</p><h2 class="section-title">The desk view in sixty seconds.</h2></td></tr>
+      </table>
+      <p class="section-intro">Each property wins its class under the published assumptions. A weak class can be labeled “No buy this round” instead of forcing a pick.</p>
+
+      <div class="short-card">
+        <table class="short-top" role="presentation"><tr><td><span class="short-class">01 / Multifamily</span><span class="short-property">[Property or no-buy label]</span></td><td class="short-price">[$000K]</td></tr></table>
+        <p class="short-thesis">[One-line investment thesis: why it survived the screen.]</p>
+        <table class="short-bottom" role="presentation"><tr><td><span class="status-pill">[Underwrite]</span></td><td>Largest risk: <span class="risk-text">[Risk]</span></td></tr></table>
+      </div>
+      <div class="short-card">
+        <table class="short-top" role="presentation"><tr><td><span class="short-class">02 / Single-family rental</span><span class="short-property">[Property or no-buy label]</span></td><td class="short-price">[$000K]</td></tr></table>
+        <p class="short-thesis">[One-line investment thesis: why it survived the screen.]</p>
+        <table class="short-bottom" role="presentation"><tr><td><span class="status-pill">[Watch]</span></td><td>Largest risk: <span class="risk-text">[Risk]</span></td></tr></table>
+      </div>
+      <div class="short-card">
+        <table class="short-top" role="presentation"><tr><td><span class="short-class">03 / Specialty play</span><span class="short-property">[Property, strategy, or no-buy label]</span></td><td class="short-price">[$000K]</td></tr></table>
+        <p class="short-thesis">[One-line investment thesis: why it survived—or failed—the screen.]</p>
+        <table class="short-bottom" role="presentation"><tr><td><span class="status-pill">[Pass / pursue]</span></td><td>Largest risk: <span class="risk-text">[Risk]</span></td></tr></table>
+      </div>
+    </div>
+
+    <div class="deal-section">
+      <table class="deal-head" role="presentation">
+        <tr><td class="deal-index">01</td><td><p class="deal-class">Best in class / Multifamily</p><h2 class="deal-title">[Property address]</h2></td><td class="deal-price">[$Price]</td></tr>
+      </table>
+      <p class="deal-status">Desk status &nbsp; / &nbsp; <strong>[Underwrite / watch / pass]</strong> &nbsp; / &nbsp; [Unit count] units</p>
+      <table class="metric-grid" role="presentation">
+        <tr><td><span class="metric-label">Income assumption</span><span class="metric-value">[$0,000]</span><span class="metric-note">[monthly / source]</span></td><td><span class="metric-label">Cap-rate range</span><span class="metric-value">[0.0–0.0%]</span><span class="metric-note">[before financing]</span></td></tr>
+        <tr><td><span class="metric-label">Monthly cash flow</span><span class="metric-value">[$000–$000]</span><span class="metric-note">[financing stated below]</span></td><td><span class="metric-label">Cash-on-cash</span><span class="metric-value">[0.0–0.0%]</span><span class="metric-note">[estimated range]</span></td></tr>
+      </table>
+      <div class="thesis-box"><span class="micro-label">Why it ranks first</span><p><strong>[State the thesis plainly.]</strong> [Explain the price, income, condition, location, or operational edge compared with the other multifamily properties screened.]</p></div>
+      <table class="assumption-table">
+        <tr><td>Income</td><td>[Current or market rent, other income, vacancy, and source.]</td></tr>
+        <tr><td>Financing</td><td>[Down payment, rate, amortization, closing costs, and reserves.]</td></tr>
+        <tr><td>Operations</td><td>[Taxes, insurance, management, maintenance, utilities, and turnover.]</td></tr>
+        <tr><td>Capex</td><td>[Immediate repairs, deferred maintenance, or renovation range.]</td></tr>
+      </table>
+      <div class="risk-panel"><span class="risk-label">Break point / What kills the deal</span><p>[The largest underwriting risk and the assumption threshold that would make Taylor walk away.]</p></div>
+      <div class="verify-row"><strong>Verify next:</strong> [Leases, utility split, zoning, condition, taxes, insurance, or other due diligence.] <span class="source-tag tag-codex">Model assumptions</span></div>
+    </div>
+
+    <div class="deal-section">
+      <table class="deal-head" role="presentation">
+        <tr><td class="deal-index">02</td><td><p class="deal-class">Best in class / Single-family rental</p><h2 class="deal-title">[Property address]</h2></td><td class="deal-price">[$Price]</td></tr>
+      </table>
+      <p class="deal-status">Desk status &nbsp; / &nbsp; <strong>[Underwrite / watch / pass]</strong> &nbsp; / &nbsp; [Bed / bath / sqft]</p>
+      <table class="metric-grid" role="presentation">
+        <tr><td><span class="metric-label">Rent assumption</span><span class="metric-value">[$0,000]</span><span class="metric-note">[range / source]</span></td><td><span class="metric-label">All-in basis</span><span class="metric-value">[$000K]</span><span class="metric-note">[price + immediate work]</span></td></tr>
+        <tr><td><span class="metric-label">Monthly cash flow</span><span class="metric-value">[$000–$000]</span><span class="metric-note">[financing stated below]</span></td><td><span class="metric-label">Cash-on-cash</span><span class="metric-value">[0.0–0.0%]</span><span class="metric-note">[estimated range]</span></td></tr>
+      </table>
+      <div class="thesis-box"><span class="micro-label">Why it ranks first</span><p><strong>[State the thesis plainly.]</strong> [Explain the rent-to-basis relationship, tenant demand, location, condition, or exit flexibility.]</p></div>
+      <table class="assumption-table">
+        <tr><td>Income</td><td>[Rent range, vacancy, and supporting source.]</td></tr>
+        <tr><td>Financing</td><td>[Down payment, rate, amortization, closing costs, and reserves.]</td></tr>
+        <tr><td>Operations</td><td>[Taxes, insurance, management, maintenance, HOA, and turnover.]</td></tr>
+        <tr><td>Condition</td><td>[Immediate work, major systems, and lease-ready budget.]</td></tr>
+      </table>
+      <div class="risk-panel"><span class="risk-label">Break point / What kills the deal</span><p>[The largest underwriting risk and the assumption threshold that would make Taylor walk away.]</p></div>
+      <div class="verify-row"><strong>Verify next:</strong> [Rent, condition, HOA, insurance, neighborhood restrictions, or other due diligence.] <span class="source-tag tag-mls">Listing + rents</span></div>
+    </div>
+
+    <div class="deal-section">
+      <table class="deal-head" role="presentation">
+        <tr><td class="deal-index">03</td><td><p class="deal-class">Best in class / [Specialty strategy]</p><h2 class="deal-title">[Property or no buy this round]</h2></td><td class="deal-price">[$Price / —]</td></tr>
+      </table>
+      <p class="deal-status">Desk status &nbsp; / &nbsp; <strong>[Underwrite / watch / no buy]</strong> &nbsp; / &nbsp; Strategy: [Flip / MTR / STR / land / value-add]</p>
+      <table class="metric-grid" role="presentation">
+        <tr><td><span class="metric-label">Project basis</span><span class="metric-value">[$000K]</span><span class="metric-note">[purchase + work + carry]</span></td><td><span class="metric-label">Exit / income range</span><span class="metric-value">[$000K]</span><span class="metric-note">[ARV, rent, or resale source]</span></td></tr>
+        <tr><td><span class="metric-label">Margin / return</span><span class="metric-value">[0–00%]</span><span class="metric-note">[range, not false precision]</span></td><td><span class="metric-label">Time / occupancy</span><span class="metric-value">[00]</span><span class="metric-note">[months / nights / hold]</span></td></tr>
+      </table>
+      <div class="thesis-box"><span class="micro-label">Why it ranks first—or why the desk passed</span><p><strong>[State the thesis plainly.]</strong> [Explain the value-add, exit, demand, or structural problem that separates this opportunity from the rest.]</p></div>
+      <table class="assumption-table">
+        <tr><td>Acquisition</td><td>[Price, closing, financing, and reserve assumptions.]</td></tr>
+        <tr><td>Project</td><td>[Rehab, furnishing, utilities, carrying costs, or site work.]</td></tr>
+        <tr><td>Exit / income</td><td>[ARV, occupancy, daily rate, rent, resale range, and sources.]</td></tr>
+        <tr><td>Rules</td><td>[City, HOA, deed, zoning, insurance, utility, or platform restrictions.]</td></tr>
+      </table>
+      <div class="risk-panel"><span class="risk-label">Break point / What kills the deal</span><p>[The restriction, condition, exit-price, timeline, or management risk that can erase the margin.]</p></div>
+      <div class="verify-row"><strong>Verify next:</strong> [City, HOA, deed, scope, insurance, utilities, demand, or other due diligence.] <span class="source-tag tag-taylor">Desk verdict</span></div>
+    </div>
+
+    <div class="section">
+      <table class="section-header" role="presentation">
+        <tr><td class="section-code">04</td><td><p class="section-eyebrow">Portfolio view</p><h2 class="section-title">Three different jobs for capital.</h2></td></tr>
+      </table>
+      <p class="section-intro">This is not a universal ranking. The right option depends on available cash, operating appetite, hold period, and return target.</p>
+      <table class="portfolio-grid" role="presentation">
+        <tr>
+          <td><span class="portfolio-class">Multifamily</span><span class="portfolio-value">[Best for]</span><span class="portfolio-copy">[Investor profile, cash requirement, and operating intensity.]</span></td>
+          <td><span class="portfolio-class">Single-family</span><span class="portfolio-value">[Best for]</span><span class="portfolio-copy">[Investor profile, cash requirement, and operating intensity.]</span></td>
+          <td><span class="portfolio-class">Specialty</span><span class="portfolio-value">[Best for / no buy]</span><span class="portfolio-copy">[Investor profile, cash requirement, and operating intensity.]</span></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <table class="section-header" role="presentation">
+        <tr><td class="section-code">05</td><td><p class="section-eyebrow">Capital conditions</p><h2 class="section-title">Inputs that moved since the last brief.</h2></td></tr>
+      </table>
+      <table class="condition-grid" role="presentation">
+        <tr>
+          <td><span class="micro-label">Debt</span><span class="condition-value">[0.00%]</span><span class="condition-copy">[Rate assumption and change]</span></td>
+          <td><span class="micro-label">Insurance / tax</span><span class="condition-value">[$0,000]</span><span class="condition-copy">[Current underwriting note]</span></td>
+          <td><span class="micro-label">Rent / exit</span><span class="condition-value">[±0.0%]</span><span class="condition-copy">[Demand or comp movement]</span></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="rotation-band">
+      <p class="rotation-kicker">06 / This edition's extra</p>
+      <h2>[Underwriting tip, operator note, post-mortem, financing scenario, or value-add idea]</h2>
+      <p>[One useful investor lesson with a real example, stated assumptions, and the failure mode to watch.]</p>
+    </div>
+
+    <div class="desk-note">
+      <p class="desk-note-label">07 / Taylor's desk note</p>
+      <blockquote>“[One blunt observation about the deals investors are chasing, passing on, or mispricing right now.]”</blockquote>
+      <p class="desk-note-byline">Taylor Dasch &nbsp; / &nbsp; EG Realty &nbsp; / &nbsp; Temple, Texas</p>
+    </div>
+
+    <div class="cta-section">
+      <p class="cta-kicker">Request the underwriting</p>
+      <h2>Reply DEALS and tell me your buy box.</h2>
+      <p>Send your strategy, available cash, financing plan, and target return. I’ll send the assumptions and full deal sheet for the opportunities that actually fit.</p>
+      <a class="cta-button" href="mailto:dealswithdasch@gmail.com?subject=DEALS%20-%20Investor%20buy%20box">Send my buy box</a>
+    </div>
+
+    <div class="footer">
+      <div class="footer-rule"></div>
+      <strong>Taylor Dasch with EG Realty</strong><br>
+      Temple Investor Desk &nbsp; / &nbsp; Central Texas<br>
+      254-718-4249 &nbsp; / &nbsp; dealswithdasch@gmail.com &nbsp; / &nbsp; templetxhomes.net
+      <div class="legal">Information is educational and based on stated assumptions that can change. Verify financing, taxes, insurance, condition, rents, restrictions, and professional advice before investing. Listing status and volatile assumptions must be rechecked before any decision. Beehiiv adds unsubscribe, mailing-address, and preference links at delivery.</div>
+    </div>
+  </div>
+</body>
+</html>

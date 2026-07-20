@@ -1,6 +1,6 @@
 # Newsletter program
 
-Taylor's newsletter system has two products. They share one conversational production process, but never share a recipient list.
+Taylor Dasch with EG Realty uses this newsletter system for two products. They share one conversational production process, but never share a recipient list.
 
 ## 1. Central Texas Market Update
 
@@ -9,6 +9,9 @@ Taylor's newsletter system has two products. They share one conversational produ
 - **Cadence:** first Thursday of each month
 - **Promise:** the useful local market read in about three minutes, with one home, one opportunity, and one practical takeaway
 - **Business goal:** remain helpful after closing, earn replies and referrals, and create buyer or seller conversations without turning the email into a sales blast
+- **Approved design:** Premium Market Intelligence Report (`newsletter/design/temple-insider-market-update-v1-premium.html`), selected July 19, 2026
+
+The approved design is the default starting point for every monthly market update. Preserve its defining statistic, analyst verdict, executive dashboard, buyer/owner decision brief, property study, Deal Desk, watchlist, practical action, field note, and reply-first CTA. The selection approves the design system only; every issue still requires separate copy, recipient, staging, and send approval.
 
 ### Recurring issue structure
 
@@ -39,6 +42,9 @@ The issue can react to the month. The rotation prevents every edition from feeli
 - **Cadence:** second and fourth Thursday of each month
 - **Promise:** three active Central Texas opportunities screened under explicit assumptions, with the reason to look and the reason to walk
 - **Business goal:** create serious underwriting conversations and demonstrate Taylor's ability to source, analyze, and pressure-test deals
+- **Approved design:** Investor Desk Brief (`newsletter/design/temple-investor-brief-v1-desk-tech.html`), selected July 19, 2026
+
+The approved design is the default starting point for every investor edition. Preserve its opportunity-scan framing, three-class shortlist, explicit underwriting assumptions, tabular deal metrics, break-point risk treatment, verification checklist, portfolio view, capital-conditions note, rotating investor extra, Taylor desk note, and reply-first CTA. The selection approves the design system only; every issue still requires separate copy, assumptions, recipient, staging, and send approval.
 
 ### The three deal classes
 

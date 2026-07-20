@@ -16,6 +16,26 @@ The market update contains the honest market pulse, home of the month, best curr
 
 See `newsletter/NEWSLETTER-PROGRAM.md` for the module rotations, underwriting requirements, launch calendar, and evidence rules.
 
+## Temple Insider approved design
+
+- `newsletter/design/APPROVED-DESIGN.md` records the selected design and the production elements that must be preserved.
+- `newsletter/design/temple-insider-market-update-v1-premium.html` is the approved working design for future Temple TX Insider market updates.
+- `newsletter/design/temple-insider-design-options.html` is the comparison page for the design studies.
+- `newsletter/design/temple-insider-market-update-v1.html` is the original high-contrast Market Field Report reference.
+- `newsletter/design/temple-insider-market-report-upgrade-comparison.html` compares the original Market Field Report with the selected premium upgrade.
+- `newsletter/design/temple-insider-market-update-v2-editorial.html` is the warm Editorial Elegance direction.
+- `newsletter/design/temple-insider-market-update-v3-newspaper.html` is the sharper Modern Newspaper direction.
+- `newsletter/design/temple-insider-monthly-input-sheet.md` separates MLS inputs, Taylor's field experience, and Codex verification work.
+
+The colored source labels are internal planning aids. Remove them when the real issue is built for Beehiiv. Design approval does not authorize staging, publishing, or sending.
+
+## Investor Brief approved design
+
+- `newsletter/design/APPROVED-INVESTOR-DESIGN.md` records the selected investor design and the production elements that must be preserved.
+- `newsletter/design/temple-investor-brief-v1-desk-tech.html` is the approved working design for future Temple TX Investor Brief editions: a dark underwriting desk with premium-tech hierarchy, tabular money figures, explicit assumptions, equal-weight risk treatment, and three asset-class deal cards.
+
+Taylor approved this design on July 19, 2026. It remains separate from the Temple TX Insider market-update design and audience. Design approval does not authorize staging, publishing, or sending.
+
 ## Production workflow
 
 1. **Monday — talk it out here.** Codex checks the calendar and last Beehiiv send, confirms which product is due, and proposes the issue angle from current videos, pages, and MLS-backed facts.

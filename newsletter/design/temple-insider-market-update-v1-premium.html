@@ -1,0 +1,967 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Temple TX Insider - Premium Market Intelligence Report</title>
+  <style type="text/css">
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #e7e4dd;
+      color: #181a18;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    }
+    a { color: inherit; }
+    .internal-panel {
+      width: 100%;
+      max-width: 780px;
+      margin: 24px auto 14px;
+      padding: 17px 20px;
+      background: #f8f0de;
+      border: 1px solid #c9a85e;
+      color: #503e19;
+      font-size: 12px;
+      line-height: 1.55;
+    }
+    .internal-panel strong {
+      display: block;
+      margin-bottom: 6px;
+      color: #31260f;
+      font-size: 11px;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+    .source-key { margin-top: 9px; }
+    .source-tag {
+      display: inline-block;
+      margin: 4px 5px 0 0;
+      padding: 4px 7px;
+      border: 1px solid currentColor;
+      border-radius: 0;
+      font-size: 9px;
+      font-weight: 800;
+      letter-spacing: .1em;
+      line-height: 1;
+      text-transform: uppercase;
+    }
+    .tag-mls { color: #276b58; }
+    .tag-taylor { color: #9a6a25; }
+    .tag-codex { color: #485365; }
+    .email-shell {
+      width: 100%;
+      max-width: 660px;
+      margin: 0 auto 54px;
+      overflow: hidden;
+      background: #fffdf9;
+      border: 1px solid #cbc7bd;
+    }
+    .edition-bar {
+      padding: 12px 28px;
+      background: #103e33;
+      color: #f7f3e9;
+      font-size: 9px;
+      font-weight: 800;
+      letter-spacing: .18em;
+      line-height: 1.5;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    .brass-rule {
+      height: 3px;
+      background: #b58b43;
+    }
+    .masthead {
+      padding: 27px 28px 25px;
+      background: #fffdf9;
+    }
+    .masthead-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .masthead-table td { vertical-align: bottom; }
+    .masthead-mark {
+      width: 46px;
+      padding-right: 15px;
+    }
+    .monogram {
+      display: block;
+      width: 42px;
+      height: 42px;
+      padding-top: 10px;
+      background: #171a18;
+      color: #ffffff;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 17px;
+      font-weight: 700;
+      letter-spacing: .03em;
+      text-align: center;
+    }
+    .masthead-kicker {
+      margin: 0 0 5px;
+      color: #66706a;
+      font-size: 8px;
+      font-weight: 800;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+    }
+    .masthead-title {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 29px;
+      font-weight: 700;
+      letter-spacing: -.02em;
+      line-height: 1;
+    }
+    .masthead-issue {
+      width: 118px;
+      color: #59615d;
+      font-size: 9px;
+      letter-spacing: .08em;
+      line-height: 1.6;
+      text-align: right;
+      text-transform: uppercase;
+    }
+    .cover {
+      padding: 48px 34px 40px;
+      background: #171a18;
+      color: #ffffff;
+      border-bottom: 7px solid #103e33;
+    }
+    .cover-overline {
+      margin: 0 0 25px;
+      color: #c9ad73;
+      font-size: 9px;
+      font-weight: 800;
+      letter-spacing: .19em;
+      text-transform: uppercase;
+    }
+    .lead-number {
+      margin: 0;
+      color: #ffffff;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 72px;
+      font-weight: 700;
+      letter-spacing: -.055em;
+      line-height: .9;
+    }
+    .lead-number-rule {
+      width: 42px;
+      height: 2px;
+      margin: 23px 0 20px;
+      background: #b58b43;
+    }
+    .cover h1 {
+      margin: 0;
+      max-width: 520px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 34px;
+      font-weight: 700;
+      letter-spacing: -.025em;
+      line-height: 1.08;
+    }
+    .cover-copy {
+      max-width: 520px;
+      margin: 20px 0 0;
+      color: #cdd3cf;
+      font-size: 16px;
+      line-height: 1.63;
+    }
+    .analyst-read {
+      margin-top: 27px;
+      padding: 18px 19px;
+      background: #222825;
+      border-left: 3px solid #b58b43;
+    }
+    .analyst-label {
+      display: block;
+      margin-bottom: 7px;
+      color: #c9ad73;
+      font-size: 8px;
+      font-weight: 800;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+    .analyst-copy {
+      margin: 0;
+      color: #f2f2ef;
+      font-size: 13px;
+      line-height: 1.55;
+    }
+    .cover-source {
+      margin: 20px 0 0;
+      color: #8f9993;
+      font-size: 10px;
+      line-height: 1.5;
+    }
+    .briefing-strip {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+      background: #f1eee7;
+    }
+    .briefing-strip td {
+      width: 33.333%;
+      padding: 19px 16px 18px;
+      border-right: 1px solid #d5d0c5;
+      vertical-align: top;
+    }
+    .briefing-strip td:last-child { border-right: 0; }
+    .briefing-label {
+      display: block;
+      margin-bottom: 7px;
+      color: #8b642a;
+      font-size: 8px;
+      font-weight: 800;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+    }
+    .briefing-copy {
+      color: #313632;
+      font-size: 11px;
+      line-height: 1.5;
+    }
+    .section {
+      padding: 42px 30px;
+      border-bottom: 1px solid #d8d3c8;
+    }
+    .section-head {
+      width: 100%;
+      margin-bottom: 22px;
+      border-collapse: collapse;
+    }
+    .section-head td { vertical-align: top; }
+    .section-index {
+      width: 50px;
+      padding-top: 3px;
+      color: #a47731;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 13px;
+      font-style: italic;
+    }
+    .section-label {
+      margin: 0 0 7px;
+      color: #2f6c5b;
+      font-size: 8px;
+      font-weight: 800;
+      letter-spacing: .17em;
+      text-transform: uppercase;
+    }
+    .section-title {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -.018em;
+      line-height: 1.15;
+    }
+    .section-intro {
+      margin: -7px 0 23px 50px;
+      max-width: 500px;
+      color: #53605a;
+      font-size: 14px;
+      line-height: 1.65;
+    }
+    .data-grid {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+      border-top: 3px solid #171a18;
+      border-bottom: 1px solid #bdb8ac;
+    }
+    .data-grid td {
+      padding: 18px 13px 19px;
+      border-right: 1px solid #d8d3c8;
+      border-bottom: 1px solid #d8d3c8;
+      vertical-align: top;
+    }
+    .data-grid td:last-child { border-right: 0; }
+    .metric-label {
+      display: block;
+      min-height: 25px;
+      color: #667069;
+      font-size: 8px;
+      font-weight: 800;
+      letter-spacing: .11em;
+      line-height: 1.4;
+      text-transform: uppercase;
+    }
+    .metric-value {
+      display: block;
+      margin: 9px 0 6px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 31px;
+      font-weight: 700;
+      letter-spacing: -.035em;
+      line-height: 1;
+    }
+    .metric-context {
+      display: block;
+      color: #68726c;
+      font-size: 10px;
+      line-height: 1.45;
+    }
+    .market-position {
+      margin-top: 22px;
+      padding: 18px 18px 16px;
+      background: #f1eee7;
+      border: 1px solid #d2cdc1;
+    }
+    .position-head {
+      width: 100%;
+      margin-bottom: 12px;
+      border-collapse: collapse;
+    }
+    .position-head td {
+      font-size: 8px;
+      font-weight: 800;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    .position-result {
+      color: #9a6a25;
+      text-align: right;
+    }
+    .position-bar {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+    .position-bar td {
+      width: 33.333%;
+      padding: 10px 5px;
+      color: #ffffff;
+      font-size: 8px;
+      font-weight: 800;
+      letter-spacing: .06em;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    .position-buy { background: #2c6b59; }
+    .position-balance {
+      background: #66706b;
+      border-top: 4px solid #d2a856;
+    }
+    .position-sell { background: #8a5f36; }
+    .position-note {
+      margin: 11px 0 0;
+      color: #646e68;
+      font-size: 10px;
+      line-height: 1.5;
+    }
+    .decision-table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+    .decision-table td {
+      width: 50%;
+      padding: 26px 22px 24px;
+      vertical-align: top;
+    }
+    .buyer-box {
+      background: #103e33;
+      color: #ffffff;
+    }
+    .seller-box {
+      background: #f0ebe1;
+      color: #1d211e;
+      border-top: 4px solid #b58b43;
+    }
+    .decision-kicker {
+      margin: 0 0 10px;
+      color: #c8ae75;
+      font-size: 8px;
+      font-weight: 800;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+    }
+    .seller-box .decision-kicker { color: #8c6429; }
+    .decision-title {
+      margin: 0 0 13px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 22px;
+      line-height: 1.15;
+    }
+    .decision-copy {
+      margin: 0 0 13px;
+      color: #d9e2de;
+      font-size: 13px;
+      line-height: 1.62;
+    }
+    .seller-box .decision-copy { color: #46514b; }
+    .photo-frame {
+      padding: 11px;
+      background: #e6e3dc;
+      border: 1px solid #c8c3b8;
+    }
+    .photo-slot {
+      display: table;
+      width: 100%;
+      height: 300px;
+      background: #c9cac5;
+      color: #484e4a;
+      text-align: center;
+    }
+    .photo-slot-copy {
+      display: table-cell;
+      padding: 24px;
+      border: 1px solid #b4b5af;
+      font-size: 9px;
+      font-weight: 800;
+      letter-spacing: .14em;
+      line-height: 1.75;
+      text-transform: uppercase;
+      vertical-align: middle;
+    }
+    .asset-caption {
+      width: 100%;
+      margin-top: 10px;
+      border-collapse: collapse;
+    }
+    .asset-caption td {
+      color: #69716d;
+      font-size: 9px;
+      letter-spacing: .08em;
+      line-height: 1.5;
+      text-transform: uppercase;
+    }
+    .asset-caption td:last-child { text-align: right; }
+    .property-kicker {
+      margin: 25px 0 8px;
+      color: #2f6c5b;
+      font-size: 8px;
+      font-weight: 800;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+    .property-title {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 30px;
+      font-weight: 700;
+      letter-spacing: -.025em;
+      line-height: 1.12;
+    }
+    .property-meta {
+      margin: 11px 0 19px;
+      color: #5c6761;
+      font-size: 11px;
+      line-height: 1.6;
+    }
+    .truth-table {
+      width: 100%;
+      margin-top: 20px;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+    .truth-table td {
+      width: 50%;
+      padding: 18px 17px;
+      background: #f3f0ea;
+      border-top: 2px solid #243029;
+      border-right: 1px solid #d5d0c5;
+      vertical-align: top;
+    }
+    .truth-table td:last-child {
+      border-right: 0;
+      border-top-color: #a47731;
+    }
+    .truth-label {
+      display: block;
+      margin-bottom: 8px;
+      color: #4f5a54;
+      font-size: 8px;
+      font-weight: 800;
+      letter-spacing: .11em;
+      text-transform: uppercase;
+    }
+    .truth-copy {
+      margin: 0;
+      color: #46514b;
+      font-size: 12px;
+      line-height: 1.58;
+    }
+    .payment-note {
+      margin-top: 14px;
+      padding: 14px 16px;
+      background: #faf6ec;
+      border-left: 3px solid #b58b43;
+      color: #4e514e;
+      font-size: 11px;
+      line-height: 1.6;
+    }
+    .deal-desk {
+      padding: 43px 30px;
+      background: #18211d;
+      color: #ffffff;
+      border-bottom: 1px solid #323a36;
+    }
+    .deal-desk .section-label { color: #c8ae75; }
+    .deal-desk .section-title { color: #ffffff; }
+    .deal-address {
+      margin: 25px 0 5px;
+      color: #aebbb5;
+      font-size: 9px;
+      font-weight: 800;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    .deal-price {
+      margin: 0 0 22px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 52px;
+      font-weight: 700;
+      letter-spacing: -.05em;
+      line-height: 1;
+    }
+    .deal-matrix {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+      border-top: 1px solid #52605a;
+    }
+    .deal-matrix td {
+      width: 50%;
+      padding: 18px 16px 18px 0;
+      border-right: 1px solid #52605a;
+      border-bottom: 1px solid #52605a;
+      vertical-align: top;
+    }
+    .deal-matrix td:nth-child(2) {
+      padding-left: 16px;
+      border-right: 0;
+    }
+    .deal-label {
+      display: block;
+      margin-bottom: 7px;
+      color: #c8ae75;
+      font-size: 8px;
+      font-weight: 800;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    .deal-copy {
+      margin: 0;
+      color: #d5ddd9;
+      font-size: 12px;
+      line-height: 1.58;
+    }
+    .watchlist {
+      width: 100%;
+      border-collapse: collapse;
+      border-top: 3px solid #171a18;
+    }
+    .watchlist td {
+      padding: 18px 0;
+      border-bottom: 1px solid #d6d1c6;
+      vertical-align: top;
+    }
+    .watch-rank {
+      width: 45px;
+      color: #a47731;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 19px;
+      font-style: italic;
+    }
+    .watch-name {
+      display: block;
+      margin-bottom: 5px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1.25;
+    }
+    .watch-copy {
+      color: #59635e;
+      font-size: 12px;
+      line-height: 1.55;
+    }
+    .signal-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .signal-table th,
+    .signal-table td {
+      padding: 13px 11px;
+      border-bottom: 1px solid #d6d1c6;
+      font-size: 11px;
+      line-height: 1.5;
+      text-align: left;
+      vertical-align: top;
+    }
+    .signal-table th {
+      background: #103e33;
+      color: #ffffff;
+      font-size: 8px;
+      font-weight: 800;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+    .signal-table td:nth-child(2) {
+      color: #845d23;
+      font-weight: 800;
+    }
+    .tip-band {
+      padding: 34px 30px;
+      background: #b58b43;
+      color: #171a18;
+    }
+    .tip-number {
+      margin: 0 0 7px;
+      font-size: 8px;
+      font-weight: 800;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+    .tip-band h2 {
+      margin: 0 0 11px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 28px;
+      letter-spacing: -.02em;
+      line-height: 1.16;
+    }
+    .tip-band p:last-child {
+      margin: 0;
+      color: #2f2c23;
+      font-size: 14px;
+      line-height: 1.62;
+    }
+    .extra-box {
+      padding: 23px;
+      background: #f5f1e8;
+      border-top: 3px solid #103e33;
+    }
+    .extra-box p {
+      margin: 0 0 12px;
+      color: #46514b;
+      font-size: 13px;
+      line-height: 1.65;
+    }
+    .field-note {
+      padding: 42px 32px;
+      background: #f2eee5;
+      border-bottom: 1px solid #d6d1c6;
+    }
+    .field-note-label {
+      margin: 0 0 18px;
+      color: #2f6c5b;
+      font-size: 8px;
+      font-weight: 800;
+      letter-spacing: .17em;
+      text-transform: uppercase;
+    }
+    .quote-mark {
+      margin: 0;
+      color: #b58b43;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 56px;
+      line-height: .55;
+    }
+    .field-note blockquote {
+      margin: 12px 0 0;
+      color: #1d211e;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 26px;
+      letter-spacing: -.015em;
+      line-height: 1.38;
+    }
+    .field-note-byline {
+      margin: 19px 0 0;
+      color: #69716d;
+      font-size: 9px;
+      letter-spacing: .09em;
+      line-height: 1.5;
+      text-transform: uppercase;
+    }
+    .cta-section {
+      padding: 43px 30px 45px;
+      background: #103e33;
+      color: #ffffff;
+      text-align: center;
+    }
+    .cta-kicker {
+      margin: 0 0 9px;
+      color: #c8ae75;
+      font-size: 8px;
+      font-weight: 800;
+      letter-spacing: .17em;
+      text-transform: uppercase;
+    }
+    .cta-section h2 {
+      margin: 0 0 12px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 30px;
+      letter-spacing: -.02em;
+      line-height: 1.15;
+    }
+    .cta-section p {
+      max-width: 480px;
+      margin: 0 auto 23px;
+      color: #d5e0db;
+      font-size: 14px;
+      line-height: 1.62;
+    }
+    .cta-button {
+      display: inline-block;
+      padding: 14px 23px;
+      background: #f5eee0;
+      color: #103e33 !important;
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: .12em;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+    .quick-links {
+      margin-top: 26px;
+      padding-top: 18px;
+      border-top: 1px solid #3f685d;
+      color: #bacbc4;
+      font-size: 10px;
+      line-height: 1.8;
+    }
+    .footer {
+      padding: 27px 30px;
+      background: #e7e3da;
+      color: #5d6661;
+      font-size: 10px;
+      line-height: 1.65;
+    }
+    .footer strong { color: #202421; }
+    .footer-rule {
+      width: 28px;
+      height: 2px;
+      margin-bottom: 13px;
+      background: #b58b43;
+    }
+    @media only screen and (max-width: 520px) {
+      .internal-panel { margin: 0; border-left: 0; border-right: 0; }
+      .email-shell { border-left: 0; border-right: 0; }
+      .edition-bar, .masthead, .cover, .section, .deal-desk, .tip-band, .field-note, .cta-section, .footer {
+        padding-left: 19px !important;
+        padding-right: 19px !important;
+      }
+      .masthead-mark { width: 42px !important; padding-right: 11px !important; }
+      .masthead-issue { width: 78px !important; font-size: 8px !important; }
+      .masthead-title { font-size: 23px !important; }
+      .lead-number { font-size: 60px !important; }
+      .cover h1 { font-size: 29px !important; }
+      .cover-copy { font-size: 15px !important; }
+      .briefing-strip, .briefing-strip tbody, .briefing-strip tr, .briefing-strip td,
+      .decision-table, .decision-table tbody, .decision-table tr, .decision-table td,
+      .truth-table, .truth-table tbody, .truth-table tr, .truth-table td,
+      .deal-matrix, .deal-matrix tbody, .deal-matrix tr, .deal-matrix td {
+        display: block !important;
+        width: 100% !important;
+      }
+      .briefing-strip td { border-right: 0 !important; border-bottom: 1px solid #d5d0c5; }
+      .decision-table td + td { margin-top: 0; }
+      .truth-table td { border-right: 0 !important; }
+      .deal-matrix td { padding-left: 0 !important; border-right: 0 !important; }
+      .section-intro { margin-left: 0 !important; }
+      .metric-value { font-size: 26px !important; }
+      .property-title { font-size: 26px !important; }
+      .deal-price { font-size: 45px !important; }
+      .field-note blockquote { font-size: 23px !important; }
+      .signal-table th, .signal-table td { padding-left: 7px !important; padding-right: 7px !important; }
+    }
+  </style>
+</head>
+<body>
+  <div class="internal-panel">
+    <strong>Premium layout prototype — nothing has been sent</strong>
+    All bracketed copy is placeholder content. Source labels are internal production notes and disappear from the delivered email.
+    <div class="source-key">
+      <span class="source-tag tag-mls">MLS pull</span>
+      <span class="source-tag tag-taylor">Taylor input</span>
+      <span class="source-tag tag-codex">Codex verifies</span>
+    </div>
+  </div>
+
+  <div class="email-shell">
+    <div class="edition-bar">Temple + Belton Market Intelligence &nbsp; / &nbsp; [Month 2026] &nbsp; / &nbsp; Three-minute briefing</div>
+    <div class="brass-rule"></div>
+
+    <div class="masthead">
+      <table class="masthead-table" role="presentation">
+        <tr>
+          <td class="masthead-mark"><span class="monogram">TX</span></td>
+          <td>
+            <p class="masthead-kicker">Independent local market report</p>
+            <p class="masthead-title">Temple TX Insider</p>
+          </td>
+          <td class="masthead-issue">Report [001]<br>Taylor Dasch<br>EG Realty</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="cover">
+      <p class="cover-overline">The number defining this month</p>
+      <p class="lead-number">[00%]</p>
+      <div class="lead-number-rule"></div>
+      <h1>[The market shift hiding inside the headline number]</h1>
+      <p class="cover-copy">Taylor Dasch with EG Realty here in Temple. [Explain what changed, why it matters, and the decision a buyer or homeowner should make next.]</p>
+      <div class="analyst-read">
+        <span class="analyst-label">Taylor's read</span>
+        <p class="analyst-copy">[One decisive sentence: the practical meaning of this month's number, without hedging or hype.]</p>
+      </div>
+      <p class="cover-source"><span class="source-tag tag-mls">MLS pull</span> defining number + comparison &nbsp; <span class="source-tag tag-taylor">Taylor input</span> field verdict</p>
+    </div>
+
+    <table class="briefing-strip" role="presentation">
+      <tr>
+        <td><span class="briefing-label">For buyers</span><span class="briefing-copy">[The leverage or urgency that matters now.]</span></td>
+        <td><span class="briefing-label">For homeowners</span><span class="briefing-copy">[The pricing or preparation signal to know.]</span></td>
+        <td><span class="briefing-label">Watch next</span><span class="briefing-copy">[The metric or segment that may move next.]</span></td>
+      </tr>
+    </table>
+
+    <div class="section">
+      <table class="section-head" role="presentation">
+        <tr><td class="section-index">01</td><td><p class="section-label">Executive dashboard</p><h2 class="section-title">Five numbers. One usable market read.</h2></td></tr>
+      </table>
+      <p class="section-intro">The same geography and reporting window sit behind every number. Context is shown beneath the metric so the dashboard explains movement—not just totals.</p>
+      <table class="data-grid" role="presentation">
+        <tr>
+          <td><span class="metric-label">Active listings</span><span class="metric-value">[000]</span><span class="metric-context">[up/down X% from prior period]</span></td>
+          <td><span class="metric-label">Closed sales</span><span class="metric-value">[000]</span><span class="metric-context">[reporting window]</span></td>
+          <td><span class="metric-label">Median closed price</span><span class="metric-value">[$000K]</span><span class="metric-context">[comparison and date]</span></td>
+        </tr>
+        <tr>
+          <td colspan="2"><span class="metric-label">Median days on market</span><span class="metric-value">[00]</span><span class="metric-context">[up/down from prior period and why]</span></td>
+          <td><span class="metric-label">Listings with a price cut</span><span class="metric-value">[00%]</span><span class="metric-context">[buyer opportunity / seller warning]</span></td>
+        </tr>
+      </table>
+      <div class="market-position">
+        <table class="position-head" role="presentation"><tr><td>Market position</td><td class="position-result">[This month's position]</td></tr></table>
+        <table class="position-bar" role="presentation"><tr><td class="position-buy">Buyer leverage</td><td class="position-balance">Balanced</td><td class="position-sell">Seller leverage</td></tr></table>
+        <p class="position-note">[Explain the marker using verified inventory, sale-to-list ratio, days on market, and price-reduction behavior.] <span class="source-tag tag-codex">Verified metrics</span></p>
+      </div>
+    </div>
+
+    <div class="section">
+      <table class="section-head" role="presentation">
+        <tr><td class="section-index">02</td><td><p class="section-label">Decision brief</p><h2 class="section-title">What the numbers let you do differently.</h2></td></tr>
+      </table>
+      <table class="decision-table" role="presentation">
+        <tr>
+          <td class="buyer-box">
+            <p class="decision-kicker">Buyer position</p>
+            <h3 class="decision-title">Where to press—and where not to wait.</h3>
+            <p class="decision-copy">[Where negotiation is working, where good listings still move quickly, and the price band that deserves attention.]</p>
+            <span class="source-tag tag-mls">MLS pattern</span>
+          </td>
+          <td class="seller-box">
+            <p class="decision-kicker">Owner position</p>
+            <h3 class="decision-title">What buyers are rewarding right now.</h3>
+            <p class="decision-copy">[The pricing or preparation mistake costing sellers time, and the specific condition or presentation buyers are choosing.]</p>
+            <span class="source-tag tag-taylor">Field experience</span>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <table class="section-head" role="presentation">
+        <tr><td class="section-index">03</td><td><p class="section-label">Property study / Home of the month</p><h2 class="section-title">One home worth slowing down for.</h2></td></tr>
+      </table>
+      <div class="photo-frame"><div class="photo-slot"><div class="photo-slot-copy">[MLS-approved property photograph]<br>Editorial crop / 1200 × 800</div></div></div>
+      <table class="asset-caption" role="presentation"><tr><td>Featured asset 01</td><td>[Status checked / date + time]</td></tr></table>
+      <p class="property-kicker"><span class="source-tag tag-mls">MLS listing</span> Residential field study</p>
+      <h3 class="property-title">[Property address] &nbsp; / &nbsp; [$Price]</h3>
+      <p class="property-meta">[Beds] bed &nbsp; · &nbsp; [Baths] bath &nbsp; · &nbsp; [Sqft] sq ft &nbsp; · &nbsp; [Neighborhood] &nbsp; · &nbsp; [DOM] days</p>
+      <p class="section-intro" style="margin-left:0; margin-top:0;">[Why this home is interesting beyond its price. Focus on the layout, lot, location, design, or unusual utility.]</p>
+      <table class="truth-table" role="presentation">
+        <tr>
+          <td><span class="truth-label">The case for it</span><p class="truth-copy">[Three specific reasons supported by the listing and local comparison.]</p></td>
+          <td><span class="truth-label">The honest catch</span><p class="truth-copy">[One real drawback, repair question, location tradeoff, or pricing concern.]</p></td>
+        </tr>
+      </table>
+      <div class="payment-note"><strong>Estimated monthly payment:</strong> [Codex calculation with rate, down payment, taxes, insurance, and HOA assumptions shown.]</div>
+    </div>
+
+    <div class="deal-desk">
+      <table class="section-head" role="presentation">
+        <tr><td class="section-index">04</td><td><p class="section-label">The deal desk / Best opportunity</p><h2 class="section-title">The strongest current opportunity—including the catch.</h2></td></tr>
+      </table>
+      <p class="deal-address">[Property address or non-confidential label]</p>
+      <p class="deal-price">[$Price]</p>
+      <table class="deal-matrix" role="presentation">
+        <tr>
+          <td><span class="deal-label">Best fit</span><p class="deal-copy">[Buyer type and intended use]</p></td>
+          <td><span class="deal-label">The opportunity</span><p class="deal-copy">[Price, condition, concession, payment, or location advantage]</p></td>
+        </tr>
+        <tr>
+          <td><span class="deal-label">The catch</span><p class="deal-copy">[Why this is not automatically the right buy]</p></td>
+          <td><span class="deal-label">Taylor's verdict</span><p class="deal-copy">[Why it ranks first under this month's stated criteria]</p></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <table class="section-head" role="presentation">
+        <tr><td class="section-index">05</td><td><p class="section-label">The watchlist</p><h2 class="section-title">Three more, in three honest lines.</h2></td></tr>
+      </table>
+      <table class="watchlist" role="presentation">
+        <tr><td class="watch-rank">01</td><td><span class="watch-name">[Listing 1] &nbsp; / &nbsp; [$Price]</span><span class="watch-copy">[Specs and one direct sentence: why to look, plus the tradeoff.]</span></td></tr>
+        <tr><td class="watch-rank">02</td><td><span class="watch-name">[Listing 2] &nbsp; / &nbsp; [$Price]</span><span class="watch-copy">[Specs and one direct sentence: why to look, plus the tradeoff.]</span></td></tr>
+        <tr><td class="watch-rank">03</td><td><span class="watch-name">[Listing 3] &nbsp; / &nbsp; [$Price]</span><span class="watch-copy">[Specs and one direct sentence: why to look, plus the tradeoff.]</span></td></tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <table class="section-head" role="presentation">
+        <tr><td class="section-index">06</td><td><p class="section-label">Neighborhood / Price-band watch</p><h2 class="section-title">Where the market is moving differently.</h2></td></tr>
+      </table>
+      <p class="section-intro">[Choose one neighborhood or price band. Explain who it fits, what the numbers show, and the detail people miss.]</p>
+      <table class="signal-table">
+        <tr><th>Signal</th><th>This month</th><th>Decision implication</th></tr>
+        <tr><td>[Median price or inventory]</td><td>[Value]</td><td>[What it changes]</td></tr>
+        <tr><td>[Median DOM or SP/LP]</td><td>[Value]</td><td>[What it changes]</td></tr>
+        <tr><td>[Surprising comparison]</td><td>[Value]</td><td>[Why it matters]</td></tr>
+      </table>
+      <p class="property-meta">[One honest downside.] &nbsp; <a href="https://templetxhomes.net/homes-for-sale-temple-tx/?utm_source=beehiiv&amp;utm_medium=newsletter&amp;utm_campaign=monthly-market-update"><strong>View current Temple homes and local guides →</strong></a></p>
+    </div>
+
+    <div class="tip-band">
+      <p class="tip-number">07 / The useful move</p>
+      <h2>[The practical action to take this month]</h2>
+      <p>[A short buyer, seller, homeowner, maintenance, tax, insurance, or relocation tip. State what to do, why now, and what varies by property.]</p>
+    </div>
+
+    <div class="section">
+      <table class="section-head" role="presentation">
+        <tr><td class="section-index">08</td><td><p class="section-label">This month's extra</p><h2 class="section-title">One local advantage you can actually use.</h2></td></tr>
+      </table>
+      <div class="extra-box">
+        <p><strong>[Choose one:]</strong> homeowner value-add project, local business note, neighborhood detail, approved client/home story, maintenance calendar, or relocation reality check. [Add the human context and one useful takeaway.]</p>
+        <span class="source-tag tag-taylor">Personal experience</span>
+      </div>
+    </div>
+
+    <div class="field-note">
+      <p class="field-note-label">09 / Taylor's field note</p>
+      <p class="quote-mark">“</p>
+      <blockquote>[One blunt observation from showings, listings, conversations, inspections, or negotiations this month.]”</blockquote>
+      <p class="field-note-byline">Taylor Dasch &nbsp; / &nbsp; EG Realty &nbsp; / &nbsp; Temple, Texas</p>
+    </div>
+
+    <div class="cta-section">
+      <p class="cta-kicker">Ask the local market desk</p>
+      <h2>What are you trying to figure out?</h2>
+      <p>Reply with a neighborhood, property, or market question. Taylor will answer personally and pull the numbers that matter.</p>
+      <a class="cta-button" href="mailto:dealswithdasch@gmail.com?subject=Temple%20market%20question">Reply to Taylor</a>
+      <div class="quick-links"><strong>Quick links:</strong><br>[Latest useful video] &nbsp; / &nbsp; [Current local guide] &nbsp; / &nbsp; <a href="https://calendly.com/dealswithdasch">Schedule a call</a></div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-rule"></div>
+      <strong>Taylor Dasch with EG Realty</strong><br>
+      Real Estate Agent &nbsp; / &nbsp; Temple, Texas<br>
+      254-718-4249 &nbsp; / &nbsp; dealswithdasch@gmail.com &nbsp; / &nbsp; templetxhomes.net<br><br>
+      Market information is date-stamped and should be rechecked before a real estate decision. Beehiiv adds unsubscribe, mailing-address, and preference links at delivery.
+    </div>
+  </div>
+</body>
+</html>

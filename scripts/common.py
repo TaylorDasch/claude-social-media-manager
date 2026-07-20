@@ -91,15 +91,20 @@ def load_banned_words() -> list[str]:
 
     # Parse the banned/replacement table
     for line in gate1_text.splitlines():
-        m = re.match(r"\|\s*([^|]+?)\s*\|\s*[^|]+\s*\|", line)
+        m = re.match(r"\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|", line)
         if not m:
             continue
         word = m.group(1).strip()
+        replacement = m.group(2).strip()
         lower = word.lower()
         # Skip header row and markdown separator row
         if lower in ("banned", "don't"):
             continue
         if set(word) <= set("-|: "):
+            continue
+        # A same-term replacement is a governance no-op, usually left behind
+        # after an entity-name migration. Do not ban the required current term.
+        if word.casefold() == replacement.casefold():
             continue
         banned.append(lower)
 

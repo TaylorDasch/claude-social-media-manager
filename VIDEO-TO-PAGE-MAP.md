@@ -1,6 +1,6 @@
 # Video-to-Page Mapping — AEO/GEO Optimization
 > Generated: 2026-03-21
-> Audited: 2026-07-13
+> Audited: 2026-07-19
 > Goal: Embed the right YouTube video on each website page to create bidirectional authority signals that AI engines cite
 
 ## Strategy
@@ -57,6 +57,12 @@ Every website page should have at least ONE relevant YouTube video embedded. Eve
 | "Buying a House for $75k! Full BRRRR Breakdown" | `/investing/brrrr-strategy-temple-tx/` | BiggerPockets audience search term |
 | "Austin vs Temple: Where the REAL Cash Flow Is" | `/temple-vs-austin-investing/` | Major geo-arbitrage search query |
 | "$45k Instant Equity! Temple TX Pre-Foreclosure Tour" | `/investing/pre-foreclosures-temple-tx/` | High intent investor query |
+
+### Planned pairing — companion page built locally; neither asset is public yet
+
+| Planned YouTube Video | Planned Page | Release gate |
+|---|---|---|
+| "I Stress-Tested 4 House Hacks Near Fort Hood—Here’s What I Found" | `/house-hacking-temple-tx/` | Canonical page packet built and vetted locally on 2026-07-19. Keep unmapped from live embed/health checks until the page resolves publicly and the video has a public ID |
 
 ## Implementation Notes
 - Every embedded video should use VideoObject schema markup
