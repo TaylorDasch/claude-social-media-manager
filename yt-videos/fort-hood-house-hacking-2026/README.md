@@ -1,29 +1,50 @@
-# Fort Hood House-Hacking Video
+# What Makes a Good House Hack?
 
-**Built:** 2026-07-19  
-**Channel:** Living in Temple TX  
-**Status:** BLOCKED for filming — research and conditional production plan complete  
-**Target length:** 10:30–12:00  
-**Working premise:** four property failure modes, one repeatable pass/fail screen
+**Built:** 2026-07-19 · **Investor audience refit:** 2026-07-20 · **Informational pivot:** 2026-07-20
+
+**Channel:** Investing in Temple
+
+**Status:** SCRIPTED — informational package complete; Taylor approval required before `READY_TO_FILM`
+
+**Target length:** 10:15–11:00
+
+**Working premise:** five tests, three recurring examples, one clear answer
 
 ## Decision
 
-Do not make the recovered Temple-only “house hacking 101” video. Make a buyer-first Fort Hood corridor stress test:
+Make an evergreen informational video for somebody considering property number one:
 
-> **I Stress-Tested 4 House Hacks Near Fort Hood—Only 2 Passed**
+> A good house hack is legal, available and realistic for the buyer to occupy, financeable as the property actually exists, affordable without perfect rent, and resilient through vacancy, repairs, and a future move.
 
-Use that count-specific title only if the refreshed four-property scorecard produces exactly two documented passes and two documented fails, with zero holds. The locked safe title is:
+The video should answer three questions in plain language:
 
-> **I Stress-Tested 4 House Hacks Near Fort Hood—Here’s What I Found**
+1. What makes a house hack good?
+2. What makes one a poor fit or not ready today?
+3. Why does each difference matter?
 
-The four places stay in the video, but as property archetypes—not a fair city ranking:
+Use examples to prove the framework, not as four separate property or city reports.
 
-- **Killeen:** true 2–4-unit case; highest trailing-year closed count among the three Bell County cities in the export.
-- **Copperas Cove:** legal-unit, parcel, utility/septic, appraisal, and financing-classification wildcard.
-- **Harker Heights:** conflicting lease/vacancy evidence and the owner-occupancy trap.
-- **Temple:** higher historical per-unit basis plus address-specific condition and route tradeoffs.
+## Recommended click package
 
-This belongs on Living in Temple TX because the viewer is choosing a primary residence and trying to lower effective housing cost. It is not framed as a passive-income or “get rich” video.
+**Title:** `What Makes a Good House Hack? 5 Tests Before You Buy`
+
+**Thumbnail:** `RENT ISN’T ENOUGH`
+
+The title promises an evergreen decision framework. The thumbnail supplies the contradiction: advertised rent is important, but it is not the first or only test.
+
+## Viewer and channel decision
+
+The primary viewer is an aspiring first-time investor willing to owner-occupy property number one. Public copy uses experience-stage language rather than age-targeted housing language.
+
+This belongs on `Investing in Temple` because the primary viewer is an aspiring investor and the core decision is whether property number one works as an owner-occupied investment. Owner occupancy is part of the strategy; it does not make the video relocation or general buyer content. Military/VA appears only as one short eligible-buyer financing example and does not control the title, thumbnail, hook, CTA, closing, hashtags, or end screen.
+
+## Three recurring examples
+
+- **Potentially good candidate:** documented legal duplex, one unit available, known utility/lease setup, supported rent, full costs counted, and a buyer who can evaluate the payment with rent at zero.
+- **Not ready for this plan today:** fully leased duplex with no legal unit available inside the lender-confirmed occupancy window.
+- **HOLD until verified:** house plus guest house, converted garage, or second dwelling whose legal use, parcel, utilities, appraisal, insurance, or financing treatment is unclear.
+
+These are labeled archetypes or anonymized composites unless a real property is independently verified and cleared for public use.
 
 ## Package
 
@@ -33,18 +54,26 @@ This belongs on Living in Temple TX because the viewer is choosing a primary res
 - [Shot list and graphics](./SHOT-LIST.md)
 - [Launch package](./LAUNCH-PACKAGE.md)
 - [Film-day checklist](./FILM-DAY-CHECKLIST.md)
-- [House-hack deal screen](./HOUSE-HACK-DEAL-SCREEN.md)
+- [Five-test property screen](./HOUSE-HACK-DEAL-SCREEN.md)
 - [Existing CTA asset safety audit](./CTA-ASSET-AUDIT.md)
-- [Fable/Opus adversarial audit prompt](./FABLE-AUDIT-PROMPT.md)
+- [Extreme Fable audit and action prompt](./FABLE-AUDIT-PROMPT.md)
 - [Council prompt](./council-prompt.md)
-- [Quality review and release verdict](./QUALITY-REVIEW.md)
+- [Quality review](./QUALITY-REVIEW.md)
 
-## Hard holds before filming
+## Why this replaced the four-property stress test
 
-1. Pull dedicated current Copperas Cove/Coryell County 2–4-unit sales data.
-2. Refresh all four candidate properties, leases, prices, and availability within 48 hours of filming.
-3. Obtain address-specific lender scenarios and insurance/tax inputs; do not use the national rate benchmark as a borrower quote.
-4. Confirm access and filming permission; use public-road exteriors only when permission is absent.
-5. Complete all four address-specific cost cards before using any `Real 2026 Math` title.
+- It answers Taylor’s clarified viewer question directly.
+- It stays useful when listings, rents, and loan scenarios change.
+- It needs one clean full-cost example rather than four separate underwriting packages.
+- It preserves the strongest existing material: legal use, owner occupancy, full-cost math, rent-at-zero stress, honest HOLD logic, and the `HACK + address` CTA.
+- It avoids turning Killeen, Copperas Cove, Harker Heights, and Temple into an artificial city ranking.
 
-No builder incentive is needed or mentioned. No publishing, CRM action, outreach, or live-site change was performed.
+## Before filming
+
+1. Taylor approves the title, thumbnail, and script direction.
+2. Choose anonymized/composite examples or verify any real example and public-use permission.
+3. Recheck the few official financing statements on filming day.
+4. Confirm permission for any recognizable property footage; generic diagrams and public-road exteriors are the fallback.
+5. Do not add current price, rent, rate, incentive, or listing claims without dated evidence.
+
+No builder incentive is needed or mentioned. No upload, publish, CRM action, outreach, or live-site change has been performed. The internal folder keeps its older slug only for research lineage; the public package is an evergreen good-versus-poor-fit house-hacking guide.

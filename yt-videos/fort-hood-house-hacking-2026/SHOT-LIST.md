@@ -1,180 +1,152 @@
-# Shot List and Graphics Plan
+# Shot List and Graphics Plan — What Makes a Good House Hack?
 
-**Target cut:** 10:30–12:00  
-**Visual rule:** a meaningful change every 5–8 seconds in the opening and every 7–10 seconds afterward.  
-**Property rule:** no interior footage without permission; no stale listing represented as current.  
-**Military rule:** Taylor wears civilian clothing and is never portrayed as a service member.
+**Target cut:** 10:15–11:00
+
+**Production style:** clear informational desk video with a persistent five-test board and a few carefully labeled examples
+
+**Editorial rhythm:** meaningful crop, caption, diagram state, evidence receipt, example-board change, or B-roll insert every 5–8 seconds; the table below marks anchor beats, not every micro-reset
+
+## Visual thesis
+
+The viewer should feel that Taylor is teaching a dependable screening process, not touring four listings. Use one visual system throughout:
+
+- five numbered tests across the top;
+- three example rows down the side;
+- green `POTENTIALLY STRONG`, amber `HOLD`, and red `NOT READY FOR THIS PLAN TODAY` states;
+- evidence fields filling in before any verdict appears;
+- `ANONYMIZED COMPOSITE — TEACHING EXAMPLE` on every example card.
+
+Never display `GOOD INVESTMENT`, `BAD INVESTMENT`, `APPROVED`, or a return promise.
 
 ## A-roll setups
 
-| Setup | Use | Notes |
+| Setup | Job | Notes |
 |---|---|---|
-| Desk + persistent four-row scorecard | Cost cards, evidence qualifiers, final verdicts | Eye-level, 35–50mm equivalent, lav + backup audio |
-| Neutral exterior near a permissioned duplex | Cold open and property transitions | Avoid visible occupants, neighboring addresses, and plates |
-| Parked-car stand-up at a legal public location | Re-hooks between cases | Engine off; never record while driving |
-| Map/screen-share desk | Official sources and exact-address route | Crop client data, private MLS remarks, logins, and tabs |
+| Primary desk or standing board | Roughly 75% of the cut | Eye-level camera, uncluttered background, lav plus backup audio |
+| Permissioned or generic duplex exterior | Hook and one transition | Public-road position or written permission; obscure addresses, plates, occupants, and neighboring details |
+| Overhead desk | Worksheet, lease timeline, full-cost card | Use fabricated/composite documents only |
+| Screen/evidence desk | One official-source receipt at a time | Crop tabs, logins, downloads, private remarks, and unrelated data |
 
-## Master shot sequence
+One primary A-roll session is sufficient. Do not create artificial city-report segments.
 
-The timestamp is the start of a new shot, crop, evidence card, animation state, or meaningful on-screen overlay. A long A-roll take may continue underneath, but the viewer must see a real visual change at each beat.
+## Master sequence
 
-| # | Time | Shot or visual reset | Audio/job | Source/permission |
-|---:|---|---|---|---|
-| 1 | 0:00 | Harker Heights exterior + verified price | Open on a specific candidate | Current candidate; public road or permission |
-| 2 | 0:04 | Both-unit rent total appears | Attractive listing surface | Verified lease/rent evidence |
-| 3 | 0:08 | Lease A and B bars extend past move-in marker | Reveal conflict | Redacted lease facts |
-| 4 | 0:12 | `FAILS BEFORE PAYMENT MATH` | First result inside 15 seconds | Custom graphic |
-| 5 | 0:16 | Taylor direct to lens | Reject generic “live free” framing | A-roll |
-| 6 | 0:21 | Lower third: Taylor Dasch · EG Realty | Required identity in sentence three | Brand graphic |
-| 7 | 0:27 | Five gates animate in one-by-one | Promise method | Custom graphic |
-| 8 | 0:32 | `MATH STOPPED — OWNER UNIT UNAVAILABLE` | Promise honest stopping rule | Custom graphic |
-| 9 | 0:35 | Killeen candidate exterior | First full case | Verified status/access |
-| 10 | 0:43 | Separate entrances/layout diagram | Define true multifamily | Original footage/diagram |
-| 11 | 0:51 | Persistent scorecard highlights Killeen | Orient viewer | Custom graphic |
-| 12 | 1:00 | Three-city closed-count bars | Historical transaction depth | Dated MLS aggregate |
-| 13 | 1:09 | Source footer zoom | Date, geography, window | Custom source slate |
-| 14 | 1:18 | Median close and per-unit card | Killeen context | Dated MLS aggregate |
-| 15 | 1:27 | Roommate icon separated from legal unit icon | Underwriting distinction | Original graphic |
-| 16 | 1:36 | VA official page receipt | Up-to-four-unit/occupancy rule | Official source + retrieval date |
-| 17 | 1:46 | `6 MONTHS PITI + EXPERIENCE/MANAGER` | VA prospective-rent conditions | VA handbook receipt |
-| 18 | 1:56 | HUD 1–4-unit card | FHA framework | Official HUD source |
-| 19 | 2:06 | FHA 3–4-unit self-sufficiency/reserve trap | Applies only to 3–4 units | Official HUD source |
-| 20 | 2:16 | Fannie DU matrix receipt | Some 2–4-unit cases up to 95% LTV | Official matrix |
-| 21 | 2:26 | `LOW DOWN ≠ LOW CASH ≠ APPROVAL` | Finance re-hook | Custom graphic |
-| 22 | 2:36 | Killeen legal/occupancy/loan gates fill | Property evidence | Redacted documents |
-| 23 | 2:46 | Four-output cost card + BAH context chip | Full cost, rent, zero-rent, 60-day need | Property-specific values + official BAH |
-| 24 | 2:52 | Honest downside + verdict stamp | Close case | Verified footage/evidence |
-| 25 | 2:55 | Cove exterior/second dwelling | New case | Verified/public-road/permission |
-| 26 | 3:04 | `TWO DWELLINGS ≠ TWO LEGAL UNITS` | Core re-hook | Custom graphic |
-| 27 | 3:13 | Cove rental-snapshot card | Rental relevance, not acquisition claim | Dated MLS aggregate |
-| 28 | 3:22 | Coryell evidence-gap card | No invented sales count | Custom source slate |
-| 29 | 3:31 | Parcel diagram | One parcel or two? | County/public record with date |
-| 30 | 3:40 | Legal-use/unit-count checklist | Classification gate | City/county evidence |
-| 31 | 3:49 | Water-meter visual | Shared or separate? | Permissioned/public visual; no inference |
-| 32 | 3:58 | Septic diagram/capacity field | Infrastructure gate | Verified record/inspection info |
-| 33 | 4:07 | Appraisal classification field | One unit, two units, or ADU? | Written lender/appraiser review |
-| 34 | 4:16 | Insurance classification field | Coverage question | Written estimate |
-| 35 | 4:25 | Listing-agent comment stamped `VERIFY` | Do not treat remarks as loan approval | Redacted abstract |
-| 36 | 4:34 | Owner-unit and loan-path gates fill | Hard-gate result | Current evidence |
-| 37 | 4:43 | Four-output cost card or `MATH STOPPED` | Comparable payoff | Same format as every case |
-| 38 | 4:52 | Honest downside + verdict stamp | Close case | Evidence-driven |
-| 39 | 4:55 | Harker exterior + rent overlay | Return to opening case | Verified candidate |
-| 40 | 5:04 | Lease A timeline | Occupancy evidence | Redacted lease fact |
-| 41 | 5:13 | Lease B timeline | Occupancy evidence | Redacted lease fact |
-| 42 | 5:22 | Lender-confirmed move-in marker | Compare exact dates | Written lender confirmation |
-| 43 | 5:31 | Conflicting source fields side-by-side | Remarks vs showing instruction conflict | Redacted MLS abstract |
-| 44 | 5:40 | `RESOLVE BEFORE CAMERA` | Evidence discipline | Custom graphic |
-| 45 | 5:49 | Owner-unit gate turns amber/red | Hard gate | Verified current result |
-| 46 | 5:58 | Payment card freezes | Stop false precision | Custom animation |
-| 47 | 6:07 | Historical Harker closed-data card | Context only | Dated MLS aggregate |
-| 48 | 6:16 | Small-sample rent card | Asking rent, n=9 | Dated MLS aggregate |
-| 49 | 6:25 | Full cost card only if occupancy clears | Conditional math | Property-specific evidence |
-| 50 | 6:34 | Honest downside + verdict stamp | Close case | Evidence-driven |
-| 51 | 6:35 | Temple candidate exterior | New case | Verified status/access |
-| 52 | 6:44 | Persistent scorecard highlights Temple | Orient viewer | Custom graphic |
-| 53 | 6:53 | Temple closed-count/median card | Historical context | Dated MLS aggregate |
-| 54 | 7:02 | Source-footer zoom | Exact period and n | Custom source slate |
-| 55 | 7:11 | Product-age/condition detail | Property-level contrast | Current footage |
-| 56 | 7:20 | Owner-unit evidence | Vacancy/lease gate | Redacted current document |
-| 57 | 7:29 | Exact address → exact Fort Hood gate route | Repeated-route test | Dated map/departure time |
-| 58 | 7:38 | Optional second repeated destination | Only if relevant to the example | Dated map |
-| 59 | 7:47 | City-label commute estimate crossed out | No universal commute claim | Custom graphic |
-| 60 | 7:56 | Legal/occupancy/loan gates fill | Property evidence | Current documents |
-| 61 | 8:05 | Four-output cost card | Comparable math | Property-specific values |
-| 62 | 8:14 | Rent toggles to zero | Vacancy stress | Custom animation |
-| 63 | 8:23 | Honest downside detail | Price/route/tax/condition | Verified footage/evidence |
-| 64 | 8:32 | Temple verdict stamp | Close case | Evidence-driven |
-| 65 | 8:35 | Taylor at four-row board | “Erase the list prices” | A-roll |
-| 66 | 8:44 | Column 1: full monthly property costs | Comparable output one | Four address-specific values |
-| 67 | 8:53 | Column 2: conservative rents | Comparable output two | Property-specific comps |
-| 68 | 9:02 | Column 3: rent-at-zero costs | Comparable output three | Same model |
-| 69 | 9:11 | Column 4: 60-day + repair cash need | Comparable output four | Labeled budget stress test |
-| 70 | 9:20 | Hard-gate failures display `MATH STOPPED` | No false precision | Custom graphic |
-| 71 | 9:29 | Killeen result enlarges | One-line deciding gate | Evidence-driven |
-| 72 | 9:38 | Cove result enlarges | One-line deciding gate | Evidence-driven |
-| 73 | 9:47 | Harker result enlarges | One-line deciding gate | Evidence-driven |
-| 74 | 9:56 | Temple result enlarges | One-line deciding gate | Evidence-driven |
-| 75 | 10:05 | Full scorecard + title-eligibility badge | Count follows evidence | Custom graphic |
-| 76 | 10:14 | `PASS TO SHORTLIST ≠ BUY` | Qualification | Custom graphic |
-| 77 | 10:20 | Decision tree: true 2–4 unit | Start lane | Custom graphic |
-| 78 | 10:29 | Decision tree: Cove legal-use wildcard | West-side lane | Custom graphic |
-| 79 | 10:38 | Decision tree: lease timing | Occupancy lane | Custom graphic |
-| 80 | 10:47 | Decision tree: exact route/condition | Temple lane | Custom graphic |
-| 81 | 10:56 | Full-payment warning with rent at zero | Final risk filter | Custom graphic |
-| 82 | 11:05 | Phone mockup: `HACK + listing link/address` | Single CTA | No fake reply or automation promise |
-| 83 | 11:14 | Taylor direct to lens | Explain follow-up questions | A-roll |
-| 84 | 11:20 | End screen | Six-town Fort Hood guide + subscribe | Add in Studio after upload |
+| Time | Anchor visual | Spoken job | Edit/graphic instruction |
+|---|---|---|---|
+| 0:00 | Attractive duplex exterior or clean original duplex illustration | Highest advertised rent may be first eliminated | Large rent number appears, then immediately de-emphasizes |
+| 0:04 | Rent card flips to five unchecked tests | Simple math misses five failure points | Fast mechanical checklist animation |
+| 0:09 | Taylor direct to lens | Identity sentence | Lower third: `Taylor Dasch · EG Realty · Central Texas` |
+| 0:15 | Five-test board fills left to right | State complete promise | Legal · Occupancy · Financing · Full cost · Resilience |
+| 0:26 | Three example silhouettes | Preview proof | Duplex · Fully leased duplex · Second dwelling |
+| 0:35 | Three-format house-hack diagram | Define the strategy | Roommate / legal second dwelling / owner-occupied 2–4 |
+| 0:48 | Primary residence icon plus rented-space highlight | Explain owner occupancy | Keep definition visual and neutral |
+| 1:02 | `NOT AUTOMATICALLY LIVE FREE` stamp | Remove hype | Avoid money raining, profit arrows, or wealth imagery |
+| 1:20 | Test 1 tab takes over screen | Legal setup | Board retains all five tests in header |
+| 1:28 | Two visible doors | “Two doors…” | Add `≠ TWO LEGAL UNITS` after one beat |
+| 1:40 | Main-house-plus-cottage site diagram | Introduce composite | Persistent composite label |
+| 1:54 | Evidence fields appear | Parcel, permits/use, utilities/septic | Use original mock records, never private MLS screens |
+| 2:08 | Appraisal · insurance · financing icons | Same structure may be treated differently | Do not imply one agency alone makes the final decision |
+| 2:24 | Amber `HOLD UNTIL VERIFIED` | Resolve example one for this test | Keep “not bad—unproven” caption on screen |
+| 2:38 | Test 2 tab | Occupancy and livability | Reset board, preserve example rows |
+| 2:46 | Lease bars on a timeline | Fully leased duplex | Owner-occupancy marker enters before lease end |
+| 2:59 | Red timing collision | No legal unit available on time | Caption `PLAN-SPECIFIC CONFLICT` |
+| 3:10 | Split wall/parking/utility diagram | Livability questions | Cycle privacy, noise, parking, utilities, laundry |
+| 3:28 | Taylor to lens, slight punch-in | “Can you stand living there?” | Leave one clean half-second before and after line |
+| 3:45 | Operator-fit mini checklist | Living beside/with renters | `TECHNICALLY POSSIBLE ≠ RIGHT FOR YOU` |
+| 3:51 | Test 3 tab | Exact financing and cash | One official-source receipt follows, not a program lecture |
+| 4:02 | Generic low-down claim card | Show common shortcut | Stamp `NOT AN ADDRESS-SPECIFIC APPROVAL` |
+| 4:15 | Exact-property review flow | Borrower + property + plan | Borrower → address → appraisal/property → lender decision |
+| 4:30 | FHA/conventional/eligible-VA icons | Multiple possible paths | VA icon remains secondary and equal-sized |
+| 4:45 | Three-part type card | Low down versus cash versus approval | Reveal `LOW DOWN ≠ LOW CASH ≠ APPROVAL` one phrase at a time |
+| 5:00 | Questions-for-lender card | Rent treatment, cash, condition, appraisal | No invented borrower answer |
+| 5:12 | Test 4 tab | Full monthly number | Re-hook: attractive listing becomes fragile plan |
+| 5:22 | Principal-and-interest-only card | Show incomplete shortcut | Card visibly expands |
+| 5:32 | Full-cost stack | Add taxes, insurance, fee/MI, utilities, HOA, maintenance/turnover | Use categories, not current local amounts |
+| 5:52 | Four rent columns | Separate rent concepts | Advertised · supported · lender-counted · budgeted |
+| 6:14 | Advertised number blurs; supported range remains | Marketing claim versus evidence | Avoid implying a range without a dated source |
+| 6:28 | Legal duplex composite | Potentially stronger example | One unit available, leases/utilities documented |
+| 6:42 | Rent toggle drops to $0 | Stress the full cost | Label `TEACHING STRESS TEST — NOT A RULE` |
+| 6:55 | Test 5 tab | Bad month and landlord reality | Add one repair icon beside zero-rent state |
+| 7:08 | Calm “ordinary bad month” graphic | Avoid disaster framing | No dramatic foreclosure imagery |
+| 7:22 | Landlord task wheel | Screening, lease, deposits, maintenance, records | Include `SELF-MANAGE OR PRICE MANAGEMENT` |
+| 7:44 | Roommate/friend text bubble | Late-rent interpersonal friction | Fabricated conversation only; no real contact screen |
+| 7:58 | Move-out arrow and future-property diagram | Post-move use | Options: keep/review, sell/review, change plan/review |
+| 8:15 | Completed three-row matrix | Put all tests together | Reveal results only after evidence cells fill |
+| 8:27 | Legal duplex row | Potentially strong candidate | Green outline, not green “buy” button |
+| 8:44 | Fully leased duplex row | Not ready for this plan today | Red timing field, neutral property outline |
+| 9:00 | Second-dwelling row | HOLD | Amber question fields: use, parcel, utilities, appraisal, insurance, loan |
+| 9:18 | City names appear equally | City does not decide | Temple · Killeen · Harker Heights · Copperas Cove |
+| 9:30 | Five-step search ladder | Exact order to use | Match script order, one rung per sentence |
+| 9:48 | Property card exits before rent math | Early elimination is useful | Caption `FEWER TOURS. BETTER QUESTIONS.` |
+| 10:08 | Taylor direct to lens | Transition to CTA | Return to calm full-frame A-roll |
+| 10:18 | Phone CTA graphic | `HACK + listing/address` | `254-718-4249`; address/listing only |
+| 10:32 | Privacy line | Do not text sensitive financial data | Small icons for bank/credit/account crossed out |
+| 10:40 | Five-test board, all labels visible | Closing definition | End-screen safe area remains clear on right |
+| 10:48 | End screen | Next `Investing in Temple` video | Use the best verified investor next step; no Living-channel relocation default |
 
-## Required property footage per candidate
+## Mandatory micro-resets
 
-1. Legal public-road establishing shot or permissioned exterior.
-2. Separate entrances and unit identification without exposing tenant information.
-3. Utility meters/boxes only as a visual question; do not infer legal units.
-4. One layout feature affecting privacy or owner-occupant usability.
-5. One condition/capital-expenditure detail.
-6. Parking, yard, common-area, or access constraint.
-7. Redacted document proof for lease/occupancy—not a screen full of confidential MLS remarks.
-8. Source slate: address, status, price, date verified, and “example only.”
+Between anchor beats, the editor should rotate only meaningful resets:
 
-## Graphics specifications
+- 105%–115% A-roll crops;
+- one-phrase kinetic captions;
+- the active test changing color;
+- a single evidence field checking on;
+- an example row receiving a state;
+- original property/layout diagrams;
+- a cropped official-source title/date receipt;
+- overhead worksheet detail;
+- one exterior or neighborhood texture shot.
 
-### Persistent four-row scorecard
+Avoid generic stacks of cash, fake tenant handshakes, luxury-house montage, military stock footage, builder logos, or random drone shots that imply the featured examples are real properties.
 
-Columns:
+## Film-day pickup list
 
-`PROPERTY | LEGAL | OWNER UNIT | LOAN PATH | FULL COST | EXIT STRESS | VERDICT`
+- Taylor delivers the first three sentences in one uninterrupted take.
+- Taylor points to each of the five tests individually and then all five together.
+- Neutral listening/reaction beats for graphic overlays.
+- Overhead hand marking `HOLD`, `POTENTIALLY STRONG`, and `NOT READY TODAY`.
+- Hands expanding principal-and-interest into the full-cost stack.
+- Finger toggling budgeted rent to zero.
+- One wide, medium, and tight clean plate at the primary setup.
+- Ten seconds of room tone and each exterior ambience bed.
+- Permissioned/generic exterior: wide, entrances, dividing wall, meters/utility concept, parking—without address or occupants.
 
-Use three states only:
+## Graphics build list
 
-- Green: documented pass.
-- Amber: material fact unverified.
-- Red: documented incompatibility for this owner-occupancy plan.
-
-Never convert the scorecard into an investment rating or universal city ranking.
-
-### Comparable four-output cost card
-
-Show the same four top-line outputs for every property that clears the first three hard gates:
-
-1. **Full monthly property cost.**
-2. **Conservative property-specific rent contribution.**
-3. **Full monthly cost with rent at zero.**
-4. **Two months of full cost plus one clearly labeled repair assumption.**
-
-The detailed full-cost build includes:
-
-- Principal and interest.
-- Property taxes.
-- Home/landlord-appropriate insurance estimate.
-- Mortgage insurance or funding-fee treatment.
-- Owner-paid utilities/common-area expense.
-- HOA/special assessment if applicable.
-- Maintenance/turnover reserve assumption.
-- Less conservative rent contribution.
-
-Label qualification rent and budgeting rent separately. Do not use a lender’s rent credit as a claim about actual cash received. Label the 60-day output `household budget stress test—not lender-required reserves`.
-
-### Source footer standard
-
-Every numeric graphic gets a small footer:
-
-`Source · geography/address · period/snapshot · sample n · retrieval/verification date`
+1. Five-test master board.
+2. Three-format house-hacking diagram.
+3. `Two doors ≠ two legal units` card.
+4. Legal-use evidence checklist.
+5. Lease/occupancy timeline.
+6. Livability checklist.
+7. Exact-property lender-review flow.
+8. `LOW DOWN ≠ LOW CASH ≠ APPROVAL` card.
+9. Full-cost stack.
+10. Four-rent-concepts card.
+11. Zero-rent-plus-one-repair teaching scenario.
+12. Landlord/operator task wheel.
+13. Three-example final matrix.
+14. Five-step search ladder.
+15. CTA and privacy-safe texting card.
 
 ## Thumbnail capture
 
-Film during the scorecard setup:
+Recommended concept for `RENT ISN’T ENOUGH`:
 
-- Taylor chest-up, civilian attire, analytical expression—not exaggerated shock.
-- One hand gesturing toward a four-row board.
-- Clean negative space for `2 PASS / 2 FAIL` or `PASS OR FAIL?`.
-- Capture front-facing, slight left turn, and slight right turn.
-- Do not pose with cash, keys, a uniform, builder sign, or fake `$0` badge.
-- Use `2 PASS / 2 FAIL` only with two documented passes, two documented fails, and zero holds.
+- Taylor in medium close-up, looking at a clean rent card rather than pointing theatrically.
+- Duplex silhouette on one side.
+- Large rent figure or `RENT` label crossed by an amber warning line—not a red X over the property.
+- Maximum three thumbnail words plus the visual rent cue.
+- No loan percentage, city list, dollar savings, builder logo, or military imagery.
 
-## Solo-production fallback
+Capture alternatives for `DON’T START WITH RENT` and `GOOD vs BAD`, but do not design all three before Taylor selects the first test.
 
-- Film all A-roll in one desk setup.
-- Capture exterior/public-road B-roll on a separate city route.
-- Replace permission-denied interiors with an original property diagram and redacted evidence cards.
-- Use screen recordings of official sources and custom graphics; never screen-record private client or MLS fields.
-- Record scratch VO first so B-roll length matches the final edit.
+## Rights, privacy, and accessibility
+
+- Every real exterior requires public-road capture or documented permission; no interiors without permission.
+- Never reveal tenants, children, plates, lockboxes, access codes, leases, signatures, phone numbers, email addresses, MLS-only remarks, or neighboring addresses.
+- Use fabricated composite paperwork for teaching inserts.
+- Burn in accurate captions and keep graphics inside mobile-safe margins.
+- Do not rely on red/green alone; pair every state with text and an icon.
+- Maintain readable contrast and leave each evidence card visible long enough to understand.

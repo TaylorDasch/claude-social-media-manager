@@ -199,9 +199,10 @@
     "persona": "General",
     "platform": "tiktok",
     "pairsWith": "Market update",
-    "status": "fresh",
+    "status": "retired",
     "dateCreated": "2026-04-02",
-    "dateUsed": null
+    "dateUsed": null,
+    "retiredReason": "Unsupported blended-market count from stale/open-status rows; do not use"
   },
   {
     "id": "HK-018",
@@ -273,6 +274,18 @@
     "pairsWith": "Marrow mobile audit",
     "status": "fresh",
     "dateCreated": "2026-06-19",
+    "dateUsed": null
+  },
+  {
+    "id": "HK-021",
+    "text": "Only one in seven active Temple-Belton listings in the 0-to-30-day group showed a prior price cut; after day 90, four in five did",
+    "formula": "Comparison Trap",
+    "pillar": "Market Data",
+    "persona": "General",
+    "platform": "youtube",
+    "pairsWith": "July 2026 Temple-Belton buyer market update",
+    "status": "fresh",
+    "dateCreated": "2026-07-20",
     "dateUsed": null
   }
 ]

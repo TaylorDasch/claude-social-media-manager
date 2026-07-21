@@ -27,7 +27,7 @@ Every website page should have at least ONE relevant YouTube video embedded. Eve
 | `/bell-county-tax-protest-guide/` | FILM: "Bell County Tax Protest" (TikTok script exists, expand to long-form) | Living |
 | `/mud-vs-pid-taxes-temple-belton-tx/` | "Windmill Farms Deep Dive: Calculating MUD Taxes and HOAs" (FILM THIS) | Living |
 | `/sell-house-by-owner-temple-tx/` | "The FSBO Strategy That Actually Works in 2026" | Living |
-| `/investing/temple-tx-market-report/` | "What's Really Happening to Temple TX Home Prices? (Jan 2026)" | Living |
+| `/temple-tx-market-update/` | "Temple, Texas Market Forecast: The Numbers Don’t Lie" (`pph_QEB7E-E`); replace primary embed with the July Day-60 update after it publishes | Living |
 | `/best-areas-long-term-rentals-temple-belton/` | "Temple TX Long Term Rental — $150K — Buy & Hold Strategy Breakdown" | Investing |
 | `/assumable-loans-temple-tx/` | "No Credit Check, No Banks, 2.5% Interest Rate Belton, TX" | Living |
 | `/deal-analyzer/` | FILM: "How to Analyze a Temple TX Buy-and-Hold (Live Spreadsheet)" | Investing |
@@ -62,7 +62,8 @@ Every website page should have at least ONE relevant YouTube video embedded. Eve
 
 | Planned YouTube Video | Planned Page | Release gate |
 |---|---|---|
-| "I Stress-Tested 4 House Hacks Near Fort Hood—Here’s What I Found" | `/house-hacking-temple-tx/` | Canonical page packet built and vetted locally on 2026-07-19. Keep unmapped from live embed/health checks until the page resolves publicly and the video has a public ID |
+| "What Makes a Good House Hack? 5 Tests Before You Buy" | `/house-hacking-temple-tx/` | `Investing in Temple` evergreen five-test package for a first-investment viewer. The canonical page packet exists locally; keep the pair outside live embed/health checks until the page resolves publicly and the video has a public ID. |
+| "Temple & Belton Housing Market: The 60-Day Listing Test" | `/temple-tx-market-update/` | `Living in Temple` buyer/relocation update. Package is `READY_TO_FILM`; the July 20 explicit Status/Property-Type gate is cleared. Refresh the stale page data, then add the public video ID and complete VideoObject schema only after Taylor approves, the video is filmed, and it is published. |
 
 ## Implementation Notes
 - Every embedded video should use VideoObject schema markup

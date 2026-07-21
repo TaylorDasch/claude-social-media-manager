@@ -1,182 +1,161 @@
-# Verbatim Script — Fort Hood House-Hack Stress Test
+# Verbatim Script — What Makes a Good House Hack?
 
-## 0:00–0:35 — Cold open: the leased-duplex trap
+**Target runtime:** 10:15–11:00
 
-**A-roll, direct to lens; Harker Heights exterior and lease timeline**
+**Delivery:** direct, practical, skeptical of shortcuts
 
-If you are PCSing to Fort Hood or buying your first owner-occupied duplex, this **[VERIFIED PRICE]** Harker Heights property collects **[VERIFIED TOTAL RENT]** from both sides—and still fails before payment math because neither legal unit is available by **[LENDER-CONFIRMED OCCUPANCY DATE]**.
+**On-screen label for all property examples:** `ANONYMIZED COMPOSITE — TEACHING EXAMPLE`
 
-By the end, you will know which property deserves a tour, which document can stop it, and what full cost looks like when rent drops to zero.
+## 0:00–0:35 — Hook
 
-I’m Taylor Dasch with EG Realty, and I’m putting four Fort Hood-area properties—one each in Killeen, Copperas Cove, Harker Heights, and Temple—through the same five gates.
+The house hack with the highest advertised rent may be the first one you should eliminate.
 
-**[GRAPHIC: LEGAL UNIT · OWNER UNIT · LOAN PATH · FULL COST · EXIT STRESS]**
+A good house hack has to clear five tests that listing photos and simple rent-minus-mortgage math usually miss.
 
-One unavailable owner unit stops the math. For every property that survives, I’ll show the full payment, conservative rent, the payment with rent at zero, and a sixty-day bad-month test.
+I’m Taylor Dasch with EG Realty, a local real-estate agent, and I’ll show you what works, what doesn’t, and why—using Central Texas examples as we go.
 
-**[STAMP: MATH STOPPED — OWNER UNIT UNAVAILABLE]**
+Here are the five tests: Is the rental setup legal? Can you actually occupy it and live with the setup? Will the exact property and plan finance? Does the full monthly number work? And can the plan survive a bad month, the reality of being a landlord, and your eventual move?
 
-### Production status — not spoken
+Miss one of those, and an exciting listing can become the wrong first property.
 
-**Target:** 10:30–12:00  
-**Status:** structure locked; film-day copy remains conditional  
-**Do not record any bracketed value as written. Verify it within 48 hours of filming.**
+## 0:35–1:22 — What house hacking actually means
 
-## 0:35–2:55 — Killeen: the true-multifamily example
+House hacking means buying a primary residence, living there, and renting part of it to help offset your housing cost.
 
-**Film-day candidate: [VERIFIED KILLEEN ADDRESS]**  
-**Graphic fields: [PRICE] · [UNITS] · [VACANCY/LEASE] · [TAX] · [INSURANCE] · [ASK/COMP RENT]**
+That could mean renting a bedroom to a roommate. It could mean living in the main house and renting a legal second dwelling. Or it could mean occupying one unit of a duplex, triplex, or fourplex and renting the others.
 
-Start with Killeen because it had the highest trailing-year two-to-four-unit closed count among the three Bell County cities in this export.
+The goal does not have to be “live for free,” and a house hack does not automatically cash flow. For property number one, the value may be reducing your housing cost, learning the rental business, and owning something that can still make sense after you move.
 
-From July first, twenty twenty-five through June twenty-fifth, twenty twenty-six, the MLS export recorded one hundred forty-one closed two-to-four-unit sales in Killeen. Temple had thirty-two and Harker Heights had twenty-seven. Copperas Cove was not covered comparably, so I will not invent a Cove sales count.
+But a good house hack is not simply the property with the most doors. It is the property that fits your occupancy plan, your financing, your budget, and your willingness to live beside—or sometimes with—renters.
 
-**[GRAPHIC: KILLEEN 141 · TEMPLE 32 · HARKER HEIGHTS 27 · CTXMLS CLOSED 7/1/25–6/25/26]**
+## 1:22–2:38 — Test 1: Is the rental setup legal?
 
-Killeen’s median close was three hundred thirty thousand dollars and one hundred forty-two thousand five hundred dollars per unit.
+Start with the least exciting question because it can end the analysis fastest: is the space you plan to rent legally usable the way you intend?
 
-For this video, a true multifamily house hack means you occupy one legal unit as your home and rent at least one other legal unit. A roommate plan is different, and proposed roommate income is not automatically treated like rent from a separate unit.
+Two doors do not prove two legal units. A converted garage, guest house, or second kitchen may look rentable without being recognized the same way by local records, the appraiser, insurer, or lender.
 
-For an eligible borrower, VA purchase financing may cover a property with up to four units when the borrower occupies the home. If projected rent from the other units is used to qualify, the current VA handbook calls for six months of principal, interest, taxes, and insurance reserves plus evidence of likely landlord success through prior experience or a property manager. The lender still decides what documented rent it will count. FHA covers eligible owner-occupied one-to-four-unit properties; a three- or four-unit FHA case adds a self-sufficiency test and three months of PITI reserves. Some automated-underwriting conventional two-to-four-unit purchases may allow up to ninety-five percent loan-to-value. None of those program maximums is a borrower quote.
+Take a house with a second dwelling behind it. It looks perfect: live in one, rent the other. But without documented use, parcel and utility facts, and appraisal and insurance treatment, the answer is not “good deal.” It is **HOLD until verified**.
 
-**[GRAPHIC: LOW DOWN PAYMENT ≠ LOW CASH NEEDED ≠ PROPERTY APPROVAL]**
+That does not mean the property is bad. It means the strategy is still a guess.
 
-Now the address.
+The evidence varies by property and jurisdiction. Use public records, seller-authorized documents, and the appropriate local professionals. Do not let listing language substitute for proof.
 
-Legal-unit gate: **[DOCUMENTED RESULT]**. Owner-unit gate: **[LEASE/VACANCY RESULT]**. Loan-path gate: **[DATED LENDER RESULT—NO BORROWER APPROVAL CLAIM]**.
+## 2:38–3:51 — Test 2: Can you occupy it—and can you live with it?
 
-If those three clear, build the same cost card we will use for every viable candidate:
+House hacking begins with owner occupancy, so you need a legal space that will actually be available inside the timing your lender confirms.
 
-**[CARD]**
+Here is example two: a fully leased duplex. Both units are producing rent, which looks great on a spreadsheet. But if neither unit will be available when the buyer must occupy the property, it may not be house-hack-ready for this plan today.
 
-- Full monthly property cost: **[P&I + TAX + INSURANCE + MI/FEE TREATMENT + OWNER UTILITIES + HOA + RESERVE]**
-- Conservative rent contribution: **[PROPERTY-SPECIFIC COMP RESULT]**
-- Full cost with rent at zero: **[AMOUNT]**
-- Sixty-day bad-month cash need: **[2 × FULL MONTHLY COST + LABELED REPAIR ASSUMPTION]**
+That is not a universal verdict. It may work for another buyer or another time, but it does not fit this owner-occupancy plan unless the lease and possession facts support it.
 
-The July thirteenth rental snapshot showed a median three-bedroom asking rent of twelve-fifty across thirty-two Killeen multifamily-marketed units. That is context—not achieved rent and not the comp for this address.
+Then ask the question spreadsheets ignore: can you stand living there?
 
-For context only, the official twenty twenty-six Fort Hood BAH lookup showed sixteen ninety-five per month for an E-five with dependents and fifteen-thirty without dependents, using duty ZIP seven-six-five-four-four when checked July nineteenth. BAH is not a preapproval and does not prove the property is affordable.
+How much privacy is there? Who parks where? Who pays shared utilities? Are you comfortable enforcing a lease with somebody through the wall—or down the hall?
 
-The honest downside here is **[CONDITION / LEASE / UTILITY / TURNOVER ISSUE]**.
+A technically possible arrangement can still be a poor house hack for the person buying it. Lifestyle fit is part of the underwriting.
 
-Killeen verdict: **[PASS TO SHORTLIST / HOLD / FAIL FOR OWNER-OCCUPANCY TODAY]**, because **[ONE DOCUMENTED REASON]**.
+## 3:51–5:12 — Test 3: Will the exact property and plan finance?
 
-## 2:55–4:55 — Copperas Cove: two dwellings may not equal two units
+This is where people jump from “I heard there is a low-down-payment program” to “I can buy this property.” Here is the buyer warning: those are not the same statement.
 
-**Film-day candidate: [VERIFIED COPPERAS COVE ADDRESS]**
+Some owner-occupied programs can work with one-to-four-unit properties. But the borrower, classification, condition, appraisal, occupancy plan, cash requirement, and lender all have to fit. Eligible VA buyers may have another path, but eligibility does not approve a property.
 
-Now we leave the easy label of “true duplex,” and this is where a useful-looking second dwelling can become a legal, appraisal, insurance, septic, or financing problem.
+So remember this:
 
-The July thirteenth rental snapshot contained thirty-six Copperas Cove listings explicitly marketed with multifamily language. Twenty-eight were three-bedroom units, with a fourteen-fifty median asking rent. Those are asking rents—not executed leases or a promise for this property.
+**Low down payment does not mean low cash needed. Low cash does not mean approval. And a program maximum does not mean your exact property qualifies.**
 
-For acquisition evidence, I still need a dedicated current Coryell County two-to-four-unit pull before filming. The Bell County sales export did not cover Cove well enough for a fair comparison.
+Your lender needs the real address, property type, leases, and occupancy plan. Ask what rent, if any, may count; what documentation is required; what cash to close looks like; and whether condition or configuration creates another issue.
 
-If this candidate is a true duplex, we document that. If it is two homes, a guest house, a manufactured-home combination, or an accessory dwelling, physical separation is not enough.
+I can identify property questions and coordinate the process, but I am not your lender, attorney, appraiser, tax professional, or financial advisor. Get borrower- and property-specific answers before relying on a loan structure.
 
-**[GRAPHIC FILLS LIVE: PARCEL · LEGAL USE · UNIT COUNT · UTILITIES/SEPTIC · APPRAISAL · INSURANCE · LEASE]**
+## 5:12–6:55 — Test 4: Does the full monthly number work?
 
-We need to know whether it is one parcel or two, how the city or county recognizes the use, whether water and septic can support the plan, how the appraiser classifies it, and what the lender will finance. A listing-agent financing comment is a question to verify—not a loan approval.
+This is where an attractive listing becomes a fragile plan.
 
-Owner-unit gate: **[RESULT]**. Loan-path gate: **[WRITTEN RESULT]**.
+Do not compare rent only to principal and interest. Count the full monthly picture: principal and interest, taxes, insurance, mortgage-insurance or fee treatment, owner-paid utilities, HOA or assessments, and a maintenance and turnover assumption.
 
-If a hard gate fails, show **MATH STOPPED**. If it clears, show the same four outputs: **[FULL COST]**, **[CONSERVATIVE RENT]**, **[ZERO-RENT COST]**, and **[SIXTY-DAY COST + REPAIR]**.
+Then keep four rent numbers separate.
 
-The honest downside is **[PARCEL / LEGAL-USE / SEPTIC / INSURANCE / APPRAISAL ISSUE]**.
+One: advertised rent—a marketing claim until supported.
 
-Copperas Cove verdict: **[PASS TO SHORTLIST / HOLD / FAIL FOR OWNER-OCCUPANCY TODAY]**, because **[ONE DOCUMENTED REASON]**.
+Two: supported property rent—what the evidence says the space may rent for.
 
-## 4:55–6:35 — Harker Heights: rent can block occupancy
+Three: lender qualification credit—what, if anything, the lender says may count.
 
-**Film-day candidate: [VERIFIED HARKER HEIGHTS ADDRESS]**
+Four: conservative budgeted contribution—what you are willing to depend on.
 
-Back to the opening property. This one has rent on both sides. That is exactly why it may fail.
+Those four numbers may not be equal.
 
-The first evidence is not an online payment estimate. It is every lease, renewal, and possession date compared with the exact occupancy timing confirmed for the borrower’s loan.
+Imagine a legal duplex with one unit available, documented rent, and clear leases and utilities. It becomes a potentially strong candidate only after the exact lender review, full cost, and rent-at-zero test.
 
-**[GRAPHIC: LEASE A ENDS [DATE] · LEASE B ENDS [DATE] · REQUIRED OCCUPANCY [DATE]]**
+The zero-rent toggle is a teaching stress test, not a rule. It shows what happens if a tenant leaves, payment is delayed, or the space needs work.
 
-The source record we found is internally inconsistent: its remarks describe both sides as leased into twenty twenty-seven, while its showing instructions refer to a vacant unit. That conflict must be resolved directly before it can appear as fact on camera.
+## 6:55–8:15 — Test 5: Does it survive a bad month and landlord reality?
 
-If neither legal unit is available on time, the primary-residence plan stops here.
+Now add normal friction: temporarily reduced or zero rent and one repair. Not a disaster movie—just an ordinary bad month.
 
-**[STAMP: MATH STOPPED — OWNER UNIT UNAVAILABLE]**
+Does the plan immediately break? Are you relying on top-of-market rent, uninterrupted occupancy, zero turnover, and no repairs? Then the spreadsheet may describe perfect conditions, not a durable plan.
 
-Do not subtract rent from a payment for an owner-occupied strategy that cannot satisfy owner occupancy.
+Then decide who will operate the property.
 
-For market context, Harker Heights recorded twenty-seven closed two-to-four-unit sales in the source window, with a three hundred forty-one thousand dollar median close and a one hundred fifty-eight thousand five hundred dollar median per unit. The July snapshot’s three-bedroom multifamily asking-rent median was fourteen hundred dollars across nine listings—a small sample, not an address-level comp.
+Who screens renters, handles leases and deposits, responds to maintenance, and keeps records? Will you do it, or price management into the plan? If your roommate is a friend, what happens when rent is late?
 
-If the lease conflict is resolved and one unit is truly available, then show **[FULL COST]**, **[CONSERVATIVE RENT]**, **[ZERO-RENT COST]**, and **[SIXTY-DAY COST + REPAIR]**. Otherwise the empty math card stays visible.
+Finally, think one move ahead. When you stop occupying the property, does the layout still make sense? Is the future rental plan lawful and financeable? Does the property have an exit besides “prices go up”?
 
-Harker Heights verdict: **[PASS TO SHORTLIST / HOLD / FAIL FOR OWNER-OCCUPANCY TODAY]**, because **[LEASE/OCCUPANCY EVIDENCE]**.
+A good first house hack should teach you the business without requiring you to become a completely different person to survive it.
 
-## 6:35–8:35 — Temple: higher basis, different route and exit
+## 8:15–9:30 — Put the examples together
 
-**Film-day candidate: [VERIFIED TEMPLE ADDRESS]**
+Now put all five tests together, because none of them works alone.
 
-Temple is the counterintuitive comparison. It is farther from many Fort Hood gates, and its closed median price per unit was higher than Killeen’s in this source.
+Example one is the legal duplex with one unit available. Timing, utilities, and leases are clear; the lender reviews the exact scenario; full cost, rent evidence, and the zero-rent outcome are visible. My honest verdict: it is a **potentially strong candidate for deeper review**.
 
-Temple still recorded thirty-two closed duplex sales. The median close was three hundred seventy-two thousand five hundred dollars, or one hundred eighty-six thousand two hundred fifty dollars per unit. Its July three-bedroom multifamily asking-rent median was fourteen hundred dollars across thirteen listings.
+Example two is the fully leased duplex. The income may look excellent, but no legal unit is available inside the lender-confirmed occupancy timing. For this buyer and this plan, it is **not house-hack-ready today**.
 
-**[GRAPHIC: TEMPLE · 32 CLOSED DUPLEX SALES · $372,500 MEDIAN · $186,250/UNIT · CTXMLS 7/1/25–6/25/26]**
+Example three is the main house plus guest house or converted space. It may become a fit, but legal use, parcel structure, utilities, appraisal, insurance, or financing treatment is still unclear. That is a **HOLD—not a guess**.
 
-Temple stays in the test because this address can offer a different mix of property age, condition, owner-unit availability, and exact route—not because I am promising appreciation or making a citywide demand claim.
+Notice what did not decide the answer: the prettiest kitchen, the biggest advertised rent, the number of exterior doors, or whether the listing is in Temple, Killeen, Harker Heights, or Copperas Cove.
 
-For somebody reporting repeatedly to Fort Hood, time the exact address to the exact gate at the time they would actually drive. For a household with a second repeated destination in Temple, the same address can create a different route tradeoff. A city label is not a commute estimate.
+The city can change the inventory, rent evidence, taxes, rules, and demand. It does not replace the five tests.
 
-Legal-unit gate: **[RESULT]**. Owner-unit gate: **[RESULT]**. Loan-path gate: **[RESULT]**.
+## 9:30–10:18 — The order to search in
 
-If it clears, show **[FULL COST]**, **[CONSERVATIVE RENT]**, **[ZERO-RENT COST]**, and **[SIXTY-DAY COST + REPAIR]** in the identical format.
+If you are starting your first-property search, use this order:
 
-The honest downside is **[PRICE PER UNIT / ROUTE / TAX / INSURANCE / CONDITION ISSUE]**.
+First, identify the rental format you are actually willing to live with: roommate, legal second dwelling, or two-to-four-unit property.
 
-Temple verdict: **[PASS TO SHORTLIST / HOLD / FAIL FOR OWNER-OCCUPANCY TODAY]**, because **[ONE DOCUMENTED REASON]**.
+Second, verify legal use and whether your owner space will be available.
 
-## 8:35–10:20 — The four-property result and bad-month test
+Third, give the exact property and plan to your lender instead of relying on a generic online example.
 
-**Desk scorecard remains on screen; no repeated city summaries**
+Fourth, build the full monthly cost and separate advertised, supported, lender-counted, and conservative budgeted rent.
 
-Now erase the list prices. Which candidates still survive their hard gates and sixty days with rent at zero?
+Fifth, run the bad-month test and decide whether you really want the landlord job and the post-move plan.
 
-**[GRAPHIC: FOUR-ROW SCORECARD]**
+That order may eliminate a property before the exciting rent calculation. Good. The goal is not to force every listing to work; it is to understand the evidence and tradeoffs.
 
-For every viable property, show four comparable numbers side by side:
+## 10:18–10:48 — CTA and close
 
-1. Full monthly property cost.
-2. Conservative property-specific rent contribution.
-3. Full monthly cost with rent set to zero.
-4. Two months of that full cost plus one clearly labeled repair assumption.
+If you are looking at a possible house hack in Central Texas, text **HACK** plus the listing link or address to **254-718-4249**. I’ll show you which of the five tests still needs proof before you spend time touring it, then connect you with the right professional where needed.
 
-That fourth number is a household stress test—not a lender reserve requirement.
+Do not send credit, bank, reserve, or account information by text.
 
-For any property that failed legal use, owner occupancy, or the loan path, show **MATH STOPPED** instead of invented payment precision.
+And remember: a good house hack is not the one with the loudest income claim. It is the one that is legal, occupiable, financeable, honestly affordable, and resilient enough for real life.
 
-Killeen: **[VERDICT + DECIDING GATE]**. Copperas Cove: **[VERDICT + DECIDING GATE]**. Harker Heights: **[VERDICT + DECIDING GATE]**. Temple: **[VERDICT + DECIDING GATE]**.
+## Persistent lower-third disclaimer
 
-If the final board contains exactly two documented passes and two documented fails, with zero holds, the thumbnail may say “2 PASS / 2 FAIL.” Any other result gets “PASS OR FAIL?” The evidence chooses the packaging.
+`Educational only. Property, occupancy, loan, rent, tax, insurance, and legal facts require current address- and borrower-specific verification. Examples are anonymized composites, not purchase recommendations.`
 
-A pass does not mean “buy it.” It means the property cleared this screen and deserves borrower-specific lender review, inspections, lease review, legal-use verification, insurance, and current rent comps.
+## Production source receipts — not spoken
 
-If the plan works only with perfect rent collection, no turnover, no repairs, and a future sale at a higher price, it fails my screen.
+Research locked 2026-07-20. See [RESEARCH.md](./RESEARCH.md) and [PRODUCTION-BIBLE.md](./PRODUCTION-BIBLE.md).
 
-## 10:20–11:20 — Decision and CTA
+- [HUD FHA 203(b)](https://www.hud.gov/hud-partners/single-family-sfh203b)
+- [HUD Single Family Housing Policy Handbook 4000.1](https://www.hud.gov/sites/default/files/OCHCO/documents/40001-hsgh-Update-17.pdf)
+- [Fannie Mae current Eligibility Matrix](https://singlefamily.fanniemae.com/media/document/pdf/eligibility-matrix-current)
+- [VA purchase-loan guidance](https://www.va.gov/housing-assistance/home-loans/loan-types/purchase-loan/)
+- Planned companion routes: [house-hacking guide](/house-hacking-temple-tx/) and [Investing rail](/investing/). Do not add either to the public description until the destination is live and verified.
 
-Here is where I would start.
+Official-rule receipt, not spoken: the FHA 203(b) page says eligible borrowers can receive approximately 96.5% financing on qualifying transactions; borrower, property, lender, and current program requirements still control.
 
-If you want a true duplex-through-fourplex search, start by checking Killeen; it had the highest historical transaction count among the three Bell County cities in this export. Refresh current selection before treating that as today’s inventory advantage.
-
-If west-side routing matters, include Copperas Cove—but verify the legal property type instead of trusting “guest house,” “second home,” or “multi-generational” language.
-
-Use Harker Heights as the reminder that a strong rent roll can be incompatible with your move-in timing.
-
-Keep Temple when its exact property condition, second destination, route, and exit options justify the higher entry basis.
-
-And if you would not be comfortable carrying the full property cost during vacancy, do not force a house hack because the phrase sounds smart.
-
-Text `HACK` plus the listing link or address to 254-718-4249. I’ll reply for your likely loan type, move date, and maximum comfortable full-property payment, then tell you which facts need lender, lease, legal-use, utility, insurance, or rent verification before a tour.
-
-**End screen:** published Fort Hood six-town housing guide/video + subscribe.
-
-## Required lower-third disclaimer
-
-`Educational example, not a preapproval or investment promise. Loan and lender rules vary. MLS figures are dated snapshots; verify property status, leases, legal use, rents, taxes, insurance, utilities, condition, and financing before an offer.`
+Local MLS receipt, not spoken: `/Users/taylordasch_1/market-monitor/duplex-quadplex-bell-2026-06-29.csv` recorded 141 Killeen, 32 Temple, and 27 Harker Heights closed 2–4-unit transactions from 2025-07-01 through 2026-06-25 under the documented research filter. These are historical context, not current inventory, rent, returns, or a city ranking. Copperas Cove is in Coryell County and is not adequately covered by that Bell County sales export.

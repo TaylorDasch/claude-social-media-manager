@@ -1,174 +1,188 @@
-# Research and Evidence Lock
+# Research and Evidence Lock — What Makes a Good House Hack?
 
-**Research date:** 2026-07-19  
-**Geography:** Killeen, Copperas Cove, Harker Heights, Temple, and the Fort Hood corridor  
-**Public standard:** every number must retain its source date and denominator
+**Research lock:** 2026-07-20
 
-## Executive finding
+**Primary geography:** Temple, Killeen, Harker Heights, Copperas Cove, and the surrounding Central Texas corridor
 
-The recovered ChatGPT sidebar draft had the right category but the wrong final scope. It proposed a Temple-only guide, a new-construction duplex example, and FHA/VA/conventional math. Channel, market, and competitor evidence points to a stronger concept: test four film-day-verified **property examples** through the same owner-occupancy, financing, monthly-cost, rent, property-condition, and PCS-exit screen. These examples teach four failure modes; they are not a fair city ranking.
+**Primary viewer:** aspiring first-time investor considering an owner-occupied property number one
 
-The content gap is not “nobody has discussed house hacking.” Local creators have toured duplexes and older videos have discussed VA multifamily. The gap is a current, official-rule-checked, MLS-backed **decision test** that shows why a property that looks good online may not be owner-occupancy-ready.
+## Executive conclusion
 
-## Recovered ChatGPT sidebar draft
+The strongest next video is not another generic definition, “live for free” promise, city ranking, new-duplex tour, or four-current-listing calculation. It is an evergreen decision guide:
 
-- Sidebar title: `House Hacking Opportunity`.
-- Recovered chat: https://chatgpt.com/c/6a5d341f-506c-83ea-a1e1-2a1d51b84a3e
-- Original direction: a Temple-only 18–21-minute guide centered on FHA/VA/conventional financing, a new-construction duplex example, a calculator/checklist, and the title concept `Buy a Temple Duplex With 5% Down? The Honest 2026 Math`.
-- What remains useful: the honest-math premise, owner-occupied financing, and an address-level deal screen.
-- What changed: the final plan uses four property failure modes, reaches a real case by 0:35, avoids changing builder incentives, and does not pretend Temple alone represents the Fort Hood house-hacking opportunity.
+> A potentially strong house-hack candidate is legal, available and realistic for the buyer to occupy, financeable as the property actually exists, affordable under a full-cost and conservative-rent view, and resilient through vacancy, repairs, landlord responsibilities, and a future move.
 
-## Existing Taylor coverage and duplicate check
+Examples should prove that framework. They should not become the premise.
 
-- No dedicated house-hacking guide was found in the current public catalogs or Studio audit.
-- Closest public overlap: `Temple TX Under $100K – Zoned 2-Family + New Slab = High ROI!` (`mNw9NMFxNV8`), a property-level investor video whose description mentions live-one/rent-one.
-- A prior internal idea, “House Hacking in Killeen with a VA Loan — The Actual Math,” was never published.
-- The existing Temple multifamily production bible uses house hacking only as a closing reframe.
-- Duplicate risk: **low for a dedicated guide; medium if this becomes another generic four-city or new-duplex tour.**
+This framing answers the beginner’s real question—“How do I know whether this is a good first property?”—while staying useful after a listing, rate, rent, or loan scenario changes.
 
-## Competitive gap
+## Content-positioning research
 
-### Current local competitor
+### The crowded lane
 
-Aundrea Dudik’s June 15, 2026 video, [Tour These BRAND NEW Construction Duplexes in Central Texas](https://youtu.be/9zSEk6Tsi6w), covers Copperas Cove and Temple new-construction duplexes. As checked July 19, it had 194 views and 9 likes. House hacking receives roughly 34 seconds and financing roughly 73 seconds. It does not apply one repeatable property/payment/risk screen across the corridor.
+BiggerPockets already publishes a broad [House Hacking Strategy guide](https://www.biggerpockets.com/real-estate-investing/house-hacking-strategy) covering definitions, formats, benefits, and startup steps. Its related material also covers [common house-hacking mistakes](https://www.biggerpockets.com/blog/house-hacking-mistakes-prevent) and [finding and analyzing a property](https://www.biggerpockets.com/blog/finding-house-hacking-property).
 
-Her [companion article](https://www.livinginctx.com/blog/new-construction-homes-in-central-texas-under-400k-house-hacking-investment-opportunities) further occupies the “new duplexes under $400K” tour angle. Taylor should not copy that title, thumbnail, builder-logo treatment, or inventory-tour structure.
+Taylor should therefore avoid competing on “What is house hacking?” alone. Definition is necessary, but it should take less than one minute.
 
-### Older local proof of interest
+### The current beginner question
 
-- [VA Loan MultiFamily House HACKS & SECRETS](https://youtu.be/J8KpQhdrQdU) — Stephen Harris, 2022; 7,137 views when checked.
-- [Killeen TX is Perfect For House Hacking](https://youtu.be/pFETN93qymo) — 2023; 1,927 views when checked.
-- [House Hack This Copperas Cove Duplex](https://youtu.be/VswxhggO1hI) — 2023; 493 views when checked.
-- [VA Buyers Beware: Killeen 4-Plex](https://youtu.be/zJHCSEJf7MQ) — 2024; 1,363 views when checked.
-- A 2026 national video, [7 Cities Where VA Loan House Hacking Actually Cash Flows in 2026](https://youtu.be/hNz0zx_oPdc), gives Killeen only a short segment rather than a local deep dive.
+A recent [r/BiggerPockets beginner discussion](https://www.reddit.com/r/BiggerPockets/comments/1th6yhj/house_hacking/) centers on how a new buyer should evaluate the strategy and avoid a poor first decision. Treat this as a qualitative intent signal, not search-volume or performance proof.
 
-These are directional competitor observations, not proof that any strategy works today.
+### The local gap
 
-## MLS sales evidence
+Central Texas coverage found in the prior audit leans toward property tours, VA/military angles, new duplex inventory, or one-property opportunities. The useful local differentiation is:
 
-Primary source: `/Users/taylordasch_1/market-monitor/duplex-quadplex-bell-2026-06-29.csv`.
+- one repeatable five-test screen;
+- explicit `strong candidate`, `HOLD`, and `not ready for this plan today` outcomes;
+- full-cost math rather than mortgage-minus-rent math;
+- legal-use and possession timing before rental upside;
+- an honest landlord/lifestyle test;
+- Central Texas examples without pretending one city automatically wins.
 
-Method:
+Relevant local examples reviewed in the prior research pass:
 
-- Exact city match.
-- `NumUnits` equal to 2, 3, or 4.
-- Closed records use `ClosePrice` and span 2025-07-01 through 2026-06-25.
-- Rows without `CloseDate` use `CurrentPrice`, but the file has no reliable status field; these are **not automatically active listings**.
-- Price per unit is price divided by `NumUnits`.
-- The verification pass found 443 qualifying sales-file rows across the analyzed filters and no exact duplicate transaction keys.
-- One Killeen closed row has invalid `DOM = -9`; refresh work must exclude or explicitly document invalid DOM before recomputing DOM medians.
+- [Tour These BRAND NEW Construction Duplexes in Central Texas](https://youtu.be/9zSEk6Tsi6w) — inventory-tour angle; do not copy its title, thumbnail, builder-logo treatment, or structure.
+- [VA Loan MultiFamily House HACKS & SECRETS](https://youtu.be/J8KpQhdrQdU) — older military/financing angle.
+- [Killeen TX is Perfect For House Hacking](https://youtu.be/pFETN93qymo) — older city-first angle.
+- [House Hack This Copperas Cove Duplex](https://youtu.be/VswxhggO1hI) — one-property angle.
+- [VA Buyers Beware: Killeen 4-Plex](https://youtu.be/zJHCSEJf7MQ) — cautionary military/property angle.
 
-### Trailing-year closed 2–4-unit market
+No dedicated published Taylor video was found that teaches this five-test good-versus-poor-fit framework. Closest overlap is the property-specific `Temple TX Under $100K – Zoned 2-Family + New Slab = High ROI!` (`mNw9NMFxNV8`). Duplicate risk is low for the recommended guide and rises if the cut drifts into another generic definition or current-property tour.
 
-| City | Closed sales | Median close | Median close per unit | Median DOM |
-|---|---:|---:|---:|---:|
-| Killeen | 141 | $330,000 | $142,500 | 56 |
-| Temple | 32 | $372,500 | $186,250 | 88.5 |
-| Harker Heights | 27 | $341,000 | $158,500 | 106 |
-| Copperas Cove | Not covered adequately by this export | — | — | — |
+## The five-test evidence model
 
-Public-use conclusion: in this dated Bell County export, Killeen had substantially more closed 2–4-unit transactions than Temple and Harker Heights. That supports a historical transaction-depth statement only; it does not establish current selection or make every Killeen property a better purchase.
+### 1. Legal rental setup
 
-### Records without a close date in the same snapshot
+Question: is the intended rental configuration documented, or merely visible?
 
-| City | Rows | Mix | Median current price | Median price per unit | Median DOM | Under $300K |
-|---|---:|---|---:|---:|---:|---:|
-| Killeen | 116 | 86 duplex, 2 triplex, 28 fourplex | $322,500 | $146,250 | 104.5 | 44 |
-| Temple | 39 | 39 duplex | $359,000 | $179,500 | 90 | 12 |
-| Harker Heights | 26 | 25 duplex, 1 fourplex | $382,000 | $191,000 | 48.5 | 3 |
+Evidence may include public land/use records, permitted unit information, seller-authorized documents, parcel data, utility/septic facts, deed/HOA restrictions, insurance treatment, and appropriate professional review. Required evidence varies by address and jurisdiction.
 
-**Public guardrail:** call these “records without a close date in the June 29 snapshot,” never “active inventory,” because pending/under-contract status is unavailable.
+Teaching rule: `two doors do not prove two legal units`.
 
-## Asking-rent evidence
+### 2. Owner occupancy and livability
 
-Primary source: `/Users/taylordasch_1/market-monitor/july-13-rental-data.csv`.
+Question: is a legal space actually available inside the lender-confirmed occupancy timing, and is the arrangement tolerable for this buyer?
 
-Method:
+Evidence may include current leases, possession terms, layout, entrances, privacy/noise transfer, parking, shared utilities, laundry/common areas, and the buyer’s willingness to live beside or with renters.
 
-- Exact city match.
-- Blank `CloseDate`.
-- Concatenated `PublicRemarks + AgentRemarks` explicitly contain duplex, triplex, fourplex, quadplex, multifamily, or multi-family language. No private remark is quoted publicly; only aggregates are used.
-- Numeric current asking rent and exact bedroom count.
-- These are asking rents, not executed leases, paired sales comps, or guaranteed future rent.
+Teaching rule: a fully leased property can be a legitimate rental yet not be ready for an owner-occupancy plan today.
 
-| City | Explicit multifamily rental rows | 2BR median ask | 3BR median ask |
-|---|---:|---:|---:|
-| Killeen | 47 | $900, n=15 | $1,250, n=32 |
-| Temple | 20 | $1,295, n=3 | $1,400, n=13 |
-| Harker Heights | 11 | $897.50, n=2 | $1,400, n=9 |
-| Copperas Cove | 36 | $850, n=7 | $1,450, n=28 |
+### 3. Exact-property financing and cash
 
-The 36 Copperas Cove rows are the strongest current reason to keep Cove in the video: the rental snapshot shows a meaningful multifamily-marketed unit pool. A dedicated Coryell County acquisition pull is still required before any sales-volume or median-purchase comparison.
+Question: did an appropriate lender review the borrower scenario and the property as it actually exists?
 
-Do not divide these citywide rent medians by citywide price medians on camera and call the result a return. The samples are unpaired and omit vacancy, taxes, insurance, repairs, utilities, management, financing, and concessions.
+Evidence may include property classification, condition, appraisal/rent treatment, occupancy plan, cash to close, required reserves if any, and lender overlays. A program’s theoretical maximum is not an address-specific approval.
 
-## Illustrative property candidates — not filming selections yet
+Teaching rule: `LOW DOWN ≠ LOW CASH ≠ APPROVAL`.
 
-Every address and lease statement below comes from a dated MLS export and must be reverified before use.
+### 4. Full monthly cost and rent discipline
 
-| City | Candidate | Teaching job | Required verification |
+Question: does the property still make sense after all material ownership costs are counted and rent concepts are kept separate?
+
+Full-cost teaching formula:
+
+`P&I + taxes + insurance + mortgage-insurance/fee treatment + owner-paid utilities + HOA/special assessments + maintenance/turnover assumption`
+
+Keep four values separate:
+
+1. advertised rent;
+2. supported property rent;
+3. lender qualification credit;
+4. conservative budgeted contribution.
+
+Teaching rule: advertised rent is not automatically supported rent, qualifying income, or prudent budgeted income.
+
+### 5. Bad month, operator fit, and post-move plan
+
+Question: can the plan absorb normal friction, and does the buyer want the job?
+
+Use a clearly labeled teaching scenario: temporarily reduced or zero rent plus one repair. Then address leasing, screening, deposits, maintenance, management cost, recordkeeping, future full-property use, and a non-appreciation-dependent exit.
+
+Teaching rule: a spreadsheet that works only with uninterrupted top-of-market rent and zero repairs describes perfect conditions, not resilience.
+
+## Three recurring teaching examples
+
+These are anonymized composites by default. A real property may replace one only after its facts, status, privacy, and public-use permission are independently verified.
+
+| Example | Why it initially looks attractive | Evidence-led answer | Why |
 |---|---|---|---|
-| Killeen | 4502 July; June 29 record at $299,999; two reported 3/2/1 units available | True duplex with an owner-unit path | Current status, vacancy, rent comps, legal units, taxes, insurance, access |
-| Temple | 405 N 10th; June 29 record at $211,800; two reported 3/2 units, one vacant | Lower-price existing-duplex contrast | Current status, condition, leases, legal use, utilities, lender eligibility |
-| Harker Heights | 301 Jeff Gordon; June 29 record at $315,000; remarks report both sides leased into 2027, while showing instructions refer to a vacant unit | Conflicting source fields must be resolved before any owner-occupancy verdict | Current leases, actual vacancy, possession timing, lender occupancy window, status |
-| Copperas Cove | 705 & 709 Bluestem; July 19 market export at $250,000; two reported 3/2 homes, one leased | Two-home setup is not automatically a financeable duplex | Parcel(s), zoning/legal use, septic/utilities, leases, insurance, financing, status |
+| Legal duplex with one unit available | Simple live-one/rent-one structure | `POTENTIALLY STRONG CANDIDATE` after all five tests | Legal use and occupancy are clear; exact financing, full cost, supported rent, and downside still control |
+| Fully leased duplex | Both units show income | `NOT HOUSE-HACK-READY FOR THIS PLAN TODAY` if no legal unit is available on time | Owner occupancy and possession timing conflict with this plan |
+| Main house plus guest house, converted garage, or second dwelling | Appears to offer two living spaces | `HOLD UNTIL VERIFIED` | Legal use, parcels, utilities, appraisal, insurance, or financing treatment may be unresolved |
 
-Backups:
+Do not call the latter two universally bad investments. The verdict is specific to the proposed owner-occupancy plan and the evidence available today.
 
-- Killeen 1105 Leslie: fourplex; dated record says two occupied and two vacant.
-- Temple 5222 & 5226 Davy Crockett: duplex; dated record says one side vacant.
-- Harker Heights 225 Clore: dated record describes a new-construction 3/2/1 duplex on each side.
-- Copperas Cove 310 W Avenue A: main house plus reported guest house; legal/financing status unknown.
+## Local MLS evidence — optional context, not the story
 
-## Official financing rules
+Source of truth: `/Users/taylordasch_1/market-monitor/duplex-quadplex-bell-2026-06-29.csv`.
 
-### VA
+Prior reproducible analysis used exact city matches and `NumUnits` of 2, 3, or 4. Closed records spanned 2025-07-01 through 2026-06-25.
 
-The [VA purchase-loan page](https://www.va.gov/housing-assistance/home-loans/loan-types/purchase-loan/) permits eligible residential properties of up to four units when the borrower will occupy the property as a home. VA-backed loans are made by private lenders, so qualification, appraisal, entitlement, occupancy, and lender requirements still apply.
+| City | Closed 2–4-unit sales | Median close | Median close per unit |
+|---|---:|---:|---:|
+| Killeen | 141 | $330,000 | $142,500 |
+| Temple | 32 | $372,500 | $186,250 |
+| Harker Heights | 27 | $341,000 | $158,500 |
 
-The [VA Lender’s Handbook](https://www.benefits.va.gov/WARMS/docs/admin26/m26-07/Lender_Handbook_VA_Pamphlet_Complete.pdf) supports considering prospective rent from other units under documented conditions. When projected rent is used to qualify, current guidance calls for six months of PITI reserves plus evidence of likely landlord success through prior experience or use of a property manager. A safe filmed summary is:
+This dated snapshot supports only a historical transaction-depth observation. It does not prove present inventory, future demand, rent, returns, appreciation, or which city is best. Copperas Cove is not adequately covered by that Bell County sales export, so no four-city sales comparison should be filmed.
 
-> Eligible VA borrowers may use a VA-backed purchase loan on a property with up to four units and live in one unit. If projected rent from other units is used to qualify, current VA guidance calls for six months of PITI reserves plus evidence of likely landlord success through prior experience or a property manager. The lender still determines the documented rent treatment, and borrower, property, appraisal, entitlement, and occupancy requirements apply.
+The production does not need these figures. If one survives in the description or video, show source, geography, period, sample, and retrieval date, and refresh it before filming.
 
-Do not say every veteran gets a fourplex with zero down, that all proposed rent counts, or that VA universally requires exactly 12 months of occupancy.
+## Official financing-source guardrails
 
 ### FHA
 
-HUD’s [FHA 203(b) page](https://www.hud.gov/hud-partners/single-family-sfh203b) covers eligible owner-occupied one-to-four-unit properties with a minimum required investment as low as 3.5%.
+HUD’s [FHA 203(b) program page](https://www.hud.gov/hud-partners/single-family-sfh203b) describes principal-residence financing for eligible one-to-four-unit properties and says eligible borrowers can receive approximately 96.5% financing, subject to borrower, property, lender, and program requirements.
 
-The current [HUD Handbook 4000.1](https://www.hud.gov/sites/default/files/OCHCO/documents/40001-hsgh-Update-17.pdf) generally requires at least one borrower to occupy within 60 days and intend to continue occupancy for at least one year. Three- and four-unit properties must pass the self-sufficiency test, and three months of PITI reserves are required after closing. Do not apply the self-sufficiency test to duplexes.
-
-HUD’s [Mortgagee Letter 2025-04](https://www.hud.gov/sites/default/files/OCHCO/documents/2025-04hsgml.pdf) allows existing boarder income only under limited documentation/history rules. Do not tell a first-time roommate house hacker that brand-new future roommate income automatically qualifies.
+The current [HUD Single Family Housing Policy Handbook 4000.1](https://www.hud.gov/sites/default/files/OCHCO/documents/40001-hsgh-Update-17.pdf) contains the operative occupancy and multifamily underwriting details. Exact timing, reserve, rental-income, and three- or four-unit requirements must be checked in the current handbook and with the lender before filming. Do not generalize a rule from three- or four-unit properties to duplexes.
 
 ### Conventional
 
-Fannie Mae’s [current Eligibility Matrix](https://singlefamily.fanniemae.com/media/document/pdf/eligibility-matrix-current) shows that some Desktop Underwriter-approved principal-residence 2–4-unit cases can reach 95% LTV. Manual underwriting, high-balance loans, lender overlays, and borrower/property eligibility can lower the maximum. Safe language:
+Fannie Mae’s [current Eligibility Matrix](https://singlefamily.fanniemae.com/media/document/pdf/eligibility-matrix-current) shows that some principal-residence two-to-four-unit cases approved through Desktop Underwriter may reach 95% LTV. This is not universal. Manual underwriting, loan balance, borrower, property, lender, and other eligibility factors may reduce the maximum.
 
-> Some automated-underwriting conventional owner-occupied 2–4-unit loans may allow 5% down, but that is not universal; the lender has to approve both the borrower and the property.
+Safe spoken treatment:
 
-### Rate benchmark
+> Some owner-occupied programs can work with one-to-four-unit properties, but the borrower, property, appraisal, occupancy plan, cash requirement, and lender all have to fit.
 
-[Freddie Mac PMMS](https://www.freddiemac.com/pmms) reported a national average 30-year fixed rate of 6.55% on 2026-07-16. This is research context only—not a duplex, VA, FHA, conventional, borrower, or lender quote. The film must use a same-day address-specific scenario or clearly label an example as illustrative.
+### VA — secondary eligible-buyer note only
 
-## Fort Hood and BAH context
+The [VA purchase-loan page](https://www.va.gov/housing-assistance/home-loans/loan-types/purchase-loan/) describes eligible residential purchases of up to four units when the borrower occupies the property as a home. Private lenders originate VA-backed loans, and borrower, entitlement, appraisal, property, occupancy, income treatment, and lender requirements still apply.
 
-The [official Fort Hood site](https://home.army.mil/hood/) identifies Killeen, Copperas Cove, Harker Heights, Belton, and Temple among surrounding communities. The [Army’s About page](https://home.army.mil/hood/about) says the installation is home to nearly 40,000 soldiers. Fort Hood is the current official name; the Army restored it in 2025.
+The [VA Lender’s Handbook](https://www.benefits.va.gov/WARMS/docs/admin26/m26-07/Lender_Handbook_VA_Pamphlet_Complete.pdf) is the source for detailed projected-rent and reserve treatment. Keep this detail out of the main cut unless filming-day verification and a lender review make it necessary.
 
-The [official DoD BAH lookup](https://www.travel.dod.mil/Allowances/Basic-Allowance-for-Housing/BAH-Rate-Lookup/) returned the following for duty ZIP 76544, MHA TX286, when checked 2026-07-19:
+Do not say every veteran can buy a fourplex with zero down, all proposed rent counts, or a universal twelve-month occupancy rule applies.
 
-- E-5 with dependents: $1,695 per month.
-- E-5 without dependents: $1,530 per month.
+## Safe versus unsafe claims
 
-BAH changes by duty-station ZIP, pay grade, and dependency status—not by which nearby city the member chooses. DoD states BAH is not designed to cover every housing expense. Never use BAH as a preapproval, payment ceiling, or cash-flow guarantee.
+### Safe with appropriate context
 
-## Strategic conclusion
+- House hacking begins as an owner-occupied primary-residence strategy.
+- Common formats include roommates, a legal second dwelling, and owner-occupied two-to-four-unit property.
+- Exact legal use, possession, financing, rent, costs, and condition require address-specific verification.
+- A property can be unsuitable for one owner-occupancy plan without being a universally bad investment.
+- A zero-rent toggle is an illustrative stress test, not an individualized reserve prescription.
 
-The video should be a **four-property stress test**, not a generic tutorial, city ranking, or new-construction inventory tour. Open with one verified property failure, distribute rules inside the cases, use Killeen’s historical closed count as context rather than current-inventory proof, and let each property reveal a different failure mode. The pass/fail count must emerge from refreshed evidence; it may not be selected to fit the title.
+### Avoid
 
-## Refresh triggers
+- `Live for free`, guaranteed cash flow, passive income, appreciation, or qualification.
+- Any claim that low down payment equals low cash to close.
+- Current rates, rents, incentives, prices, or inventory without dated evidence.
+- Unsupported crime, safety, demographic, school, tenant-composition, or military-demand claims.
+- Treating BAH as property income, preapproval, or a payment ceiling.
+- Calling an unverified second dwelling a duplex or legal rental.
 
-- Re-run all MLS and rental figures if filming occurs after 2026-07-21.
-- Recheck official loan sources on filming day if program guidance changes.
-- Replace every candidate if its status, lease, price, or access changes.
-- Use property-specific tax, insurance, utilities, and lender inputs.
-- Keep the public description’s source dates even after refresh.
+## Production evidence gates
+
+Before filming:
+
+1. Recheck every surviving program sentence against the current official source.
+2. Recalculate any displayed arithmetic and label every assumption.
+3. Label each property example `ANONYMIZED COMPOSITE` unless a real example is verified and cleared for public use.
+4. Use no private borrower data, tenant identities, signatures, security information, showing instructions, or agent-only MLS remarks.
+5. Confirm rights for recognizable property footage; use original diagrams and generic/public-road visuals when permission is absent.
+
+## Final strategic direction
+
+Open with the contradiction that high advertised rent can hide the first disqualifier. Define the strategy quickly. Teach the five tests in order. Carry the same three examples through the tests. End by showing why the duplex may clear the first screen, why the fully leased property may not fit today, and why the second-dwelling setup remains on HOLD.
+
+The viewer should leave able to reject fragile candidates earlier—not believing Taylor declared one city, loan, or property universally best.

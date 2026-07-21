@@ -1,72 +1,157 @@
-# Quality Review and Release Verdict
+# Quality Review — What Makes a Good House Hack?
 
-**Reviewed:** 2026-07-19  
-**Verdict:** strategy approved; **BLOCKED for filming and publishing** until current property evidence is complete  
-**External-state impact:** none—no upload, publish, page, CRM, form, message, outreach, or deployment action occurred
+**Review date:** 2026-07-20
 
-## What survived adversarial review
+**Verdict:** `PASS — SCRIPTED`
 
-- One active channel: `Living in Temple TX`.
-- Buyer-primary-residence framing, not a passive-income or revived investor-channel video.
-- Four property failure modes rather than a Temple-only tutorial, new-duplex tour, or universal city ranking.
-- Five hard gates: legal property, owner unit, loan path, full cost, and exit stress.
-- A real evidence stop: a legal-use, occupancy, or loan-path failure displays `MATH STOPPED` instead of invented payment precision.
-- Killeen’s 141 trailing-year closes are used as historical transaction-depth context, not proof of current selection.
-- Copperas Cove remains because the rental snapshot and legal-use wildcard are relevant, while the missing comparable Coryell acquisition data is explicit.
-- The inherited VA Househacker’s Playbook remains withheld from new traffic.
+The package is internally complete as an evergreen informational video for `Investing in Temple`. It is no longer blocked on four listings, a Coryell acquisition pull, property-specific underwriting, or four filming permissions. It remains one state short of `READY_TO_FILM` because Taylor has not yet approved the recommended title, thumbnail, and final script direction.
 
-## Revisions made after critique
+## Final strategic decision
 
-### Retention
+Recommended click package:
 
-- Cut the target from 13–15 minutes to 10:30–12:00.
-- Replaced a 150-second definitions/finance preamble with a verified property failure inside 15 seconds and the first full case at 0:35.
-- Embedded VA/FHA/conventional, legal-use, and occupancy rules inside the cases where they change a verdict.
-- Replaced a repetitive verdict recap with four comparable outputs: full cost, conservative rent, rent-at-zero cost, and two months of full cost plus one labeled repair assumption.
-- Expanded the visual plan from 61 scheduled starts to 84 meaningful resets.
+- **Title:** `What Makes a Good House Hack? 5 Tests Before You Buy`
+- **Thumbnail:** `RENT ISN’T ENOUGH`
 
-### Evidence and compliance
+One-sentence promise:
 
-- Required exactly two documented passes, exactly two documented fails, and zero holds before using `2 PASS / 2 FAIL` or the count-specific title.
-- Reserved any `Real 2026 Math` package for a cut with four completed address-specific cost cards.
-- Reframed the four examples as property failure modes, not a fair city comparison.
-- Added the VA projected-rent conditions: six months of PITI reserves plus likely-landlord-success evidence through prior experience or a property manager; exact rent treatment remains lender-confirmed.
-- Kept FHA’s self-sufficiency test and three-month PITI reserve rule specific to 3–4-unit cases.
-- Corrected exact medians: Temple closed DOM 88.5; Killeen no-close DOM 104.5; Harker Heights no-close DOM 48.5; Harker Heights 2BR ask $897.50.
-- Documented the rental filter as concatenated `PublicRemarks + AgentRemarks`, aggregate-only, and identified one invalid Killeen `DOM = -9` row for refresh handling.
-- Surfaced the Harker Heights source conflict—leases reported into 2027 versus a showing instruction referencing a vacant unit—as a fact that must be resolved, not a prewritten verdict.
+> Taylor will give an aspiring first-time investor five tests for identifying a potentially strong owner-occupied house-hack candidate, rejecting a plan-specific mismatch, and holding an unverified setup before rent math creates false confidence.
 
-### Conversion and system consistency
+The final five tests are:
 
-- Reduced the spoken CTA to `HACK + listing link/address`; Taylor collects loan type, move date, and full-payment ceiling in follow-up.
-- Removed the generic homepage link; the planned companion URL may be added only after it is vetted and live.
-- Changed registry state to `BLOCKED`, removed the non-public worksheet as a lead magnet, and moved the future page/video pair outside live embed and page-health checks.
-- Fixed the governance parser so an identical banned/replacement term is a no-op; this prevents the required official installation name from being falsely banned.
+1. legal rental setup;
+2. owner occupancy and livability;
+3. exact-property financing and cash;
+4. full monthly cost and disciplined rent assumptions;
+5. bad month, landlord/operator fit, and post-move plan.
+
+The final examples are:
+
+- legal duplex with one unit available — potentially strong candidate after all five tests;
+- fully leased duplex with no timely owner space — not house-hack-ready for this plan today;
+- house plus unverified second dwelling — HOLD until legal and financing treatment is documented.
+
+These are anonymized composites by default and never universal investment verdicts.
+
+## Research conclusion
+
+The research supported an evergreen framework over a current-listing contest:
+
+- Generic “house hacking 101” already has broad national coverage.
+- Beginner intent centers on how to evaluate the first property and avoid preventable mistakes.
+- Local content leans toward tours, individual properties, new duplex inventory, and military/VA angles.
+- Taylor’s useful differentiation is the order of proof: legal use and possession first, exact financing second, complete cost and rent discipline third, then downside and operator fit.
+- Dated Bell County 2–4-unit data remains optional background. The spoken lesson does not depend on live inventory, current rent, rate, incentive, or a city ranking.
+
+Official HUD, Fannie Mae, and VA sources were re-opened on 2026-07-20. The spoken script deliberately keeps the rule statement broad and requires borrower- and address-specific professional review. Detailed program rules remain in production receipts, not the verbal core.
+
+## Adversarial findings and implemented fixes
+
+### 1. The prior premise made expiring listings the story
+
+**Risk:** four listing refreshes, lease facts, cost cards, lender scenarios, and filming permissions could delay production and age the video immediately.
+
+**Fix:** replaced four live cases with three stable archetypes carried through one five-test framework.
+
+### 2. `Good` and `bad` could become universal advice
+
+**Risk:** a fully leased duplex or uncertain second dwelling could still suit another buyer, plan, or time.
+
+**Fix:** consumer-facing outcomes are `POTENTIALLY STRONG CANDIDATE`, `HOLD`, and `NOT HOUSE-HACK-READY FOR THIS PLAN TODAY`.
+
+### 3. Rent and low-down-payment hooks could overstate feasibility
+
+**Risk:** advertised rent, qualifying income, conservative budgeted rent, cash needed, and approval are not interchangeable.
+
+**Fix:** the script separates four rent concepts, uses `LOW DOWN ≠ LOW CASH ≠ APPROVAL`, and sends the exact property and plan to the lender.
+
+### 4. Legal configuration could be inferred from appearance
+
+**Risk:** a guest house, converted garage, or second kitchen can look rentable without matching public, appraisal, insurance, or financing treatment.
+
+**Fix:** `Two doors do not prove two legal units` is the first test, and the second-dwelling example remains on HOLD until documented.
+
+### 5. Lifestyle and landlord work were underweighted
+
+**Risk:** a financially plausible setup can fail because of noise, privacy, parking, shared utilities, management work, or interpersonal conflict.
+
+**Fix:** livability appears in Test 2; landlord/operator fit and the post-move plan appear in Test 5 and the internal screen.
+
+### 6. The audience could drift into the wrong channel, military-first framing, or age targeting
+
+**Risk:** routing the video to `Living in Temple TX` because it begins with owner occupancy would ignore that its viewer, decision framework, CTA, and follow-up are investor-first. Fort Hood/VA framing would also narrow the primary viewer; “young buyers” would be the wrong public housing language.
+
+**Fix:** the package is routed to `Investing in Temple`, and the viewer is defined by investment experience stage. VA is one eligible-buyer note. Military is absent from the title, thumbnail, hook, CTA, close, hashtags, and default end-screen logic.
+
+### 7. Conversion could collect sensitive financial data
+
+**Risk:** a public worksheet or text conversation could invite bank, reserve, credit, or account details.
+
+**Fix:** public intake is only `HACK + listing link/address`; the script and metadata explicitly prohibit sensitive financial data by text. The detailed worksheet remains internal.
+
+### 8. The legacy lead magnet is unsafe for this campaign
+
+**Risk:** the VA Househacker’s Playbook contains unsupported forecasts, oversimplified entitlement/occupancy language, and military-first positioning.
+
+**Fix:** the asset remains withheld. `CTA-ASSET-AUDIT.md` documents the correction path; no download is promised.
+
+## Quality scorecard
+
+| Dimension | Score | Review note |
+|---|---:|---|
+| Viewer/problem specificity | 94 | One experience-stage viewer and one decision |
+| Click-to-payoff alignment | 92 | Title, thumbnail, hook, five tests, and examples match |
+| Educational clarity | 95 | Definition, search order, and three outcome labels are reusable |
+| Retention design | 90 | Contradiction hook, full board by 0:30, recurring examples, 5–8-second visual resets |
+| Evidence discipline | 94 | Official receipts, optional dated MLS context, no volatile spoken math |
+| Compliance/privacy | 96 | Plan-specific verdicts, role limits, composite labels, safe text intake |
+| Conversion system | 91 | `HACK + address`, canonical page preserved, unsafe magnet withheld |
+| Solo-production feasibility | 94 | One primary setup, original diagrams, limited rights-cleared B-roll |
 
 ## Verification receipts
 
-- Local MLS/rent recalculation reproduced the published counts and medians after the exact-method corrections.
-- Final deterministic Godmode scores: production bible 85/80 PASS; script 81/80 PASS; zero hard blocks.
-- Video flywheel check: package folder and `council-prompt.md` both present.
-- Approximate spoken copy: 1,506 words, about 10.0 minutes at 150 wpm and about 11.2 minutes at 135 wpm.
-- First three spoken sentences contain `I’m Taylor Dasch with EG Realty` in sentence three.
-- Formal file-gate scan after final packaging: 12 package Markdown files, zero hard failures.
-- General unit discovery: 21/21 passed, including the governance-parser regression.
-- Shorts-factory suite: the first direct nested discovery lacked the repository import path and produced collection errors; rerunning with `PYTHONPATH=scripts` passed 25/25.
-- Scoped `git diff --check`: clean.
-- Local Markdown links: zero missing targets across 12 package files.
-- Registry row: 21/21 columns, one `YT-PREP-016`, state `BLOCKED`, no public page/video/lead-magnet value.
+- Direct deterministic Godmode score: `PRODUCTION-BIBLE.md` **81/80 PASS**, zero hard blocks.
+- Direct deterministic Godmode score: `SCRIPT.md` **82/80 PASS**, zero hard blocks.
+- Godmode flywheel check: package folder exists and `council-prompt.md` exists.
+- Content-registry check finds the current `SCRIPTED` row as the 100% match; no second package was created.
+- Spoken script: **1,436 words**, approximately **10.64 minutes at 135 wpm** or **9.57 minutes at 150 wpm**.
+- The first three spoken sentences match the approved hook block, with Taylor Dasch and EG Realty in sentence three.
+- Package integrity scan: all package Markdown files passed the repository gate scanner.
+- General unit suite: **21/21 passed**.
+- Shorts-factory suite with repository import path: **25/25 passed**.
+- Scoped registry row: **21/21 columns**, exactly one `YT-PREP-016`, state `SCRIPTED`, slug `what-makes-a-good-house-hack`.
+- Local Markdown references: zero missing local package files in the final scoped check.
+- `git diff --check`: clean in the final scoped check.
 
-## Remaining release gates
+The Godmode `enforce_quality_gates` compatibility wrapper still throws `TypeError: object is not iterable` in `godmode-mcp.mjs:1971`. The direct deterministic scorer and repository-local gates are the operative receipts; the wrapper failure is not represented as a pass.
 
-1. Pull dedicated current Copperas Cove/Coryell County 2–4-unit acquisition data.
-2. Refresh all four properties, prices, statuses, leases, and owner-unit availability within 48 hours of filming.
-3. Resolve the Harker Heights lease/vacancy contradiction or replace that candidate.
-4. Obtain property-specific lender, tax, insurance, utilities, rent-comp, condition, and route evidence.
-5. Complete all four cost cards and the evidence-led verdict board.
-6. Confirm exterior/interior access and privacy-safe footage.
-7. Replace every bracketed film-day field, rerun the full scanner, and obtain Taylor’s packaging approval.
+The registry also retains three pre-existing historical 20-column rows in the 21-column CSV. `git show HEAD:data/content-registry.csv` reproduces the same rows; this package did not create or modify them.
 
-## Rollback
+## Remaining gates
 
-The work is isolated to this new video folder plus one registry row, one planned-map entry, the governance parser/test, and append-only OpenWolf notes. Reverting those scoped additions restores the pre-task state; no public or customer-facing rollback is required because nothing was released.
+### Taylor decision
+
+1. Approve or revise the recommended title and thumbnail.
+2. Approve the five-test informational direction and script voice.
+3. Confirm `Investing in Temple` as the channel.
+
+### Filming-day verification
+
+1. Re-open any official source supporting a program sentence that remains in the cut.
+2. Label every example composite unless a real property is independently verified and cleared.
+3. Confirm visual rights and remove all addresses, occupants, plates, private documents, and access details.
+4. Recalculate and label any teaching arithmetic added during graphics production.
+
+### External review only if more detail is added
+
+- Lender review for borrower/property-specific loan, cash, rent-credit, reserve, or appraisal claims.
+- Appropriate local/legal review for a real property’s rental legality or lease interpretation.
+- Tax, insurance, appraisal, or property-management review for claims in those professional lanes.
+
+No new Coryell sales pull, four-address refresh, Harker lease investigation, four cost cards, or current builder/rate/incentive research is required for the approved informational cut.
+
+## Release and rollback
+
+Nothing was uploaded, published, scheduled, sent, or changed on the live site. The registry correctly remains `SCRIPTED`, not `READY_TO_FILM` or `PUBLISHED`.
+
+Rollback is limited to this package plus the single `YT-PREP-016` registry row and planned video-to-page map row. Reverting those scoped tracked changes restores the prior four-property draft; no public rollback is needed.

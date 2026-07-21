@@ -2,7 +2,7 @@
 
 ## Verdict
 
-**Do not route this video to the current VA Loan Househacker’s Playbook.** Hold the Markdown, HTML, and PDF from new promotion until the claims are rebuilt against official sources and current MLS data.
+**Do not route this video to the current VA Loan Househacker’s Playbook.** This informational guide is for a first-property investor, not a military-first viewer, and the legacy asset also fails the claim audit below. Hold the Markdown, HTML, and PDF from new promotion until the claims are rebuilt against official sources and any market data actually used.
 
 Files reviewed:
 
@@ -36,24 +36,24 @@ This audit does not modify or unpublish those files.
 - Separate official program rules, lender overlays, MLS observations, and modeling assumptions visually.
 - Add a version number, data-as-of date, source ledger, refresh trigger, and named reviewer.
 - Remove “E-5 and above”/rank-based suitability claims; income, debt, credit, reserves, household, entitlement, property, and lender review matter.
-- Replace the “four-deal blueprint” with the one-property five-gate deal screen unless a tax/lending/legal review supports a broader career-stacking guide.
+- Replace the “four-deal blueprint” with the one-property five-test deal screen unless a tax/lending/legal review supports a broader career-stacking guide.
 
 ## Safe replacement CTA for this video
 
 Until a revised public asset is approved, use:
 
-> Text `HACK` plus the listing link or address to 254-718-4249. Taylor will reply for your likely loan type, move date, and maximum comfortable full-property payment, then help identify the facts that need lender, lease, legal-use, utility, insurance, appraisal, or rent verification before a tour.
+> Text `HACK` plus the listing link or address to 254-718-4249. Taylor will show you which of the five tests still needs proof before you spend time touring it, then connect you with the right professional where needed. Do not send credit, bank, reserve, or account information by text.
 
 Secondary CTA: `https://calendly.com/dealswithdasch`.
 
-The new `HOUSE-HACK-DEAL-SCREEN.md` is the safer foundation for a replacement one-page asset.
+The new `HOUSE-HACK-DEAL-SCREEN.md` is the safer foundation for a replacement one-page asset. The broader Deal Analyzer Spreadsheet is still listed elsewhere as a ghost magnet, so do not promise a spreadsheet download until a real asset and delivery path exist.
 
 ## Suggested rebuild order
 
 1. Remove P0 claims and forecasts.
 2. Rebuild VA/FHA/conventional sections from the official sources in `RESEARCH.md`.
-3. Re-run Bell/Coryell multifamily and rent data with a reproducible method.
-4. Replace career-portfolio promises with the five-gate property screen.
+3. Use current Bell/Coryell multifamily or rent data only for claims the rebuilt asset truly needs, with a reproducible method and source date.
+4. Replace career-portfolio promises with the five-test property screen.
 5. Have a VA-specialist lender review lending language and an appropriate legal/tax professional review anything in their lanes.
 6. Render a new PDF, verify links/contact details, and compare every public number to the source ledger.
 7. Publish or redirect only after Taylor’s approval.

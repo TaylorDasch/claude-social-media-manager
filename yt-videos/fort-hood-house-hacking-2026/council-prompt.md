@@ -1,67 +1,99 @@
-# Council Prompt — Fort Hood House-Hack Stress Test
+# Council Prompt — House-Hacking Informational Video
 
-Evaluate and revise the production package in this folder for the strongest possible buyer-first YouTube video on `Living in Temple TX`.
+## Mission
 
-## Locked mission
+Act as an adversarial council for Taylor Dasch’s next `Investing in Temple` long-form video. Audit the local package at:
 
-Create a 10:30–12:00 evidence-led video that applies one repeatable five-gate screen to four film-day-verified owner-occupancy property examples in Killeen, Copperas Cove, Harker Heights, and Temple:
+`/Users/taylordasch_1/claude-social-media-manager/yt-videos/fort-hood-house-hacking-2026/`
 
-1. Legal property/unit use.
-2. Owner-unit availability.
-3. Borrower/property loan path.
-4. Full monthly cost and rent-off stress.
-5. PCS/vacancy/repair exit resilience.
+The folder name is legacy lineage. The public video is an evergreen informational guide for an aspiring first-time investor considering an owner-occupied property number one.
 
-The video may not become a generic tutorial, new-construction duplex tour, city ranking, investment-return promise, or revived investor-channel asset.
+The intended answer is:
 
-## Primary viewer
+> A potentially strong house-hack candidate is legal, available and realistic to occupy, financeable as the property actually exists, affordable under full-cost and conservative-rent assumptions, and resilient through a bad month, landlord responsibilities, and a future move.
 
-A VA-eligible service member, veteran, or first-time buyer near Fort Hood who wants to lower effective housing cost through an owner-occupied property and needs to know what property type to search first.
+The video uses three recurring teaching examples:
 
-## Packaging
+1. legal duplex with one unit available;
+2. fully leased duplex with no owner space available on time;
+3. house plus second dwelling whose legal and financing treatment is unresolved.
 
-Count-specific title, allowed only if the refreshed evidence produces exactly two documented passes, exactly two documented fails, and zero holds:
+## Council seats
 
-`I Stress-Tested 4 House Hacks Near Fort Hood—Only 2 Passed`
+Run each seat independently before reconciling recommendations.
 
-Safe title:
+### 1. Beginner viewer
 
-`I Stress-Tested 4 House Hacks Near Fort Hood—Here’s What I Found`
+- Can I explain what a house hack is after one minute?
+- Can I use the five tests on a listing tonight?
+- Do I understand why high rent, two visible dwellings, or low down payment can mislead me?
+- Did Taylor make me feel capable rather than overwhelmed?
 
-Thumbnail: one duplex, Taylor, and one four-row scorecard. `2 PASS / 2 FAIL` only when true; otherwise `PASS OR FAIL?`.
+### 2. YouTube packaging and retention editor
 
-Treat the examples as four property failure modes, not a fair city contest. Any `Real 2026 Math` package requires four completed address-specific cost cards.
+- Does `What Makes a Good House Hack? 5 Tests Before You Buy` plus `RENT ISN’T ENOUGH` create a clear, truthful curiosity gap?
+- Do the first three sentences earn the click promise?
+- Are all five tests visible before 0:30?
+- Does each example evolve through the video instead of repeating the same lesson?
+- Identify every segment likely to cause abandonment and propose a precise cut, re-hook, example, or visual fix.
 
-## Non-negotiable evidence rules
+### 3. Experienced small-property investor
 
-- Use `/Users/taylordasch_1/market-monitor/` as MLS source of truth.
-- Obtain a current dedicated Copperas Cove/Coryell County acquisition pull before a city-level Cove sales claim.
-- Refresh every candidate, lease, price, rent comp, tax, insurance input, lender scenario, and filming permission within 48 hours.
-- Do not call blank-close-date records active without a verified status field.
-- Label asking rents as asks, not achieved rents.
-- Use current official VA, HUD/FHA, Fannie Mae, DoD BAH, and Army sources.
-- Distinguish agency rules, lender overlays, MLS aggregates, property facts, and modeling assumptions.
-- The pass count follows evidence; do not cherry-pick properties or verdicts to fit packaging.
+- Is the five-test order realistic?
+- Are legal use, possession, utilities, leases, management, repairs, and post-move use treated seriously?
+- Is full-cost math complete enough for education without pretending to underwrite a real property?
+- Does the framework distinguish an unproven setup from a genuinely incompatible one?
 
-## Voice and safety
+### 4. Lender/compliance skeptic
 
-- Sentence three or earlier: `I'm Taylor Dasch with EG Realty.`
-- Taylor is a civilian local agent; never imply military service.
-- Use `agent`, not `broker`, and current `Fort Hood` naming.
-- No builder incentives.
-- No “live free,” guaranteed qualification, cash flow, appreciation, wealth, passive income, school ranking, crime/safety, demographic-fit, or tenant-composition claim.
-- BAH is context, not property income, a preapproval, or a payment ceiling.
-- Protect the four case verdicts and bad-month test; cut generic education first.
+- Flag any statement that turns a program possibility into borrower/property approval.
+- Verify surviving official-rule language against current primary sources.
+- Ensure advertised rent, supported rent, lender qualification credit, and conservative budgeted contribution remain distinct.
+- Ensure VA is one secondary eligible-buyer note and Taylor never implies a military identity.
+
+### 5. Fair-housing, privacy, and professional-role skeptic
+
+- Flag age-targeted housing language, steering, protected-class targeting, demographic-fit claims, safety/crime/school claims, tenant-composition claims, or outcome promises.
+- Flag any real-property visual or document that could reveal tenants, clients, private MLS data, access details, signatures, plates, or addresses.
+- Ensure every example is labeled `ANONYMIZED COMPOSITE` unless independently verified and cleared.
+- Ensure Taylor does not present himself as a lender, attorney, appraiser, tax professional, insurer, or financial advisor.
+
+### 6. Local lead-generation strategist
+
+- Does the video clearly belong on `Investing in Temple` as first-investment analysis, despite the owner-occupancy component?
+- Does the CTA attract a useful address-specific question without requesting sensitive data?
+- Does the package support the one canonical page `/house-hacking-temple-tx/`?
+- Are derivatives native to each platform and free of military-first drift?
+- What is the most valuable logical next video for a viewer who completes this one?
+
+### 7. Solo producer
+
+- Can Taylor film the plan with one main setup, original graphics, and limited permissioned/generic B-roll?
+- Are visual resets meaningful and achievable every 5–8 seconds?
+- Are the thumbnail, document mockups, and example boards feasible without current listings?
+- Identify any shot that creates unnecessary rights, privacy, cost, or scheduling risk.
+
+## Debate rules
+
+- Evidence outranks enthusiasm.
+- A critique must cite the exact file/section and propose a replacement.
+- Do not resurrect the discarded four-listing/city-contest concept.
+- Do not add builder incentives, current-rate bait, `live free`, guaranteed cash flow, military-first packaging, or unsupported local stats.
+- Use `potentially strong candidate`, `HOLD`, and `not ready for this plan today`; do not give universal buy/sell verdicts.
+- Distinguish a missing fact from a documented incompatibility.
+- Do not ask Taylor for information that can be found in the package, public official sources, or `/Users/taylordasch_1/market-monitor/`.
 
 ## Required output
 
-Return findings first, then an approval-ready revision plan. If editing authority is available, apply safe local changes and verify them. Report:
+Return:
 
-1. Release verdict.
-2. Final title/thumbnail and whether its count is locked.
-3. Highest-risk factual or retention issues.
-4. Exact file changes.
-5. Verification results.
-6. Remaining film-day gates.
+1. a score from 0–100 for strategy, click package, first 30 seconds, educational clarity, evidence, retention, compliance, conversion, and production feasibility;
+2. all hard failures first;
+3. the five highest-leverage improvements, each with exact replacement copy or edit instructions;
+4. the council’s final title/thumbnail choice;
+5. the council’s final five-test order and example verdict language;
+6. a `KEEP / CHANGE / CUT` decision for every major script section;
+7. remaining release gates separated from optional polish;
+8. an overall `PASS`, `PASS AFTER FIXES`, or `REBUILD` verdict.
 
-The current unsafe VA Househacker's Playbook is not an approved CTA. Use the text `HACK` address-screen workflow and correct Calendly URL unless a replacement asset has passed a separate evidence review.
+If you have write access, implement every safe accepted fix directly, rerun the package checks, and report the actual diff. Do not publish or change external systems.

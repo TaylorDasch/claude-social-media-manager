@@ -1,306 +1,252 @@
-# Production Bible — Fort Hood House-Hack Stress Test
+# Production Bible — What Makes a Good House Hack?
 
 ## Opening promise
 
-If you are PCSing to Fort Hood or buying your first owner-occupied 2–4-unit property, a duplex can be for sale, collect rent on both sides, and still be unusable for your plan. This video will test one verified film-day property each in Killeen, Copperas Cove, Harker Heights, and Temple through five hard gates so you know which property type to target and which document can stop the deal before a tour. The first documented failure appears inside 15 seconds. The honest tradeoff is that better advertised rent can create a worse occupancy problem. Before you buy, verify the property, lease, lender, full-payment risk, and exit plan. Every candidate must be refreshed within 48 hours of filming.
+The house hack with the highest advertised rent may hide the first reason a buyer should eliminate it: an unverified rental setup, no available owner space, incompatible financing, incomplete costs, or a plan that needs perfect conditions. In about ten minutes, an aspiring first-time investor will learn five tests for separating a potentially strong owner-occupied candidate from one that is unproven or incompatible with the plan. Three recurring Central Texas archetypes prove the method without turning the video into a four-city comparison or current-listing roundup.
 
-**Built:** 2026-07-19  
-**Channel:** Living in Temple TX  
-**Pillar:** Military relocation / buyer affordability  
-**Status:** BLOCKED for filming — conditional production plan complete; evidence gates remain in `FILM-DAY-CHECKLIST.md`  
-**Target length:** 10:30–12:00  
-**Target publish window:** after the current Temple-vs-Belton launch, unless Taylor reprioritizes
+**Built:** 2026-07-19 · **Informational pivot:** 2026-07-20
 
-Core files: [research](./RESEARCH.md) · [script](./SCRIPT.md) · [film-day gates](./FILM-DAY-CHECKLIST.md)
+**Channel:** Investing in Temple
+
+**Pillar:** First-investment education / deal analysis
+
+**Status:** SCRIPTED — Taylor approval required before `READY_TO_FILM`
+
+**Target length:** 10:15–11:00
+
+Core files: [research](./RESEARCH.md) · [script](./SCRIPT.md) · [film-day checklist](./FILM-DAY-CHECKLIST.md)
 
 ## 1. Business case
 
-- **One viewer:** a VA-eligible service member, veteran, or first-time buyer relocating within the Fort Hood corridor who is willing to owner-occupy and manage at least one renter.
-- **One decision:** which property type belongs in the buyer’s search—and whether a particular address is actually owner-occupancy-ready.
-- **One proof:** the same dated, repeatable house-hack screen applied to four film-day-verified candidates, supported by trailing-year MLS sales and a dated rental snapshot.
-- **One conversion:** viewer texts `HACK` plus a listing link or address to 254-718-4249; Taylor then collects loan type, move date, and maximum comfortable full-property payment for an address-level deal screen.
-- **Revenue path:** browse/search → video → qualified text or Calendly conversation → current property screen → tour/representation → closing → review/referral.
-- **Why this is next:** Taylor has no dedicated house-hacking video; older local videos prove interest; the newest local competitor owns the new-duplex-tour angle but not current pass/fail analysis.
+- **One viewer:** an aspiring first-time investor considering an owner-occupied first property in Central Texas.
+- **One decision:** whether a property is a strong house-hack candidate for that buyer’s plan and deserves deeper review.
+- **One proof:** three recurring archetypes evaluated through the same five tests.
+- **One conversion:** viewer texts `HACK` plus a listing link or address to 254-718-4249; Taylor identifies what still needs proof before a tour and coordinates the appropriate professional review.
+- **Revenue path:** YouTube browse/search → evergreen video → qualified property question → consultation/tour/representation → closing → review/referral.
+- **Why this version:** generic “house hacking 101” is crowded, while the previous four-property concept made expiring listings—not the buyer’s decision—the story.
 
 ### Non-goals
 
-- No “live for free,” passive-income, wealth, appreciation, or cash-flow promise.
-- No builder-incentive claims.
-- No claim that all military households, ranks, or VA borrowers qualify.
-- No citywide demographic, protected-class suitability, school-quality, crime/safety, or tenant-composition language.
-- No property recommendation based on an expired MLS snapshot.
-- No advice to buy if the full payment is unaffordable without rent.
+- No four-city ranking or four-live-listing contest.
+- No “live free,” passive-income, guaranteed qualification, appreciation, wealth, or cash-flow promise.
+- No builder-incentive or current-rate hook.
+- No public age targeting such as “young investors” or “Gen Z buyers.”
+- No universal declaration that a property is a good or bad investment.
+- No claim that a low-down-payment option equals low cash needed.
+- No military-first framing; eligible VA buyers receive one brief secondary note.
 
-## 2. Viewer transformation
+## 2. Channel lane and viewer transformation
 
-Before watching, the viewer thinks house hacking is simply “buy a duplex with VA, rent the other side, and subtract the rent.” After watching, the viewer understands that a real house hack must clear five gates:
+This is investor-first education for `Investing in Temple`. The financing strategy begins with a primary residence, but the viewer’s actual decision is whether property number one works as an investment after legal use, occupancy, financing, full costs, landlord work, and downside are considered. That aligns with the channel’s deal-analysis, creative-finance, and first-investment lanes. Broader portfolio follow-up can continue through BiggerPockets, LinkedIn, Instagram, and the Investor Brief.
 
-1. The structure and units are legal and financeable.
-2. One unit is available inside the applicable owner-occupancy window.
-3. The borrower and property clear the chosen loan program and lender rules.
-4. The full monthly cost—not only principal and interest—works under a rent stress test.
-5. The property remains defensible after a PCS, vacancy, or repair event.
+Before watching, the viewer may believe a good house hack is whichever listing advertises the most rent or the lowest down payment. After watching, the viewer should understand:
 
-The viewer should leave with a property-type priority, a list of documents to request, and a high-intent reason to contact Taylor before touring.
+> A strong house-hack candidate is legal, actually available and realistic to occupy, financeable as it truly exists, affordable under full-cost and conservative-rent assumptions, and resilient through vacancy, repairs, landlord responsibilities, and a future move.
 
-## 3. Editorial thesis
+`Strong candidate` means “deserves borrower-specific review.” It never means approved, profitable, or recommended for every buyer.
 
-> House hacking near Fort Hood can lower effective housing cost, but the cheapest listing and the highest advertised rent are often not the deal. The winner is the property that clears owner occupancy, legal use, financing, full-cost, and exit-risk gates at the same time.
+## 3. Click package
 
-These are four property failure modes, not a fair city ranking. Killeen supplies the true-multifamily case and had the highest trailing-year closed count among the three Bell County cities in the export. Temple supplies a higher historical per-unit-basis and exact-route comparison. Harker Heights supplies the lease/occupancy conflict. Copperas Cove supplies the legal-use, parcel, utility/septic, appraisal, and financing-classification wildcard.
+### Recommended pair
 
-The route layer may reference Fort Hood, Interstate 14, and Baylor Scott & White Medical Center – Temple only as neutral work/transportation anchors. The exact property-to-destination route must be timed and dated; the city label is never a commute promise.
+**Title:** `What Makes a Good House Hack? 5 Tests Before You Buy`
 
-## 4. Click package
+**Thumbnail:** `RENT ISN’T ENOUGH`
 
-### Conditional winner
+Click promise: the viewer will leave with a reusable test, not just a definition.
 
-Use only when the refreshed scorecard yields exactly two documented passes and two documented fails, with zero holds:
+### A/B pair 2 — direct comparison
 
-**Title:** `I Stress-Tested 4 House Hacks Near Fort Hood—Only 2 Passed`  
-**Thumbnail:** `2 PASS / 2 FAIL`
+**Title:** `Good House Hack vs Bad: 5 Tests That Decide It`
 
-Visual: Taylor on one side, one authentic duplex exterior on the other, a simple four-row scorecard between them, two green PASS stamps and two red FAIL stamps. Civilian clothing only. No builder logo, cash, mansion, military uniform, city-name clutter, or fake calculator screenshot.
+**Thumbnail:** `DON’T START WITH RENT`
 
-### Locked safe package
+### A/B pair 3 — local/search
 
-**Title:** `I Stress-Tested 4 House Hacks Near Fort Hood—Here’s What I Found`  
-**Thumbnail:** `PASS OR FAIL?`
+**Title:** `House Hacking in Central Texas: What Works, What Doesn’t, and Why`
 
-### Search-forward fallback
+**Thumbnail:** `GOOD vs BAD`
 
-**Title:** `House Hacking Near Fort Hood: 4 Properties, 5 Deal Killers`  
-**Thumbnail:** `WHAT KILLS THE DEAL?`
+Judge any YouTube Studio test by watch-time share, not CTR alone. No result-count, dollar-savings, or `MATH STOPPED` thumbnail is needed.
 
-### Packaging rules
+## 4. Retention thesis
 
-- The pass/fail count follows evidence; evidence may not be chosen to preserve the count.
-- “Worked” means “cleared the defined property-level screen,” not “guaranteed profit” or “right for every borrower.”
-- Use any `Real 2026 Math` title only if all four address-specific cost cards are completed; a property stopped at a hard gate does not earn that claim.
-- Put one real property, Taylor, and the scorecard on the thumbnail—not four tiny houses.
-- Avoid “under $400K,” which is already occupied by the current competitor’s new-construction angle.
+**Thesis:** rent is only useful after the legal-use, occupancy, financing, full-cost, and operating-plan questions are answered.
 
-## 5. Video architecture
+### First 30 seconds
 
-| Time | Beat | Viewer payoff | Visual reset |
-|---|---|---|---|
-| 0:00–0:35 | Cold open: Harker Heights lease failure | A rented duplex can fail before payment math | Lease timeline + `MATH STOPPED` |
-| 0:35–2:55 | Killeen case | True multifamily definition, program rules, full cost, BAH context | Property tour + cost card + source receipts |
-| 2:55–4:55 | Copperas Cove case | Two dwellings may not equal a legal/financeable two-unit | Parcel/utilities/appraisal checklist |
-| 4:55–6:35 | Harker Heights case | Resolve conflicting lease/vacancy evidence before math | Lease timeline + red hard gate |
-| 6:35–8:35 | Temple case | Higher-basis route/condition/exit contrast | Property footage + exact-address route |
-| 8:35–10:20 | Comparable math and four verdicts | Full cost, conservative rent, rent-off cost, 60-day stress | Persistent four-row scorecard |
-| 10:20–11:20 | Decision and CTA | Where to start and the single low-friction next action | Decision tree + `HACK + address` |
+1. Contradiction: highest advertised rent may identify the first property to eliminate.
+2. Stakes: listing photos and mortgage-minus-rent math miss five ways a plan can fail.
+3. Identity: `I’m Taylor Dasch with EG Realty` in sentence three.
+4. Payoff: show the complete five-test board before 0:30.
 
-If the final script runs past 12 minutes, cut repeated market context before cutting property evidence, the comparable math card, honest downsides, or verdicts.
+### Retention safeguards
 
-## 6. The house-hack screen
+- Answer the title immediately; examples create depth, not artificial suspense.
+- Keep three example rows visible and reveal one new result after each test.
+- Add a proof card, crop, diagram, document field, property visual, or scorecard change every 5–8 seconds.
+- Explain financing only where it changes the test; unused detail belongs in the description.
+- Use one full-cost card, not four repetitive calculations.
+- The honest negative is central: low down payment, strong rent, or two visible dwellings can still produce a poor owner-occupancy fit.
+- Re-hook at the start of Test 4: “This is where an attractive listing becomes a fragile plan.”
+- Re-hook before the examples: “Now put all five tests together—because none of them works alone.”
 
-Every candidate gets the same on-screen card. The detailed worksheet is in `HOUSE-HACK-DEAL-SCREEN.md`.
+## 5. The five-test framework
 
-### Five hard gates
+### Test 1 — Is the rental setup legal?
 
-| Gate | Pass condition | Automatic hold/fail |
+Document the intended rental use, unit count, parcel structure, utility/septic setup, permits where relevant, and how the property is recognized for appraisal, insurance, and financing.
+
+- **Strong:** intended rental setup is documented.
+- **HOLD:** appearance or listing language is the only proof.
+- **Poor fit:** documented use conflicts with the plan.
+
+### Test 2 — Can the buyer occupy it, and is the setup livable?
+
+Confirm one legal space is available inside the lender-confirmed occupancy window. Then evaluate privacy, noise transfer, entrances, parking, shared utilities, common areas, and whether the buyer actually wants to live beside or with renters.
+
+- **Strong:** a legal owner space is available and the arrangement is realistic for this buyer.
+- **HOLD:** lease, possession, or layout facts are missing.
+- **Not ready today:** every legal unit is leased beyond the confirmed occupancy timing.
+
+### Test 3 — Will the exact property and plan finance?
+
+The lender must review the borrower scenario and the property as it really exists, including classification, condition, appraisal/rent treatment, cash to close, and lender-required reserves, if any.
+
+- **Strong:** exact property type and plan received dated professional review.
+- **HOLD:** a generic program maximum or listing claim substitutes for review.
+- **Poor fit:** property or plan has a documented incompatibility with the selected path.
+
+### Test 4 — Does the full monthly number work?
+
+Build one full-cost card:
+
+`P&I + taxes + insurance + MI/fee treatment + owner-paid utilities + HOA/special assessments + maintenance/turnover assumption`
+
+Keep four rent concepts separate:
+
+1. Advertised rent.
+2. Supported property rent.
+3. Lender qualification credit.
+4. Conservative budgeted contribution.
+
+Then toggle budgeted rent to zero. This is a stress test, not a universal affordability rule or individualized financial advice.
+
+### Test 5 — Does it survive a bad month, landlord reality, and a future move?
+
+Use a labeled teaching scenario: temporary reduced or zero rent plus one repair assumption. Ask whether the plan immediately breaks, whether the buyer is willing to manage renters or hire management, and what happens after the buyer moves.
+
+- **Strong:** vacancy, repair, management, and post-move options are explicit.
+- **HOLD:** the strategy has no documented cushion or management plan.
+- **Poor fit:** it requires uninterrupted top-of-market rent, zero repairs, or future appreciation.
+
+## 6. Three recurring examples
+
+| Example | Starting appearance | Evidence-led result |
 |---|---|---|
-| Legal property | Unit count/use documented; utilities/parcel setup understood | Unverified or nonconforming use presented as rental fact |
-| Owner occupancy | A legal unit can be occupied within program/lender timing | All units leased beyond the allowed occupancy window |
-| Loan path | Borrower/property reviewed for VA, FHA, or conventional path | Assumed program eligibility; failed FHA 3–4-unit self-sufficiency test |
-| Full cost | Tax, insurance, MI/funding fee treatment, utilities, HOA, and reserves included | P&I-only “payment”; unknown material expense treated as zero |
-| Exit stress | Buyer can carry vacancy/repair event and has a defensible hold/sale plan | Strategy depends on uninterrupted rent or guaranteed appreciation |
+| Legal duplex with one unit available | Less dramatic rent roll, straightforward layout | Potentially strong candidate if financing, full cost, and stress test clear |
+| Fully leased duplex | Attractive income on both sides | Not house-hack-ready for this plan today if no legal unit is available on time |
+| House plus guest house or converted space | Looks like two rentable dwellings | HOLD until legal use, parcel, utilities, appraisal, insurance, and financing treatment are documented |
 
-### Context scores — never a universal city rank
+Use anonymized composites by default. A real property may replace a composite only after status, facts, privacy, and public-use permission are verified. A property that is not ready for this owner-occupancy plan may still suit a different buyer; do not call it universally bad.
 
-- Current acquisition price and per-unit basis.
-- Documented rent range for the exact unit type.
-- Condition/capital-expenditure exposure.
-- Repeated route to the viewer’s actual Fort Hood gate and second destination.
-- Lease/turnover friction.
-- Property-management and PCS conversion burden.
+## 7. Video architecture
 
-### Verdict language
+| Time | Beat | Viewer payoff | Visual proof |
+|---|---|---|---|
+| 0:00–0:35 | Contradiction hook + five-test board | Rent is not the first test | Good/bad duplex split + five-test checklist |
+| 0:35–1:20 | What house hacking is | Roommate, legal ADU/second dwelling, and owner-occupied 2–4-unit lanes | Three-format diagram |
+| 1:20–2:35 | Test 1: legal setup | Two doors do not prove two legal units | Parcel/use/utilities checklist + uncertain second-dwelling example |
+| 2:35–3:45 | Test 2: occupancy and livability | Fully leased can be incompatible with the plan | Lease timeline + privacy/parking/noise fields |
+| 3:45–5:10 | Test 3: financing and cash | Low down does not mean low cash or approval | One applicable-rule card + dated lender-review fields |
+| 5:10–6:50 | Test 4: full cost and supported rent | Real monthly number versus listing shortcut | One full-cost card + rent toggles |
+| 6:50–8:05 | Test 5: bad month, landlord fit, and exit | Strategy must survive normal friction | Zero-rent/repair scenario + management decision |
+| 8:05–9:25 | Three-example payoff | Good candidate, HOLD, and not-ready-today side by side | Completed three-row board |
+| 9:25–10:10 | Search and document order | Exactly what to look for first | Search ladder + document stack |
+| 10:10–10:45 | CTA and qualification | Address-specific next step | `HACK + listing/address` phone graphic |
 
-- **PASS TO SHORTLIST:** cleared property-level gates with current documentation; borrower approval still required.
-- **HOLD:** one or more material facts remain unverified.
-- **FAIL FOR OWNER-OCCUPANCY TODAY:** a hard gate is presently incompatible; it may still suit another buyer or later timing.
+If the cut runs long, remove repeated program detail and local background before cutting a test, an honest downside, or the three-example payoff.
 
-Never use “good deal,” “bad neighborhood,” or “guaranteed cash flow” as the verdict.
+## 8. Evidence and data plan
 
-## 7. Evidence to put on screen
+### Required before filming
 
-### Market proof
+- Recheck any spoken FHA, conventional, and secondary eligible-VA statements against current official sources.
+- Label each example `ANONYMIZED COMPOSITE` unless it is an independently verified property cleared for public use.
+- Verify any hypothetical arithmetic and show its assumptions.
+- Use no agent-only MLS remark, showing instruction, tenant identity, signature, contact detail, security information, or private borrower data.
 
-Use the trailing-year closed table rather than presenting records without a close date as active inventory:
+### Optional local proof
 
-| City | 2–4-unit closes in source window | Median close | Median close/unit |
-|---|---:|---:|---:|
-| Killeen | 141 | $330,000 | $142,500 |
-| Temple | 32 | $372,500 | $186,250 |
-| Harker Heights | 27 | $341,000 | $158,500 |
+The dated CTXMLS export recorded 141 Killeen, 32 Temple, and 27 Harker Heights closed 2–4-unit sales from 2025-07-01 through 2026-06-25. Source: `/Users/taylordasch_1/market-monitor/duplex-quadplex-bell-2026-06-29.csv`. These counts are optional historical transaction-depth context—not current inventory, demand, or a city ranking. The spoken teaching does not depend on them. If any local statistic survives, show source, geography, period, sample, and retrieval date.
 
-On-screen footer: `CTXMLS export 6/29/26 · Closed 7/1/25–6/25/26 · 2–4 units · Copperas Cove not covered comparably`.
+### Source receipts
 
-### Rental proof
+- [HUD FHA 203(b)](https://www.hud.gov/hud-partners/single-family-sfh203b)
+- [HUD Single Family Housing Policy Handbook 4000.1](https://www.hud.gov/sites/default/files/OCHCO/documents/40001-hsgh-Update-17.pdf)
+- [Fannie Mae current Eligibility Matrix](https://singlefamily.fanniemae.com/media/document/pdf/eligibility-matrix-current)
+- [VA purchase-loan guidance](https://www.va.gov/housing-assistance/home-loans/loan-types/purchase-loan/)
+- Full source interpretation and competitive research: [RESEARCH.md](./RESEARCH.md)
 
-Use exact-bedroom asking-rent medians only as context, never a rent guarantee:
+### Removed dependencies
 
-- Killeen 3BR multifamily ask: $1,250, n=32.
-- Temple: $1,400, n=13.
-- Harker Heights: $1,400, n=9.
-- Copperas Cove: $1,450, n=28.
+This version does not require four current listings, a dedicated Coryell acquisition comparison, a resolved Harker lease contradiction, four lender scenarios, four cost cards, or four filming permissions.
 
-On-screen footer: `MLS asking rents · snapshot 7/13/26 · multifamily filter across combined MLS remark fields · aggregate only · not executed leases or paired comps`.
+## 9. Visual production plan
 
-### BAH proof
+- Primary A-roll: Taylor at a desk or standing beside a simple five-row board.
+- One permissioned or generic Central Texas duplex exterior.
+- One original roommate/ADU/2–4-unit diagram.
+- One lease timeline.
+- One parcel/legal-use checklist.
+- One official financing-source receipt at a time.
+- One full-cost card with supported versus budgeted rent.
+- One zero-rent-plus-repair animation, labeled as a teaching scenario.
+- Persistent three-row example board.
 
-Use one brief context card:
+No recognizable interior, tenant, address, listing screen, or private document without permission. Generic diagrams and custom evidence cards are the solo-production fallback.
 
-`DTMO 2026 · Fort Hood ZIP 76544 · E-5: $1,695 with dependents / $1,530 without · checked 7/19/26`.
+## 10. Conversion path
 
-Spoken qualifier: BAH follows duty-station ZIP, grade, and dependency status; it is not a loan approval or promise to cover the payment.
+### Primary verbal CTA
 
-### Program proof
+> Text `HACK` plus the listing link or address to 254-718-4249. I’ll show you which of the five tests still needs proof before you spend time touring it, then connect you with the right professional where needed. Do not send credit, bank, reserve, or account information by text.
 
-- VA says an eligible purchase loan may cover a home with up to four units when the borrower occupies it. If projected other-unit rent is used to qualify, current VA guidance calls for six months of PITI reserves plus evidence of likely landlord success through prior experience or a property manager; the lender still determines documented rent treatment.
-- HUD describes FHA 203(b) as approximately 96.5% financing for eligible one-to-four-unit principal residences; three- and four-unit cases have additional self-sufficiency and reserve rules.
-- Fannie Mae's April 1, 2026 matrix shows up to 95% LTV for some Desktop Underwriter principal-residence 2–4-unit purchases; manual and other cases can be lower.
+The current VA Househacker’s Playbook remains rejected as the lead magnet. `HOUSE-HACK-DEAL-SCREEN.md` remains an internal consultation worksheet until a separate public-safety review removes or isolates sensitive fields.
 
-These are maximum program frameworks, not a borrower quote or guarantee. The property-level case uses a dated lender scenario.
+## 11. Publishing and page flywheel
 
-## 8. Four case jobs
+Canonical companion page remains the planned [house-hacking guide](/house-hacking-temple-tx/) under the [Investing rail](/investing/); do not create a competing Central Texas or Fort Hood canonical. Add either public link to YouTube only after it is live and verified.
 
-The final addresses must be selected after a fresh pull. These are the required story functions, not preselected winners.
-
-### Case 1 — Killeen: true 2–4-unit example
-
-- Prefer a vacant duplex or fourplex with documented separate units.
-- Show that Killeen had the highest trailing-year closed count among the three Bell County cities in this export. Do not convert historical transaction depth into a claim about current selection.
-- Verify existing leases, unit access, utilities, taxes, insurance, and current rent comps.
-- Honest negative: older stock, condition, lease/turnover, and property management can erase the apparent price advantage.
-
-### Case 2 — Copperas Cove: structure/legal-use wildcard
-
-- Prefer a true duplex if the dedicated Coryell pull produces a current candidate.
-- If using two homes, guest house, or in-law suite, make legal use, parcel, utilities/septic, appraisal, and loan treatment the lesson.
-- Honest negative: physical separation does not make something a legal second rental unit or a 2-unit property for underwriting.
-
-### Case 3 — Harker Heights: occupancy control
-
-- Prefer a listing that looks attractive but has leases incompatible with immediate owner occupancy.
-- Show the lease timeline before showing payment math.
-- Honest negative: a fully leased property may fail the primary-residence plan even if its rents look excellent. Resolve any contradiction between showing instructions and lease remarks before using this case.
-
-### Case 4 — Temple: existing/newer duplex contrast
-
-- Prefer a candidate with one legal unit vacant.
-- Show why this address’s entry basis and rent must be weighed against its documented condition, exact route, and property-specific exit plan.
-- Honest negative: the higher historical per-unit basis and this address’s verified route, tax, insurance, or condition can overwhelm the rent difference.
-
-## 9. Retention system
-
-- First 15 seconds: state one verified Harker Heights price/rent result, reveal the lease/occupancy failure, and stamp `MATH STOPPED`.
-- Sentence three: say “I’m Taylor Dasch with EG Realty.”
-- Reach the first full property case by 0:35; do not front-load a definitions or financing lecture.
-- Explain each rule only where it changes a property verdict: true-multifamily financing in Killeen, legal classification in Cove, occupancy in Harker Heights, and route/exit in Temple.
-- No biography, subscribe ask, logo sting, or chapter preview before the first property result.
-- Change shot, framing, evidence card, location, or graphic every 5–8 seconds during the opening and every 7–10 seconds thereafter.
-- Re-hook at 2:55: “Now we leave the easy label of true duplex.”
-- Re-hook at 4:55: “This one has rent on both sides. That is exactly why it may fail.”
-- Re-hook at 8:35: “Erase the list prices. Which properties still pass when rent disappears for sixty days?”
-- Keep the four-row scorecard persistent after the opening; fill hard gates as each case earns them.
-- For every viable property, show full cost, conservative rent, rent-at-zero cost, and the same 60-day-plus-repair stress test.
-- For a hard-gate failure, show `MATH STOPPED` instead of false precision.
-- Reveal each property verdict after its evidence and the final board at 8:35.
-
-## 10. Tone and compliance
-
-- Taylor is a civilian local agent; never imply military service.
-- Use **Fort Hood**, the current official name.
-- Say “Taylor Dasch with EG Realty” within the first three spoken sentences.
-- Use Taylor’s role as a local real-estate agent consistently.
-- Describe cities by property evidence, route, price, condition, taxes, and documented market depth—not protected-class or demographic fit.
-- Avoid school rankings, crime claims, safety characterizations, protected-class suitability, and tenant-composition claims.
-- Every financial number is dated and labeled as official program rule, MLS aggregate, asking rent, lender scenario, or modeling assumption.
-- Do not claim the viewer will live free, qualify, cash flow, appreciate, build wealth, or retire with a portfolio.
-- Do not quote changing builder incentives.
-
-## 11. Conversion path
-
-### Primary CTA
-
-> “Text `HACK` plus the listing link or address to 254-718-4249. I’ll reply for your likely loan type, move date, and maximum comfortable full-property payment, then tell you which facts need verification before a tour.”
-
-The first action is intentionally small. The follow-up captures timing, financing lane, and risk ceiling without forcing four fields into the video CTA.
-
-### Secondary CTA
-
-`https://calendly.com/dealswithdasch`
-
-Keep Calendly in the description and companion page; do not add it as a competing spoken CTA.
-
-### Lead asset
-
-Use the new one-page `HOUSE-HACK-DEAL-SCREEN.md` as the eventual downloadable/consultation worksheet. **Do not send viewers to the existing VA Loan Househacker’s Playbook PDF until it is corrected.** See `CTA-ASSET-AUDIT.md`.
-
-### Companion page
-
-Canonical page: `/house-hacking-temple-tx/`.
-
-The production packet was built locally on July 19, 2026. Do not use `/fort-hood-house-hacking/` as a second competing canonical; add the public link only after the Temple page is published and verified.
-
-Single job: help an owner-occupant compare property types and submit one address for a deal screen. It should include:
-
-- The five hard gates.
-- A calculator that separates full payment, gross rent, underwriting rent credit, and stress-tested effective housing cost.
-- Dated city-level MLS aggregates with sample sizes.
-- Official VA/FHA/conventional links.
-- Video embed and transcript.
-- One concise form with loan type, move date, price/payment ceiling, property URL/address, and occupancy plan.
-
-This page is a future implementation, not authorization to publish or create production forms now.
-
-Future internal-link candidates, only after their existing trust/claims repairs pass live QA:
-
-- [Fort Hood off-post housing](https://templetxhomes.net/fort-hood-off-post-housing/)
-- [Fort Hood BAH calculator](https://templetxhomes.net/fort-hood-bah-calculator/)
-
-## 12. Distribution and sequel tree
+The future page should visibly answer the five tests, embed the final video, host a matching transcript/FAQ, and use final-video-matching `VideoObject` fields. No placeholder schema may be published.
 
 ### Native derivatives
 
-- YouTube Short: “A Fully Leased Duplex Can Fail Your House Hack.”
-- Instagram Reel: “Two Houses on One Lot Is Not Automatically a Duplex.”
-- Instagram carousel: five house-hack gates with a screenshotable checklist.
-- BiggerPockets/LinkedIn post: dated three-city 2–4-unit sales depth and why unpaired rent-to-price ratios mislead.
-- Temple Insider buyer email: “Before you tour a duplex, request these five documents.” Draft only until approved.
+- YouTube Short: `Two Doors Do Not Make a Duplex`.
+- Instagram Reel: `The Fully Leased House-Hack Trap`.
+- Instagram carousel: `5 Tests Before Property #1`.
+- BiggerPockets/LinkedIn post: why advertised rent is the wrong first filter.
+- Investor Brief segment: the five documents to request before touring.
 
-The native derivatives above are plans, not published assets. One short-video platform is intentionally excluded because this buyer-primary-residence video brushes against investment content; record that as a governance exception before any future `REPURPOSED` status.
+## 12. Tone and compliance
 
-### Sequels if validated
-
-1. `VA House Hacking Near Fort Hood: The Exact Property Rules` — official program deep dive.
-2. `Killeen Duplex vs Fourplex: Which One Survives a PCS?` — full carrying-cost/exit comparison.
-3. `Temple vs Killeen Duplex: Same Buyer, Different Risk` — paired case study.
-4. Monthly `House-Hack Deal Screen` only when every featured property is status-verified and permissioned.
-
-### Success metrics
-
-- First 30-second retention and average percentage viewed.
-- Qualified texts beginning with `HACK` plus a property link/address, followed by loan type, move date, and payment ceiling in Taylor’s reply flow.
-- Consultation bookings and tours attributable to the video.
-- Comment questions that reveal a missing section or sequel demand.
-- Companion-page submissions once a safe page exists.
-
-CTR alone does not validate the strategy.
+- `Taylor Dasch with EG Realty` appears in sentence three.
+- Taylor is a Central Texas real-estate agent, not a lender, attorney, tax professional, appraiser, or financial advisor.
+- Use experience-stage language, never public age targeting.
+- A good-candidate result is not a buy recommendation, approval, return forecast, or city ranking.
+- A temporary zero-rent scenario is a teaching stress test, not a universal reserve requirement.
+- Military/VA remains a secondary eligible-buyer example and never implies Taylor served.
+- No school, crime/safety, demographic-fit, tenant-composition, appreciation, or outcome promise.
+- No builder incentive is needed.
 
 ## 13. Final production gates
 
-The package can move to filming only when:
+Advance to `READY_TO_FILM` only when:
 
-- Copperas Cove acquisition evidence is comparable or explicitly framed as a non-comparable case.
-- Four addresses are reverified inside 48 hours.
-- Each lease/occupancy fact is documented.
-- Each cost scenario uses property-specific taxes, insurance, utilities, and a current lender estimate.
-- The pass/fail count matches the evidence and title.
-- Interior access/permission is confirmed; otherwise shots are public-road or generic.
-- All numbers in script and graphics match the evidence sheet.
-- Existing lead magnet is withheld until corrected.
+- Taylor approves the recommended title/thumbnail and the informational structure.
+- Every example is labeled composite or independently verified and cleared for public use.
+- Any official program sentence is rechecked on filming day.
+- Thumbnail/B-roll rights and privacy are clean.
+- The first 30 seconds, five-test board, one honest negative, CTA, description, and end-screen target remain aligned.
+
+Publishing still requires Taylor’s explicit approval and a final metadata/placeholder check.

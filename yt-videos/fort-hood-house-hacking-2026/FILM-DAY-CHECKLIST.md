@@ -1,126 +1,124 @@
-# Film-Day Checklist
+# Film-Day Checklist — What Makes a Good House Hack?
 
-Do not film the numeric version until Sections 1–5 are complete. If a value cannot be verified, use `HOLD/UNKNOWN` on screen; never fill the gap from a portal estimate or memory.
+**Current state:** `SCRIPTED`
 
-## 1. Data refresh — within 48 hours
+**Advance to:** `READY_TO_FILM` only after every required preflight item is checked
 
-- [ ] Export dedicated Copperas Cove/Coryell County 2–4-unit sales and for-sale data.
-- [ ] Refresh Bell County 2–4-unit records for Killeen, Harker Heights, and Temple.
-- [ ] Refresh exact-bedroom multifamily rental asks and, where available, executed leased comps.
-- [ ] Record source filename, export/acquisition time, analysis time, filters, sample sizes, and limitations.
-- [ ] Document whether rental filtering uses `PublicRemarks`, `AgentRemarks`, or both; recompute if the public-use method changes.
-- [ ] Exclude or explicitly document invalid DOM values before recalculating DOM medians; the prior Killeen file contains one `DOM = -9` row.
-- [ ] Keep pending/under-contract separate from active where status exists.
-- [ ] Recompute all medians and city counts used in script/graphics.
-- [ ] Confirm public aggregates do not expose confidential MLS remarks.
+**Package target:** 10:15–11:00 informational video; five tests; three anonymized examples
 
-## 2. Four candidate lock
+## 1. Taylor approval
 
-For each property:
+- [ ] Approve recommended title: `What Makes a Good House Hack? 5 Tests Before You Buy`.
+- [ ] Approve recommended thumbnail: `RENT ISN’T ENOUGH`.
+- [ ] Approve the first three spoken sentences and five-test structure.
+- [ ] Confirm `Investing in Temple` as the investor-first channel.
+- [ ] Confirm military/VA remains one brief secondary note.
+- [ ] Confirm no builder incentive, current rate, current rent, or live-listing hook is being added.
 
-- [ ] Current listing status and price reverified.
-- [ ] Legal/stated unit count documented.
-- [ ] Current leases, expirations, renewals, and possession reviewed.
-- [ ] At least one unit’s availability is reconciled with the lender-confirmed occupancy plan.
-- [ ] Parcel, utilities, sewer/septic, and legal-use facts collected where relevant.
-- [ ] Property-specific tax estimate sourced.
-- [ ] Property-specific insurance quote or written estimate sourced.
-- [ ] HOA/restriction/rental-cap facts sourced, if applicable.
-- [ ] Exact-unit rent comps sourced and labeled ask versus executed lease.
-- [ ] Material condition/capital-item risks identified.
-- [ ] Current route checked from exact address to the viewer-relevant Fort Hood gate; departure time/date recorded.
-- [ ] Interior filming permission confirmed in writing, or interior shot plan removed.
-- [ ] No property is called a pass or fail inside the opening until its exact hard-gate evidence has been refreshed.
+## 2. Evidence preflight
 
-### Preferred story mix
+- [ ] Open each official source linked in `RESEARCH.md`; verify the page/document is current and still supports every surviving sentence.
+- [ ] Have an appropriate lender review any exact program phrasing added beyond the generic script language.
+- [ ] Recalculate any number shown on screen; save the assumptions and source date.
+- [ ] Ensure no city count, median, rent, rate, price, tax, insurance, or inventory claim appears unless refreshed and labeled.
+- [ ] Keep the zero-rent-plus-one-repair example labeled `TEACHING STRESS TEST — NOT A RULE`.
+- [ ] Keep every outcome plan-specific: `POTENTIALLY STRONG`, `HOLD`, or `NOT READY FOR THIS PLAN TODAY`.
 
-- [ ] Killeen: a legal true 2–4-unit with an available owner unit.
-- [ ] Copperas Cove: a true duplex or clearly labeled two-home/guest-house case with property-type questions.
-- [ ] Harker Heights: lease/owner-occupancy control case.
-- [ ] Temple: one-unit-vacant existing or newer duplex contrast.
+## 3. Example and privacy preflight
 
-Do not cherry-pick properties to force a two-pass/two-fail title. Lock the score first, then lock the title.
+- [ ] Default every example to `ANONYMIZED COMPOSITE — TEACHING EXAMPLE`.
+- [ ] If substituting a real property, verify current status, facts, legal-use evidence, occupancy/lease facts, and permission for public discussion.
+- [ ] Obtain permission for any recognizable exterior not filmed lawfully from a public road.
+- [ ] Obtain explicit permission before using any interior.
+- [ ] Remove addresses, occupants, tenant identities, plates, lockboxes, access codes, signatures, contact information, and neighboring details.
+- [ ] Use no private borrower information, agent-only MLS remarks, showing instructions, login screens, or unredacted leases.
+- [ ] Use fabricated composite document cards for teaching inserts.
 
-## 3. Lender evidence
+## 4. Script lock
 
-- [ ] Borrower example is clearly hypothetical or based on a consenting actual buyer.
-- [ ] VA/FHA/conventional program language rechecked against official sources.
-- [ ] Lender reviews each exact property type; no generic “duplex approval” substitutes.
-- [ ] Current rate/APR/points/fees/cash-to-close scenario is dated and labeled.
-- [ ] VA entitlement, funding-fee, qualifying rent, reserve, and landlord-experience/property-manager treatment documented where relevant.
-- [ ] FHA three-/four-unit self-sufficiency and reserve result documented where relevant.
-- [ ] Conventional DU/manual/high-balance result documented where relevant.
-- [ ] No personal borrower details appear on screen.
-- [ ] National Freddie Mac average is not presented as the scenario quote.
+- [ ] First sentence is the rent contradiction—not a greeting or channel intro.
+- [ ] Sentence three identifies `Taylor Dasch with EG Realty`.
+- [ ] Definition includes roommate, legal second-dwelling, and owner-occupied 2–4-unit formats.
+- [ ] “Two doors do not prove two legal units” remains.
+- [ ] Fully leased duplex is described as plan-specific—not universally bad.
+- [ ] `LOW DOWN ≠ LOW CASH ≠ APPROVAL` remains.
+- [ ] Full-cost stack and four separate rent concepts remain.
+- [ ] Landlord/lifestyle and post-move questions remain.
+- [ ] Temple, Killeen, Harker Heights, and Copperas Cove appear only as local context, not a ranking.
+- [ ] CTA requests only `HACK + listing link/address` by text.
+- [ ] Privacy warning says not to text credit, bank, reserve, or account information.
 
-## 4. Scorecard lock
+## 5. Graphics ready
 
-For each case:
+- [ ] Five-test master board.
+- [ ] Three house-hack formats diagram.
+- [ ] Three recurring composite example cards.
+- [ ] `Two doors ≠ two legal units` card.
+- [ ] Legal-use evidence checklist.
+- [ ] Lease/occupancy timeline.
+- [ ] Livability checklist.
+- [ ] Exact-property lender-review flow.
+- [ ] `LOW DOWN ≠ LOW CASH ≠ APPROVAL` card.
+- [ ] Full-cost stack.
+- [ ] Four-rent-concepts card.
+- [ ] Zero-rent-plus-one-repair teaching card.
+- [ ] Landlord/operator task wheel.
+- [ ] Five-step search ladder.
+- [ ] CTA/privacy card.
+- [ ] Persistent composite and educational disclaimers.
 
-- [ ] Legal property gate: PASS / HOLD / FAIL with evidence.
-- [ ] Owner-occupancy gate: PASS / HOLD / FAIL with evidence.
-- [ ] Loan-path gate: PASS / HOLD / FAIL with evidence.
-- [ ] Full-cost gate: PASS / HOLD / FAIL with evidence.
-- [ ] Exit-stress gate: PASS / HOLD / FAIL with evidence.
-- [ ] Four comparable outputs complete where the first three hard gates clear: full cost, conservative property-specific rent, rent-at-zero cost, and two months of full cost plus one labeled repair assumption.
-- [ ] A hard-gate failure shows `MATH STOPPED`; it is not given invented payment precision.
-- [ ] Final verdict uses only: PASS TO SHORTLIST / HOLD / FAIL FOR OWNER-OCCUPANCY TODAY.
-- [ ] “Pass” is never described as a property recommendation, approval, profit, or universal fit.
+## 6. Camera and audio
 
-## 5. Script and graphics lock
+- [ ] Main camera, batteries, storage, lens, tripod, and power checked.
+- [ ] Lav microphone plus backup audio recording.
+- [ ] White balance, exposure, frame, and eye line locked.
+- [ ] Clean background with no client papers, computer notifications, or private screens.
+- [ ] Record ten seconds of room tone at each setup.
+- [ ] Record first three sentences in one clean take, then two alternates.
+- [ ] Capture wide, medium, and tight clean plates.
+- [ ] Leave one beat around re-hooks and verdict lines for editing.
+- [ ] Capture thumbnail expressions and poses before striking the setup.
 
-- [ ] Replace every bracketed field in `SCRIPT.md`.
-- [ ] Search confirms zero remaining `[FILM-DAY`, `[VERIFIED`, `[PRICE]`, `[RESULT]`, `[PASS`, or similar placeholders.
-- [ ] First three spoken sentences include “I’m Taylor Dasch with EG Realty.”
-- [ ] “Agent,” never “broker.”
-- [ ] Fort Hood, not the prior installation name, in current public copy.
-- [ ] Every numeric graphic carries source, geography, period/snapshot, sample n, and verification date.
-- [ ] Asking rent is not called achieved rent.
-- [ ] Records without a close date are not called active unless status is verified separately.
-- [ ] BAH is not called a preapproval, mortgage budget, or property income.
-- [ ] No “live free,” cash-flow, appreciation, wealth, or builder-incentive claim.
-- [ ] No demographic, family-fit, school-quality, crime/safety, or military-tenant-composition claim.
-- [ ] `2 PASS / 2 FAIL` and the count-specific title are used only with exactly two documented passes, exactly two documented fails, and zero holds.
-- [ ] Any `Real 2026 Math` title is used only if all four address-specific cost cards are complete.
-- [ ] Thumbnail count matches title and scorecard.
+## 7. Retention and delivery
 
-## 6. Production kit
+- [ ] Deliver the hook in under 18 seconds before expanding the promise.
+- [ ] Show all five tests before 0:30.
+- [ ] Keep the definition under one minute.
+- [ ] Make each test answer one viewer question before adding detail.
+- [ ] Reveal an evidence field before each example verdict.
+- [ ] Preserve the Test 4 re-hook: `This is where an attractive listing becomes a fragile plan.`
+- [ ] Preserve the three-example payoff near 8:15.
+- [ ] Vary direct-to-camera, board, overhead, diagram, and receipt visuals.
+- [ ] Capture enough inserts for a meaningful visual reset every 5–8 seconds.
+- [ ] Keep delivery conversational; do not read source-detail footnotes on camera.
 
-- [ ] Camera batteries/cards.
-- [ ] Lav microphone and backup recorder.
-- [ ] Tripod/phone mount.
-- [ ] Lens cloth and ND filter if needed.
-- [ ] Property permissions and route sheet saved offline.
-- [ ] Printed/redacted four-row scorecard.
-- [ ] Current evidence sheet saved offline.
-- [ ] Thumbnail-expression shots captured.
-- [ ] Room tone and wild lines captured at each setup.
-- [ ] No client names, tenant names, lease signatures, MLS-only remarks, gate credentials, or license plates visible.
+## 8. Thumbnail capture
 
-## 7. Edit QA
+- [ ] Medium close-up of Taylor with clean expression and open eye line.
+- [ ] Clean duplex silhouette or permissioned exterior plate.
+- [ ] Rent card with room for `RENT ISN’T ENOUGH`.
+- [ ] Alternative plates for `DON’T START WITH RENT` and `GOOD vs BAD`.
+- [ ] No dollar promise, interest rate, down-payment figure, builder logo, military imagery, or fake approval graphic.
 
-- [ ] First meaningful result appears inside 15 seconds.
-- [ ] First full property case begins by 0:35.
-- [ ] No logo sting or subscribe ask before the first property payoff.
-- [ ] Visual reset every 5–8 seconds in opening and 7–10 seconds afterward.
-- [ ] Each city gets a source slate and honest downside.
-- [ ] Full-cost formula appears before rent is subtracted.
-- [ ] Rent-off stress test appears before final recommendation.
-- [ ] Disclaimer remains legible on screen and in description.
-- [ ] Chapters match final cut.
-- [ ] End screen points to `39Y6UpSFqu0` and subscribe.
-- [ ] Description and pinned comment use the correct phone, email, and Calendly URL.
-- [ ] Description contains no generic homepage substitute for the planned companion page; add the mapped URL only after it is vetted and live.
-- [ ] Spoken CTA asks only for `HACK + listing link/address`; loan type, move date, and full-payment ceiling are follow-up questions.
-- [ ] Current VA Househacker’s Playbook PDF is not linked.
+## 9. Post-record QA
 
-## 8. Pre-upload review
+- [ ] Audio is intelligible and synchronized; backup exists.
+- [ ] First three sentences are complete and usable.
+- [ ] No private or rights-sensitive material entered the frame.
+- [ ] Every example label and teaching disclaimer is legible.
+- [ ] Program-source screen captures show source title and retrieval date but no unrelated tabs or accounts.
+- [ ] Chapter beats can be cut at the planned timestamps without losing a test.
+- [ ] CTA number is `254-718-4249` and Calendly is `https://calendly.com/dealswithdasch`.
+- [ ] End-screen safe area is clean for the final 20 seconds.
 
-- [ ] Re-run claim scan and banned-language scan.
-- [ ] Re-run the repaired formal integrity scanner and resolve every hard failure before filming.
-- [ ] Watch once with audio only for clarity.
-- [ ] Watch once muted for visual comprehension/source labels.
-- [ ] Check mobile thumbnail at small size.
-- [ ] Confirm title does not overstate the count or outcome.
-- [ ] Taylor approves the final title, thumbnail, description, pinned comment, and any public property footage.
-- [ ] No publishing, scheduling, page creation, form submission, CRM change, or outreach occurs without Taylor’s separate approval.
+## Stop conditions
+
+Do not film or advance the state if:
+
+- Taylor has not approved the click package and informational direction;
+- the script contains a current financial/program claim that was not rechecked;
+- a real property example lacks verified facts or public-use clearance;
+- the opening no longer answers the good-versus-poor-fit question;
+- the package drifts into four live listings, a city contest, military-first framing, or builder incentives.
+
+These stop conditions do not require a new Coryell pull, four property cost cards, or four filming permissions. Those dependencies belonged to the discarded live-listing version.
