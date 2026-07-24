@@ -6,7 +6,7 @@
 ## 5 Hook Options (pick to match thumbnail + title)
 
 **HOOK 1 — LEAD (the forced choice; matches thumbnail; teases the $400 gem)**
-> "As I record this, Stylecraft will hand you one of two things: a four-point-nine-nine percent thirty-year fixed — which ties the lowest advertised builder rate in Bell County — or up to twenty thousand dollars in flex cash. Not both. You pick one. It's also the one builder where I tell every client to spend four hundred dollars before a deadline — or lose thousands. So — the rate, or the twenty grand? In the next two minutes you'll know which one to take."
+> "As I record this, Stylecraft will hand you one of two things: a four-point-nine-nine percent thirty-year fixed — which ties the lowest standing fixed rate any Bell County builder advertises — or up to twenty thousand dollars in flex cash. Not both. You pick one. It's also the one builder where I tell every client to spend four hundred dollars before a deadline — or lose thousands. So — the rate, or the twenty grand? In the next two minutes you'll know which one to take."
 
 *Why it wins: the either/or is a decision the viewer has to resolve, "as I record this" self-hedges forever, the near-term promise ("next two minutes") holds the 30s–2min window, and the $400 tease still opens the warranty loop.*
 

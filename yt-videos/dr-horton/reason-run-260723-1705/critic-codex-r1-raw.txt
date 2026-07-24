@@ -1,0 +1,92 @@
+FATAL WEAKNESSES (must fix or kill):
+
+1. **“I'm Taylor Dasch, an agent with EG Realty…”** — The declaration arrives around sentence eight at 0:30, not sentence three, and it omits the required exact phrase “Taylor Dasch with EG Realty.” Sentence three is currently “ConsumerAffairs: 1.62, across 1,933 reviews.” — **Proposed rewrite:** Make the first two sentences run through 0:14, then begin sentence three at 0:15: “I’m Taylor Dasch with EG Realty, and I pulled the local MLS data and source pages to show what each number actually measures.”
+
+2. **“A pending class action — Santiago — alleges…”** — False. *Santiago* was voluntarily dismissed in December 2025 and the case was closed; calling it pending is a kill-level legal-status error. [Federal docket](https://dockets.justia.com/docket/florida/flmdce/6%3A2025cv01904/448185). — **Proposed rewrite:** “A 2025 complaint in *Santiago* alleged that DHI Mortgage understated projected property-tax escrows. That case was voluntarily dismissed without findings in December 2025. I’m not presenting those allegations as proven facts.” Mention *Robinson* only after checking its current docket.
+
+3. **“There's a builder in Temple with a 4.9-star sales office and a one-star review page — at the same time, for the same houses.”** — They are not reviews of the same houses, geography, transaction stage, or customer population. Two local Google profiles cannot be causally compared with national corporate pages. Repeating this in Short S1 compounds the misleading claim. — **Proposed rewrite:** “Two Temple sales-office profiles show high ratings, while separate national corporate pages show much lower ratings. Those sources cover different populations and cannot be combined into one builder score.”
+
+4. **“The 4.9s are rating the buying experience… The one-stars are overwhelmingly rating what happens after closing…”** — This “decode” is asserted without a coded review sample. “The people whose job ends at closing” is also a reckless blanket statement about another company’s staff and practices. Texas advertising cannot be misleading, and NAR Article 15 prohibits knowingly or recklessly repeating misleading business-practice claims. [TREC](https://www.trec.texas.gov/node/941), [NAR Article 15](https://www.nar.realtor/about-nar/governing-documents/code-of-ethics/2026-code-of-ethics-standards-of-practice). — **Proposed rewrite:** “Local and national review pages capture different populations. BBB reports that 655 of 742 complaints were categorized as service or repair issues, but that national complaint mix does not establish Temple-specific construction or warranty performance.”
+
+5. **“My rating: three out of five. Buy D.R. Horton for the payment, not the product.”** — The score has no rubric, local defect inspection, warranty-resolution dataset, or Temple-specific owner sample. National complaints cannot support a quantified rating of the local product. — **Proposed rewrite:** “I’m not assigning a numerical builder score from these inputs. The advertised financing is measurable; construction and warranty execution must be evaluated home by home through contract review, independent inspections, and the applicable warranty.”
+
+6. **“They're the cheapest new-construction entry in this market… the monthly payment beats almost everything in this price band, new or resale.”** / **“This is the strongest monthly number in Temple right now.”** — No market-wide payment comparison supports either superlative, and the draft never models taxes, insurance, mortgage insurance, fees, points, concessions, or cheaper resales consistently. — **Proposed rewrite:** “The lowest D.R. Horton record in my July 13 search was $195,000. That does not establish the lowest all-in payment across every new-build and resale option in Temple.”
+
+7. **“Freddie Mac's national average… 6.55… That's $310 a month, $18,574 over five years.”** — The promo loans are FHA/VA while PMMS is a conventional, conforming benchmark for excellent-credit borrowers near 80% LTV. The description nevertheless labels the result “savings vs average.” That is not an apples-to-apples loan-cost comparison. [Freddie Mac methodology](https://www.freddiemac.com/research/insight/20221103-freddie-macs-newly-enhanced-mortgage-rate-survey). — **Proposed rewrite:** “Applying 4.99% and 6.55% to the same balance produces an illustrative P&I difference, not verified savings. Compare actual Loan Estimates using the same program, credit profile, points, fees, mortgage insurance, taxes, and insurance.”
+
+8. **“Buyers are negotiating on top of the promos, and the data says it works.”** — The 3.7% statistic is closed price versus original list. It does not reveal contract-time negotiation, intervening builder price reductions, concessions, or whether incentives were stacked. — **Proposed rewrite:** “Across 27 closings, the median closed price was 3.7% below original list. That field does not show when the price changed or whether the buyer also received financing or closing-cost incentives.”
+
+9. **“On a $300,000 home, that's roughly $2,349 a year, every year, versus in-city Temple communities…”** — The $2,349 is the gross MUD #1 levy at the 2025 rate, not the net tax difference versus Temple. An ETJ property avoids some city taxes, and rates, exemptions, and taxable values change. [BellCAD’s 2025 rate chart](https://bellcad.org/wp-content/uploads/2025/09/2025-Tax-Rate-Chart.pdf). — **Proposed rewrite:** “Bell County MUD #1’s 2025 rate was 0.783%, equal to $2,349 on $300,000 of taxable value before exemptions. That is one line in the tax stack—not automatically $2,349 more than an in-city Temple property. Compare the complete taxing entities for the exact parcel.”
+
+10. **“Where are these homes? Ten communities.”** — The 85-record MLS scope includes Temple, Belton, Nolanville, and Troy, but the map omits Warrior’s Legacy in Nolanville and the Troy record, introduces coming-soon communities outside the 85, and calls Willow Glenn sold out while the pull contains two active/pending records. — **Proposed rewrite:** Either rerun Temple-only data or disclose the complete regional scope: “CTXMLS returned 85 active/pending records across Temple, Belton, Nolanville, and Troy. Current MLS inventory, builder-marketed communities, sold-out communities, and coming-soon communities are separate categories.”
+
+11. **“THE REVIEW PARADOX” / “THE INCENTIVE CLOCK” / “THE FIVE-MOVE PLAYBOOK” / optional interview insert** — The format permits one creative device; this package stacks at least three named frameworks plus a major interview break. — **Proposed rewrite:** Keep the review-source contrast as the sole device. Rename the other sections “Current financing terms,” “Local inventory,” and “Buyer checks,” and move the interview into a separate video.
+
+MAJOR WEAKNESSES (must fix to ship cleanly):
+
+1. **“August and September are historically the deepest-incentive window.”** / **“the next event is a matter of when, not if.”** — Fiscal year-end is verified, but it does not prove a recurring local incentive maximum or guarantee another event. D.R. Horton itself says incentives respond to local demand and rates. [D.R. Horton 10-K](https://www.sec.gov/Archives/edgar/data/882184/000088218425000081/dhi-20250930.htm). — **Proposed rewrite:** “D.R. Horton’s fiscal year ends September 30, and this offer uses that closing deadline. I do not have a local historical series proving August and September always produce the deepest incentives.”
+
+2. **“BBB's A-plus doesn't measure happiness — it measures whether the company answers complaints.”** — Wrong simplification. BBB uses complaint history, responsiveness, transparency, licensing, government actions, and other factors; customer reviews are excluded from the letter grade. [BBB ratings methodology](https://www.bbb.org/all/overview-of-ratings). — **Proposed rewrite:** “BBB’s letter grade and customer-review score are separate measures. Customer reviews do not enter the letter-grade calculation, which considers several business and complaint-history factors.”
+
+3. **“BBB: A+ grade AND 1.07★ — 742 complaints.”** — This visually conflates separate denominators. The star score comes from customer reviews; 742 is the three-year complaint count. — **Proposed rewrite:** “BBB: A+ letter grade · 1.07★ average from [filming-day review count] customer reviews · 742 complaints during the prior three years.”
+
+4. **“It appears nowhere on their pages today.”** — An unprovable site-wide negative based on an unspecified search method. — **Proposed rewrite:** “I could not find the former 0.99% offer on the Temple promo pages I checked on July 22, 2026.”
+
+5. **“It may require points. FHA and VA only — there's no conventional version.”** — “May require points” is inadequate when APR materially exceeds the note rate. The exact points, eligibility, credit assumptions, qualifying homes, and lender fees need to be displayed from the current term sheet. — **Proposed rewrite:** “This advertised offer applies only to qualifying borrowers and specified homes through DHI Mortgage. Show the current term sheet’s points, fees, minimum qualifications, program eligibility, APR, and expiration on screen.”
+
+6. **“The VA version: zero down, a $324,827 loan…”** — It fails to explain that the example apparently finances a VA funding fee, whose amount varies and may be waived for eligible borrowers. — **Proposed rewrite:** “DHI’s example assumes zero down and a financed VA funding fee; the fee varies, and some eligible veterans are exempt.”
+
+7. **“Twenty-one days tells you demand is steady, not frantic.”** — One median without another-builder, whole-market, or historical benchmark proves no such thing. — **Proposed rewrite:** “Median DOM was 21 in this filter. I need a comparison set before labeling that demand strong, weak, or steady.”
+
+8. **“Median: $248,900 for 1,612 square feet — about $158 a square foot.”** — These are three independently calculated medians; $248,900 ÷ 1,612 is roughly $154, making the spoken construction look arithmetically wrong. — **Proposed rewrite:** “The separate medians were $248,900, 1,612 square feet, and $158.17 per square foot; they do not describe one representative house.”
+
+9. **“The cheapest new house in Temple right now is $195,000.”** versus **“starting at $198,435.”** — The package supplies two unexplained starting prices. — **Proposed rewrite:** “The lowest CTXMLS record was $195,000; D.R. Horton’s builder page showed a separate advertised starting price of $198,435. Both were checked on [dates].”
+
+10. **“That one conversation defuses the exact surprise the Santiago filings describe.”** — It promises an outcome the lender may not provide and turns an allegation into financial advice. — **Proposed rewrite:** “Ask the lender to explain the annual property-tax figure on the Loan Estimate and Closing Disclosure. Compare it with an estimate based on the completed home and exact taxing entities, then budget for reassessment; do not assume the lender will alter escrow on request.”
+
+11. **“Your own inspector at pre-pour, pre-drywall, and final…”** — Many featured homes are completed specs, and builder contracts may limit access or inspection timing. — **Proposed rewrite:** “If construction stage and the signed contract permit, request independent inspections at available phases. For completed inventory, use a final inspection and consider another inspection before the workmanship period expires.”
+
+12. **“The purchase agreement runs eighty-plus pages…”** — This needs the agreement version/date and should not imply an agent substitutes for legal counsel. — **Proposed rewrite:** “The contract packet I reviewed on [date/version] exceeded 80 pages and did not use the standard resale option-period structure. Use your agent for transaction guidance and a Texas attorney for legal interpretation.”
+
+13. **“Zillow shows the zoned schools… rated five out of ten… three out of ten.”** — Zillow’s third-party scores are not an official zoning source and invite steering accusations. — **Proposed rewrite:** “For the exact sample address, verify current campus assignments through Temple ISD’s official locator. I will not rank campuses for buyers.”
+
+14. **“The Terrace… fits multigenerational households sharing one address.”** — “One address” is unverified, and the suitability claim introduces familial-status targeting. — **Proposed rewrite:** “The Terrace is duplex product with six to eight total bedrooms across two attached units. Verify unit addressing, utilities, deed restrictions, and permitted occupancy for the exact property.”
+
+15. **“Every number… linked below, updated as promos change.”** / **“stays updated here as promos change.”** — This promises indefinite maintenance with no stated refresh system. — **Proposed rewrite:** “The page displays its last-verified date. Treat any incentive as stale until rechecked directly.”
+
+16. **“MLS 7/13/26”** — Public attribution is incomplete. “Our MLS” and “their own closed record” are not acceptable provenance labels. — **Proposed rewrite:** “Source: Central Texas MLS/CTXMLS, accessed July 13, 2026; D.R. Horton builder-name variants; Temple, Belton, Nolanville, and Troy; active/pending and trailing-30-day closed records. Data deemed reliable but not guaranteed.”
+
+17. **“first house, a VA loan on a Fort Hood timeline, or you work at Baylor Scott and White…”** — The ending suddenly serves three personas, breaking the one-viewer rule. — **Proposed rewrite:** Target one viewer: “This review is for an owner-occupant comparing D.R. Horton’s written payment offer with other Temple-area homes.”
+
+18. **“The warranty itself is a one-two-ten structure through RWC…”** — The exact state/home warranty controls, and RWC says its programs vary. [RWC coverage overview](https://www.rwcwarranty.com/builders/whats-covered/). — **Proposed rewrite:** “The sample warranty I reviewed uses a 1-2-10 structure, but coverage, exclusions, claim routing, and responsible parties depend on the warranty delivered with the exact home.”
+
+MINOR WEAKNESSES (polish):
+
+1. **“Nobody on page one of Google explains…”** — Unverifiable SEO chest-thumping that sounds machine-generated. — **Proposed rewrite:** Delete it.
+
+2. **“the incentive-clock moat no competitor video teaches”** — Strategy-deck jargon, not an analyst’s voice. — **Proposed rewrite:** “The differentiating evidence is the offer’s dated terms and local MLS history.”
+
+3. **“Same sign style at the entrance. Very different tax bill.”** — Patronizing flourish after already misstating the comparison. — **Proposed rewrite:** “Compare the complete parcel tax rate before estimating payment.”
+
+4. **“Why it wins the… SERP click”** — No test exists, so “wins” is invented confidence. — **Proposed rewrite:** “CTR hypothesis: the conflicting-rating visual may match the searcher’s question.”
+
+5. **“All my Temple builder breakdowns and buyer guides: https://templetxhomes.net/dr-horton/…”** — The label promises a hub but links back to the single-builder page. — **Proposed rewrite:** Link the actual builder-comparison or builder-guides hub.
+
+6. **“If you're mapping a move to Temple, my number's in the description.”** — Vague and buried at roughly 93% of runtime. — **Proposed rewrite:** Place a specific, non-promissory CTA near 70%: “If you want representation while comparing written builder terms, my contact information is below.”
+
+DOMAIN CHECKS:
+
+- Identity timing: **FAIL** — sentence three is the ConsumerAffairs statistic; the declaration arrives at 0:30 and lacks the exact phrase.
+- Banned vocabulary: **clean**
+- Lane discipline: **PASS** — no cap-rate, rental-income, cash-flow, or investor-acquisition framing.
+- Forecast surface: **FAIL** — “best deals die,” “historically deepest,” “gets motivated,” and “matter of when, not if.”
+- Data provenance: **FAIL** — the 85/27 MLS calculations reproduce, but source attribution, geographic scope, review comparability, legal status, tax interpretation, and mortgage comparison do not survive scrutiny.
+- BSW lender-channel discipline: **PASS** — no physician-loan pitch or direct physician outreach appears.
+- Commitment surface: **FAIL** — the page is promised as continuously updated without an enforceable cadence.
+- TREC / IABS / MLS: **FAIL** — EG Realty is disclosed, but misleading comparative claims and incomplete MLS attribution block publication; IABS handling cannot be established from this package.
+- Fair Housing: **FAIL — risk surface** — school-rating commentary and the multigenerational suitability line should be neutralized.
+- NAR Article 15: **FAIL — risk surface** — unsupported causal claims about sales staff, warranty operations, negotiations, and incentive behavior are presented as fact.
+
+VERDICT: REVISE
+
+ONE-LINE REASON: The package rests on a dismissed case, incomparable review and mortgage datasets, unsupported causal claims, and a broken identity and format specification.

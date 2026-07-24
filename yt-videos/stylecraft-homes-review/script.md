@@ -10,7 +10,7 @@
 
 **[COLD OPEN — ~0:00–0:30 — no logo, no name, no credential]**
 
-As I record this, Stylecraft will hand you one of two things: a four-point-nine-nine percent thirty-year fixed — which ties the lowest advertised builder rate in Bell County — or up to twenty thousand dollars in flex cash. Not both. You pick one. The rate pool is first-come, first-served, and this window closes August tenth.
+As I record this, Stylecraft will hand you one of two things: a four-point-nine-nine percent thirty-year fixed — which ties the lowest standing fixed rate any Bell County builder advertises — or up to twenty thousand dollars in flex cash. Not both. You pick one. The rate pool is first-come, first-served, and this window closes August tenth.
 
 It's also the one builder where I tell every client to spend four hundred dollars of their own money before a specific deadline — or lose thousands.
 

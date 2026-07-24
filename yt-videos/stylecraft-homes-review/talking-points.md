@@ -5,7 +5,7 @@
 ### R3 refresh + critique round 2026-07-22 — 3.99% is DEAD; the deal is 4.99% OR up to $20K, not both, close by Aug 10. Re-verify stylecraft.com/incentives the morning of filming (first-come rate pool). Timestamps = planning bands; re-stamp at edit.
 
 **COLD OPEN (~0:00–0:30)** — no name, no credential yet
-- **"As I record this"** (evergreen hedge — sentence one, non-negotiable): Stylecraft hands you ONE of two things — 4.99% 30-yr fixed (TIES the lowest advertised builder rate in Bell County) OR up to $20K flex cash. Not both. You pick.
+- **"As I record this"** (evergreen hedge — sentence one, non-negotiable): Stylecraft hands you ONE of two things — 4.99% 30-yr fixed (TIES the lowest STANDING fixed rate any Bell County builder advertises — "standing" survives Lennar's 4-day flash windows; see sources time-bomb #0) OR up to $20K flex cash. Not both. You pick.
 - Rate pool first-come-first-served; window closes **August 10**.
 - Also the one builder where I make every client spend $400 before a deadline or lose thousands.
 - Close the open on the choice: "So — the rate, or the twenty grand? **In the next two minutes** you'll know which one to take — and by the end, exactly where the fine print bites."
