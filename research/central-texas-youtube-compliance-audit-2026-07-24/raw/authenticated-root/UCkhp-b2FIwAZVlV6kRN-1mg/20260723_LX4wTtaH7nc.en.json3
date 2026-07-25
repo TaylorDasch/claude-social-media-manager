@@ -1,0 +1,135 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 8520,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 0,
+    "dDurationMs": 3840,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "If"
+    }, {
+      "utf8": " you're",
+      "tOffsetMs": 280
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " small",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " content",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " creator,",
+      "tOffsetMs": 1240
+    }, {
+      "utf8": " use",
+      "tOffsetMs": 1800
+    } ]
+  }, {
+    "tStartMs": 2030,
+    "dDurationMs": 1810,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 2040,
+    "dDurationMs": 3920,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "this"
+    }, {
+      "utf8": " sound",
+      "tOffsetMs": 200
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " gain",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " at",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " least",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " 100",
+      "tOffsetMs": 1160
+    }, {
+      "utf8": " new",
+      "tOffsetMs": 1640
+    } ]
+  }, {
+    "tStartMs": 3830,
+    "dDurationMs": 2130,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 3840,
+    "dDurationMs": 4680,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "subscribers."
+    }, {
+      "utf8": " Don't",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " believe",
+      "tOffsetMs": 1160
+    }, {
+      "utf8": " me?",
+      "tOffsetMs": 1480
+    }, {
+      "utf8": " Try",
+      "tOffsetMs": 1760
+    }, {
+      "utf8": " it",
+      "tOffsetMs": 2040
+    } ]
+  }, {
+    "tStartMs": 5950,
+    "dDurationMs": 2570,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 5960,
+    "dDurationMs": 2560,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "yourself."
+    } ]
+  } ]
+}

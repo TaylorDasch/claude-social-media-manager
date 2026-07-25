@@ -1,0 +1,11 @@
+# D.R. Horton Video — Anti-Duplication Audit (vs Stylecraft review)
+
+<!-- Source of truth: reason-run-260723-1705/r3-candidate-SHIP.md (council-converged R1 5-0, R2 3-2; Codex final gate applied; lawsuit passage removed 2026-07-24 per Taylor). Regenerate from VIDEO-PACKAGE.md; do not hand-edit in isolation. -->
+
+## 8. ANTI-DUP AUDIT (vs the Stylecraft review)
+
+1. **Financing hook:** Cold open is the evergreen-stamped review split (4.9 vs 1.07), not a rate/cash either-or; 4.99 appears only inside the Incentive Clock chapter as one tick of a cycle lesson (teaser gone → Red Tag → 4.99 close-by-9/30 → fiscal year ends 9/30). The cycle-as-system framing — promos churn, read the term sheet and the printed deadline, not the banner, and this year's incentives stack in late summer — is material the Stylecraft single-offer video doesn't carry, and it's taught as a structural read with no forecast about future promos.
+2. **Captive-lender mechanics:** compressed to one passage ("DHI Mortgage only… get one outside Loan Estimate the same day, compare line by line"); the Kangaroo/49%-owned breakdown and the lender-race method are deferred to the Stylecraft video by name — overlap converted into a session chain. The DRH-only add here is the spoken all-in payment ($2,808/$2,735, tied to DHI's own advertised examples), which the Stylecraft video does not carry.
+3. **Month-11 inspection:** one checklist item with a DRH-only twist (RWC third-party administration + booklet-specific coverage/exclusions/deadlines + booklet-procedure paper trail); the centerpiece teach stays in Stylecraft, referenced on screen.
+4. **Registration/representation warning:** one line pointing at Stylecraft's full version; the new material is DRH-specific — the 80-plus-page sample purchase packet with no resale-style option period as standard (the signed contract controls), plus the agent-vs-attorney lane split.
+5. **Year-2 escrow reset + MUD:** re-taught only through DRH-specific evidence — the year-two escrow-reassessment budgeting step (framed as an actionable "ask BellCAD and your lender," not a universal payment rule) and the Three Creeks MUD #1 line (+0.783%, 2025 BellCAD rate ≈ $2,349/yr, one line in the tax stack) — and Stylecraft's vacant-spec carrying-cost rule is omitted entirely.

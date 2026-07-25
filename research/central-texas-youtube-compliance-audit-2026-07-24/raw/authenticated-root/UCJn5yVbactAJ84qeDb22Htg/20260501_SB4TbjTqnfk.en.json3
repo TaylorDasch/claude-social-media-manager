@@ -1,0 +1,788 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 74840,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 0,
+    "dDurationMs": 5960,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Downtown"
+    }, {
+      "utf8": " Killeen",
+      "tOffsetMs": 600
+    }, {
+      "utf8": " is",
+      "tOffsetMs": 1040
+    }, {
+      "utf8": " about",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 1520
+    }, {
+      "utf8": " be",
+      "tOffsetMs": 1640
+    } ]
+  }, {
+    "tStartMs": 1750,
+    "dDurationMs": 4210,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 1760,
+    "dDurationMs": 4200,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "transformed"
+    }, {
+      "utf8": " [music]",
+      "tOffsetMs": 859
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1080
+    }, {
+      "utf8": " you're",
+      "tOffsetMs": 1280
+    }, {
+      "utf8": " invited.",
+      "tOffsetMs": 1400
+    } ]
+  }, {
+    "tStartMs": 8310,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 8320,
+    "dDurationMs": 4480,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "This"
+    }, {
+      "utf8": " isn't",
+      "tOffsetMs": 280
+    }, {
+      "utf8": " your",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " average",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " networking",
+      "tOffsetMs": 1200
+    } ]
+  }, {
+    "tStartMs": 10070,
+    "dDurationMs": 2730,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 10080,
+    "dDurationMs": 4920,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "event."
+    }, {
+      "utf8": " For",
+      "tOffsetMs": 880
+    }, {
+      "utf8": " one",
+      "tOffsetMs": 1040
+    }, {
+      "utf8": " afternoon,",
+      "tOffsetMs": 1320
+    }, {
+      "utf8": " we're",
+      "tOffsetMs": 2080
+    }, {
+      "utf8": " turning",
+      "tOffsetMs": 2280
+    } ]
+  }, {
+    "tStartMs": 12790,
+    "dDurationMs": 2210,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 12800,
+    "dDurationMs": 4160,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "downtown"
+    }, {
+      "utf8": " Killeen",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " into",
+      "tOffsetMs": 1240
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 1560
+    }, {
+      "utf8": " hub",
+      "tOffsetMs": 1640
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 2040
+    } ]
+  }, {
+    "tStartMs": 14990,
+    "dDurationMs": 1970,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 15000,
+    "dDurationMs": 4960,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "connection,"
+    }, {
+      "utf8": " [music]",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " creativity,",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1800
+    } ]
+  }, {
+    "tStartMs": 16950,
+    "dDurationMs": 3010,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 16960,
+    "dDurationMs": 3000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "collaboration."
+    } ]
+  }, {
+    "tStartMs": 24110,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 24120,
+    "dDurationMs": 3480,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "This"
+    }, {
+      "utf8": " is",
+      "tOffsetMs": 240
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " full",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " experience",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " you",
+      "tOffsetMs": 1280
+    }, {
+      "utf8": " do",
+      "tOffsetMs": 1400
+    }, {
+      "utf8": " not",
+      "tOffsetMs": 1520
+    } ]
+  }, {
+    "tStartMs": 25870,
+    "dDurationMs": 1730,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 25880,
+    "dDurationMs": 3120,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "want"
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " miss.",
+      "tOffsetMs": 240
+    } ]
+  }, {
+    "tStartMs": 27590,
+    "dDurationMs": 1410,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 27600,
+    "dDurationMs": 3360,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Step"
+    }, {
+      "utf8": " into",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " studio",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " with",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " [music]",
+      "tOffsetMs": 1220
+    } ]
+  }, {
+    "tStartMs": 28990,
+    "dDurationMs": 1970,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 29000,
+    "dDurationMs": 3840,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Kinetic"
+    }, {
+      "utf8": " Images",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " for",
+      "tOffsetMs": 1160
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 1320
+    }, {
+      "utf8": " professional",
+      "tOffsetMs": 1360
+    } ]
+  }, {
+    "tStartMs": 30950,
+    "dDurationMs": 1890,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 30960,
+    "dDurationMs": 6120,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "lifestyle"
+    }, {
+      "utf8": " photo",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " session,",
+      "tOffsetMs": 680
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 1400
+    }, {
+      "utf8": " kind",
+      "tOffsetMs": 1520
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 1760
+    } ]
+  }, {
+    "tStartMs": 32830,
+    "dDurationMs": 4250,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 32840,
+    "dDurationMs": 4240,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "headshot"
+    }, {
+      "utf8": " that",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " actually",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " looks",
+      "tOffsetMs": 1320
+    }, {
+      "utf8": " like",
+      "tOffsetMs": 1640
+    }, {
+      "utf8": " you.",
+      "tOffsetMs": 1880
+    } ]
+  }, {
+    "tStartMs": 37510,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 37520,
+    "dDurationMs": 4000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Then"
+    }, {
+      "utf8": " sit",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " down",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " with",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " an",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " [music]",
+      "tOffsetMs": 1125
+    }, {
+      "utf8": " expert",
+      "tOffsetMs": 1160
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1760
+    } ]
+  }, {
+    "tStartMs": 39430,
+    "dDurationMs": 2090,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 39440,
+    "dDurationMs": 6600,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "finally"
+    }, {
+      "utf8": " get",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " clarity",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " on",
+      "tOffsetMs": 1080
+    }, {
+      "utf8": " your",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " brand,",
+      "tOffsetMs": 1320
+    }, {
+      "utf8": " your",
+      "tOffsetMs": 1920
+    } ]
+  }, {
+    "tStartMs": 41510,
+    "dDurationMs": 4530,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 41520,
+    "dDurationMs": 4520,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "message,"
+    }, {
+      "utf8": " your",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " presence,",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " your",
+      "tOffsetMs": 1720
+    }, {
+      "utf8": " edge.",
+      "tOffsetMs": 2000
+    } ]
+  }, {
+    "tStartMs": 49670,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 49680,
+    "dDurationMs": 3640,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Meet"
+    }, {
+      "utf8": " with",
+      "tOffsetMs": 280
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " financial",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 1360
+    }, {
+      "utf8": " health",
+      "tOffsetMs": 1440
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1680
+    } ]
+  }, {
+    "tStartMs": 51470,
+    "dDurationMs": 1850,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 51480,
+    "dDurationMs": 3920,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "wellness"
+    }, {
+      "utf8": " coach",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " [music]",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " get",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " real",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " tips",
+      "tOffsetMs": 1480
+    } ]
+  }, {
+    "tStartMs": 53310,
+    "dDurationMs": 2090,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 53320,
+    "dDurationMs": 4680,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "for"
+    }, {
+      "utf8": " your",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " real",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " life.",
+      "tOffsetMs": 640
+    } ]
+  }, {
+    "tStartMs": 55390,
+    "dDurationMs": 2610,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 55400,
+    "dDurationMs": 3800,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Lastly,"
+    }, {
+      "utf8": " check",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " out",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 1280
+    }, {
+      "utf8": " hat",
+      "tOffsetMs": 1440
+    }, {
+      "utf8": " bar",
+      "tOffsetMs": 1600
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 2120
+    }, {
+      "utf8": " create",
+      "tOffsetMs": 2240
+    } ]
+  }, {
+    "tStartMs": 57990,
+    "dDurationMs": 1210,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 58000,
+    "dDurationMs": 4040,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "something"
+    }, {
+      "utf8": " [music]",
+      "tOffsetMs": 295
+    }, {
+      "utf8": " beautiful",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " that",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " you",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " can",
+      "tOffsetMs": 1040
+    } ]
+  }, {
+    "tStartMs": 59190,
+    "dDurationMs": 2850,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 59200,
+    "dDurationMs": 5679,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "take"
+    }, {
+      "utf8": " home.",
+      "tOffsetMs": 240
+    }, {
+      "utf8": " Downtown",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " Killeen",
+      "tOffsetMs": 1440
+    }, {
+      "utf8": " for",
+      "tOffsetMs": 2360
+    }, {
+      "utf8": " Women's",
+      "tOffsetMs": 2520
+    } ]
+  }, {
+    "tStartMs": 62030,
+    "dDurationMs": 2849,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 62040,
+    "dDurationMs": 5240,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Council"
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " Realtors,",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " we",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " see",
+      "tOffsetMs": 1280
+    }, {
+      "utf8": " you,",
+      "tOffsetMs": 1600
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 2120
+    }, {
+      "utf8": " brand",
+      "tOffsetMs": 2240
+    } ]
+  }, {
+    "tStartMs": 64869,
+    "dDurationMs": 2411,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 64879,
+    "dDurationMs": 4401,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "and"
+    }, {
+      "utf8": " presence",
+      "tOffsetMs": 121
+    }, {
+      "utf8": " experience.",
+      "tOffsetMs": 561
+    } ]
+  }, {
+    "tStartMs": 67270,
+    "dDurationMs": 2010,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 67280,
+    "dDurationMs": 7560,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "So"
+    }, {
+      "utf8": " come",
+      "tOffsetMs": 280
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " join",
+      "tOffsetMs": 600
+    }, {
+      "utf8": " [music]",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " us",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " on",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " Thursday,",
+      "tOffsetMs": 1360
+    } ]
+  }, {
+    "tStartMs": 69270,
+    "dDurationMs": 5570,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 69280,
+    "dDurationMs": 5560,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "May"
+    }, {
+      "utf8": " 21st,",
+      "tOffsetMs": 240
+    }, {
+      "utf8": " 2026.",
+      "tOffsetMs": 1040
+    }, {
+      "utf8": " Can't",
+      "tOffsetMs": 2400
+    }, {
+      "utf8": " wait",
+      "tOffsetMs": 2680
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 2880
+    }, {
+      "utf8": " see",
+      "tOffsetMs": 3000
+    }, {
+      "utf8": " you.",
+      "tOffsetMs": 3240
+    } ]
+  } ]
+}

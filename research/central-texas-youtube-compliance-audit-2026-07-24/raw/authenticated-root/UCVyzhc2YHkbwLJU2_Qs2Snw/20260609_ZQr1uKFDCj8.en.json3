@@ -1,0 +1,848 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 145320,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 0,
+    "dDurationMs": 4880,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Tomorrow?"
+    } ]
+  }, {
+    "tStartMs": 2270,
+    "dDurationMs": 2610,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 2280,
+    "dDurationMs": 2600,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Tomorrow?"
+    } ]
+  }, {
+    "tStartMs": 7110,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 7120,
+    "dDurationMs": 3240,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "All"
+    }, {
+      "utf8": " right,",
+      "tOffsetMs": 200
+    }, {
+      "utf8": " but",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " that's",
+      "tOffsetMs": 600
+    }, {
+      "utf8": " about",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " it.",
+      "tOffsetMs": 1120
+    } ]
+  }, {
+    "tStartMs": 17270,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 17280,
+    "dDurationMs": 7200,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "All"
+    }, {
+      "utf8": " right,",
+      "tOffsetMs": 240
+    }, {
+      "utf8": " when",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " you",
+      "tOffsetMs": 1120
+    }, {
+      "utf8": " come",
+      "tOffsetMs": 1240
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 1640
+    } ]
+  }, {
+    "tStartMs": 21190,
+    "dDurationMs": 3290,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 21200,
+    "dDurationMs": 6400,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "bedroom"
+    }, {
+      "utf8": " here",
+      "tOffsetMs": 600
+    } ]
+  }, {
+    "tStartMs": 24470,
+    "dDurationMs": 3130,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 24480,
+    "dDurationMs": 5480,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "bedroom"
+    }, {
+      "utf8": " here",
+      "tOffsetMs": 840
+    } ]
+  }, {
+    "tStartMs": 27590,
+    "dDurationMs": 2370,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 27600,
+    "dDurationMs": 4480,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "take"
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " look",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " at",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " [snorts]",
+      "tOffsetMs": 580
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 680
+    }, {
+      "utf8": " closet",
+      "tOffsetMs": 800
+    } ]
+  }, {
+    "tStartMs": 29950,
+    "dDurationMs": 2130,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 29960,
+    "dDurationMs": 6040,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "nice"
+    }, {
+      "utf8": " size",
+      "tOffsetMs": 280
+    }, {
+      "utf8": " closet",
+      "tOffsetMs": 600
+    } ]
+  }, {
+    "tStartMs": 32070,
+    "dDurationMs": 3930,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 32080,
+    "dDurationMs": 3920,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "let's"
+    }, {
+      "utf8": " take",
+      "tOffsetMs": 280
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " look",
+      "tOffsetMs": 519
+    }, {
+      "utf8": " at",
+      "tOffsetMs": 679
+    }, {
+      "utf8": " that",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " front",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " closet.",
+      "tOffsetMs": 1320
+    } ]
+  }, {
+    "tStartMs": 37670,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 37680,
+    "dDurationMs": 4000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Nice"
+    }, {
+      "utf8": " size",
+      "tOffsetMs": 280
+    }, {
+      "utf8": " walk-in",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " closets.",
+      "tOffsetMs": 1000
+    } ]
+  }, {
+    "tStartMs": 42565,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 42575,
+    "dDurationMs": 4505,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e [clears throat]",
+      "isSpeakerChange": 1
+    } ]
+  }, {
+    "tStartMs": 43670,
+    "dDurationMs": 3410,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 43680,
+    "dDurationMs": 3400,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e Bathroom",
+      "isSpeakerChange": 1
+    }, {
+      "utf8": " here.",
+      "tOffsetMs": 680
+    } ]
+  }, {
+    "tStartMs": 53230,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 53240,
+    "dDurationMs": 4760,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Uh-oh,"
+    }, {
+      "utf8": " laundry",
+      "tOffsetMs": 1080
+    }, {
+      "utf8": " room.",
+      "tOffsetMs": 1440
+    } ]
+  }, {
+    "tStartMs": 55990,
+    "dDurationMs": 2010,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 56000,
+    "dDurationMs": 4440,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Bedroom"
+    }, {
+      "utf8": " three",
+      "tOffsetMs": 560
+    } ]
+  }, {
+    "tStartMs": 57990,
+    "dDurationMs": 2450,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 58000,
+    "dDurationMs": 6839,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "I"
+    }, {
+      "utf8": " would",
+      "tOffsetMs": 120
+    }, {
+      "utf8": " say",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " it's",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 680
+    }, {
+      "utf8": " bigger",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " all",
+      "tOffsetMs": 2000
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 2360
+    } ]
+  }, {
+    "tStartMs": 60430,
+    "dDurationMs": 4409,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 60440,
+    "dDurationMs": 7360,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "the"
+    }, {
+      "utf8": " secondary",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " bathrooms,",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " I",
+      "tOffsetMs": 2000
+    }, {
+      "utf8": " mean",
+      "tOffsetMs": 2080
+    }, {
+      "utf8": " bedrooms",
+      "tOffsetMs": 2360
+    } ]
+  }, {
+    "tStartMs": 64829,
+    "dDurationMs": 2971,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 64839,
+    "dDurationMs": 6441,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "but"
+    }, {
+      "utf8": " it",
+      "tOffsetMs": 161
+    }, {
+      "utf8": " does",
+      "tOffsetMs": 281
+    }, {
+      "utf8": " have",
+      "tOffsetMs": 481
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 680
+    }, {
+      "utf8": " smaller",
+      "tOffsetMs": 801
+    }, {
+      "utf8": " closet.",
+      "tOffsetMs": 1201
+    } ]
+  }, {
+    "tStartMs": 67790,
+    "dDurationMs": 3490,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 67800,
+    "dDurationMs": 3480,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Still"
+    }, {
+      "utf8": " has",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " built-ins.",
+      "tOffsetMs": 600
+    } ]
+  }, {
+    "tStartMs": 71385,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 71395,
+    "dDurationMs": 5765,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e [clears throat]",
+      "isSpeakerChange": 1
+    } ]
+  }, {
+    "tStartMs": 73310,
+    "dDurationMs": 3850,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 73320,
+    "dDurationMs": 3840,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e And",
+      "isSpeakerChange": 1
+    }, {
+      "utf8": " we",
+      "tOffsetMs": 240
+    }, {
+      "utf8": " have",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " linen",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " closet",
+      "tOffsetMs": 880
+    }, {
+      "utf8": " here.",
+      "tOffsetMs": 1320
+    } ]
+  }, {
+    "tStartMs": 77590,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 77600,
+    "dDurationMs": 4360,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Living"
+    }, {
+      "utf8": " room,",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " dining",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " room,",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " kitchen.",
+      "tOffsetMs": 1440
+    } ]
+  }, {
+    "tStartMs": 83830,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 83840,
+    "dDurationMs": 3400,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Pantry"
+    }, {
+      "utf8": " here.",
+      "tOffsetMs": 640
+    } ]
+  }, {
+    "tStartMs": 88950,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 88960,
+    "dDurationMs": 3840,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "This"
+    }, {
+      "utf8": " one",
+      "tOffsetMs": 280
+    }, {
+      "utf8": " has",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " that",
+      "tOffsetMs": 600
+    }, {
+      "utf8": " typical",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " purple",
+      "tOffsetMs": 1240
+    } ]
+  }, {
+    "tStartMs": 93270,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 93280,
+    "dDurationMs": 3320,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "on"
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 200
+    }, {
+      "utf8": " granite.",
+      "tOffsetMs": 320
+    } ]
+  }, {
+    "tStartMs": 98230,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 98240,
+    "dDurationMs": 3080,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Yeah,"
+    }, {
+      "utf8": " for",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " sure.",
+      "tOffsetMs": 600
+    } ]
+  }, {
+    "tStartMs": 104510,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 104520,
+    "dDurationMs": 3240,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Over"
+    }, {
+      "utf8": " here.",
+      "tOffsetMs": 400
+    } ]
+  }, {
+    "tStartMs": 116910,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 116920,
+    "dDurationMs": 3640,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Primary"
+    }, {
+      "utf8": " bathroom.",
+      "tOffsetMs": 640
+    } ]
+  }, {
+    "tStartMs": 120910,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 120920,
+    "dDurationMs": 5840,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Double"
+    }, {
+      "utf8": " sinks.",
+      "tOffsetMs": 320
+    } ]
+  }, {
+    "tStartMs": 123390,
+    "dDurationMs": 3370,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 123400,
+    "dDurationMs": 3360,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Linen"
+    }, {
+      "utf8": " closet.",
+      "tOffsetMs": 360
+    } ]
+  }, {
+    "tStartMs": 128990,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 129000,
+    "dDurationMs": 3960,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Throne"
+    }, {
+      "utf8": " room,",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " water",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " closet.",
+      "tOffsetMs": 1080
+    } ]
+  }, {
+    "tStartMs": 133670,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 133680,
+    "dDurationMs": 2960,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Primary"
+    }, {
+      "utf8": " closet.",
+      "tOffsetMs": 440
+    } ]
+  }, {
+    "tStartMs": 135150,
+    "dDurationMs": 1490,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 135160,
+    "dDurationMs": 3040,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e I'll",
+      "isSpeakerChange": 1
+    }, {
+      "utf8": " put",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 280
+    }, {
+      "utf8": " little",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " closet",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " this",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " thing",
+      "tOffsetMs": 1200
+    } ]
+  }, {
+    "tStartMs": 136630,
+    "dDurationMs": 1570,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 136640,
+    "dDurationMs": 3080,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "so"
+    }, {
+      "utf8": " I",
+      "tOffsetMs": 120
+    }, {
+      "utf8": " can",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " face.",
+      "tOffsetMs": 280
+    } ]
+  }, {
+    "tStartMs": 138190,
+    "dDurationMs": 1530,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 138200,
+    "dDurationMs": 3680,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e Yeah.",
+      "isSpeakerChange": 1
+    } ]
+  }, {
+    "tStartMs": 139710,
+    "dDurationMs": 2170,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 139720,
+    "dDurationMs": 5600,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Tub"
+    }, {
+      "utf8": " will",
+      "tOffsetMs": 239
+    }, {
+      "utf8": " be",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " there.",
+      "tOffsetMs": 520
+    } ]
+  }, {
+    "tStartMs": 141870,
+    "dDurationMs": 3450,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 141880,
+    "dDurationMs": 3440,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Shower"
+    }, {
+      "utf8": " will",
+      "tOffsetMs": 600
+    }, {
+      "utf8": " be",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " here.",
+      "tOffsetMs": 960
+    } ]
+  } ]
+}

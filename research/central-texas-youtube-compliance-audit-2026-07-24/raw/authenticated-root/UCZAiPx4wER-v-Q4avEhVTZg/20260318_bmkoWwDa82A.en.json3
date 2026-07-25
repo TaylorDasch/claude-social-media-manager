@@ -1,0 +1,357 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 31880,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 0,
+    "dDurationMs": 5040,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "This"
+    }, {
+      "utf8": " is",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " something",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " that",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " happens",
+      "tOffsetMs": 1040
+    }, {
+      "utf8": " more",
+      "tOffsetMs": 1640
+    } ]
+  }, {
+    "tStartMs": 2110,
+    "dDurationMs": 2930,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 2120,
+    "dDurationMs": 5880,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "often"
+    }, {
+      "utf8": " than",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " people",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " realize.",
+      "tOffsetMs": 1360
+    }, {
+      "utf8": " Sometimes",
+      "tOffsetMs": 2120
+    } ]
+  }, {
+    "tStartMs": 5030,
+    "dDurationMs": 2970,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 5040,
+    "dDurationMs": 5440,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "clients"
+    }, {
+      "utf8": " start",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " out",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " as",
+      "tOffsetMs": 1680
+    }, {
+      "utf8": " strangers,",
+      "tOffsetMs": 1840
+    }, {
+      "utf8": " but",
+      "tOffsetMs": 2800
+    } ]
+  }, {
+    "tStartMs": 7990,
+    "dDurationMs": 2490,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 8000,
+    "dDurationMs": 4760,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "after"
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " whole",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " home",
+      "tOffsetMs": 1120
+    }, {
+      "utf8": " buying",
+      "tOffsetMs": 1440
+    }, {
+      "utf8": " journey,",
+      "tOffsetMs": 1720
+    } ]
+  }, {
+    "tStartMs": 10470,
+    "dDurationMs": 2290,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 10480,
+    "dDurationMs": 5600,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "they"
+    }, {
+      "utf8": " become",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " family.",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " We",
+      "tOffsetMs": 1680
+    }, {
+      "utf8": " go",
+      "tOffsetMs": 1800
+    }, {
+      "utf8": " through",
+      "tOffsetMs": 2040
+    } ]
+  }, {
+    "tStartMs": 12750,
+    "dDurationMs": 3330,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 12760,
+    "dDurationMs": 6440,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "inspections"
+    }, {
+      "utf8": " together,",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " negotiations,",
+      "tOffsetMs": 1760
+    } ]
+  }, {
+    "tStartMs": 16070,
+    "dDurationMs": 3130,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 16080,
+    "dDurationMs": 5600,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "closing"
+    }, {
+      "utf8": " day",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " stress",
+      "tOffsetMs": 680
+    }, {
+      "utf8": " together,",
+      "tOffsetMs": 1240
+    }, {
+      "utf8": " all",
+      "tOffsetMs": 2160
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 2440
+    }, {
+      "utf8": " it.",
+      "tOffsetMs": 2560
+    } ]
+  }, {
+    "tStartMs": 19190,
+    "dDurationMs": 2490,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 19200,
+    "dDurationMs": 5520,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "By"
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 200
+    }, {
+      "utf8": " end",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 600
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " process,",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " you've",
+      "tOffsetMs": 1680
+    }, {
+      "utf8": " shared",
+      "tOffsetMs": 2000
+    } ]
+  }, {
+    "tStartMs": 21670,
+    "dDurationMs": 3050,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 21680,
+    "dDurationMs": 5200,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "such"
+    }, {
+      "utf8": " an",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " important",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " life",
+      "tOffsetMs": 1160
+    }, {
+      "utf8": " moment",
+      "tOffsetMs": 1520
+    }, {
+      "utf8": " together.",
+      "tOffsetMs": 1960
+    } ]
+  }, {
+    "tStartMs": 24710,
+    "dDurationMs": 2170,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 24720,
+    "dDurationMs": 7160,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "That's"
+    }, {
+      "utf8": " why",
+      "tOffsetMs": 240
+    }, {
+      "utf8": " so",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " many",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 1080
+    }, {
+      "utf8": " my",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " clients",
+      "tOffsetMs": 1360
+    }, {
+      "utf8": " stay",
+      "tOffsetMs": 1920
+    } ]
+  }, {
+    "tStartMs": 26870,
+    "dDurationMs": 5010,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 26880,
+    "dDurationMs": 5000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "friends"
+    }, {
+      "utf8": " long",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " after",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 1720
+    }, {
+      "utf8": " house",
+      "tOffsetMs": 1880
+    }, {
+      "utf8": " is",
+      "tOffsetMs": 2240
+    }, {
+      "utf8": " sold.",
+      "tOffsetMs": 2360
+    } ]
+  } ]
+}

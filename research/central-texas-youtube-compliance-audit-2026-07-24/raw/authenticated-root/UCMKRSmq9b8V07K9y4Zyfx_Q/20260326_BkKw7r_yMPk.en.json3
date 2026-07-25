@@ -1,0 +1,212 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 27080,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 440,
+    "dDurationMs": 3000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Okay,"
+    }, {
+      "utf8": " let's",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " go.",
+      "tOffsetMs": 640
+    } ]
+  }, {
+    "tStartMs": 4430,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 4440,
+    "dDurationMs": 3840,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Take"
+    }, {
+      "utf8": " that.",
+      "tOffsetMs": 280
+    }, {
+      "utf8": " REWIND",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " IT",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " BACK.",
+      "tOffsetMs": 1280
+    } ]
+  }, {
+    "tStartMs": 8630,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 8640,
+    "dDurationMs": 5170,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "SIR"
+    }, {
+      "utf8": " GOT",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " THE",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " VOICE",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " TO",
+      "tOffsetMs": 1040
+    }, {
+      "utf8": " MAKE",
+      "tOffsetMs": 1120
+    }, {
+      "utf8": " YOUR",
+      "tOffsetMs": 1280
+    }, {
+      "utf8": " BOOTY",
+      "tOffsetMs": 1400
+    }, {
+      "utf8": " GO",
+      "tOffsetMs": 1680
+    } ]
+  }, {
+    "tStartMs": 11780,
+    "dDurationMs": 2030,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 11790,
+    "dDurationMs": 2020,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e [music]",
+      "isSpeakerChange": 1
+    } ]
+  }, {
+    "tStartMs": 15150,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 15160,
+    "dDurationMs": 4560,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e LET",
+      "isSpeakerChange": 1
+    }, {
+      "utf8": " IT",
+      "tOffsetMs": 200
+    }, {
+      "utf8": " GO.",
+      "tOffsetMs": 240
+    } ]
+  }, {
+    "tStartMs": 17230,
+    "dDurationMs": 2490,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 17240,
+    "dDurationMs": 2480,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "SAY"
+    }, {
+      "utf8": " WHAT?",
+      "tOffsetMs": 240
+    } ]
+  }, {
+    "tStartMs": 20110,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 20120,
+    "dDurationMs": 3515,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "LET"
+    }, {
+      "utf8": " IT",
+      "tOffsetMs": 240
+    }, {
+      "utf8": " GO.",
+      "tOffsetMs": 320
+    } ]
+  }, {
+    "tStartMs": 21605,
+    "dDurationMs": 2030,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 21615,
+    "dDurationMs": 2020,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e [music]",
+      "isSpeakerChange": 1
+    } ]
+  }, {
+    "tStartMs": 24910,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 24920,
+    "dDurationMs": 2160,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e YEAH.",
+      "isSpeakerChange": 1
+    } ]
+  } ]
+}

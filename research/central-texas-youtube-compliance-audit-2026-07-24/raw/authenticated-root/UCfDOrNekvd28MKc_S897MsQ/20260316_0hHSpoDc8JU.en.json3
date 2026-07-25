@@ -1,0 +1,451 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 38800,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 680,
+    "dDurationMs": 3800,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "If"
+    }, {
+      "utf8": " you",
+      "tOffsetMs": 240
+    }, {
+      "utf8": " have",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " been",
+      "tOffsetMs": 680
+    }, {
+      "utf8": " looking",
+      "tOffsetMs": 880
+    }, {
+      "utf8": " for",
+      "tOffsetMs": 1120
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 1280
+    }, {
+      "utf8": " home",
+      "tOffsetMs": 1360
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 1680
+    } ]
+  }, {
+    "tStartMs": 2470,
+    "dDurationMs": 2010,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 2480,
+    "dDurationMs": 5240,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Temple"
+    }, {
+      "utf8": " away",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " from",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " hustle",
+      "tOffsetMs": 1080
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1400
+    }, {
+      "utf8": " bustle,",
+      "tOffsetMs": 1520
+    } ]
+  }, {
+    "tStartMs": 4470,
+    "dDurationMs": 3250,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 4480,
+    "dDurationMs": 3240,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "this"
+    }, {
+      "utf8": " is",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " one",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " for",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " you.",
+      "tOffsetMs": 880
+    } ]
+  }, {
+    "tStartMs": 11430,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 11440,
+    "dDurationMs": 4000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "This"
+    }, {
+      "utf8": " home",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " features",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " an",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " open",
+      "tOffsetMs": 880
+    }, {
+      "utf8": " floor",
+      "tOffsetMs": 1160
+    }, {
+      "utf8": " plan,",
+      "tOffsetMs": 1440
+    } ]
+  }, {
+    "tStartMs": 13350,
+    "dDurationMs": 2090,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 13360,
+    "dDurationMs": 3680,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "tile"
+    }, {
+      "utf8": " flooring,",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " granite",
+      "tOffsetMs": 880
+    }, {
+      "utf8": " countertops,",
+      "tOffsetMs": 1240
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1920
+    } ]
+  }, {
+    "tStartMs": 15430,
+    "dDurationMs": 1610,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 15440,
+    "dDurationMs": 3200,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "subway"
+    }, {
+      "utf8": " [music]",
+      "tOffsetMs": 280
+    }, {
+      "utf8": " tile",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " backsplash.",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " The",
+      "tOffsetMs": 1520
+    } ]
+  }, {
+    "tStartMs": 17030,
+    "dDurationMs": 1610,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 17040,
+    "dDurationMs": 3280,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "master"
+    }, {
+      "utf8": " is",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " spacious,",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " has",
+      "tOffsetMs": 1040
+    }, {
+      "utf8": " plenty",
+      "tOffsetMs": 1240
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 1520
+    } ]
+  }, {
+    "tStartMs": 18630,
+    "dDurationMs": 1690,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 18640,
+    "dDurationMs": 3440,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "natural"
+    }, {
+      "utf8": " light,",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 680
+    }, {
+      "utf8": " flows",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " right",
+      "tOffsetMs": 1160
+    }, {
+      "utf8": " into",
+      "tOffsetMs": 1360
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 1560
+    } ]
+  }, {
+    "tStartMs": 20310,
+    "dDurationMs": 1770,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 20320,
+    "dDurationMs": 3080,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "master"
+    }, {
+      "utf8": " bath.",
+      "tOffsetMs": 320
+    } ]
+  }, {
+    "tStartMs": 22070,
+    "dDurationMs": 1330,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 22080,
+    "dDurationMs": 4200,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "The"
+    }, {
+      "utf8": " master",
+      "tOffsetMs": 80
+    }, {
+      "utf8": " bath",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " has",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " [music]",
+      "tOffsetMs": 845
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " double",
+      "tOffsetMs": 960
+    } ]
+  }, {
+    "tStartMs": 23390,
+    "dDurationMs": 2890,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 23400,
+    "dDurationMs": 4640,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "vanity,"
+    }, {
+      "utf8": " separate",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " shower,",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1760
+    }, {
+      "utf8": " tub.",
+      "tOffsetMs": 2000
+    } ]
+  }, {
+    "tStartMs": 26270,
+    "dDurationMs": 1770,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 26280,
+    "dDurationMs": 5560,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Secondary"
+    }, {
+      "utf8": " rooms",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " are",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " separated",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " from",
+      "tOffsetMs": 1520
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 1680
+    } ]
+  }, {
+    "tStartMs": 28030,
+    "dDurationMs": 3810,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 28040,
+    "dDurationMs": 3800,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "master"
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " share",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 1160
+    }, {
+      "utf8": " bathroom.",
+      "tOffsetMs": 1200
+    } ]
+  }, {
+    "tStartMs": 34030,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 34040,
+    "dDurationMs": 4760,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "I"
+    }, {
+      "utf8": " am",
+      "tOffsetMs": 200
+    }, {
+      "utf8": " Elizabeth",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " Thomas,",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " your",
+      "tOffsetMs": 1440
+    }, {
+      "utf8": " local",
+      "tOffsetMs": 1760
+    } ]
+  }, {
+    "tStartMs": 36230,
+    "dDurationMs": 2570,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 36240,
+    "dDurationMs": 2560,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "realtor."
+    } ]
+  } ]
+}

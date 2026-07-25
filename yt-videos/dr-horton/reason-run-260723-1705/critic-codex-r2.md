@@ -1,0 +1,83 @@
+# Codex Cross-Lab Critic — Round 2 (attacks r2-candidate-A)
+
+FATAL WEAKNESSES (must fix or kill):
+
+1. **“Every one of those numbers is real. *(~0:15)* I'm Taylor Dasch with EG Realty.”** — The declaration is sentence four, not sentence three. The preceding 47 words put Taylor’s name as early as 0:14.1 at 200 wpm, violating both stated timing rules. — **Proposed rewrite:** “As I record this, two D.R. Horton sales-office profiles in Temple show 4.9 stars, while separate national review pages show averages near one star. The BBB profile adds an A-plus letter grade beside a 1.07-star customer-review average, but those figures come from different systems and samples, all checked in July 2026. I’m Taylor Dasch with EG Realty.”
+
+2. **“My rating: three out of five. Buy D.R. Horton for the payment, not the product.”** — There is no objective rubric, weighting, defect dataset, local warranty sample, or construction evaluation behind the score. It also converts national complaint data into a claim about the product. TREC treats an advertisement ranking another service provider without disclosed objective criteria as potentially misleading. [TREC §535.155](https://www.trec.texas.gov/node/634) — **Proposed rewrite:** “The written financing may help eligible FHA or VA buyers, but these sources do not support a numerical construction-quality score.”
+
+3. **“Short answer: they're the cheapest entry into new construction in this market.”** — The cited search covers D.R. Horton listings, not every local builder. This is an unsupported market-wide superlative and a material advertising claim. — **Proposed rewrite:** “In my July 13 D.R. Horton CTXMLS filter, the lowest record was $195,000; DHI separately advertised Pecan Creek from $198,435. This pull does not establish the lowest price across every builder.”
+
+4. **“The local 4.9s attach to sales offices — the point of sale. The national pages collect the whole relationship, and the complaints there run heavily to post-closing service, repairs, and warranty.”** / **“Add it up: a documented pattern of post-closing disputes at national scale…”** — No coded-review method, sample period, complaint-category count, Yelp geography, or BBB denominator is disclosed. Self-selected pages cannot establish that stage-based causal story. Repeating unverified business-practice claims creates Article 15 exposure. [NAR Article 15](https://www.nar.realtor/about-nar/governing-documents/code-of-ethics/2026-code-of-ethics-standards-of-practice) — **Proposed rewrite:** “These are self-selected reviews from different profiles, locations, periods, and samples. They cannot be averaged or used to estimate Temple-specific construction or warranty performance.”
+
+5. **“A federal class action — Robinson versus D.R. Horton…”** / **“But the mechanic underneath is real for every new-build buyer…”** / **“Then budget the year-two jump yourself…”** — The script does not establish class certification, then turns allegations into a universal rule with a fixed “year-two” timeline. Escrow estimates and reassessment timing vary. [NCLC’s case page](https://www.nclc.org/resources/robinson-et-al-v-d-r-horton-inc-and-dhi-mortgage-company-ltd/) — **Proposed rewrite:** “A putative federal class action, *Robinson v. D.R. Horton*, alleges that DHI Mortgage understated initial property-tax escrows; those are allegations, not findings. For any new build, ask BellCAD and the lender how completed-improvement taxes are being estimated because timing and amount vary.”
+
+6. **“why this builder's best deals die September 30th”** / **“A volume builder chasing this year's closings has the most reason to deal in exactly this stretch”** / **“the next event is a matter of when, not if.”** — September 30 is the current offer’s closing deadline, not proof that the “best deals” end then or that another event must follow. D.R. Horton says pricing and incentives respond to local demand and mortgage rates. [D.R. Horton 2025 10-K](https://www.sec.gov/Archives/edgar/data/882184/000088218425000081/dhi-20250930.htm) — **Proposed rewrite:** “The current advertised 4.99% offer requires closing by September 30, 2026, which is also D.R. Horton’s fiscal year-end. That alignment does not prove this is the deepest offer or predict the next promotion.”
+
+7. **“D.R. Horton Temple TX Review (2026): 4.9 Stars AND 1 Star — Both Are Real”** — “1 Star” rounds 1.07, ignores the 1.2 and 1.62 figures, and presents unlike samples as a clean two-score comparison. The same error appears in Short S1. — **Proposed rewrite:** “D.R. Horton Temple TX Reviews: Why 4.9 and 1.07 Coexist.”
+
+8. **“Who decides which homes get a Red Tag, and what goes into how deep the cut is?”** / **“What actually changes inside a sales office as September 30th… gets close?”** — These are internal pricing and sales-strategy questions, not process questions. The manager-clearance language does not make them safe for an employee. — **Proposed rewrite:** “How can buyers identify eligible Red Tag homes and find the written terms?” / “For an offer requiring a September 30 closing, what public milestones and cutoff dates should buyers track?”
+
+9. **“runs ~2:00–2:30 here… use 5 of the 6 questions to hold total under 11:00”** — The base timeline ends at 9:50. Adding the insert produces 11:50–12:20, not under 11 minutes. — **Proposed rewrite:** “If used, cap the insert at 70 seconds, remove at least 90 seconds elsewhere, and publish a second timestamp map for the interview cut.”
+
+MAJOR WEAKNESSES (must fix to ship cleanly):
+
+1. **“DHI's own FHA example — $317,990 price, three and a half percent down, a $312,230 loan…”** — That balance includes financed upfront FHA mortgage insurance; omitting it makes the math look wrong while the VA fee receives a full explanation. — **Proposed rewrite:** “After 3.5% down, the base FHA loan is about $306,860; financing the 1.75% upfront mortgage-insurance premium brings the initial balance to about $312,230.”
+
+2. **“The payment side is genuinely strong.”** — A note rate cannot establish total loan value without exact points, lender fees, mortgage insurance, qualifications, and matched Loan Estimates. PMMS is a conventional, conforming benchmark for strong-credit borrowers near 80% LTV. [Freddie Mac methodology](https://www.freddiemac.com/research/insight/20221103-freddie-macs-newly-enhanced-mortgage-rate-survey) — **Proposed rewrite:** “The advertised note rate is below the PMMS conventional benchmark, but total loan cost cannot be judged until points, fees, mortgage insurance, and matched Loan Estimates are compared.”
+
+3. **“the number in their own closed-sale record most buyers never use.”** — It is CTXMLS data, not D.R. Horton’s “own” record, and “most buyers” is unsupported. — **Proposed rewrite:** “the original-list-price field in the July CTXMLS closings that buyers often overlook.”
+
+4. **“Eighty-five active and pending D.R. Horton listings…”** — Active and pending are blended without separate counts, filter logic, builder-name normalization, duplicate handling, or disclosure of resales versus builder inventory. — **Proposed rewrite:** “CTXMLS returned 85 unique active/pending records after [disclose filter]; show active and pending counts separately and state whether resales were included.”
+
+5. **“Median days on market: twenty-one — steady demand, not frantic. You have room to think.”** — One median without a market, builder, or historical comparison proves neither “steady” demand nor that a viewer has time. — **Proposed rewrite:** “Median DOM in this filter was 21; no demand label is assigned without a comparison set.”
+
+6. **“Shop from the builder's site alone and you'd miss it.”** / **“the MLS still shows two listings finishing out.”** — D.R. Horton has a separate Nolanville/Warrior’s Legacy page; it is absent from the Temple hub, not the entire site. The MLS records do not prove Willow Glenn is “finishing out.” — **Proposed rewrite:** “Warrior’s Legacy was absent from DHI’s Temple hub but appears on its separate Nolanville page. CTXMLS also returned two Willow Glenn active/pending records; verify whether each is builder inventory, resale, or a final closing.”
+
+7. **“At Pecan Creek… Zillow currently lists the zoned campuses…”** — No sample address is identified, and a community-wide claim is not official attendance-zone verification. TEA says campus assignments must be confirmed with the district. [TEA locator FAQ](https://tea.texas.gov/families-and-students/school-district-locator/school-district-locator-faq) — **Proposed rewrite:** “For [specific sample address], Zillow displays these third-party ratings. Confirm the exact property’s district and campus assignment directly with Temple ISD.”
+
+8. **“Three Creeks sits in Bell County MUD Number One — an extra zero-point-seven-eight-three percent.”** — The graphic stamps this “July 2026,” but 0.783% is the 2025 adopted rate. The tax year and BellCAD source must be stated. [BellCAD 2025 rate chart](https://bellcad.org/wp-content/uploads/2025/09/2025-Tax-Rate-Chart.pdf) — **Proposed rewrite:** “BellCAD’s 2025 adopted MUD #1 rate was 0.783%, equal to $2,349 on $300,000 taxable value before exemptions; verify the exact parcel’s current full tax stack.”
+
+9. **“D.R. Horton's purchase packet runs past eighty pages, with no resale-style option period as standard.”** — This turns one unidentified document into a universal contract claim. — **Proposed rewrite:** “The [date/version/state] sample purchase packet reviewed exceeded 80 pages and did not include the standard resale option-period structure; the exact signed contract controls.”
+
+10. **“With a third-party administrator, the paper trail is the claim.”** — The paper trail supports a claim; it is not the claim, and RWC programs and responsibilities vary. [RWC warranty overview](https://www.rwcwarranty.com/builders/) — **Proposed rewrite:** “Confirm the exact booklet’s coverage, exclusions, responsible parties, deadlines, and submission procedure; retain written records and photos supporting each claim.”
+
+11. **“first house, a VA loan on a Fort Hood timeline, or you work at Baylor Scott and White…”** — Three personas are stuffed into one closing despite the one-viewer rule. The BSW reference has no BSW-specific evidence and reads like keyword insertion. — **Proposed rewrite:** “If you are an owner-occupant comparing a written FHA or VA builder offer with other Temple-area homes, compare the exact Loan Estimates and inspect the specific property.”
+
+12. **“then watch my Stylecraft review: the other builder at 4.99 right now.”** — That volatile competing offer is absent from the morning re-verification checklist. — **Proposed rewrite:** “Then watch my separately dated Stylecraft review for its contract and inspection framework; recheck its current financing terms directly.”
+
+13. **“TREC IABS and Consumer Protection Notice: linked at templetxhomes.net.”** — This does not prove readily noticeable, correctly labeled links or use of the required 2026 IABS 1-2 form. TREC permits compliant links through the account profile or a directly linked page. [TREC social-media rules](https://www.trec.texas.gov/article/what-you-need-know-comply-our-social-media-rules) — **Proposed rewrite:** “TREC Information About Brokerage Services: [direct completed IABS link] · TREC Consumer Protection Notice: [direct CPN link].”
+
+14. **“THE INCENTIVE CLOCK”** / **“the tape, not the banner”** / **“The tape catches what the banner drops.”** — The package claims one creative element but builds a second repeated “tape versus banner” motif around it. — **Proposed rewrite:** Keep the Incentive Clock; replace the other lines with “CTXMLS inventory” and “The MLS and builder hub show different scopes.”
+
+15. **“3–15s the spread, chip by chip…”** — Short S1 crams six profiles, multiple geographies, review counts, a BBB grade, a review average, and complaint volume into 12 seconds without a visible date/scope instruction. — **Proposed rewrite:** Make the Short only about the BBB split, show the filming date and denominators, and direct viewers to the long-form review for the cross-platform comparison.
+
+MINOR WEAKNESSES (polish):
+
+1. **“the weighing is yours.”** — Wrong word and synthetic phrasing. — **Proposed rewrite:** “Decide how much weight, if any, you give those third-party ratings.”
+
+2. **“title and thumbnail complete each other with zero repeated words.”** — The title and thumbnail chips repeat the same star contradiction numerically. — **Proposed rewrite:** “The overlay adds context while the title explains why the ratings differ.”
+
+3. **“Why it wins the… SERP click”** — No test has occurred. — **Proposed rewrite:** “CTR hypothesis for the target search result.”
+
+4. **“The current tick,” “the entry door,” “the tape,” “verdict-card slam”** — This is AI packaging jargon, not Taylor’s analyst register. — **Proposed rewrite:** Use “current offer,” “lowest advertised price,” “MLS data,” and “closing verdict.”
+
+5. **“the full teach on a few of these lives in my Stylecraft review.”** — Awkward and self-promotional. — **Proposed rewrite:** “The Stylecraft review covers the overlapping inspection and lender-comparison steps in more detail.”
+
+DOMAIN CHECKS:
+
+- Identity timing: **FAIL** — the identity declaration is sentence four and may begin before 0:15.
+- Banned vocabulary: **clean**
+- Lane discipline: **PASS** — no rental, cap-rate, or cash-flow framing; the closing still spreads across too many buyer personas.
+- Forecast surface: **FAIL** — “best deals die,” “most reason to deal,” and “matter of when, not if.”
+- Data provenance: **FAIL** — unsupported market-wide price claim, review-sample causality, incomplete MLS method, wrong MUD date label, and omitted FHA financed mortgage insurance.
+- Analyst tone: **FAIL** — several conclusions outrun the evidence and the recurring framework language sounds generated.
+- BSW lender-channel discipline: **PASS** — no physician-loan pitch or direct physician outreach.
+- Commitment surface: **PASS** — the page is presented with a last-verified date rather than an indefinite update promise.
+- Fair Housing: **FAIL** — school assignments and ratings are presented at community level without an exact address and district confirmation.
+- TREC / IABS / MLS: **FAIL** — the 3/5 ranking lacks objective disclosed criteria, compliance links are not demonstrated, and MLS methodology is incomplete.
+- NAR Article 15: **FAIL** — the review chapter makes unsupported claims about complaint stage and business practices.
+
+VERDICT: REVISE
+
+ONE-LINE REASON: The package cannot ship with an unsupported provider rating, market-wide superlative, invented review causality, universal escrow claim, forecast language, and broken identity and runtime specifications.

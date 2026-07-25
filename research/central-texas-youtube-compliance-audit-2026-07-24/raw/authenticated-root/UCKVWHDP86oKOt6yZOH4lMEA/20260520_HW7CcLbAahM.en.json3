@@ -1,0 +1,621 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 44400,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 0,
+    "dDurationMs": 3960,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "buyers"
+    }, {
+      "utf8": " are",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " having",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " an",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " affordability",
+      "tOffsetMs": 920
+    } ]
+  }, {
+    "tStartMs": 1630,
+    "dDurationMs": 2330,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 1640,
+    "dDurationMs": 3840,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "problems."
+    }, {
+      "utf8": " Not",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " like",
+      "tOffsetMs": 680
+    }, {
+      "utf8": " they",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " don't",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " qualify.",
+      "tOffsetMs": 1200
+    } ]
+  }, {
+    "tStartMs": 3950,
+    "dDurationMs": 1530,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 3960,
+    "dDurationMs": 3240,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Well,"
+    }, {
+      "utf8": " now",
+      "tOffsetMs": 120
+    }, {
+      "utf8": " fast",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " forward",
+      "tOffsetMs": 600
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " where",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " we",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " are",
+      "tOffsetMs": 1400
+    } ]
+  }, {
+    "tStartMs": 5470,
+    "dDurationMs": 1730,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 5480,
+    "dDurationMs": 4440,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "right"
+    }, {
+      "utf8": " now.",
+      "tOffsetMs": 200
+    }, {
+      "utf8": " Interest",
+      "tOffsetMs": 680
+    }, {
+      "utf8": " rates",
+      "tOffsetMs": 1040
+    }, {
+      "utf8": " are",
+      "tOffsetMs": 1240
+    }, {
+      "utf8": " higher,",
+      "tOffsetMs": 1360
+    } ]
+  }, {
+    "tStartMs": 7190,
+    "dDurationMs": 2730,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 7200,
+    "dDurationMs": 5160,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "property"
+    }, {
+      "utf8": " taxes",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " are",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " higher,",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1560
+    }, {
+      "utf8": " insurance",
+      "tOffsetMs": 1920
+    } ]
+  }, {
+    "tStartMs": 9910,
+    "dDurationMs": 2450,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 9920,
+    "dDurationMs": 5720,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "is"
+    }, {
+      "utf8": " significantly",
+      "tOffsetMs": 240
+    }, {
+      "utf8": " higher",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " as",
+      "tOffsetMs": 1320
+    }, {
+      "utf8": " well.",
+      "tOffsetMs": 1480
+    }, {
+      "utf8": " So,",
+      "tOffsetMs": 2080
+    } ]
+  }, {
+    "tStartMs": 12350,
+    "dDurationMs": 3290,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 12360,
+    "dDurationMs": 5520,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "there's"
+    }, {
+      "utf8": " an",
+      "tOffsetMs": 240
+    }, {
+      "utf8": " affordability",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " factor.",
+      "tOffsetMs": 1560
+    }, {
+      "utf8": " And",
+      "tOffsetMs": 2440
+    }, {
+      "utf8": " now",
+      "tOffsetMs": 2920
+    } ]
+  }, {
+    "tStartMs": 15630,
+    "dDurationMs": 2250,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 15640,
+    "dDurationMs": 4600,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "we"
+    }, {
+      "utf8": " have",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " lot",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " sellers",
+      "tOffsetMs": 1120
+    }, {
+      "utf8": " on",
+      "tOffsetMs": 1520
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 1680
+    }, {
+      "utf8": " market,",
+      "tOffsetMs": 1760
+    } ]
+  }, {
+    "tStartMs": 17870,
+    "dDurationMs": 2370,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 17880,
+    "dDurationMs": 3960,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "so"
+    }, {
+      "utf8": " there's",
+      "tOffsetMs": 120
+    }, {
+      "utf8": " lots",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " inventory,",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " small",
+      "tOffsetMs": 2040
+    } ]
+  }, {
+    "tStartMs": 20230,
+    "dDurationMs": 1610,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 20240,
+    "dDurationMs": 3440,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "amount"
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 240
+    }, {
+      "utf8": " buyers",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " because",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " buyers",
+      "tOffsetMs": 1120
+    }, {
+      "utf8": " are",
+      "tOffsetMs": 1480
+    } ]
+  }, {
+    "tStartMs": 21830,
+    "dDurationMs": 1850,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 21840,
+    "dDurationMs": 4360,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "having"
+    }, {
+      "utf8": " an",
+      "tOffsetMs": 280
+    }, {
+      "utf8": " affordability",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " problems.",
+      "tOffsetMs": 1160
+    }, {
+      "utf8": " Not",
+      "tOffsetMs": 1640
+    } ]
+  }, {
+    "tStartMs": 23670,
+    "dDurationMs": 2530,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 23680,
+    "dDurationMs": 5760,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "like"
+    }, {
+      "utf8": " they",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " don't",
+      "tOffsetMs": 280
+    }, {
+      "utf8": " qualify.",
+      "tOffsetMs": 680
+    }, {
+      "utf8": " They",
+      "tOffsetMs": 1680
+    }, {
+      "utf8": " just",
+      "tOffsetMs": 1920
+    }, {
+      "utf8": " don't",
+      "tOffsetMs": 2280
+    } ]
+  }, {
+    "tStartMs": 26190,
+    "dDurationMs": 3250,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 26200,
+    "dDurationMs": 4960,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "qualify"
+    }, {
+      "utf8": " for",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " amount",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " that",
+      "tOffsetMs": 1640
+    }, {
+      "utf8": " they",
+      "tOffsetMs": 1880
+    }, {
+      "utf8": " want",
+      "tOffsetMs": 2080
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 2480
+    } ]
+  }, {
+    "tStartMs": 29430,
+    "dDurationMs": 1730,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 29440,
+    "dDurationMs": 4600,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "had"
+    }, {
+      "utf8": " buyers",
+      "tOffsetMs": 240
+    }, {
+      "utf8": " who",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " will",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " qualify",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " for",
+      "tOffsetMs": 1400
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 1600
+    } ]
+  }, {
+    "tStartMs": 31150,
+    "dDurationMs": 2890,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 31160,
+    "dDurationMs": 5640,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "$200,000"
+    }, {
+      "utf8": " home,",
+      "tOffsetMs": 1160
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1640
+    }, {
+      "utf8": " that's",
+      "tOffsetMs": 2240
+    }, {
+      "utf8": " not",
+      "tOffsetMs": 2480
+    }, {
+      "utf8": " what",
+      "tOffsetMs": 2640
+    }, {
+      "utf8": " they",
+      "tOffsetMs": 2760
+    } ]
+  }, {
+    "tStartMs": 34030,
+    "dDurationMs": 2770,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 34040,
+    "dDurationMs": 4320,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "want."
+    }, {
+      "utf8": " They",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " need",
+      "tOffsetMs": 600
+    }, {
+      "utf8": " at",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " least",
+      "tOffsetMs": 1160
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 1520
+    }, {
+      "utf8": " $300,000",
+      "tOffsetMs": 1600
+    } ]
+  }, {
+    "tStartMs": 36790,
+    "dDurationMs": 1570,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 36800,
+    "dDurationMs": 4160,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "home."
+    }, {
+      "utf8": " Well,",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " they",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " can't",
+      "tOffsetMs": 600
+    }, {
+      "utf8": " afford",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " that",
+      "tOffsetMs": 1280
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 1480
+    } ]
+  }, {
+    "tStartMs": 38350,
+    "dDurationMs": 2610,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 38360,
+    "dDurationMs": 6040,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "the"
+    }, {
+      "utf8": " lenders'",
+      "tOffsetMs": 120
+    }, {
+      "utf8": " eyes",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " right",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " now.",
+      "tOffsetMs": 1040
+    }, {
+      "utf8": " So,",
+      "tOffsetMs": 1640
+    }, {
+      "utf8": " they're",
+      "tOffsetMs": 2200
+    } ]
+  }, {
+    "tStartMs": 40950,
+    "dDurationMs": 3450,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 40960,
+    "dDurationMs": 3440,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "priced"
+    }, {
+      "utf8": " out",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " market.",
+      "tOffsetMs": 800
+    } ]
+  } ]
+}

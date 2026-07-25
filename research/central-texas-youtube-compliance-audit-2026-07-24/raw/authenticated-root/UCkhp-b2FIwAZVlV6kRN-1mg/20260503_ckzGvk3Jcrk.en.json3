@@ -1,0 +1,105 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 11320,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 2360,
+    "dDurationMs": 6240,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "The"
+    }, {
+      "utf8": " tiger,",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " iconic",
+      "tOffsetMs": 1280
+    }, {
+      "utf8": " symbol",
+      "tOffsetMs": 1880
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 2280
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 2400
+    }, {
+      "utf8": " wild",
+      "tOffsetMs": 2520
+    } ]
+  }, {
+    "tStartMs": 6150,
+    "dDurationMs": 2450,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 6160,
+    "dDurationMs": 5160,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "and"
+    }, {
+      "utf8": " an",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " apex",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " predator",
+      "tOffsetMs": 880
+    }, {
+      "utf8": " that",
+      "tOffsetMs": 1520
+    }, {
+      "utf8": " we",
+      "tOffsetMs": 1680
+    }, {
+      "utf8": " fear",
+      "tOffsetMs": 1880
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 2320
+    } ]
+  }, {
+    "tStartMs": 8590,
+    "dDurationMs": 2730,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 8600,
+    "dDurationMs": 2720,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "admire."
+    } ]
+  } ]
+}

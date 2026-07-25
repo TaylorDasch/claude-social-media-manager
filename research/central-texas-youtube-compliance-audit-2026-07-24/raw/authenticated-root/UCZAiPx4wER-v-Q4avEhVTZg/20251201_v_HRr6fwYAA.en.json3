@@ -1,0 +1,129 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 9600,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 599,
+    "dDurationMs": 5240,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Oh ",
+      "acAsrConf": 0
+    }, {
+      "utf8": "là ",
+      "tOffsetMs": 341,
+      "acAsrConf": 0
+    }, {
+      "utf8": "oh ",
+      "tOffsetMs": 682,
+      "acAsrConf": 0
+    }, {
+      "utf8": "hello ",
+      "tOffsetMs": 1023,
+      "acAsrConf": 0
+    }, {
+      "utf8": "[music]",
+      "tOffsetMs": 1364,
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 2830,
+    "dDurationMs": 3009,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 2840,
+    "dDurationMs": 6760,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Marcel ",
+      "acAsrConf": 0
+    }, {
+      "utf8": "hotel, ",
+      "tOffsetMs": 400,
+      "acAsrConf": 0
+    }, {
+      "utf8": "so ",
+      "tOffsetMs": 800,
+      "acAsrConf": 0
+    }, {
+      "utf8": "you ",
+      "tOffsetMs": 1200,
+      "acAsrConf": 0
+    }, {
+      "utf8": "hadn't ",
+      "tOffsetMs": 1600,
+      "acAsrConf": 0
+    }, {
+      "utf8": "been ",
+      "tOffsetMs": 2000,
+      "acAsrConf": 0
+    }, {
+      "utf8": "giving ",
+      "tOffsetMs": 2400,
+      "acAsrConf": 0
+    }, {
+      "utf8": "me",
+      "tOffsetMs": 2800,
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 5829,
+    "dDurationMs": 3771,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 5839,
+    "dDurationMs": 3761,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "much ",
+      "acAsrConf": 0
+    }, {
+      "utf8": "news ",
+      "tOffsetMs": 360,
+      "acAsrConf": 0
+    }, {
+      "utf8": "since ",
+      "tOffsetMs": 720,
+      "acAsrConf": 0
+    }, {
+      "utf8": "I ",
+      "tOffsetMs": 1080,
+      "acAsrConf": 0
+    }, {
+      "utf8": "had",
+      "tOffsetMs": 1440,
+      "acAsrConf": 0
+    } ]
+  } ]
+}

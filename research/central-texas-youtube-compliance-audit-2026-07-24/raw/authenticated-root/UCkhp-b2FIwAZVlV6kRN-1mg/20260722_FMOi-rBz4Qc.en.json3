@@ -1,0 +1,142 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 25600,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 0,
+    "dDurationMs": 4080,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "This"
+    }, {
+      "utf8": " is",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " [music]",
+      "tOffsetMs": 659
+    }, {
+      "utf8": " air",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " traffic",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " control.",
+      "tOffsetMs": 1280
+    } ]
+  }, {
+    "tStartMs": 1630,
+    "dDurationMs": 2450,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 1640,
+    "dDurationMs": 4254,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "You're"
+    }, {
+      "utf8": " clear",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " take",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " off.",
+      "tOffsetMs": 840
+    } ]
+  }, {
+    "tStartMs": 4070,
+    "dDurationMs": 1824,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 4080,
+    "dDurationMs": 4160,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e Flight",
+      "isSpeakerChange": 1
+    }, {
+      "utf8": " attendants,",
+      "tOffsetMs": 240
+    }, {
+      "utf8": " prepare",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " for",
+      "tOffsetMs": 1360
+    }, {
+      "utf8": " take",
+      "tOffsetMs": 1440
+    }, {
+      "utf8": " off,",
+      "tOffsetMs": 1680
+    } ]
+  }, {
+    "tStartMs": 5884,
+    "dDurationMs": 2356,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 5894,
+    "dDurationMs": 2346,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[music]"
+    }, {
+      "utf8": " please.",
+      "tOffsetMs": 66
+    } ]
+  }, {
+    "tStartMs": 23570,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 23580,
+    "dDurationMs": 2020,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e [music]",
+      "isSpeakerChange": 1
+    } ]
+  } ]
+}

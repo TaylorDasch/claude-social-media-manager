@@ -1,0 +1,133 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 10840,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 880,
+    "dDurationMs": 4479,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Titi ",
+      "acAsrConf": 0
+    }, {
+      "utf8": "asked ",
+      "tOffsetMs": 366,
+      "acAsrConf": 0
+    }, {
+      "utf8": "me ",
+      "tOffsetMs": 732,
+      "acAsrConf": 0
+    }, {
+      "utf8": "if ",
+      "tOffsetMs": 1098,
+      "acAsrConf": 0
+    }, {
+      "utf8": "I ",
+      "tOffsetMs": 1464,
+      "acAsrConf": 0
+    }, {
+      "utf8": "have ",
+      "tOffsetMs": 1830,
+      "acAsrConf": 0
+    }, {
+      "utf8": "many",
+      "tOffsetMs": 2196,
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 3510,
+    "dDurationMs": 1849,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 3520,
+    "dDurationMs": 4720,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "girlfriends,",
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 5349,
+    "dDurationMs": 2891,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 5359,
+    "dDurationMs": 5481,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "many ",
+      "acAsrConf": 0
+    }, {
+      "utf8": "girlfriends.  ",
+      "tOffsetMs": 366,
+      "acAsrConf": 0
+    }, {
+      "utf8": "Today ",
+      "tOffsetMs": 732,
+      "acAsrConf": 0
+    }, {
+      "utf8": "I ",
+      "tOffsetMs": 1098,
+      "acAsrConf": 0
+    }, {
+      "utf8": "have ",
+      "tOffsetMs": 1464,
+      "acAsrConf": 0
+    }, {
+      "utf8": "one, ",
+      "tOffsetMs": 1830,
+      "acAsrConf": 0
+    }, {
+      "utf8": "tomorrow",
+      "tOffsetMs": 2196,
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 8230,
+    "dDurationMs": 2610,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 8240,
+    "dDurationMs": 2600,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "another.",
+      "acAsrConf": 0
+    } ]
+  } ]
+}

@@ -1,0 +1,97 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 6604,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 0,
+    "dDurationMs": 4584,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Baby,"
+    }, {
+      "utf8": " baby,",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " baby,",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " baby,",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " baby,",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " baby,",
+      "tOffsetMs": 920
+    } ]
+  }, {
+    "tStartMs": 1110,
+    "dDurationMs": 3474,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 1120,
+    "dDurationMs": 5484,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "baby,"
+    }, {
+      "utf8": " baby,",
+      "tOffsetMs": 200
+    }, {
+      "utf8": " baby.",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " I'm",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " fireball.",
+      "tOffsetMs": 1120
+    } ]
+  }, {
+    "tStartMs": 4574,
+    "dDurationMs": 2030,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 4584,
+    "dDurationMs": 2020,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e [music]",
+      "isSpeakerChange": 1
+    } ]
+  } ]
+}

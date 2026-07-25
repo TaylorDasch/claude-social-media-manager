@@ -1,0 +1,132 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 10000,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 1040,
+    "dDurationMs": 3880,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Did"
+    }, {
+      "utf8": " you",
+      "tOffsetMs": 200
+    }, {
+      "utf8": " know",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " Texas",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " cities",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " make",
+      "tOffsetMs": 1320
+    }, {
+      "utf8": " luxury",
+      "tOffsetMs": 1560
+    } ]
+  }, {
+    "tStartMs": 3150,
+    "dDurationMs": 1770,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 3160,
+    "dDurationMs": 4360,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "living"
+    }, {
+      "utf8": " way",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " more",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " affordable",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " than",
+      "tOffsetMs": 1520
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 1680
+    } ]
+  }, {
+    "tStartMs": 4910,
+    "dDurationMs": 2610,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 4920,
+    "dDurationMs": 5080,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "coasts?"
+    }, {
+      "utf8": " You",
+      "tOffsetMs": 1240
+    }, {
+      "utf8": " get",
+      "tOffsetMs": 1360
+    }, {
+      "utf8": " bigger",
+      "tOffsetMs": 1560
+    }, {
+      "utf8": " homes",
+      "tOffsetMs": 1800
+    }, {
+      "utf8": " for",
+      "tOffsetMs": 2240
+    }, {
+      "utf8": " less",
+      "tOffsetMs": 2360
+    } ]
+  }, {
+    "tStartMs": 7510,
+    "dDurationMs": 2490,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 7520,
+    "dDurationMs": 2480,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "money."
+    } ]
+  } ]
+}

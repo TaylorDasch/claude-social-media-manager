@@ -1,0 +1,162 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 10880,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 0,
+    "dDurationMs": 4520,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "The"
+    }, {
+      "utf8": " one",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " that",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " got",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " away.",
+      "tOffsetMs": 1080
+    } ]
+  }, {
+    "tStartMs": 3070,
+    "dDurationMs": 1450,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 3080,
+    "dDurationMs": 3120,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "We"
+    }, {
+      "utf8": " were",
+      "tOffsetMs": 80
+    }, {
+      "utf8": " friends",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " high",
+      "tOffsetMs": 600
+    }, {
+      "utf8": " school",
+      "tOffsetMs": 680
+    } ]
+  }, {
+    "tStartMs": 4510,
+    "dDurationMs": 1690,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 4520,
+    "dDurationMs": 2480,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "with"
+    }, {
+      "utf8": " my",
+      "tOffsetMs": 80
+    }, {
+      "utf8": " first",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " love.",
+      "tOffsetMs": 720
+    } ]
+  }, {
+    "tStartMs": 6190,
+    "dDurationMs": 810,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 6200,
+    "dDurationMs": 1880,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Break"
+    }, {
+      "utf8": " out",
+      "tOffsetMs": 120
+    } ]
+  }, {
+    "tStartMs": 6990,
+    "dDurationMs": 1090,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 7000,
+    "dDurationMs": 3880,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "in"
+    }, {
+      "utf8": " your",
+      "tOffsetMs": 80
+    }, {
+      "utf8": " Mustang",
+      "tOffsetMs": 160
+    } ]
+  }, {
+    "tStartMs": 8070,
+    "dDurationMs": 2810,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 8080,
+    "dDurationMs": 2800,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "to"
+    }, {
+      "utf8": " radio",
+      "tOffsetMs": 80
+    }, {
+      "utf8": " head.",
+      "tOffsetMs": 680
+    } ]
+  } ]
+}

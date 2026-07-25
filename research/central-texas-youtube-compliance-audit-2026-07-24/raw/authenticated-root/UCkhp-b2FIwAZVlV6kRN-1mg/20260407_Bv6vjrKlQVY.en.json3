@@ -1,0 +1,268 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 35879,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 2619,
+    "dDurationMs": 2020,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Music]"
+    } ]
+  }, {
+    "tStartMs": 8505,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 8515,
+    "dDurationMs": 4585,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Music] Following the"
+    } ]
+  }, {
+    "tStartMs": 9230,
+    "dDurationMs": 3870,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 9240,
+    "dDurationMs": 4479,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "acorns ",
+      "acAsrConf": 0
+    }, {
+      "utf8": "won't ",
+      "tOffsetMs": 780,
+      "acAsrConf": 0
+    }, {
+      "utf8": "get ",
+      "tOffsetMs": 1560,
+      "acAsrConf": 0
+    }, {
+      "utf8": "you ",
+      "tOffsetMs": 2340,
+      "acAsrConf": 0
+    }, {
+      "utf8": "there.",
+      "tOffsetMs": 3120,
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 13090,
+    "dDurationMs": 629,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 13100,
+    "dDurationMs": 4585,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Music] A"
+    } ]
+  }, {
+    "tStartMs": 13709,
+    "dDurationMs": 3976,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 13719,
+    "dDurationMs": 8480,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "small ",
+      "acAsrConf": 0
+    }, {
+      "utf8": "ice ",
+      "tOffsetMs": 960,
+      "acAsrConf": 0
+    }, {
+      "utf8": "restaurant",
+      "tOffsetMs": 1920,
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 17675,
+    "dDurationMs": 4524,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 17685,
+    "dDurationMs": 8635,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Music] "
+    }, {
+      "utf8": "Hit ",
+      "tOffsetMs": 389,
+      "acAsrConf": 0
+    }, {
+      "utf8": "the ",
+      "tOffsetMs": 778,
+      "acAsrConf": 0
+    }, {
+      "utf8": "pocket ",
+      "tOffsetMs": 1167,
+      "acAsrConf": 0
+    }, {
+      "utf8": "of ",
+      "tOffsetMs": 1556,
+      "acAsrConf": 0
+    }, {
+      "utf8": "the ",
+      "tOffsetMs": 1945,
+      "acAsrConf": 0
+    }, {
+      "utf8": "color ",
+      "tOffsetMs": 2334,
+      "acAsrConf": 0
+    }, {
+      "utf8": "box ",
+      "tOffsetMs": 2723,
+      "acAsrConf": 0
+    }, {
+      "utf8": "straight,",
+      "tOffsetMs": 3112,
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 22189,
+    "dDurationMs": 4131,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 22199,
+    "dDurationMs": 9240,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "forget ",
+      "acAsrConf": 0
+    }, {
+      "utf8": "about ",
+      "tOffsetMs": 336,
+      "acAsrConf": 0
+    }, {
+      "utf8": "it ",
+      "tOffsetMs": 672,
+      "acAsrConf": 0
+    }, {
+      "utf8": "and ",
+      "tOffsetMs": 1008,
+      "acAsrConf": 0
+    }, {
+      "utf8": "get ",
+      "tOffsetMs": 1344,
+      "acAsrConf": 0
+    }, {
+      "utf8": "there ",
+      "tOffsetMs": 1680,
+      "acAsrConf": 0
+    }, {
+      "utf8": "[Music] ",
+      "tOffsetMs": 2016,
+      "acAsrConf": 0
+    }, {
+      "utf8": "There ",
+      "tOffsetMs": 2352,
+      "acAsrConf": 0
+    }, {
+      "utf8": "are",
+      "tOffsetMs": 2688,
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 26310,
+    "dDurationMs": 5129,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 26320,
+    "dDurationMs": 9559,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "no ",
+      "acAsrConf": 0
+    }, {
+      "utf8": "reservations ",
+      "tOffsetMs": 1051,
+      "acAsrConf": 0
+    }, {
+      "utf8": "[Music] ",
+      "tOffsetMs": 2102,
+      "acAsrConf": 0
+    }, {
+      "utf8": "The",
+      "tOffsetMs": 3153,
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 31429,
+    "dDurationMs": 4450,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 31439,
+    "dDurationMs": 4440,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "small ",
+      "acAsrConf": 0
+    }, {
+      "utf8": "restaurant ",
+      "tOffsetMs": 1060,
+      "acAsrConf": 0
+    }, {
+      "utf8": "Bra.",
+      "tOffsetMs": 2120,
+      "acAsrConf": 0
+    } ]
+  } ]
+}

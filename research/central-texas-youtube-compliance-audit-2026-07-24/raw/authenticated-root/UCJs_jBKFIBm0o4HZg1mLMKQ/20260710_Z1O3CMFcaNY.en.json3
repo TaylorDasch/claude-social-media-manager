@@ -1,0 +1,422 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 65555,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 0,
+    "dDurationMs": 5040,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Imagine"
+    }, {
+      "utf8": " living",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " on",
+      "tOffsetMs": 880
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " premier",
+      "tOffsetMs": 1120
+    }, {
+      "utf8": " street",
+      "tOffsetMs": 1760
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 2640
+    } ]
+  }, {
+    "tStartMs": 2790,
+    "dDurationMs": 2250,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 2800,
+    "dDurationMs": 4080,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "the"
+    }, {
+      "utf8": " premier",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " neighborhood",
+      "tOffsetMs": 1120
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 2000
+    } ]
+  }, {
+    "tStartMs": 5030,
+    "dDurationMs": 1850,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 5040,
+    "dDurationMs": 3440,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Pflugerville."
+    }, {
+      "utf8": " This",
+      "tOffsetMs": 1080
+    }, {
+      "utf8": " Blackhawk",
+      "tOffsetMs": 1280
+    } ]
+  }, {
+    "tStartMs": 6870,
+    "dDurationMs": 1610,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 6880,
+    "dDurationMs": 4520,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "neighborhood"
+    }, {
+      "utf8": " has",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " everything",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " you",
+      "tOffsetMs": 1320
+    }, {
+      "utf8": " could",
+      "tOffsetMs": 1400
+    } ]
+  }, {
+    "tStartMs": 8470,
+    "dDurationMs": 2930,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 8480,
+    "dDurationMs": 5520,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "ask"
+    }, {
+      "utf8": " for",
+      "tOffsetMs": 280
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " 20813",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " Carries",
+      "tOffsetMs": 1840
+    }, {
+      "utf8": " Ranch",
+      "tOffsetMs": 2240
+    }, {
+      "utf8": " is",
+      "tOffsetMs": 2560
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 2800
+    } ]
+  }, {
+    "tStartMs": 11390,
+    "dDurationMs": 2610,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 11400,
+    "dDurationMs": 5160,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "1-minute"
+    }, {
+      "utf8": " walk",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " from",
+      "tOffsetMs": 1360
+    }, {
+      "utf8": " all",
+      "tOffsetMs": 1680
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 2000
+    }, {
+      "utf8": " your",
+      "tOffsetMs": 2080
+    }, {
+      "utf8": " favorite",
+      "tOffsetMs": 2240
+    } ]
+  }, {
+    "tStartMs": 13990,
+    "dDurationMs": 2570,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 14000,
+    "dDurationMs": 4880,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "things."
+    }, {
+      "utf8": " Playground,",
+      "tOffsetMs": 680
+    }, {
+      "utf8": " green",
+      "tOffsetMs": 1600
+    }, {
+      "utf8": " space,",
+      "tOffsetMs": 2000
+    } ]
+  }, {
+    "tStartMs": 16550,
+    "dDurationMs": 2330,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 16560,
+    "dDurationMs": 5120,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "full-service"
+    }, {
+      "utf8": " gym,",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " swimming",
+      "tOffsetMs": 1400
+    }, {
+      "utf8": " pool,",
+      "tOffsetMs": 1880
+    } ]
+  }, {
+    "tStartMs": 18870,
+    "dDurationMs": 2810,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 18880,
+    "dDurationMs": 4400,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "everything"
+    }, {
+      "utf8": " is",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " right",
+      "tOffsetMs": 880
+    }, {
+      "utf8": " here.",
+      "tOffsetMs": 1560
+    }, {
+      "utf8": " You",
+      "tOffsetMs": 2200
+    }, {
+      "utf8": " can't",
+      "tOffsetMs": 2320
+    }, {
+      "utf8": " beat",
+      "tOffsetMs": 2600
+    } ]
+  }, {
+    "tStartMs": 21670,
+    "dDurationMs": 1610,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 21680,
+    "dDurationMs": 3210,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "it."
+    }, {
+      "utf8": " I",
+      "tOffsetMs": 280
+    }, {
+      "utf8": " can't",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " wait",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " show",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " you",
+      "tOffsetMs": 880
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " inside.",
+      "tOffsetMs": 1080
+    } ]
+  }, {
+    "tStartMs": 23270,
+    "dDurationMs": 1620,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 23280,
+    "dDurationMs": 3630,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Check"
+    }, {
+      "utf8": " it",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " out.",
+      "tOffsetMs": 280
+    } ]
+  }, {
+    "tStartMs": 24880,
+    "dDurationMs": 2030,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 24890,
+    "dDurationMs": 2020,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e [music]",
+      "isSpeakerChange": 1
+    } ]
+  }, {
+    "tStartMs": 32740,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 32750,
+    "dDurationMs": 2020,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[music]"
+    } ]
+  }, {
+    "tStartMs": 37980,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 37990,
+    "dDurationMs": 2020,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[music]"
+    } ]
+  }, {
+    "tStartMs": 47150,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 47160,
+    "dDurationMs": 2020,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[music]"
+    } ]
+  }, {
+    "tStartMs": 56975,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 56985,
+    "dDurationMs": 2020,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[music]"
+    } ]
+  }, {
+    "tStartMs": 63525,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 63535,
+    "dDurationMs": 2020,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[music]"
+    } ]
+  } ]
+}

@@ -1,0 +1,987 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 72800,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 0,
+    "dDurationMs": 4640,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "On"
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " cul-de-sac,",
+      "tOffsetMs": 200
+    }, {
+      "utf8": " minutes",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " from",
+      "tOffsetMs": 1160
+    }, {
+      "utf8": " Belton",
+      "tOffsetMs": 1280
+    } ]
+  }, {
+    "tStartMs": 1630,
+    "dDurationMs": 3010,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 1640,
+    "dDurationMs": 4320,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Lake,"
+    }, {
+      "utf8": " this",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " cleared",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " 0.26",
+      "tOffsetMs": 1080
+    }, {
+      "utf8": " corner",
+      "tOffsetMs": 2200
+    }, {
+      "utf8": " lot",
+      "tOffsetMs": 2520
+    }, {
+      "utf8": " is",
+      "tOffsetMs": 2840
+    } ]
+  }, {
+    "tStartMs": 4630,
+    "dDurationMs": 1330,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 4640,
+    "dDurationMs": 3520,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "set"
+    }, {
+      "utf8": " up",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " with",
+      "tOffsetMs": 280
+    }, {
+      "utf8": " active",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " water",
+      "tOffsetMs": 880
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1200
+    } ]
+  }, {
+    "tStartMs": 5950,
+    "dDurationMs": 2210,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 5960,
+    "dDurationMs": 4040,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "electricity,"
+    }, {
+      "utf8": " setting",
+      "tOffsetMs": 1160
+    }, {
+      "utf8": " it",
+      "tOffsetMs": 1440
+    }, {
+      "utf8": " apart",
+      "tOffsetMs": 1560
+    }, {
+      "utf8": " from",
+      "tOffsetMs": 2040
+    } ]
+  }, {
+    "tStartMs": 8150,
+    "dDurationMs": 1850,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 8160,
+    "dDurationMs": 3560,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "surrounding"
+    }, {
+      "utf8": " parcels",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 1120
+    }, {
+      "utf8": " sought-after",
+      "tOffsetMs": 1240
+    } ]
+  }, {
+    "tStartMs": 9990,
+    "dDurationMs": 1730,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 10000,
+    "dDurationMs": 2960,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Lake"
+    }, {
+      "utf8": " Air",
+      "tOffsetMs": 240
+    }, {
+      "utf8": " community.",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " From",
+      "tOffsetMs": 1120
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 1280
+    }, {
+      "utf8": " Lake",
+      "tOffsetMs": 1360
+    }, {
+      "utf8": " Air",
+      "tOffsetMs": 1600
+    } ]
+  }, {
+    "tStartMs": 11710,
+    "dDurationMs": 1250,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 11720,
+    "dDurationMs": 3680,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "boat"
+    }, {
+      "utf8": " ramp,",
+      "tOffsetMs": 240
+    }, {
+      "utf8": " you're",
+      "tOffsetMs": 600
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " water",
+      "tOffsetMs": 880
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 1160
+    } ]
+  }, {
+    "tStartMs": 12950,
+    "dDurationMs": 2450,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 12960,
+    "dDurationMs": 5200,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "minutes,"
+    }, {
+      "utf8": " chasing",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " hybrid",
+      "tOffsetMs": 1120
+    }, {
+      "utf8": " striped",
+      "tOffsetMs": 1480
+    }, {
+      "utf8": " bass",
+      "tOffsetMs": 1760
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 2280
+    } ]
+  }, {
+    "tStartMs": 15390,
+    "dDurationMs": 2770,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 15400,
+    "dDurationMs": 5040,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "largemouth"
+    }, {
+      "utf8": " bass",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " with",
+      "tOffsetMs": 1080
+    }, {
+      "utf8": " steady",
+      "tOffsetMs": 1280
+    }, {
+      "utf8": " action",
+      "tOffsetMs": 1680
+    }, {
+      "utf8": " that",
+      "tOffsetMs": 2520
+    } ]
+  }, {
+    "tStartMs": 18150,
+    "dDurationMs": 2290,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 18160,
+    "dDurationMs": 5280,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "keeps"
+    }, {
+      "utf8": " lines",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " tight",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " year-round.",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " Light",
+      "tOffsetMs": 1600
+    }, {
+      "utf8": " HOA",
+      "tOffsetMs": 1840
+    } ]
+  }, {
+    "tStartMs": 20430,
+    "dDurationMs": 3010,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 20440,
+    "dDurationMs": 5960,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "restrictions"
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " low",
+      "tOffsetMs": 1120
+    }, {
+      "utf8": " fees",
+      "tOffsetMs": 1480
+    }, {
+      "utf8": " keep",
+      "tOffsetMs": 2280
+    }, {
+      "utf8": " things",
+      "tOffsetMs": 2600
+    } ]
+  }, {
+    "tStartMs": 23430,
+    "dDurationMs": 2970,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 23440,
+    "dDurationMs": 5760,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "flexible."
+    }, {
+      "utf8": " Previously",
+      "tOffsetMs": 1040
+    }, {
+      "utf8": " home",
+      "tOffsetMs": 1560
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 1760
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 1920
+    }, {
+      "utf8": " 14",
+      "tOffsetMs": 1960
+    }, {
+      "utf8": " by",
+      "tOffsetMs": 2400
+    }, {
+      "utf8": " 60",
+      "tOffsetMs": 2560
+    } ]
+  }, {
+    "tStartMs": 26390,
+    "dDurationMs": 2810,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 26400,
+    "dDurationMs": 4720,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "manufactured"
+    }, {
+      "utf8": " home",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " with",
+      "tOffsetMs": 1360
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 1520
+    }, {
+      "utf8": " wood",
+      "tOffsetMs": 1640
+    }, {
+      "utf8": " porch,",
+      "tOffsetMs": 2000
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 2720
+    } ]
+  }, {
+    "tStartMs": 29190,
+    "dDurationMs": 1930,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 29200,
+    "dDurationMs": 4320,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "lot"
+    }, {
+      "utf8": " has",
+      "tOffsetMs": 280
+    }, {
+      "utf8": " been",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " cleared",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1080
+    }, {
+      "utf8": " is",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " framed",
+      "tOffsetMs": 1360
+    }, {
+      "utf8": " by",
+      "tOffsetMs": 1760
+    } ]
+  }, {
+    "tStartMs": 31110,
+    "dDurationMs": 2410,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 31120,
+    "dDurationMs": 5240,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "mature"
+    }, {
+      "utf8": " landscaping",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1280
+    }, {
+      "utf8": " established",
+      "tOffsetMs": 1400
+    }, {
+      "utf8": " shade",
+      "tOffsetMs": 2160
+    } ]
+  }, {
+    "tStartMs": 33510,
+    "dDurationMs": 2850,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 33520,
+    "dDurationMs": 6120,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "trees."
+    }, {
+      "utf8": " Onsite",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " 50-amp",
+      "tOffsetMs": 1360
+    }, {
+      "utf8": " electric",
+      "tOffsetMs": 1960
+    }, {
+      "utf8": " provides",
+      "tOffsetMs": 2480
+    } ]
+  }, {
+    "tStartMs": 36350,
+    "dDurationMs": 3290,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 36360,
+    "dDurationMs": 6080,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "connection"
+    }, {
+      "utf8": " ideal",
+      "tOffsetMs": 600
+    }, {
+      "utf8": " for",
+      "tOffsetMs": 1440
+    }, {
+      "utf8": " RV",
+      "tOffsetMs": 1720
+    }, {
+      "utf8": " hookup,",
+      "tOffsetMs": 2120
+    }, {
+      "utf8": " tiny",
+      "tOffsetMs": 2920
+    } ]
+  }, {
+    "tStartMs": 39630,
+    "dDurationMs": 2810,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 39640,
+    "dDurationMs": 4600,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "home"
+    }, {
+      "utf8": " use,",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " temporary",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " construction",
+      "tOffsetMs": 1480
+    }, {
+      "utf8": " power,",
+      "tOffsetMs": 2120
+    } ]
+  }, {
+    "tStartMs": 42430,
+    "dDurationMs": 1810,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 42440,
+    "dDurationMs": 3880,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "or"
+    }, {
+      "utf8": " similar",
+      "tOffsetMs": 120
+    }, {
+      "utf8": " application.",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " Lake",
+      "tOffsetMs": 1440
+    }, {
+      "utf8": " Air's",
+      "tOffsetMs": 1680
+    } ]
+  }, {
+    "tStartMs": 44230,
+    "dDurationMs": 2090,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 44240,
+    "dDurationMs": 3960,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "22-acre"
+    }, {
+      "utf8": " waterfront",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " park",
+      "tOffsetMs": 1160
+    }, {
+      "utf8": " features",
+      "tOffsetMs": 1520
+    }, {
+      "utf8": " lake",
+      "tOffsetMs": 1880
+    } ]
+  }, {
+    "tStartMs": 46310,
+    "dDurationMs": 1890,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 46320,
+    "dDurationMs": 4320,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "views,"
+    }, {
+      "utf8": " boat",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " ramp,",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " gated",
+      "tOffsetMs": 1240
+    }, {
+      "utf8": " pool",
+      "tOffsetMs": 1520
+    }, {
+      "utf8": " with",
+      "tOffsetMs": 1680
+    } ]
+  }, {
+    "tStartMs": 48190,
+    "dDurationMs": 2450,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 48200,
+    "dDurationMs": 5040,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "upgraded"
+    }, {
+      "utf8": " amenities,",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " key",
+      "tOffsetMs": 1560
+    }, {
+      "utf8": " card",
+      "tOffsetMs": 1760
+    }, {
+      "utf8": " access",
+      "tOffsetMs": 2000
+    } ]
+  }, {
+    "tStartMs": 50630,
+    "dDurationMs": 2610,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 50640,
+    "dDurationMs": 4120,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "restrooms,"
+    }, {
+      "utf8": " clubhouse",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " next",
+      "tOffsetMs": 1440
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 1680
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 1800
+    }, {
+      "utf8": " pavilion,",
+      "tOffsetMs": 1840
+    } ]
+  }, {
+    "tStartMs": 53230,
+    "dDurationMs": 1530,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 53240,
+    "dDurationMs": 4440,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "two"
+    }, {
+      "utf8": " playgrounds,",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " basketball",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1160
+    }, {
+      "utf8": " tennis",
+      "tOffsetMs": 1240
+    } ]
+  }, {
+    "tStartMs": 54750,
+    "dDurationMs": 2930,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 54760,
+    "dDurationMs": 5000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "courts,"
+    }, {
+      "utf8": " soccer",
+      "tOffsetMs": 600
+    }, {
+      "utf8": " field,",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " fire",
+      "tOffsetMs": 1600
+    }, {
+      "utf8": " pit,",
+      "tOffsetMs": 1920
+    }, {
+      "utf8": " picnic",
+      "tOffsetMs": 2560
+    } ]
+  }, {
+    "tStartMs": 57670,
+    "dDurationMs": 2090,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 57680,
+    "dDurationMs": 3560,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "and"
+    }, {
+      "utf8": " grilling",
+      "tOffsetMs": 120
+    }, {
+      "utf8": " areas,",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1040
+    }, {
+      "utf8": " monitored",
+      "tOffsetMs": 1440
+    } ]
+  }, {
+    "tStartMs": 59750,
+    "dDurationMs": 1490,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 59760,
+    "dDurationMs": 2880,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "security."
+    }, {
+      "utf8": " And",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " when",
+      "tOffsetMs": 600
+    }, {
+      "utf8": " you",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " want",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " run",
+      "tOffsetMs": 1080
+    }, {
+      "utf8": " into",
+      "tOffsetMs": 1240
+    } ]
+  }, {
+    "tStartMs": 61230,
+    "dDurationMs": 1410,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 61240,
+    "dDurationMs": 3680,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "town,"
+    }, {
+      "utf8": " you're",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " close",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " Belton,",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " Temple,",
+      "tOffsetMs": 1040
+    } ]
+  }, {
+    "tStartMs": 62630,
+    "dDurationMs": 2290,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 62640,
+    "dDurationMs": 4120,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "and"
+    }, {
+      "utf8": " Salado",
+      "tOffsetMs": 120
+    }, {
+      "utf8": " with",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " quick",
+      "tOffsetMs": 1120
+    }, {
+      "utf8": " highway",
+      "tOffsetMs": 1440
+    }, {
+      "utf8": " access",
+      "tOffsetMs": 1760
+    } ]
+  }, {
+    "tStartMs": 64910,
+    "dDurationMs": 1850,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 64920,
+    "dDurationMs": 4640,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "from"
+    }, {
+      "utf8": " Fort",
+      "tOffsetMs": 200
+    }, {
+      "utf8": " Hood",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " all",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " way",
+      "tOffsetMs": 1040
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 1240
+    }, {
+      "utf8": " Austin",
+      "tOffsetMs": 1400
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1720
+    } ]
+  }, {
+    "tStartMs": 66750,
+    "dDurationMs": 2810,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 66760,
+    "dDurationMs": 6040,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Waco."
+    }, {
+      "utf8": " Hook,",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " jet,",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " take",
+      "tOffsetMs": 1440
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 1640
+    }, {
+      "utf8": " closer",
+      "tOffsetMs": 1680
+    }, {
+      "utf8": " look.",
+      "tOffsetMs": 2080
+    } ]
+  }, {
+    "tStartMs": 69550,
+    "dDurationMs": 3250,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 69560,
+    "dDurationMs": 3240,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "This"
+    }, {
+      "utf8": " one's",
+      "tOffsetMs": 240
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " keeper.",
+      "tOffsetMs": 560
+    } ]
+  } ]
+}

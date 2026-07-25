@@ -1,0 +1,148 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 17200,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 0,
+    "dDurationMs": 6920,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "I"
+    }, {
+      "utf8": " can't",
+      "tOffsetMs": 200
+    }, {
+      "utf8": " be",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " only",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " one",
+      "tOffsetMs": 1840
+    }, {
+      "utf8": " who",
+      "tOffsetMs": 2400
+    }, {
+      "utf8": " hears",
+      "tOffsetMs": 3440
+    }, {
+      "utf8": " you.",
+      "tOffsetMs": 4360
+    } ]
+  }, {
+    "tStartMs": 7950,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 7960,
+    "dDurationMs": 4280,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Tears"
+    }, {
+      "utf8": " falling",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " down",
+      "tOffsetMs": 1040
+    }, {
+      "utf8": " at",
+      "tOffsetMs": 1840
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 1920
+    }, {
+      "utf8": " party.",
+      "tOffsetMs": 2080
+    } ]
+  }, {
+    "tStartMs": 11125,
+    "dDurationMs": 1115,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 11135,
+    "dDurationMs": 3545,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e [music]",
+      "isSpeakerChange": 1
+    } ]
+  }, {
+    "tStartMs": 12230,
+    "dDurationMs": 2450,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 12240,
+    "dDurationMs": 4960,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e Saddest",
+      "isSpeakerChange": 1
+    }, {
+      "utf8": " little",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " baby",
+      "tOffsetMs": 1160
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 1760
+    } ]
+  }, {
+    "tStartMs": 14670,
+    "dDurationMs": 2530,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 14680,
+    "dDurationMs": 2520,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "the"
+    }, {
+      "utf8": " room.",
+      "tOffsetMs": 80
+    } ]
+  } ]
+}

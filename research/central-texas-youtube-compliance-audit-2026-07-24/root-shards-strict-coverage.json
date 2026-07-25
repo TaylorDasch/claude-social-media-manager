@@ -1,0 +1,621 @@
+{
+  "generated_at": "2026-07-24T22:25:19.076Z",
+  "audit_window": {
+    "start": "2024-07-24",
+    "end": "2026-07-24",
+    "inclusive": true
+  },
+  "manifests": [
+    "authenticated-root-local-shard-a.txt",
+    "authenticated-root-local-shard-b.txt"
+  ],
+  "root_manifest": "root-full-catalog-channels.tsv",
+  "status_files": [
+    "authenticated-root-local-shard-a-collection-status.tsv",
+    "authenticated-root-local-shard-b-collection-status.tsv"
+  ],
+  "stream_status_file": "authenticated-full-channel-stream-inputs-collection-status.tsv",
+  "terminal_statuses": [
+    "complete",
+    "cutoff_complete",
+    "no_tab"
+  ],
+  "totals": {
+    "channels": 42,
+    "info_files_seen": 4077,
+    "public_in_window_uploads": 4066,
+    "uploads_with_caption_artifacts": 2411,
+    "uploads_without_caption_artifacts": 1655,
+    "out_of_window_info_files": 3,
+    "non_public_info_files": 8,
+    "no_date_or_profile_info_files": 0
+  },
+  "channels": [
+    {
+      "channel_id": "UC-_SuyK4REF_TH5r1W2nQmw",
+      "channel_name": "Expert Rentals and Property Management",
+      "recovered_channel_name": "Expert Rentals & Property Management",
+      "info_files_seen": 41,
+      "public_in_window_uploads": 41,
+      "uploads_with_caption_artifacts": 29,
+      "uploads_without_caption_artifacts": 12,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 0,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UC3Wl4C9al_GLLFSe5nBSg6A",
+      "channel_name": "Hood Homes Blog - Brian E Adams",
+      "recovered_channel_name": "Hood Homes Blog: Brian E Adams",
+      "info_files_seen": 1,
+      "public_in_window_uploads": 0,
+      "uploads_with_caption_artifacts": 0,
+      "uploads_without_caption_artifacts": 0,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 1,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UCApMznnU70goY-0ucOaQNXA",
+      "channel_name": "CENTRAL TEXAS LIVING - Frank Adams",
+      "recovered_channel_name": "CENTRAL TEXAS LIVING",
+      "info_files_seen": 2,
+      "public_in_window_uploads": 1,
+      "uploads_with_caption_artifacts": 1,
+      "uploads_without_caption_artifacts": 0,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 1,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UCCXc67-4lyPeo_P-HFiPTSg",
+      "channel_name": "Maria Jones Hall Realtor",
+      "recovered_channel_name": "Maria Jones Hall, REALTOR",
+      "info_files_seen": 26,
+      "public_in_window_uploads": 26,
+      "uploads_with_caption_artifacts": 18,
+      "uploads_without_caption_artifacts": 8,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 0,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UCC_f7viNGfRPH0gSnTsHlFw",
+      "channel_name": "Duplexes in Killeen Texas",
+      "recovered_channel_name": "",
+      "info_files_seen": 0,
+      "public_in_window_uploads": 0,
+      "uploads_with_caption_artifacts": 0,
+      "uploads_without_caption_artifacts": 0,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 0,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UCDKBmfDQL51l_qsamkhGYHw",
+      "channel_name": "Teresa Ingram",
+      "recovered_channel_name": "Teresa Ingram",
+      "info_files_seen": 27,
+      "public_in_window_uploads": 27,
+      "uploads_with_caption_artifacts": 24,
+      "uploads_without_caption_artifacts": 3,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 0,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UCGEXUfJdSCBPtgWeF8Dl4lw",
+      "channel_name": "Robert Herrings Jr",
+      "recovered_channel_name": "Robert Herrings Jr",
+      "info_files_seen": 251,
+      "public_in_window_uploads": 251,
+      "uploads_with_caption_artifacts": 35,
+      "uploads_without_caption_artifacts": 216,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 0,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UCGhBS7DKFyz9F54RfrBucQw",
+      "channel_name": "John Reider Properties",
+      "recovered_channel_name": "",
+      "info_files_seen": 0,
+      "public_in_window_uploads": 0,
+      "uploads_with_caption_artifacts": 0,
+      "uploads_without_caption_artifacts": 0,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 0,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UCH_q3yrfScCGPYzSr9VVwGQ",
+      "channel_name": "Home in Texas Team",
+      "recovered_channel_name": "Home in Texas Team",
+      "info_files_seen": 24,
+      "public_in_window_uploads": 24,
+      "uploads_with_caption_artifacts": 20,
+      "uploads_without_caption_artifacts": 4,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 0,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UCJn5yVbactAJ84qeDb22Htg",
+      "channel_name": "People 1st Realty - Gloria Watson",
+      "recovered_channel_name": "People 1st Realty LLC—Gloria Watson",
+      "info_files_seen": 82,
+      "public_in_window_uploads": 82,
+      "uploads_with_caption_artifacts": 74,
+      "uploads_without_caption_artifacts": 8,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 0,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UCJs_jBKFIBm0o4HZg1mLMKQ",
+      "channel_name": "Stephen Harris - Selling Central Texas",
+      "recovered_channel_name": "Stephen Harris - Selling Central Texas",
+      "info_files_seen": 196,
+      "public_in_window_uploads": 194,
+      "uploads_with_caption_artifacts": 193,
+      "uploads_without_caption_artifacts": 1,
+      "out_of_window_info_files": 1,
+      "non_public_info_files": 1,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UCKC2Qfjps_rzW0-lUQIP7KA",
+      "channel_name": "Nestled With Whitney",
+      "recovered_channel_name": "Nestled With Whitney",
+      "info_files_seen": 154,
+      "public_in_window_uploads": 154,
+      "uploads_with_caption_artifacts": 117,
+      "uploads_without_caption_artifacts": 37,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 0,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UCKVWHDP86oKOt6yZOH4lMEA",
+      "channel_name": "Shelly Salas - Your Home Sold Guaranteed",
+      "recovered_channel_name": "Shelly Salas - Your Home Sold Guaranteed",
+      "info_files_seen": 634,
+      "public_in_window_uploads": 633,
+      "uploads_with_caption_artifacts": 294,
+      "uploads_without_caption_artifacts": 339,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 1,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UCMDuSkrGqJn-qnLynaC60jQ",
+      "channel_name": "Alberto Lopez Realtor",
+      "recovered_channel_name": "Alberto Lopez Realtor",
+      "info_files_seen": 97,
+      "public_in_window_uploads": 96,
+      "uploads_with_caption_artifacts": 67,
+      "uploads_without_caption_artifacts": 29,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 1,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UCMKRSmq9b8V07K9y4Zyfx_Q",
+      "channel_name": "Joanna Pearce",
+      "recovered_channel_name": "Joanna Pearce",
+      "info_files_seen": 7,
+      "public_in_window_uploads": 7,
+      "uploads_with_caption_artifacts": 5,
+      "uploads_without_caption_artifacts": 2,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 0,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UCMfrI9m3oMyJsWco8Fq05Uw",
+      "channel_name": "James Jim Garvey eXp Realty",
+      "recovered_channel_name": "",
+      "info_files_seen": 0,
+      "public_in_window_uploads": 0,
+      "uploads_with_caption_artifacts": 0,
+      "uploads_without_caption_artifacts": 0,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 0,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UCQIRCIpmSGFVbRXK6OYg6zA",
+      "channel_name": "PRC Properties Group",
+      "recovered_channel_name": "PRC Properties Group",
+      "info_files_seen": 3,
+      "public_in_window_uploads": 3,
+      "uploads_with_caption_artifacts": 3,
+      "uploads_without_caption_artifacts": 0,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 0,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UCSKCjpoNVdfYTFxHy-jS_VA",
+      "channel_name": "Cloud Real Estate",
+      "recovered_channel_name": "",
+      "info_files_seen": 0,
+      "public_in_window_uploads": 0,
+      "uploads_with_caption_artifacts": 0,
+      "uploads_without_caption_artifacts": 0,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 0,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UCW0Vt4ukxSblQWRyLF_l6GA",
+      "channel_name": "Nahir Diaz Realtor",
+      "recovered_channel_name": "Nahir Diaz REALTOR",
+      "info_files_seen": 18,
+      "public_in_window_uploads": 18,
+      "uploads_with_caption_artifacts": 17,
+      "uploads_without_caption_artifacts": 1,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 0,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UCZAiPx4wER-v-Q4avEhVTZg",
+      "channel_name": "Sujin Park Henson",
+      "recovered_channel_name": "Sujin Park Henson",
+      "info_files_seen": 401,
+      "public_in_window_uploads": 400,
+      "uploads_with_caption_artifacts": 205,
+      "uploads_without_caption_artifacts": 195,
+      "out_of_window_info_files": 1,
+      "non_public_info_files": 0,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UCZvWg96vLbA3eGHCwnf3RRQ",
+      "channel_name": "Century 21 Premier Realtors",
+      "recovered_channel_name": "Century 21 Premier Realtors",
+      "info_files_seen": 691,
+      "public_in_window_uploads": 690,
+      "uploads_with_caption_artifacts": 399,
+      "uploads_without_caption_artifacts": 291,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 1,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UCa5bz6lCwdTX6HQfzlOdZFA",
+      "channel_name": "Sandee Payne",
+      "recovered_channel_name": "Sandee Payne",
+      "info_files_seen": 15,
+      "public_in_window_uploads": 15,
+      "uploads_with_caption_artifacts": 11,
+      "uploads_without_caption_artifacts": 4,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 0,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UCdGuhzT0IUrH81vQN9tY6MQ",
+      "channel_name": "Linnemann Realty",
+      "recovered_channel_name": "",
+      "info_files_seen": 0,
+      "public_in_window_uploads": 0,
+      "uploads_with_caption_artifacts": 0,
+      "uploads_without_caption_artifacts": 0,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 0,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UCfDOrNekvd28MKc_S897MsQ",
+      "channel_name": "Elizabeth Thomas - Fort Hood Homes Group",
+      "recovered_channel_name": "Elizabeth Thomas - Fort Hood Homes Group",
+      "info_files_seen": 73,
+      "public_in_window_uploads": 72,
+      "uploads_with_caption_artifacts": 63,
+      "uploads_without_caption_artifacts": 9,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 1,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UCfS8-4IPB1bN8oN1N2zqsSw",
+      "channel_name": "Spradley Properties",
+      "recovered_channel_name": "Spradley Properties",
+      "info_files_seen": 17,
+      "public_in_window_uploads": 17,
+      "uploads_with_caption_artifacts": 6,
+      "uploads_without_caption_artifacts": 11,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 0,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UChC-ZIQbKzAX5FAdCg7FAfg",
+      "channel_name": "Linnemann Realty second channel",
+      "recovered_channel_name": "",
+      "info_files_seen": 0,
+      "public_in_window_uploads": 0,
+      "uploads_with_caption_artifacts": 0,
+      "uploads_without_caption_artifacts": 0,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 0,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UChfEhOd71uTgQaZPyy7rN-w",
+      "channel_name": "John Reider Properties second channel",
+      "recovered_channel_name": "",
+      "info_files_seen": 0,
+      "public_in_window_uploads": 0,
+      "uploads_with_caption_artifacts": 0,
+      "uploads_without_caption_artifacts": 0,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 0,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UCiDEHqXl4HEWQZ4mZ1nsbtQ",
+      "channel_name": "Twins Realty Team",
+      "recovered_channel_name": "Twins Realty Team",
+      "info_files_seen": 192,
+      "public_in_window_uploads": 192,
+      "uploads_with_caption_artifacts": 189,
+      "uploads_without_caption_artifacts": 3,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 0,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UCjlRZ6P2r9NV3NQtGwWuBjg",
+      "channel_name": "Living at Fort Hood - Hanna Smelser",
+      "recovered_channel_name": "Living at Fort Hood",
+      "info_files_seen": 26,
+      "public_in_window_uploads": 26,
+      "uploads_with_caption_artifacts": 26,
+      "uploads_without_caption_artifacts": 0,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 0,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UCkhp-b2FIwAZVlV6kRN-1mg",
+      "channel_name": "Rheajane Taylor",
+      "recovered_channel_name": "Rheajane Taylor",
+      "info_files_seen": 693,
+      "public_in_window_uploads": 693,
+      "uploads_with_caption_artifacts": 349,
+      "uploads_without_caption_artifacts": 344,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 0,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UClKGrQTetWA6uF2ti9xSzhA",
+      "channel_name": "Shay Harris Broker MBA - Fort Hood TX",
+      "recovered_channel_name": "Shay Harris, Broker, MBA - Fort Hood, TX",
+      "info_files_seen": 26,
+      "public_in_window_uploads": 26,
+      "uploads_with_caption_artifacts": 1,
+      "uploads_without_caption_artifacts": 25,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 0,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UClhphoG2zMHA6r7nNyLFLgA",
+      "channel_name": "Samantha Hammonds - Central TX Realtor",
+      "recovered_channel_name": "Samantha Hammonds- Central TX REALTOR®",
+      "info_files_seen": 28,
+      "public_in_window_uploads": 28,
+      "uploads_with_caption_artifacts": 26,
+      "uploads_without_caption_artifacts": 2,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 0,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UClinBn5SPDXw59ekiWude1A",
+      "channel_name": "HH Rental Properties",
+      "recovered_channel_name": "",
+      "info_files_seen": 0,
+      "public_in_window_uploads": 0,
+      "uploads_with_caption_artifacts": 0,
+      "uploads_without_caption_artifacts": 0,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 0,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UClqYZw4Suu5WVPGFlm8Tgeg",
+      "channel_name": "i35Group at Keller Williams",
+      "recovered_channel_name": "i35Group at Keller Williams",
+      "info_files_seen": 241,
+      "public_in_window_uploads": 240,
+      "uploads_with_caption_artifacts": 179,
+      "uploads_without_caption_artifacts": 61,
+      "out_of_window_info_files": 1,
+      "non_public_info_files": 0,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UCm-ak6OuI6VnRU7xJbfndMw",
+      "channel_name": "Lisa Kamprath Realtor Belton TX",
+      "recovered_channel_name": "Lisa Kamprath, REALTOR® Belton, TX",
+      "info_files_seen": 34,
+      "public_in_window_uploads": 34,
+      "uploads_with_caption_artifacts": 8,
+      "uploads_without_caption_artifacts": 26,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 0,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UCoSJo2-rE7ddishWTzj9sAA",
+      "channel_name": "Killeen to Austin Living - Darren Saint-Surin",
+      "recovered_channel_name": "Killeen to Austin Living – with Darren Saint-Surin",
+      "info_files_seen": 7,
+      "public_in_window_uploads": 7,
+      "uploads_with_caption_artifacts": 6,
+      "uploads_without_caption_artifacts": 1,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 0,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UCoht3EiOo8EqRe5exkOAH8w",
+      "channel_name": "New Builds in Central Texas",
+      "recovered_channel_name": "New Builds in Central Texas",
+      "info_files_seen": 14,
+      "public_in_window_uploads": 14,
+      "uploads_with_caption_artifacts": 14,
+      "uploads_without_caption_artifacts": 0,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 0,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UCr69-cf-6VLWlDIyi71v13g",
+      "channel_name": "Jessica Doree TX Premier Realty",
+      "recovered_channel_name": "Jessica Doree, TX Premier Realty - TX LIC REALTOR®",
+      "info_files_seen": 16,
+      "public_in_window_uploads": 16,
+      "uploads_with_caption_artifacts": 10,
+      "uploads_without_caption_artifacts": 6,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 0,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UCrN5LHFTL2qwkmd9z-90RgA",
+      "channel_name": "Carmen Colon Homes Team - Keller Williams",
+      "recovered_channel_name": "",
+      "info_files_seen": 0,
+      "public_in_window_uploads": 0,
+      "uploads_with_caption_artifacts": 0,
+      "uploads_without_caption_artifacts": 0,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 0,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UCv13WrX5B7qp6TIGskYpDDQ",
+      "channel_name": "Ott Group Realty - Homestead Real Estate",
+      "recovered_channel_name": "Ott Group Realty-Homestead Real Estate",
+      "info_files_seen": 33,
+      "public_in_window_uploads": 33,
+      "uploads_with_caption_artifacts": 16,
+      "uploads_without_caption_artifacts": 17,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 0,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UCvwxIfW2u71mpzrKastNbDg",
+      "channel_name": "Real Estate Steph CTX",
+      "recovered_channel_name": "Real Estate Steph CTX",
+      "info_files_seen": 7,
+      "public_in_window_uploads": 6,
+      "uploads_with_caption_artifacts": 6,
+      "uploads_without_caption_artifacts": 0,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 1,
+      "no_date_or_profile_info_files": 0
+    },
+    {
+      "channel_id": "UCw9DgzcPb_rhdp3VHFFo_8Q",
+      "channel_name": "Jean Shine - Shine Team Realtors",
+      "recovered_channel_name": "",
+      "info_files_seen": 0,
+      "public_in_window_uploads": 0,
+      "uploads_with_caption_artifacts": 0,
+      "uploads_without_caption_artifacts": 0,
+      "out_of_window_info_files": 0,
+      "non_public_info_files": 0,
+      "no_date_or_profile_info_files": 0
+    }
+  ],
+  "exclusions": {
+    "out_of_window": [
+      {
+        "channel_id": "UCJs_jBKFIBm0o4HZg1mLMKQ",
+        "id": "QDzoQMu9jK0",
+        "upload_date": "2024-07-23",
+        "path": "raw/authenticated-root/UCJs_jBKFIBm0o4HZg1mLMKQ/20240723_QDzoQMu9jK0.info.json"
+      },
+      {
+        "channel_id": "UCZAiPx4wER-v-Q4avEhVTZg",
+        "id": "K2szWebEl90",
+        "upload_date": "2024-07-23",
+        "path": "raw/authenticated-root/UCZAiPx4wER-v-Q4avEhVTZg/20240723_K2szWebEl90.info.json"
+      },
+      {
+        "channel_id": "UClqYZw4Suu5WVPGFlm8Tgeg",
+        "id": "vIwCJGhoSCU",
+        "upload_date": "2024-07-23",
+        "path": "raw/authenticated-root/UClqYZw4Suu5WVPGFlm8Tgeg/20240723_vIwCJGhoSCU.info.json"
+      }
+    ],
+    "non_public": [
+      {
+        "channel_id": "UC3Wl4C9al_GLLFSe5nBSg6A",
+        "id": "UC3Wl4C9al_GLLFSe5nBSg6A",
+        "availability": "unknown_or_unverified",
+        "path": "raw/authenticated-root/UC3Wl4C9al_GLLFSe5nBSg6A/NA_UC3Wl4C9al_GLLFSe5nBSg6A.info.json"
+      },
+      {
+        "channel_id": "UCApMznnU70goY-0ucOaQNXA",
+        "id": "UCApMznnU70goY-0ucOaQNXA",
+        "availability": "unknown_or_unverified",
+        "path": "raw/authenticated-root/UCApMznnU70goY-0ucOaQNXA/NA_UCApMznnU70goY-0ucOaQNXA.info.json"
+      },
+      {
+        "channel_id": "UCJs_jBKFIBm0o4HZg1mLMKQ",
+        "id": "UCJs_jBKFIBm0o4HZg1mLMKQ",
+        "availability": "unknown_or_unverified",
+        "path": "raw/authenticated-root/UCJs_jBKFIBm0o4HZg1mLMKQ/NA_UCJs_jBKFIBm0o4HZg1mLMKQ.info.json"
+      },
+      {
+        "channel_id": "UCKVWHDP86oKOt6yZOH4lMEA",
+        "id": "UCKVWHDP86oKOt6yZOH4lMEA",
+        "availability": "unknown_or_unverified",
+        "path": "raw/authenticated-root/UCKVWHDP86oKOt6yZOH4lMEA/NA_UCKVWHDP86oKOt6yZOH4lMEA.info.json"
+      },
+      {
+        "channel_id": "UCMDuSkrGqJn-qnLynaC60jQ",
+        "id": "UCMDuSkrGqJn-qnLynaC60jQ",
+        "availability": "unknown_or_unverified",
+        "path": "raw/authenticated-root/UCMDuSkrGqJn-qnLynaC60jQ/NA_UCMDuSkrGqJn-qnLynaC60jQ.info.json"
+      },
+      {
+        "channel_id": "UCZvWg96vLbA3eGHCwnf3RRQ",
+        "id": "UCZvWg96vLbA3eGHCwnf3RRQ",
+        "availability": "unknown_or_unverified",
+        "path": "raw/authenticated-root/UCZvWg96vLbA3eGHCwnf3RRQ/NA_UCZvWg96vLbA3eGHCwnf3RRQ.info.json"
+      },
+      {
+        "channel_id": "UCfDOrNekvd28MKc_S897MsQ",
+        "id": "UCfDOrNekvd28MKc_S897MsQ",
+        "availability": "unknown_or_unverified",
+        "path": "raw/authenticated-root/UCfDOrNekvd28MKc_S897MsQ/NA_UCfDOrNekvd28MKc_S897MsQ.info.json"
+      },
+      {
+        "channel_id": "UCvwxIfW2u71mpzrKastNbDg",
+        "id": "UCvwxIfW2u71mpzrKastNbDg",
+        "availability": "unknown_or_unverified",
+        "path": "raw/authenticated-root/UCvwxIfW2u71mpzrKastNbDg/NA_UCvwxIfW2u71mpzrKastNbDg.info.json"
+      }
+    ],
+    "no_date_or_profile": [],
+    "unreadable": []
+  },
+  "validation": {
+    "input_urls": 84,
+    "unique_input_urls": 84,
+    "unique_channel_ids": 42,
+    "terminal_status_rows": 84,
+    "terminal_root_stream_status_rows": 42,
+    "all_statuses_terminal": true
+  }
+}

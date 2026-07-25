@@ -1,0 +1,400 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 37680,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 2240,
+    "dDurationMs": 5880,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Welcome"
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " your",
+      "tOffsetMs": 600
+    }, {
+      "utf8": " blank",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " canvas",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " located",
+      "tOffsetMs": 1800
+    } ]
+  }, {
+    "tStartMs": 4790,
+    "dDurationMs": 3330,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 4800,
+    "dDurationMs": 7280,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "right"
+    }, {
+      "utf8": " off",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " I-35",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 2160
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 2480
+    }, {
+      "utf8": " very",
+      "tOffsetMs": 2680
+    }, {
+      "utf8": " close",
+      "tOffsetMs": 3040
+    } ]
+  }, {
+    "tStartMs": 8110,
+    "dDurationMs": 3970,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 8120,
+    "dDurationMs": 3960,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "proximity"
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " downtown",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " Temple.",
+      "tOffsetMs": 1440
+    } ]
+  }, {
+    "tStartMs": 13745,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 13755,
+    "dDurationMs": 3125,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e [music]",
+      "isSpeakerChange": 1
+    } ]
+  }, {
+    "tStartMs": 13830,
+    "dDurationMs": 3050,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 13840,
+    "dDurationMs": 6000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e Investors,",
+      "isSpeakerChange": 1
+    }, {
+      "utf8": " get",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " your",
+      "tOffsetMs": 1240
+    }, {
+      "utf8": " hard",
+      "tOffsetMs": 1400
+    }, {
+      "utf8": " hat",
+      "tOffsetMs": 1680
+    }, {
+      "utf8": " out",
+      "tOffsetMs": 2000
+    }, {
+      "utf8": " because",
+      "tOffsetMs": 2600
+    } ]
+  }, {
+    "tStartMs": 16870,
+    "dDurationMs": 2970,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 16880,
+    "dDurationMs": 4880,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "we"
+    }, {
+      "utf8": " have",
+      "tOffsetMs": 200
+    }, {
+      "utf8": " over",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " 10,700",
+      "tOffsetMs": 1120
+    }, {
+      "utf8": " [music]",
+      "tOffsetMs": 1460
+    } ]
+  }, {
+    "tStartMs": 19830,
+    "dDurationMs": 1930,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 19840,
+    "dDurationMs": 4240,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "square"
+    }, {
+      "utf8": " feet.",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " Property",
+      "tOffsetMs": 1080
+    }, {
+      "utf8": " is",
+      "tOffsetMs": 1520
+    }, {
+      "utf8": " zoned",
+      "tOffsetMs": 1640
+    } ]
+  }, {
+    "tStartMs": 21750,
+    "dDurationMs": 2330,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 21760,
+    "dDurationMs": 3960,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "commercial"
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 680
+    }, {
+      "utf8": " it",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " was",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " previously",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " used",
+      "tOffsetMs": 1800
+    }, {
+      "utf8": " as",
+      "tOffsetMs": 2160
+    } ]
+  }, {
+    "tStartMs": 24070,
+    "dDurationMs": 1650,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 24080,
+    "dDurationMs": 4920,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "an"
+    }, {
+      "utf8": " independent",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " living",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " facility.",
+      "tOffsetMs": 1040
+    }, {
+      "utf8": " [music]",
+      "tOffsetMs": 1465
+    } ]
+  }, {
+    "tStartMs": 25710,
+    "dDurationMs": 3290,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 25720,
+    "dDurationMs": 5760,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "All"
+    }, {
+      "utf8": " buildings",
+      "tOffsetMs": 240
+    }, {
+      "utf8": " are",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " being",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " sold",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " as",
+      "tOffsetMs": 1760
+    }, {
+      "utf8": " is",
+      "tOffsetMs": 2200
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 2960
+    } ]
+  }, {
+    "tStartMs": 28990,
+    "dDurationMs": 2490,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 29000,
+    "dDurationMs": 4280,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "we"
+    }, {
+      "utf8": " have",
+      "tOffsetMs": 120
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " very",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " motivated",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " seller",
+      "tOffsetMs": 1640
+    }, {
+      "utf8": " with",
+      "tOffsetMs": 2120
+    } ]
+  }, {
+    "tStartMs": 31470,
+    "dDurationMs": 1810,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 31480,
+    "dDurationMs": 6200,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "owner"
+    }, {
+      "utf8": " financing",
+      "tOffsetMs": 240
+    }, {
+      "utf8": " options.",
+      "tOffsetMs": 799
+    }, {
+      "utf8": " [music]",
+      "tOffsetMs": 1270
+    }, {
+      "utf8": " I",
+      "tOffsetMs": 1400
+    }, {
+      "utf8": " am",
+      "tOffsetMs": 1600
+    } ]
+  }, {
+    "tStartMs": 33270,
+    "dDurationMs": 4410,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 33280,
+    "dDurationMs": 4400,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Elizabeth"
+    }, {
+      "utf8": " Thomas,",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " your",
+      "tOffsetMs": 1040
+    }, {
+      "utf8": " local",
+      "tOffsetMs": 1400
+    }, {
+      "utf8": " realtor.",
+      "tOffsetMs": 1840
+    } ]
+  } ]
+}

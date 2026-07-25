@@ -1,0 +1,120 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 10080,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 0,
+    "dDurationMs": 5320,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Be"
+    }, {
+      "utf8": " honest.",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " What",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " do",
+      "tOffsetMs": 1240
+    }, {
+      "utf8": " you",
+      "tOffsetMs": 1360
+    }, {
+      "utf8": " think",
+      "tOffsetMs": 1480
+    }, {
+      "utf8": " this",
+      "tOffsetMs": 1920
+    }, {
+      "utf8": " cost?",
+      "tOffsetMs": 2160
+    } ]
+  }, {
+    "tStartMs": 2609,
+    "dDurationMs": 2711,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 2619,
+    "dDurationMs": 7461,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[music]"
+    }, {
+      "utf8": " It",
+      "tOffsetMs": 461
+    }, {
+      "utf8": " has",
+      "tOffsetMs": 581
+    }, {
+      "utf8": " no",
+      "tOffsetMs": 741
+    }, {
+      "utf8": " HOA,",
+      "tOffsetMs": 1061
+    }, {
+      "utf8": " five",
+      "tOffsetMs": 1781
+    }, {
+      "utf8": " huge",
+      "tOffsetMs": 2301
+    } ]
+  }, {
+    "tStartMs": 5310,
+    "dDurationMs": 4770,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 5320,
+    "dDurationMs": 4760,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "bedrooms,"
+    }, {
+      "utf8": " three",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " full",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " baths.",
+      "tOffsetMs": 1440
+    }, {
+      "utf8": " Now,",
+      "tOffsetMs": 2120
+    }, {
+      "utf8": " guess.",
+      "tOffsetMs": 2360
+    } ]
+  } ]
+}

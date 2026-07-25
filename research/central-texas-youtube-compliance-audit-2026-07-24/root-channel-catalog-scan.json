@@ -1,0 +1,695 @@
+[
+  {
+    "file": "UC-_SuyK4REF_TH5r1W2nQmw-videos.jsonl",
+    "channel_id": "UC-_SuyK4REF_TH5r1W2nQmw",
+    "tab": "videos",
+    "flat_rows": 95,
+    "sampled_rows": 20,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": ""
+  },
+  {
+    "file": "UC3Wl4C9al_GLLFSe5nBSg6A-videos.jsonl",
+    "channel_id": "UC3Wl4C9al_GLLFSe5nBSg6A",
+    "tab": "videos",
+    "flat_rows": 56,
+    "sampled_rows": 3,
+    "stop_reason": "three_consecutive_pre_window_uploads",
+    "boundary_date": "2018-04-28"
+  },
+  {
+    "file": "UC8QQMyzGJEVql8HRpcNHhyw-shorts.jsonl",
+    "channel_id": "UC8QQMyzGJEVql8HRpcNHhyw",
+    "tab": "shorts",
+    "flat_rows": 2,
+    "sampled_rows": 2,
+    "stop_reason": "end_of_tab",
+    "boundary_date": "2022-01-04"
+  },
+  {
+    "file": "UC8QQMyzGJEVql8HRpcNHhyw-videos.jsonl",
+    "channel_id": "UC8QQMyzGJEVql8HRpcNHhyw",
+    "tab": "videos",
+    "flat_rows": 23,
+    "sampled_rows": 3,
+    "stop_reason": "three_consecutive_pre_window_uploads",
+    "boundary_date": "2023-08-23"
+  },
+  {
+    "file": "UC90LU7ZlcBNcni9cWgESSOQ-videos.jsonl",
+    "channel_id": "UC90LU7ZlcBNcni9cWgESSOQ",
+    "tab": "videos",
+    "flat_rows": 2,
+    "sampled_rows": 2,
+    "stop_reason": "end_of_tab",
+    "boundary_date": "2022-08-05"
+  },
+  {
+    "file": "UCApMznnU70goY-0ucOaQNXA-videos.jsonl",
+    "channel_id": "UCApMznnU70goY-0ucOaQNXA",
+    "tab": "videos",
+    "flat_rows": 10,
+    "sampled_rows": 10,
+    "stop_reason": "end_of_tab",
+    "boundary_date": "2022-06-01"
+  },
+  {
+    "file": "UCCXc67-4lyPeo_P-HFiPTSg-shorts.jsonl",
+    "channel_id": "UCCXc67-4lyPeo_P-HFiPTSg",
+    "tab": "shorts",
+    "flat_rows": 24,
+    "sampled_rows": 24,
+    "stop_reason": "end_of_tab",
+    "boundary_date": "2018-08-16"
+  },
+  {
+    "file": "UCCXc67-4lyPeo_P-HFiPTSg-videos.jsonl",
+    "channel_id": "UCCXc67-4lyPeo_P-HFiPTSg",
+    "tab": "videos",
+    "flat_rows": 240,
+    "sampled_rows": 54,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": "2023-08-25"
+  },
+  {
+    "file": "UCC_f7viNGfRPH0gSnTsHlFw-videos.jsonl",
+    "channel_id": "UCC_f7viNGfRPH0gSnTsHlFw",
+    "tab": "videos",
+    "flat_rows": 36,
+    "sampled_rows": 3,
+    "stop_reason": "three_consecutive_pre_window_uploads",
+    "boundary_date": "2023-01-24"
+  },
+  {
+    "file": "UCDKBmfDQL51l_qsamkhGYHw-shorts.jsonl",
+    "channel_id": "UCDKBmfDQL51l_qsamkhGYHw",
+    "tab": "shorts",
+    "flat_rows": 5,
+    "sampled_rows": 5,
+    "stop_reason": "end_of_tab",
+    "boundary_date": "2023-08-31"
+  },
+  {
+    "file": "UCDKBmfDQL51l_qsamkhGYHw-videos.jsonl",
+    "channel_id": "UCDKBmfDQL51l_qsamkhGYHw",
+    "tab": "videos",
+    "flat_rows": 29,
+    "sampled_rows": 27,
+    "stop_reason": "three_consecutive_pre_window_uploads",
+    "boundary_date": "2024-06-20"
+  },
+  {
+    "file": "UCGEXUfJdSCBPtgWeF8Dl4lw-shorts.jsonl",
+    "channel_id": "UCGEXUfJdSCBPtgWeF8Dl4lw",
+    "tab": "shorts",
+    "flat_rows": 163,
+    "sampled_rows": 103,
+    "stop_reason": "three_consecutive_pre_window_uploads",
+    "boundary_date": "2024-07-11"
+  },
+  {
+    "file": "UCGEXUfJdSCBPtgWeF8Dl4lw-videos.jsonl",
+    "channel_id": "UCGEXUfJdSCBPtgWeF8Dl4lw",
+    "tab": "videos",
+    "flat_rows": 367,
+    "sampled_rows": 154,
+    "stop_reason": "three_consecutive_pre_window_uploads",
+    "boundary_date": "2024-07-18"
+  },
+  {
+    "file": "UCGhBS7DKFyz9F54RfrBucQw-videos.jsonl",
+    "channel_id": "UCGhBS7DKFyz9F54RfrBucQw",
+    "tab": "videos",
+    "flat_rows": 107,
+    "sampled_rows": 3,
+    "stop_reason": "three_consecutive_pre_window_uploads",
+    "boundary_date": "2023-01-01"
+  },
+  {
+    "file": "UCH_q3yrfScCGPYzSr9VVwGQ-shorts.jsonl",
+    "channel_id": "UCH_q3yrfScCGPYzSr9VVwGQ",
+    "tab": "shorts",
+    "flat_rows": 15,
+    "sampled_rows": 15,
+    "stop_reason": "three_consecutive_pre_window_uploads",
+    "boundary_date": "2024-04-16"
+  },
+  {
+    "file": "UCH_q3yrfScCGPYzSr9VVwGQ-videos.jsonl",
+    "channel_id": "UCH_q3yrfScCGPYzSr9VVwGQ",
+    "tab": "videos",
+    "flat_rows": 12,
+    "sampled_rows": 12,
+    "stop_reason": "end_of_tab",
+    "boundary_date": ""
+  },
+  {
+    "file": "UCJn5yVbactAJ84qeDb22Htg-shorts.jsonl",
+    "channel_id": "UCJn5yVbactAJ84qeDb22Htg",
+    "tab": "shorts",
+    "flat_rows": 74,
+    "sampled_rows": 24,
+    "stop_reason": "three_consecutive_pre_window_uploads",
+    "boundary_date": "2024-06-27"
+  },
+  {
+    "file": "UCJn5yVbactAJ84qeDb22Htg-videos.jsonl",
+    "channel_id": "UCJn5yVbactAJ84qeDb22Htg",
+    "tab": "videos",
+    "flat_rows": 198,
+    "sampled_rows": 86,
+    "stop_reason": "three_consecutive_pre_window_uploads",
+    "boundary_date": "2024-05-17"
+  },
+  {
+    "file": "UCJs_jBKFIBm0o4HZg1mLMKQ-shorts.jsonl",
+    "channel_id": "UCJs_jBKFIBm0o4HZg1mLMKQ",
+    "tab": "shorts",
+    "flat_rows": 211,
+    "sampled_rows": 108,
+    "stop_reason": "three_consecutive_pre_window_uploads",
+    "boundary_date": "2024-06-08"
+  },
+  {
+    "file": "UCJs_jBKFIBm0o4HZg1mLMKQ-videos.jsonl",
+    "channel_id": "UCJs_jBKFIBm0o4HZg1mLMKQ",
+    "tab": "videos",
+    "flat_rows": 206,
+    "sampled_rows": 99,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": ""
+  },
+  {
+    "file": "UCKC2Qfjps_rzW0-lUQIP7KA-shorts.jsonl",
+    "channel_id": "UCKC2Qfjps_rzW0-lUQIP7KA",
+    "tab": "shorts",
+    "flat_rows": 295,
+    "sampled_rows": 35,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": ""
+  },
+  {
+    "file": "UCKC2Qfjps_rzW0-lUQIP7KA-videos.jsonl",
+    "channel_id": "UCKC2Qfjps_rzW0-lUQIP7KA",
+    "tab": "videos",
+    "flat_rows": 21,
+    "sampled_rows": 21,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": "2021-02-26"
+  },
+  {
+    "file": "UCKVWHDP86oKOt6yZOH4lMEA-shorts.jsonl",
+    "channel_id": "UCKVWHDP86oKOt6yZOH4lMEA",
+    "tab": "shorts",
+    "flat_rows": 242,
+    "sampled_rows": 126,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": ""
+  },
+  {
+    "file": "UCKVWHDP86oKOt6yZOH4lMEA-videos.jsonl",
+    "channel_id": "UCKVWHDP86oKOt6yZOH4lMEA",
+    "tab": "videos",
+    "flat_rows": 1000,
+    "sampled_rows": 35,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": ""
+  },
+  {
+    "file": "UCMDuSkrGqJn-qnLynaC60jQ-shorts.jsonl",
+    "channel_id": "UCMDuSkrGqJn-qnLynaC60jQ",
+    "tab": "shorts",
+    "flat_rows": 64,
+    "sampled_rows": 27,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": ""
+  },
+  {
+    "file": "UCMDuSkrGqJn-qnLynaC60jQ-videos.jsonl",
+    "channel_id": "UCMDuSkrGqJn-qnLynaC60jQ",
+    "tab": "videos",
+    "flat_rows": 122,
+    "sampled_rows": 37,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": ""
+  },
+  {
+    "file": "UCMKRSmq9b8V07K9y4Zyfx_Q-shorts.jsonl",
+    "channel_id": "UCMKRSmq9b8V07K9y4Zyfx_Q",
+    "tab": "shorts",
+    "flat_rows": 16,
+    "sampled_rows": 15,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": "2024-01-16"
+  },
+  {
+    "file": "UCMKRSmq9b8V07K9y4Zyfx_Q-videos.jsonl",
+    "channel_id": "UCMKRSmq9b8V07K9y4Zyfx_Q",
+    "tab": "videos",
+    "flat_rows": 62,
+    "sampled_rows": 62,
+    "stop_reason": "end_of_tab",
+    "boundary_date": "2018-12-12"
+  },
+  {
+    "file": "UCMfrI9m3oMyJsWco8Fq05Uw-shorts.jsonl",
+    "channel_id": "UCMfrI9m3oMyJsWco8Fq05Uw",
+    "tab": "shorts",
+    "flat_rows": 18,
+    "sampled_rows": 18,
+    "stop_reason": "end_of_tab",
+    "boundary_date": "2021-07-28"
+  },
+  {
+    "file": "UCMfrI9m3oMyJsWco8Fq05Uw-videos.jsonl",
+    "channel_id": "UCMfrI9m3oMyJsWco8Fq05Uw",
+    "tab": "videos",
+    "flat_rows": 32,
+    "sampled_rows": 19,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": "2022-04-10"
+  },
+  {
+    "file": "UCQIRCIpmSGFVbRXK6OYg6zA-shorts.jsonl",
+    "channel_id": "UCQIRCIpmSGFVbRXK6OYg6zA",
+    "tab": "shorts",
+    "flat_rows": 7,
+    "sampled_rows": 7,
+    "stop_reason": "end_of_tab",
+    "boundary_date": "2022-10-13"
+  },
+  {
+    "file": "UCQIRCIpmSGFVbRXK6OYg6zA-videos.jsonl",
+    "channel_id": "UCQIRCIpmSGFVbRXK6OYg6zA",
+    "tab": "videos",
+    "flat_rows": 22,
+    "sampled_rows": 22,
+    "stop_reason": "end_of_tab",
+    "boundary_date": "2022-08-12"
+  },
+  {
+    "file": "UCSKCjpoNVdfYTFxHy-jS_VA-videos.jsonl",
+    "channel_id": "UCSKCjpoNVdfYTFxHy-jS_VA",
+    "tab": "videos",
+    "flat_rows": 51,
+    "sampled_rows": 4,
+    "stop_reason": "three_consecutive_pre_window_uploads",
+    "boundary_date": "2018-06-28"
+  },
+  {
+    "file": "UCVti4lMHZRwMQT83RrXTIrg-shorts.jsonl",
+    "channel_id": "UCVti4lMHZRwMQT83RrXTIrg",
+    "tab": "shorts",
+    "flat_rows": 178,
+    "sampled_rows": 10,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": ""
+  },
+  {
+    "file": "UCVti4lMHZRwMQT83RrXTIrg-videos.jsonl",
+    "channel_id": "UCVti4lMHZRwMQT83RrXTIrg",
+    "tab": "videos",
+    "flat_rows": 122,
+    "sampled_rows": 36,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": ""
+  },
+  {
+    "file": "UCW0Vt4ukxSblQWRyLF_l6GA-shorts.jsonl",
+    "channel_id": "UCW0Vt4ukxSblQWRyLF_l6GA",
+    "tab": "shorts",
+    "flat_rows": 4,
+    "sampled_rows": 4,
+    "stop_reason": "end_of_tab",
+    "boundary_date": ""
+  },
+  {
+    "file": "UCW0Vt4ukxSblQWRyLF_l6GA-videos.jsonl",
+    "channel_id": "UCW0Vt4ukxSblQWRyLF_l6GA",
+    "tab": "videos",
+    "flat_rows": 18,
+    "sampled_rows": 18,
+    "stop_reason": "end_of_tab",
+    "boundary_date": ""
+  },
+  {
+    "file": "UCZAiPx4wER-v-Q4avEhVTZg-shorts.jsonl",
+    "channel_id": "UCZAiPx4wER-v-Q4avEhVTZg",
+    "tab": "shorts",
+    "flat_rows": 588,
+    "sampled_rows": 19,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": ""
+  },
+  {
+    "file": "UCZAiPx4wER-v-Q4avEhVTZg-videos.jsonl",
+    "channel_id": "UCZAiPx4wER-v-Q4avEhVTZg",
+    "tab": "videos",
+    "flat_rows": 117,
+    "sampled_rows": 34,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": ""
+  },
+  {
+    "file": "UCZvWg96vLbA3eGHCwnf3RRQ-shorts.jsonl",
+    "channel_id": "UCZvWg96vLbA3eGHCwnf3RRQ",
+    "tab": "shorts",
+    "flat_rows": 1,
+    "sampled_rows": 1,
+    "stop_reason": "end_of_tab",
+    "boundary_date": ""
+  },
+  {
+    "file": "UCZvWg96vLbA3eGHCwnf3RRQ-videos.jsonl",
+    "channel_id": "UCZvWg96vLbA3eGHCwnf3RRQ",
+    "tab": "videos",
+    "flat_rows": 1000,
+    "sampled_rows": 73,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": ""
+  },
+  {
+    "file": "UCa5bz6lCwdTX6HQfzlOdZFA-shorts.jsonl",
+    "channel_id": "UCa5bz6lCwdTX6HQfzlOdZFA",
+    "tab": "shorts",
+    "flat_rows": 166,
+    "sampled_rows": 12,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": ""
+  },
+  {
+    "file": "UCa5bz6lCwdTX6HQfzlOdZFA-videos.jsonl",
+    "channel_id": "UCa5bz6lCwdTX6HQfzlOdZFA",
+    "tab": "videos",
+    "flat_rows": 181,
+    "sampled_rows": 87,
+    "stop_reason": "three_consecutive_pre_window_uploads",
+    "boundary_date": "2021-12-15"
+  },
+  {
+    "file": "UCblhSimaUbM15R-kGm-0J1A-videos.jsonl",
+    "channel_id": "UCblhSimaUbM15R-kGm-0J1A",
+    "tab": "videos",
+    "flat_rows": 1000,
+    "sampled_rows": 47,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": ""
+  },
+  {
+    "file": "UCdGuhzT0IUrH81vQN9tY6MQ-videos.jsonl",
+    "channel_id": "UCdGuhzT0IUrH81vQN9tY6MQ",
+    "tab": "videos",
+    "flat_rows": 46,
+    "sampled_rows": 25,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": "2018-04-25"
+  },
+  {
+    "file": "UCfDOrNekvd28MKc_S897MsQ-shorts.jsonl",
+    "channel_id": "UCfDOrNekvd28MKc_S897MsQ",
+    "tab": "shorts",
+    "flat_rows": 52,
+    "sampled_rows": 42,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": ""
+  },
+  {
+    "file": "UCfDOrNekvd28MKc_S897MsQ-videos.jsonl",
+    "channel_id": "UCfDOrNekvd28MKc_S897MsQ",
+    "tab": "videos",
+    "flat_rows": 54,
+    "sampled_rows": 39,
+    "stop_reason": "three_consecutive_pre_window_uploads",
+    "boundary_date": "2024-06-09"
+  },
+  {
+    "file": "UCfS8-4IPB1bN8oN1N2zqsSw-videos.jsonl",
+    "channel_id": "UCfS8-4IPB1bN8oN1N2zqsSw",
+    "tab": "videos",
+    "flat_rows": 22,
+    "sampled_rows": 22,
+    "stop_reason": "end_of_tab",
+    "boundary_date": "2022-11-18"
+  },
+  {
+    "file": "UChC-ZIQbKzAX5FAdCg7FAfg-videos.jsonl",
+    "channel_id": "UChC-ZIQbKzAX5FAdCg7FAfg",
+    "tab": "videos",
+    "flat_rows": 32,
+    "sampled_rows": 10,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": ""
+  },
+  {
+    "file": "UChfEhOd71uTgQaZPyy7rN-w-videos.jsonl",
+    "channel_id": "UChfEhOd71uTgQaZPyy7rN-w",
+    "tab": "videos",
+    "flat_rows": 81,
+    "sampled_rows": 26,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": "2017-09-20"
+  },
+  {
+    "file": "UCiDEHqXl4HEWQZ4mZ1nsbtQ-shorts.jsonl",
+    "channel_id": "UCiDEHqXl4HEWQZ4mZ1nsbtQ",
+    "tab": "shorts",
+    "flat_rows": 139,
+    "sampled_rows": 10,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": ""
+  },
+  {
+    "file": "UCiDEHqXl4HEWQZ4mZ1nsbtQ-videos.jsonl",
+    "channel_id": "UCiDEHqXl4HEWQZ4mZ1nsbtQ",
+    "tab": "videos",
+    "flat_rows": 53,
+    "sampled_rows": 53,
+    "stop_reason": "end_of_tab",
+    "boundary_date": ""
+  },
+  {
+    "file": "UCimsnaM-sbxLf-fp45KZgNw-shorts.jsonl",
+    "channel_id": "UCimsnaM-sbxLf-fp45KZgNw",
+    "tab": "shorts",
+    "flat_rows": 4,
+    "sampled_rows": 4,
+    "stop_reason": "end_of_tab",
+    "boundary_date": ""
+  },
+  {
+    "file": "UCimsnaM-sbxLf-fp45KZgNw-videos.jsonl",
+    "channel_id": "UCimsnaM-sbxLf-fp45KZgNw",
+    "tab": "videos",
+    "flat_rows": 425,
+    "sampled_rows": 18,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": ""
+  },
+  {
+    "file": "UCjlRZ6P2r9NV3NQtGwWuBjg-shorts.jsonl",
+    "channel_id": "UCjlRZ6P2r9NV3NQtGwWuBjg",
+    "tab": "shorts",
+    "flat_rows": 1,
+    "sampled_rows": 1,
+    "stop_reason": "end_of_tab",
+    "boundary_date": ""
+  },
+  {
+    "file": "UCjlRZ6P2r9NV3NQtGwWuBjg-videos.jsonl",
+    "channel_id": "UCjlRZ6P2r9NV3NQtGwWuBjg",
+    "tab": "videos",
+    "flat_rows": 25,
+    "sampled_rows": 13,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": ""
+  },
+  {
+    "file": "UCkhp-b2FIwAZVlV6kRN-1mg-shorts.jsonl",
+    "channel_id": "UCkhp-b2FIwAZVlV6kRN-1mg",
+    "tab": "shorts",
+    "flat_rows": 1000,
+    "sampled_rows": 14,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": ""
+  },
+  {
+    "file": "UCkhp-b2FIwAZVlV6kRN-1mg-videos.jsonl",
+    "channel_id": "UCkhp-b2FIwAZVlV6kRN-1mg",
+    "tab": "videos",
+    "flat_rows": 288,
+    "sampled_rows": 10,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": ""
+  },
+  {
+    "file": "UClKGrQTetWA6uF2ti9xSzhA-shorts.jsonl",
+    "channel_id": "UClKGrQTetWA6uF2ti9xSzhA",
+    "tab": "shorts",
+    "flat_rows": 56,
+    "sampled_rows": 17,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": "2024-01-27"
+  },
+  {
+    "file": "UClKGrQTetWA6uF2ti9xSzhA-videos.jsonl",
+    "channel_id": "UClKGrQTetWA6uF2ti9xSzhA",
+    "tab": "videos",
+    "flat_rows": 129,
+    "sampled_rows": 25,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": ""
+  },
+  {
+    "file": "UClhphoG2zMHA6r7nNyLFLgA-shorts.jsonl",
+    "channel_id": "UClhphoG2zMHA6r7nNyLFLgA",
+    "tab": "shorts",
+    "flat_rows": 22,
+    "sampled_rows": 10,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": ""
+  },
+  {
+    "file": "UClhphoG2zMHA6r7nNyLFLgA-videos.jsonl",
+    "channel_id": "UClhphoG2zMHA6r7nNyLFLgA",
+    "tab": "videos",
+    "flat_rows": 17,
+    "sampled_rows": 17,
+    "stop_reason": "end_of_tab",
+    "boundary_date": ""
+  },
+  {
+    "file": "UClinBn5SPDXw59ekiWude1A-videos.jsonl",
+    "channel_id": "UClinBn5SPDXw59ekiWude1A",
+    "tab": "videos",
+    "flat_rows": 1,
+    "sampled_rows": 1,
+    "stop_reason": "end_of_tab",
+    "boundary_date": "2018-04-03"
+  },
+  {
+    "file": "UClqYZw4Suu5WVPGFlm8Tgeg-shorts.jsonl",
+    "channel_id": "UClqYZw4Suu5WVPGFlm8Tgeg",
+    "tab": "shorts",
+    "flat_rows": 504,
+    "sampled_rows": 17,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": ""
+  },
+  {
+    "file": "UClqYZw4Suu5WVPGFlm8Tgeg-videos.jsonl",
+    "channel_id": "UClqYZw4Suu5WVPGFlm8Tgeg",
+    "tab": "videos",
+    "flat_rows": 288,
+    "sampled_rows": 67,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": "2024-04-15"
+  },
+  {
+    "file": "UCm-ak6OuI6VnRU7xJbfndMw-shorts.jsonl",
+    "channel_id": "UCm-ak6OuI6VnRU7xJbfndMw",
+    "tab": "shorts",
+    "flat_rows": 121,
+    "sampled_rows": 42,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": "2023-09-15"
+  },
+  {
+    "file": "UCm-ak6OuI6VnRU7xJbfndMw-videos.jsonl",
+    "channel_id": "UCm-ak6OuI6VnRU7xJbfndMw",
+    "tab": "videos",
+    "flat_rows": 53,
+    "sampled_rows": 37,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": "2023-07-19"
+  },
+  {
+    "file": "UCoSJo2-rE7ddishWTzj9sAA-videos.jsonl",
+    "channel_id": "UCoSJo2-rE7ddishWTzj9sAA",
+    "tab": "videos",
+    "flat_rows": 13,
+    "sampled_rows": 13,
+    "stop_reason": "end_of_tab",
+    "boundary_date": "2024-06-20"
+  },
+  {
+    "file": "UCoht3EiOo8EqRe5exkOAH8w-videos.jsonl",
+    "channel_id": "UCoht3EiOo8EqRe5exkOAH8w",
+    "tab": "videos",
+    "flat_rows": 14,
+    "sampled_rows": 14,
+    "stop_reason": "end_of_tab",
+    "boundary_date": ""
+  },
+  {
+    "file": "UCr69-cf-6VLWlDIyi71v13g-shorts.jsonl",
+    "channel_id": "UCr69-cf-6VLWlDIyi71v13g",
+    "tab": "shorts",
+    "flat_rows": 37,
+    "sampled_rows": 34,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": "2024-04-02"
+  },
+  {
+    "file": "UCr69-cf-6VLWlDIyi71v13g-videos.jsonl",
+    "channel_id": "UCr69-cf-6VLWlDIyi71v13g",
+    "tab": "videos",
+    "flat_rows": 13,
+    "sampled_rows": 13,
+    "stop_reason": "end_of_tab",
+    "boundary_date": "2024-01-23"
+  },
+  {
+    "file": "UCrN5LHFTL2qwkmd9z-90RgA-shorts.jsonl",
+    "channel_id": "UCrN5LHFTL2qwkmd9z-90RgA",
+    "tab": "shorts",
+    "flat_rows": 16,
+    "sampled_rows": 16,
+    "stop_reason": "end_of_tab",
+    "boundary_date": "2018-03-26"
+  },
+  {
+    "file": "UCrN5LHFTL2qwkmd9z-90RgA-videos.jsonl",
+    "channel_id": "UCrN5LHFTL2qwkmd9z-90RgA",
+    "tab": "videos",
+    "flat_rows": 126,
+    "sampled_rows": 13,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": "2023-05-23"
+  },
+  {
+    "file": "UCv13WrX5B7qp6TIGskYpDDQ-shorts.jsonl",
+    "channel_id": "UCv13WrX5B7qp6TIGskYpDDQ",
+    "tab": "shorts",
+    "flat_rows": 240,
+    "sampled_rows": 97,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": "2023-11-02"
+  },
+  {
+    "file": "UCv13WrX5B7qp6TIGskYpDDQ-videos.jsonl",
+    "channel_id": "UCv13WrX5B7qp6TIGskYpDDQ",
+    "tab": "videos",
+    "flat_rows": 55,
+    "sampled_rows": 23,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": "2022-10-07"
+  },
+  {
+    "file": "UCvwxIfW2u71mpzrKastNbDg-videos.jsonl",
+    "channel_id": "UCvwxIfW2u71mpzrKastNbDg",
+    "tab": "videos",
+    "flat_rows": 6,
+    "sampled_rows": 6,
+    "stop_reason": "end_of_tab",
+    "boundary_date": ""
+  },
+  {
+    "file": "UCw9DgzcPb_rhdp3VHFFo_8Q-videos.jsonl",
+    "channel_id": "UCw9DgzcPb_rhdp3VHFFo_8Q",
+    "tab": "videos",
+    "flat_rows": 147,
+    "sampled_rows": 20,
+    "stop_reason": "ten_consecutive_missing_dates",
+    "boundary_date": "2019-07-25"
+  }
+]

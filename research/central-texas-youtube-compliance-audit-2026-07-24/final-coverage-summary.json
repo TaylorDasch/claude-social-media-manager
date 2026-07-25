@@ -1,0 +1,313 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-24T22:25:19.251Z",
+  "audit_window": {
+    "start": "2024-07-24",
+    "end": "2026-07-24",
+    "inclusive": true
+  },
+  "inputs": {
+    "authenticatedCatalog": "authenticated-video-catalog.json",
+    "authenticatedSummary": "authenticated-coverage-summary.json",
+    "rootChannels": "root-full-catalog-channels.tsv",
+    "rootScope": "root-scope-adjudication.tsv",
+    "rootLocalInputs": "authenticated-root-local-channel-inputs.txt",
+    "rootDirectInputs": "authenticated-root-direct-video-inputs.txt",
+    "discoveryDirectInputs": "authenticated-credible-direct-caption-inputs.txt",
+    "rootLocalStatusA": "authenticated-root-local-shard-a-collection-status.tsv",
+    "rootLocalStatusB": "authenticated-root-local-shard-b-collection-status.tsv",
+    "gapFullInputs": "authenticated-gap-full-channel-inputs.txt",
+    "gapFullStatus": "authenticated-gap-full-channel-inputs-collection-status.tsv",
+    "streamInputs": "authenticated-full-channel-stream-inputs.txt",
+    "streamStatus": "authenticated-full-channel-stream-inputs-collection-status.tsv",
+    "discoveryTriage": "discovery-gap-triage.tsv",
+    "candidates": "candidate-channels.tsv",
+    "manualCoverage": "agent-findings-normalized-coverage.csv",
+    "discoveryAdjudication": "discovery-gap-adjudication.md"
+  },
+  "totals": {
+    "channels": 119,
+    "total_in_window_public_uploads_cataloged": 5556,
+    "uploads_with_caption_files": 3403,
+    "uploads_without_caption_files": 2153
+  },
+  "totals_by_scope_lane": {
+    "manual_full_channel": {
+      "channels": 7,
+      "total_in_window_public_uploads_cataloged": 525,
+      "uploads_with_caption_files": 426,
+      "uploads_without_caption_files": 99
+    },
+    "authenticated_full_channel": {
+      "channels": 67,
+      "total_in_window_public_uploads_cataloged": 5000,
+      "uploads_with_caption_files": 2961,
+      "uploads_without_caption_files": 2039
+    },
+    "discovery_direct_video_only": {
+      "channels": 45,
+      "total_in_window_public_uploads_cataloged": 31,
+      "uploads_with_caption_files": 16,
+      "uploads_without_caption_files": 15
+    }
+  },
+  "zero_eligible_channels": {
+    "count": 21,
+    "channels": [
+      {
+        "channel_id": "UC1oriuoiCEWyoV8MxiZjmOw",
+        "channel_name": "Brandon Mendoza",
+        "total_in_window_public_uploads_cataloged": 0
+      },
+      {
+        "channel_id": "UCrN5LHFTL2qwkmd9z-90RgA",
+        "channel_name": "Carmen Colon Homes Team - Keller Williams",
+        "total_in_window_public_uploads_cataloged": 0
+      },
+      {
+        "channel_id": "UCsiBMl-3q-I40160oSoKXvg",
+        "channel_name": "Central Texas Property Management, LLC",
+        "total_in_window_public_uploads_cataloged": 0
+      },
+      {
+        "channel_id": "UCG8QDUqWOBEV0EZdFCPzBXg",
+        "channel_name": "Century 21 Premier Relators",
+        "total_in_window_public_uploads_cataloged": 0
+      },
+      {
+        "channel_id": "UCSKCjpoNVdfYTFxHy-jS_VA",
+        "channel_name": "Cloud Real Estate",
+        "total_in_window_public_uploads_cataloged": 0
+      },
+      {
+        "channel_id": "UCC_f7viNGfRPH0gSnTsHlFw",
+        "channel_name": "Duplexes in Killeen Texas",
+        "total_in_window_public_uploads_cataloged": 0
+      },
+      {
+        "channel_id": "UC5v4flYtIbs8z1ZQ-d-nGXw",
+        "channel_name": "George Cass - Texas Realtor",
+        "total_in_window_public_uploads_cataloged": 0
+      },
+      {
+        "channel_id": "UC-1bxoXAz9cJzzAxUwtz3oA",
+        "channel_name": "Harol Egans, Realtor",
+        "total_in_window_public_uploads_cataloged": 0
+      },
+      {
+        "channel_id": "UClinBn5SPDXw59ekiWude1A",
+        "channel_name": "HH Rental Properties",
+        "total_in_window_public_uploads_cataloged": 0
+      },
+      {
+        "channel_id": "UC3Wl4C9al_GLLFSe5nBSg6A",
+        "channel_name": "Hood Homes Blog - Brian E Adams",
+        "total_in_window_public_uploads_cataloged": 0
+      },
+      {
+        "channel_id": "UCoQ2EwqBrZ1ZUyMFULLCcsA",
+        "channel_name": "Hood Housing",
+        "total_in_window_public_uploads_cataloged": 0
+      },
+      {
+        "channel_id": "UCMfrI9m3oMyJsWco8Fq05Uw",
+        "channel_name": "James Jim Garvey eXp Realty",
+        "total_in_window_public_uploads_cataloged": 0
+      },
+      {
+        "channel_id": "UCw9DgzcPb_rhdp3VHFFo_8Q",
+        "channel_name": "Jean Shine - Shine Team Realtors",
+        "total_in_window_public_uploads_cataloged": 0
+      },
+      {
+        "channel_id": "UCc1CY8hdQ2pIk62vGztB1cQ",
+        "channel_name": "Jeremy Fay, Realtor",
+        "total_in_window_public_uploads_cataloged": 0
+      },
+      {
+        "channel_id": "UCGhBS7DKFyz9F54RfrBucQw",
+        "channel_name": "John Reider Properties",
+        "total_in_window_public_uploads_cataloged": 0
+      },
+      {
+        "channel_id": "UChfEhOd71uTgQaZPyy7rN-w",
+        "channel_name": "John Reider Properties second channel",
+        "total_in_window_public_uploads_cataloged": 0
+      },
+      {
+        "channel_id": "UCPbTQjfJhPIGbWWf-fT4Arw",
+        "channel_name": "John Sanders",
+        "total_in_window_public_uploads_cataloged": 0
+      },
+      {
+        "channel_id": "UCAV8dmQT-eD4H3FDWRNrGZg",
+        "channel_name": "Lara Fobian",
+        "total_in_window_public_uploads_cataloged": 0
+      },
+      {
+        "channel_id": "UCdGuhzT0IUrH81vQN9tY6MQ",
+        "channel_name": "Linnemann Realty",
+        "total_in_window_public_uploads_cataloged": 0
+      },
+      {
+        "channel_id": "UChC-ZIQbKzAX5FAdCg7FAfg",
+        "channel_name": "Linnemann Realty second channel",
+        "total_in_window_public_uploads_cataloged": 0
+      },
+      {
+        "channel_id": "UCPxhdKZSM8qOMNOUG5Ee6VA",
+        "channel_name": "RE/MAX RedZone",
+        "total_in_window_public_uploads_cataloged": 0
+      }
+    ]
+  },
+  "excluded_or_noise_counts": {
+    "taylor_channel_ids_excluded_defensively": [
+      "UCKuVz8ytHECKEAyRacDpm1g",
+      "UCqrLPGPR9eV7QUfK02dwtpQ"
+    ],
+    "authenticated_collector_excluded_taylor_info_files": 0,
+    "authenticated_discovery_channels_excluded_not_in_triage": 46,
+    "authenticated_discovery_videos_excluded_not_in_triage": 54,
+    "offline_discovery_noise_or_unconfirmed_channels": 423
+  },
+  "discovery_scope_adjudication_overrides": [
+    {
+      "channel_id": "UCVfUGN4gxcLeWzP5K_fPgnA",
+      "channel_name": "Palm Harbor",
+      "final_scope_lane": "discovery_direct_video_only",
+      "source": "discovery-gap-adjudication.md"
+    },
+    {
+      "channel_id": "UCatgc79aqbQYQQkpNVXfb3A",
+      "channel_name": "rennerrealty",
+      "final_scope_lane": "discovery_direct_video_only",
+      "source": "discovery-gap-adjudication.md"
+    },
+    {
+      "channel_id": "UC6YcqWxqAo3jNVxyyF2MZyA",
+      "channel_name": "LIsa Copeland- The Real Lioness",
+      "final_scope_lane": "discovery_direct_video_only",
+      "source": "discovery-gap-adjudication.md"
+    },
+    {
+      "channel_id": "UCYsdJIrTd2vYmfqSNfUSYZA",
+      "channel_name": "Inside The World Of Real Estate",
+      "final_scope_lane": "discovery_direct_video_only",
+      "source": "discovery-gap-adjudication.md"
+    },
+    {
+      "channel_id": "UC_ijOhQ7aWRH6GqL1a-G5Dg",
+      "channel_name": "The Myles Group | Keller Williams Northwest Austin",
+      "final_scope_lane": "discovery_direct_video_only",
+      "source": "discovery-gap-adjudication.md"
+    }
+  ],
+  "root_scope_adjudication": {
+    "full_channel_local_creator": 42,
+    "direct_target_videos_only": 5,
+    "source": "root-scope-adjudication.tsv"
+  },
+  "discovery_direct_video_retrieval_gaps": {
+    "count": 22,
+    "channels": [
+      {
+        "channel_id": "UCnR6lhPtfohqYCQlb1f9uuQ",
+        "channel_name": "Albert Chen - AATX Residential"
+      },
+      {
+        "channel_id": "UCrTa7dQCMKwpV_hqjnNmsxg",
+        "channel_name": "Beck-Reit Commercial Real Estate Texas"
+      },
+      {
+        "channel_id": "UCBnMenFpdXUw4v022CfkXMQ",
+        "channel_name": "BHS Realty Group"
+      },
+      {
+        "channel_id": "UC8QQMyzGJEVql8HRpcNHhyw",
+        "channel_name": "Central Texas Living - Dom McShan"
+      },
+      {
+        "channel_id": "UCqrpFnDiSrIghSsVl6LX-Cg",
+        "channel_name": "Central Texas Realty Expert Group"
+      },
+      {
+        "channel_id": "UCEfOKHk-U46tEehmiFO_L3A",
+        "channel_name": "Collier Group Realty"
+      },
+      {
+        "channel_id": "UCktS7ZgqecOWzlpPf5sYTbQ",
+        "channel_name": "Corie Oliveira, Realtor, Central Texas"
+      },
+      {
+        "channel_id": "UCEHEBx_wXLpEbVMPbB1_jgw",
+        "channel_name": "D'Andra Texas Realtor"
+      },
+      {
+        "channel_id": "UChL1Xabpw5q1A9OsK8M2NYQ",
+        "channel_name": "Faith. Family. Home. -Keith Duble Team, eXp Realty"
+      },
+      {
+        "channel_id": "UC7oDOV8Bw4WQgOEi-AjicOQ",
+        "channel_name": "Julio C. Ruiz • Texas REALTOR®"
+      },
+      {
+        "channel_id": "UC6YcqWxqAo3jNVxyyF2MZyA",
+        "channel_name": "LIsa Copeland- The Real Lioness"
+      },
+      {
+        "channel_id": "UCDIP1w5u5dk_rVd1pXRgM9g",
+        "channel_name": "Living in Killeen, Texas"
+      },
+      {
+        "channel_id": "UCimsnaM-sbxLf-fp45KZgNw",
+        "channel_name": "Lovejoy Homes Realty"
+      },
+      {
+        "channel_id": "UC90LU7ZlcBNcni9cWgESSOQ",
+        "channel_name": "Luke Johnston - Central Texas Real Estate"
+      },
+      {
+        "channel_id": "UCBansIejrAmP3NsqGRVMJGw",
+        "channel_name": "McCaw Property Management"
+      },
+      {
+        "channel_id": "UCTK2XLqTgPcvKDSWAuYRirg",
+        "channel_name": "Native Real Estate"
+      },
+      {
+        "channel_id": "UCVfUGN4gxcLeWzP5K_fPgnA",
+        "channel_name": "Palm Harbor"
+      },
+      {
+        "channel_id": "UCnxgb2rBHSSPIK5XNnzg1dA",
+        "channel_name": "Parkway Real Estate"
+      },
+      {
+        "channel_id": "UC6O-RmQUjGKF748BgeKJ0gA",
+        "channel_name": "RentVision Walkthrough Video Tours"
+      },
+      {
+        "channel_id": "UCilpr3lWbZ0AM_NoVF3oD8g",
+        "channel_name": "The Adam Olsen Team"
+      },
+      {
+        "channel_id": "UCCXH2XT0creLsVXieHKaqJg",
+        "channel_name": "The Ryan Smith Home Selling Team"
+      },
+      {
+        "channel_id": "UCN2NRIkP4wriUWnE5R9L3AA",
+        "channel_name": "thefocusteam1"
+      }
+    ]
+  },
+  "validation": {
+    "required_inputs_read": true,
+    "authenticated_catalog_matches_summary": true,
+    "duplicate_channel_ids_in_final_ledger": 0,
+    "duplicate_video_ids_in_authenticated_catalog": 0,
+    "final_ledger_column_count": 12,
+    "expected_scoped_channel_ids": 119,
+    "taylor_channel_ids_absent_from_final_ledger": true
+  }
+}

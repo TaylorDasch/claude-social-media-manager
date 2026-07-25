@@ -1,0 +1,752 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 53360,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 0,
+    "dDurationMs": 4200,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Thinking"
+    }, {
+      "utf8": " about",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " buying",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 1080
+    }, {
+      "utf8": " home",
+      "tOffsetMs": 1160
+    }, {
+      "utf8": " [music]",
+      "tOffsetMs": 1309
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 1480
+    } ]
+  }, {
+    "tStartMs": 1590,
+    "dDurationMs": 2610,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 1600,
+    "dDurationMs": 5040,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Central"
+    }, {
+      "utf8": " Texas?",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " Don't",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " make",
+      "tOffsetMs": 1520
+    }, {
+      "utf8": " an",
+      "tOffsetMs": 1680
+    }, {
+      "utf8": " offer",
+      "tOffsetMs": 1800
+    }, {
+      "utf8": " until",
+      "tOffsetMs": 2240
+    } ]
+  }, {
+    "tStartMs": 4190,
+    "dDurationMs": 2450,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 4200,
+    "dDurationMs": 3640,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "you"
+    }, {
+      "utf8": " know",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " these",
+      "tOffsetMs": 600
+    }, {
+      "utf8": " three",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " things.",
+      "tOffsetMs": 1160
+    } ]
+  }, {
+    "tStartMs": 6630,
+    "dDurationMs": 1210,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 6640,
+    "dDurationMs": 3000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Number"
+    }, {
+      "utf8": " one,",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " [music]",
+      "tOffsetMs": 565
+    } ]
+  }, {
+    "tStartMs": 7830,
+    "dDurationMs": 1810,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 7840,
+    "dDurationMs": 3950,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "not"
+    }, {
+      "utf8": " every",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " city",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " offers",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 1400
+    }, {
+      "utf8": " same",
+      "tOffsetMs": 1520
+    } ]
+  }, {
+    "tStartMs": 9630,
+    "dDurationMs": 2160,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 9640,
+    "dDurationMs": 5280,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "lifestyle."
+    }, {
+      "utf8": " Killeen,",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " Harker",
+      "tOffsetMs": 1480
+    }, {
+      "utf8": " Heights,",
+      "tOffsetMs": 1840
+    } ]
+  }, {
+    "tStartMs": 11780,
+    "dDurationMs": 3140,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 11790,
+    "dDurationMs": 5690,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[music]"
+    }, {
+      "utf8": " Belton,",
+      "tOffsetMs": 330
+    }, {
+      "utf8": " Temple,",
+      "tOffsetMs": 1050
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1770
+    }, {
+      "utf8": " Salado",
+      "tOffsetMs": 2050
+    }, {
+      "utf8": " all",
+      "tOffsetMs": 2850
+    } ]
+  }, {
+    "tStartMs": 14910,
+    "dDurationMs": 2570,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 14920,
+    "dDurationMs": 4800,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "feel"
+    }, {
+      "utf8": " very",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " different.",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " Number",
+      "tOffsetMs": 1720
+    }, {
+      "utf8": " [music]",
+      "tOffsetMs": 2110
+    }, {
+      "utf8": " two,",
+      "tOffsetMs": 2160
+    } ]
+  }, {
+    "tStartMs": 17470,
+    "dDurationMs": 2250,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 17480,
+    "dDurationMs": 4280,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "don't"
+    }, {
+      "utf8": " just",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " focus",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " on",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 1080
+    }, {
+      "utf8": " house.",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " Think",
+      "tOffsetMs": 2040
+    } ]
+  }, {
+    "tStartMs": 19710,
+    "dDurationMs": 2050,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 19720,
+    "dDurationMs": 4320,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "about"
+    }, {
+      "utf8": " your",
+      "tOffsetMs": 280
+    }, {
+      "utf8": " commute,",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " schools,",
+      "tOffsetMs": 1240
+    }, {
+      "utf8": " [music]",
+      "tOffsetMs": 1895
+    } ]
+  }, {
+    "tStartMs": 21750,
+    "dDurationMs": 2290,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 21760,
+    "dDurationMs": 5095,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "shopping,"
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 880
+    }, {
+      "utf8": " what",
+      "tOffsetMs": 1160
+    }, {
+      "utf8": " your",
+      "tOffsetMs": 1320
+    }, {
+      "utf8": " day-to-day",
+      "tOffsetMs": 1440
+    }, {
+      "utf8": " life",
+      "tOffsetMs": 1960
+    } ]
+  }, {
+    "tStartMs": 24030,
+    "dDurationMs": 2825,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 24040,
+    "dDurationMs": 2880,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "will"
+    }, {
+      "utf8": " actually",
+      "tOffsetMs": 200
+    }, {
+      "utf8": " look",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " like.",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " Number",
+      "tOffsetMs": 1560
+    }, {
+      "utf8": " three,",
+      "tOffsetMs": 2000
+    } ]
+  }, {
+    "tStartMs": 26845,
+    "dDurationMs": 75,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 26855,
+    "dDurationMs": 2065,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e [music]",
+      "isSpeakerChange": 1
+    } ]
+  }, {
+    "tStartMs": 26910,
+    "dDurationMs": 2010,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 26920,
+    "dDurationMs": 4800,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e get",
+      "isSpeakerChange": 1
+    }, {
+      "utf8": " pre-approved",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " before",
+      "tOffsetMs": 1160
+    }, {
+      "utf8": " you",
+      "tOffsetMs": 1520
+    }, {
+      "utf8": " start",
+      "tOffsetMs": 1680
+    } ]
+  }, {
+    "tStartMs": 28910,
+    "dDurationMs": 2810,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 28920,
+    "dDurationMs": 4560,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "searching."
+    }, {
+      "utf8": " The",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " best",
+      "tOffsetMs": 1080
+    }, {
+      "utf8": " homes",
+      "tOffsetMs": 1440
+    }, {
+      "utf8": " move",
+      "tOffsetMs": 1840
+    }, {
+      "utf8": " quickly",
+      "tOffsetMs": 2160
+    } ]
+  }, {
+    "tStartMs": 31710,
+    "dDurationMs": 1770,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 31720,
+    "dDurationMs": 3600,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "and"
+    }, {
+      "utf8": " being",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " prepared",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " can",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " make",
+      "tOffsetMs": 1160
+    }, {
+      "utf8": " all",
+      "tOffsetMs": 1440
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 1640
+    } ]
+  }, {
+    "tStartMs": 33470,
+    "dDurationMs": 1850,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 33480,
+    "dDurationMs": 3760,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "difference."
+    }, {
+      "utf8": " The",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " buyers",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " who",
+      "tOffsetMs": 1440
+    }, {
+      "utf8": " have",
+      "tOffsetMs": 1560
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 1720
+    } ]
+  }, {
+    "tStartMs": 35310,
+    "dDurationMs": 1930,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 35320,
+    "dDurationMs": 3800,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "smoothest"
+    }, {
+      "utf8": " experience",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " are",
+      "tOffsetMs": 1280
+    }, {
+      "utf8": " [music]",
+      "tOffsetMs": 1360
+    }, {
+      "utf8": " usually",
+      "tOffsetMs": 1440
+    } ]
+  }, {
+    "tStartMs": 37230,
+    "dDurationMs": 1890,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 37240,
+    "dDurationMs": 3880,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "the"
+    }, {
+      "utf8": " ones",
+      "tOffsetMs": 120
+    }, {
+      "utf8": " who",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " understand",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 1320
+    }, {
+      "utf8": " market",
+      "tOffsetMs": 1440
+    } ]
+  }, {
+    "tStartMs": 39110,
+    "dDurationMs": 2010,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 39120,
+    "dDurationMs": 4110,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "before"
+    }, {
+      "utf8": " they",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " start",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " looking.",
+      "tOffsetMs": 880
+    }, {
+      "utf8": " If",
+      "tOffsetMs": 1680
+    }, {
+      "utf8": " you're",
+      "tOffsetMs": 1840
+    } ]
+  }, {
+    "tStartMs": 41110,
+    "dDurationMs": 2120,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 41120,
+    "dDurationMs": 3840,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "thinking"
+    }, {
+      "utf8": " about",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " buying",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " Central",
+      "tOffsetMs": 1080
+    }, {
+      "utf8": " Texas,",
+      "tOffsetMs": 1440
+    } ]
+  }, {
+    "tStartMs": 43220,
+    "dDurationMs": 1740,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 43230,
+    "dDurationMs": 4410,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[music]"
+    }, {
+      "utf8": " we'd",
+      "tOffsetMs": 170
+    }, {
+      "utf8": " love",
+      "tOffsetMs": 370
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 650
+    }, {
+      "utf8": " help",
+      "tOffsetMs": 770
+    }, {
+      "utf8": " you",
+      "tOffsetMs": 1010
+    }, {
+      "utf8": " create",
+      "tOffsetMs": 1250
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 1690
+    } ]
+  }, {
+    "tStartMs": 44950,
+    "dDurationMs": 2690,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 44960,
+    "dDurationMs": 5080,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "plan"
+    }, {
+      "utf8": " before",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " you",
+      "tOffsetMs": 1160
+    }, {
+      "utf8": " start",
+      "tOffsetMs": 1280
+    }, {
+      "utf8": " your",
+      "tOffsetMs": 1560
+    }, {
+      "utf8": " search.",
+      "tOffsetMs": 1720
+    }, {
+      "utf8": " Tell",
+      "tOffsetMs": 2440
+    } ]
+  }, {
+    "tStartMs": 47630,
+    "dDurationMs": 2410,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 47640,
+    "dDurationMs": 5720,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "us"
+    }, {
+      "utf8": " below",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " what's",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " most",
+      "tOffsetMs": 1280
+    }, {
+      "utf8": " important",
+      "tOffsetMs": 1560
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 2040
+    }, {
+      "utf8": " you",
+      "tOffsetMs": 2160
+    } ]
+  }, {
+    "tStartMs": 50030,
+    "dDurationMs": 3330,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 50040,
+    "dDurationMs": 3320,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "when"
+    }, {
+      "utf8": " choosing",
+      "tOffsetMs": 200
+    }, {
+      "utf8": " where",
+      "tOffsetMs": 600
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " live.",
+      "tOffsetMs": 840
+    } ]
+  } ]
+}

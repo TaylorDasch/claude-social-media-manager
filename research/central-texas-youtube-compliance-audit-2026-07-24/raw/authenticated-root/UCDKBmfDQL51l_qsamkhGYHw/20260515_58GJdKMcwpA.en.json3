@@ -1,0 +1,958 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 76280,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 9640,
+    "dDurationMs": 4115,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Preview"
+    }, {
+      "utf8": " our",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " tour",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " we",
+      "tOffsetMs": 880
+    }, {
+      "utf8": " have",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " prepared",
+      "tOffsetMs": 1160
+    }, {
+      "utf8": " for",
+      "tOffsetMs": 1640
+    } ]
+  }, {
+    "tStartMs": 11470,
+    "dDurationMs": 2285,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 11480,
+    "dDurationMs": 2480,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "you."
+    }, {
+      "utf8": " Tired",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 1120
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " city",
+      "tOffsetMs": 1280
+    }, {
+      "utf8": " life?",
+      "tOffsetMs": 1560
+    } ]
+  }, {
+    "tStartMs": 13745,
+    "dDurationMs": 215,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 13755,
+    "dDurationMs": 1605,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e [music]",
+      "isSpeakerChange": 1
+    } ]
+  }, {
+    "tStartMs": 13950,
+    "dDurationMs": 1410,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 13960,
+    "dDurationMs": 5160,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e Try",
+      "isSpeakerChange": 1
+    }, {
+      "utf8": " stretching",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " your",
+      "tOffsetMs": 600
+    }, {
+      "utf8": " legs",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " on",
+      "tOffsetMs": 1080
+    }, {
+      "utf8": " this",
+      "tOffsetMs": 1200
+    } ]
+  }, {
+    "tStartMs": 15350,
+    "dDurationMs": 3770,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 15360,
+    "dDurationMs": 6480,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "beautiful"
+    }, {
+      "utf8": " piece",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " property.",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " It's",
+      "tOffsetMs": 1960
+    }, {
+      "utf8": " 18.497",
+      "tOffsetMs": 2160
+    } ]
+  }, {
+    "tStartMs": 19110,
+    "dDurationMs": 2730,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 19120,
+    "dDurationMs": 6640,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "acres"
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " green",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " grass,",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 1400
+    }, {
+      "utf8": " lovely",
+      "tOffsetMs": 1520
+    }, {
+      "utf8": " home,",
+      "tOffsetMs": 2040
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 2560
+    } ]
+  }, {
+    "tStartMs": 21830,
+    "dDurationMs": 3930,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 21840,
+    "dDurationMs": 6400,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "a"
+    }, {
+      "utf8": " 30",
+      "tOffsetMs": 40
+    }, {
+      "utf8": " x",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " 40",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " workshop",
+      "tOffsetMs": 1680
+    }, {
+      "utf8": " or",
+      "tOffsetMs": 2480
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 2680
+    }, {
+      "utf8": " man",
+      "tOffsetMs": 2720
+    }, {
+      "utf8": " cave,",
+      "tOffsetMs": 3040
+    }, {
+      "utf8": " pool",
+      "tOffsetMs": 3600
+    } ]
+  }, {
+    "tStartMs": 25750,
+    "dDurationMs": 2490,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 25760,
+    "dDurationMs": 4720,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "barn,"
+    }, {
+      "utf8": " or",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " whatever",
+      "tOffsetMs": 600
+    }, {
+      "utf8": " you",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " choose.",
+      "tOffsetMs": 1120
+    }, {
+      "utf8": " This",
+      "tOffsetMs": 2080
+    }, {
+      "utf8": " home",
+      "tOffsetMs": 2240
+    } ]
+  }, {
+    "tStartMs": 28230,
+    "dDurationMs": 2250,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 28240,
+    "dDurationMs": 4359,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "boasts"
+    }, {
+      "utf8": " 1,949",
+      "tOffsetMs": 320
+    } ]
+  }, {
+    "tStartMs": 30470,
+    "dDurationMs": 2129,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 30480,
+    "dDurationMs": 4960,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "square"
+    }, {
+      "utf8": " feet",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " with",
+      "tOffsetMs": 680
+    }, {
+      "utf8": " three",
+      "tOffsetMs": 880
+    }, {
+      "utf8": " bedroom",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1760
+    }, {
+      "utf8": " two",
+      "tOffsetMs": 1920
+    } ]
+  }, {
+    "tStartMs": 32589,
+    "dDurationMs": 2851,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 32599,
+    "dDurationMs": 5361,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "bath."
+    }, {
+      "utf8": " Wash",
+      "tOffsetMs": 1001
+    }, {
+      "utf8": " day",
+      "tOffsetMs": 1281
+    }, {
+      "utf8": " blues",
+      "tOffsetMs": 1481
+    }, {
+      "utf8": " are",
+      "tOffsetMs": 1841
+    }, {
+      "utf8": " made",
+      "tOffsetMs": 1961
+    }, {
+      "utf8": " easier",
+      "tOffsetMs": 2321
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 2761
+    } ]
+  }, {
+    "tStartMs": 35430,
+    "dDurationMs": 2530,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 35440,
+    "dDurationMs": 4680,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "the"
+    }, {
+      "utf8": " bright",
+      "tOffsetMs": 80
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " large",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " laundry",
+      "tOffsetMs": 1040
+    }, {
+      "utf8": " room.",
+      "tOffsetMs": 1520
+    }, {
+      "utf8": " There",
+      "tOffsetMs": 2360
+    } ]
+  }, {
+    "tStartMs": 37950,
+    "dDurationMs": 2170,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 37960,
+    "dDurationMs": 4520,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "is"
+    }, {
+      "utf8": " even",
+      "tOffsetMs": 120
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " laundry",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " line",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 1360
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 1440
+    }, {
+      "utf8": " backyard",
+      "tOffsetMs": 1560
+    } ]
+  }, {
+    "tStartMs": 40110,
+    "dDurationMs": 2370,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 40120,
+    "dDurationMs": 4160,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "to"
+    }, {
+      "utf8": " hang",
+      "tOffsetMs": 120
+    }, {
+      "utf8": " out",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " your",
+      "tOffsetMs": 600
+    }, {
+      "utf8": " clothes",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " if",
+      "tOffsetMs": 1080
+    }, {
+      "utf8": " you",
+      "tOffsetMs": 1240
+    }, {
+      "utf8": " choose.",
+      "tOffsetMs": 1320
+    } ]
+  }, {
+    "tStartMs": 42470,
+    "dDurationMs": 1810,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 42480,
+    "dDurationMs": 3760,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "The"
+    }, {
+      "utf8": " huge",
+      "tOffsetMs": 40
+    }, {
+      "utf8": " wood",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " burning",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " fireplace",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 1600
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 1720
+    } ]
+  }, {
+    "tStartMs": 44270,
+    "dDurationMs": 1970,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 44280,
+    "dDurationMs": 3960,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "spacious"
+    }, {
+      "utf8": " family",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " room",
+      "tOffsetMs": 1040
+    }, {
+      "utf8": " will",
+      "tOffsetMs": 1280
+    }, {
+      "utf8": " create",
+      "tOffsetMs": 1400
+    }, {
+      "utf8": " an",
+      "tOffsetMs": 1760
+    } ]
+  }, {
+    "tStartMs": 46230,
+    "dDurationMs": 2010,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 46240,
+    "dDurationMs": 4600,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "ambience"
+    }, {
+      "utf8": " that",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " your",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " family",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1480
+    }, {
+      "utf8": " friends",
+      "tOffsetMs": 1640
+    } ]
+  }, {
+    "tStartMs": 48230,
+    "dDurationMs": 2610,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 48240,
+    "dDurationMs": 3505,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "will"
+    }, {
+      "utf8": " enjoy.",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " The",
+      "tOffsetMs": 1160
+    }, {
+      "utf8": " dining",
+      "tOffsetMs": 1240
+    }, {
+      "utf8": " area",
+      "tOffsetMs": 1600
+    }, {
+      "utf8": " is",
+      "tOffsetMs": 1960
+    }, {
+      "utf8": " next",
+      "tOffsetMs": 2160
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 2520
+    } ]
+  }, {
+    "tStartMs": 50830,
+    "dDurationMs": 915,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 50840,
+    "dDurationMs": 1080,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "the"
+    }, {
+      "utf8": " kitchen.",
+      "tOffsetMs": 120
+    } ]
+  }, {
+    "tStartMs": 51735,
+    "dDurationMs": 185,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 51745,
+    "dDurationMs": 1895,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e [music]",
+      "isSpeakerChange": 1
+    } ]
+  }, {
+    "tStartMs": 51910,
+    "dDurationMs": 1730,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 51920,
+    "dDurationMs": 4200,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e You",
+      "isSpeakerChange": 1
+    }, {
+      "utf8": " can",
+      "tOffsetMs": 80
+    }, {
+      "utf8": " cook",
+      "tOffsetMs": 200
+    }, {
+      "utf8": " or",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " bake",
+      "tOffsetMs": 600
+    }, {
+      "utf8": " while",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " visiting",
+      "tOffsetMs": 1080
+    }, {
+      "utf8": " with",
+      "tOffsetMs": 1520
+    } ]
+  }, {
+    "tStartMs": 53630,
+    "dDurationMs": 2490,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 53640,
+    "dDurationMs": 5000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "friends."
+    }, {
+      "utf8": " The",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " large",
+      "tOffsetMs": 1040
+    }, {
+      "utf8": " patio",
+      "tOffsetMs": 1400
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1920
+    }, {
+      "utf8": " deck",
+      "tOffsetMs": 2080
+    }, {
+      "utf8": " are",
+      "tOffsetMs": 2320
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 2440
+    } ]
+  }, {
+    "tStartMs": 56110,
+    "dDurationMs": 2530,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 56120,
+    "dDurationMs": 4400,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "second"
+    }, {
+      "utf8": " entertaining",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " spot",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 1400
+    }, {
+      "utf8": " this",
+      "tOffsetMs": 1480
+    }, {
+      "utf8": " home.",
+      "tOffsetMs": 1680
+    } ]
+  }, {
+    "tStartMs": 58630,
+    "dDurationMs": 1890,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 58640,
+    "dDurationMs": 4000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "The"
+    }, {
+      "utf8": " raised",
+      "tOffsetMs": 80
+    }, {
+      "utf8": " garden",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " beds",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 1160
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 1240
+    }, {
+      "utf8": " backyard",
+      "tOffsetMs": 1400
+    } ]
+  }, {
+    "tStartMs": 60510,
+    "dDurationMs": 2130,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 60520,
+    "dDurationMs": 4480,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "are"
+    }, {
+      "utf8": " now",
+      "tOffsetMs": 80
+    }, {
+      "utf8": " producing",
+      "tOffsetMs": 280
+    }, {
+      "utf8": " vegetables.",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " The",
+      "tOffsetMs": 2000
+    } ]
+  }, {
+    "tStartMs": 62630,
+    "dDurationMs": 2370,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 62640,
+    "dDurationMs": 5640,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "orchard"
+    }, {
+      "utf8": " has",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " peach,",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " pear,",
+      "tOffsetMs": 1040
+    }, {
+      "utf8": " nectarine,",
+      "tOffsetMs": 1559
+    } ]
+  }, {
+    "tStartMs": 64990,
+    "dDurationMs": 3290,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 65000,
+    "dDurationMs": 5240,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "apple,"
+    }, {
+      "utf8": " fig,",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " apricot,",
+      "tOffsetMs": 1080
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1840
+    }, {
+      "utf8": " plum",
+      "tOffsetMs": 2000
+    }, {
+      "utf8": " trees.",
+      "tOffsetMs": 2280
+    }, {
+      "utf8": " The",
+      "tOffsetMs": 3200
+    } ]
+  }, {
+    "tStartMs": 68270,
+    "dDurationMs": 1970,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 68280,
+    "dDurationMs": 3400,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "greenhouse"
+    }, {
+      "utf8": " next",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 880
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " metal",
+      "tOffsetMs": 1080
+    }, {
+      "utf8": " workshop",
+      "tOffsetMs": 1400
+    } ]
+  }, {
+    "tStartMs": 70230,
+    "dDurationMs": 1450,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 70240,
+    "dDurationMs": 2760,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "will"
+    }, {
+      "utf8": " be",
+      "tOffsetMs": 120
+    }, {
+      "utf8": " good",
+      "tOffsetMs": 240
+    }, {
+      "utf8": " for",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " your",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " plants",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " during",
+      "tOffsetMs": 1120
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 1360
+    } ]
+  }, {
+    "tStartMs": 71670,
+    "dDurationMs": 1330,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 71680,
+    "dDurationMs": 4600,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "cold"
+    }, {
+      "utf8": " months.",
+      "tOffsetMs": 360
+    } ]
+  }, {
+    "tStartMs": 72990,
+    "dDurationMs": 3290,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 73000,
+    "dDurationMs": 3280,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "This"
+    }, {
+      "utf8": " property",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " is",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " fully",
+      "tOffsetMs": 840
+    } ]
+  } ]
+}

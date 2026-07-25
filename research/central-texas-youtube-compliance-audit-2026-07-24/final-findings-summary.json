@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-24T22:25:19.166Z",
+  "master_source": "master-findings-adjudicated.csv",
+  "supplemental_sources": [
+    "supplemental-authenticated-review.csv",
+    "supplemental-direct-review.csv",
+    "supplemental-gap-direct-incremental-review.csv",
+    "supplemental-gap-final-review.csv",
+    "supplemental-root-a-heavy-incremental-review.csv",
+    "supplemental-root-a-remaining-incremental-review.csv",
+    "supplemental-root-a-sujin-sandee-incremental-review.csv",
+    "supplemental-root-b-c21-robert-stephen-incremental-review.csv",
+    "supplemental-root-b-remaining-incremental-review.csv",
+    "supplemental-root-b-rheajane-incremental-review.csv",
+    "supplemental-root-b-whitney-incremental-review.csv",
+    "supplemental-root-final-review.csv",
+    "supplemental-streams-incremental-review.csv"
+  ],
+  "public_video_eligibility_sources": [
+    "authenticated-video-catalog.json",
+    "manual-finding-video-eligibility.tsv"
+  ],
+  "total_finding_groups": 140,
+  "priority_counts": {
+    "high": 61,
+    "medium": 57,
+    "low": 9,
+    "verification_only": 12,
+    "resolved": 1
+  },
+  "legal_conclusion": "Issue-spotting and broker/counsel review priorities only; no legal violation or liability is determined.",
+  "corrections_applied": {
+    "SH-02": "Authenticated current title/description recheck; date vector corrected to the video-ID order.",
+    "SH-04": "Authenticated metadata recheck; complete date vector corrected to the video-ID order.",
+    "classification_harmonization": [
+      "A-01",
+      "A-02",
+      "A-03",
+      "A-04",
+      "A-05",
+      "A-07",
+      "A-12",
+      "A-10",
+      "A-11",
+      "PF-09",
+      "LB-05",
+      "A-06",
+      "A-08",
+      "A-09",
+      "BG-03",
+      "PF-01",
+      "PF-05",
+      "LB-02",
+      "LB-07"
+    ]
+  },
+  "validation": {
+    "duplicate_finding_ids": 0,
+    "malformed_rows": 0,
+    "taylor_channel_ids_absent": true,
+    "cited_video_ids_verified_public_and_in_window": 209,
+    "positional_video_id_url_date_checks_passed": true,
+    "unused_manual_eligibility_records": 0,
+    "excluded_non_public_finding_ids": [
+      "D-AUTH-05"
+    ]
+  }
+}

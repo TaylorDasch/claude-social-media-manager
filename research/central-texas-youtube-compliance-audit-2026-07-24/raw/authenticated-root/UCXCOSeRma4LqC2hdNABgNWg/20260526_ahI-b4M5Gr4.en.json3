@@ -1,0 +1,164 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 26255,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 1040,
+    "dDurationMs": 4480,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Did"
+    }, {
+      "utf8": " you",
+      "tOffsetMs": 200
+    }, {
+      "utf8": " know",
+      "tOffsetMs": 280
+    }, {
+      "utf8": " Texas",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " home",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " prices",
+      "tOffsetMs": 1160
+    }, {
+      "utf8": " soared",
+      "tOffsetMs": 1640
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 2040
+    } ]
+  }, {
+    "tStartMs": 3190,
+    "dDurationMs": 2330,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 3200,
+    "dDurationMs": 4040,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "some"
+    }, {
+      "utf8": " cities",
+      "tOffsetMs": 240
+    }, {
+      "utf8": " this",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " year?",
+      "tOffsetMs": 880
+    }, {
+      "utf8": " Even",
+      "tOffsetMs": 1560
+    }, {
+      "utf8": " with",
+      "tOffsetMs": 1840
+    }, {
+      "utf8": " higher",
+      "tOffsetMs": 2040
+    } ]
+  }, {
+    "tStartMs": 5510,
+    "dDurationMs": 1730,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 5520,
+    "dDurationMs": 4920,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "interest"
+    }, {
+      "utf8": " rates,",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " values",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " [music]",
+      "tOffsetMs": 1030
+    }, {
+      "utf8": " jumped",
+      "tOffsetMs": 1400
+    } ]
+  }, {
+    "tStartMs": 7230,
+    "dDurationMs": 3210,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 7240,
+    "dDurationMs": 3200,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "over"
+    }, {
+      "utf8": " 20%.",
+      "tOffsetMs": 200
+    } ]
+  }, {
+    "tStartMs": 13745,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 13755,
+    "dDurationMs": 2020,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e [music]",
+      "isSpeakerChange": 1
+    } ]
+  }, {
+    "tStartMs": 24225,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 24235,
+    "dDurationMs": 2020,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[music]"
+    } ]
+  } ]
+}

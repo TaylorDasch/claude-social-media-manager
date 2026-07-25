@@ -1,0 +1,112 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 11845,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 654,
+    "dDurationMs": 2466,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[music]"
+    } ]
+  }, {
+    "tStartMs": 990,
+    "dDurationMs": 2130,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 1000,
+    "dDurationMs": 7800,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e Check",
+      "isSpeakerChange": 1
+    }, {
+      "utf8": " out",
+      "tOffsetMs": 280
+    }, {
+      "utf8": " this",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " new",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " three-beds,",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " two-baths",
+      "tOffsetMs": 1560
+    } ]
+  }, {
+    "tStartMs": 3110,
+    "dDurationMs": 5690,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 3120,
+    "dDurationMs": 5680,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "listing"
+    }, {
+      "utf8": " at",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " 3711",
+      "tOffsetMs": 680
+    }, {
+      "utf8": " Ida",
+      "tOffsetMs": 1920
+    }, {
+      "utf8": " Drive,",
+      "tOffsetMs": 2160
+    }, {
+      "utf8": " Killeen.",
+      "tOffsetMs": 2960
+    } ]
+  }, {
+    "tStartMs": 9815,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 9825,
+    "dDurationMs": 2020,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e [music]",
+      "isSpeakerChange": 1
+    } ]
+  } ]
+}

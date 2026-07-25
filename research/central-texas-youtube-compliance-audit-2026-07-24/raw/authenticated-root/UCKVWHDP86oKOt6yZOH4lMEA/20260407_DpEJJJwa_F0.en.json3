@@ -1,0 +1,923 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 67640,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 0,
+    "dDurationMs": 4800,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Marketing"
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " everyone,",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " sells",
+      "tOffsetMs": 1680
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 1960
+    }, {
+      "utf8": " [music]",
+      "tOffsetMs": 1980
+    } ]
+  }, {
+    "tStartMs": 2070,
+    "dDurationMs": 2730,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 2080,
+    "dDurationMs": 5120,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "no"
+    }, {
+      "utf8": " one.",
+      "tOffsetMs": 200
+    }, {
+      "utf8": " Here's",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " how",
+      "tOffsetMs": 880
+    }, {
+      "utf8": " I",
+      "tOffsetMs": 1160
+    }, {
+      "utf8": " zero",
+      "tOffsetMs": 1360
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 1840
+    }, {
+      "utf8": " on",
+      "tOffsetMs": 2240
+    }, {
+      "utf8": " your",
+      "tOffsetMs": 2400
+    } ]
+  }, {
+    "tStartMs": 4790,
+    "dDurationMs": 2410,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 4800,
+    "dDurationMs": 3060,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "ideal"
+    }, {
+      "utf8": " buyer.",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " Not",
+      "tOffsetMs": 1080
+    }, {
+      "utf8": " every",
+      "tOffsetMs": 1400
+    }, {
+      "utf8": " buyer",
+      "tOffsetMs": 1640
+    }, {
+      "utf8": " is",
+      "tOffsetMs": 2040
+    }, {
+      "utf8": " your",
+      "tOffsetMs": 2240
+    } ]
+  }, {
+    "tStartMs": 7190,
+    "dDurationMs": 670,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 7200,
+    "dDurationMs": 680,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "buyer,"
+    } ]
+  }, {
+    "tStartMs": 7850,
+    "dDurationMs": 30,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 7860,
+    "dDurationMs": 2740,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e [music]",
+      "isSpeakerChange": 1
+    } ]
+  }, {
+    "tStartMs": 7870,
+    "dDurationMs": 2730,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 7880,
+    "dDurationMs": 4800,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e so",
+      "isSpeakerChange": 1
+    }, {
+      "utf8": " let's",
+      "tOffsetMs": 200
+    }, {
+      "utf8": " stop",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " marketing",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " like",
+      "tOffsetMs": 1560
+    }, {
+      "utf8": " it.",
+      "tOffsetMs": 1880
+    }, {
+      "utf8": " Every",
+      "tOffsetMs": 2440
+    } ]
+  }, {
+    "tStartMs": 10590,
+    "dDurationMs": 2090,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 10600,
+    "dDurationMs": 4840,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "home"
+    }, {
+      "utf8": " attracts",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 880
+    }, {
+      "utf8": " different",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " kind",
+      "tOffsetMs": 1240
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 1440
+    }, {
+      "utf8": " buyer.",
+      "tOffsetMs": 1520
+    } ]
+  }, {
+    "tStartMs": 12670,
+    "dDurationMs": 2770,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 12680,
+    "dDurationMs": 4350,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "My"
+    }, {
+      "utf8": " job",
+      "tOffsetMs": 240
+    }, {
+      "utf8": " is",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 1040
+    }, {
+      "utf8": " find",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 1600
+    }, {
+      "utf8": " ideal",
+      "tOffsetMs": 1800
+    }, {
+      "utf8": " one",
+      "tOffsetMs": 2160
+    }, {
+      "utf8": " for",
+      "tOffsetMs": 2400
+    }, {
+      "utf8": " your",
+      "tOffsetMs": 2560
+    } ]
+  }, {
+    "tStartMs": 15430,
+    "dDurationMs": 1600,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 15440,
+    "dDurationMs": 3880,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "home."
+    }, {
+      "utf8": " Maybe",
+      "tOffsetMs": 240
+    }, {
+      "utf8": " your",
+      "tOffsetMs": 600
+    }, {
+      "utf8": " home",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " is",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 1440
+    }, {
+      "utf8": " perfect",
+      "tOffsetMs": 1520
+    } ]
+  }, {
+    "tStartMs": 17020,
+    "dDurationMs": 2300,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 17030,
+    "dDurationMs": 4210,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[music]"
+    }, {
+      "utf8": " match",
+      "tOffsetMs": 450
+    }, {
+      "utf8": " for",
+      "tOffsetMs": 850
+    }, {
+      "utf8": " first-time",
+      "tOffsetMs": 1330
+    }, {
+      "utf8": " buyers",
+      "tOffsetMs": 1810
+    } ]
+  }, {
+    "tStartMs": 19310,
+    "dDurationMs": 1930,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 19320,
+    "dDurationMs": 4000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "looking"
+    }, {
+      "utf8": " for",
+      "tOffsetMs": 280
+    }, {
+      "utf8": " affordability",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1320
+    }, {
+      "utf8": " move-in",
+      "tOffsetMs": 1560
+    } ]
+  }, {
+    "tStartMs": 21230,
+    "dDurationMs": 2090,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 21240,
+    "dDurationMs": 4560,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "ready"
+    }, {
+      "utf8": " ease,",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " growing",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " families",
+      "tOffsetMs": 1320
+    }, {
+      "utf8": " [music]",
+      "tOffsetMs": 1685
+    }, {
+      "utf8": " who",
+      "tOffsetMs": 1960
+    } ]
+  }, {
+    "tStartMs": 23310,
+    "dDurationMs": 2490,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 23320,
+    "dDurationMs": 5480,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "need"
+    }, {
+      "utf8": " more",
+      "tOffsetMs": 240
+    }, {
+      "utf8": " bedrooms,",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 1240
+    }, {
+      "utf8": " yard,",
+      "tOffsetMs": 1360
+    }, {
+      "utf8": " or",
+      "tOffsetMs": 1960
+    }, {
+      "utf8": " great",
+      "tOffsetMs": 2120
+    } ]
+  }, {
+    "tStartMs": 25790,
+    "dDurationMs": 3010,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 25800,
+    "dDurationMs": 5320,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "schools,"
+    }, {
+      "utf8": " downsizers",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " or",
+      "tOffsetMs": 1600
+    }, {
+      "utf8": " investors",
+      "tOffsetMs": 1800
+    }, {
+      "utf8": " seeking",
+      "tOffsetMs": 2600
+    } ]
+  }, {
+    "tStartMs": 28790,
+    "dDurationMs": 2330,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 28800,
+    "dDurationMs": 4720,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "low"
+    }, {
+      "utf8": " maintenance",
+      "tOffsetMs": 240
+    }, {
+      "utf8": " or",
+      "tOffsetMs": 1040
+    }, {
+      "utf8": " rental",
+      "tOffsetMs": 1080
+    }, {
+      "utf8": " potential.",
+      "tOffsetMs": 1440
+    } ]
+  }, {
+    "tStartMs": 31110,
+    "dDurationMs": 2410,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 31120,
+    "dDurationMs": 4680,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Once"
+    }, {
+      "utf8": " [music]",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " I",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " know",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " who",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " we're",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " targeting,",
+      "tOffsetMs": 1400
+    } ]
+  }, {
+    "tStartMs": 33510,
+    "dDurationMs": 2290,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 33520,
+    "dDurationMs": 4470,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "I"
+    }, {
+      "utf8": " tailor",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " everything.",
+      "tOffsetMs": 600
+    }, {
+      "utf8": " Photos",
+      "tOffsetMs": 1520
+    }, {
+      "utf8": " that",
+      "tOffsetMs": 1920
+    } ]
+  }, {
+    "tStartMs": 35790,
+    "dDurationMs": 2200,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 35800,
+    "dDurationMs": 4600,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "highlight"
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " lifestyle",
+      "tOffsetMs": 880
+    }, {
+      "utf8": " that",
+      "tOffsetMs": 1320
+    }, {
+      "utf8": " they",
+      "tOffsetMs": 1480
+    }, {
+      "utf8": " want,",
+      "tOffsetMs": 1640
+    } ]
+  }, {
+    "tStartMs": 37980,
+    "dDurationMs": 2420,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 37990,
+    "dDurationMs": 5530,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[music]"
+    }, {
+      "utf8": " strategic",
+      "tOffsetMs": 50
+    }, {
+      "utf8": " pricing",
+      "tOffsetMs": 730
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 1370
+    }, {
+      "utf8": " match",
+      "tOffsetMs": 1570
+    }, {
+      "utf8": " their",
+      "tOffsetMs": 2170
+    } ]
+  }, {
+    "tStartMs": 40390,
+    "dDurationMs": 3130,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 40400,
+    "dDurationMs": 5320,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "expectations,"
+    }, {
+      "utf8": " ads",
+      "tOffsetMs": 1240
+    }, {
+      "utf8": " that",
+      "tOffsetMs": 1520
+    }, {
+      "utf8": " show",
+      "tOffsetMs": 1720
+    }, {
+      "utf8": " exactly",
+      "tOffsetMs": 2000
+    } ]
+  }, {
+    "tStartMs": 43510,
+    "dDurationMs": 2210,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 43520,
+    "dDurationMs": 4840,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "where"
+    }, {
+      "utf8": " they're",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " searching",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " online",
+      "tOffsetMs": 1120
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1920
+    } ]
+  }, {
+    "tStartMs": 45710,
+    "dDurationMs": 2650,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 45720,
+    "dDurationMs": 3680,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "offline."
+    }, {
+      "utf8": " Marketing",
+      "tOffsetMs": 680
+    }, {
+      "utf8": " isn't",
+      "tOffsetMs": 1240
+    }, {
+      "utf8": " about",
+      "tOffsetMs": 1640
+    }, {
+      "utf8": " reaching",
+      "tOffsetMs": 2120
+    } ]
+  }, {
+    "tStartMs": 48350,
+    "dDurationMs": 1050,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 48360,
+    "dDurationMs": 3240,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "everyone,"
+    }, {
+      "utf8": " [music]",
+      "tOffsetMs": 110
+    } ]
+  }, {
+    "tStartMs": 49390,
+    "dDurationMs": 2210,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 49400,
+    "dDurationMs": 5000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "it's"
+    }, {
+      "utf8": " about",
+      "tOffsetMs": 240
+    }, {
+      "utf8": " reaching",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 1040
+    }, {
+      "utf8": " right",
+      "tOffsetMs": 1280
+    }, {
+      "utf8": " one.",
+      "tOffsetMs": 1680
+    } ]
+  }, {
+    "tStartMs": 51590,
+    "dDurationMs": 2810,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 51600,
+    "dDurationMs": 4600,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Curious"
+    }, {
+      "utf8": " who",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " your",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " home",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " is",
+      "tOffsetMs": 1120
+    }, {
+      "utf8": " ideal",
+      "tOffsetMs": 1280
+    }, {
+      "utf8": " for?",
+      "tOffsetMs": 1640
+    }, {
+      "utf8": " DM",
+      "tOffsetMs": 2480
+    } ]
+  }, {
+    "tStartMs": 54390,
+    "dDurationMs": 1810,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 54400,
+    "dDurationMs": 4680,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "me"
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " word",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " buyer",
+      "tOffsetMs": 600
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1120
+    }, {
+      "utf8": " [music]",
+      "tOffsetMs": 1275
+    }, {
+      "utf8": " I'll",
+      "tOffsetMs": 1320
+    }, {
+      "utf8": " break",
+      "tOffsetMs": 1480
+    } ]
+  }, {
+    "tStartMs": 56190,
+    "dDurationMs": 2890,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 56200,
+    "dDurationMs": 5720,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "it"
+    }, {
+      "utf8": " down",
+      "tOffsetMs": 120
+    }, {
+      "utf8": " based",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " on",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " your",
+      "tOffsetMs": 880
+    }, {
+      "utf8": " home's",
+      "tOffsetMs": 1080
+    }, {
+      "utf8": " location,",
+      "tOffsetMs": 1800
+    } ]
+  }, {
+    "tStartMs": 59070,
+    "dDurationMs": 2850,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 59080,
+    "dDurationMs": 4880,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "features,"
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " market",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " demand.",
+      "tOffsetMs": 1600
+    }, {
+      "utf8": " Let's",
+      "tOffsetMs": 2400
+    }, {
+      "utf8": " get",
+      "tOffsetMs": 2680
+    } ]
+  }, {
+    "tStartMs": 61910,
+    "dDurationMs": 2050,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 61920,
+    "dDurationMs": 5720,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "your"
+    }, {
+      "utf8": " home",
+      "tOffsetMs": 120
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " front",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " right",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " eyes",
+      "tOffsetMs": 1400
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1840
+    } ]
+  }, {
+    "tStartMs": 63950,
+    "dDurationMs": 3690,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 63960,
+    "dDurationMs": 3680,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "sold"
+    }, {
+      "utf8": " [music]",
+      "tOffsetMs": 230
+    }, {
+      "utf8": " faster",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " for",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " top",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " dollar.",
+      "tOffsetMs": 1200
+    } ]
+  } ]
+}

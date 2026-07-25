@@ -1,0 +1,117 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 10400,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 0,
+    "dDurationMs": 3440,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Leaves"
+    }, {
+      "utf8": " will",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " [music]",
+      "tOffsetMs": 1309
+    }, {
+      "utf8": " soon",
+      "tOffsetMs": 1600
+    }, {
+      "utf8": " grow",
+      "tOffsetMs": 2120
+    }, {
+      "utf8": " from",
+      "tOffsetMs": 2600
+    } ]
+  }, {
+    "tStartMs": 2610,
+    "dDurationMs": 830,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 2620,
+    "dDurationMs": 4300,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[singing]"
+    } ]
+  }, {
+    "tStartMs": 3430,
+    "dDurationMs": 3490,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 3440,
+    "dDurationMs": 6960,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "the"
+    }, {
+      "utf8": " bareness",
+      "tOffsetMs": 80
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 1560
+    }, {
+      "utf8": " trees",
+      "tOffsetMs": 1760
+    } ]
+  }, {
+    "tStartMs": 6910,
+    "dDurationMs": 3490,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 6920,
+    "dDurationMs": 3480,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "and"
+    }, {
+      "utf8": " all",
+      "tOffsetMs": 200
+    }, {
+      "utf8": " [music and singing]",
+      "tOffsetMs": 285
+    }, {
+      "utf8": " will",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " be",
+      "tOffsetMs": 1080
+    } ]
+  } ]
+}

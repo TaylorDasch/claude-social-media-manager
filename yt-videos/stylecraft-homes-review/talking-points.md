@@ -57,7 +57,7 @@
 - Bridge: "Which brings me to the field — and the builder that matched them."
 
 **FIELD / COMPARISON (~7:15–8:30)** — page H2: *How Does Stylecraft Compare?* — *[G10 3-col]*
-- Footprint ONE breath: **12 communities** (just pushed into **Troy**), 4 core ISDs, entry **$225,900** South Pointe (cheapest new-construction entry in the county), **tops out just over $400K** as The Homestead (Academy ISD) sells down to its **last 2 specs ($337.9K–$401.9K)**. Full list on the page. The lanes are what matter.
+- Footprint ONE breath: **12 communities** (just pushed into **Troy**), 4 core ISDs, entry **$225,900** South Pointe, **tops out just over $400K** as The Homestead (Academy ISD) sells down to its **last 2 specs ($337.9K–$401.9K)**. Full list on the page. The lanes are what matter.
 - Lowest payment lane — **the reveal**: D.R. Horton advertises the SAME 4.99% (FHA + VA, own captive lender), window currently runs later than Stylecraft's. **Both dates will rotate. The move won't: two builders matched on rate → make them race.**
 - Stylecraft still separates on: $20K flex ALTERNATIVE (Horton = price cuts, no published cash figure), USDA eligibility, $225,900 entry.
 - **VA wrinkle (honest, Fort Hood crowd — keep it simple):** "on VA loans, Horton's advertised APR currently runs a touch lower. Don't overthink why — make both lenders put the full APR in writing, not the billboard rate, and race them. That one email can be worth real money."

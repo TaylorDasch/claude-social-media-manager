@@ -1,0 +1,241 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 25040,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 2560,
+    "dDurationMs": 4000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "I'm"
+    }, {
+      "utf8": " taking",
+      "tOffsetMs": 80
+    }, {
+      "utf8": " her",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 600
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " place",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " Umi",
+      "tOffsetMs": 1520
+    }, {
+      "utf8": " Sushi.",
+      "tOffsetMs": 1840
+    } ]
+  }, {
+    "tStartMs": 4750,
+    "dDurationMs": 1810,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 4760,
+    "dDurationMs": 4320,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "I've"
+    }, {
+      "utf8": " been",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " here",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " before.",
+      "tOffsetMs": 680
+    }, {
+      "utf8": " She",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " said",
+      "tOffsetMs": 1400
+    }, {
+      "utf8": " she'd",
+      "tOffsetMs": 1640
+    } ]
+  }, {
+    "tStartMs": 6550,
+    "dDurationMs": 2530,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 6560,
+    "dDurationMs": 5040,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "been"
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " here",
+      "tOffsetMs": 280
+    }, {
+      "utf8": " before,",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " too.",
+      "tOffsetMs": 840
+    } ]
+  }, {
+    "tStartMs": 9070,
+    "dDurationMs": 2530,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 9080,
+    "dDurationMs": 2520,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Look"
+    }, {
+      "utf8": " at",
+      "tOffsetMs": 200
+    }, {
+      "utf8": " her.",
+      "tOffsetMs": 320
+    } ]
+  }, {
+    "tStartMs": 12390,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 12400,
+    "dDurationMs": 3320,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Let's"
+    }, {
+      "utf8": " go",
+      "tOffsetMs": 280
+    }, {
+      "utf8": " back.",
+      "tOffsetMs": 480
+    } ]
+  }, {
+    "tStartMs": 16550,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 16560,
+    "dDurationMs": 5480,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Yes."
+    }, {
+      "utf8": " Okay,",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " good.",
+      "tOffsetMs": 1360
+    } ]
+  }, {
+    "tStartMs": 19110,
+    "dDurationMs": 2930,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 19120,
+    "dDurationMs": 5920,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "I"
+    }, {
+      "utf8": " have",
+      "tOffsetMs": 120
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 240
+    }, {
+      "utf8": " start",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " with",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " our",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " hot",
+      "tOffsetMs": 1520
+    }, {
+      "utf8": " pot",
+      "tOffsetMs": 1800
+    }, {
+      "utf8": " soup",
+      "tOffsetMs": 2200
+    } ]
+  }, {
+    "tStartMs": 22030,
+    "dDurationMs": 3010,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 22040,
+    "dDurationMs": 3000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "and"
+    }, {
+      "utf8": " some",
+      "tOffsetMs": 120
+    }, {
+      "utf8": " sushi.",
+      "tOffsetMs": 360
+    } ]
+  } ]
+}

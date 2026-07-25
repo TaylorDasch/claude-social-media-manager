@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-24T23:05:51.855Z",
+  "source_finding_groups": 140,
+  "strict_standard": "Final official disposition, or complete authenticated date-matched evidence proving every element of an applicable self-executing requirement and eliminating material exceptions.",
+  "counts": {
+    "adjudicated_or_objectively_established_violation": 0,
+    "confirmed_factual_inaccuracy_not_a_proven_violation": 1,
+    "unresolved_missing_evidence_not_publishable_as_violation": 96,
+    "no_proven_violation": 43
+  },
+  "published_proven_violation_ids": [],
+  "confirmed_factual_correction_ids": [
+    "SH-02"
+  ],
+  "taylor_channel_ids_excluded": true,
+  "source_ledger_preserved": true
+}

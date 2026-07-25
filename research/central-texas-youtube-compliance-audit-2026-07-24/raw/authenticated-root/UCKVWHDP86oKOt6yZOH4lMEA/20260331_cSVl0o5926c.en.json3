@@ -1,0 +1,441 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 38000,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 0,
+    "dDurationMs": 4360,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Selling"
+    }, {
+      "utf8": " soon?",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " Do",
+      "tOffsetMs": 1040
+    }, {
+      "utf8": " this",
+      "tOffsetMs": 1400
+    }, {
+      "utf8": " before",
+      "tOffsetMs": 1800
+    }, {
+      "utf8": " putting",
+      "tOffsetMs": 2160
+    } ]
+  }, {
+    "tStartMs": 2430,
+    "dDurationMs": 1930,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 2440,
+    "dDurationMs": 4640,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "your"
+    }, {
+      "utf8": " home",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " on",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " market.",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " Boost",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " curb",
+      "tOffsetMs": 1640
+    } ]
+  }, {
+    "tStartMs": 4350,
+    "dDurationMs": 2730,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 4360,
+    "dDurationMs": 5240,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "appeal."
+    }, {
+      "utf8": " More",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " showings",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " equals",
+      "tOffsetMs": 1520
+    }, {
+      "utf8": " more",
+      "tOffsetMs": 2240
+    } ]
+  }, {
+    "tStartMs": 7070,
+    "dDurationMs": 2530,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 7080,
+    "dDurationMs": 4480,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "offers."
+    }, {
+      "utf8": " If",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " your",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " home",
+      "tOffsetMs": 1040
+    }, {
+      "utf8": " looks",
+      "tOffsetMs": 1560
+    }, {
+      "utf8": " clean,",
+      "tOffsetMs": 1840
+    } ]
+  }, {
+    "tStartMs": 9590,
+    "dDurationMs": 1970,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 9600,
+    "dDurationMs": 4880,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "welcoming"
+    }, {
+      "utf8": " from",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " street,",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " it",
+      "tOffsetMs": 1600
+    }, {
+      "utf8": " will",
+      "tOffsetMs": 1760
+    } ]
+  }, {
+    "tStartMs": 11550,
+    "dDurationMs": 2930,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 11560,
+    "dDurationMs": 5480,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "attract"
+    }, {
+      "utf8": " more",
+      "tOffsetMs": 680
+    }, {
+      "utf8": " interest.",
+      "tOffsetMs": 1080
+    }, {
+      "utf8": " Before",
+      "tOffsetMs": 1920
+    }, {
+      "utf8": " you",
+      "tOffsetMs": 2320
+    }, {
+      "utf8": " list,",
+      "tOffsetMs": 2480
+    } ]
+  }, {
+    "tStartMs": 14470,
+    "dDurationMs": 2570,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 14480,
+    "dDurationMs": 5360,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "fix"
+    }, {
+      "utf8": " minor",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " repairs.",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " Buyers",
+      "tOffsetMs": 1520
+    }, {
+      "utf8": " notice",
+      "tOffsetMs": 2040
+    } ]
+  }, {
+    "tStartMs": 17030,
+    "dDurationMs": 2810,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 17040,
+    "dDurationMs": 5720,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "everything."
+    }, {
+      "utf8": " A",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " dripping",
+      "tOffsetMs": 1040
+    }, {
+      "utf8": " faucet,",
+      "tOffsetMs": 1480
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 2240
+    }, {
+      "utf8": " loose",
+      "tOffsetMs": 2360
+    } ]
+  }, {
+    "tStartMs": 19830,
+    "dDurationMs": 2930,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 19840,
+    "dDurationMs": 6320,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "door"
+    }, {
+      "utf8": " knob,",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " or",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 1040
+    }, {
+      "utf8": " cracked",
+      "tOffsetMs": 1160
+    }, {
+      "utf8": " tile",
+      "tOffsetMs": 1800
+    }, {
+      "utf8": " signal",
+      "tOffsetMs": 2280
+    } ]
+  }, {
+    "tStartMs": 22750,
+    "dDurationMs": 3410,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 22760,
+    "dDurationMs": 5960,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "neglect."
+    }, {
+      "utf8": " Deep",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " clean",
+      "tOffsetMs": 1240
+    }, {
+      "utf8": " everything.",
+      "tOffsetMs": 1800
+    }, {
+      "utf8": " It",
+      "tOffsetMs": 2640
+    }, {
+      "utf8": " sends",
+      "tOffsetMs": 2920
+    } ]
+  }, {
+    "tStartMs": 26150,
+    "dDurationMs": 2570,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 26160,
+    "dDurationMs": 5080,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "a"
+    }, {
+      "utf8": " powerful",
+      "tOffsetMs": 200
+    }, {
+      "utf8": " signal.",
+      "tOffsetMs": 1120
+    }, {
+      "utf8": " Clean",
+      "tOffsetMs": 1680
+    }, {
+      "utf8": " homes",
+      "tOffsetMs": 1960
+    }, {
+      "utf8": " feel",
+      "tOffsetMs": 2320
+    } ]
+  }, {
+    "tStartMs": 28710,
+    "dDurationMs": 2530,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 28720,
+    "dDurationMs": 5240,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "loved"
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " loved",
+      "tOffsetMs": 680
+    }, {
+      "utf8": " homes",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " sell",
+      "tOffsetMs": 1360
+    }, {
+      "utf8": " faster",
+      "tOffsetMs": 1560
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 2320
+    } ]
+  }, {
+    "tStartMs": 31230,
+    "dDurationMs": 2730,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 31240,
+    "dDurationMs": 6760,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "for"
+    }, {
+      "utf8": " more",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " money.",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " These",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " small",
+      "tOffsetMs": 1280
+    }, {
+      "utf8": " steps",
+      "tOffsetMs": 1640
+    }, {
+      "utf8": " equals",
+      "tOffsetMs": 2080
+    } ]
+  }, {
+    "tStartMs": 33950,
+    "dDurationMs": 4050,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 33960,
+    "dDurationMs": 4040,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "thousands"
+    }, {
+      "utf8": " more",
+      "tOffsetMs": 680
+    }, {
+      "utf8": " at",
+      "tOffsetMs": 1120
+    }, {
+      "utf8": " closing.",
+      "tOffsetMs": 1360
+    } ]
+  } ]
+}

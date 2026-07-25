@@ -1,0 +1,662 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 64440,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 9680,
+    "dDurationMs": 4760,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "This"
+    }, {
+      "utf8": " Century",
+      "tOffsetMs": 240
+    }, {
+      "utf8": " 21",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " Premier",
+      "tOffsetMs": 1360
+    }, {
+      "utf8": " Realtors",
+      "tOffsetMs": 1800
+    } ]
+  }, {
+    "tStartMs": 12030,
+    "dDurationMs": 2410,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 12040,
+    "dDurationMs": 5000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "property"
+    }, {
+      "utf8": " video",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " is",
+      "tOffsetMs": 1040
+    }, {
+      "utf8": " presented",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " by",
+      "tOffsetMs": 1720
+    }, {
+      "utf8": " Robert",
+      "tOffsetMs": 1920
+    } ]
+  }, {
+    "tStartMs": 14430,
+    "dDurationMs": 2610,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 14440,
+    "dDurationMs": 5865,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Herrings"
+    }, {
+      "utf8": " Jr.",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " Ah,",
+      "tOffsetMs": 1640
+    } ]
+  }, {
+    "tStartMs": 17030,
+    "dDurationMs": 3275,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 17040,
+    "dDurationMs": 4120,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "room"
+    }, {
+      "utf8": " at",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " last.",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " Relax",
+      "tOffsetMs": 1640
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 2080
+    }, {
+      "utf8": " over",
+      "tOffsetMs": 2240
+    }, {
+      "utf8": " 3,300",
+      "tOffsetMs": 2520
+    } ]
+  }, {
+    "tStartMs": 20295,
+    "dDurationMs": 865,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 20305,
+    "dDurationMs": 4895,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[music]"
+    } ]
+  }, {
+    "tStartMs": 21150,
+    "dDurationMs": 4050,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 21160,
+    "dDurationMs": 5040,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "sq"
+    }, {
+      "utf8": " ft,",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " six",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " bedrooms,",
+      "tOffsetMs": 1280
+    }, {
+      "utf8": " 3.5",
+      "tOffsetMs": 2160
+    }, {
+      "utf8": " bathrooms,",
+      "tOffsetMs": 3200
+    }, {
+      "utf8": " two",
+      "tOffsetMs": 3880
+    } ]
+  }, {
+    "tStartMs": 25190,
+    "dDurationMs": 1010,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 25200,
+    "dDurationMs": 1080,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "living"
+    }, {
+      "utf8": " area,",
+      "tOffsetMs": 360
+    } ]
+  }, {
+    "tStartMs": 26190,
+    "dDurationMs": 90,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 26200,
+    "dDurationMs": 2400,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e [music]",
+      "isSpeakerChange": 1
+    } ]
+  }, {
+    "tStartMs": 26270,
+    "dDurationMs": 2330,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 26280,
+    "dDurationMs": 4560,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e one",
+      "isSpeakerChange": 1
+    }, {
+      "utf8": " downstairs",
+      "tOffsetMs": 240
+    }, {
+      "utf8": " with",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " corner",
+      "tOffsetMs": 1120
+    }, {
+      "utf8": " fireplace,",
+      "tOffsetMs": 1520
+    } ]
+  }, {
+    "tStartMs": 28590,
+    "dDurationMs": 2250,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 28600,
+    "dDurationMs": 4240,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "and"
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 120
+    }, {
+      "utf8": " second",
+      "tOffsetMs": 200
+    }, {
+      "utf8": " one",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " upstairs.",
+      "tOffsetMs": 880
+    } ]
+  }, {
+    "tStartMs": 30830,
+    "dDurationMs": 2010,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 30840,
+    "dDurationMs": 4440,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Large"
+    }, {
+      "utf8": " friendly",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " kitchen",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " with",
+      "tOffsetMs": 1279
+    }, {
+      "utf8": " stainless",
+      "tOffsetMs": 1439
+    } ]
+  }, {
+    "tStartMs": 32830,
+    "dDurationMs": 2450,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 32840,
+    "dDurationMs": 5240,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "steel"
+    }, {
+      "utf8": " /",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " black",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " appliances,",
+      "tOffsetMs": 1040
+    }, {
+      "utf8": " [music]",
+      "tOffsetMs": 1875
+    }, {
+      "utf8": " former",
+      "tOffsetMs": 2120
+    } ]
+  }, {
+    "tStartMs": 35270,
+    "dDurationMs": 2810,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 35280,
+    "dDurationMs": 4675,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "dining"
+    }, {
+      "utf8": " area,",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " main",
+      "tOffsetMs": 1240
+    }, {
+      "utf8": " bedroom",
+      "tOffsetMs": 1600
+    }, {
+      "utf8": " downstairs,",
+      "tOffsetMs": 2040
+    } ]
+  }, {
+    "tStartMs": 38070,
+    "dDurationMs": 1885,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 38080,
+    "dDurationMs": 4040,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "and"
+    }, {
+      "utf8": " five",
+      "tOffsetMs": 200
+    }, {
+      "utf8": " minor",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " bedrooms",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " upstairs.",
+      "tOffsetMs": 1440
+    } ]
+  }, {
+    "tStartMs": 39945,
+    "dDurationMs": 2175,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 39955,
+    "dDurationMs": 4245,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[music]"
+    }, {
+      "utf8": " Granite",
+      "tOffsetMs": 445
+    }, {
+      "utf8": " countertops",
+      "tOffsetMs": 885
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 1565
+    }, {
+      "utf8": " kitchen",
+      "tOffsetMs": 1725
+    } ]
+  }, {
+    "tStartMs": 42110,
+    "dDurationMs": 2090,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 42120,
+    "dDurationMs": 3960,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "and"
+    }, {
+      "utf8": " all",
+      "tOffsetMs": 200
+    }, {
+      "utf8": " bathrooms,",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " laminate",
+      "tOffsetMs": 1400
+    }, {
+      "utf8": " wood",
+      "tOffsetMs": 1920
+    } ]
+  }, {
+    "tStartMs": 44190,
+    "dDurationMs": 1890,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 44200,
+    "dDurationMs": 4280,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "flooring"
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " kitchen,",
+      "tOffsetMs": 600
+    }, {
+      "utf8": " dining,",
+      "tOffsetMs": 1320
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1720
+    } ]
+  }, {
+    "tStartMs": 46070,
+    "dDurationMs": 2410,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 46080,
+    "dDurationMs": 4000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "downstairs"
+    }, {
+      "utf8": " living",
+      "tOffsetMs": 680
+    }, {
+      "utf8": " area.",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " Oversized",
+      "tOffsetMs": 1720
+    } ]
+  }, {
+    "tStartMs": 48470,
+    "dDurationMs": 1610,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 48480,
+    "dDurationMs": 4200,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "covered"
+    }, {
+      "utf8": " patio",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " with",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " privacy",
+      "tOffsetMs": 1080
+    }, {
+      "utf8": " [music]",
+      "tOffsetMs": 1300
+    } ]
+  }, {
+    "tStartMs": 50070,
+    "dDurationMs": 2610,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 50080,
+    "dDurationMs": 3920,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "fenced"
+    }, {
+      "utf8": " backyard.",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " Room",
+      "tOffsetMs": 1640
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 2000
+    }, {
+      "utf8": " stretch",
+      "tOffsetMs": 2120
+    } ]
+  }, {
+    "tStartMs": 52670,
+    "dDurationMs": 1330,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 52680,
+    "dDurationMs": 4160,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "everywhere."
+    } ]
+  }, {
+    "tStartMs": 53990,
+    "dDurationMs": 2850,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 54000,
+    "dDurationMs": 4840,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Spacious"
+    }, {
+      "utf8": " living",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " at",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " its",
+      "tOffsetMs": 1160
+    }, {
+      "utf8": " best.",
+      "tOffsetMs": 1360
+    }, {
+      "utf8": " For",
+      "tOffsetMs": 2440
+    }, {
+      "utf8": " more",
+      "tOffsetMs": 2560
+    } ]
+  }, {
+    "tStartMs": 56830,
+    "dDurationMs": 2010,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 56840,
+    "dDurationMs": 4600,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "information,"
+    }, {
+      "utf8": " review",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 1280
+    }, {
+      "utf8": " details",
+      "tOffsetMs": 1400
+    }, {
+      "utf8": " [music]",
+      "tOffsetMs": 1455
+    } ]
+  }, {
+    "tStartMs": 58830,
+    "dDurationMs": 2610,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 58840,
+    "dDurationMs": 5600,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "below"
+    }, {
+      "utf8": " or",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " contact",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " Robert",
+      "tOffsetMs": 1120
+    }, {
+      "utf8": " Herrings",
+      "tOffsetMs": 1520
+    }, {
+      "utf8": " Jr.",
+      "tOffsetMs": 1960
+    }, {
+      "utf8": " at",
+      "tOffsetMs": 2400
+    } ]
+  }, {
+    "tStartMs": 61430,
+    "dDurationMs": 3010,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 61440,
+    "dDurationMs": 3000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "254"
+    } ]
+  } ]
+}

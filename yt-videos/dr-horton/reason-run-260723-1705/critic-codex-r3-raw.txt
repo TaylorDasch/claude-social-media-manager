@@ -1,0 +1,65 @@
+FATAL WEAKNESSES (must fix or kill):
+
+1. **“Same builder. Both real. … I’m Taylor Dasch with EG Realty.” / “IDENTITY + PROMISE — 0:13–0:30”** — The identity is sentence five, not sentence three, and is explicitly scheduled before 0:15. It fails both timing rules. — **Proposed rewrite:** “As I record this, two D.R. Horton Temple sales-office profiles show 4.9 on Google, while separate national pages sit near one star and the BBB customer-review average is 1.07—same company, all live. Those are different platforms, samples, and populations, checked July 2026; I’ll show you exactly what each does and does not prove. *[Hold until 0:15.]* I’m Taylor Dasch with EG Realty.”
+
+2. **“Stacked on top of the rate: the Red Tag event…”** — This materially claims the price cut and 4.99% rate combine. D.R. Horton’s published financing language says offers **may not be combinable**. A buyer could rely on this sentence and discover that taking the price cut forfeits the rate. [D.R. Horton’s offer terms](https://www.drhorton.com/texas/killeen-temple-waco/temple/pecan-creek) — **Proposed rewrite:** “Running alongside the rate campaign—but not necessarily combinable—the Red Tag event offered per-home price cuts. Get written confirmation for the specific home showing whether the cut and 4.99% rate can be used together.”
+
+3. **“The payment side is genuinely strong; the post-closing record is where those one-star reviews live.” / “The local Google profiles rate the sales offices — the point of sale. The national boards aggregate the whole company, including everything after move-in…” / “the national record documents a pattern of post-closing disputes…”** — The ratings do not establish when each reviewer posted, which transaction stage they reviewed, or a Temple-specific failure rate. This turns a defensible scope comparison into an unsupported business-practice story, creating avoidable Article 15 exposure. [NAR Article 15](https://www.nar.realtor/about-nar/governing-documents/code-of-ethics/2026-code-of-ethics-standards-of-practice) — **Proposed rewrite:** “These are self-selected pages with different geographic scopes and samples; they cannot be averaged or used to estimate a Temple buyer’s odds of a problem. As of July 24, BBB lists 741 complaints over three years, including 654 categorized as service or repair issues, but that national count is not normalized to closings and is not a defect rate for this house.” [BBB complaint breakdown](https://www.bbb.org/us/tx/arlington/profile/home-builders/dr-horton-americas-builder-0825-1000147885/complaints)
+
+4. **“The full write-up — community table, school zones, checklist — is at templetxhomes.net slash dr-horton…” / “Full written breakdown (last-verified date printed on the page)”** — A fresh fetch of the linked page still returns **Updated March 2026**, the expired 0.99% program, old price/community data, and an investor section containing rent and 1%-rule analysis. That directly contradicts the video and leaks investor framing into the Living in Temple funnel. [Current companion page](https://templetxhomes.net/dr-horton/) — **Proposed rewrite:** Do not publish the link until the July page is actually served from the origin/CDN and verified in an uncached browser. Until then: “Sources and filming-date notes are in the description; the written page is being refreshed.”
+
+5. **“TREC Information About Brokerage Services: [direct IABS 1-2 form link] · TREC Consumer Protection Notice: [direct CPN link]”** — These are literal placeholders, and the IABS label is not the full prescribed label. The final description needs a direct link to Taylor’s completed 2026 IABS 1-2, not a blank form. [TREC says IABS 1-2 is required in 2026](https://www.trec.texas.gov/node/2996), and explains the social-media link rules [here](https://www.trec.texas.gov/article/what-you-need-know-comply-our-social-media-rules). — **Proposed rewrite:** “Texas Real Estate Commission Information About Brokerage Services: [completed Taylor/EG Realty IABS 1-2 URL] · Texas Real Estate Commission Consumer Protection Notice: [current CPN URL].”
+
+MAJOR WEAKNESSES (must fix to ship cleanly):
+
+1. **“one of the lowest new-construction entry points here, though that pull is D.R. Horton only, not every builder.”** — The caveat admits the cited pull cannot support the comparison. — **Proposed rewrite:** “In my July 13 CTXMLS pull, the lowest D.R. Horton record was $195,000; D.R. Horton separately advertised Pecan Creek from $198,435.”
+
+2. **“Pecan Creek — … twenty-two actives.” / “Three Creeks–Colt Creek … eleven actives.”** — The package’s own source definition is active **plus pending**, and the [July 13 export](/Users/taylordasch_1/market-monitor/july-13-active-sold-pending-0-30.csv) contains no status field allowing those records to be called active. — **Proposed rewrite:** “Pecan Creek—twenty-two active/pending CTXMLS records” and “Three Creeks—eleven active/pending records.”
+
+3. **“The all-in payment … taxes and insurance in — runs … $2,808 a month FHA and $2,735 VA.”** — “All-in” is inaccurate. DHI’s published definition also includes mortgage insurance and HOA where applicable, while excluding utilities, maintenance, and other ownership costs. — **Proposed rewrite:** “DHI’s advertised total monthly-payment examples—P&I plus estimated property taxes, homeowners insurance, FHA mortgage insurance where applicable, and any included HOA estimate—were about $2,808 FHA and $2,735 VA.”
+
+4. **“on $300,000 of taxable value, before exemptions…”** — “Taxable value before exemptions” is internally contradictory; taxable value is the value after applicable exemptions. — **Proposed rewrite:** “On a $300,000 appraised value with no exemptions applied, that rate equals $2,349 annually; verify the parcel’s actual taxable value and exemptions.”
+
+5. **“Pecan Creek (Temple ISD) — Zillow, for a listed sample address…” / “pull a live Pecan Creek listing address on screen”** — The final candidate still contains a production placeholder rather than an identified, officially checked address. — **Proposed rewrite:** “For [full address], Temple ISD’s locator currently assigns [campuses]; Zillow displays [ratings], checked [date]. Confirm again before relying on either.”
+
+6. **“BBB: A+ letter grade / 1.07★ customer reviews / 742 complaints on file”** — The graphic omits that the profile is not BBB accredited, omits the 264-review denominator behind 1.07, and does not say the complaints cover headquarters and corporate-owned locations. It also already drifted to 741 complaints in the current BBB fetch. — **Proposed rewrite:** “BBB national headquarters/corporate-location profile: A+ rating · not accredited · 1.07/5 from 264 customer reviews · 741 complaints/3 years as of 7/24/26.”
+
+7. **“then file every finding through the warranty portal…”** — The script first says programs vary, then gives a universal submission channel. The delivered warranty booklet may impose different notice recipients or procedures. — **Proposed rewrite:** “Follow the notice and submission procedure in the warranty booklet delivered with your home; retain portal confirmations, emails, photos, and deadlines.”
+
+8. **“the eighty-page contract you sign”** — This becomes a universal claim before the later sample-document caveat appears. — **Proposed rewrite:** “the sample D.R. Horton purchase packet I reviewed, which ran past eighty pages.”
+
+9. **“85 Listings, 742 Complaints: The D.R. Horton Temple TX Data Review”** — This deliberately collides a local, point-in-time inventory count with a national three-year complaint count, inviting a false ratio. — **Proposed rewrite:** “85 Local Records: The D.R. Horton Temple TX Data Review.”
+
+10. **“D.R. Horton BBB: A+ AND 1.07 Stars at Once (Temple TX 2026)”** — The BBB score is from the national headquarters/corporate-location profile, not a Temple BBB profile. — **Proposed rewrite:** “D.R. Horton’s National BBB Profile: A+ and 1.07/5—What Temple Buyers Should Know.”
+
+11. **“‘…Best Deals Die September 30’ packaging line is available and defensible…”** — It is not defensible. The printed deadline proves when this offer ends, not that it is the “best” offer or that better terms cannot follow. — **Proposed rewrite:** Delete it. Use: “D.R. Horton’s 4.99% Offer: The September 30 Close-By Date.”
+
+12. **“The other Temple builder at 4.99% when I filmed it — my Stylecraft Homes review … [LINK]”** — The final description still contains an unresolved publishing placeholder. — **Proposed rewrite:** Insert the actual dated Stylecraft URL with a current-terms warning.
+
+MINOR WEAKNESSES (polish):
+
+1. **“on a Baylor Scott and White paycheck trying to land new construction under two-fifty”** — This sounds reductive and assumes an employer-specific budget; a BSW physician chat will read it as crude keyword insertion. — **Proposed rewrite:** “relocating for a Baylor Scott & White role and comparing payment-first new construction near Temple.”
+
+2. **“A-plus and one star can both be accurate at once.”** — The ratings can coexist; that does not make either an accurate measurement of build quality. — **Proposed rewrite:** “An A-plus rating and a 1.07 customer-review average can appear simultaneously because they use different methodologies.”
+
+3. **“every competitor thumbnail is a house plus the word REVIEW.”** — “Every” is an unshown research claim. — **Proposed rewrite:** “Most thumbnails in the sampled search results used a house plus the word REVIEW.”
+
+4. **“Why Are D.R. Horton Homes So Cheap?”** — It matches a search query but needlessly insults existing owners. — **Proposed rewrite:** “Why D.R. Horton Costs Less in Temple: The Tradeoffs.”
+
+DOMAIN CHECKS:
+
+- Identity timing: **FAIL** — identity is sentence five and begins at approximately 0:13.
+- Banned vocabulary: **clean** — “Hidden Trails” is a proper community name, not “hidden gem.”
+- Lane discipline: **FAIL** — video script passes, but its linked companion page contains explicit buy-and-hold, rent, and 1%-rule analysis.
+- Forecast surface: **FAIL** — the main script avoids an October prediction, but “Best Deals Die September 30” and the implied fiscal-year causation remain in the package.
+- Data provenance: **FAIL** — active/pending records are called active, the school address is unspecified, BBB denominators are incomplete, and “taxable value before exemptions” is invalid terminology.
+- Tone: **FAIL** — the review chapter converts incompatible samples into a cleaner causal story than the evidence supports.
+- BSW lender-channel discipline: **PASS** — no direct-to-physician outreach or physician-lending offer appears.
+- Commitment surface: **FAIL** — the current-page promise and unresolved `[LINK]` cannot be fulfilled as published.
+- Fair Housing: **PASS on wording** — no protected-class steering appears; the school-address verification remains a data defect.
+- TREC / IABS / MLS: **FAIL** — notice links are placeholders, incentive stacking is misstated, and MLS statuses are mislabeled.
+- One-creative-element rule: **PASS** — the Incentive Clock remains the only named device.
+
+VERDICT: REVISE
+
+ONE-LINE REASON: The package cannot publish while the identity timing fails, Red Tag stacking is misstated, review causality outruns the evidence, TREC links remain placeholders, and the linked page serves stale investor-mixed content.

@@ -1,0 +1,120 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 9320,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 1040,
+    "dDurationMs": 3600,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Did"
+    }, {
+      "utf8": " you",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " hear",
+      "tOffsetMs": 280
+    }, {
+      "utf8": " that",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " Vermont",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " had",
+      "tOffsetMs": 1080
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 1200
+    } ]
+  }, {
+    "tStartMs": 2350,
+    "dDurationMs": 2290,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 2360,
+    "dDurationMs": 6960,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "biggest"
+    }, {
+      "utf8": " jump",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " late",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " mortgage",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " payments,",
+      "tOffsetMs": 1600
+    } ]
+  }, {
+    "tStartMs": 4630,
+    "dDurationMs": 4690,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 4640,
+    "dDurationMs": 4680,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "but"
+    }, {
+      "utf8": " still",
+      "tOffsetMs": 200
+    }, {
+      "utf8": " has",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " pretty",
+      "tOffsetMs": 840
+    }, {
+      "utf8": " low",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " overall",
+      "tOffsetMs": 1600
+    }, {
+      "utf8": " rate?",
+      "tOffsetMs": 2160
+    } ]
+  } ]
+}

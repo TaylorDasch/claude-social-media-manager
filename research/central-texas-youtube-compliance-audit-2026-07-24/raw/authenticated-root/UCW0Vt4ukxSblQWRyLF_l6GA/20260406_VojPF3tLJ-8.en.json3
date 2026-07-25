@@ -1,0 +1,654 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 58840,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 9560,
+    "dDurationMs": 4400,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Welcome"
+    }, {
+      "utf8": " home",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " this",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " perfectly",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " situated",
+      "tOffsetMs": 1400
+    } ]
+  }, {
+    "tStartMs": 11510,
+    "dDurationMs": 2450,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 11520,
+    "dDurationMs": 5840,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "four"
+    }, {
+      "utf8": " bedroom,",
+      "tOffsetMs": 240
+    }, {
+      "utf8": " two",
+      "tOffsetMs": 880
+    }, {
+      "utf8": " bath",
+      "tOffsetMs": 1120
+    }, {
+      "utf8": " retreat",
+      "tOffsetMs": 1440
+    }, {
+      "utf8": " designed",
+      "tOffsetMs": 2040
+    } ]
+  }, {
+    "tStartMs": 13950,
+    "dDurationMs": 3410,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 13960,
+    "dDurationMs": 5960,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "for"
+    }, {
+      "utf8": " easy",
+      "tOffsetMs": 240
+    }, {
+      "utf8": " family",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " living.",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " Built",
+      "tOffsetMs": 1880
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 2200
+    }, {
+      "utf8": " 1994",
+      "tOffsetMs": 2320
+    } ]
+  }, {
+    "tStartMs": 17350,
+    "dDurationMs": 2570,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 17360,
+    "dDurationMs": 5120,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "and"
+    }, {
+      "utf8": " offering",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " 1,562",
+      "tOffsetMs": 600
+    } ]
+  }, {
+    "tStartMs": 19910,
+    "dDurationMs": 2570,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 19920,
+    "dDurationMs": 4400,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "square"
+    }, {
+      "utf8": " feet",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 1240
+    }, {
+      "utf8": " comfortable",
+      "tOffsetMs": 1360
+    }, {
+      "utf8": " space,",
+      "tOffsetMs": 1840
+    }, {
+      "utf8": " this",
+      "tOffsetMs": 2360
+    } ]
+  }, {
+    "tStartMs": 22470,
+    "dDurationMs": 1850,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 22480,
+    "dDurationMs": 4320,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "home"
+    }, {
+      "utf8": " places",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " you",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " minutes",
+      "tOffsetMs": 680
+    }, {
+      "utf8": " from",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " grocery",
+      "tOffsetMs": 1360
+    } ]
+  }, {
+    "tStartMs": 24310,
+    "dDurationMs": 2490,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 24320,
+    "dDurationMs": 4760,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "stores"
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " local",
+      "tOffsetMs": 680
+    }, {
+      "utf8": " dining.",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " The",
+      "tOffsetMs": 1920
+    }, {
+      "utf8": " functional",
+      "tOffsetMs": 1960
+    } ]
+  }, {
+    "tStartMs": 26790,
+    "dDurationMs": 2290,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 26800,
+    "dDurationMs": 4760,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "layout"
+    }, {
+      "utf8": " features",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " cozy",
+      "tOffsetMs": 880
+    }, {
+      "utf8": " living",
+      "tOffsetMs": 1280
+    }, {
+      "utf8": " area,",
+      "tOffsetMs": 1600
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 2160
+    } ]
+  }, {
+    "tStartMs": 29070,
+    "dDurationMs": 2490,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 29080,
+    "dDurationMs": 4280,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "large"
+    }, {
+      "utf8": " kitchen,",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " two-car",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " garage,",
+      "tOffsetMs": 1400
+    }, {
+      "utf8": " formal",
+      "tOffsetMs": 2080
+    } ]
+  }, {
+    "tStartMs": 31550,
+    "dDurationMs": 1810,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 31560,
+    "dDurationMs": 4040,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "dining,"
+    }, {
+      "utf8": " breakfast",
+      "tOffsetMs": 559
+    }, {
+      "utf8": " nook,",
+      "tOffsetMs": 1039
+    }, {
+      "utf8": " [music]",
+      "tOffsetMs": 1190
+    }, {
+      "utf8": " private",
+      "tOffsetMs": 1360
+    } ]
+  }, {
+    "tStartMs": 33350,
+    "dDurationMs": 2250,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 33360,
+    "dDurationMs": 4360,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "backyard,"
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 600
+    }, {
+      "utf8": " four",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " spacious",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " bedrooms",
+      "tOffsetMs": 1480
+    } ]
+  }, {
+    "tStartMs": 35590,
+    "dDurationMs": 2130,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 35600,
+    "dDurationMs": 4560,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "offering"
+    }, {
+      "utf8": " room",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " for",
+      "tOffsetMs": 680
+    }, {
+      "utf8": " everyone",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 1320
+    }, {
+      "utf8": " work",
+      "tOffsetMs": 1440
+    }, {
+      "utf8": " or",
+      "tOffsetMs": 1920
+    } ]
+  }, {
+    "tStartMs": 37710,
+    "dDurationMs": 2450,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 37720,
+    "dDurationMs": 4800,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "play."
+    }, {
+      "utf8": " Picture",
+      "tOffsetMs": 960
+    }, {
+      "utf8": " cozy",
+      "tOffsetMs": 1240
+    }, {
+      "utf8": " movie",
+      "tOffsetMs": 1600
+    }, {
+      "utf8": " nights",
+      "tOffsetMs": 1920
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 2280
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 2360
+    } ]
+  }, {
+    "tStartMs": 40150,
+    "dDurationMs": 2370,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 40160,
+    "dDurationMs": 3960,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "spacious"
+    }, {
+      "utf8": " living",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " room",
+      "tOffsetMs": 880
+    }, {
+      "utf8": " or",
+      "tOffsetMs": 1400
+    }, {
+      "utf8": " hosting",
+      "tOffsetMs": 1600
+    }, {
+      "utf8": " summer",
+      "tOffsetMs": 2000
+    } ]
+  }, {
+    "tStartMs": 42510,
+    "dDurationMs": 1610,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 42520,
+    "dDurationMs": 4280,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "barbecues"
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 680
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " fully",
+      "tOffsetMs": 880
+    }, {
+      "utf8": " fenced",
+      "tOffsetMs": 1240
+    }, {
+      "utf8": " [music]",
+      "tOffsetMs": 1365
+    } ]
+  }, {
+    "tStartMs": 44110,
+    "dDurationMs": 2690,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 44120,
+    "dDurationMs": 4320,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "backyard."
+    }, {
+      "utf8": " Your",
+      "tOffsetMs": 1240
+    }, {
+      "utf8": " new",
+      "tOffsetMs": 1320
+    }, {
+      "utf8": " convenient",
+      "tOffsetMs": 1560
+    }, {
+      "utf8": " lifestyle",
+      "tOffsetMs": 2120
+    } ]
+  }, {
+    "tStartMs": 46790,
+    "dDurationMs": 1650,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 46800,
+    "dDurationMs": 3400,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "awaits"
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " heart",
+      "tOffsetMs": 480
+    }, {
+      "utf8": " of",
+      "tOffsetMs": 720
+    }, {
+      "utf8": " Stratford",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " 3rd",
+      "tOffsetMs": 1360
+    } ]
+  }, {
+    "tStartMs": 48430,
+    "dDurationMs": 1770,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 48440,
+    "dDurationMs": 3720,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Edition,"
+    }, {
+      "utf8": " only",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " 5",
+      "tOffsetMs": 800
+    }, {
+      "utf8": " minutes",
+      "tOffsetMs": 1120
+    }, {
+      "utf8": " from",
+      "tOffsetMs": 1440
+    }, {
+      "utf8": " your",
+      "tOffsetMs": 1600
+    } ]
+  }, {
+    "tStartMs": 50190,
+    "dDurationMs": 1970,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 50200,
+    "dDurationMs": 4000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "morning"
+    }, {
+      "utf8": " coffee,",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " grocery",
+      "tOffsetMs": 1120
+    }, {
+      "utf8": " store,",
+      "tOffsetMs": 1520
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1880
+    } ]
+  }, {
+    "tStartMs": 52150,
+    "dDurationMs": 2050,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 52160,
+    "dDurationMs": 6680,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "your"
+    }, {
+      "utf8": " workplace.",
+      "tOffsetMs": 120
+    }, {
+      "utf8": " Close",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 1280
+    }, {
+      "utf8": " schools",
+      "tOffsetMs": 1400
+    }, {
+      "utf8": " and",
+      "tOffsetMs": 1880
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 2000
+    } ]
+  }, {
+    "tStartMs": 54190,
+    "dDurationMs": 4650,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 54200,
+    "dDurationMs": 4640,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "base,"
+    }, {
+      "utf8": " this",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " is",
+      "tOffsetMs": 760
+    }, {
+      "utf8": " the",
+      "tOffsetMs": 880
+    }, {
+      "utf8": " smart",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " move.",
+      "tOffsetMs": 1360
+    }, {
+      "utf8": " Book",
+      "tOffsetMs": 2240
+    }, {
+      "utf8": " your",
+      "tOffsetMs": 2400
+    } ]
+  } ]
+}

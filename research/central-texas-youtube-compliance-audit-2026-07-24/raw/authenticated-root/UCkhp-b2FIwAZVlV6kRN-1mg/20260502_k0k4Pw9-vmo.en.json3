@@ -1,0 +1,74 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 7400,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 560,
+    "dDurationMs": 3160,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Listen"
+    }, {
+      "utf8": " [music]",
+      "tOffsetMs": 94
+    }, {
+      "utf8": " carefully.",
+      "tOffsetMs": 400
+    } ]
+  }, {
+    "tStartMs": 4070,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 4080,
+    "dDurationMs": 3320,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "People"
+    }, {
+      "utf8": " are",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " going",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " talk.",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " You",
+      "tOffsetMs": 1000
+    }, {
+      "utf8": " have",
+      "tOffsetMs": 1120
+    } ]
+  } ]
+}

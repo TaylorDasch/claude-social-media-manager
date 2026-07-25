@@ -1,0 +1,454 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 35880,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 600,
+    "dDurationMs": 5294,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "When"
+    }, {
+      "utf8": " [music]",
+      "tOffsetMs": 54
+    }, {
+      "utf8": " you",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " call",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " my",
+      "tOffsetMs": 600
+    }, {
+      "utf8": " name,",
+      "tOffsetMs": 880
+    }, {
+      "utf8": " it's",
+      "tOffsetMs": 1760
+    }, {
+      "utf8": " like",
+      "tOffsetMs": 1880
+    } ]
+  }, {
+    "tStartMs": 2830,
+    "dDurationMs": 3064,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 2840,
+    "dDurationMs": 3320,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "a"
+    }, {
+      "utf8": " little",
+      "tOffsetMs": 40
+    }, {
+      "utf8": " prayer.",
+      "tOffsetMs": 640
+    }, {
+      "utf8": " I'm",
+      "tOffsetMs": 1400
+    }, {
+      "utf8": " down",
+      "tOffsetMs": 1520
+    }, {
+      "utf8": " on",
+      "tOffsetMs": 2080
+    }, {
+      "utf8": " my",
+      "tOffsetMs": 2240
+    }, {
+      "utf8": " knees.",
+      "tOffsetMs": 2560
+    } ]
+  }, {
+    "tStartMs": 5884,
+    "dDurationMs": 276,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 5894,
+    "dDurationMs": 2546,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e [music]",
+      "isSpeakerChange": 1
+    } ]
+  }, {
+    "tStartMs": 6150,
+    "dDurationMs": 2290,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 6160,
+    "dDurationMs": 3960,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e I",
+      "isSpeakerChange": 1
+    }, {
+      "utf8": " want",
+      "tOffsetMs": 40
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 520
+    }, {
+      "utf8": " take",
+      "tOffsetMs": 600
+    }, {
+      "utf8": " [singing]",
+      "tOffsetMs": 1045
+    }, {
+      "utf8": " you",
+      "tOffsetMs": 1120
+    }, {
+      "utf8": " there",
+      "tOffsetMs": 1480
+    }, {
+      "utf8": " in",
+      "tOffsetMs": 2040
+    } ]
+  }, {
+    "tStartMs": 8430,
+    "dDurationMs": 1690,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 8440,
+    "dDurationMs": 4280,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "the"
+    }, {
+      "utf8": " midnight",
+      "tOffsetMs": 120
+    }, {
+      "utf8": " hour.",
+      "tOffsetMs": 1000
+    } ]
+  }, {
+    "tStartMs": 10110,
+    "dDurationMs": 2610,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 10120,
+    "dDurationMs": 5640,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "I"
+    }, {
+      "utf8": " can",
+      "tOffsetMs": 120
+    }, {
+      "utf8": " feel",
+      "tOffsetMs": 360
+    }, {
+      "utf8": " your",
+      "tOffsetMs": 880
+    }, {
+      "utf8": " power",
+      "tOffsetMs": 1120
+    }, {
+      "utf8": " just",
+      "tOffsetMs": 1840
+    }, {
+      "utf8": " like",
+      "tOffsetMs": 2320
+    }, {
+      "utf8": " [music]",
+      "tOffsetMs": 2340
+    } ]
+  }, {
+    "tStartMs": 12710,
+    "dDurationMs": 3050,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 12720,
+    "dDurationMs": 4760,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "a"
+    }, {
+      "utf8": " prayer.",
+      "tOffsetMs": 320
+    }, {
+      "utf8": " You",
+      "tOffsetMs": 920
+    }, {
+      "utf8": " know",
+      "tOffsetMs": 1080
+    }, {
+      "utf8": " I'll",
+      "tOffsetMs": 1400
+    }, {
+      "utf8": " take",
+      "tOffsetMs": 1560
+    }, {
+      "utf8": " you.",
+      "tOffsetMs": 2120
+    } ]
+  }, {
+    "tStartMs": 15750,
+    "dDurationMs": 1730,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 15760,
+    "dDurationMs": 3720,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "When"
+    }, {
+      "utf8": " you",
+      "tOffsetMs": 280
+    }, {
+      "utf8": " call",
+      "tOffsetMs": 400
+    }, {
+      "utf8": " my",
+      "tOffsetMs": 680
+    }, {
+      "utf8": " name,",
+      "tOffsetMs": 920
+    } ]
+  }, {
+    "tStartMs": 17470,
+    "dDurationMs": 2010,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 17480,
+    "dDurationMs": 4920,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "it's"
+    }, {
+      "utf8": " like",
+      "tOffsetMs": 160
+    }, {
+      "utf8": " [music]",
+      "tOffsetMs": 205
+    }, {
+      "utf8": " a",
+      "tOffsetMs": 440
+    }, {
+      "utf8": " little",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " prayer.",
+      "tOffsetMs": 1280
+    } ]
+  }, {
+    "tStartMs": 19470,
+    "dDurationMs": 2930,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 19480,
+    "dDurationMs": 4755,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "I'm"
+    }, {
+      "utf8": " down",
+      "tOffsetMs": 80
+    }, {
+      "utf8": " on",
+      "tOffsetMs": 560
+    }, {
+      "utf8": " my",
+      "tOffsetMs": 680
+    }, {
+      "utf8": " knees.",
+      "tOffsetMs": 1200
+    }, {
+      "utf8": " I",
+      "tOffsetMs": 1760
+    }, {
+      "utf8": " want",
+      "tOffsetMs": 2000
+    }, {
+      "utf8": " to",
+      "tOffsetMs": 2360
+    }, {
+      "utf8": " take",
+      "tOffsetMs": 2440
+    } ]
+  }, {
+    "tStartMs": 22390,
+    "dDurationMs": 1845,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 22400,
+    "dDurationMs": 1920,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "you."
+    } ]
+  }, {
+    "tStartMs": 24225,
+    "dDurationMs": 95,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 24235,
+    "dDurationMs": 1925,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e [music]",
+      "isSpeakerChange": 1
+    } ]
+  }, {
+    "tStartMs": 24310,
+    "dDurationMs": 1850,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 24320,
+    "dDurationMs": 3960,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e Hey.",
+      "isSpeakerChange": 1
+    } ]
+  }, {
+    "tStartMs": 26150,
+    "dDurationMs": 2130,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 26160,
+    "dDurationMs": 2120,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Yeah."
+    } ]
+  }, {
+    "tStartMs": 29465,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 29475,
+    "dDurationMs": 2325,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e [music]",
+      "isSpeakerChange": 1
+    } ]
+  }, {
+    "tStartMs": 29670,
+    "dDurationMs": 2130,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 29680,
+    "dDurationMs": 2120,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "\u003e\u003e Hey.",
+      "isSpeakerChange": 1
+    } ]
+  }, {
+    "tStartMs": 31870,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 31880,
+    "dDurationMs": 4000,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Hey."
+    } ]
+  }, {
+    "tStartMs": 33750,
+    "dDurationMs": 2130,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 33760,
+    "dDurationMs": 2120,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Yeah."
+    } ]
+  } ]
+}

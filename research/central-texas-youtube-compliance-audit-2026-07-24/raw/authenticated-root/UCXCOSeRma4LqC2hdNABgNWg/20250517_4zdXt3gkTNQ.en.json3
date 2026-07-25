@@ -1,0 +1,109 @@
+{
+  "wireMagic": "pb3",
+  "pens": [ {
+  
+  } ],
+  "wsWinStyles": [ {
+  
+  }, {
+    "mhModeHint": 2,
+    "juJustifCode": 0,
+    "sdScrollDir": 3
+  } ],
+  "wpWinPositions": [ {
+  
+  }, {
+    "apPoint": 6,
+    "ahHorPos": 20,
+    "avVerPos": 100,
+    "rcRows": 2,
+    "ccCols": 40
+  } ],
+  "events": [ {
+    "tStartMs": 0,
+    "dDurationMs": 20730,
+    "id": 1,
+    "wpWinPosId": 1,
+    "wsWinStyleId": 1
+  }, {
+    "tStartMs": 1240,
+    "dDurationMs": 6559,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "Texas ",
+      "acAsrConf": 0
+    }, {
+      "utf8": "city ",
+      "tOffsetMs": 450,
+      "acAsrConf": 0
+    }, {
+      "utf8": "makes ",
+      "tOffsetMs": 900,
+      "acAsrConf": 0
+    }, {
+      "utf8": "bold ",
+      "tOffsetMs": 1350,
+      "acAsrConf": 0
+    }, {
+      "utf8": "decision",
+      "tOffsetMs": 1800,
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 3389,
+    "dDurationMs": 4410,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 3399,
+    "dDurationMs": 4400,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "to ",
+      "acAsrConf": 0
+    }, {
+      "utf8": "solve ",
+      "tOffsetMs": 466,
+      "acAsrConf": 0
+    }, {
+      "utf8": "housing ",
+      "tOffsetMs": 932,
+      "acAsrConf": 0
+    }, {
+      "utf8": "crisis.",
+      "tOffsetMs": 1398,
+      "acAsrConf": 0
+    } ]
+  }, {
+    "tStartMs": 8510,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 8520,
+    "dDurationMs": 4630,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Music]"
+    } ]
+  }, {
+    "tStartMs": 17560,
+    "wWinId": 1,
+    "aAppend": 1,
+    "segs": [ {
+      "utf8": "\n"
+    } ]
+  }, {
+    "tStartMs": 17570,
+    "dDurationMs": 3160,
+    "wWinId": 1,
+    "segs": [ {
+      "utf8": "[Music]"
+    } ]
+  } ]
+}
