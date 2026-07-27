@@ -12,7 +12,7 @@
 
 As I record this, Stylecraft will hand you one of two things: a four-point-nine-nine percent thirty-year fixed — which ties the lowest standing fixed rate any Bell County builder advertises — or up to twenty thousand dollars in flex cash. Not both. You pick one. The rate pool is first-come, first-served, and this window closes August tenth.
 
-It's also the one builder where I tell every client to spend four hundred dollars of their own money before a specific deadline — or lose thousands.
+It's also the one builder where I tell every client to spend four hundred dollars of their own money before a specific deadline — and not for the reason you'd think.
 
 So — the rate, or the twenty grand? Stay with me. In the next two minutes you'll know which one to take — and by the end, exactly where the fine print bites.
 
@@ -72,7 +72,11 @@ Stylecraft runs a one-two-ten warranty — one year on workmanship, two on syste
 
 It expires at exactly three hundred sixty-five days — a hard cutoff, zero grace period. And there's a loophole in the language that catches real families: if something was installed wrong but hasn't failed yet — wrong material, wrong placement, not leaking *yet* — they can decline it. Because it hasn't broken. So the defect is real, the coverage is technically there, and you still walk away with nothing. And based on the documented complaints, this is not a warranty department that says yes on the first call. You escalate, you document, you push.
 
-So here's the move — the four hundred dollars from the top of this video. Write it down. *[GRAPHIC G8: "Month 11 → independent inspection · $400–$500"]* Around month eleven — before that Day-365 cliff — you hire your own independent inspector, out of pocket, four to five hundred dollars, to go find every workmanship defect while the clock is still running. Then you submit that list in writing before the deadline. That single four-hundred-dollar inspection is the highest-return thing you will do as a Stylecraft owner. It routinely saves people thousands. Skip it, and you're eating those repairs yourself on Day three-sixty-six.
+So here's the move — the four hundred dollars from the top of this video. Write it down. *[GRAPHIC G8: "Month 11 → independent inspection · $400–$500"]* Around month eleven — before that Day-365 cliff — you hire your own independent inspector, out of pocket, four to five hundred dollars, to go find every workmanship defect while the clock is still running. Then you submit that list in writing before the deadline.
+
+Now let me be straight with you about what that four hundred dollars actually buys, because I'd rather you hear it from me than feel oversold later. I've had a lot of inspections run on Stylecraft homes. Most of them come back clean. I have never personally had one where what the inspector found cost more than the inspection did. So I'm not going to stand here and tell you you're going to uncover thousands in defects — that has not been my experience, and I'm not going to sell you fear I haven't seen.
+
+Here's what I am telling you. Day three-sixty-five is a door that closes exactly once, and four hundred dollars is what it costs to look before it shuts. Comes back clean — and in my experience it usually does — you just bought a third-party record that the house was built right, and that's a document you'll be glad to have when you go to sell. Comes back with a list, you found it while it was still their problem instead of yours. That's the whole trade. Cheap insurance on a deadline you don't get to reopen.
 
 ---
 

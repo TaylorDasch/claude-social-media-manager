@@ -2,6 +2,18 @@
 
 <!-- Source of truth: reason-run-260723-1705/r3-candidate-SHIP.md (council-converged R1 5-0, R2 3-2; Codex final gate applied; lawsuit passage removed 2026-07-24 per Taylor). Regenerate from VIDEO-PACKAGE.md; do not hand-edit in isolation. -->
 
+## Production status — July 26, 2026
+
+- Taylor plans to film the D.R. Horton review this week.
+- Nine verified 4K/30 Pecan Creek B-roll clips (about 2:34 total) are at
+  `/Users/taylordasch_1/Downloads/Pecan Creek B Roll/`.
+- The original 4K/60 drone video (about 2:38) is at
+  `/Users/taylordasch_1/Desktop/pecan-creek-drone-footage/DJI_20260726062937_0412_D.MP4`.
+- This footage is available for both the D.R. Horton review and the later Pecan
+  Creek neighborhood tour. Review it before planning any reshoot.
+- The thumbnail's primary real-photo background is
+  `/Users/taylordasch_1/Projects/01_Listings_Buyers/pecan-creek-drone-photos-2026-07-26/crops/pecan-creek-model-home-hero-2400x1350.jpg`.
+
 ## Chapters (record order)
 
 - COLD OPEN — 0:00–0:15 *(no logo, no name, no credential; evergreen-proofed open; the fuller caveat rides in the graphic; BBB national-profile A+ / 1.07 chip on screen inside 0:15)*

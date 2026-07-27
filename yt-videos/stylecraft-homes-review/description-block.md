@@ -11,7 +11,7 @@ What's covered:
 ✔ Why every incentive requires their captive lender, Kangaroo Home Lending (they own 49% of it)
 ✔ The true build quality: engineered slabs, James Hardie siding, granite standard
 ✔ The drainage, plumbing, and warranty problems in the public complaint record
-✔ The single $400 move at Month 11 that saves Stylecraft owners thousands
+✔ The $400 move at Month 11 — and my honest take on what it actually turns up
 ✔ The 5 contract traps + the MUD tax districts the sign price doesn't mention
 ✔ How it stacks up vs D.R. Horton's matching 4.99%, Carothers & Omega — including the VA APR wrinkle Fort Hood buyers should check
 
@@ -38,7 +38,7 @@ Rates and incentives change constantly — the offer described here was verified
 
 # Pinned Comment
 
-The one move that matters most: around MONTH 11 — before the hard Day-365 workmanship cutoff — hire your own independent inspector ($400–$500) to catch every defect while the warranty still covers it, then submit the list in writing before the deadline. It's the highest-ROI thing a Stylecraft owner does. Wait until Day 366 and those repairs are on you.
+The one move that matters most: around MONTH 11 — before the hard Day-365 workmanship cutoff — hire your own independent inspector ($400–$500) to catch any defects while the warranty still covers them, then submit the list in writing before the deadline. Straight talk: I've had a lot of these run on Stylecraft homes and most come back clean — I've never personally had one where the findings cost more than the inspection did. I'm not promising you'll uncover thousands. Day 365 is a door that closes exactly once, and $400 is what it costs to look before it shuts. Clean report = a third-party record the house was built right, which is worth having at resale. Not clean = you found it while it was still their problem.
 
 Full written breakdown (the 4.99%-or-$20K math, the 5 contract traps, all 12 communities, and the payment calculator):
 https://templetxhomes.net/stylecraft/?utm_source=youtube&utm_medium=description&utm_campaign=stylecraft-homes-review

@@ -2,11 +2,13 @@
 ### R3 numbers-refresh 2026-07-22. ⚠️ Shorts 2 and 3 carry the Aug-10 deadline — if posting lands AFTER Aug 10, re-verify stylecraft.com/incentives and swap in the current offer before scheduling. Short 1 is evergreen.
 
 ## SHORT 1 — "The $400 move" (EVERGREEN LEAD)
-- **[0–3s hook]** "If you buy a Stylecraft home, spend this four hundred dollars — it saves people thousands."
-- **[3–35s]** Their warranty covers workmanship for one year, but it dies at exactly Day 365 — hard cutoff, zero grace — and the warranty language lets them decline an install done wrong that isn't failing yet. The move: around month 11, hire your own inspector, four to five hundred bucks, find every defect while the clock's still running, submit it in writing before the deadline.
-- **[35–45s]** "Day 366, that repair's on you."
+### ⚠️ REWRITTEN 2026-07-26 (Taylor's correction). The old cut promised "$400 saves you thousands" — false to Taylor's own book of business, and it contradicted the clean-closings disclosure in the long-form. Never promise a dollar return on this inspection.
+
+- **[0–3s hook]** "Everybody tells you to get an eleven-month inspection on a new build because you'll find thousands in defects. I've had a lot of these run on Stylecraft homes — they usually come back clean. Here's why I still make every client do it."
+- **[3–35s]** Their warranty covers workmanship for one year, but it dies at exactly Day 365 — hard cutoff, zero grace — and the warranty language lets them decline an install done wrong that isn't failing yet. So around month 11, hire your own inspector, four to five hundred bucks, and submit whatever they find in writing before the deadline.
+- **[35–52s]** "Comes back clean? You just bought a third-party record that the house was built right — that's worth having when you sell. Comes back with a list? You found it while it was still their problem. Four hundred dollars to look through a door that closes exactly once."
 - **[CTA]** "Full breakdown in bio. —Taylor, EG Realty."
-- **On-screen text:** "MONTH 11: HIRE AN INSPECTOR" / "$400 SAVES THOUSANDS"
+- **On-screen text:** "DAY 365: THE DOOR CLOSES ONCE" / "MOST COME BACK CLEAN — GO ANYWAY"
 
 ## SHORT 2 — "Rate or the $20K?" (TIMELY — lead while the Aug-10 window is live)
 - **[0–3s hook]** "Stylecraft will give you a 4.99% rate or up to twenty grand in cash — not both. Here's how to pick in thirty seconds."
