@@ -1,5 +1,5 @@
 # Stylecraft Homes Review — VIDEO PACKAGE R3 (Numbers-Refresh + Critique Round)
-**Built 2026-07-22 · supersedes R2 (2026-07-05) for all numbers and the financing thesis · verdict unchanged 3.5/5**
+**Built 2026-07-22 · rating decision updated 2026-07-27 · supersedes R2 (2026-07-05) for all numbers and the financing thesis · verdict 3.9/5**
 **Mode: NOT a from-scratch council re-run (per REFRESH-ADDENDUM-2026-07-22.md) — a numbers-refresh applied to the R2 package, hardened by one adversarial critique round (2 internal critics; Codex cross-lab critic attempted, unavailable — see Critique Record).**
 
 The production-ready files ARE the package — this document is the refresh record, the canonical fact sheet, the critique trail, and the post-Aug-10 fallback.
@@ -34,7 +34,7 @@ The production-ready files ARE the package — this document is the refresh reco
 | (no MUD beat) | Northgate + Three Creeks MUD flag (page-verified) in Hidden Costs |
 | Title: "…Best Fixed Rate in Bell County…" | Title: "**Stylecraft Homes Review: Best Financing in Bell County (But Read This First)**" — no rate number in the set-once title (promo rotates monthly) |
 
-**Unchanged (deliberately):** verdict 3.5/5 · warranty section verbatim (Day-365, loophole, Month-11 $400 move) · 5 contract traps · carrying-cost rule · registration-card warning · clean-closings disclosure + complaint-record attribution (Fable rule 2026-07-05) · anti-duplication vs the 1818 home-tour video · buyers/relocators lane.
+**Unchanged except for Taylor's firsthand rating decision:** verdict 3.9/5 · warranty section verbatim (Day-365, loophole, Month-11 $400 move) · 5 contract traps · carrying-cost rule · registration-card warning · clean-closings disclosure + complaint-record attribution (Fable rule 2026-07-05) · anti-duplication vs the 1818 home-tour video · buyers/relocators lane.
 
 ## 2. Canonical fact sheet (all verified 2026-07-22 unless noted)
 - Offer: 4.99% 30-yr fixed (5.691% APR on the advertised FHA example; FHA/VA/USDA; 680+; primary residence; close by 2026-08-10; first-come rate pool) OR up to $20,000 flex, not combinable; Kangaroo Home Lending required (49% Stylecraft-owned).

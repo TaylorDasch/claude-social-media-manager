@@ -64,13 +64,13 @@ CARDS = [
         "overlay_sub": "Great financing. Good materials. Read the fine print.",
     },
     {
-        "slug": "G0-verdict-3-5",
+        "slug": "G0-verdict-3-9",
         "eyebrow": "THE QUICK ANSWER",
-        "title": "3.5 / 5",
-        "sub": "High enough to buy. Low enough not to walk in unprepared.",
+        "title": "3.9 / 5",
+        "sub": "Strong enough to recommend. Still inspect the exact house.",
         "kind": "rating",
         "source": "Taylor's editorial verdict  •  Independent; not sponsored",
-        "overlay_title": "3.5 / 5  •  STYLECRAFT",
+        "overlay_title": "3.9 / 5  •  STYLECRAFT",
         "overlay_sub": "Strong financing  •  Good materials  •  Execution needs discipline",
     },
     {
@@ -393,7 +393,7 @@ def draw_choice_or_compare(canvas, card, y0, compare=False):
 
 def draw_rating(canvas, y0):
     d = ImageDraw.Draw(canvas)
-    d.text((190, y0), "3.5", font=font(FONT_SANS_BLACK, 360),
+    d.text((190, y0), "3.9", font=font(FONT_SANS_BLACK, 360),
            fill=EMERALD_BRIGHT, anchor="la")
     d.text((1120, y0 + 180), "/ 5", font=font(FONT_SERIF_BOLD, 152),
            fill=SNOW, anchor="lm")
@@ -405,9 +405,10 @@ def draw_rating(canvas, y0):
         d.rounded_rectangle((x, y, x + seg_w, y + 128), radius=28,
                             fill=fill, outline=(68, 102, 127, 255), width=4)
         if idx == 3:
-            d.rounded_rectangle((x, y, x + seg_w // 2, y + 128), radius=28,
+            partial_w = round(seg_w * 0.9)
+            d.rounded_rectangle((x, y, x + partial_w, y + 128), radius=28,
                                 fill=EMERALD_BRIGHT)
-            d.rectangle((x + seg_w // 2 - 28, y, x + seg_w // 2, y + 128),
+            d.rectangle((x + partial_w - 28, y, x + partial_w, y + 128),
                         fill=EMERALD_BRIGHT)
     d.text((1950, y + 220), "FINANCING", font=font(FONT_SANS_BLACK, 50),
            fill=SNOW, anchor="la")
@@ -601,7 +602,7 @@ def render_fullframe(card):
         d.rectangle((190, bb[3] + 80, 480, bb[3] + 94), fill=EMERALD_BRIGHT)
         fsub = fit_font(card["sub"], FONT_SANS_BOLD, 64, 44, 2500)
         d.text((190, bb[3] + 170), card["sub"], font=fsub, fill=SLATE, anchor="la")
-        pill(d, (190, 1580, 1160, 1700), "3.5 / 5 VERDICT", fill=EMERALD,
+        pill(d, (190, 1580, 1160, 1700), "3.9 / 5 VERDICT", fill=EMERALD,
              f=font(FONT_SANS_BLACK, 48))
     else:
         title_block(canvas, card, top=300, max_width=3400)
@@ -678,6 +679,12 @@ def main():
         preview = full.resize((960, 540), Image.Resampling.LANCZOS).convert("RGB")
         preview_path = PREVIEWS / f"{card['slug']}-preview.jpg"
         preview.save(preview_path, quality=92)
+        # Keep the original G0 filename as a 3.9 compatibility alias so an
+        # existing CapCut import does not break when the editorial score changes.
+        if card["slug"] == "G0-verdict-3-9":
+            save_pair(full, FULL_4K, FULL_1080, "G0-verdict-3-5.png")
+            save_pair(overlay, OVERLAY_4K, OVERLAY_1080, "G0-verdict-3-5.png")
+            preview.save(PREVIEWS / "G0-verdict-3-5-preview.jpg", quality=92)
         preview_images.append((card["slug"], preview))
 
     thumb_w, thumb_h = 720, 405

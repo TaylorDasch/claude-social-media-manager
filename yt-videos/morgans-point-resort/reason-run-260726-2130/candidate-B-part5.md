@@ -1,8 +1,65 @@
-# Shorts / Reels Cuts
+# 10. EXACT CTA — 9:10–10:00
 
-> **Morgan's Point Resort — council rebuild, Shorts / Reels Cuts**
-> Council run `reason-run-260726-2130` · Data: CTXMLS `whole-market-with-status-2026-07-20.csv`, pulled July 20 2026, recounted July 26 2026
-> Ground truth: `GROUND-TRUTH-2026-07-20.md` · Supersedes the May 18 2026 version (archived in `archive-2026-05-18/`)
+## ⚠️ CHANGED FROM BRIEF — needs Taylor's approval or override
+
+**The brief mandated this CTA verbatim:**
+> "Text me for the current Morgan's Point Resort shortlist — I'll separate the true water-tier lots from the
+> pretenders and run the real monthly payment including the age-of-home costs before you drive out."
+
+**Why it can't ship as written.** At 7:15 the video's strongest trust moment is Taylor saying, on camera,
+that the MLS export contains **no waterfront, water-access, or dock field — zero of 29 records**. A CTA that
+then offers to "separate the true water-tier lots from the pretenders" promises a data sort he just finished
+telling the viewer is impossible from this data. It spends the video's best credibility moment in its final
+thirty seconds, and it's the one line a competing agent could screenshot next to the 7:15 line.
+
+**What changed:** the water-tier promise is demoted from *a data sort Taylor performs* to *an on-site opinion
+he'll give, clearly labeled, plus the verification path*. Everything else in the CTA is a real deliverable he
+can produce from the July 20 export tonight. **The offer gets more specific, not weaker** — "the eleven
+listings your search didn't show you" is a sharper hook than "water tiers" and it's the thing the whole video
+just proved.
+
+**Override path:** if Taylor wants the original wording, the 7:15 no-water-field segment has to go, and with
+it the honesty spine of the piece. Recommend keeping the rewrite.
+
+---
+
+## 10a. Spoken CTA — verbatim (127 words, ≈50 seconds with holds)
+
+> "So here's what I'll actually do for you, and I'll be precise about what's in it.
+>
+> Text me and I'll send you the current Morgan's Point Resort list drawn by map — not by city name — so it
+> includes the eleven your search didn't show you. I'll sort it by price per foot instead of price, so you can
+> see which ones are actually priced like the tier they're in. And I'll run the real monthly payment on the
+> ones you like, with the age of the house built into the number, because on a nineteen-seventy-nine house
+> that number is the whole decision.
+>
+> If water access matters to you, I'll tell you what I see standing on the street. Then I'll show you who to
+> call to confirm it — because that part isn't my opinion to give."
+
+## 10b. On-screen CTA card (G-15)
+
+```
+TEXT "MORGANS" TO 254-718-4249
+
+You'll get:
+  · The map-drawn list — including the 11 a name search misses
+  · Sorted by price per foot, not price
+  · Real monthly payment, with age-of-home costs in it
+  · My read on water access — labeled as my read
+  · Who to call to confirm it
+
+templetxhomes.net/morgans-point-resort
+Taylor Dasch · Agent · EG Realty
+```
+
+## 10c. Why this converts
+
+It promises four things Taylor can deliver from a file he already has, and one thing he explicitly frames as
+opinion. The viewer just watched the eleven-listing gap get proven, so "the eleven your search didn't show
+you" isn't a claim — it's the resolution of the video's own argument. **The CTA is the payoff of the thesis,
+not an ask bolted onto the end.**
+
+---
 
 # 11. FIVE SHORTS / REELS CUTS
 
@@ -17,20 +74,16 @@ overpriced.
 
 **On-screen title card:** `MORGAN'S POINT RESORT, TX — JULY 20, 2026`
 
-> "There are fifteen active listings in this lake town. Only four of them have the town's name in the MLS
-> city field — and the cheapest of those four is three hundred fifteen thousand dollars.
+> "Fifteen homes are for sale in this lake town. But only four of them have the town's name in the MLS city
+> field. Those four? Three fifteen, three thirty, six sixty-five, eight sixty-nine.
 >
-> The other eleven are filed under Belton. The cheapest one of those is two hundred five.
+> The other eleven are filed under Belton. And the cheapest one of those is two-oh-five.
 >
 > So if you looked this town up by its name, the floor you saw was three hundred fifteen thousand. The floor
-> that actually exists is two hundred five. That's a hundred and ten thousand dollars between the town you
-> think you can't afford and the one that's actually there.
+> that actually exists is two hundred five. That's a hundred and ten thousand dollars of difference between
+> the town you think you can't afford and the one that's actually there.
 >
 > Search by map area or zip. Not by the name."
-
-**Read rule — applies to all five Shorts:** every price is spoken in full. "Three fifteen" and "two-oh-five"
-read as times or addresses when heard without the screen, and Shorts are watched with the sound on and the
-eyes half-elsewhere. Full numbers cost a second and buy comprehension.
 
 **On-screen text beats:** `4 listings say "Morgans Point Resort"` → `11 say "Belton"` → `$315,000 floor you
 see` → `$205,000 floor that exists` → `$110,000`
@@ -45,8 +98,8 @@ see` → `$205,000 floor that exists` → `$110,000`
 > "Every home for sale in Morgan's Point Resort under two hundred seventy-five thousand dollars — all six of
 > them — has its MLS city field set to Belton. Six out of six.
 >
-> They run from two hundred five thousand up to two hundred seventy-two five. Six houses. Six different
-> streets. Every one of them filed under Belton.
+> Cliffside, two-oh-five. Bobcat, two-thirty. Morgans Point, two forty-four nine. Hickory, two forty-nine
+> five. Sherwood, two sixty-five. Cliffside again, two seventy-two five.
 >
 > That's not anybody doing anything wrong. It's how the records got typed. But if your search keys on the
 > town's name, that's the entire affordable half of the town, gone."
@@ -116,43 +169,6 @@ none` → `Verify: City of MPR + USACE Belton Lake`
 
 ---
 
----
-
-## SHORT 6 (OPTIONAL) — "Pick the Street, Not the Town" · 35s
-
-**Added 2026-07-27 from Taylor's field take. Read the warning below before cutting this one.**
-
-> "Morgan's Point Resort has no citywide HOA and very few deed restrictions. That's a real part of the
-> appeal — thirteen of the twenty-nine listings mention a boat, because you can actually park one in your
-> driveway here.
->
-> But few restrictions cuts one other way: housing types vary a lot block to block, and very little in the
-> rules controls what goes up beside you.
->
-> So when you shop this town, don't shop the town. Shop the street. Drive it — at the hour you'd actually be
-> coming home. That one trip tells you more than any listing photo will."
-
-**On-screen text:** `No citywide HOA` → `Boat mentioned in 13 of 29 listings` → `Housing types vary block to
-block` → `PICK THE STREET, NOT THE TOWN`
-**Footer:** `CTXMLS · July 20, 2026 · Taylor's on-site observation, not MLS-verified`
-
-### ⚠️ Why this one is optional, and why manufactured homes are NOT named in it
-
-In the long-form video, the manufactured-home observation is safe because it sits inside 70 seconds of
-balancing context — the freedom, the "I'm not going to tell you how to feel about that," and the explicit
-handoff to the buyer's own judgment. **A Short carries none of that.** It travels alone, gets stitched,
-gets duetted, and gets screenshotted without its setup.
-
-Naming manufactured housing in a 35-second clip with no surrounding context is how a reasonable observation
-about deed restrictions becomes a fair-housing complaint. **The specific housing type is cut from this
-version on purpose.** "Housing types vary block to block" carries the entire actionable point — *drive the
-street* — without the line that can be clipped.
-
-**Recommendation:** ship Short 6, keep it as written, and never add the specifics back for a short-form cut.
-If the point can't be made without them, it doesn't belong in short form at all.
-
----
-
 ## 11a. Distribution notes
 
 - **Post order: 1 → 3 → 2 → 5 → 4.** Short 1 is the strongest cold-open and should lead. Short 3 is the most
@@ -162,21 +178,3 @@ If the point can't be made without them, it doesn't belong in short form at all.
 - All five are buyer-lane. None mentions rent, cash flow, cap rate, or short-term rental.
 - Every Short ends on an instruction the viewer can act on without contacting anyone. That's deliberate — the
   ones that convert are the ones that were useful for free first.
-
-# CANDIDATE B — PART 4 (Sections 12–16)
-## Morgan's Point Resort, TX — Flagship Video Package
-
-**Author:** Author-B (sections 12–16)
-**Spine:** sections 1–4 locked in `candidate-B-r1.md`. Sections 5–11 authored in parallel.
-**Ground truth:** `../GROUND-TRUTH-2026-07-20.md` — CTXMLS `whole-market-with-status-2026-07-20.csv`, recounted 2026-07-26. **§H and §I govern and override §C.**
-**All on-camera market numbers date-stamped:** July 20, 2026
-**Binding critique items carried here:** **W-9** (MLS display/licensing — OPEN) · **W-17** (description must not pre-spend the video)
-
-**Provenance labels used throughout:**
-`[CONFIRMED]` = read directly off a ground-truth table ·
-`[DERIVED]` = arithmetic performed here, inputs shown ·
-`[OBSERVATION]` = Taylor on the ground, not in the MLS ·
-`[OPINION]` = judgment ·
-`[THIRD-PARTY EST.]` = vendor estimate, not from the MLS export. **Nothing carrying this label is spoken on camera or placed in a graphic.**
-
----

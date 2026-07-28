@@ -20,7 +20,7 @@
 > "A vacant new-construction home bleeds the builder about three thousand dollars a month. Stylecraft's answer is the most aggressive financing package in Bell County — a subsidized rate or up to twenty grand in flex cash, your pick. Great for you, right up until you read the warranty."
 
 **HOOK 5 — Direct question (pairs with Title #4)**
-> "Is Stylecraft actually a good builder? Short answer: three and a half stars. The most aggressive financing package in Temple and Belton — with real drainage, plumbing, and warranty problems in the public complaint record that you have to plan around. My own buyers have never hit them — but the record is the record."
+> "Is Stylecraft actually a good builder? Short answer: three point nine stars. I like the homes and would buy the right one, but the most aggressive financing package in Temple and Belton still comes with inspection, contract, and warranty details you need to plan around. My own buyers have not encountered the major problems in the public complaint record—but the record still tells your inspector where to look."
 
 ---
 
@@ -40,8 +40,8 @@
 
 1. **Stylecraft Homes Review: Best Financing in Bell County (But Read This First)** ← **PUBLISH TITLE**
 2. **Stylecraft Homes Review: 4.99% or $20,000 — Most Buyers Pick Wrong**
-3. **Stylecraft Homes Review — 3.5 Stars: The Rate, the $20K, and the Catch**
-4. **Is Stylecraft a Good Builder? Honest 3.5-Star Review (Temple & Belton)**
+3. **Stylecraft Homes Review — 3.9 Stars: The Rate, the $20K, and the Catch**
+4. **Is Stylecraft a Good Builder? Honest 3.9-Star Review (Temple & Belton)**
 5. **Stylecraft Homes Review: What the Sales Rep Won't Tell You About the Warranty**
 
 ---
@@ -63,7 +63,7 @@ Each chapter is an explicit **tension → payoff** beat. The Hook opens the "whi
 ```
 0:00  The 4.99%-or-$20K choice — and the catch (Hook)          → opens both loops
 0:30  Who I am / why this isn't an ad                           → credential (post-hook)
-0:48  Quick Answer: is Stylecraft a good builder? (3.5★)        → "Is Stylecraft a Good Builder?"
+0:48  Quick Answer: is Stylecraft a good builder? (3.9★)        → "Is Stylecraft a Good Builder?"
 1:25  Financing math + the 5½-year rule + the Kangaroo string   → "Are the Financial Incentives Worth It?"
       └ ends on the PLANT: "somebody matched them"              → pulls to 7:15
 3:15  True quality: résumé, review file, what you're buying     → "What's the True Quality?"

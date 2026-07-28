@@ -1,7 +1,7 @@
 # Stylecraft Homes Review — Full D.R. Horton-Location Refilm Script
 
 **Prepared:** July 26, 2026  
-**Verdict:** locked at **3.5 / 5**  
+**Verdict:** updated July 27, 2026 to **3.9 / 5** based on Taylor's firsthand editorial judgment
 **Purpose:** replace every substantive Stylecraft passage recorded at, in front of, or visually tied to the D.R. Horton build—not merely the final verdict pickup.
 
 ## Confirmed replacement scope
@@ -45,11 +45,11 @@ That is approximately **22 minutes 41 seconds of mandatory replacement material*
 **Scope:** optional continuity pre-roll; outside the confirmed D.R. Horton-location boundary
 
 **Target:** about 30–35 seconds  
-**Cards:** `G1-offer-choice` → `G0-verdict-3-5`
+**Cards:** `G1-offer-choice` → `G0-verdict-3-9`
 
 > As I record this in late July 2026, Stylecraft is offering a very specific choice on qualifying homes: a rate as low as four-point-nine-nine percent on a thirty-year fixed loan, or up to twenty thousand dollars in “Your Way” flex money. Not both. You choose one.
 >
-> Is Stylecraft a good builder? My Bell County answer is yes—with an asterisk. Three and a half stars out of five. The promotion runs through an affiliated preferred lender, the contract matters, and there is one inspection deadline I would not ignore. Let me show you who they fit, where the risk is and how to compare the two offers.
+> Is Stylecraft a good builder? My Bell County answer is yes—with an asterisk. Three point nine stars out of five. Overall, I like Stylecraft homes and would buy the right one at the right number. The promotion runs through an affiliated preferred lender, the contract matters, and there is one inspection deadline I would not ignore. Let me show you who they fit, where the risk is and how to compare the two offers.
 
 ---
 
@@ -58,11 +58,11 @@ That is approximately **22 minutes 41 seconds of mandatory replacement material*
 **Scope:** optional continuity pre-roll; existing identity footage is visually safe
 
 **Target:** about 30–40 seconds  
-**Card:** Taylor lower third; briefly return to `G0-verdict-3-5`
+**Card:** Taylor lower third; briefly return to `G0-verdict-3-9`
 
 > I’m Taylor Dasch with EG Realty. I have closed more than one hundred transactions in this market, including multiple Stylecraft homes. I do not work for Stylecraft or any other builder, and nobody paid for this review.
 >
-> My three-and-a-half score is not the company’s Eliant score, and it is not a promise about every house they build. It is my local buyer score after weighing price, standard features, financing, contract structure, inspection risk and post-closing follow-through. A specific house can perform better or worse than a brand-level score, which is why the inspection and the paperwork matter more than the logo.
+> My three-point-nine score is not the company’s Eliant score, and it is not a promise about every house they build. It is my local buyer score after weighing price, standard features, financing, contract structure, inspection risk and post-closing follow-through. A specific house can perform better or worse than a brand-level score, which is why the inspection and the paperwork matter more than the logo.
 
 ---
 
@@ -164,7 +164,7 @@ That is approximately **22 minutes 41 seconds of mandatory replacement material*
 ## TAKE 8 — Who Stylecraft fits and who should keep shopping
 
 **Target:** about 1 minute–1 minute 15 seconds  
-**Card:** `G0-verdict-3-5` or verified Stylecraft plan/finish B-roll
+**Card:** `G0-verdict-3-9` or verified Stylecraft plan/finish B-roll
 
 > So who does Stylecraft fit?
 >
@@ -195,12 +195,12 @@ That is approximately **22 minutes 41 seconds of mandatory replacement material*
 
 ---
 
-## TAKE 10 — Final 3.5 verdict and rate-versus-flex answer
+## TAKE 10 — Final 3.9 verdict and rate-versus-flex answer
 
 **Target:** about 55–70 seconds  
-**Cards:** `G0-verdict-3-5` → `G3-five-year-line`
+**Cards:** `G0-verdict-3-9` → `G3-five-year-line`
 
-> So here is my final answer: three and a half stars out of five for a Central Texas buyer.
+> So here is my final answer: three point nine stars out of five for a Central Texas buyer.
 >
 > The strengths are an attainable entry point in several communities, practical standard features and a financing choice that can materially improve either the payment or cash to close.
 >
@@ -208,7 +208,7 @@ That is approximately **22 minutes 41 seconds of mandatory replacement material*
 >
 > If you expect to keep the loan beyond roughly five years, the subsidized rate may be the stronger choice under the illustration we just ran. If you expect to sell or refinance sooner, or cash to close is the immediate constraint, have the lender model the flex offer. Do not make that decision from this video alone; make it from the two written loan scenarios for your exact house.
 >
-> I would buy the right Stylecraft home at the right number. I would not buy one without independent inspection, full-cost comparison and a careful contract review. That is what the three and a half means.
+> I like Stylecraft homes, and I would buy the right one at the right number. I would not buy one without independent inspection, full-cost comparison and a careful contract review. That is what the three point nine means.
 
 ---
 

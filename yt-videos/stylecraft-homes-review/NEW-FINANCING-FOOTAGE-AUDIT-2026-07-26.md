@@ -48,8 +48,8 @@ Current placement below is from the corrected draft snapshot at 20:43 CT.
 | `C6796` | 00:59.560 | 11:55.125–12:54.708 | Actual payment, assessed value, and tax estimate | Contains a wrong phrase followed by a correction: “lot without the land” → “lot with just the land without the house” |
 | `C6797` | 02:02.122 | 12:54.708–14:56.833 | Insurance-cost claim, who Stylecraft fits, who should keep shopping | Split into two sections; several unqualified price/competitor claims |
 | `C6798` | 00:52.553 | 14:56.833–15:49.417 | Footprint and comparison with Omega/Kiella/D.R. Horton | Delivery mostly clean; live price claim needs verification |
-| `C6799` | 00:45.045 | 15:49.417–16:33.833 | Final rating plus 1818-plan/flex-space example | First 00:00.667 trimmed; long quiet tail remains; says **3.9**, not locked 3.5 |
-| `C6800` | 00:54.555 | 16:33.833–17:26.292 | Rating continuation and CTA | Three current source pieces remove two small pauses, but repeated CTA remains; says **3.9**, not locked 3.5 |
+| `C6799` | 00:45.045 | 15:49.417–16:33.833 | Final rating plus 1818-plan/flex-space example | First 00:00.667 trimmed; long quiet tail remains; says the now-approved **3.9** rating |
+| `C6800` | 00:54.555 | 16:33.833–17:26.292 | Rating continuation and CTA | Three current source pieces remove two small pauses, but repeated CTA remains; says the now-approved **3.9** rating |
 
 After `C6800`, the current main track ends with 00:13.167 of DJI exterior B-roll.
 
@@ -77,7 +77,7 @@ Word-level times are approximate to about ±0.2 seconds.
 
 ### 1. `C6799` and `C6800` contradict the locked verdict
 
-Both new verdict/CTA takes say **3.9 stars**. The approved replacement script and branded verdict direction are locked at **3.5 / 5**. This cannot be fixed invisibly with ordering alone. Choose one score deliberately; if 3.5 remains locked, the verdict sentence needs a pickup or replacement audio/slide treatment.
+Both new verdict/CTA takes say **3.9 stars**. Taylor approved **3.9 / 5** as his actual firsthand editorial rating on July 27, 2026. The spoken verdict now aligns with the page, Review schema, thumbnail brief, and branded verdict card; no rating pickup is required.
 
 ### 2. `C6790` contains a hard outtake
 

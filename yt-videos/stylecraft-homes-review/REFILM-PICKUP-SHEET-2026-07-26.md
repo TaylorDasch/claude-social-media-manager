@@ -2,7 +2,7 @@
 
 > **SUPERSEDED — DO NOT USE FOR THE CURRENT REFILM.** The initial 3–4 minute estimate was too narrow. The confirmed D.R. Horton-location footage spans `02:57.042–25:37.792` in the current CapCut timeline. Use [`FULL-DRH-LOCATION-REFILM-SCRIPT-2026-07-26.md`](./FULL-DRH-LOCATION-REFILM-SCRIPT-2026-07-26.md) instead.
 
-Use these five pickups to repair the factual problems, remove the D.R. Horton background, and land the locked **3.5 / 5** verdict without re-recording the full video.
+Use these five pickups to repair the factual problems, remove the D.R. Horton background, and land the approved **3.9 / 5** verdict without re-recording the full video.
 
 Target finished pickup time: **about 3–4 minutes**.
 
@@ -29,9 +29,9 @@ Target finished pickup time: **about 3–4 minutes**.
 
 **Target:** 25–30 seconds
 
-> Is Stylecraft a good builder? Yes, with an asterisk—three and a half stars out of five. My own Stylecraft buyers have not encountered the major problems I found in the public complaint record. But the record does show recurring grading and drainage concerns, early plumbing failures, and LVP flooring issues. That does not describe every Stylecraft home. It tells you what an independent inspector should specifically check.
+> Is Stylecraft a good builder? Yes, with an asterisk—three point nine stars out of five. Overall, I like Stylecraft homes and would buy the right one at the right number. My own Stylecraft buyers have not encountered the major problems I found in the public complaint record. But the record does show recurring grading and drainage concerns, early plumbing failures, and LVP flooring issues. That does not describe every Stylecraft home. It tells you what an independent inspector should specifically check.
 
-**Cover with:** `G0-verdict-3-5`, verified Stylecraft detail B-roll, and `G5-review-snapshot` / `G6-complaint-record`.
+**Cover with:** `G0-verdict-3-9`, verified Stylecraft detail B-roll, and `G5-review-snapshot` / `G6-complaint-record`.
 
 ## Pickup C — Warranty deadline correction
 
@@ -55,11 +55,11 @@ Target finished pickup time: **about 3–4 minutes**.
 
 **Target:** 55–65 seconds
 
-> So, Taylor's take: three and a half stars out of five. The short version is simple. If you expect to keep the loan past roughly five and a half years, the lower rate may win. If you expect to sell or refinance sooner, or cash to close is the bigger constraint, have the lender model the flex option. Either way, the month-eleven inspection is non-negotiable.
+> So, Taylor's take: three point nine stars out of five. I like Stylecraft homes and would buy the right one at the right number. The financing decision is still simple. If you expect to keep the loan past roughly five and a half years, the lower rate may win. If you expect to sell or refinance sooner, or cash to close is the bigger constraint, have the lender model the flex option. Either way, the month-eleven inspection is non-negotiable.
 >
 > And do not tour a Stylecraft model or sign a registration card before your own agent is on record. The sales rep works for the builder. Your agent should compare inventory, lender fees, contract language, taxes, and the inspection timeline before you commit. My full written Stylecraft breakdown and payment calculator are at temple-t-x-homes-dot-net slash Stylecraft and linked below. If you are weighing one of these homes and want a second set of eyes on the actual numbers and contract, reach out. I am Taylor Dasch with EG Realty. I will see you on the next one.
 
-**Cover with:** `G0-verdict-3-5`, `G3-five-year-line`, and `G12-registration-card`.
+**Cover with:** `G0-verdict-3-9`, `G3-five-year-line`, and `G12-registration-card`.
 
 ## Edit strategy
 
@@ -67,7 +67,7 @@ Target finished pickup time: **about 3–4 minutes**.
 - Remove the dismissive online-complaint passage and use Pickup B.
 - Replace the recorded “one-year door-to-door” / end-of-year advice with Pickup C.
 - Replace the full D.R. Horton-background “Who It’s For” section with Pickup D.
-- Replace the D.R. Horton-background **3.9** verdict and CTA with Pickup E.
+- Keep the approved **3.9** verdict, but replace or fully cover the D.R. Horton-background verdict and CTA with Pickup E.
 - Use the damaged comparison/customer-service takes only as a reference; do not show `C6786` or `C6787` as final A-roll.
 
 ## Verification and rollback

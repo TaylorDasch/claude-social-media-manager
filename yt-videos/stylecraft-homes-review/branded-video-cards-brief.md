@@ -14,17 +14,17 @@
 
 ## Card 1 — Verdict
 
-**Insert:** Quick Answer, immediately after “three and a half stars out of five.”
+**Insert:** Quick Answer, immediately after “three point nine stars out of five.”
 **Recommended hold:** 3 seconds.
 
 **Exact copy**
 
 > VERDICT
-> **STYLECRAFT: 3.5 / 5**
+> **STYLECRAFT: 3.9 / 5**
 > Aggressive financing. Good standard materials.
 > Execution and warranty follow-through require discipline.
 
-**Visual treatment:** Oversized `3.5` on the left; a five-segment score rail on the right with 3½ segments in emerald. Three small labels below: `FINANCING` / `MATERIALS` / `FOLLOW-THROUGH`. Use Taylor’s transparent cutout only as a small edge crop, not as a second focal point.
+**Visual treatment:** Oversized `3.9` on the left; a five-segment score rail on the right with 3.9 segments in emerald. Three small labels below: `FINANCING` / `MATERIALS` / `FOLLOW-THROUGH`. Use Taylor’s transparent cutout only as a small edge crop, not as a second focal point.
 
 ## Card 2 — Forced choice
 
@@ -201,7 +201,7 @@ The D.R. Horton issue is not limited to one stray B-roll shot. Frame sampling an
 | `C6781.MP4` | True Quality + warranty explanation | Recorded inside the D.R. Horton framing. Do not present this image as Stylecraft construction. Refilm, or use the audio strictly as voiceover under confirmed Stylecraft B-roll and cards 4–6. |
 | `C6782.MP4` | Hidden costs + walkthrough/contract discussion | Same D.R. Horton build. Audio can survive under correct B-roll/card 7. |
 | `C6784.MP4` | Who Stylecraft is / is not for | D.R. Horton housewrap fills the background. **Refilm.** |
-| `C6785.MP4` | Taylor’s verdict + CTA | D.R. Horton wrap remains visible, and Taylor says **3.9** although R3 locks the verdict at **3.5**. **Non-negotiable refilm from the R3 script.** |
+| `C6785.MP4` | Taylor’s verdict + CTA | D.R. Horton wrap remains visible. Taylor’s spoken **3.9** now matches the approved rating, but the visible background still needs full B-roll/card coverage or neutral-location replacement. |
 | `C6786.MP4` | Builder comparison | The D.R. Horton setting is editorially relevant only here. Cover with card 8 or label the beat clearly as a comparison. |
 | `C6787.MP4` | Stylecraft customer-service addendum | Same site. Use audio-only or omit. |
 

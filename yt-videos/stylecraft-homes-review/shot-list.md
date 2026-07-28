@@ -16,7 +16,7 @@ Public side only — all footage from public model/community frontage. Graphics 
 ## Lower-third graphics (G-numbers match script markers)
 | # | Graphic | Lands at | Style |
 |---|---------|----------|-------|
-| G0 | Star card: "3.5 / 5" | Quick Answer ~0:50 | Lower-third badge |
+| G0 | Star card: "3.9 / 5" | Quick Answer ~0:50 | Lower-third badge |
 | G1 | Offer card: "4.99% 30-yr fixed (5.691% APR) OR up to $20,000 'Your Way' · NOT combinable · close by Aug 10" | Financing ~1:30 | Lower-third |
 | G2 | Payment compare: "~$315K FHA → $1,657/mo P&I @ 4.99% vs ~$1,963 @ 6.55% mkt avg" | Financing ~1:55 | Lower-third |
 | G3 | The rule: "$20,000 ÷ ~$306/mo ≈ 65 months — the 5½-year line" | Financing ~2:20 | Lower-third |

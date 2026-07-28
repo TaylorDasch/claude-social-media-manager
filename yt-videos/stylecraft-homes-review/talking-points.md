@@ -1,6 +1,6 @@
 # Stylecraft Homes Review — Talking Points
 
-# Talking-Points Version — Stylecraft Homes Review (3.5 / 5)
+# Talking-Points Version — Stylecraft Homes Review (3.9 / 5)
 ### Beat-by-beat cue sheet for a natural-delivery take. Same runtime, same guardrails.
 ### R3 refresh + critique round 2026-07-22 — 3.99% is DEAD; the deal is 4.99% OR up to $20K, not both, close by Aug 10. Re-verify stylecraft.com/incentives the morning of filming (first-come rate pool). Timestamps = planning bands; re-stamp at edit.
 
@@ -41,9 +41,9 @@ Everything else is backdrop-only. If a model is closed, shoot the beat from publ
 - Taylor Dasch, EG Realty, Temple–Belton–Killeen corridor.
 - 100+ closings, BiggerPockets Featured, don't work for any builder, nobody paid for this.
 
-**QUICK ANSWER (~0:48–1:25)** — page H2: *Is Stylecraft a Good Builder?* — *[G0: 3.5/5 star card]*
+**QUICK ANSWER (~0:48–1:25)** — page H2: *Is Stylecraft a Good Builder?* — *[G0: 3.9/5 star card]*
 ### 📍 **South Pointe — 1932 Delano Dr.** Grab the 3 b-roll flashes here: model exterior push-in · siding seam / granite detail · a grading or downspout low spot.
-- Good builder? Yes, asterisk. 3.5/5.
+- Good builder? Yes, asterisk. 3.9/5. Overall, Taylor likes the homes and would buy the right one at the right number.
 - Financing **package** most aggressive in this market; homes sharp on paper (Hardie / granite / smart-home standard).
 - **ATTRIBUTION REQUIRED even in the tease:** "the PUBLIC COMPLAINT RECORD shows a repeating pattern" — drainage/grading, plumbing fails weeks after close, warranty dept treats "no" as its opening position — **+ micro-disclosure: "my own buyers have never hit these — but the record is the record."** Never voice the pattern bare.
 - High enough to buy, low enough not to walk in blind. Math first — math is why people sign.
@@ -104,7 +104,7 @@ Everything else is backdrop-only. If a model is closed, shoot the beat from publ
 **TAYLOR'S TAKE / CTA (~8:30–9:45)** — page H2: *Should You Tour Without an Agent?*
 ### 📍 **Any model or sales-office entrance** — the registration-card warning lands hardest with a sales office behind you. **Stylecraft Temple Office, 209 Clinite Grove Blvd** is the fallback. Deliberately pick a DIFFERENT community than the cold open so the open and close don't look identical.
 ### ➕ **AFTER this beat: film the modular SCORECARD take** (60–90s, one take) — your own ratings on Financing / Build Quality / Inspection Record / Warranty & Service / Contract & Transparency. Drop into the edit if it lands, or cut it as a 5th Short.
-- 3.5/5, stand behind it to your face.
+- 3.9/5, stand behind it to your face.
 - **RECAP (new — for chapter-skippers):** "Short version: keeping the loan past five and a half years, take the rate. Selling or refinancing sooner — or you need the cash to close — take the flex. Either way, the month-eleven inspection is non-negotiable."
 - **REUSABLE LINE (verbatim)** *[G11 $3K card]*: "Builders aren't giving you a deal because they're generous — a vacant spec home bleeds them roughly three thousand dollars a month in carrying costs. Understand that, and you negotiate from strength."
 - Registration-card warning *[G12 card]*: never tour or register without your own agent on record — the card hands the builder your whole position.

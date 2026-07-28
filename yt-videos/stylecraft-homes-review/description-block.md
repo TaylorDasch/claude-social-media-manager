@@ -1,7 +1,7 @@
 # YouTube Description
 ### R3 numbers-refresh 2026-07-22 — if publishing after Aug 10, re-verify the offer language first.
 
-Stylecraft has the most aggressive builder financing package in Bell County right now — but it makes you choose: a builder-paid 4.99% 30-year fixed (5.691% APR on their advertised FHA example) OR up to $20,000 in "Your Way" flex cash, not both, through their in-house lender, with the current window closing August 10, 2026. That choice is the real reason buyers sign — and there's a warranty catch and a proprietary contract you need to understand before you do. Here's my honest 3.5-star breakdown for anyone weighing a Stylecraft home in Temple, Belton, Killeen, Nolanville, or Troy.
+Stylecraft has the most aggressive builder financing package in Bell County right now — but it makes you choose: a builder-paid 4.99% 30-year fixed (5.691% APR on their advertised FHA example) OR up to $20,000 in "Your Way" flex cash, not both, through their in-house lender, with the current window closing August 10, 2026. That choice is the real reason buyers sign — and there's a warranty catch and a proprietary contract you need to understand before you do. Here's my honest 3.9-star breakdown for anyone weighing a Stylecraft home in Temple, Belton, Killeen, Nolanville, or Troy.
 
 📄 Full written breakdown — every rate, every contract trap, all 12 communities, plus a payment calculator that runs YOUR number at the promo rate vs the market average:
 https://templetxhomes.net/stylecraft/?utm_source=youtube&utm_medium=description&utm_campaign=stylecraft-homes-review

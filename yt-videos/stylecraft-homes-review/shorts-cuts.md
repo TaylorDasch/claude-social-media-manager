@@ -24,9 +24,9 @@
 
 ## SHORT 4 — "Google is grading the wrong company" (RESERVE — reviews-intent audience)
 - **[0–3s hook]** "If you Googled Stylecraft reviews and got scared — you might be reading the wrong company."
-- **[3–40s]** There's a Stylecraft that builds here in Central Texas, and an unrelated StyleCraft operation out of Virginia — and right now Google's answer box blends the two. The Texas builder's actual file: BBB A-plus since ninety-six, Eliant four-and-a-half across a thousand-plus owners — with the friction concentrated in the purchase experience, which scores three-nine. That gap is the real story. I gave them three and a half stars, and the full honest breakdown is on my site.
+- **[3–40s]** There's a Stylecraft that builds here in Central Texas, and an unrelated StyleCraft operation out of Virginia — and right now Google's answer box blends the two. The Texas builder's actual file: BBB A-plus since ninety-six, Eliant four-and-a-half across a thousand-plus owners — with the friction concentrated in the purchase experience, which scores three-nine. That gap is the real story. I gave the builder three point nine stars, and the full honest breakdown is on my site.
 - **[CTA]** "Texas numbers, link in bio. —Taylor, EG Realty."
-- **On-screen text:** "WRONG COMPANY?" / "TX: BBB A+ · ELIANT 4.5" / "3.5★ HONEST REVIEW"
+- **On-screen text:** "WRONG COMPANY?" / "TX: BBB A+ · ELIANT 4.5" / "3.9★ HONEST REVIEW"
 
 ---
 

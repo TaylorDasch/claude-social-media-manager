@@ -1,7 +1,7 @@
 # Stylecraft Homes Review — Full Video Script (Living in Temple)
 
 # Stylecraft Homes Review: Best Financing in Bell County (But Read This First)
-### Full Word-for-Word Script · ~2,250 spoken words (honest count) · ≈ 11–12.5 min at Taylor's measured pace (~180–200 wpm) · Verdict LOCKED 3.5 / 5 · DESK-CUT OPTIONS at the bottom trim ~35s
+### Full Word-for-Word Script · ~2,250 spoken words (honest count) · ≈ 11–12.5 min at Taylor's measured pace (~180–200 wpm) · Verdict 3.9 / 5 · DESK-CUT OPTIONS at the bottom trim ~35s
 ### R3 NUMBERS-REFRESH + CRITIQUE ROUND 2026-07-22: 3.99% buydown is DEAD — rebuilt on the verified 4.99%-OR-$20K either/or (close by Aug 10, 2026). Critique round applied: evergreen-proofed cold open ("As I record this"), Quick Answer defect tease attributed + micro-disclosed, "somebody matched them" plant replaces the ARM PSA, résumé compressed, Homestead band corrected, DRH beat anchored to the race move (not the dates), rate-vs-cash recap added to the closer, graphics G0–G12. Fable-pass 2026-07-05 rules preserved: defects = complaint record + clean-closings disclosure, never firsthand.
 ### ⚠️ FILM-WINDOW RULE: written for filming BEFORE ~Aug 5, 2026. Re-verify stylecraft.com/incentives the morning of filming — the fine print says the rate pool is first-come, first-served, so the offer can die before Aug 10. Filming after Aug 10: use the FALLBACK OPEN in VIDEO-PACKAGE-R3.md and re-verify every number.
 ### ⚠️ Section timestamps are PLANNING bands — re-stamp chapters from the final edit before pasting the description.
@@ -26,7 +26,7 @@ I'm Taylor Dasch, an agent with EG Realty here in the Temple–Belton–Killeen 
 
 **[QUICK ANSWER — ~0:48–1:25 — page H2: "Is Stylecraft a Good Builder?"]**
 
-So here's the quick answer up front, because your time matters. Is Stylecraft a good builder in Temple and Belton? Yes — with an asterisk. Three and a half stars out of five. *[GRAPHIC G0: "3.5 / 5" star card]*
+So here's the quick answer up front, because your time matters. Is Stylecraft a good builder in Temple and Belton? Yes — with an asterisk. Three point nine stars out of five. Overall, I like Stylecraft homes and would buy the right one at the right number. *[GRAPHIC G0: "3.9 / 5" star card]*
 
 The financing package is genuinely the most aggressive in this market. The homes look sharp on paper — James Hardie siding, granite, smart-home tech standard. *[B-ROLL flash: siding/granite]* But the public complaint record shows a repeating pattern — drainage and grading problems, plumbing failures within weeks of closing, and a warranty department that treats "no" as its opening position. *[B-ROLL flash: downspout/low spot]* My own buyers have never hit these problems — but the record is the record, and I'll walk you through it. High enough to buy — low enough that you don't walk in unprepared. Math first, because the math is why people sign.
 

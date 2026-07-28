@@ -15,4 +15,4 @@
 8. **Page now has a payment calculator** — the video CTA can send viewers to "run your own number" at templetxhomes.net/stylecraft/ (?utm_source=youtube&utm_medium=description&utm_campaign=stylecraft-homes-review).
 
 ## What does NOT change
-Verdict stays 3.5/5 (matches page + Review schema). Voice/lane rules, the 11-month-inspection playbook, the Kangaroo captive-lender mechanics, the warranty-record framing (complaint record + clean-closings disclosure — Taylor HAS closed multiple Stylecraft homes with zero defect issues, per the standing memory), and the anti-duplication rule vs. the published 1818 home-tour video.
+Verdict updated to 3.9/5 on July 27, 2026, based on Taylor's firsthand editorial judgment; the page and Review schema must match. Voice/lane rules, the 11-month-inspection playbook, the Kangaroo captive-lender mechanics, the warranty-record framing (complaint record + clean-closings disclosure — Taylor HAS closed multiple Stylecraft homes with zero defect issues, per the standing memory), and the anti-duplication rule vs. the published 1818 home-tour video remain unchanged.

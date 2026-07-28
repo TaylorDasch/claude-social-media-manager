@@ -4,7 +4,7 @@
 
 Produce the full package for a 7–10 minute **honest builder-review video**: *"Stylecraft Homes: The Best Financing in Bell County — But Read This First."* This is the video companion to the ranked review page at **https://templetxhomes.net/stylecraft/** (WP post 1470). It lives on the **Living in Temple** channel (relocation/buyer lane — first-time buyers + military relocating to Fort Hood + BSW relocation). It is NOT an investor video; keep it off the Investing in Temple channel.
 
-The page already embeds a short *home-tour* video (Stylecraft 1818 in Northgate). This new video is different: it's the **builder review / decision video** — the honest 3.5/5 verdict a buyer needs before signing a Stylecraft contract. Once filmed, embed it in the review page in the review section (see "Embed spot" below), joining the existing VideoObject schema stack.
+The page already embeds a short *home-tour* video (Stylecraft 1818 in Northgate). This new video is different: it's the **builder review / decision video** — the honest 3.9/5 verdict a buyer needs before signing a Stylecraft contract. Once filmed, embed it in the review page in the review section (see "Embed spot" below), joining the existing VideoObject schema stack.
 
 **Companion page:** https://templetxhomes.net/stylecraft/
 **Pinned comment link (UTM):** https://templetxhomes.net/stylecraft/?utm_source=youtube&utm_medium=description&utm_campaign=stylecraft-homes-review
@@ -14,7 +14,7 @@ The page already embeds a short *home-tour* video (Stylecraft 1818 in Northgate)
 ## The one-sentence thesis
 Stylecraft delivers the single most aggressive builder financing in Bell County — a 3.99% subsidized buydown through their captive lender — which makes the monthly payment unbeatable for VA/FHA and first-time buyers; but the warranty department and a proprietary contract mean you must budget for an independent inspector and negotiate with your eyes open.
 
-## Verdict (must match the page + the Review schema): **3.5 / 5**
+## Verdict (must match the page + the Review schema): **3.9 / 5**
 
 ## Verified facts to build from (as of July 2026 — re-verify at film time)
 - **Financing (the hook):** 3.99% subsidized buydown (Years 1–2) → 4.99% (Years 3–30), 5.691% APR, via **Kangaroo Home Lending** — the builder's captive lender (49% Stylecraft-owned). Verified still live on **move-in-ready** homes. Flat build rates run ~4.99%–5.49%. "Your Way" flex credit now **up to $15,000**. **Every incentive requires financing through Kangaroo** — use an outside lender and you forfeit all of it.
@@ -35,9 +35,9 @@ Stylecraft delivers the single most aggressive builder financing in Bell County 
 
 ## Deliverables (Council output)
 1. **Full script** (7–10 min) AND a **talking-points** version (both — Taylor's standing rule).
-2. **Hook options** (3–5) + first-30-seconds. Lead hook candidate: *"Stylecraft has the best mortgage rate of any builder in Bell County. It's also the one I tell every client to hire an inspector for. Here's the honest 3.5-star breakdown."*
+2. **Hook options** (3–5) + first-30-seconds. Lead hook candidate: *"Stylecraft has one of the strongest financing packages in Bell County. I like the homes, and I still tell every client to hire an inspector. Here's the honest 3.9-star breakdown."*
 3. **Title options** (lead the brand phrase; earn the click). E.g. "Stylecraft Homes Review: Best Rate in Bell County (But Read This First)".
-4. **Thumbnail brief** for Pikzels (face-upload note) — 3.5★ + "BEST RATE / WORST WARRANTY" tension.
+4. **Thumbnail brief** for Pikzels (face-upload note) — 3.9★ + financing/value versus inspection/warranty tension.
 5. **Chaptered outline** mapped to the page's H2s (Quick Answer → Financing math → True quality → Warranty → Who it's not for → Comparison → Taylor's Take).
 6. **B-roll / shot list** — model home walk (public), community signage (South Pointe, Northgate — public side), a rate/payment graphic (lower-third, not full-screen), a warranty-timeline graphic.
 7. **Description** (with the UTM page link) + **pinned comment**.

@@ -1,9 +1,3 @@
-# Compliance Review & Pre-Publish Gates
-
-> **Morgan's Point Resort — council rebuild, Compliance Review & Pre-Publish Gates**
-> Council run `reason-run-260726-2130` · Data: CTXMLS `whole-market-with-status-2026-07-20.csv`, pulled July 20 2026, recounted July 26 2026
-> Ground truth: `GROUND-TRUTH-2026-07-20.md` · Supersedes the May 18 2026 version (archived in `archive-2026-05-18/`)
-
 # 16. COMPLIANCE REVIEW + PHRASING CORRECTIONS
 
 ## 16a. Hard-rule audit — all 14 rules from TASK.md
@@ -85,33 +79,6 @@ specificity but removes the question entirely; (c) ship as-is only after (a) com
 Note that the aggregate claims that carry this video — the 4/11 split, the $110,000 gap, the vintage
 inversion, the 6.9% $/sqft gap — **all survive de-identification intact**. Only G-5's street names and
 G-11's per-sale rows would need to change. The video does not depend on this being resolved favorably.
-
-## 16d-2. ⚠️ NEW HIGHEST-RISK SEGMENT — B9b, the no-restrictions / housing-mix beat
-
-**Added 2026-07-27 with Taylor's field take (§J). This is now the single highest fair-housing exposure in
-the package. It is also the most valuable 70 seconds in it. Both are true; handle accordingly.**
-
-**What makes it legitimate:** deed restrictions, zoning, and property-type mix are characteristics of *land
-and rules*. Advising a buyer to evaluate them is standard, defensible buyer counsel — the same counsel any
-competent agent gives about an HOA, an easement, or a flood zone.
-
-**What would make it a violation:** framing any of it in terms of *who lives there*. There is no gray area.
-
-| Requirement | Status |
-|---|---|
-| Never characterize residents by income, class, family status, national origin, or any protected characteristic — by word, tone, or B-roll | **MANDATORY** |
-| Never state or imply manufactured homes reduce property values | **MANDATORY** — unevidenced valuation claim, and the most clippable line in the video |
-| Never film an identifiable manufactured home as an illustration of a downside | **MANDATORY** — B9b is delivered to camera or over a graphic, never over that footage |
-| Never steer toward or away from any section of the city | **MANDATORY** — give the variable and the method; the buyer decides |
-| Present the freedom and the risk as the *same fact*, not as a warning | **MANDATORY** — this is what makes it counsel rather than a verdict |
-| Label the entire beat `OBSERVATION — TAYLOR, ON SITE` | **MANDATORY** — all 29 rows are PropertyType `Residential`; nothing about housing mix is MLS-verified |
-| Keep the uncuttable lines: "I'm not going to tell you how to feel about that" and "it's a variable, it changes by street" | **MANDATORY** — these carry the compliance load |
-| Short-form version omits the housing type entirely | **MANDATORY** — see `shorts-cutdowns.md` Short 6 rationale |
-
-**If Taylor is not comfortable delivering it exactly as scripted, cut the beat entirely.** A half-delivered
-version — the observation without the balancing frame — is materially worse than not making the point at all.
-
-Full guardrails and shipped phrasing: `../GROUND-TRUTH-J-TAYLOR-TAKE.md` §J3.
 
 ## 16e. Pre-publish gate — all eight before upload
 

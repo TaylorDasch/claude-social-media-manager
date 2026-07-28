@@ -11,6 +11,10 @@ Generated for the current Stylecraft Homes review in Taylor's Living in Temple b
 
 The filenames follow the script markers `G0` through `G12`. `00-title.png` is an optional opening title.
 
+`G00-taylor-intro-card.png` is the reusable Taylor contact opener. It uses the
+approved headshot and displays Taylor Dasch, EG Realty, 254-718-4249, and
+dealswithdasch@gmail.com.
+
 ## CapCut placement
 
 1. Import the PNGs from the `*-1080` folders.
@@ -34,7 +38,7 @@ The filenames follow the script markers `G0` through `G12`. `00-title.png` is an
 | File | Spoken beat |
 |---|---|
 | `00-title.png` | Optional 2–3 second cold-open title after the first hook sentence |
-| `G0-verdict-3-5.png` | “Three and a half stars out of five” |
+| `G0-verdict-3-9.png` | “Three point nine stars out of five” |
 | `G1-offer-choice.png` | The 4.99% versus up-to-$20K forced choice |
 | `G2-payment-compare.png` | The illustrative monthly P&I comparison |
 | `G3-five-year-line.png` | “Just over five years” in the current official-loan illustration |
@@ -47,5 +51,7 @@ The filenames follow the script markers `G0` through `G12`. `00-title.png` is an
 | `G10-comparison-lanes.png` | Builder comparison section |
 | `G11-total-payment.png` | Full payment stack and first-year tax-assessment warning |
 | `G12-registration-card.png` | Agent-on-record warning |
+
+The legacy `G0-verdict-3-5.png` filename is retained as a compatibility alias for the existing CapCut import, but its rendered content now displays the approved 3.9/5 verdict.
 
 Source script: `../script.md`
