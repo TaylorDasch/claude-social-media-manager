@@ -1,0 +1,729 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Stylecraft Review — Premium Graphics v2 (transcript-locked)</title>
+<style>
+  @import url('assets/fonts/fonts.css');
+
+  :root{
+    --ink:#060b14; --mid:#0f172a; --elev:#131e36;
+    --snow:#f8fafc; --body:#e2e8f0; --label:#94a3b8; --faint:#64748b;
+    --em:#10b981; --em-bright:#34d399; --em-deep:#059669;
+    --azure:#8fb3d4; --amber:#f59e0b;
+    --hair:rgba(255,255,255,.07); --hair2:rgba(255,255,255,.13);
+    --hair-em:rgba(16,185,129,.34); --hair-am:rgba(245,158,11,.34);
+    --hair-az:rgba(143,179,212,.30);
+    --serif:'Cormorant Garamond',Georgia,serif;
+    --mono:'JetBrains Mono',ui-monospace,monospace;
+    --sans:'Outfit',system-ui,-apple-system,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:#05070c;color:var(--body);
+    font-family:var(--sans);-webkit-font-smoothing:antialiased}
+
+  /* ============ FULL-FRAME STAGE ============ */
+  .stage{position:relative;width:1920px;height:1080px;padding:96px 120px;overflow:hidden;
+    background:var(--ink);z-index:0;margin:0 0 40px}
+  .stage::before{content:"";position:absolute;inset:0;z-index:-2;
+    background:url('assets/temple-twilight-aerial.jpg') center 38%/cover no-repeat;opacity:.10}
+  .stage::after{content:"";position:absolute;inset:0;z-index:-1;background:
+    linear-gradient(180deg, rgba(6,11,20,.76), rgba(6,11,20,.91) 60%, rgba(6,11,20,.96)),
+    radial-gradient(120% 85% at 88% 8%, rgba(16,185,129,.09), transparent 52%),
+    radial-gradient(120% 120% at 2% 100%, rgba(15,23,42,.66), transparent 58%)}
+  .frameline{position:absolute;inset:48px;border:1px solid var(--hair);pointer-events:none;z-index:0}
+  .frameline::before,.frameline::after{content:"";position:absolute;width:34px;height:34px;border:0 solid var(--em-bright)}
+  .frameline::before{top:-1px;left:-1px;border-top-width:2px;border-left-width:2px}
+  .frameline::after{bottom:-1px;right:-1px;border-bottom-width:2px;border-right-width:2px;opacity:.7}
+
+  /* brand mark BOTTOM-LEFT (Taylor's stated preference); attribution bottom-right */
+  .brandmark{position:absolute;left:120px;bottom:60px;z-index:6;font:600 19px/1 var(--mono);
+    letter-spacing:.17em;text-transform:uppercase;color:var(--label)}
+  .brandmark b{color:var(--em-bright);font-weight:700}
+  .attrib{position:absolute;right:120px;bottom:60px;z-index:6;font:500 16px/1 var(--mono);
+    letter-spacing:.11em;text-transform:uppercase;color:var(--faint);text-align:right}
+
+  .layout{position:relative;z-index:1;height:100%;display:flex;flex-direction:column;justify-content:center;
+    padding-bottom:46px}
+
+  .eyebrow{display:inline-flex;align-items:center;gap:18px;font:500 23px/1 var(--mono);
+    letter-spacing:.26em;text-transform:uppercase;color:var(--label)}
+  .eyebrow .erule{width:46px;height:2px;background:var(--em);box-shadow:0 0 14px rgba(16,185,129,.55)}
+  .eyebrow.am .erule{background:var(--amber);box-shadow:0 0 14px rgba(245,158,11,.5)}
+  .head{margin:30px 0 0;font:600 96px/.98 var(--serif);letter-spacing:-.01em;color:var(--snow)}
+  .head.sm{font-size:80px}
+  .head em{font-style:italic;color:var(--em-bright);font-weight:600}
+  .head em.am{color:var(--amber)} .head em.az{color:var(--azure)}
+  .sub{margin:28px 0 0;max-width:1240px;font:400 33px/1.34 var(--sans);color:var(--body)}
+  .source{margin:0;position:absolute;left:120px;bottom:118px;z-index:6;
+    font:500 19px/1.5 var(--mono);letter-spacing:.09em;text-transform:uppercase;color:var(--faint)}
+
+  .val{font-family:var(--serif);font-weight:600;line-height:.84;letter-spacing:-.01em;
+    font-feature-settings:'lnum' 1;display:inline-block}
+  .val.em{color:var(--em-bright)} .val.az{color:var(--azure)}
+  .val.snow{color:var(--snow)} .val.am{color:var(--amber)}
+
+  .chip{display:inline-flex;align-items:baseline;gap:14px;width:fit-content;padding:16px 26px;
+    border:1px solid var(--hair-em);background:rgba(16,185,129,.07);color:var(--em-bright);
+    font:600 40px/1 var(--serif)}
+  .chip .k{font:600 22px/1 var(--mono);letter-spacing:.10em;text-transform:uppercase;color:var(--label)}
+  .chip.am{border-color:var(--hair-am);background:rgba(245,158,11,.08);color:var(--amber)}
+  .chip.az{border-color:var(--hair-az);background:rgba(143,179,212,.07);color:var(--azure)}
+
+  /* OR-fork (offer choice) */
+  .fork{display:grid;grid-template-columns:1fr 118px 1fr;align-items:stretch;margin-top:58px}
+  .fnode{padding:56px 54px;border:1px solid var(--hair);background:rgba(19,30,54,.55);
+    box-shadow:0 30px 80px rgba(0,0,0,.42);display:flex;flex-direction:column;gap:18px;justify-content:center}
+  .fnode.a{border-color:var(--hair-em)} .fnode.b{border-color:var(--hair-az)}
+  .fnode .fl{font:500 23px/1 var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--label)}
+  .fnode .fv{font:600 122px/.86 var(--serif);color:var(--snow)}
+  .fnode.a .fv{color:var(--em-bright)} .fnode.b .fv{color:var(--azure)}
+  .fnode .fn{font:400 27px/1.26 var(--sans);color:var(--body)}
+  .forkmid{display:flex;align-items:center;justify-content:center;
+    font:600 italic 44px/1 var(--serif);color:var(--label)}
+  .banner{margin-top:26px;display:inline-flex;align-items:center;gap:16px;padding:15px 28px;
+    border:1px solid var(--hair-am);background:rgba(245,158,11,.09);color:var(--amber);
+    font:600 24px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;width:fit-content}
+
+  /* payment compare */
+  .pay{display:grid;grid-template-columns:1fr 96px 1fr;align-items:end;gap:0;margin-top:54px}
+  .pcol{display:flex;flex-direction:column;gap:18px}
+  .pcol .lab{font:500 24px/1 var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--label)}
+  .pcol .v{display:flex;align-items:baseline;gap:14px}
+  .pcol .v .val{font-size:132px}
+  .pcol.range .v .val{font-size:92px}   /* a range needs ~2x the width of a single figure */
+  .pcol .v .unit{font:600 italic 40px/1 var(--serif);color:var(--body)}
+  .pcol .note{font:400 26px/1.24 var(--sans);color:var(--body)}
+  .pmid{display:flex;align-items:center;justify-content:center;padding-bottom:52px;
+    font:600 italic 50px/1 var(--serif);color:var(--label)}
+  .payfoot{display:flex;align-items:center;gap:26px;margin-top:52px;flex-wrap:wrap}
+
+  /* stat cards */
+  .cards{display:grid;gap:22px;margin-top:52px}
+  .cards.c2{grid-template-columns:repeat(2,1fr)}
+  .cards.c3{grid-template-columns:repeat(3,1fr)}
+  .cards.c4{grid-template-columns:repeat(4,1fr)}
+  .ccard{padding:40px 36px;border:1px solid var(--hair);background:rgba(19,30,54,.5);
+    box-shadow:0 24px 60px rgba(0,0,0,.34);display:flex;flex-direction:column;gap:14px;min-height:250px}
+  .ccard .cv{font:600 74px/.88 var(--serif);color:var(--em-bright)}
+  .ccard .cv.sm{font-size:54px}
+  .ccard.az .cv{color:var(--azure)} .ccard.am .cv{color:var(--amber)} .ccard.snow .cv{color:var(--snow)}
+  .ccard.am{border-color:var(--hair-am)}
+  .ccard .cl{font:600 31px/1.1 var(--sans);color:var(--snow)}
+  .ccard .cn{font:400 25px/1.28 var(--sans);color:var(--body)}
+  .footline{margin-top:34px;max-width:1560px;font:400 26px/1.34 var(--sans);color:var(--body)}
+
+  /* warranty timeline — 3 equal columns so labels can never clip or collide */
+  .tl{margin-top:80px;position:relative}
+  .tlrow{display:grid;grid-template-columns:repeat(3,1fr)}
+  .tlcol{text-align:center}
+  .tlcol .ty{font:600 84px/.9 var(--serif);color:var(--snow)}
+  .tlcol .tk{margin-top:14px;font:500 23px/1 var(--mono);letter-spacing:.16em;
+    text-transform:uppercase;color:var(--label)}
+  .tlbar{position:relative;height:2px;background:var(--hair2);margin:38px 0}
+  .tlfill{position:absolute;left:0;top:0;height:2px;width:83.33%;
+    background:linear-gradient(90deg,var(--em-deep),var(--em-bright))}
+  .tlpt{position:absolute;top:50%;transform:translate(-50%,-50%);width:20px;height:20px;border-radius:50%;
+    background:var(--em-bright);box-shadow:0 0 20px rgba(52,211,153,.7)}
+  .tlpt.dim{background:var(--azure);box-shadow:0 0 16px rgba(143,179,212,.5)}
+  .tlrow.notes .tlcol{font:400 25px/1.3 var(--sans);color:var(--body)}
+  .tlflag{margin:56px auto 0;width:fit-content;display:flex;align-items:center;gap:14px;
+    padding:16px 30px;border:1px solid var(--hair-am);background:rgba(245,158,11,.09);
+    color:var(--amber);font:600 25px/1 var(--mono);letter-spacing:.13em;text-transform:uppercase}
+
+  /* verdict */
+  .verdict{display:grid;grid-template-columns:auto 1fr;gap:96px;align-items:center;margin-top:56px}
+  .vnum{display:flex;align-items:baseline;gap:20px}
+  .vnum .big{font:600 300px/.78 var(--serif);color:var(--em-bright)}
+  .vnum .of{font:600 italic 84px/1 var(--serif);color:var(--label)}
+  .vrows{display:flex;flex-direction:column;gap:20px}
+  .vrow{display:grid;grid-template-columns:360px 1fr;align-items:center;gap:28px}
+  .vrow .vl{font:500 25px/1.1 var(--mono);letter-spacing:.13em;text-transform:uppercase;color:var(--label)}
+  .vtrack{height:14px;background:rgba(255,255,255,.06);position:relative}
+  .vbar{position:absolute;left:0;top:0;height:14px;background:linear-gradient(90deg,var(--em-deep),var(--em-bright))}
+
+  /* contact */
+  .contact{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center;margin-top:40px}
+  .clines{display:flex;flex-direction:column;gap:26px;margin-top:44px}
+  .cline{display:flex;align-items:center;gap:24px}
+  .cline .ck{width:150px;font:500 21px/1 var(--mono);letter-spacing:.15em;text-transform:uppercase;color:var(--faint)}
+  .cline .cvv{font:600 44px/1 var(--sans);color:var(--snow)}
+  .cline .cvv.em{color:var(--em-bright)}
+
+  /* ============ OVERLAY STAGE (transparent) ============ */
+  .ov{position:relative;width:1920px;height:1080px;overflow:hidden;background:transparent;
+    margin:0 0 40px}
+  .ov .slot{position:absolute;left:104px;bottom:104px;max-width:1300px}
+  .ov .slot.wide{max-width:1620px}
+  .ov .slot.tr{left:auto;right:104px;bottom:auto;top:96px;text-align:right}
+
+  .panel{position:relative;padding:36px 46px 38px;background:rgba(8,14,25,.90);
+    border:1px solid var(--hair2);border-left:4px solid var(--em);
+    box-shadow:0 34px 80px rgba(0,0,0,.62)}
+  .panel.am{border-left-color:var(--amber)}
+  .panel.az{border-left-color:var(--azure)}
+  .panel .oeye{font:500 21px/1 var(--mono);letter-spacing:.24em;text-transform:uppercase;color:var(--label)}
+  .panel .otitle{margin-top:18px;font:600 62px/1.02 var(--serif);color:var(--snow);letter-spacing:-.005em}
+  .panel .otitle em{font-style:italic;color:var(--em-bright)}
+  .panel .otitle em.am{color:var(--amber)}
+  .panel .osub{margin-top:16px;font:400 30px/1.28 var(--sans);color:var(--body);max-width:1180px}
+  .panel .osrc{margin-top:20px;font:500 19px/1.45 var(--mono);letter-spacing:.09em;
+    text-transform:uppercase;color:var(--faint)}
+
+  /* name lower-third */
+  .lt{display:flex;align-items:stretch;background:rgba(8,14,25,.90);border:1px solid var(--hair2);
+    box-shadow:0 34px 80px rgba(0,0,0,.62)}
+  .lt .accent{width:6px;background:linear-gradient(180deg,var(--em-bright),var(--em-deep))}
+  .lt .ltin{padding:34px 52px 36px}
+  .lt .ltname{font:600 76px/1 var(--serif);color:var(--snow);letter-spacing:-.01em}
+  .lt .ltrole{margin-top:16px;font:500 26px/1 var(--mono);letter-spacing:.22em;
+    text-transform:uppercase;color:var(--em-bright)}
+  .lt .ltrole span{color:var(--label)}
+
+  /* stat overlay (number-forward) */
+  .statov{display:flex;align-items:stretch;background:rgba(8,14,25,.90);border:1px solid var(--hair2);
+    box-shadow:0 34px 80px rgba(0,0,0,.62)}
+  .statov .sacc{width:5px;background:var(--em)}
+  .statov.am .sacc{background:var(--amber)}
+  .statov.az .sacc{background:var(--azure)}
+  .statov .sbody{padding:32px 46px 34px;display:flex;align-items:center;gap:40px}
+  .statov .sbig{font:600 116px/.84 var(--serif);color:var(--em-bright);white-space:nowrap}
+  .statov.am .sbig{color:var(--amber)} .statov.az .sbig{color:var(--azure)}
+  .statov .sright{display:flex;flex-direction:column;gap:12px;max-width:920px}
+  .statov .sk{font:500 21px/1 var(--mono);letter-spacing:.22em;text-transform:uppercase;color:var(--label)}
+  .statov .sv{font:600 40px/1.14 var(--sans);color:var(--snow)}
+  .statov .sn{font:400 26px/1.24 var(--sans);color:var(--body)}
+
+  /* fork overlay (two small nodes) */
+  .ovfork{display:grid;grid-template-columns:1fr 74px 1fr;align-items:stretch;max-width:1500px}
+  .ovnode{padding:32px 38px;background:rgba(8,14,25,.90);border:1px solid var(--hair2);
+    box-shadow:0 34px 80px rgba(0,0,0,.62);display:flex;flex-direction:column;gap:12px}
+  .ovnode.a{border-top:3px solid var(--em)} .ovnode.b{border-top:3px solid var(--azure)}
+  .ovnode .nk{font:500 20px/1 var(--mono);letter-spacing:.2em;text-transform:uppercase;color:var(--label)}
+  .ovnode .nv{font:600 52px/1 var(--serif);color:var(--em-bright)}
+  .ovnode.b .nv{color:var(--azure)}
+  .ovnode .nn{font:400 25px/1.24 var(--sans);color:var(--body)}
+  .ovmid{display:flex;align-items:center;justify-content:center;font:600 italic 34px/1 var(--serif);color:var(--faint)}
+
+  /* three-up chip strip */
+  .strip{display:flex;gap:16px;flex-wrap:wrap;max-width:1620px}
+  .schip{padding:24px 32px;background:rgba(8,14,25,.90);border:1px solid var(--hair2);
+    border-bottom:3px solid var(--em);box-shadow:0 28px 66px rgba(0,0,0,.58);
+    display:flex;flex-direction:column;gap:9px}
+  .schip .sck{font:500 19px/1 var(--mono);letter-spacing:.2em;text-transform:uppercase;color:var(--label)}
+  .schip .scv{font:600 38px/1.06 var(--sans);color:var(--snow)}
+  .schip.az{border-bottom-color:var(--azure)}
+  .schip.am{border-bottom-color:var(--amber)}
+
+  /* corner date stamp */
+  .stamp{display:inline-flex;align-items:center;gap:18px;padding:20px 30px;
+    background:rgba(8,14,25,.88);border:1px solid var(--hair-am);
+    box-shadow:0 22px 54px rgba(0,0,0,.55)}
+  .stamp .dot{width:11px;height:11px;border-radius:50%;background:var(--amber);
+    box-shadow:0 0 16px rgba(245,158,11,.8)}
+  .stamp .st{font:600 27px/1 var(--mono);letter-spacing:.15em;text-transform:uppercase;color:var(--amber)}
+  .stamp .sn{font:400 24px/1 var(--sans);color:var(--body)}
+
+  /* overlay brandmark (small, bottom-left, only where it doesn't fight the panel) */
+  .ovbrand{position:absolute;right:104px;bottom:110px;font:600 19px/1 var(--mono);
+    letter-spacing:.17em;text-transform:uppercase;color:rgba(226,232,240,.72);
+    text-shadow:0 3px 18px rgba(0,0,0,.9)}
+  .ovbrand b{color:var(--em-bright)}
+</style>
+</head>
+<body>
+
+<!-- ══════════════════ FULL-FRAME CARDS ══════════════════ -->
+
+<!-- F1 · 00:01:17 — the forced choice -->
+<div class="stage" id="F1-offer-choice">
+  <div class="frameline"></div>
+  <div class="layout">
+    <div class="eyebrow"><i class="erule"></i>Current Stylecraft offer</div>
+    <h1 class="head">You get one. <em>Not both.</em></h1>
+    <div class="fork">
+      <div class="fnode a">
+        <div class="fl">Option A · Rate</div>
+        <div class="fv">4.99%</div>
+        <div class="fn">30-year fixed. Requires the builder's affiliated lender.</div>
+      </div>
+      <div class="forkmid">or</div>
+      <div class="fnode b">
+        <div class="fl">Option B · Cash</div>
+        <div class="fv">$20,000</div>
+        <div class="fn">Up to. Flex Cash — upgrades, buydown or closing costs. Any lender.</div>
+      </div>
+    </div>
+    <div class="banner">Not combinable · Select homes · Verify current terms</div>
+  </div>
+  <div class="source">Terms as presented July 26, 2026 — builder promotions rotate</div>
+  <div class="brandmark">Temple<b>TXHomes</b>.net</div>
+  <div class="attrib">Taylor Dasch · EG Realty</div>
+</div>
+
+<!-- F2 · 00:01:41 — the payment math -->
+<div class="stage" id="F2-payment-math">
+  <div class="frameline"></div>
+  <div class="layout">
+    <div class="eyebrow"><i class="erule"></i>What the rate is actually worth</div>
+    <h1 class="head sm">Same house. <em>Two rates.</em></h1>
+    <div class="pay">
+      <div class="pcol">
+        <div class="lab">Builder rate · 4.99%</div>
+        <div class="v"><span class="val em">$1,689</span><span class="unit">/mo</span></div>
+        <div class="note">Principal &amp; interest only</div>
+      </div>
+      <div class="pmid">vs</div>
+      <div class="pcol range">
+        <div class="lab">Market · 6.5% – 6.8%</div>
+        <div class="v"><span class="val az">$1,991–$2,054</span><span class="unit">/mo</span></div>
+        <div class="note">Same loan, same term</div>
+      </div>
+    </div>
+    <div class="payfoot">
+      <div class="chip"><span class="k">You keep</span>$302 – $365 / mo</div>
+      <div class="chip az"><span class="k">Over 5 years</span>$18,100 – $21,900</div>
+    </div>
+  </div>
+  <div class="source">$315,000 loan · 30-yr fixed · P&amp;I only — taxes, insurance and MI are additional<br>Illustrative comparison. Your rate, credit and program will change the number.</div>
+  <div class="brandmark">Temple<b>TXHomes</b>.net</div>
+  <div class="attrib">Taylor Dasch · EG Realty</div>
+</div>
+
+<!-- F3 · 00:03:11 — company scale -->
+<div class="stage" id="F3-by-the-numbers">
+  <div class="frameline"></div>
+  <div class="layout">
+    <div class="eyebrow"><i class="erule"></i>Who you're buying from</div>
+    <h1 class="head">Volume shows up <em>in the systems.</em></h1>
+    <div class="cards c3">
+      <div class="ccard">
+        <div class="cv">1988</div>
+        <div class="cl">Started in College Station</div>
+        <div class="cn">Texas-grown builder, not a national brand entering the market.</div>
+      </div>
+      <div class="ccard">
+        <div class="cv">Top 75</div>
+        <div class="cl">Builder in the United States</div>
+        <div class="cn">By closings — national scale, regional footprint.</div>
+      </div>
+      <div class="ccard">
+        <div class="cv">973</div>
+        <div class="cl">Closings verified</div>
+        <div class="cn">They do this often. Repetition is what makes a builder predictable.</div>
+      </div>
+    </div>
+  </div>
+  <div class="source">Figures as verified by Taylor Dasch, July 2026</div>
+  <div class="brandmark">Temple<b>TXHomes</b>.net</div>
+  <div class="attrib">Taylor Dasch · EG Realty</div>
+</div>
+
+<!-- F4 · 00:03:45 — standard features -->
+<div class="stage" id="F4-whats-standard">
+  <div class="frameline"></div>
+  <div class="layout">
+    <div class="eyebrow"><i class="erule"></i>Comes standard — not an upgrade</div>
+    <h1 class="head">What you get <em>without paying more.</em></h1>
+    <div class="cards c4">
+      <div class="ccard">
+        <div class="cv sm">Brick +<br>Hardie</div>
+        <div class="cl">Exterior</div>
+        <div class="cn">Masonry and James Hardie siding, not all-vinyl.</div>
+      </div>
+      <div class="ccard">
+        <div class="cv sm">Granite</div>
+        <div class="cl">Countertops</div>
+        <div class="cn">Not every builder in this price range includes stone.</div>
+      </div>
+      <div class="ccard">
+        <div class="cv sm">Engineered<br>slab</div>
+        <div class="cl">Foundation</div>
+        <div class="cn">Matters more than anything else in Central Texas soil.</div>
+      </div>
+      <div class="ccard">
+        <div class="cv sm">Smart<br>home</div>
+        <div class="cl">Tech package</div>
+        <div class="cn">Included in the base build, not a line-item add.</div>
+      </div>
+    </div>
+  </div>
+  <div class="source">Standard specifications vary by plan and community — confirm on the exact home</div>
+  <div class="brandmark">Temple<b>TXHomes</b>.net</div>
+  <div class="attrib">Taylor Dasch · EG Realty</div>
+</div>
+
+<!-- F5 · 00:05:12 — warranty -->
+<div class="stage" id="F5-warranty">
+  <div class="frameline"></div>
+  <div class="layout">
+    <div class="eyebrow"><i class="erule"></i>Stylecraft warranty</div>
+    <h1 class="head">1 / 2 / 10 — <em>and one deadline.</em></h1>
+    <div class="tl">
+      <div class="tlrow">
+        <div class="tlcol"><div class="ty">1 year</div><div class="tk">Door to door</div></div>
+        <div class="tlcol"><div class="ty">2 years</div><div class="tk">Systems</div></div>
+        <div class="tlcol"><div class="ty">10 years</div><div class="tk">Structural</div></div>
+      </div>
+      <div class="tlbar">
+        <div class="tlfill"></div>
+        <div class="tlpt" style="left:16.66%"></div>
+        <div class="tlpt" style="left:50%"></div>
+        <div class="tlpt dim" style="left:83.33%"></div>
+      </div>
+      <div class="tlrow notes">
+        <div class="tlcol">Everything in the house</div>
+        <div class="tlcol">Electrical · plumbing · A/C</div>
+        <div class="tlcol">The structure itself</div>
+      </div>
+      <div class="tlflag">Day 365 — call before it closes</div>
+    </div>
+  </div>
+  <div class="source">Coverage terms are set by the builder's written warranty — read the current document</div>
+  <div class="brandmark">Temple<b>TXHomes</b>.net</div>
+  <div class="attrib">Taylor Dasch · EG Realty</div>
+</div>
+
+<!-- F6 · 00:06:14 — the tax trap -->
+<div class="stage" id="F6-tax-trap">
+  <div class="frameline"></div>
+  <div class="layout">
+    <div class="eyebrow am"><i class="erule"></i>The payment nobody quotes you</div>
+    <h1 class="head sm">The listing tax figure is <em class="am">the empty lot.</em></h1>
+    <div class="cards c3">
+      <div class="ccard">
+        <div class="cv sm">P &amp; I</div>
+        <div class="cl">What the builder shows</div>
+        <div class="cn">Principal and interest. That's the number on the flyer.</div>
+      </div>
+      <div class="ccard am">
+        <div class="cv sm">Land only</div>
+        <div class="cl">What Zillow &amp; Realtor.com show</div>
+        <div class="cn">Taxes assessed on the bare lot — before the house existed. It will go up.</div>
+      </div>
+      <div class="ccard">
+        <div class="cv sm">+ Ins.</div>
+        <div class="cl">What's still missing</div>
+        <div class="cn">Insurance, MI and any HOA or district charge.</div>
+      </div>
+    </div>
+    <p class="footline">Underwrite it yourself: take the Bell County tax rate and apply it to the <b>asking price</b> — not the lot assessment.</p>
+  </div>
+  <div class="source">Estimate only. Confirm the assessment with Bell CAD and the payment with your lender.</div>
+  <div class="brandmark">Temple<b>TXHomes</b>.net</div>
+  <div class="attrib">Taylor Dasch · EG Realty</div>
+</div>
+
+<!-- F7 · 00:08:16 — footprint -->
+<div class="stage" id="F7-footprint">
+  <div class="frameline"></div>
+  <div class="layout">
+    <div class="eyebrow"><i class="erule"></i>Where they actually build</div>
+    <h1 class="head">They stay in <em>a lane of their own.</em></h1>
+    <div class="cards c2">
+      <div class="ccard">
+        <div class="cv">12</div>
+        <div class="cl">Neighborhoods</div>
+        <div class="cn">Including South Point and Homestead — plus communities inside Belton ISD.</div>
+      </div>
+      <div class="ccard">
+        <div class="cv">4</div>
+        <div class="cl">School districts</div>
+        <div class="cn">The district changes the tax bill and the resale pool. Check it per address.</div>
+      </div>
+    </div>
+    <p class="footline">Spreading across four ISDs is why two Stylecraft homes at the same price can carry very different monthly payments.</p>
+  </div>
+  <div class="source">Community count as of July 2026 — verify the ISD on the specific address</div>
+  <div class="brandmark">Temple<b>TXHomes</b>.net</div>
+  <div class="attrib">Taylor Dasch · EG Realty</div>
+</div>
+
+<!-- F8 · 00:08:56 — the verdict -->
+<div class="stage" id="F8-verdict">
+  <div class="frameline"></div>
+  <div class="layout">
+    <div class="eyebrow"><i class="erule"></i>Taylor's rating</div>
+    <h1 class="head sm">For Bell County new construction.</h1>
+    <div class="verdict">
+      <div class="vnum"><span class="big">3.9</span><span class="of">/ 5</span></div>
+      <div class="vrows">
+        <div class="vrow"><div class="vl">Financing value</div><div class="vtrack"><div class="vbar" style="width:94%"></div></div></div>
+        <div class="vrow"><div class="vl">Build &amp; finishes</div><div class="vtrack"><div class="vbar" style="width:80%"></div></div></div>
+        <div class="vrow"><div class="vl">Inspection record</div><div class="vtrack"><div class="vbar" style="width:76%"></div></div></div>
+        <div class="vrow"><div class="vl">Warranty &amp; service</div><div class="vtrack"><div class="vbar" style="width:72%"></div></div></div>
+        <div class="vrow"><div class="vl">Customization</div><div class="vtrack"><div class="vbar" style="width:46%"></div></div></div>
+      </div>
+    </div>
+  </div>
+  <div class="source">Taylor's own judgment from direct transaction and inspection history — not an average of public review scores</div>
+  <div class="brandmark">Temple<b>TXHomes</b>.net</div>
+  <div class="attrib">Taylor Dasch · EG Realty</div>
+</div>
+
+<!-- F9 · 00:09:33 — contact -->
+<div class="stage" id="F9-contact">
+  <div class="frameline"></div>
+  <div class="layout">
+    <div class="eyebrow"><i class="erule"></i>Buying new construction in Bell County?</div>
+    <h1 class="head">Let's see if we're <em>a fit.</em></h1>
+    <p class="sub">I'll compare every builder incentive in the county against your actual numbers — before you sign a registration card.</p>
+    <div class="clines">
+      <div class="cline"><span class="ck">Agent</span><span class="cvv">Taylor Dasch · EG Realty</span></div>
+      <div class="cline"><span class="ck">Call / text</span><span class="cvv em">254-718-4249</span></div>
+      <div class="cline"><span class="ck">Email</span><span class="cvv">dealswithdasch@gmail.com</span></div>
+      <div class="cline"><span class="ck">Online</span><span class="cvv em">TempleTXHomes.net</span></div>
+    </div>
+  </div>
+  <div class="brandmark">Temple<b>TXHomes</b>.net</div>
+  <div class="attrib">Temple · Belton · Bell County</div>
+</div>
+
+
+<!-- ══════════════════ TRANSPARENT OVERLAYS ══════════════════ -->
+
+<!-- O1 · 00:00:07 — date stamp (top-right corner) -->
+<div class="ov" id="O1-datestamp">
+  <div class="slot tr">
+    <div class="stamp">
+      <i class="dot"></i>
+      <span class="st">Verified July 26, 2026</span>
+      <span class="sn">— builder terms rotate</span>
+    </div>
+  </div>
+</div>
+
+<!-- O2 · 00:00:11 — hook offer -->
+<div class="ov" id="O2-hook-offer">
+  <div class="slot wide">
+    <div class="strip">
+      <div class="schip"><div class="sck">Option A</div><div class="scv">4.99% · 30-yr fixed</div></div>
+      <div class="schip az"><div class="sck">Option B</div><div class="scv">Up to $20,000 Flex Cash</div></div>
+      <div class="schip am"><div class="sck">The catch</div><div class="scv">You pick one, not both</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- O3 · 00:00:32 — name lower-third -->
+<div class="ov" id="O3-name">
+  <div class="slot">
+    <div class="lt">
+      <div class="accent"></div>
+      <div class="ltin">
+        <div class="ltname">Taylor Dasch</div>
+        <div class="ltrole">EG Realty <span>· Temple, TX</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- O4 · 00:01:30 — flex cash uses -->
+<div class="ov" id="O4-flex-uses">
+  <div class="slot wide">
+    <div class="strip">
+      <div class="schip"><div class="sck">Spend it on</div><div class="scv">Upgrades</div></div>
+      <div class="schip"><div class="sck">Or</div><div class="scv">Buying the rate down</div></div>
+      <div class="schip"><div class="sck">Or</div><div class="scv">Closing costs</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- O5 · 00:02:27 — the catch / affiliated lender -->
+<div class="ov" id="O5-kangaroo">
+  <div class="slot">
+    <div class="statov am">
+      <div class="sacc"></div>
+      <div class="sbody">
+        <div class="sbig">49%</div>
+        <div class="sright">
+          <div class="sk">The string attached</div>
+          <div class="sv">The 4.99% requires Kangaroo Home Lending</div>
+          <div class="sn">The builder holds a 49% stake in the lender. Shop one outside quote anyway.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- O6 · 00:02:45 — the fork -->
+<div class="ov" id="O6-lender-fork">
+  <div class="slot wide">
+    <div class="ovfork">
+      <div class="ovnode a">
+        <div class="nk">Their lender</div>
+        <div class="nv">4.99% rate</div>
+        <div class="nn">Lowest payment. No lender choice.</div>
+      </div>
+      <div class="ovmid">or</div>
+      <div class="ovnode b">
+        <div class="nk">Your lender</div>
+        <div class="nv">Flex Cash</div>
+        <div class="nn">Keep your relationship. Take the cash instead.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- O7 · 00:02:55 — not the only builder -->
+<div class="ov" id="O7-not-only">
+  <div class="slot">
+    <div class="panel am">
+      <div class="oeye">Before you commit</div>
+      <div class="otitle">Stylecraft is <em class="am">not the only</em> Bell County builder at 4.99%.</div>
+      <div class="osub">Compare the incentive against every builder in the county before you register.</div>
+    </div>
+  </div>
+</div>
+
+<!-- O8 · 00:03:38 — location lower-third -->
+<div class="ov" id="O8-location">
+  <div class="slot">
+    <div class="lt">
+      <div class="accent"></div>
+      <div class="ltin">
+        <div class="ltname">Hartrick Ranch</div>
+        <div class="ltrole">Temple, TX <span>· Stylecraft community</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- O9 · 00:03:52 — granite nuance -->
+<div class="ov" id="O9-granite">
+  <div class="slot">
+    <div class="panel az">
+      <div class="oeye">Honest note</div>
+      <div class="otitle">The base granite is the weak spot.</div>
+      <div class="osub">Taylor's take: the upgraded stone is a meaningful step up — price it before you settle for standard.</div>
+    </div>
+  </div>
+</div>
+
+<!-- O10 · 00:04:16 — inspection policy -->
+<div class="ov" id="O10-inspection">
+  <div class="slot">
+    <div class="statov">
+      <div class="sacc"></div>
+      <div class="sbody">
+        <div class="sbig">100%</div>
+        <div class="sright">
+          <div class="sk">Taylor's rule on new construction</div>
+          <div class="sv">Every buyer gets an independent inspection</div>
+          <div class="sn">If the budget is tight, Taylor pays for it. New build ≠ no inspection.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- O11 · 00:04:36 — complaint record (attributed) -->
+<div class="ov" id="O11-complaint-record">
+  <div class="slot">
+    <div class="panel am">
+      <div class="oeye">From the public complaint record</div>
+      <div class="otitle">Repeating themes: <em class="am">plumbing</em> and <em class="am">drainage.</em></div>
+      <div class="osub">Taylor has closed multiple Stylecraft homes — his own buyers have never hit these problems. Inspect the exact house anyway.</div>
+      <div class="osrc">Attributed to published complaints and consumer reports — not a firsthand claim</div>
+    </div>
+  </div>
+</div>
+
+<!-- O12 · 00:05:02 — selection bias -->
+<div class="ov" id="O12-selection-bias">
+  <div class="slot">
+    <div class="panel">
+      <div class="oeye">How to read builder reviews</div>
+      <div class="otitle">You mostly hear from <em>the unhappy ones.</em></div>
+      <div class="osub">People who had a normal closing rarely write a review. That's sampling — not build quality.</div>
+    </div>
+  </div>
+</div>
+
+<!-- O13 · 00:05:44 — day 365 -->
+<div class="ov" id="O13-day-365">
+  <div class="slot">
+    <div class="statov am">
+      <div class="sacc"></div>
+      <div class="sbody">
+        <div class="sbig">Day 365</div>
+        <div class="sright">
+          <div class="sk">Put it in your calendar at closing</div>
+          <div class="sv">Call before the door-to-door year expires</div>
+          <div class="sn">Submit every open item in writing while it's still covered. Use it or lose it.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- O14 · 00:06:47 — insurance -->
+<div class="ov" id="O14-insurance">
+  <div class="slot">
+    <div class="panel">
+      <div class="oeye">The line item that works in your favor</div>
+      <div class="otitle">New construction <em>insures cheaper.</em></div>
+      <div class="osub">New roof, new systems, new wiring — carriers price that risk lower than a resale.</div>
+    </div>
+  </div>
+</div>
+
+<!-- O15 · 00:06:56 — right for -->
+<div class="ov" id="O15-right-for">
+  <div class="slot">
+    <div class="panel">
+      <div class="oeye">Stylecraft is right for you if</div>
+      <div class="otitle">You want <em>finish quality</em> for the price — not square footage.</div>
+      <div class="osub">Flooring, granite and trim above what the price band usually buys. Entry pricing starts around $220K.</div>
+    </div>
+  </div>
+</div>
+
+<!-- O16 · 00:07:44 — not for -->
+<div class="ov" id="O16-not-for">
+  <div class="slot">
+    <div class="panel az">
+      <div class="oeye">Look elsewhere if</div>
+      <div class="otitle">You want <em>heavy customization</em> or a premium tier.</div>
+      <div class="osub">Floor plan changes are limited. For the premium lane in Temple, Kiella and Carothers are the better fit.</div>
+    </div>
+  </div>
+</div>
+
+<!-- O17 · 00:08:31 — comparison lanes -->
+<div class="ov" id="O17-comps">
+  <div class="slot wide">
+    <div class="strip">
+      <div class="schip"><div class="sck">Closest comparison</div><div class="scv">Omega Homes</div></div>
+      <div class="schip az"><div class="sck">Better finishes</div><div class="scv">Kiella</div></div>
+      <div class="schip az"><div class="sck">Lower price · more size</div><div class="scv">D.R. Horton · Lennar</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- O18 · 00:09:04 — floor plan -->
+<div class="ov" id="O18-floorplan">
+  <div class="slot">
+    <div class="lt">
+      <div class="accent"></div>
+      <div class="ltin">
+        <div class="ltname">The 1818</div>
+        <div class="ltrole">Taylor's favorite plan <span>· flex room off the entry</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- O19 · 00:09:47 — end card -->
+<div class="ov" id="O19-endcard">
+  <div class="slot">
+    <div class="panel">
+      <div class="oeye">In the description</div>
+      <div class="otitle">Full Stylecraft breakdown — <em>linked below.</em></div>
+      <div class="osub">Every community, incentive and floor plan, kept current. TempleTXHomes.net</div>
+    </div>
+  </div>
+  <div class="ovbrand">Temple<b>TXHomes</b>.net</div>
+</div>
+
+</body>
+</html>

@@ -57,12 +57,11 @@ the A-roll is not shot on this trip at all (see 8e).
 | **D4** | Low-altitude reveal rising from behind a treeline to open lake — pure texture | 6 | 4th to drop |
 | **G4** | The errand-drive beat: leaving the city limit toward Belton/Temple, dash-mounted, timestamp visible | 6 | 3rd to drop |
 | **D5** | Blue-hour wide with lights coming on — mood only, no claim | 6 | 2nd to drop |
-| **G5** | Marina at the end of Calamity Jane Drive, exterior from public area only | 5 | **1st to drop** |
 
-⚠️ **G5 caution:** the marina is city-operated with a multi-year slip wait list. Filming it is fine from
-public ground, but **do not let the footage imply slip availability or lake access conveys with a home.**
-If it can't be cut without implying that, drop it — that's why it's first out.
-
+**Boat ramps and the marina are deliberately not in this video.** Taylor will describe the area and where it
+sits; he will not make a boat-ramp or marina-access claim. The MLS amenity picklist and the live page
+disagree on whether a public ramp exists inside city limits, and that conflict is not worth resolving for a
+shot that was first-to-drop anyway. **Do not add it back on location.**
 ## 8e. What is NOT on this trip, deliberately
 
 - **A-roll (the talking-head script) is not shot at golden hour.** Burning irreplaceable golden light on a

@@ -1,7 +1,7 @@
 # Stylecraft Homes: The Best Financing in Bell County — But Read This First
 ## Complete Video Package — Living in Temple channel (buyer/relocation lane)
 
-**Verdict (LOCKED, matches live page + Review schema): 3.5 / 5**
+**Verdict: 3.9 / 5 (updated 2026-07-27; matches live page + Review schema)**
 **Companion page:** https://templetxhomes.net/stylecraft/
 **Runtime target:** 7–10 min long-form + 1–3 Shorts
 **Voice:** investor-analyst, data-first, honest negatives. "Taylor Dasch with EG Realty." Say *agent*, never *broker*. Taylor is NOT prior military service. Credential = 100+ transactions + Bell County ranking (no dollar-volume brag). Entity/credential declaration lands AFTER the first 15 seconds — never inside the opening hook.
@@ -106,13 +106,13 @@ Use if Taylor wants to riff instead of read. Same beats, same order, same guardr
 **COLD OPEN (0:00–0:22) — hook, no name yet**
 - Best builder mortgage rate in Bell County right now = 3.99% on select move-in-ready homes. Nobody's close.
 - Also the one builder I tell every client to hire an inspector for.
-- "Best deal in the county, or the one with the catch? Both." → promise the honest 3.5-star breakdown.
+- "Best deal in the county, or the one with the catch? Both." → promise the honest 3.9-star breakdown.
 
 **ENTITY (0:22–0:38) — now the credential**
 - Taylor Dasch, EG Realty, Temple–Belton–Killeen. 100+ closings. BiggerPockets Featured. Don't work for any builder. Nobody paid for this.
 
 **QUICK ANSWER (0:38–1:10)**
-- Good builder? Yes, with an asterisk. 3.5/5.
+- Good builder? Yes, with an asterisk. 3.9 / 5.
 - Financing = best in market. Homes look sharp (Hardie, granite, smart-home).
 - BUT: drainage/grading pattern, plumbing fails weeks after closing, warranty dept you fight.
 - High enough to buy, low enough not to walk in blind.
@@ -150,7 +150,7 @@ Use if Taylor wants to riff instead of read. Same beats, same order, same guardr
 - Stylecraft's lane: best payment for a disciplined buyer.
 
 **TAYLOR'S TAKE / CTA (7:35–8:30)**
-- 3.5/5, stand behind it.
+- 3.9 / 5, stand behind it.
 - REUSABLE LINE: "Builders aren't giving you a deal because they're generous — a vacant spec home bleeds them ~$3,000/month in carrying costs. Understand that and you negotiate from strength."
 - Never tour/register without your own agent — registration card alone = you handed away your leverage.
 - Full written breakdown linked below. Reach out to work a contract together.
@@ -190,7 +190,7 @@ Rank order; all lead "Stylecraft," all earn the click, none imply an ad.
 
 1. **Stylecraft Homes Review: The Best Rate in Bell County (But Read This First)** ← lead recommendation
 2. **Stylecraft Homes: Best Builder Financing in Temple TX — With One Big Catch**
-3. **Stylecraft Homes Review — 3.99% Rate, 3.5 Stars: Here's Why**
+3. **Stylecraft Homes Review — 3.99% Rate, 3.9 stars: Here's Why**
 4. **Stylecraft Homes in Temple & Belton: Honest Review Before You Sign**
 5. **Is Stylecraft a Good Builder? The Rate Is Real — The Warranty Isn't Simple**
 6. **Stylecraft Homes Review: What the Sales Rep Won't Tell You About the Warranty**
@@ -203,10 +203,10 @@ Rank order; all lead "Stylecraft," all earn the click, none imply an ad.
 
 **Tooling:** Pikzels (pikzels.ai). Upload Taylor's AgentFire headshot as the face reference. Generate 3–4 variations per concept. Do NOT auto-generate a finished thumbnail via image-gen API — Pikzel prompts only.
 
-**Core tension to render:** 3.5★ + BEST RATE vs. WORST WARRANTY. Split-screen or split-value visual. On-image text ≤4–5 words. 16:9, high-CTR, mobile-legible (test at thumbnail size — text must read on a phone).
+**Core tension to render:** 3.9★ + BEST RATE vs. WORST WARRANTY. Split-screen or split-value visual. On-image text ≤4–5 words. 16:9, high-CTR, mobile-legible (test at thumbnail size — text must read on a phone).
 
 **CONCEPT A — "Split Verdict" (LEAD RECOMMENDATION)**
-> High-CTR YouTube thumbnail, 16:9. Taylor Dasch (use uploaded face reference), mid-30s male real estate agent, confident analytical expression, slight raised eyebrow, positioned right third, sharp navy quarter-zip. Background: a clean modern new-construction home exterior, softly blurred, warm daylight. Left two-thirds split into two stacked value bars: top bar bright green with large white text "3.99% RATE", bottom bar deep red with large white text "READ THE FINE PRINT". A bold "3.5★" badge in gold, upper-left corner. High contrast, punchy color separation of green vs red, crisp studio lighting on the face. No clutter.
+> High-CTR YouTube thumbnail, 16:9. Taylor Dasch (use uploaded face reference), mid-30s male real estate agent, confident analytical expression, slight raised eyebrow, positioned right third, sharp navy quarter-zip. Background: a clean modern new-construction home exterior, softly blurred, warm daylight. Left two-thirds split into two stacked value bars: top bar bright green with large white text "3.99% RATE", bottom bar deep red with large white text "READ THE FINE PRINT". A bold "3.9★" badge in gold, upper-left corner. High contrast, punchy color separation of green vs red, crisp studio lighting on the face. No clutter.
 
 **CONCEPT B — "Best / Worst" (cleanest text tension)**
 > High-CTR YouTube thumbnail, 16:9. Taylor Dasch (uploaded face reference), arms lightly crossed, direct eye contact, knowing half-smile, left third. Background: Stylecraft-style suburban model home, blurred, golden-hour light. Right side: two large stacked labels — "BEST RATE" in glowing green, "WORST WARRANTY" in bold red with a subtle crack/warning texture. Gold "3.5 STARS" ribbon across the top-right. Cinematic contrast, saturated but clean, thumbnail-legible at small size.
@@ -225,7 +225,7 @@ YouTube chapters (paste into description; first must be 0:00). Timestamps are ta
 ```
 0:00  Best rate in Bell County — and the catch (Hook)
 0:22  Who I am / why this isn't an ad
-0:38  Quick Answer: is Stylecraft a good builder? (3.5★)   → page H2: "Is Stylecraft a Good Builder?"
+0:38  Quick Answer: is Stylecraft a good builder? (3.9★)   → page H2: "Is Stylecraft a Good Builder?"
 1:10  The financing math (3.99% buydown + Kangaroo string) → page H2: "Are Stylecraft's Financial Incentives Worth It?"
 3:00  True quality: what you're actually buying           → page H2: "What's the True Quality?"
 4:10  The warranty trap + the $400 move                   → page H2: "How Does Stylecraft's Warranty Work?"
@@ -264,7 +264,7 @@ All footage from the PUBLIC side only — model-home common areas, public street
 **DESCRIPTION:**
 
 ```
-Stylecraft has the most aggressive builder financing in Bell County right now — a 3.99% subsidized buydown on select move-in-ready homes through their in-house lender. That's the real reason buyers sign. But there's a warranty catch and a proprietary contract you need to understand before you do. Here's my honest 3.5-star breakdown for anyone weighing a Stylecraft home in Temple, Belton, Killeen, or Nolanville.
+Stylecraft has the most aggressive builder financing in Bell County right now — a 3.99% subsidized buydown on select move-in-ready homes through their in-house lender. That's the real reason buyers sign. But there's a warranty catch and a proprietary contract you need to understand before you do. Here's my honest 3.9-star breakdown for anyone weighing a Stylecraft home in Temple, Belton, Killeen, or Nolanville.
 
 📄 Full written breakdown — every rate, every contract trap, the community-by-community list:
 https://templetxhomes.net/stylecraft/?utm_source=youtube&utm_medium=description&utm_campaign=stylecraft-homes-review
@@ -329,17 +329,17 @@ Each ≤60s, hook in first 2s, one idea, vertical, big captions. No banned words
 > On-screen text: "3.99%... but" / "OUTSIDE LENDER = LOSE IT ALL"
 
 **SHORT 3 — "3.99% but read this" (the hook cut)**
-> [Hook, 0–3s] "The best builder mortgage rate in Bell County — and why I still only give it 3.5 stars."
+> [Hook, 0–3s] "The best builder mortgage rate in Bell County — and why I still only give it 3.9 stars."
 > [3–40s] "Three-point-nine-nine percent for two years, best payment in Temple and Belton, genuinely. But: drainage graded by eye, plumbing failing weeks after closing, and a warranty department you have to fight. Great financing, inconsistent build. That's the whole review — buy it with your eyes open."
-> [CTA] "Honest 3.5-star breakdown, link in bio. —Taylor"
-> On-screen text: "BEST RATE" (green) / "READ THIS FIRST" (red) / "3.5★"
+> [CTA] "Honest 3.9-star breakdown, link in bio. —Taylor"
+> On-screen text: "BEST RATE" (green) / "READ THIS FIRST" (red) / "3.9★"
 
 **Postiz note:** schedule to buyers/relocators lane only (YT Shorts + TikTok + IG Reels). Do NOT cross to any investor channel. TikTok cadence: never two on the same CT day. Lead with Short 1 (the gem over-indexes on save/share); stagger 2 and 3 across the week.
 
 ---
 
 ## GUARDRAIL SELF-CHECK (all clear)
-- Verdict 3.5/5 everywhere, matches live page + Review schema. ✔
+- Verdict 3.9 / 5 everywhere, matches live page + Review schema. ✔
 - Reads as an independent review, not a builder ad (opens praising rate, immediately balanced by inspector line; "nobody paid for this" stated). ✔
 - No rate hard-coded as permanent — "verify current terms with the rep" in script, description, pinned comment, and Shorts. ✔
 - No implication Taylor served — "Fort Hood corridor" framed as market coverage, never personal service. ✔

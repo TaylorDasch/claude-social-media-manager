@@ -123,8 +123,8 @@ none` → `Verify: City of MPR + USACE Belton Lake`
 **Added 2026-07-27 from Taylor's field take. Read the warning below before cutting this one.**
 
 > "Morgan's Point Resort has no citywide HOA and very few deed restrictions. That's a real part of the
-> appeal — thirteen of the twenty-nine listings mention a boat, because you can actually park one in your
-> driveway here.
+> appeal — four of the twenty-nine listings mention RV plugs or hookups, and four describe an actual
+> workshop building. You can use your land here.
 >
 > But few restrictions cuts one other way: housing types vary a lot block to block, and very little in the
 > rules controls what goes up beside you.
@@ -132,8 +132,8 @@ none` → `Verify: City of MPR + USACE Belton Lake`
 > So when you shop this town, don't shop the town. Shop the street. Drive it — at the hour you'd actually be
 > coming home. That one trip tells you more than any listing photo will."
 
-**On-screen text:** `No citywide HOA` → `Boat mentioned in 13 of 29 listings` → `Housing types vary block to
-block` → `PICK THE STREET, NOT THE TOWN`
+**On-screen text:** `No citywide HOA` → `RV hookups: 4 of 29 · Workshops: 4 of 29` → `Housing types
+vary block to block` → `PICK THE STREET, NOT THE TOWN`
 **Footer:** `CTXMLS · July 20, 2026 · Taylor's on-site observation, not MLS-verified`
 
 ### ⚠️ Why this one is optional, and why manufactured homes are NOT named in it

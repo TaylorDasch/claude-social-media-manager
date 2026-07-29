@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Stylecraft Shorts — Vertical Graphics 1080×1920</title>
+<style>
+  @import url('assets/fonts/fonts.css');
+  :root{
+    --ink:#060b14; --mid:#0f172a;
+    --snow:#f8fafc; --body:#e2e8f0; --label:#94a3b8; --faint:#64748b;
+    --em:#10b981; --em-b:#34d399; --em-d:#059669;
+    --azure:#8fb3d4; --amber:#f59e0b; --amber-b:#fbbf24;
+    --hair:rgba(255,255,255,.10); --hair2:rgba(255,255,255,.16);
+    --serif:'Cormorant Garamond',Georgia,serif;
+    --mono:'JetBrains Mono',ui-monospace,monospace;
+    --sans:'Outfit',system-ui,sans-serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:#000;font-family:var(--sans)}
+
+  .v{position:relative;width:1080px;height:1920px;overflow:hidden;margin:0 0 30px}
+  .v.opaque{background:var(--ink)}
+  .v.alpha{background:transparent}
+
+  /* IG/TikTok UI-safe band: top 260px = profile/sound, bottom 520px = caption+CTA,
+     right 190px = action rail. Everything lives inside y 340–1380, x 70–890. */
+  .safe{position:absolute;left:70px;right:190px;top:340px;bottom:540px;z-index:5;
+        display:flex;flex-direction:column;justify-content:center}
+  .safe.wide{right:70px}
+  .safe.top{justify-content:flex-start;top:400px}
+
+  .bg{position:absolute;inset:0;z-index:0}
+  .bg img{width:100%;height:100%;object-fit:cover;opacity:.16}
+  .scrim{position:absolute;inset:0;z-index:1;background:
+    linear-gradient(180deg,rgba(6,11,20,.92),rgba(6,11,20,.78) 40%,rgba(6,11,20,.95))}
+
+  .eye{display:inline-flex;align-items:center;gap:16px;font:700 30px/1 var(--mono);
+       letter-spacing:.20em;text-transform:uppercase;color:var(--label)}
+  .eye i{width:44px;height:3px;background:var(--em)}
+  .eye.am i{background:var(--amber)}
+
+  .h{font:800 118px/1.02 var(--sans);letter-spacing:-.032em;color:var(--snow);margin:26px 0 0;
+     text-shadow:0 8px 40px rgba(0,0,0,.9)}
+  .h em{font-style:normal;color:var(--em-b)}
+  .h em.am{color:var(--amber-b)}
+  .h.sm{font-size:96px}
+  .sub{margin:30px 0 0;font:500 42px/1.30 var(--sans);color:var(--body)}
+
+  .num{font:600 300px/.82 var(--serif);color:var(--em-b);letter-spacing:-.02em;
+       text-shadow:0 10px 50px rgba(0,0,0,.9)}
+  .num.am{color:var(--amber-b)} .num.sm{font-size:200px}
+
+  /* transparent stat plate — sits over footage */
+  .plate{background:rgba(8,14,25,.90);border:2px solid var(--hair2);border-left:8px solid var(--em);
+         padding:44px 48px;box-shadow:0 40px 90px rgba(0,0,0,.7)}
+  .plate.am{border-left-color:var(--amber)}
+  .plate.az{border-left-color:var(--azure)}
+  .plate .pk{font:700 28px/1 var(--mono);letter-spacing:.20em;text-transform:uppercase;color:var(--label)}
+  .plate .pv{margin-top:18px;font:800 76px/1.04 var(--sans);color:var(--snow);letter-spacing:-.02em}
+  .plate .pv em{font-style:normal;color:var(--em-b)}
+  .plate .pv em.am{color:var(--amber-b)}
+  .plate .pn{margin-top:16px;font:500 34px/1.26 var(--sans);color:var(--body)}
+
+  .bignum{display:flex;align-items:baseline;gap:22px}
+  .bignum .u{font:800 60px/1 var(--sans);color:var(--body)}
+
+  .mark{position:absolute;left:70px;bottom:430px;z-index:9;font:800 30px/1 var(--mono);
+        letter-spacing:.14em;text-transform:uppercase;color:rgba(248,250,252,.9);
+        text-shadow:0 4px 20px rgba(0,0,0,1)}
+  .mark b{color:var(--em-b)}
+
+  .endrow{display:flex;flex-direction:column;gap:30px;margin-top:52px}
+  .endrow .er{display:flex;align-items:baseline;gap:28px;font:700 44px/1 var(--sans);color:var(--snow)}
+  /* label column must clear "CALL / TEXT" at 26px mono + letter-spacing, or the value collides */
+  .endrow .er span{flex:0 0 210px;font:700 24px/1 var(--mono);letter-spacing:.14em;
+                   text-transform:uppercase;color:var(--faint)}
+  .endrow .er b{color:var(--em-b)}
+</style>
+</head>
+<body>
+
+<!-- ══════════ HOOK CARDS — opaque, 0:00 for ~1.5s ══════════ -->
+
+<div class="v opaque" id="S1-hook">
+  <div class="bg"><img src="assets/home.jpg"></div><div class="scrim"></div>
+  <div class="safe">
+    <div class="eye am"><i></i>The catch</div>
+    <div class="h">They own <em class="am">49%</em> of the lender.</div>
+    <div class="sub">The 4.99% only comes one way.</div>
+  </div>
+  <div class="mark">Temple<b>TXHomes</b></div>
+</div>
+
+<div class="v opaque" id="S2-hook">
+  <div class="bg"><img src="assets/home.jpg"></div><div class="scrim"></div>
+  <div class="safe">
+    <div class="eye"><i></i>Before you register</div>
+    <div class="h">They're <em>not</em> the only one at 4.99%.</div>
+    <div class="sub">Compare the whole field first.</div>
+  </div>
+  <div class="mark">Temple<b>TXHomes</b></div>
+</div>
+
+<div class="v opaque" id="S3-hook">
+  <div class="bg"><img src="assets/home.jpg"></div><div class="scrim"></div>
+  <div class="safe">
+    <div class="eye am"><i></i>New construction</div>
+    <div class="h">Put <em class="am">Day 365</em> in your calendar.</div>
+    <div class="sub">The warranty closes exactly once.</div>
+  </div>
+  <div class="mark">Temple<b>TXHomes</b></div>
+</div>
+
+<div class="v opaque" id="S4-hook">
+  <div class="bg"><img src="assets/home.jpg"></div><div class="scrim"></div>
+  <div class="safe">
+    <div class="eye am"><i></i>New construction</div>
+    <div class="h">That tax number is <em class="am">wrong.</em></div>
+    <div class="sub">It's the empty lot — not your house.</div>
+  </div>
+  <div class="mark">Temple<b>TXHomes</b></div>
+</div>
+
+<div class="v opaque" id="S5-hook">
+  <div class="bg"><img src="assets/home.jpg"></div><div class="scrim"></div>
+  <div class="safe">
+    <div class="eye"><i></i>Builder financing</div>
+    <div class="h"><em>$300</em> a month. Same house.</div>
+    <div class="sub">What the builder rate is actually worth.</div>
+  </div>
+  <div class="mark">Temple<b>TXHomes</b></div>
+</div>
+
+<!-- ══════════ STAT OVERLAYS — transparent, sit over footage ══════════ -->
+
+<div class="v alpha" id="S1-stat">
+  <div class="safe">
+    <div class="bignum"><span class="num am">49%</span></div>
+    <div class="plate am" style="margin-top:40px">
+      <div class="pk">Stylecraft's stake in</div>
+      <div class="pv">Kangaroo Home Lending</div>
+      <div class="pn">The 4.99% requires their lender. Yours gets you the cash instead.</div>
+    </div>
+  </div>
+</div>
+
+<div class="v alpha" id="S1-stat2">
+  <div class="safe">
+    <div class="plate">
+      <div class="pk">Your own lender</div>
+      <div class="pv">Take the <em>Flex Cash</em></div>
+      <div class="pn">Up to $20,000. You can't have both.</div>
+    </div>
+  </div>
+</div>
+
+<div class="v alpha" id="S2-stat">
+  <div class="safe">
+    <div class="plate">
+      <div class="pk">Also advertising 4.99%</div>
+      <div class="pv">Other Bell County builders</div>
+      <div class="pn">Compare every incentive before you sign a registration card.</div>
+    </div>
+  </div>
+</div>
+
+<div class="v alpha" id="S3-stat">
+  <div class="safe">
+    <div class="bignum"><span class="num am sm">365</span><span class="u">days</span></div>
+    <div class="plate am" style="margin-top:40px">
+      <div class="pk">Door-to-door warranty</div>
+      <div class="pv">Use it or <em class="am">lose it</em></div>
+      <div class="pn">Submit every open item in writing before the year is up.</div>
+    </div>
+  </div>
+</div>
+
+<div class="v alpha" id="S4-stat">
+  <div class="safe">
+    <div class="plate am">
+      <div class="pk">The listing tax figure</div>
+      <div class="pv">Assessed on the <em class="am">empty lot</em></div>
+      <div class="pn">Before the house existed. Your real bill lands on the finished value.</div>
+    </div>
+  </div>
+</div>
+
+<div class="v alpha" id="S4-stat2">
+  <div class="safe">
+    <div class="plate">
+      <div class="pk">Do this instead</div>
+      <div class="pv">Bell CAD rate × <em>asking price</em></div>
+      <div class="pn">Underwrite the finished home, not the lot assessment.</div>
+    </div>
+  </div>
+</div>
+
+<!-- REQUIRED on S5 — keeps the spoken "$20,000" honest across the whole rate band -->
+<div class="v alpha" id="S5-stat">
+  <div class="safe">
+    <div class="plate">
+      <div class="pk">$315,000 loan · vs 6.5–6.8%</div>
+      <div class="pv"><em>$300–$365</em> / month</div>
+      <div class="pn">Over 5 years ≈ $18,000–$21,900. P&amp;I only, illustrative.</div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════ TOP BANNERS — Opus-style, persistent for the whole clip ══════════
+     Sits at y≈210–430: below the TikTok For You / Following nav, above the face. -->
+<style>
+  /* feathered scrim guarantees the accent colours hold over bright daylight footage */
+  .bscrim{position:absolute;left:0;right:0;top:0;height:620px;z-index:7;pointer-events:none;
+    background:linear-gradient(180deg,rgba(6,11,20,.86) 0%,rgba(6,11,20,.78) 45%,
+                                rgba(6,11,20,.42) 78%,rgba(6,11,20,0) 100%)}
+  .banner{position:absolute;left:56px;right:56px;top:210px;z-index:8;text-align:center}
+  .banner .btag{display:inline-block;padding:10px 22px;background:var(--em);
+    font:800 26px/1 var(--mono);letter-spacing:.20em;text-transform:uppercase;color:#04110c}
+  .banner .btag.am{background:var(--amber-b);color:#170d00}
+  .banner .bh{margin-top:16px;font:800 82px/1.06 var(--sans);letter-spacing:-.03em;color:#fff;
+    text-shadow:0 6px 26px rgba(0,0,0,.95),0 2px 6px rgba(0,0,0,.9),0 0 60px rgba(0,0,0,.7)}
+  .banner .bh em{font-style:normal;color:var(--em-b)}
+  .banner .bh em.am{color:var(--amber-b)}
+  .banner .bh.sm{font-size:70px}
+</style>
+
+<div class="v alpha" id="B1-banner">
+  <div class="bscrim"></div>
+  <div class="banner">
+    <span class="btag am">Stylecraft Review</span>
+    <div class="bh">The <em class="am">4.99%</em> catch</div>
+  </div>
+</div>
+
+<div class="v alpha" id="B2-banner">
+  <div class="bscrim"></div>
+  <div class="banner">
+    <span class="btag">Stylecraft Review</span>
+    <div class="bh">The <em>Day 365</em> rule</div>
+  </div>
+</div>
+
+<div class="v alpha" id="B3-banner">
+  <div class="bscrim"></div>
+  <div class="banner">
+    <span class="btag am">New Construction</span>
+    <div class="bh sm">Your tax estimate is <em class="am">wrong</em></div>
+  </div>
+</div>
+
+<div class="v alpha" id="B4-banner">
+  <div class="bscrim"></div>
+  <div class="banner">
+    <span class="btag">Stylecraft Review</span>
+    <div class="bh"><em>4.99%</em> or <em>$20,000</em>?</div>
+  </div>
+</div>
+
+<div class="v alpha" id="B5-banner">
+  <div class="bscrim"></div>
+  <div class="banner">
+    <span class="btag">Temple TX · Builder Review</span>
+    <div class="bh sm">Should you buy <em>Stylecraft</em>?</div>
+  </div>
+</div>
+
+<!-- ══════════ EXTRA PLATES — needed only by the longer TikTok/IG cuts ══════════ -->
+
+<div class="v alpha" id="X-warranty">
+  <div class="safe">
+    <div class="plate">
+      <div class="pk">Stylecraft warranty</div>
+      <div class="pv"><em>1</em> / <em>2</em> / <em>10</em></div>
+      <div class="pn">1 yr door-to-door · 2 yr systems · 10 yr structural</div>
+    </div>
+  </div>
+</div>
+
+<div class="v alpha" id="X-forwho">
+  <div class="safe">
+    <div class="plate">
+      <div class="pk">Right for you if</div>
+      <div class="pv">You want <em>finish quality</em> for the price</div>
+      <div class="pn">Entry pricing around $220K. Flooring, granite and trim above the band.</div>
+    </div>
+    <div class="plate az" style="margin-top:32px">
+      <div class="pk">Look elsewhere if</div>
+      <div class="pv">You want heavy customization</div>
+      <div class="pn">For the premium lane in Temple: Kiella or Carothers.</div>
+    </div>
+  </div>
+</div>
+
+<div class="v alpha" id="X-footprint">
+  <div class="safe">
+    <div class="plate">
+      <div class="pk">Where they build</div>
+      <div class="pv"><em>12</em> communities · <em>4</em> school districts</div>
+      <div class="pn">Same price, different ISD — very different monthly payment.</div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════ END CARD — opaque, last ~2s, shared by all five ══════════ -->
+
+<div class="v opaque" id="END-card">
+  <div class="bg"><img src="assets/home.jpg"></div><div class="scrim"></div>
+  <div class="safe wide">
+    <div class="eye"><i></i>Buying new construction?</div>
+    <div class="h sm">I'll compare <em>every</em> builder incentive against your numbers.</div>
+    <div class="endrow">
+      <div class="er"><span>Agent</span>Taylor Dasch · EG Realty</div>
+      <div class="er"><span>Call/text</span><b>254-718-4249</b></div>
+      <div class="er"><span>Online</span><b>TempleTXHomes.net</b></div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+# Judge transcripts (decoded post-evaluation)
+
+## Round 1 — labels X=B, Y=AB, Z=A → AB 5-0
+
+- **Retention Engineer → AB** (r-u B). AB/B share the proven retention spine (payoff completing ~6:57 at 52–60%); A drifted to 56–63% while claiming 50–60%, pre-locked NEGOTIATE, unsourced claims ("nobody shows you," "[45] seconds"). AB beat B on packaging + task-verbatim CTA + disclosed selection effect. Gap: B softened CTA and titles for hygiene gains too marginal at ~29 imp/day.
+- **Contrarian → AB** (r-u B). A dies on pre-locked verdict + unverifiable hostile-comment bait + no broker pre-review + payoff outside window. AB alone defuses "your gates guarantee NEGOTIATE" by disclosing it on camera; pins aerials behind Part 107/LAANC. Noted AB wound: "nobody left to be angry" contradicted its own risk register (internal-doc only).
+- **Viewer → AB** (r-u B). A's confident-unverifiables burn trust; AB's honesty devices ("No document, no number," graded-own-misses, disclosed selection) are what make an anxious buyer trust the verdict. B drifted the CTA phrase and outsourced the banned list.
+- **Analyst → AB** (r-u B). A: unsourced population claims, invented "[45] seconds," 56–63% mislabeled, Frame-C allowance contradicting its own consent analysis. AB: named selection effect at lock level, [PLANNING — REPLACE] sweep, Taylor-flown-stills rule, credential at 0:25–0:30.
+- **Scout → AB** (r-u B). A pre-locks the verdict (kills franchise variance) and its WALK-episode masking quietly rebuilds the takedown vector. AB: honesty-as-moat stack uncopyable without real deal files; title #2 seeds the series entity; strictly more banked from the pro day.
+
+## Round 2 — labels X=AB, Y=A, Z=B → AB 4-1
+
+- **Retention Engineer → AB** (r-u B). A2's tension model contradicted itself (withheld "exposure total" that packaging already spends; 11:35–12:30 band lets the beat start at 48.7%; "none" price tier nullifies the % math). AB/B fix via Broadcast Ledger + 11:40–12:10 derived band. AB > B: the "moved the price" loop bridges the leak-prone 7:00–9:05 desk block; B's "biggest one" loop resolves at ~6:05 leaving the back half without a pull.
+- **Contrarian → B** (r-u AB) — the dissent. A2's four-tier election reconstructs price by division/archived-ask; AB's "one finding moved the price" open loop asserts causal attribution a bundled amendment often can't source; B's "biggest one" loop is pure arithmetic and survives any hostile thread. (Merged post-convergence as the attribution-gated loop rule.)
+- **Viewer → AB** (r-u B). A2's fake mid-video "reveal" of a number the thumbnail spent = staged drama; AB's "You've had the number since you clicked" makes the suspense honest. B leaks run-scaffolding ("Deliverable N", "this candidate") into the artifact; AB's "This Temple TX House" beats B's "a Temple TX House" against a specific-house thumbnail.
+- **Analyst → AB** (r-u B). A2 fails audit twice (unkeepable price tiers; QA row demanding all anchors in 50–60% while blessing a band that breaks it). AB/B fix both with boundary proofs (420÷700=60.0%, 365÷730=50.0%) + reconstruction audit. AB > B: B's evidentiary anchors cite "per the task" — dangling once shipped; AB grounds the same facts in the deal file and channel analytics.
+- **Scout → AB** (r-u B). A2's decimal retention thresholds undecidable at ~29 imp/day; contingent Ep-2 tease violates its own Ep-3+ rule. AB: Gate 6 "No scout pass, no booking," episode-bound vs series-reusable provenance labels, solo pre-validation, format-owned open loop, series-entity title.

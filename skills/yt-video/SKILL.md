@@ -36,6 +36,28 @@ Before writing the script, gather:
 - **AEO angle** — What question could an AI engine answer by citing this video's transcript?
 - **Data points needed** — Pull specific numbers from the data vault, MLS data, or flag what Taylor needs to look up
 
+### Step 2.5: 🛑 MANDATORY GATE — Ask Taylor ONE question for his on-the-ground take
+
+**Set 2026-07-28. This fires on EVERY video. Do not skip it, do not batch it, do not proceed past this step without an answer.**
+
+After research is done and **before** any title, script, or package is written, stop and ask Taylor **exactly one question** to capture what he personally sees. Then wait.
+
+**The rules:**
+
+1. **One question. Not a list.** Taylor's constraint is energy, not time — a single sharp question gets a real answer; five get skipped.
+2. **Ask about what the data cannot see.** That is the entire point. If the MLS, GSC, or the data vault can answer it, it's the wrong question.
+   - ❌ *"Does the $330K median look right?"* — checkable, already answered
+   - ✅ *"What do you see driving these streets that would never show up in an MLS export?"*
+   - Best territory: neighbor/lot dynamics, condition patterns, who actually buys there and who regrets it, what listing photos systematically hide, what he talks clients out of.
+3. **Then verify his answer** against competitors' listing remarks with `scripts/listing-remarks-scan.py`. Independent corroboration turns his opinion into evidence. **Prose ≠ picklist, and a keyword hit is a LEAD, not a finding** — read the matched sentences before any count goes on camera.
+4. **Real fork, real "no" branch.** If his take doesn't improve the video, say so plainly and ship the scheduled version. This is not a ritual approval gate; don't manufacture a reason to use it.
+5. **Label provenance on camera:** `[OBSERVATION — Taylor, on site]`, never as MLS-verified. Upgrade to `[CONFIRMED — listing remarks, n of N]` only where the scan backs it.
+6. **⚠️ Fair-housing:** field takes about neighborhoods carry risk that data claims don't. Discuss **restrictions, zoning, and property types** — never **who lives there**. Never imply a housing type affects values. Worked template: `yt-videos/morgans-point-resort/GROUND-TRUTH-J-TAYLOR-TAKE.md` §J3.
+
+**Why this exists:** on the Morgan's Point Resort pillar, a full council run (MLS recount, 20-weakness adversarial critique, 16 deliverables) produced a sharp data-hard package. Taylor's unprompted take then added the single most valuable thing in it — the minimal-deed-restriction / mixed-housing-type reality, which is **not in the MLS, not on Zillow, and not in any tax record a buyer will find**. It became the closing argument. No amount of analysis would have generated it.
+
+Detail: `feedback_pre_video_taylor_take_question.md` · `reference_listing_remarks_scan.md`
+
 ### Step 3: Generate Title Options
 Provide 3 title options using proven formulas from `reference/YOUTUBE-GROWTH-PLAYBOOK.md`:
 ```
@@ -200,6 +222,8 @@ Before delivering, verify:
 - [ ] Matching page identified (existing or flagged for building)
 
 ## Rules
+- **NEVER write a title, script, or package before Step 2.5.** One question to Taylor for his on-the-ground take, every video, no exceptions. Research first so the question is specific; ask before anything is locked so the answer can still restructure the video.
+- **A keyword count over free text is a hypothesis, not a fact.** Read the matched sentences before any "N of M listings mention X" goes on camera. Agent prose is signal; a ticked amenity picklist is not.
 - ALWAYS check the video catalogs first — don't prep a video Taylor already filmed
 - Script outline, not full script. Taylor ad-libs on camera. Give him the structure and data, not a teleprompter.
 - Shot list must be SPECIFIC. "Get B-roll" is useless. "Film the Legacy Ranch entrance sign from S 31st St at golden hour" is useful.

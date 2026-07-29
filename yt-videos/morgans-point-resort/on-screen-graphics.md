@@ -21,7 +21,7 @@
 | **G-2** | B2 0:38 | 6s | `SEARCH BY MAP AREA OR ZIP —`<br>`NOT BY CITY NAME`<br><br>`Then confirm every result against the map.` | — |
 | **G-3** | B3 1:05 | 8s | **THE SPLIT** — two columns, built one at a time:<br>`Listings whose MLS city field says` <br>`"MORGANS POINT RESORT" — 4`<br>`$315,000 · $330,000 · $665,000 · $869,000`<br>`median $497,500`<br>—<br>`Listings whose MLS city field says`<br>`"BELTON" — 11`<br>`$205,000 → $715,000`<br>`median $272,500` | CONFIRMED |
 | **G-4** | B3 1:40 | 7s | `THE FLOOR YOU SEE:  $315,000`<br>`THE FLOOR THAT EXISTS: $205,000`<br><br>`Difference: $110,000` <br><small>`derived: $315,000 − $205,000`</small> | CONFIRMED |
-| **G-5** | B3 1:55 | 6s | `ACTIVE LISTINGS UNDER $275,000`<br>`Cliffside $205,000 — filed Belton`<br>`Bobcat $230,000 — filed Belton`<br>`Morgans Point $244,900 — filed Belton`<br>`Hickory $249,500 — filed Belton`<br>`Sherwood $265,000 — filed Belton`<br>`Cliffside $272,500 — filed Belton`<br>**`6 of 6`** | CONFIRMED |
+| **G-5** | B3 1:55 | 6s | `ACTIVE LISTINGS UNDER $275,000`<br>`$205,000 · $230,000 · $244,900`<br>`$249,500 · $265,000 · $272,500`<br><br>`MLS city field on all six: BELTON`<br>**`6 of 6`** | CONFIRMED |
 | **G-TIER** | B4 2:20 | 8s | `PRICE PER SQUARE FOOT — 15 ACTIVE LISTINGS`<br>horizontal ladder, **sorted by $/sqft, not by list price**<br>`Low $151/sf ——————————— High $310/sf` | CONFIRMED |
 | **G-6** | B4 3:00 | 7s | `TWO OF THE TOP FOUR AREN'T IN`<br>`MPR SECTIONS 1–9`<br><br>`$869,000 — Rancho Del Lago — built 2026`<br>`$665,000 — Campus At Lakewood Ranch — built 2019` | CONFIRMED |
 | **G-VINTAGE** | B5 3:40 | 8s | **THE SPLIT, AGAIN — BY AGE**<br>`Filed "Morgans Point Resort" — median built 2012`<br>`Filed "Belton" — median built 1977`<br><br>`Not one listing carrying the town's name`<br>`was built before 2002.`<br>`All 8 pre-1980 listings are on the Belton side. 8 of 8.` | CONFIRMED |
@@ -29,7 +29,7 @@
 | **G-8** | B5 4:35 | 5s | `SEVEN SALES. SIXTY DAYS.`<br>`That's a small sample and I'm going to treat it like one.` | OPINION |
 | **G-9** | B6 5:10 | 7s | `THE SECOND PRICE TAG`<br>`Roof age · Foundation history · Electrical panel`<br>`Plumbing material · HVAC age · Septic vs city sewer`<br><br>`Median active build year: 1979` | CONFIRMED |
 | **G-10** | B7 6:05 | 8s | `THE HONEST GAP`<br>`Asking, per square foot (active):  $188`<br>`Sold, per square foot:            $175`<br>`Gap: 6.9%`<br><br><small>`Not the 33% you get comparing median prices — active homes are 32% larger.`</small> | CONFIRMED |
-| **G-11** | B7 6:30 | 8s | `WHAT SOLD, vs WHAT IT FIRST ASKED`<br>`$195,000 ← first asked $225,000`<br>`$205,000 ← first asked $235,000`<br>`$210,000 ← first asked $229,900`<br>`$220,000 ← first asked $239,000`<br>`$225,000 ← first asked $235,000`<br>`$251,000 ← first asked $275,990`<br>`$255,000 ← first asked $299,900`<br>**`Median: about 91% of the original ask`**<br><small>`7 closed sales · May 18 – July 16, 2026`</small> | CONFIRMED |
+| **G-11** | B7 6:30 | 8s | `WHAT SOLD, vs WHAT IT FIRST ASKED`<br>`All 7 sales closed BELOW their original ask.`<br>`Range: 85% – 96% of original list`<br>**`Median: about 91%`**<br><br><small>`On a $250,000 original ask, that's roughly $22,500.`</small><br><small>`7 closed sales · May 18 – July 16, 2026`</small> | CONFIRMED |
 | **G-12** | B7 6:50 | 6s | `7 OF 15 ACTIVE LISTINGS HAVE CUT PRICE`<br>`Cuts: −10.1% −6.8% −5.7% −4.7% −2.0% −1.8% −1.2%`<br>`Middle cut: −4.7%`<br><br><small>`Sellers testing — not sellers capitulating.`</small> | CONFIRMED |
 | **G-13** | B8 7:15 | 9s | `FIVE THINGS THE MLS DIDN'T TELL ME`<br>`1. Lake access / dock — no such field exists. Zero of 29.`<br>`2. HOA — 27 of 29 say None. 2 say Mandatory.`<br>`3. Schools — 29 of 29 say Belton ISD.`<br>`4. Drive times — not in the data. Measure them yourself.`<br>`5. Condition — not in the data. That's the inspection.` | CONFIRMED |
 | **G-14** | B8 7:50 | 7s | `VERIFY WITH:`<br>`Lake access, water rights, docks →`<br>`City of Morgan's Point Resort +`<br>`USACE Belton Lake Resource Manager's Office`<br>`HOA → the property's recorded documents`<br>`Schools → Belton ISD, for your exact address` | — |
@@ -38,6 +38,27 @@
 **15 graphics specified.** Longest hold 9s (G-13, a five-item list that needs the time). No static frame
 exceeds 9 seconds; the 7-second visual-change rule is satisfied by chip changes, build-on reveals, and
 drone substrate running under every card.
+
+## 9a-0. 🔒 DE-IDENTIFIED BY DEFAULT — decided 2026-07-28
+
+**Taylor does not want to contact TBBOR/CTXMLS about display rules, so the question stays unresolved — and
+unresolved means we ship the conservative version.** No graphic displays a street name, address, or an
+individual closed sale price tied to an identifiable property.
+
+| Graphic | Was | Now ships as |
+|---|---|---|
+| **G-5** | Six listings with street names + prices | Six prices only, no streets, plus the `6 of 6` city-field count |
+| **G-11** | Seven closed sales, each paired close-price ↔ original ask | The **distribution**: all 7 below original ask, 85–96% range, ~91% median, with a worked dollar example |
+| **G-TIER** | $/sqft ladder | Unlabeled bars — distribution only, no street tied to any bar |
+| **G-12** | Cut percentages | Unchanged — percentages identify nothing |
+
+**Nothing load-bearing was lost.** Every claim the video actually argues survives intact: the 4/11 split, the
+$110,000 gap, the 6-of-6 count, the 2012-vs-1977 vintage split, the 6.9% $/sqft gap, the ~91%-of-original
+figure. Only the per-property detail changed, and that detail was decoration — the *pattern* was always the
+point. Arguably it reads cleaner this way; six bare prices land harder than six street names nobody knows.
+
+**If Taylor ever wants the identified version back,** the CTXMLS rules are typically published in the member
+portal — he can read them himself without messaging anyone. Until then, this is the shipping version.
 
 ## 9a. Two graphics that were cut, and why
 

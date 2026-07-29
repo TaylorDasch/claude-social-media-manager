@@ -201,11 +201,11 @@ Say the boundary out loud: the asking prices on the under-contract and pending l
 
 Mature trees, close to the water: **11 of the 29 listings mention them**, five name oak or pecan specifically — *"mature native trees on an over half-acre lot"* `[CONFIRMED — listing remarks]`. The deer: **5 of 29 listing agents wrote them into their own remarks**, unprompted — *"the deer freely roam," "deer are often seen resting beneath the shade trees," "a great place to watch the deer roam"* `[CONFIRMED — listing remarks]`. That's not Taylor selling a lifestyle; that's five competing agents independently deciding the deer were worth mentioning.
 
-The freedom is real and it shows up in the data too: **13 of 29 listings mention a boat, 8 a shop, 4 a workshop, 4 an RV** `[CONFIRMED — listing remarks]`. You can park the boat in your driveway here. People do.
+The freedom is real and it shows up in the data too: **4 of the 29 listings mention RV accommodation** — a 30-amp plug beside the garage, a 50-amp plug, an RV hookup, *"two lots large enough to park an RV"* — and **4 describe an actual workshop building**, one of them *"24 by 36 with an AC unit and a sink inside"* `[CONFIRMED — listing remarks]`. You can keep the RV on your own lot here and build a real shop. People do.
 
 And the variety is genuine — **$205,000 to $869,000, 1,001 to 2,804 square feet, 1966 to 2026 build years, all active right now** `[CONFIRMED]`. A 2025-built home on Briarwood **closed at $195,000 on July 7** — 924 square feet, so the sub-$200,000 door is real and it is small `[CONFIRMED]`. Both halves of that sentence ship together.
 
-**On screen:** `[GFX-9]` the corroboration counts stacked — `Trees: 11 of 29 · Deer: 5 of 29 · Boat: 13 of 29 · Shop: 8 of 29`, footer `Source: CTXMLS listing remarks · July 20, 2026`. Then `[GFX-9b]` `$195,000 · closed July 7, 2026 · built 2025 · 924 sqft`. Golden-hour drone runs under the whole beat — this is where D1/D2 finally get to breathe.
+**On screen:** `[GFX-9]` the corroboration counts stacked — `Trees: 11 of 29 · Deer: 5 of 29 · RV accommodation: 4 of 29 · Workshop: 4 of 29`, footer `Source: CTXMLS listing remarks · July 20, 2026`. Then `[GFX-9b]` `$195,000 · closed July 7, 2026 · built 2025 · 924 sqft`. Golden-hour drone runs under the whole beat — this is where D1/D2 finally get to breathe.
 
 **Why they stay:** the turn. Eight minutes of cold numbers, then the reason anyone puts up with the tradeoffs. It also sets the trap for B9b — the viewer is warm, and that's exactly when the hardest thing lands hardest.
 
@@ -220,7 +220,7 @@ And the variety is genuine — **$205,000 to $869,000, 1,001 to 2,804 square fee
 
 > "Here's the thing the data can't tell you, and it's the most important thing I'll say.
 >
-> Morgan's Point Resort has no citywide HOA and very few deed restrictions. That's genuinely part of the appeal — you can park a boat in your driveway, put up a workshop, keep the RV on your own lot. Thirteen of the twenty-nine listings mention a boat. That freedom is real, and people move here for it.
+> Morgan's Point Resort has no citywide HOA and very few deed restrictions. That's genuinely part of the appeal — you can keep the RV on your own lot, put up a real workshop, use the land. Four of the twenty-nine listings mention RV plugs or hookups; four describe an actual shop building. That freedom is real, and people move here for it.
 >
 > But it cuts exactly one other way. Housing types vary a lot block to block here, and there is very little in the rules that controls what goes up beside you. In some sections you'll find a new custom build and a much older home and a manufactured home within sight of each other. I'm not going to tell you how to feel about that — I'm telling you it's a variable, it changes by street, and it is not something you can check from a listing photo.
 >
@@ -232,7 +232,7 @@ And the variety is genuine — **$205,000 to $869,000, 1,001 to 2,804 square fee
 
 > ⚠️ **COMPLIANCE — read before shooting.** Discussing deed restrictions, zoning, and property types as resale variables is legitimate buyer counsel. Discussing them in terms of *who lives there* is a fair-housing violation. **Never** characterize residents by income, class, family status, or any protected characteristic — not by word, tone, or B-roll choice. **Never** say or imply manufactured homes lower values; that is an unevidenced valuation claim and the most screenshot-able line Taylor could utter. **Never** film an identifiable manufactured home as an illustration of a downside. **Never** steer toward or away from any section. Give the variable and the method; the buyer decides. Full guardrails in `../GROUND-TRUTH-J-TAYLOR-TAKE.md` §J3.
 
-> **Budget:** 70 s − 8 s hold (GFX-9c build 6 s + card 2 s) = 62 s spoken × 2.9167 = **cap 181 words.** Scripted block above is 208 words — **trim to 181 by cutting the "Thirteen of the twenty-nine listings mention a boat" line**, which already landed in B9.
+> **Budget:** 70 s − 8 s hold (GFX-9c build 6 s + card 2 s) = 62 s spoken × 2.9167 = **cap 181 words.** Scripted block above runs long — **trim to 181 by cutting the "Four of the twenty-nine listings…" sentence**, which already landed in B9.
 
 ---
 
@@ -291,7 +291,7 @@ If timing forces a cut, it comes out of **B9's corroboration counts** (drop the 
 
 # 10. EXACT CTA — 9:10–10:00
 
-## ⚠️ CHANGED FROM BRIEF — needs Taylor's approval or override
+## ✅ CHANGED FROM BRIEF — **APPROVED BY TAYLOR 2026-07-28.** This CTA is locked; ship as written.
 
 **The brief mandated this CTA verbatim:**
 > "Text me for the current Morgan's Point Resort shortlist — I'll separate the true water-tier lots from the

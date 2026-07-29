@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Stylecraft Review — Thumbnails</title>
+<style>
+  @import url('assets/fonts/fonts.css');
+  :root{
+    --ink:#060b14; --mid:#0f172a;
+    --snow:#f8fafc; --body:#e2e8f0; --label:#94a3b8;
+    --em:#10b981; --em-b:#34d399; --em-d:#059669;
+    --amber:#f59e0b; --amber-b:#fbbf24;
+    --serif:'Cormorant Garamond',Georgia,serif;
+    --mono:'JetBrains Mono',ui-monospace,monospace;
+    --sans:'Outfit',system-ui,sans-serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:#000;font-family:var(--sans)}
+
+  .tn{position:relative;width:1280px;height:720px;overflow:hidden;background:var(--ink);margin:0 0 30px}
+  .bg{position:absolute;inset:0;z-index:0}
+  .bg img{width:100%;height:100%;object-fit:cover}
+  .scrim{position:absolute;inset:0;z-index:1}
+
+  /* Taylor */
+  /* height <100% so the top of his head always clears the frame edge */
+  .ty{position:absolute;bottom:0;z-index:4;height:97%;
+      filter:drop-shadow(0 0 40px rgba(0,0,0,.85)) drop-shadow(0 18px 40px rgba(0,0,0,.6))}
+  .ty.left{left:-16px} .ty.right{right:-24px}
+
+  /* rim light behind subject */
+  .rim{position:absolute;bottom:0;z-index:3;width:560px;height:560px;border-radius:50%;
+       filter:blur(70px);opacity:.55}
+
+  .zone{position:absolute;z-index:5}
+
+  /* type atoms */
+  .kick{display:inline-block;padding:8px 18px;font:800 27px/1 var(--sans);
+        letter-spacing:.16em;text-transform:uppercase;color:#04110c;background:var(--em-b);
+        box-shadow:0 8px 26px rgba(0,0,0,.5)}
+  .kick.am{background:var(--amber-b);color:#170d00}
+  .kick.gh{background:transparent;color:var(--em-b);border:3px solid var(--em-b);
+           box-shadow:none;padding:7px 16px}
+
+  .huge{font:900 178px/.82 var(--sans);letter-spacing:-.045em;color:var(--snow);
+        text-shadow:0 10px 40px rgba(0,0,0,.85),0 2px 0 rgba(0,0,0,.5)}
+  .huge.em{color:var(--em-b)} .huge.am{color:var(--amber-b)}
+  .mid{font:900 104px/.9 var(--sans);letter-spacing:-.035em;color:var(--snow);
+       text-shadow:0 8px 34px rgba(0,0,0,.85)}
+  .mid.em{color:var(--em-b)} .mid.am{color:var(--amber-b)}
+  .small{font:700 34px/1.12 var(--sans);color:var(--body);
+         text-shadow:0 6px 22px rgba(0,0,0,.9)}
+  .ser{font-family:var(--serif);font-weight:600}
+
+  .orbar{display:flex;align-items:center;gap:20px;margin:12px 0}
+  .orbar .ln{flex:1;height:3px;background:rgba(255,255,255,.28)}
+  .orbar .w{font:800 italic 40px/1 var(--serif);color:var(--snow);letter-spacing:.02em}
+
+  /* brand mark bottom-left (YouTube duration stamp sits bottom-RIGHT) */
+  .mark{position:absolute;left:34px;bottom:26px;z-index:9;
+        font:800 23px/1 var(--mono);letter-spacing:.13em;text-transform:uppercase;
+        color:rgba(248,250,252,.92);text-shadow:0 4px 16px rgba(0,0,0,1)}
+  .mark b{color:var(--em-b)}
+
+  /* ═══ T1 — THE FORCED CHOICE ═══ */
+  #T1 .scrim{background:
+    linear-gradient(90deg, rgba(6,11,20,.94) 30%, rgba(6,11,20,.72) 46%, rgba(6,11,20,.86) 70%),
+    linear-gradient(180deg, rgba(6,11,20,.55), rgba(6,11,20,.9))}
+  #T1 .rim{right:-90px;background:radial-gradient(circle,var(--em) 0%,transparent 70%)}
+  #T1 .zone{right:56px;top:50%;transform:translateY(-50%);width:700px;text-align:right}
+
+  /* ═══ T2 — THE VERDICT ═══ */
+  #T2 .scrim{background:
+    linear-gradient(90deg, rgba(6,11,20,.93) 42%, rgba(6,11,20,.60) 62%, rgba(6,11,20,.55) 100%),
+    linear-gradient(180deg, rgba(6,11,20,.4), rgba(6,11,20,.88))}
+  #T2 .rim{left:-90px;background:radial-gradient(circle,var(--em) 0%,transparent 70%)}
+  #T2 .zone{left:56px;top:50%;transform:translateY(-50%);width:690px}
+  #T2 .score{display:flex;align-items:baseline;gap:14px}
+  #T2 .score .n{font:600 268px/.76 var(--serif);color:var(--em-b);letter-spacing:-.02em;
+      text-shadow:0 14px 50px rgba(0,0,0,.9)}
+  #T2 .score .d{font:600 92px/1 var(--serif);color:rgba(248,250,252,.7)}
+  /* serif numerals overflow their .76 line-box — stars need real clearance */
+  #T2 .stars{display:flex;gap:9px;margin-top:34px}
+  #T2 .st{width:46px;height:46px;background:var(--em-b);
+      clip-path:polygon(50% 0,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%)}
+  /* 3.9/5 — the 5th star must clearly read as NOT full, even at sidebar size */
+  #T2 .st.p{background:rgba(148,163,184,.34)}
+
+  /* ═══ T3 — THE CATCH ═══ */
+  #T3 .scrim{background:
+    linear-gradient(90deg, rgba(6,11,20,.90) 26%, rgba(6,11,20,.66) 44%, rgba(6,11,20,.9) 72%),
+    linear-gradient(180deg, rgba(6,11,20,.5), rgba(6,11,20,.92))}
+  #T3 .rim{right:-90px;background:radial-gradient(circle,var(--amber) 0%,transparent 70%);opacity:.42}
+  #T3 .zone{right:52px;top:50%;transform:translateY(-50%);width:720px;text-align:right}
+  #T3 .strike{display:inline-flex;align-items:center;gap:16px;padding:10px 22px;
+      background:rgba(245,158,11,.14);border:3px solid var(--amber-b)}
+  #T3 .strike .t{font:800 40px/1 var(--sans);color:var(--amber-b);letter-spacing:.02em}
+</style>
+</head>
+<body>
+
+<!-- ═══════ T1 · THE FORCED CHOICE ═══════ -->
+<div class="tn" id="T1">
+  <div class="bg"><img src="assets/home.jpg" alt=""></div>
+  <div class="scrim"></div>
+  <div class="rim"></div>
+  <img class="ty left" src="assets/taylor.png" alt="">
+  <div class="zone">
+    <div class="kick">Stylecraft · Temple TX</div>
+    <div class="huge em" style="margin-top:16px">4.99%</div>
+    <div class="orbar"><span class="ln"></span><span class="w">or</span></div>
+    <div class="huge am">$20,000</div>
+    <div class="mid" style="margin-top:34px;font-size:76px">PICK ONE.</div>
+  </div>
+  <div class="mark">Temple<b>TXHomes</b></div>
+</div>
+
+<!-- ═══════ T2 · THE VERDICT ═══════ -->
+<div class="tn" id="T2">
+  <div class="bg"><img src="assets/home.jpg" alt=""></div>
+  <div class="scrim"></div>
+  <div class="rim"></div>
+  <img class="ty right" src="assets/taylor.png" alt="">
+  <div class="zone">
+    <div class="kick gh">An honest builder review</div>
+    <div class="score" style="margin-top:14px">
+      <span class="n">3.9</span><span class="d">/ 5</span>
+    </div>
+    <div class="stars">
+      <i class="st"></i><i class="st"></i><i class="st"></i><i class="st"></i><i class="st p"></i>
+    </div>
+    <div class="mid" style="margin-top:26px;font-size:82px">STYLECRAFT</div>
+    <div class="small" style="margin-top:12px">I've closed them. Here's the truth.</div>
+  </div>
+  <div class="mark">Temple<b>TXHomes</b></div>
+</div>
+
+<!-- ═══════ T3 · THE CATCH ═══════ -->
+<div class="tn" id="T3">
+  <div class="bg"><img src="assets/home.jpg" alt=""></div>
+  <div class="scrim"></div>
+  <div class="rim"></div>
+  <img class="ty left" src="assets/taylor.png" alt="">
+  <div class="zone">
+    <div class="kick am">Before you sign</div>
+    <div class="huge am" style="margin-top:16px;font-size:150px">THE CATCH</div>
+    <div class="small" style="margin-top:22px;font-size:38px">Their 4.99% has a string attached</div>
+    <div class="strike" style="margin-top:20px">
+      <span class="t">THEY OWN 49% OF THE LENDER</span>
+    </div>
+  </div>
+  <div class="mark">Temple<b>TXHomes</b></div>
+</div>
+
+</body>
+</html>

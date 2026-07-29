@@ -76,15 +76,27 @@ Unanswered:
    close price is MLS-participant data, not public record.
 4. Does IDX display policy apply to non-IDX video content at all?
 
-**Resolution paths, cheapest first:** (a) email the CTXMLS/TBBOR compliance contact and get the answer in
-writing — do this now, it's free and it's a one-time answer that unblocks every future data video; (b) ship
-the graphics **de-identified** — bucketed $/sqft ranges and counts with no street names — which costs
-specificity but removes the question entirely; (c) ship as-is only after (a) comes back clean.
+### ✅ RESOLVED 2026-07-28 — shipping de-identified. No board contact required.
 
-**Recommendation: do (a), and prepare (b) as the fallback so the publish date doesn't depend on the answer.**
-Note that the aggregate claims that carry this video — the 4/11 split, the $110,000 gap, the vintage
-inversion, the 6.9% $/sqft gap — **all survive de-identification intact**. Only G-5's street names and
-G-11's per-sale rows would need to change. The video does not depend on this being resolved favorably.
+**Taylor's call: he does not want to contact TBBOR/CTXMLS.** That is a fine answer, because the question only
+needed to be *avoided*, not *answered*. **The video now ships de-identified by default** — no street name,
+address, or individual closed-sale price tied to an identifiable property appears in any graphic. See
+`on-screen-graphics.md` §9a-0 for the exact changes.
+
+| Graphic | Change |
+|---|---|
+| G-5 | Six prices, no street names, plus the `6 of 6` city-field count |
+| G-11 | Distribution instead of per-sale pairs: all 7 below original ask, 85–96%, ~91% median |
+| G-TIER | Unlabeled $/sqft bars — distribution only |
+| G-12 | Unchanged; percentages identify nothing |
+
+**Nothing load-bearing was lost.** Every claim the video argues survives: the 4/11 split, the $110,000 gap,
+the 6-of-6 count, the 2012-vs-1977 vintage split, the 6.9% $/sqft gap, the ~91%-of-original figure. Only
+per-property decoration changed. The risk is now structurally absent rather than accepted-and-monitored,
+which is a better place to be than a favorable email would have put us.
+
+**Zero-contact path if the identified version is ever wanted:** CTXMLS/TBBOR rules are typically published in
+the member portal — readable directly, no message to anyone.
 
 ## 16d-2. ⚠️ NEW HIGHEST-RISK SEGMENT — B9b, the no-restrictions / housing-mix beat
 

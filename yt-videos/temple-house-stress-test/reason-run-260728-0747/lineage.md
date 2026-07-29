@@ -1,0 +1,20 @@
+# Lineage — round-by-round
+
+## Round 1
+- **Author-A** (cold): `candidate-a-r1.md`, 6,521 w. Locked frame B (retrospective consent); banned frame A; allowed frame C from Ep3+.
+- **Critic** (Codex GPT-5.4, cross-lab): `critic-codex-r1.md` — 9 FATAL / 9 MAJOR. Headliners: option-period filming lacks the owner-of-record's (seller's) consent — frame C readmits the takedown vector; "nobody left to be angry" contradicted by own risk register; pre-locked "NEGOTIATE — structurally forced" = staged-verdict surface; masking fails vs archived listing photos; consent pitch promised approval the release denied; thresholds stated as behavioral fact; "concessions equal to exposure" sidelines the client; 0.83-retention over-extrapolation + 50–60% math error; TREC placeholders ≠ compliance; "nobody shows you" = NAR Art. 15 surface; "exact… every house" unfulfillable promise; drone stills for business still need Part 107.
+- **Author-B**: `candidate-b-r1.md`, 8,794 w — consent internally consistent, seller-ownership fixed via "tracked live, filmed after close," computed verdict.
+- **Synthesizer**: `candidate-ab-r1.md`, 9,249 w — B's risk/honesty engineering + A's creative surface; payoff completing ~6:57 in a 52–60% band.
+- **Judges** (labels X=B, Y=AB, Z=A): AB 5 – B 0 – A 0 (every runner-up = B). A died on: pre-locked verdict, "nobody shows you"/"[45] seconds" invented claims, 56–63% ≠ 50–60% arithmetic. AB beat B on: on-camera disclosure of the NEGOTIATE selection effect, task-verbatim CTA, inline banned list, Taylor-flown-stills aerial rule, credential at ~0:30.
+- Incumbent → AB, consecutive_wins = 1.
+
+## Round 2
+- **Author-A** (improve incumbent + judge aggregation): `candidate-a-r2.md`, 10,297 w — scrubbed absolutism, inline banned list ×2, arithmetic hardening, Series Law on identifiability, numeric measurement thresholds.
+- **Critic** (Claude, cold): `critic-r2.md` — 2 FATAL / 5 MAJOR / 4 MINOR. Fatal: price-privacy election arithmetically fake (on-screen % + exact TRE, or delta + archived ask, reconstructs the price the release promised to hide); the withheld-payoff list contradicted the packaging that already spends the $11,900 total.
+- **Author-B**: `candidate-b-r2.md`, ~12.3K tokens — Broadcast Ledger: enumerate what the arithmetic publishes, derive the release from it; two keepable tiers (Exact / Rounded Band, whole-percent vs disclosed anchor); zone-preservation rule; QA row 13 reconstruction audit; Gate 6 filmability scout.
+- **Synthesizer**: `candidate-ab-r2.md`, 13,097 w — B's governing instruments (Broadcast Ledger, Gate 6, provenance Series Law, small-n measurement, 11:40–12:10 runtime band with boundary proofs 420÷700=60.0%, 365÷730=50.0%) + A's craft (thesis, open-loop line, first-frame evidence, absolutes-vs-register QA sweep) + honest tension model ("You've had the number since you clicked. What you don't have is what it means.").
+- **Judges** (labels X=AB, Y=A, Z=B): AB 4 – B 1 – A 0. A2 died on: withheld-total contradiction vs $11,900-spending packaging, four-tier price election (incl. impossible "none"), 11:35–12:30 band letting the beat start at 48.7%, decimal thresholds at ~29 imp/day, contingent Ep-2 tease. Contrarian dissent → B2: AB's "the one that moved the price" loop asserts causal attribution a bundled amendment can't always source; B2's "biggest one" loop is pure arithmetic. Majority preferred AB's loop for aiming suspense at the offer-changing payoff + AB's standalone-document hygiene (B2 leaked "per the task" scaffolding).
+- Round winner AB == incumbent AB → consecutive_wins = 2 → **CONVERGED**.
+
+## Post-convergence patch (applied to the shipped bible)
+Contrarian dissent merged as a conditional rule: use the "one that moved the price" loop ONLY when the deal file isolates a specific finding's effect on price (amendment/counter names the item); if the concession was a bundled lump credit, use the fallback loop "the biggest one is still coming" and attribute the price change to the documented package, not one finding.

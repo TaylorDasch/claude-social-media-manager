@@ -27,10 +27,32 @@ there are manufactured homes and almost no restrictions in that area.**
 | "Sometimes under $200K" | **TRUE and current.** A 2025-built, 924 sqft home on Briarwood **closed at $195,000 on July 7, 2026** — 112 days on market, down from a $225,000 original ask. | **CONFIRMED — CTXMLS** |
 | "New custom builds to older houses needing updating" | Active range spans **1966 → 2026** build years, median 1979. Both extremes are live listings right now. | **CONFIRMED — CTXMLS** |
 | "Lots of options — size, age, price" | Active: $205,000–$869,000 · 1,001–2,804 sqft · 1966–2026 · $151–$310/sqft. The variety *is* the spread. | **CONFIRMED — CTXMLS** |
-| "Almost no restrictions" | Corroborated indirectly and strongly: **13 of 29** listings mention a boat, **8 of 29** a shop, **4 of 29** a workshop, **4 of 29** an RV. Agents market storage freedom here because it exists. | **CONFIRMED — listing remarks (indirect)** |
+| "Almost no restrictions" | **4 of 29** mention RV accommodation — *"30 amp RV plug…space for RV parking or a boat"* · *"50 AMP plug for RV or EV Charging"* · *"RV hookup availability"* · *"two lots large enough to park an RV"* · *"additional lot has room for boat/RV parking."* **4 of 29** describe a real workshop structure, incl. *"24' x 36' Workshop with ac unit and sink inside"* and *"Garage/Workshop has electricity, workbench."* | **CONFIRMED — listing remarks (indirect)** |
 | "Further out from everything" | **Not in the MLS.** No drive-time field. Must be measured on the shoot or left to the viewer. | **OBSERVATION — unmeasured** |
 | "Foundation issues sometimes" | **Not in the MLS.** No condition field exists. Never assert about any identifiable home. | **OBSERVATION — must be generalized** |
 | **"Manufactured homes in some portions"** | **NOT VISIBLE IN THE MLS AT ALL.** All 29 rows are PropertyType `Residential`; zero mention manufactured or mobile housing. | **OBSERVATION — and this is the point (see J3)** |
+
+### ⚠️ Corrected 2026-07-28 — a substring match is not a claim
+
+An earlier version of this file said *"13 of 29 listings mention a boat"* and used it as evidence of storage
+freedom. **That was wrong and Taylor caught it.** Eleven of those thirteen hits are either the standardized
+`NeighborhoodAmenities` picklist (`Boat Ramp`, `Boat Dock` — agent-selected checkboxes, not prose) or generic
+lake-lifestyle copy about Belton Lake ("boating, fishing, swimming"). Only **two** referenced boat parking on
+the property.
+
+**Standing rule for every future remarks scan: a keyword hit is a lead, not a finding.** Read the surrounding
+sentence and classify it before it becomes an on-camera number. The RV and workshop counts above were
+re-derived by reading all matches in context; the boat count was retired.
+
+**RESOLVED BY OMISSION 2026-07-28.** One listing's amenity field reads *"Several Boat Ramps, 3 Marinas"*
+while the live templetxhomes.net page states there is **no public boat ramp inside city limits**. Amenity
+picklists are agent-entered and frequently describe the wider lake area rather than the city, so the two are
+not necessarily contradictory — but neither is verified. **Taylor's call: the video makes no boat-ramp or
+marina claim at all.** He describes the area and its location; the access claim is cut. The marina shot (old
+G5) is removed from the shot list. Do not reintroduce either on location or in the edit.
+
+Another listing states it is *"currently operating as an Airbnb"* — worth knowing that STR exists here in
+practice despite the Specific Use Permit requirement. Not a video point (buyer lane), but real.
 
 **Bonus finding from the remarks scan:** one listing notes *"you can pay an optional access fee to MPR
 Community Center and Pool."* That likely explains the HOA field split — 27 None / 2 Mandatory — because
