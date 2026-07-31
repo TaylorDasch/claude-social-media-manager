@@ -18,7 +18,39 @@ Three kinds of content on this page. Treat them differently:
 
 **Pacing:** each beat has a time budget. Speaking free runs 15–25% longer than scripted — at 11:35 scripted you have 25 seconds to the 12:00 ceiling, so unmanaged riffing lands you at 13:00–14:30. Watch the clock on B4, B5, B6. If you're long, **cut B9's shop/RV counts. Never cut B9b.**
 
-**The six sentences that are non-negotiable** (all marked 🔒 below): the water-provenance line in B4, the n=7 admission in B5, the "I am not telling you any specific home" line in B6, the list-price boundary in B7, and both compliance framings in B9b. Those sentences are the reason this video ships.
+**The six sentences that are non-negotiable** (all marked 🔒 below): the water line in B4, the n=7 admission in B5, the "I am not telling you any specific home" line in B6, the list-price boundary in B7, and both compliance framings in B9b. Those sentences are the reason this video ships.
+
+---
+
+## ⚠️ TWO DECISIONS BEFORE YOU ROLL — added 2026-07-30
+
+### 1. Which date's numbers are you quoting?
+
+A July 30 pull now exists (`~/market-monitor/whole-market-with-status-2026-07-30.csv`) and it **includes the water fields the July 20 export was missing.** The market moved in those ten days:
+
+| | Jul 20 (script) | Jul 30 (new) |
+|---|---|---|
+| Records in universe | 29 | 26 |
+| Actives | 15 | 13 |
+| Filed under Belton | **11 of 15** | **9 of 13** |
+| Actives under $275K | **6** (all Belton-filed) | **4** (all Belton-filed) |
+| Apparent floor / real floor | $315,000 / $205,000 | **unchanged** |
+| $110,000 gap | yes | **unchanged** |
+
+**The hook is safe either way** — all four name-carrying prices ($315K · $330K · $665K · $869K) and the $205,000 floor are *identical* on both dates. Only the counts moved.
+
+**Recommendation: keep the July 20 numbers and keep saying "July 20, 2026."** A date-stamped figure is never wrong, the whole package is already built and internally checked against it, and re-cutting buys you a fresher count in exchange for re-verifying every beat. If you'd rather shoot to July 30, tell me and I'll re-derive all eleven beats — but the argument doesn't get stronger, only newer.
+
+*The universe both sets use is the **union** of `subdivisionNAME` matching "morgan" **and** `City` matching "morgan" — 29 records on Jul 20. Reproduced and confirmed 2026-07-30.*
+
+### 2. ✅ The Corps question — RESOLVED, verified by Taylor 2026-07-30
+
+Every Morgan's Point record says `WaterfrontYN = False`, and that turns out to be **correct**, not a data-entry failure. Two findings from primary sources:
+
+- **Private docks prohibited lake-wide** (USACE Belton Lake Master Plan) — state this flatly, it's settled
+- **Corps land generally between lots and water** (USACE's own "adjacent landowners / Government property" language + BellCAD shoreline belt) — state as *most/generally*, **never lot-by-lot**, because GIS is not a survey
+
+Full language and sources in **B4**. This is now the strongest segment in the video and it also retroactively explains the marina's multi-year slip waitlist: if no one can build a private dock, the marina is the only way to keep a boat in the water.
 
 ---
 
@@ -27,16 +59,45 @@ Three kinds of content on this page. Treat them differently:
 
 **Your one job:** tell them the price they're holding is wrong, and don't say Belton.
 
-🔒 **SAY EXACTLY:**
-> "Morgan's Point Resort looks like it starts at three hundred fifteen thousand dollars. It actually starts at two hundred five. Eleven of the fifteen listings are filed under a different city's name — and every cheap one is in that eleven. Here's what that costs you."
+🔒 **SAY EXACTLY:** *(closing line changed 2026-07-30 — was "Here's what that costs you.")*
+> "Morgan's Point Resort looks like it starts at three hundred fifteen thousand dollars. It actually starts at two hundred five. Eleven of the fifteen listings are filed under a different city's name — and every cheap one is in that eleven. **That's the smallest of three problems.**"
+
+**46 words exactly — at cap, zero headroom.** Don't add a syllable anywhere else in this block.
 
 **Delivery:**
-- Beat of silence before **"two hundred five"** and before **"Here's what that costs you."** Those are the two turns.
+- **One continuous shot — do not cut cameras inside the hook.** Cold open, drone in motion. A cut here competes with the audio, and the audio is carrying the beat.
+- Beat of silence before **"two hundred five"** and before **"Here's what that costs you."** These are the two *rhetorical* turns — the points where the meaning pivots (belief → truth, then information → stakes), not camera moves. Total silence budget is 1.2 s, so ~0.6 s each: short, not dramatic. Enough that "two hundred five" lands as a reveal instead of the second number in a list. Read flat and continuous, the contradiction doesn't register at all.
 - Full numbers out loud — "three hundred fifteen thousand," never "three fifteen" (reads as a time).
 - **Do not say Belton.** The reveal is B3's job.
 - Date stamp is supered, not spoken.
 
 **Why exact:** "filed under a different city's name" is a fact about the export. "You'll only see four listings" is a claim about somebody else's software. Hold this line in the title, thumbnail, Shorts and description too.
+
+---
+
+---
+
+## 🎯 THE THREE PROBLEMS — what the hook now promises
+
+The hook says **"the smallest of three problems."** These are the three, in order, and each one is bigger than the last. They're a single causal chain — every one traces back to the city-field split, which is what makes it one video instead of three facts.
+
+| # | Beat | The problem in one line | What it costs |
+|---|---|---|---|
+| **1** | **B3** | A name search shows you four listings starting at **$315,000.** The town actually starts at **$205,000**, and all six actives under $275K are filed under Belton. | You write off a town you could afford — in about eleven seconds. |
+| **2** | **B5** | The money you just found comes attached to a decade. The four name-carrying listings were **all built 2002 or later**; the eleven Belton-filed have a median build year of **1977.** All **8 of 8** pre-1980 actives are on the Belton side. | The affordable half and the old half are **the same half.** The discount has a condition. |
+| **3** | **B6** | What a pre-1980 house asks you to underwrite, none of it in the MLS: roof, foundation, HVAC, panel and its brand, supply lines, septic, a bound insurance quote before the option period ends. Median active build year is **1979.** | The list price isn't the price. **The discount is real and it's also the tell.** |
+
+**Say the numbers out loud on camera.** Don't just deliver three beats and hope they count — signpost them:
+
+- End of B3: *"That's one."*
+- Open B5: *"That's two — and it's the one that changes the math."*
+- Open B6: *"Here's three, and this is the expensive one."*
+
+That guarantees the promise is paid, and it gives you three clean retention resets across the middle of the video.
+
+> ⚠️ **B4 is not one of the three.** It's the explanation beat that sits between problems 1 and 2 — it tells them *why* the spread exists ($/sqft, the two non-Sec-1–9 subdivisions, and the water/dock finding). Don't number it, or the count breaks.
+>
+> **The dock prohibition is also not a fourth problem** — it's true no matter which city field you search, so it sits outside the causal chain. It's the bonus, and it's genuinely the best thing in the video. Just don't let it get numbered.
 
 ---
 
@@ -54,22 +115,45 @@ Three kinds of content on this page. Treat them differently:
 
 **Land on:** "That's the fix. Here's why it costs you a hundred and ten thousand dollars if you don't use it."
 
+### ⚠️ TWO THINGS NOT TO SAY IN THIS BEAT
+
+**1. Never say or imply agents entered it wrong.** There is no error here and you can't support the claim. Both values are correct: Morgan's Point Resort *is* an incorporated city, **and** the USPS mailing address for those properties *is* Belton, TX 76513. One agent entered the municipal city, another entered the mailing city. Saying "wrong" publicly criticises colleagues on your own board and hands the first person who pushes back the win. Describe the **field values**, never the people.
+
+**2. Never say the MLS data is wrong or incomplete.** All fifteen records are in the database — nothing is missing. What's incomplete is the **filtered view**: a City = "Morgans Point Resort" search returns 4 of 15. Say it that way and it's unarguable. "The MLS data is wrong" is a claim about the MLS that you'd have to defend.
+
+**Map area beats zip, and say so.** 76513 covers Belton proper as well as Morgan's Point Resort, so a zip search fixes the missing-eleven problem but pulls in a lot of Belton you don't want. The polygon/map-area draw is the precise tool; zip is the fallback. That's what "confirm what you get against the map" is for — it isn't filler.
+
+> **Root cause, for your own understanding — don't put this on camera.** This is the same failure mode as free-text `subdivisionNAME` (filtering literally on "Three Creeks" drops rows entered "Three Crks"). Inconsistent field values silently shrink filtered results with no warning. It affects every search you run, which is why map-area is the habit worth building. See [[reference_mls_subdivision_name_variants]].
+
 ---
 
 ## B3 · 0:52–2:05 (73s) — THE PRICE ILLUSION
 
 **Your one job:** prove the split with both sides out loud. This is the payoff and it lands at 1:00, not 4:00.
 
-**Riff:** the set carrying the town's name isn't a thin slice of the same market — it's a different market. Then name the mistake: the buyer who prices this town by its name doesn't conclude there's nothing here, they conclude *they can't afford here* — and they're gone in about eleven seconds and nobody ever hears from them.
+### Riff version — bullets, say it your way
 
-🔒 **SAY EXACTLY (all of it):**
-> The four carrying the town's name: **$315,000 · $330,000 · $665,000 · $869,000 — median $497,500.**
-> The eleven filed under Belton: **$205,000 to $715,000, median $272,500.**
-> True active median across all fifteen: **$330,000.**
-> So the name-carrying set prices **50.8% above** the real median, with a floor **$110,000 higher.**
+- The set carrying the town's name isn't a thin slice of the same market. **It's a different market.**
+- Four listings carry the name. They run **$315,000 up to $869,000** — median around **$497,000.**
+- Eleven are filed under Belton. They run **$205,000 up to $715,000** — median around **$272,000.**
+- Put all fifteen together and the true median is **$330,000.** So the name-carrying set is priced roughly **50% above** the real median, with a floor **$110,000 higher.**
+- Then the line the whole video hangs on: **every single active under $275,000 is filed under Belton. All six of them.**
+- Roll them off if you want the concrete moment: **$205,000 · $230,000 · $244,900 · $249,500 · $265,000 · $272,500**
+- Name the mistake: the buyer who prices this town by its name doesn't conclude there's nothing here — they conclude **they can't afford here.** They're gone in about eleven seconds and nobody ever hears from them.
+
+### 🔒 Exact-wording option — if you'd rather read this beat
+
+> "Four listings here carry the town's name. Three fifteen, three thirty, six sixty-five, eight sixty-nine — **median four hundred ninety-seven thousand five hundred.**
 >
-> "All six actives under two hundred seventy-five thousand are filed under Belton. Every one."
-> Cliffside **$205,000** · Bobcat **$230,000** · Morgans Point **$244,900** · Hickory **$249,500** · Sherwood **$265,000** · Cliffside **$272,500**
+> The eleven filed under Belton run **two hundred five thousand to seven hundred fifteen thousand — median two hundred seventy-two thousand five hundred.**
+>
+> Put all fifteen together and the real median is **three hundred thirty thousand.** So the four you can see aren't a slice of this market — they price **fifty point eight percent above** it, with a floor **a hundred and ten thousand dollars higher.**
+>
+> And here's the part that matters: **all six actives under two hundred seventy-five thousand are filed under Belton. Every one.** Two-oh-five on Cliffside. Two-thirty on Bobcat. Two forty-four nine on Morgans Point. Two forty-nine five on Hickory. Two sixty-five on Sherwood. Two seventy-two five on Cliffside.
+>
+> So the buyer who prices this town by its name doesn't conclude there's nothing here. They conclude they can't afford here — and they're gone in about eleven seconds, and nobody ever hears from them."
+
+**Either way, these five figures cannot drift:** $315,000 apparent floor · $205,000 real floor · $110,000 gap · $330,000 true median · six of six under $275K filed Belton.
 
 **Land on:** they're gone in eleven seconds and nobody hears from them.
 
@@ -89,8 +173,48 @@ Three kinds of content on this page. Treat them differently:
 > "**Dollars per square foot runs a hundred fifty-one to three hundred ten** across the same fifteen homes."
 > The **$869,000** is in **Rancho Del Lago, built 2026.** The **$665,000** is in **Campus at Lakewood Ranch, built 2019.**
 
-🔒 **SAY EXACTLY (the provenance line — uncuttable):**
-> "There is no waterfront field, no water-access field, and no dock field in these records. That's exactly why I'm drawing tiers off dollars per square foot instead of off a shoreline — the price column is verified, my read of which street is close to the water is not."
+### 🔒 THE WATER LINE — REWRITTEN 2026-07-30. DO NOT USE THE OLD VERSION.
+
+**The old line said:** *"There is no waterfront field, no water-access field, and no dock field in these records."*
+
+**That is false and you must not say it.** Those fields exist in CTXMLS — `WaterfrontYN`, `WaterAccessYN`, `WaterFeaturesView`. The **July 20 export template just didn't include them.** Any CTXMLS agent could disprove that sentence in ten seconds, in a video whose entire argument is rigor.
+
+**What the fields actually say** (July 30 pull, same 26-record universe):
+
+| Field | Morgan's Point |
+|---|---|
+| `WaterfrontYN` | **False on all 26.** Not blank — explicitly False |
+| `WaterAccessYN` | **blank on 20 of 26**, True on 2, False on 4 |
+| `WaterFeaturesView` mentions Belton Lake | **4 of 26** |
+
+**And the field is genuinely in use market-wide** — 52 of 3,223 listings are `WaterfrontYN = True`. So False here is a *signal*, not an omission.
+
+### ✅ RESOLVED 2026-07-30 — Taylor verified against primary USACE + BellCAD sources
+
+**The field isn't wrong. It's right, and now we know why.**
+
+- **Private docks are prohibited lake-wide on Belton Lake.** USACE's Belton Lake Master Plan bars private shoreline uses — privately owned floating docks, fixed piers, movable piers. This applies to Morgan's Point lots. Commercial marinas and public facilities are a separate category and are permitted. **[CONFIRMED — primary source]**
+- **Corps land generally sits between these lots and the water.** USACE's own notice calls Morgan's Point homeowners "adjacent landowners" entering "Government property," and the BellCAD parcel viewer shows an unnumbered/zero-ID shoreline belt between many residential parcels and the lake. **[CONFIRMED broadly — but GIS is not a survey, so do NOT claim it lot-by-lot.]**
+
+So `WaterfrontYN = False` on all 26 records is **accurate**, not a data-entry failure. Nobody missed a checkbox — the lots genuinely aren't waterfront.
+
+🔒 **SAY EXACTLY (the replacement — uncuttable):**
+> "Now the water, because this is the part most people get wrong. The MLS does have a waterfront field, and on every one of these records it says no. And having looked into it — that's correct. Belton Lake is a Corps of Engineers lake. On most of these lots there's a strip of federal land sitting between the property line and the waterline, and the Corps itself refers to homeowners out here as adjacent landowners entering government property.
+>
+> Here's what that means for you, and it is the single most expensive assumption you can make in this town: **you cannot build a private dock on Belton Lake. Not on your lot, not with a permit, not by asking nicely. Private docks and piers are prohibited lake-wide.** If you want a boat in the water, that's the marina, and the slip list runs years.
+>
+> A lake view here is a view. It is not ownership, and it is not a dock. I'd rather you hear that from me now than from the Corps after you close."
+
+**Sources — put these in the description:**
+- USACE Belton Lake Master Plan (Dec 2018) — the dock prohibition
+- USACE news release re: Morgan's Point "adjacent landowners" / "Government property"
+- BellCAD parcel viewer — `gis.bisclient.com/bellcad/` — the shoreline belt
+
+> ⚠️ **Two limits to respect on camera.**
+> **1. Don't say agents failed to fill the field in.** They didn't fail — the field is correct. That reading is now retired.
+> **2. Don't say "every lot" on the Corps boundary.** Say *most* or *generally*. GIS is not a survey; without a Corps boundary record or a parcel survey you can't make the lot-by-lot claim. The dock prohibition IS lake-wide and can be stated flatly — the boundary cannot.
+
+**This is now the most valuable 30 seconds in the video.** It's a five-figure assumption, no listing sheet will ever tell them, and it's sourced to the agency that owns the lake.
 
 **State the record only — DOM and subdivision. Render no verdict on anybody's pricing.**
 
@@ -169,7 +293,7 @@ Three kinds of content on this page. Treat them differently:
 **Riff — but keep the counts exact:**
 1. **HOA — verify per property.** Of the 29 records, **27 show None, 2 show Mandatory.** No-HOA is the pattern here, not a guarantee on your address.
 2. **Schools — all 29 records show Belton ISD.** Verify your exact address with Belton ISD.
-3. **Water, dock, shoreline — not in the MLS at all.** Nobody's listing sheet can grant you access. City of Morgan's Point Resort for city rules; the **USACE Belton Lake Resource Manager's Office** for anything touching the lake, and for the current lake level before you believe a view.
+3. **Water and shoreline — already answered, don't send them on a errand.** Private docks are **prohibited lake-wide**; that one's settled, don't tell them to go ask. What IS worth a call: where the Corps boundary actually falls on *your* lot (a survey or Corps boundary record, not the GIS map), and the current lake level before you believe a view. **USACE Belton Lake Resource Manager's Office** for both. City of Morgan's Point Resort for city rules.
 4. **Drive time — measure it yourself, at your real hour.** Groceries and major retail are a drive out to Belton or Temple. Don't take mine, don't take a listing's.
 5. **The city field on the listing you're about to tour** — check whether it says Belton or Morgans Point Resort, because that one field is why your search looked the way it did.
 
