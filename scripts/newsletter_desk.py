@@ -52,8 +52,21 @@ AUDIENCES = {
 }
 ISSUE_TYPES = {
     "market-update": "temple-insider",
+    "leverage-list": "temple-insider",
     "investor-analysis": "investor-brief",
 }
+ISSUE_TYPE_NAMES = {
+    "leverage-list": "The Leverage List",
+}
+LEVERAGE_SELECTION_MODES = {"codex-pick", "taylor-pick"}
+LEVERAGE_APPROVAL_STATUSES = {
+    "awaiting_taylor_final_approval",
+    "taylor_final_approval_recorded",
+}
+LEVERAGE_SUPPRESSION_STATE = "verified-issue-01-excluded"
+LEVERAGE_CADENCE_ANCHOR = date(2026, 8, 18)
+LEVERAGE_SEND_TIME_LOCAL = "10:00"
+LEVERAGE_TIMEZONE = "America/Chicago"
 CONTACT_COLUMNS = {
     "email",
     "first_name",
@@ -298,12 +311,11 @@ def request_json(
             body = response.read().decode("utf-8")
             return json.loads(body) if body else {}
     except urllib.error.HTTPError as exc:
-        body = exc.read().decode("utf-8", errors="replace")
-        try:
-            details = json.loads(body)
-        except json.JSONDecodeError:
-            details = {"message": body[:300]}
-        raise RuntimeError(f"Beehiiv HTTP {exc.code}: {details}") from exc
+        # Beehiiv bulk errors may echo submitted addresses. Never place the
+        # response body in stderr, logs, or a release artifact.
+        code = exc.code
+        exc.close()
+        raise RuntimeError(f"Beehiiv HTTP {code}; response details suppressed") from exc
     except urllib.error.URLError as exc:
         raise RuntimeError(f"Beehiiv connection failed: {exc.reason}") from exc
 
@@ -1072,11 +1084,98 @@ def issue_errors(metadata: dict[str, str], body: str) -> list[str]:
     if preview and not 80 <= len(preview) <= 100:
         errors.append(f"Preview text is {len(preview)} characters; target is 80-100")
     send_date = metadata.get("send_date", "")
+    parsed_send_date: date | None = None
     if send_date:
         try:
-            date.fromisoformat(send_date)
+            parsed_send_date = date.fromisoformat(send_date)
         except ValueError:
             errors.append("send_date must be YYYY-MM-DD")
+
+    if issue_type == "market-update" and parsed_send_date is not None and parsed_send_date >= date(2026, 8, 6):
+        errors.append(
+            "Temple TX Insider market-update is retired as of 2026-08-06; "
+            "use leverage-list and never recreate Issue #1"
+        )
+
+    if issue_type == "leverage-list":
+        leverage_required = {
+            "issue_number",
+            "selection_mode",
+            "prior_issue_suppression",
+            "approval_status",
+            "send_time_local",
+            "timezone",
+        }
+        for key in sorted(leverage_required):
+            if not metadata.get(key):
+                errors.append(f"Missing Leverage List frontmatter field: {key}")
+
+        issue_number = metadata.get("issue_number", "")
+        if issue_number and not PLACEHOLDER_RE.search(issue_number):
+            try:
+                parsed_issue_number = int(issue_number)
+            except ValueError:
+                errors.append("Leverage List issue_number must be an integer of 2 or greater")
+            else:
+                if parsed_issue_number < 2:
+                    errors.append("Leverage List Issue #1 is historical and cannot be rebuilt")
+
+        selection_mode = metadata.get("selection_mode", "")
+        if (
+            selection_mode
+            and not PLACEHOLDER_RE.search(selection_mode)
+            and selection_mode not in LEVERAGE_SELECTION_MODES
+        ):
+            errors.append(
+                "Leverage List selection_mode must be codex-pick or taylor-pick"
+            )
+
+        suppression = metadata.get("prior_issue_suppression", "")
+        if (
+            suppression
+            and not PLACEHOLDER_RE.search(suppression)
+            and suppression != LEVERAGE_SUPPRESSION_STATE
+        ):
+            errors.append(
+                "Leverage List prior_issue_suppression must confirm "
+                f"{LEVERAGE_SUPPRESSION_STATE}"
+            )
+
+        approval_status = metadata.get("approval_status", "")
+        if (
+            approval_status
+            and not PLACEHOLDER_RE.search(approval_status)
+            and approval_status not in LEVERAGE_APPROVAL_STATUSES
+        ):
+            errors.append(
+                "Leverage List approval_status must remain awaiting Taylor's final "
+                "approval or record that approval separately"
+            )
+
+        send_time_local = metadata.get("send_time_local", "")
+        if (
+            send_time_local
+            and not PLACEHOLDER_RE.search(send_time_local)
+            and send_time_local != LEVERAGE_SEND_TIME_LOCAL
+        ):
+            errors.append(
+                f"Leverage List send_time_local must be {LEVERAGE_SEND_TIME_LOCAL}"
+            )
+        timezone = metadata.get("timezone", "")
+        if (
+            timezone
+            and not PLACEHOLDER_RE.search(timezone)
+            and timezone != LEVERAGE_TIMEZONE
+        ):
+            errors.append(f"Leverage List timezone must be {LEVERAGE_TIMEZONE}")
+
+        if parsed_send_date is not None:
+            cadence_offset = (parsed_send_date - LEVERAGE_CADENCE_ANCHOR).days
+            if cadence_offset < 0 or cadence_offset % 14 != 0:
+                errors.append(
+                    "Leverage List send_date must follow the every-other-Tuesday "
+                    "cadence anchored on 2026-08-18"
+                )
 
     combined = f"{subject}\n{body}".lower()
     banned = [term for term in load_banned_words() if term != "fort hood"]
@@ -1214,7 +1313,11 @@ def markdown_to_email_html(markdown: str) -> str:
 def email_document(metadata: dict[str, str], body_html: str) -> str:
     preview = html.escape(metadata["preview_text"])
     subject = html.escape(metadata["subject"])
-    publication = html.escape(AUDIENCES[metadata["newsletter"]]["name"])
+    publication = html.escape(
+        ISSUE_TYPE_NAMES.get(
+            metadata["issue_type"], AUDIENCES[metadata["newsletter"]]["name"]
+        )
+    )
     return f"""<!doctype html>
 <html lang="en">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{subject}</title></head>

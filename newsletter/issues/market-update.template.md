@@ -6,8 +6,14 @@ preview_text: The latest numbers, one standout home, the best current opportunit
 send_date: 2026-08-06
 data_sources: market-monitor MLS pull YYYY-MM-DD; CTXMLS listing status checks; authoritative local sources as cited
 rotating_feature: homeowner_value_add
-approval_status: draft
+approval_status: archived-historical-reference-do-not-build
 ---
+
+# Archived predecessor template — do not build
+
+This is historical reference for the Temple TX Insider market update that The
+Leverage List replaced. Issue #1 was sent on August 6, 2026. Do not recreate it
+or use this template for a new issue.
 
 # The Central Texas market in three minutes
 

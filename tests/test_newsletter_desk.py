@@ -1,12 +1,16 @@
 from __future__ import annotations
 
 import csv
+import io
+import json
 import shutil
 import sys
 import tempfile
 import unittest
+import urllib.error
 from datetime import date
 from pathlib import Path
+from unittest import mock
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT / "scripts"))
@@ -101,6 +105,22 @@ Use the exact address, tax entities, commute, and insurance checks before decidi
 Read the [Temple vs Belton comparison](https://templetxhomes.net/temple-vs-belton/?utm_source=beehiiv).
 """
 
+    def valid_leverage_source(self) -> str:
+        return (
+            self.valid_source()
+            .replace(
+                "issue_type: market-update",
+                "issue_type: leverage-list\n"
+                "issue_number: 2\n"
+                "selection_mode: codex-pick\n"
+                "prior_issue_suppression: verified-issue-01-excluded\n"
+                "approval_status: awaiting_taylor_final_approval\n"
+                "send_time_local: 10:00\n"
+                "timezone: America/Chicago",
+            )
+            .replace("send_date: 2026-07-23", "send_date: 2026-08-18")
+        )
+
     def test_issue_build_writes_all_artifacts(self) -> None:
         with tempfile.TemporaryDirectory() as temp:
             temp_path = Path(temp)
@@ -152,6 +172,116 @@ Read the [Temple vs Belton comparison](https://templetxhomes.net/temple-vs-belto
             errors,
         )
 
+    def test_leverage_list_reuses_temple_insider_and_keeps_investor_separate(self) -> None:
+        metadata, body = newsletter_desk.parse_frontmatter(
+            self.valid_leverage_source()
+        )
+        self.assertEqual([], newsletter_desk.issue_errors(metadata, body))
+        self.assertEqual("temple-insider", newsletter_desk.ISSUE_TYPES["leverage-list"])
+        self.assertEqual("investor-brief", newsletter_desk.ISSUE_TYPES["investor-analysis"])
+
+        investor_header = newsletter_desk.email_document(
+            {
+                **metadata,
+                "newsletter": "investor-brief",
+                "issue_type": "investor-analysis",
+            },
+            "<p>Local preview</p>",
+        )
+        self.assertIn(
+            "Temple TX Investor Brief · Taylor Dasch · EG Realty",
+            investor_header,
+        )
+        self.assertNotIn("The Leverage List ·", investor_header)
+
+        metadata["newsletter"] = "investor-brief"
+        self.assertIn(
+            "leverage-list issues must use the temple-insider audience",
+            newsletter_desk.issue_errors(metadata, body),
+        )
+
+    def test_leverage_list_build_is_local_not_sent(self) -> None:
+        with tempfile.TemporaryDirectory() as temp:
+            temp_path = Path(temp)
+            source = temp_path / "issue.md"
+            output = temp_path / "built"
+            source.write_text(
+                self.valid_leverage_source(),
+                encoding="utf-8",
+            )
+            result = newsletter_desk.main(
+                ["issue", "build", str(source), "--output-dir", str(output)]
+            )
+            self.assertEqual(0, result)
+            manifest = json.loads((output / "manifest.json").read_text(encoding="utf-8"))
+            self.assertEqual("NOT_SENT", manifest["delivery_status"])
+            self.assertTrue(manifest["approval_required"])
+            self.assertFalse(manifest["gmail_mass_send_allowed"])
+            self.assertEqual("temple-insider", manifest["newsletter"])
+            self.assertEqual("leverage-list", manifest["issue_type"])
+            email_html = (output / "email.html").read_text(encoding="utf-8")
+            self.assertIn("The Leverage List · Taylor Dasch · EG Realty", email_html)
+
+    def test_leverage_list_issue_one_cannot_be_rebuilt(self) -> None:
+        metadata, body = newsletter_desk.parse_frontmatter(
+            self.valid_leverage_source().replace("issue_number: 2", "issue_number: 1")
+        )
+        self.assertIn(
+            "Leverage List Issue #1 is historical and cannot be rebuilt",
+            newsletter_desk.issue_errors(metadata, body),
+        )
+
+    def test_leverage_list_requires_mode_suppression_and_approval_state(self) -> None:
+        replacements = {
+            "selection_mode: codex-pick": (
+                "selection_mode: automatic",
+                "selection_mode must be codex-pick or taylor-pick",
+            ),
+            "prior_issue_suppression: verified-issue-01-excluded": (
+                "prior_issue_suppression: pending",
+                "prior_issue_suppression must confirm verified-issue-01-excluded",
+            ),
+            "approval_status: awaiting_taylor_final_approval": (
+                "approval_status: auto-approved",
+                "approval_status must remain awaiting Taylor's final approval",
+            ),
+        }
+        for original, (replacement, expected) in replacements.items():
+            with self.subTest(field=original.split(":", 1)[0]):
+                metadata, body = newsletter_desk.parse_frontmatter(
+                    self.valid_leverage_source().replace(original, replacement)
+                )
+                self.assertTrue(
+                    any(expected in error for error in newsletter_desk.issue_errors(metadata, body))
+                )
+
+    def test_leverage_list_requires_the_anchored_every_other_tuesday_cadence(self) -> None:
+        metadata, body = newsletter_desk.parse_frontmatter(
+            self.valid_leverage_source().replace(
+                "send_date: 2026-08-18", "send_date: 2026-08-25"
+            )
+        )
+        self.assertTrue(
+            any(
+                "every-other-Tuesday cadence anchored on 2026-08-18" in error
+                for error in newsletter_desk.issue_errors(metadata, body)
+            )
+        )
+
+    def test_leverage_list_requires_exact_target_time_and_timezone(self) -> None:
+        replacements = {
+            "send_time_local: 10:00": ("send_time_local: 09:00", "send_time_local must be 10:00"),
+            "timezone: America/Chicago": ("timezone: UTC", "timezone must be America/Chicago"),
+        }
+        for original, (replacement, expected) in replacements.items():
+            with self.subTest(field=original.split(":", 1)[0]):
+                metadata, body = newsletter_desk.parse_frontmatter(
+                    self.valid_leverage_source().replace(original, replacement)
+                )
+                self.assertTrue(
+                    any(expected in error for error in newsletter_desk.issue_errors(metadata, body))
+                )
+
     def test_unresolved_template_placeholder_is_blocked(self) -> None:
         metadata, body = newsletter_desk.parse_frontmatter(
             self.valid_source().replace(
@@ -164,7 +294,7 @@ Read the [Temple vs Belton comparison](https://templetxhomes.net/temple-vs-belto
 
     def test_dedicated_templates_only_need_content_filled(self) -> None:
         for filename in (
-            "market-update.template.md",
+            "leverage-list.template.md",
             "investor-analysis.template.md",
         ):
             with self.subTest(filename=filename):
@@ -176,6 +306,31 @@ Read the [Temple vs Belton comparison](https://templetxhomes.net/temple-vs-belto
                     ["Unresolved template placeholders remain"],
                     newsletter_desk.issue_errors(metadata, body),
                 )
+
+    def test_archived_market_update_cannot_recreate_issue_one_or_successors(self) -> None:
+        source = (PROJECT_ROOT / "newsletter" / "issues" / "market-update.template.md").read_text(
+            encoding="utf-8"
+        )
+        metadata, body = newsletter_desk.parse_frontmatter(source)
+        errors = newsletter_desk.issue_errors(metadata, body)
+        self.assertTrue(any("market-update is retired" in error for error in errors))
+
+
+class NewsletterHttpPrivacyTests(unittest.TestCase):
+    def test_beehiiv_http_error_body_is_never_exposed(self) -> None:
+        echoed_contact = "private-contact@example.com"
+        error = urllib.error.HTTPError(
+            "https://api.beehiiv.com/v2/publications/example/subscriptions/bulk",
+            422,
+            "Unprocessable Entity",
+            {},
+            io.BytesIO(json.dumps({"email": echoed_contact}).encode("utf-8")),
+        )
+        self.addCleanup(error.close)
+        with mock.patch("urllib.request.urlopen", side_effect=error):
+            with self.assertRaisesRegex(RuntimeError, "response details suppressed") as raised:
+                newsletter_desk.request_json("https://api.beehiiv.com/v2/publications/example")
+        self.assertNotIn(echoed_contact, str(raised.exception))
 
 
 class NewsletterFubTests(unittest.TestCase):

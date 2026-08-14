@@ -8,11 +8,11 @@ Taylor does not need to design a newsletter in Beehiiv. Taylor and Codex talk th
 
 | Timing | Product | Audience | Publication |
 |---|---|---|---|
-| First Thursday monthly | Central Texas Market Update | Past clients, relocators, buyer leads, homeowners, and permissioned sphere contacts | Temple TX Insider |
+| Every other Tuesday | The Leverage List | Buyers who separately consented to this recurring email | Temple TX Insider (existing audience and infrastructure) |
 | Second Thursday monthly | Investor Deal Analysis | Permissioned investors | Temple TX Investor Brief |
 | Fourth Thursday monthly | Investor Deal Analysis | Permissioned investors | Temple TX Investor Brief |
 
-The market update contains the honest market pulse, home of the month, best current deal, a quick tip, and one rotating feature. Each investor edition ranks the strongest multifamily, single-family rental, and specialty opportunity under stated assumptions. Never mix the two lists.
+The Leverage List is the buyer-facing successor to the old Central Texas Market Update. It contains roughly five to eight current Temple/Belton candidates with days-on-market, price-cut, payment, negotiation, and caution context; a thin issue uses fewer rather than padding the list. Each investor edition ranks the strongest multifamily, single-family rental, and specialty opportunity under stated assumptions. Never mix the two lists or their consent records.
 
 See `newsletter/NEWSLETTER-PROGRAM.md` for the module rotations, underwriting requirements, launch calendar, and evidence rules.
 
@@ -38,13 +38,19 @@ Taylor approved this design on July 19, 2026. It remains separate from the Templ
 
 ## Production workflow
 
-1. **Monday — talk it out here.** Codex checks the calendar and last Beehiiv send, confirms which product is due, and proposes the issue angle from current videos, pages, and MLS-backed facts.
-2. **Tuesday — draft.** Taylor reacts in plain language. Codex writes the issue and creates the preview. No Beehiiv design work is needed.
-3. **Wednesday — approve.** Taylor reviews subject, preview text, body, links, and the recipient count. Approval to stage is separate from approval to send.
-4. **Thursday — delivery.** The approved issue goes through Beehiiv so unsubscribes, bounces, and analytics work correctly. The delivery record is verified after the send.
-5. **Friday — outcome check.** Codex logs replies, clicks, and deal conversations. A serious reply matters more than a vanity open rate.
+1. **Monday on a due week — choose the mode.** The existing Newsletter Desk workflow prompts `CODEX/COMPUTER PICK` or `TAYLOR PICK`; do not create another reminder.
+2. **Build the review packet.** Use the newest current-status MLS pull, suppress the prior issue's picks by default, and recheck every selected listing before final copy. Taylor Pick uses Taylor's supplied MLS numbers/addresses or his choices from the candidate sheet, then applies the same verification.
+3. **Approve five things.** Taylor separately reviews the final property set, exact eligible audience, subject, destination links/rendered preview, and send.
+4. **Tuesday delivery window.** Beehiiv delivery occurs only after that final approval; the local builder always remains `NOT_SENT`. The Investor Brief keeps its separate calendar and audience.
+5. **Outcome check.** Log delivery, replies, clicks, unsubscribes, and deal conversations without treating opens as the primary result.
 
 ## Contact list
+
+**Current Leverage List boundary:** Lofty is the CRM and Beehiiv is the delivery/
+suppression source. Do not use the historical Follow Up Boss preparation, filtering,
+curation, or cleanup commands below for Issue #2. They remain documented only as
+legacy workflow history. An exact Issue #2 audience requires a private current
+Beehiiv consent/suppression review; active status alone is not consent provenance.
 
 Private contacts belong at:
 
@@ -52,7 +58,7 @@ Private contacts belong at:
 
 That folder is gitignored because it contains personal information. Start from `newsletter/contacts.template.csv`.
 
-To prepare a private review list from a Follow Up Boss export:
+Historical reference — prior Follow Up Boss export preparation:
 
 ```bash
 python3 scripts/newsletter_desk.py fub prepare \
@@ -126,13 +132,18 @@ Live import is a separate, explicit action after Taylor reviews the report. The 
 
 Start from the template for the due product:
 
-- `newsletter/issues/market-update.template.md`
+- `newsletter/issues/leverage-list.template.md`
 - `newsletter/issues/investor-analysis.template.md`
+
+`newsletter/issues/market-update.template.md` is an archived predecessor
+reference. The Leverage List replaced it, and the builder rejects Temple Insider
+market-update dates on or after August 6, 2026 so Issue #1 cannot be recreated
+under its former label.
 
 Copy the template into the correct date, replace every placeholder, fill the frontmatter and body, then run:
 
 ```bash
-python3 scripts/newsletter_desk.py issue build newsletter/issues/market-update.template.md
+python3 scripts/newsletter_desk.py issue build newsletter/issues/leverage-list.template.md
 ```
 
 The default output is:
