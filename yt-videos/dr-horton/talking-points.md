@@ -1,68 +1,65 @@
 # D.R. Horton Temple TX Review — Talking Points
 
-Beat-by-beat cue sheet for a natural-delivery take. Same runtime (~9:45 base), same guardrails, same numbers as `script.md`. Verdict LOCKED **3 / 5**. Timestamps = planning bands; re-stamp at edit. Re-verify every ⚠️ number the morning of filming (`sources-rate-claim.md`).
+<!-- REGENERATED 2026-08-15 in sync with script.md (REFRESH-2026-08-15.md deltas + Taylor field take). Verdict LOCKED 3/5 — "buy the price, not the finishes." Re-verify every ⚠️ number the morning of filming (sources-rate-claim.md + REFRESH file). Lawsuit stays OUT (Taylor 07-24). -->
 
-**COLD OPEN (~0:00–0:15)** — no name, no credential; caveat rides in graphic G14a, not the voice
-- Clean contradiction: one Temple builder's sales offices = 4.9★ on Google; the same company sits near 1★ nationally; the **BBB's national profile** scores it **1.07**. "Same builder. Both real."
-- One scope line: "Different platforms, different samples — I'll show you exactly what each one does and doesn't prove." (keeps the hook clean; the name has NOT been said yet)
+Beat-by-beat cue sheet for a natural-delivery take. ~9:40–10:00 base runtime. Timestamps = planning bands.
 
-**IDENTITY + PROMISE (~0:15–0:30)** — name lands here (≥0:15), credentials wait
-- "I'm Taylor Dasch with EG Realty." Promise the three loops: where the split comes from, why the current offer carries a Sept 30 deadline, and the one closing-data number most buyers skip.
+**COLD OPEN (~0:00–0:15)** — no name, no credential; caveat rides in G14a
+- One Temple builder's sales offices = 4.9★ Google; same company ≈ 1★ national; BBB national profile ≈ 1.1. "Same builder. Both real."
+- One scope line: "Different platforms, different samples — I'll show you exactly what each one does and doesn't prove."
 
-**ENTITY (~0:30–0:48)** — *[G0 lower-third]*
-- Agent, EG Realty; 100+ closed transactions, Temple–Belton–Killeen; BiggerPockets Featured. "I don't work for D.R. Horton or any builder, and nobody paid for this." (NO dollar volume.)
+**IDENTITY + PROMISE (~0:15–0:30)**
+- "I'm Taylor Dasch with EG Realty." Three loops: where the split comes from · why the current offer **makes you pay for your own rate** · the one number in this summer's closing data most buyers skip.
+
+**ENTITY (~0:30–0:48)** — *[G0]*
+- Agent, EG Realty; 100+ closed transactions, Temple–Belton–Killeen; BiggerPockets Featured. "I don't work for D.R. Horton or any builder, and nobody paid for this." (NO dollar volume. Never claim DRH closings.)
 
 **QUICK ANSWER (~0:48–1:25)** — *[G19: 3/5 card]*
-- Numbers only, no "cheapest": July 13 CTXMLS lowest DRH record **$195,000**; Pecan Creek page advertised from **$198,435**.
-- Verdict: **three out of five. Buy D.R. Horton for the payment, not the product.** + disclosed-criteria line: "my opinion as a local agent — it weighs the financing, the public complaint record, and the roughly eighty-page purchase packet, not a lab test of the drywall, which is home by home."
-- Roadmap the chapters (the clock, July numbers, two ISD surprises, the review decode, five checks).
+- ⚠️ Aug 12 CTXMLS lowest DRH record **$195,000**; Pecan Creek page now **from $221,990** — up $20K+ since July (two sources, never merged).
+- Verdict: **3/5 — buy D.R. Horton for the price, not the finishes.** Criteria line: financing + public complaint record + what I see walking their homes + the ~80-page packet; "not a lab test of the drywall."
+- Roadmap: clock · summer numbers · two ISD surprises · review decode · five checks.
 
-**THE INCENTIVE CLOCK (~1:25–3:20)** — the video's ONE named device; *[G1–G6]*
-- Spring's 0.99% "3-2-1" teaser — checked DHI Temple pages 07-22, gone. "That's not a scandal — that's the pattern. Builder incentives churn. Learn the clock."
-- ⚠️ Current offer *[G2]*: **4.99% fixed 30-yr, FHA 5.843 APR / VA 5.413 APR, DHI Mortgage only**, contract on/after 6/12, **close by 9/30**, principal residence, may require points.
-- Why 9/30 *[G3 clock strip]*: last day to close and get the rate AND DHI's fiscal year-end. "I can't predict October's banner — nobody can. Read the printed deadline, not a forecast." (NO "best deals die" / NO recurring guarantee.)
-- ⚠️ Red Tag *[G4]*: Jul 10–Aug 2, per-home cuts, e.g. −$15,500 Pepper Creek Crossing. **"DHI's fine print says offers may not be combinable — confirm in writing, per home, whether the price cut and the 4.99 rate can be used together."** (FALLBACK block if filming after Aug 2.)
-- ⚠️ Is 4.99 good? *[G5]*: below Freddie Mac's 6.55 benchmark (week of 7/16) — but two caveats: that survey is conventional, this promo is FHA/VA; and a note rate alone doesn't settle total cost. FHA example: $317,990 price, 3.5% down → base ~$306,860, ~$312,230 after financed UFMIP → ~$1,674/mo P&I @4.99 vs ~$1,984 @6.55 ≈ $310/mo, ~$18,574/5yr (ILLUSTRATION, not a quote).
-- **SPEAK the all-in payment** *[G6]*: DHI's advertised total-payment examples — P&I + estimated taxes + insurance + MI/HOA where applicable — **~$2,808/mo FHA, ~$2,735/mo VA** (their figure; excludes utilities/upkeep). VA example = $324,827 loan, $0 down, includes financed VA funding fee (varies, waived for some). "Your real number comes off a Loan Estimate — get one from DHI and one outside the same day." (Captive-lender race → deferred to the Stylecraft video by name.)
+**THE INCENTIVE CLOCK (~1:25–3:25)** — the ONE named device; *[G1–G3, G2b, G6]*
+- ⚠️ The 2026 churn montage *[G1]*: 0.99% teaser (spring, gone) → 4.99% FHA/VA (June, gone) → Red Tag price event Jul 10–Aug 2 (e.g. −$15,500 Pepper Creek — closed) → checked 8/15: 4.99 gone too. "Not a scandal — the pattern. Learn the clock."
+- ⚠️ Current offer *[G2]*: **4.50% fixed 30-yr · FHA 5.491 APR / VA 4.922 APR · DHI Mortgage only · contract on/after 8/4 · close by 9/30 · principal residence · select homes · REQUIRED 3.125% discount point.**
+- **The new gem *[G2b]*: "You're BUYING the rate."** ~3.125% ≈ **$9,800** on a ~$312K balance, up front. Vs PMMS **6.67%** (wk of 8/13 ⚠️; conventional benchmark caveat): ≈ **$427/mo** delta → points **break even ~month 23**. "Keep the loan past two years, the math works hard for you. Sell or refi early, you paid for a rate you didn't use." (ILLUSTRATION, not a quote.)
+- Why 9/30 *[G3]*: DHI fiscal year end — three different 2026 offers, one printed date. "Read the deadline that's printed, not a forecast." (NO "best deals die" / no recurrence promise.)
+- `[FILM-DAY PULL]` *[G6]*: speak DHI's CURRENT advertised all-in payment example (their figure; excludes utilities/upkeep). "Your real number comes off a Loan Estimate — get one from DHI and one outside the same day." Captive-lender full teach → Stylecraft video by name.
 
-**JULY NUMBERS (~3:20–4:25)** — *[G7–G9]*
-- ⚠️ Source on screen: CTXMLS, pulled 7/13, Temple/Belton/Nolanville/Troy, **active + pending**, deemed reliable not guaranteed. 85 records, $195K–$477.9K. Three separate medians (not one house): $248,900 / 1,612 sqft / $158 sqft. DOM 21 — "I won't call that fast or slow without a comparison set."
-- Why so cheap *[G8]*: standardization; Express Series (Pepper Creek Crossing) = entry tier, pre-set plans/finishes, smaller footprints, volume. "A legitimate trade — as long as you know you're making it."
-- **The promised number** *[G9]*: prior 30 days, 27 closings, median $254,000 at 36 DOM; **median close −3.7% below original list ≈ $9,250 on $250K.** Caveat: CTXMLS data, can't show when the price moved or what incentives rode along. "List price has been a starting point, not a floor. Don't treat a red-tag sticker as the bottom."
+**THIS SUMMER'S NUMBERS (~3:25–4:35)** — *[G7–G9]*
+- ⚠️ Source on screen *[G7]*: CTXMLS 8/12, T/B/Nolanville/Troy. **69 active + 51 under contract = 120 records**, $195K–$467.9K. Three separate medians: **$261,887 / 1,638 sqft / $161 psf**. DOM 30. ">40% of their inventory has a buyer on it right now."
+- Why so cheap *[G8]* — **[OBSERVATION — Taylor, on site]**: "They order the materials for the whole community at once. All of it, up front. That's why they don't make changes — the cabinets were bought before you walked in. Granite countertops, but pretty basic ones. And look — for the price, it's a good product. You're trading customization and finish level for the lowest entry point in the county. Legitimate trade — as long as you know you're making it."
+- **The promised number *[G9]***: closed past 60 days: **42 homes · median $265,652 · DOM 30 · −1.6% vs original list — and in mid-July that stat was −3.7.** "The discount didn't disappear — it moved into the incentive stack." Caveats: different windows, different homes, CTXMLS not DRH's ledger. "Negotiate the incentive stack, not just the sticker."
 
-**COMMUNITY MAP + SCHOOLS + TAX (~4:25–6:10)** — *[G10–G13]*
-- ⚠️ Builder markets Temple + Belton; the MLS adds a third town, Nolanville. All active/pending; verify current.
-- Temple: Pecan Creek from $198,435 (22 active/pending) · Pepper Creek Crossing (Express, med $220K) · Oak Ridge ~$231K · **Mesa Ridge ~$290K, Final Opportunities** · Homestead ~$381K · The Terrace duplex ~$412K (6–8 bed across two units — multigenerational).
-- Belton: Hidden Trails ~$211K · **Three Creeks–Colt Creek ~$285K, 11 active/pending, Final Opportunities** · **Warrior's Legacy (Nolanville) — absent from DHI's Temple hub, on its separate Nolanville page; MLS shows 11 active/pending, $273K–$397K, med $340K.** Willow Glenn = sold out on builder page, MLS still shows 2 — verify each.
-- ISD surprises *[G11]*: Mesa Ridge + The Terrace = Temple address, **Belton ISD**; Homestead = **Academy ISD**. "The city on your mail doesn't decide your school district. Verify by exact address."
-- Schools *[G12]*: at Pecan Creek (Temple ISD), Zillow shows a listed sample address as Travis Science 5/10, Temple High 3/10 — third-party, they change, "not calling them good or bad for your family. Confirm your exact address with Temple ISD's locator." (⚠️ pull a real on-screen address at film time.)
-- ⚠️ Tax *[G13]*: Three Creeks = Bell County MUD #1, BellCAD **2025 rate 0.783%** ≈ $2,349/yr on a $300K appraised value, no exemptions applied — "one line in the full tax stack; pull the complete taxing-entity list for your parcel. Same builder, same signs, different tax bill."
+**COMMUNITY MAP + SCHOOLS + TAX (~4:35–6:20)** — *[G10, G10a, G10b, G11–G13]*
+- ⚠️ Temple: Pecan Creek (page from $221,990 / MLS 23 records from $197,515 — two sources) · Pepper Creek Crossing (Express, 16, med $226K) · Oak Ridge (3, ~$242K) · Lake Pointe (4) · Homestead (8, med $425K — Academy ISD, "hold that thought") · **Mesa Ridge: 2 left, Final Opportunities.**
+- **Mesa Ridge take *[G10b]* — [OBSERVATION — Taylor, on site]:** "surrounding homes run higher-end finishes — drop a basic-finish home in the middle of that street and it's the plainest house at every resale showing, forever. DRH is right *for the price* — in communities built around that price point. **Match the product to the street.**"
+- Belton: Hidden Trails (12, ~$230K) · Three Creeks–Colt Creek (7, from $268,785, Final Opportunities) · **Warrior's Legacy, Nolanville *[G10a]*: 20 records, $272,530–$396,660, med $307,598 — absent from the Temple hub; "their biggest footprint after Pecan Creek, on a page most Temple buyers never open."**
+- ISD surprises *[G11]*: Mesa Ridge = Temple address, **Belton ISD**; Homestead = **Academy ISD**. "The city on your mail doesn't decide your school district. Verify by exact address."
+- Schools *[G12]*: Pecan Creek (Temple ISD), Zillow for a listed sample address ⚠️: Travis Science 5/10, Temple High 3/10 — third-party, they change, "not grading them for your family — confirm with Temple ISD's locator."
+- Tax *[G13]*: Three Creeks = Bell County MUD #1, 2025 BellCAD **0.783%** ≈ **$2,349/yr on $300K** appraised, no exemptions applied — "one line in the full stack; pull the complete taxing-entity list. Same builder, same signs, different tax bill."
 - Mid-video soft CTA: "Want an agent on your side of the table on a builder contract? Number's in the description."
 
-**[INTERVIEW INSERT — IF DHI GUESTS CONFIRM]** — optional; runs here, NEVER intercut with the review record
-- *[G20 held: "Guests work for D.R. Horton / DHI Mortgage · They don't pay me; the review stands either way"]*
-- Process questions ONLY (pick 5 of 6): superintendent meet + buyer-inspector build-stage windows; Express vs standard design-stage choices + when they lock; **how a buyer identifies which homes qualify for the current event and where the written terms live**; what dates/milestones to track for a 9/30 close; DHI Mortgage pre-qual flow; how a warranty ticket routes (portal → RWC → local team).
-- Runtime: base ~9:50; insert cap 70–90s, cut ≥90s elsewhere for the interview cut, publish a SEPARATE timestamp map. With-interview cut runs ~11–12 min — do NOT claim under 11.
-- Rules: guests clear it with their manager in writing beforehand; questions shared in advance; may decline any; never validate rates on camera; edit must work with the insert removed.
-- (No-interview bridge: "That's the map. Now the part no sales office can answer for you — the review record.")
+**[INTERVIEW INSERT — optional]** — unchanged rules (process only, never intercut with review record, 70–90s cap, separate timestamp map, written manager clearance, edit works without it). Q3 says "the current event" — never name a promo.
 
-**THE REVIEW RECORD (~6:10–7:45)** — Taylor SOLO, always; *[G14/G15/G17]*
-- ⚠️ Every page live, pulled July 2026: Pecan Creek 4.9★ (76), Oak Ridge 4.9★ (44), Temple corporate 3.3★ (28); Yelp 1.2; ConsumerAffairs 1.62 (1,933); **BBB national profile — A+ grade next to a 1.07 review score, ~741 complaints.**
-- Decode *[G15]*: "Every one is real — and the answer isn't 'the truth's in the middle.' Different people, different stages, different samples — you can't average them." Local Google = sales offices (point of sale); national boards = whole company incl. post-move-in. Attribute the skew: **"BBB categorizes 654 of its 741 three-year complaints as service or repair issues — a national complaint mix, not normalized to closings, not a defect rate for the house in front of you."**
-- BBB two numbers: letter grade weighs complaint history/responsiveness/transparency, **excludes customer reviews**; 1.07 is the review average. "An A-plus and a 1.07 can appear at the same time because they measure different things by different methods."
+**THE REVIEW RECORD (~6:20–7:55)** — Taylor SOLO; *[G14, G15]* — ⚠️ re-pull ALL counts filming morning
+- Live pages: Pecan Creek 4.9★ · Oak Ridge 4.9★ · Temple corporate 3.3★ · Yelp ~1.2 · ConsumerAffairs ~1.6 (~2K reviews) · BBB national: **A+ grade, not accredited, ~1.1★, several hundred complaints/3 yrs.**
+- **First-person turn — [OBSERVATION — Taylor, on site]:** "The sales-office scores match what I see. Their reps are good — they know their inventory, they're responsive. That's exactly why the split exists."
+- Decode *[G15]*: different people/stages/samples, can't average. Local Google = point of sale (the part they're good at); national boards = whole company incl. post-move-in. "You buy at one stage; you live in the other."
+- BBB two-numbers: letter grade excludes customer reviews; complaint mix skews service/repair — "a national mix, not a defect rate for the house in front of you. A reason to run the checks, not a verdict on your home."
 
-**FIVE CHECKS (~7:45–9:00)** — *[G16, G18]* — DRH-compressed; full teaches live in the Stylecraft review
-1. Representation before registration (full warning in Stylecraft); DRH-specific: sample purchase packet past 80 pages, no resale-style option period as standard, signed contract controls, legal = TX attorney.
-2. Inspections at the phases you can get (pre-pour/pre-drywall/final if the build + contract allow, in writing); finished spec → final + check 3.
-3. Month-11 independent inspection before the 1-yr workmanship cliff (full breakdown in Stylecraft); DRH-specific: 1-2-10 via **RWC (third-party)** — "programs vary; confirm coverage/exclusions/deadlines in YOUR booklet and follow ITS submission procedure, in writing, with photos."
-4. Year-2 escrow question: ask the lender whether the LE tax figure reflects the finished home or the empty lot, and ask BellCAD how the finished house is assessed — "on new construction that jump catches people every year; budget for it, don't assume anyone adjusts it for you."
-5. Second opinion: take the 4.99 seriously AND price one outside lender the same day.
+**FIVE CHECKS (~7:55–9:10)** — *[G16, G18]*
+1. Representation before registration; ~80-page packet, no resale-style option period standard; contract controls; legal = TX attorney.
+2. Phase inspections if build + contract allow (pre-pour / pre-drywall / final), in writing; finished spec → final + check 3.
+3. Month-11 independent inspection before the 1-yr cliff; 1-2-10 via **RWC (third party)** — confirm YOUR booklet, follow ITS procedure, keep everything in writing.
+4. Year-2 escrow: "does the Loan Estimate tax figure reflect the finished home or the empty lot?" + ask BellCAD; budget for the reset.
+5. Second opinion: **"Take the 4.50 seriously — and make them show you, in writing, what the required points cost on YOUR loan."** Then price one outside lender the same day.
 
-**TAYLOR'S TAKE + CTA (~9:00–9:50)** — *[G19]*
-- "Three out of five. Buy D.R. Horton for the payment, not the product."
-- Persona CTA (buyer situations, not keywords): payment-first — first house, a Fort Hood family closing on a VA loan against a PCS clock, or relocating for a Baylor Scott & White role comparing payment-first new construction near Temple — "price this offer seriously before Sept 30; that's the deal's own printed deadline, not mine."
-- Craftsmanship / hands-off warranty? "The complaint record says slow down and run all five checks — then watch my Stylecraft review, the other builder at 4.99 right now."
-- Page: templetxhomes.net/dr-horton (linked). "Treat any incentive as stale until you re-check it. Moving to Temple? My number's in the description. I'm Taylor Dasch with EG Realty. Verify everything — including me."
+**TAYLOR'S TAKE + CTA (~9:10–10:00)** — *[G19]*
+- "Three out of five. **Buy D.R. Horton for the price, not the finishes.**"
+- Payment-first personas: first house · Fort Hood family on a VA loan against a PCS clock · BSW relocator comparing entry-level new construction — "price this offer before September 30th, and make them put the points cost next to the rate."
+- Who it ISN'T for: finishes, customization, **or a street where everything around you runs a tier higher.** Then: Stylecraft review — "the other builder running its own below-market program; recheck their current terms too."
+- Page: templetxhomes.net/dr-horton. "Verify everything — including me."
 
 ---
-**DESK-CUT OPTIONS** (see script.md): DC-1 hybrid (map beats on location, rest at desk) · DC-2 full desk cut · DC-3 desk + one Red Tag signage walk (skip after Aug 2).
+**DESK-CUT:** DC-1-lite recommended (desk + Pecan/Pepper entrance run + DHI branch exterior); DC-2 full-desk fallback. DC-3 dead (Red Tag signage gone). Drone file: pull from Google Drive shoot archive.

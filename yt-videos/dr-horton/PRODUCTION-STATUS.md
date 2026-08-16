@@ -1,14 +1,22 @@
 # D.R. Horton Temple Review — Production Status
 
-Last updated: July 26, 2026
+Last updated: August 15, 2026
 
 ## Current plan
 
-- Taylor plans to film the D.R. Horton review this week.
-- Review the existing Pecan Creek footage before planning any additional
-  neighborhood or drone B-roll.
+- **GO from Taylor 2026-08-15** — video #1 of the approved next-three slate
+  (then data-center impact ~9/1, Living in Harker Heights ~9/8).
+- **Film Tue 8/25 · publish ~Thu 8/27** (before the 9/07 YouTube conversion gate).
+- **READ `REFRESH-2026-08-15.md` FIRST** — the promo changed (4.99% → 4.50% w/
+  REQUIRED 3.125% points, contract on/after 08/04, still close-by 9/30), PMMS
+  moved to 6.67%, MLS re-stamped from the 8/12 status-aware pull (120 A+P), the
+  −3.7% closing stat is DEAD (now −1.6%/60d — editorial flag inside), Red Tag
+  fallback text is now the default, and the Stylecraft URL gate item is resolved.
+  Apply deltas in one regeneration pass per the package's no-piecemeal rule.
+- Drone file is no longer local — pull `DJI_20260726062937_0412_D.MP4` from the
+  Google Drive shoot archive before the edit. Local b-roll count on disk: 8 clips.
 - Re-pull every time-sensitive rate, incentive, inventory, and review-count
-  claim on filming day.
+  claim on filming day (script §3 RE-VERIFY block).
 
 ## Existing real footage
 

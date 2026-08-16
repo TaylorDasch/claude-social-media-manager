@@ -1,57 +1,54 @@
 # D.R. Horton Video — YouTube Description + Pinned Comment
 
-<!-- Source of truth: reason-run-260723-1705/r3-candidate-SHIP.md (council-converged R1 5-0, R2 3-2; Codex final gate applied; lawsuit passage removed 2026-07-24 per Taylor). Regenerate from VIDEO-PACKAGE.md; do not hand-edit in isolation. -->
+<!-- REGENERATED 2026-08-15 in sync with script.md — new promo (4.50% + required points), PMMS 6.67, CTXMLS 8/12, Red Tag past-tense, 08-07 conversion-audit standard (Second Opinion CTA, PDFs, TV line, UTM scheme). -->
 
-## PUBLISH-GATE — resolve every item below before publishing
-- **IABS URL (Taylor-fill):** paste your completed EG Realty TREC Information About Brokerage Services (IABS 1-2) form URL into the Description §7 disclaimer — replaces `[TAYLOR — paste your completed EG Realty IABS 1-2 URL]`.
-- **CPN URL (Taylor-fill):** paste the current TREC Consumer Protection Notice URL into the Description §7 disclaimer — replaces `[TAYLOR — paste current CPN URL]`.
-- **Stylecraft review URL (Taylor-fill):** paste your dated Stylecraft Homes review link into Description §4 Related — replaces `[TAYLOR — paste your dated Stylecraft Homes review URL]`; keep the "recheck its current terms" note.
-- **Pecan Creek sample address (production placeholder):** pull a live, real Pecan Creek listing address on screen for the school-zone beat (G12) — replaces `[TAYLOR — pull a live Pecan Creek listing address on screen]`; do not invent one.
-- **Morning-of re-verify (do not skip):** run the full RE-VERIFY block in §3 before filming — rates/prices, BBB rating + accreditation status + 1.07★/~264-review + ~741-complaint counts, and Stylecraft's current competing 4.99% terms.
-
-Channel: Living in Temple · Companion page: https://templetxhomes.net/dr-horton/ · Numbers verified 2026-07-22 (CTXMLS pull 07-13; review counts re-verified 07-23) unless stamped otherwise.
+## PUBLISH-GATE — resolve before publishing
+- IABS URL + CPN URL (Taylor-fill) in §7.
+- Append `&utm_content=<video-id>` to BOTH /dr-horton/ links after upload (id exists only then).
+- Update §3 key numbers to the morning-of re-verify results if anything moved.
+- After publish: post + Studio-PIN the pinned comment; Lofty convention for direct contacts = tag `youtube` + note `yt:<video-id>`; embed video + VideoObject on /dr-horton/ (and restamp the page's incentive module to the 4.50% promo in the same pass).
 
 ---
 
 ## 6. DESCRIPTION BLOCK
 
-**PUBLISH-GATE (delete this line before publishing):** resolve all Taylor-fills first — IABS URL and CPN URL in §7, the Stylecraft review URL in §4, and the on-screen Pecan Creek sample address in the §3 school-zone beat (G12); then run the §3 morning-of re-verify block.
+D.R. Horton is the lowest-priced entry into new construction in the Temple area — and its review pages show 4.9 stars and roughly 1 star at the same time, on different platforms measuring different things. Both are real. This is the full data review: the 4.50% FHA/VA promo and the required 3.125% discount point behind it, the September 30 fiscal-year deadline, the August 2026 CTXMLS numbers (69 active + 51 under contract), the community map with two school-district surprises, what each review score actually measures, and five checks before you sign an 80-page builder contract.
 
-**1) The short version**
-D.R. Horton is one of the lowest-priced entries into new construction in Temple, TX — and its review pages show 4.9 stars and near 1 star at the same time, on different platforms measuring different things. Both are real. This is the full data review: the 4.99% FHA/VA promo and the September-30 fiscal-year clock behind it, the all-in monthly payment DHI advertises, the July 2026 CTXMLS numbers, the community map with two school-district surprises, what each review score actually measures, and five checks before you sign.
-Full written breakdown (last-verified date printed on the page): https://templetxhomes.net/dr-horton/?utm_source=youtube&utm_medium=description&utm_campaign=dr-horton
+► Full written breakdown (last-verified date printed on the page): https://templetxhomes.net/dr-horton/?utm_source=youtube&utm_medium=description&utm_campaign=dr-horton
+► Already holding a builder worksheet? Free line-by-line second opinion before you sign — email a photo of it to dealswithdasch@gmail.com or text 254-718-4249
+► Free download — Temple/Belton Builder Scorecard: https://templetxhomes.net/wp-content/uploads/2026/06/05__temple-belton-builder-scorecard.pdf
+► Free download — New-Construction Pre-Visit Checklist (17 questions): https://templetxhomes.net/wp-content/uploads/2026/06/05__new-construction-previsit-checklist.pdf
+► Watching on a TV? Call or text me instead: 254-718-4249
 
-**2) Chapters**
-0:00 4.9 stars and 1.07 stars — both real
+**Chapters**
+0:00 4.9 stars and ~1 star — both real
 0:15 Taylor Dasch, EG Realty
-0:48 Verdict: 3/5 — payment, not product
-1:25 The Incentive Clock: 0.99% gone, 4.99% to 9/30
-3:20 July MLS numbers + the −3.7% stat
-4:25 Community map, ISD surprises, the MUD line
-6:10 The review record — what each number measures
-7:45 Five checks before you sign
-9:00 Who this fits — and who it doesn't
+0:48 Verdict: 3/5 — the price, not the finishes
+1:25 The Incentive Clock: three offers, one deadline
+2:10 The required 3.125% points — you're buying the rate
+3:25 August MLS numbers + the shrinking-discount stat
+4:35 Community map, ISD surprises, the MUD line
+6:20 The review record — what each number measures
+7:55 Five checks before you sign
+9:10 Who this fits — and who it doesn't
 *(If the interview insert is used, add its chapter after the community map and publish the separate with-interview timestamp map — that cut runs ~11–12 min.)*
 
-**3) Key numbers (July 2026 — verify current)**
-4.99% fixed 30-yr FHA (5.843% APR) / VA (5.413% APR) via DHI Mortgage, contract on/after 6/12/26, close by 9/30/26 · Freddie Mac PMMS 30-yr average 6.55% (week of 7/16/26; conventional benchmark — the $310/mo FHA and $322/mo VA figures are illustrative same-balance P&I differences, not loan quotes) · FHA example: $317,990 price, 3.5% down, base loan ~$306,860, ~$312,230 after financed UFMIP · DHI advertised total-payment examples (P&I + estimated taxes + homeowners insurance + mortgage insurance + any HOA, excluding utilities and upkeep): ~$2,808/mo FHA · ~$2,735/mo VA · Red Tag event ran Jul 10–Aug 2, 2026 (per-home price cuts; DHI fine print says offers may not be combinable with the rate promo — confirm in writing per home) · Source: Central Texas MLS (CTXMLS), pulled July 13, 2026; Temple/Belton/Nolanville/Troy; active + pending; deemed reliable, not guaranteed: 85 records, median $248,900 · closed 30-day median −3.7% vs original list · MLS adds Warrior's Legacy, Nolanville (absent from the builder's Temple hub, on its separate Nolanville page): 11 active/pending, $273K–$397K, median $340K · Three Creeks MUD #1: +0.783% ≈ $2,349/yr on a $300K appraised value with no exemptions applied (2025 BellCAD rate; one line in the full tax stack — verify the parcel's actual taxable value and exemptions) · BBB (national/corporate profile): A+ rating, not accredited, 1.07★ from ~264 customer reviews, ~741 complaints over 3 years — separate measures.
+**Key numbers (August 2026 — verify current)**
+4.50% fixed 30-yr FHA (5.491% APR) / VA (4.922% APR) via DHI Mortgage, REQUIRED 3.125% discount point, contract on/after 8/4/26, close by 9/30/26 (DHI's fiscal year end) · Freddie Mac PMMS 30-yr average 6.67% (week of 8/13/26; conventional benchmark — the ~$427/mo FHA and ~$444/mo VA figures are illustrative same-balance P&I differences, not loan quotes; the required points ≈ 3.125% of the loan, breaking even around month 23 on the illustration) · Earlier 2026 offers now expired: spring 0.99% "3-2-1" teaser; 4.99% FHA/VA (June–July); Red Tag price event Jul 10–Aug 2 · Source: Central Texas MLS (CTXMLS), pulled Aug 12, 2026; Temple/Belton/Nolanville/Troy; deemed reliable, not guaranteed: 69 active + 51 under contract = 120 records, $195,000–$467,900, medians $261,887 / 1,638 sqft / $161 per sqft, DOM 30 · Closed past 60 days: 42 homes, median $265,652, median close −1.6% vs original list (mid-July window ran −3.7%) · Warrior's Legacy, Nolanville (absent from the builder's Temple hub): 20 active/under-contract, $272K–$397K, median $307,598 · Three Creeks = Bell County MUD #1: +0.783% ≈ $2,349/yr on a $300K appraised value with no exemptions applied (2025 BellCAD rate; one line in the full tax stack) · Review pages re-pulled on filming day — BBB figures are from D.R. Horton's national/corporate profile and drift daily.
 
-**4) Related**
-The other Temple builder at 4.99% when I filmed it — my Stylecraft Homes review (recheck its current terms): [TAYLOR — paste your dated Stylecraft Homes review URL]
+**Related**
+My Stylecraft Homes review — the other Temple builder running its own below-market financing program (recheck its current terms): https://www.youtube.com/watch?v=acesZNhFiZM
 Full written D.R. Horton breakdown: https://templetxhomes.net/dr-horton/?utm_source=youtube&utm_medium=description&utm_campaign=dr-horton
 
-**5) Who I am**
+**Who I am**
 Taylor Dasch — agent with EG Realty in Temple, TX. 100+ closed transactions across the Temple–Belton–Killeen corridor. BiggerPockets Featured Agent. I don't work for D.R. Horton or any builder, and nobody paid for this review.
 
-**6) Work with me**
+**Work with me**
 Call/text: 254-718-4249 · dealswithdasch@gmail.com · templetxhomes.net
 
-**7) Disclaimer**
-Rates, prices, and incentives verified July 2026 from DHI Mortgage's published offer, Freddie Mac PMMS, and a 7/13/26 CTXMLS pull; builder promos change without notice — verify everything before relying on it. DHI's total-payment examples (~$2,808/mo FHA, ~$2,735/mo VA) are the builder's own advertised figures — principal, interest, estimated taxes, homeowners insurance, mortgage insurance, and any HOA where applicable, excluding utilities and upkeep — not quotes. The Red Tag event and the 4.99% rate promo may not be combinable; confirm in writing for the specific home. I'm a real estate agent, not a lender; rate comparisons are illustrations, not quotes — compare actual Loan Estimates. School ratings shown are third-party (Zillow) and change; confirm zoning by exact address with Temple ISD. MUD figure uses BellCAD's 2025 adopted rate on a $300K appraised value with no exemptions applied — verify the parcel. BBB figures are from D.R. Horton's national/corporate profile (not accredited; 1.07★ from ~264 reviews; ~741 complaints over 3 years) and drift daily. MLS data deemed reliable, not guaranteed.
-Texas Real Estate Commission Information About Brokerage Services: [TAYLOR — paste your completed EG Realty IABS 1-2 URL] · Texas Real Estate Commission Consumer Protection Notice: [TAYLOR — paste current CPN URL]
+**Disclaimer**
+Rates, prices, and incentives verified August 2026 from DHI Mortgage's published offer, Freddie Mac PMMS, and an 8/12/26 CTXMLS pull; builder promos change without notice — verify everything before relying on it. The advertised rate requires financing through DHI Mortgage and payment of a 3.125% discount point; offers may not be combinable — confirm in writing for the specific home. I'm a real estate agent, not a lender; rate comparisons are illustrations, not quotes — compare actual Loan Estimates. On-site finish and materials observations are my professional opinion from walking these homes, not a lab test; conditions vary home to home — get an independent inspection. School ratings shown are third-party (Zillow) and change; confirm zoning by exact address with Temple ISD. MUD figure uses BellCAD's 2025 adopted rate on a $300K appraised value with no exemptions applied — verify the parcel. BBB figures are from D.R. Horton's national/corporate profile and drift daily. MLS data deemed reliable, not guaranteed.
+Texas Real Estate Commission Information About Brokerage Services: [TAYLOR — IABS URL] · Texas Real Estate Commission Consumer Protection Notice: [TAYLOR — CPN URL]
 
 **Pinned comment:**
-4.9 stars and 1.07 stars at the same time — different platforms, measuring different things, and now you know which is which. The full write-up — community table, school zones, all five checks — is here, with its last-verified date printed on the page: https://templetxhomes.net/dr-horton/?utm_source=youtube&utm_medium=description&utm_campaign=dr-horton — Question: which Temple builder should go under the same microscope next?
-
----
-
+4.9 stars and ~1 star at the same time — different platforms, measuring different things, and now you know which is which. The full write-up — community table, school zones, the points math, all five checks — is here, with its last-verified date printed on the page: https://templetxhomes.net/dr-horton/?utm_source=youtube&utm_medium=description&utm_campaign=dr-horton — Question: which Temple builder should go under the same microscope next?
