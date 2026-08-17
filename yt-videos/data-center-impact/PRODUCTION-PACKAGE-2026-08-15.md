@@ -5,7 +5,7 @@
 
 **1-1-1:** One viewer — a Temple-area buyer or current owner near a growth corridor who keeps hearing "$3 billion" from one side and "water and traffic" from the other. One decision — whether the boom should change where, when, or whether they buy (or how an owner thinks about their hold). One proof mechanism — the parcel-level project ledger from public record + Taylor's own 16-year, 31,000-listing MLS dataset showing what actually happened to prices since Meta was announced.
 
-**⚠️ OPEN GATE — Taylor's one pre-film question (per feedback_pre_video_taylor_take_question), asked 08-15 in chat:** *"You drive Bob White Rd and the Industrial/Eberhardt corridor all the time — what are you actually seeing on the ground that neither the city's press releases nor the protest flyers show?"* His answer gets woven as [OBSERVATION — Taylor, on site] before the script locks; if it doesn't change the video, film as planned.
+**✅ GATE ANSWERED (Taylor, 08-16):** he *hardly ever drives that road* — no on-the-ground take exists yet; he sees constant Facebook protest posts; he *personally likes* that the projects are happening but "isn't sure exactly what it means"; he asked for an aerial overview of what a data center does + its city effects (delivered in chat 08-16 — his fluency source for filming). **Script implications applied:** (1) NO implied site familiarity anywhere — the 9/1 drone run is framed as his honest FIRST visit, and a genuine first-reaction A-roll beat on Bob White Rd is now IN the shot list (that beat IS the [OBSERVATION — Taylor, on site]); (2) the Facebook-feed line grounds the cold-open relatability; (3) a new CH 0 explainer ("what one of these buildings actually is") was added — if a 100+ transaction local agent can't articulate it, neither can viewers; (4) an OPTIONAL personal-disclosure line sits in the Take (like-the-tax-math framing, empathy for corridor residents, cut-if-uncomfortable). Runtime moves to ~11:00.
 
 ---
 
@@ -64,7 +64,7 @@ As I record this, there's a $1.2 billion data center running on the east side of
 
 ### IDENTITY + PROMISE — 0:15–0:32
 
-I'm Taylor Dasch with EG Realty. I'm not here to sell you the boom and I'm not here to protest it. By the end you'll know exactly what's been approved and where it actually sits, what sixteen years of MLS data says happened to Temple home prices since Meta showed up — the number surprised me — and the one question I'd make any buyer answer before buying near a growth corridor.
+I'm Taylor Dasch with EG Realty. If your feed looks like mine, you've seen the protest posts — and if you're honest, like I had to be, you couldn't explain what one of these buildings actually does. So this video earns it: what a data center is, exactly what's been approved and where it sits, what sixteen years of MLS data says happened to Temple home prices since Meta showed up — the number surprised me — and the one question I'd make any buyer answer before buying near a growth corridor.
 
 ### ENTITY — 0:32–0:48
 
@@ -72,7 +72,18 @@ I'm Taylor Dasch with EG Realty. I'm not here to sell you the boom and I'm not h
 
 Credentials: agent with EG Realty, a hundred-plus closed transactions in this corridor, BiggerPockets Featured Agent. Nobody involved in any of these projects paid for this video — I don't think most of them know it exists.
 
-### CH 1 — WHAT'S ACTUALLY BEEN APPROVED — 0:48–3:00 *(the ledger)*
+### CH 0 — WHAT ONE OF THESE BUILDINGS ACTUALLY IS — 0:48–1:50 *(the explainer nobody local has done; Taylor's own question, answered)*
+
+*[B-ROLL: drone slow orbit of the Meta campus from public vantage; cutaway graphic]*
+*[GRAPHIC D1a: simple cutaway card — "Server halls (the computers) · Cooling plant · Substation + backup generators · Fiber routes · Security perimeter — that's the whole building"]*
+
+Alright, so before the dollar figures — what IS this thing? Because I'll be honest, I had to sit down and actually learn it. A data center is a warehouse for computers. Thousands of servers, running twenty-four seven. Every time you scroll Facebook, stream a show, or ask an AI a question, the computing doesn't happen in your phone — it happens in a building like this one. Inside there's really just five things: the server halls, the cooling system that keeps them from overheating, a power substation with backup generators, fiber lines to the internet backbone, and a fence.
+
+*[GRAPHIC D1b: "Two models in Temple — META: owns it, runs its own apps & AI on it · ROWAN: develops the building + power, a tenant operates it · What they consume: electricity (a lot), water (design-dependent), land · What they produce: computing, heat, tax value — and very few permanent jobs"]*
+
+Temple has two flavors. Meta's campus is theirs — their servers, running their apps and their AI models; that's why it's called AI-optimized. The Rowan projects are built by a developer who puts up the building and the power, then leases it to a tenant. What these buildings consume is electricity — serious amounts, and I'll put real numbers on that — plus water, which depends entirely on the cooling design, and land. What they produce: computing you never see, heat, an enormous taxable asset sitting on the county rolls… and very few permanent jobs. Hold onto that last pair — taxes high, jobs low — because it explains almost every argument this town is having.
+
+### CH 1 — WHAT'S ACTUALLY BEEN APPROVED — 1:50–3:55 *(the ledger)*
 
 *[GRAPHIC D2: project ledger cards, one per project, each with $ · acres · location · status · source]*
 
@@ -93,7 +104,7 @@ Now listen — the jobs number, because both sides misuse it. At peak constructi
 *[B-ROLL: drone + windshield — Bob White Rd, Industrial/Eberhardt corridor, FM 3117]*
 *[GRAPHIC D4: impact-zone map — direct corridors highlighted, geographic labels only]*
 
-So where is all this, actually? Because "Temple's getting data centers" makes it sound like they're building one downtown. They're not. Meta sits on the industrial east side off Industrial Boulevard. The Rowan projects run along Bob White Road on the south side and out toward FM 3117. `[FILM-DAY: confirm each site's roadway description on the current map]` These are edge-of-town industrial corridors — which is exactly why the fight is really about the handful of streets that used to be the edge of town and aren't anymore.
+So where is all this, actually? And I'll tell you something straight — until I went out and flew these sites for this video, I hadn't really stood on Bob White Road either. Like most of Temple, I knew this fight from my Facebook feed. `[9/1 SHOOT: capture the genuine first-visit reaction on location — whatever he actually notices standing there goes here as [OBSERVATION — Taylor, on site]; scale, quiet, distance-to-rooftops, whatever's true]` Because "Temple's getting data centers" makes it sound like they're building one downtown. They're not. Meta sits on the industrial east side off Industrial Boulevard. The Rowan projects run along Bob White Road on the south side and out toward FM 3117. `[FILM-DAY: confirm each site's roadway description on the current map]` These are edge-of-town industrial corridors — which is exactly why the fight is really about the handful of streets that used to be the edge of town and aren't anymore.
 
 Here's how I'd think about it as a buyer, in three rings. The direct zone — properties on or adjacent to these corridors — lives with the construction: the trucks, the noise, the changed horizon. That's measured in years, not months. The second ring is the commute shed — neighborhoods that feel the traffic at specific hours and otherwise notice nothing. And the third ring is the rest of the city, where this shows up exactly one place: the tax base and the infrastructure it pays for. Most of Temple is in ring three and doesn't know it.
 
@@ -139,7 +150,9 @@ One more, for owners near the sites: you don't have to guess what this did to yo
 
 *[GRAPHIC D10: verdict card — "A tax-base story, a rental story, a corridor story — not (yet) a price story" · "templetxhomes.net/data-center-impact — link below"]*
 
-So here's how I sum it up. Three billion dollars is real. The construction jobs are real, the water design is genuinely different, the abatement debate is genuinely fair, and none of it — so far — shows up in the one line everyone claims it moves: home prices. It's a tax-base story, a rental-demand story, and a corridor story. If somebody's using it to rush your purchase, that's the tell.
+So here's how I sum it up. Three billion dollars is real. The construction jobs are real, the water design is genuinely different, the abatement debate is genuinely fair, and none of it — so far — shows up in the one line everyone claims it moves: home prices.
+
+`[TAYLOR OPTION — personal disclosure; cut at film if uncomfortable]:` And where do I land, personally? I like the tax math — a building that pays like a subdivision and never enrolls a kid or calls a cop is a good deal for a city's books. But I don't live on Bob White Road. If I did, I'd probably feel different — and that's exactly why I built this video to separate the data from the takes, including mine. It's a tax-base story, a rental-demand story, and a corridor story. If somebody's using it to rush your purchase, that's the tell.
 
 Everything in this video — the project ledger, the map, the price history, my sources with dates — lives on one page, and it stays updated as the hearings land: templetxhomes.net slash data-center-impact, linked below. On that page there's also my Temple growth-corridor cheat sheet — the neighborhoods closest to all this, price bands, and commute realities — free download. Buying near any of this and want the address-level version for a specific house? My number's in the description. I'm Taylor Dasch with EG Realty. Verify everything — including me.
 
@@ -148,7 +161,8 @@ Everything in this video — the project ledger, the map, the price history, my 
 ## 3. TALKING-POINTS VERSION (cue sheet)
 
 - **COLD OPEN:** $1.2B live · 3 more approved · #4 in hearings · recall effort live. "Both sides' flyers are useless to you." *(no name until 0:15)*
-- **PROMISE:** the real list + the 16-yr price line ("the number surprised me") + the one corridor question.
+- **PROMISE:** "If your feed looks like mine, you've seen the protest posts — and if you're honest, you couldn't explain what one of these buildings does." → what it is + the real list + the 16-yr price line ("the number surprised me") + the one corridor question.
+- **CH 0 — WHAT IT IS (~0:48–1:50):** "a warehouse for computers" — scroll/stream/AI happens in buildings like this, not your phone. Five things inside: server halls · cooling · substation + backup generators · fiber · a fence. Two Temple models: **Meta owns-and-runs (AI-optimized = built for its own AI)** vs **Rowan develops, tenant operates.** Consumes: electricity (a lot), water (design-dependent), land. Produces: computing, heat, **taxable value — and very few permanent jobs.** "Taxes high, jobs low — that pair explains almost every argument this town is having."
 - **LEDGER:** Meta $1.2B/live 7/22/386ac/760K sqft/first AI-optimized in US/pause-and-redesign story · Rowan $700M Bob White + 3 approved + #4 in hearings `[date]` + $2.1B pipeline · Oppidan $80M · Longhorn '23 · ">$3B, town of ~100K." **Jobs truth: 1,200 peak construction vs <100 permanent.** "A construction event and a tax-base event — not a Baylor Scott & White."
 - **MAP:** east industrial (Meta) · south Bob White/3117 (Rowan) · three rings: direct corridor (years of construction) / commute shed (hours of traffic) / everyone else (tax base). "Most of Temple is in ring three and doesn't know it."
 - **RECEIPTS:** 2019 $176K → 2022 **$290K peak (announcement year)** → 2026 ~$268K = **−7.5% through the whole build.** Caveats OUT LOUD: rates spiked 2022, median mix shifts, can't attribute either direction. "Ask them why $3B didn't move the line for four years." Rentals = the real channel (1,200 workers; my own furnished rental = how I watch it).
@@ -176,7 +190,7 @@ Everything in this video — the project ledger, the map, the price history, my 
 ## 6. SHOT LIST / DRONE PLAN (one run, ~2 hrs, Tue 9/1 morning)
 
 1. **Meta campus** — public-road vantage off Industrial Blvd/Eberhardt: drone wide establisher + slow lateral; ground-level gate/signage from public right-of-way. **Do NOT overfly the facility** — stay over public land, standard Part 107/recreational rules; check for any temporary flight restrictions; no close-ups of security infrastructure.
-2. **Bob White Rd (Rowan Project Temple)** — drone wide of the acreage/earthwork state as-found; windshield drive of the corridor; the "used to be the edge of town" framing shot toward the nearest rooftops (geographic framing only).
+2. **Bob White Rd (Rowan Project Temple)** — drone wide of the acreage/earthwork state as-found; windshield drive of the corridor; the "used to be the edge of town" framing shot toward the nearest rooftops (geographic framing only). **PLUS: the first-visit reaction beat — Taylor on camera, on location, saying what he actually notices standing there for the first time (unscripted, 30–60s of takes; the honest line becomes the map chapter's [OBSERVATION]).** This is his first real visit to the site — do not fake familiarity; the honesty IS the beat.
 3. **FM 3117 corridor** — one establisher.
 4. **Screen records:** city data-center FAQ page · rowantemple.com projects/FAQ · a news headline montage (fair-use snippets, on-screen source tags) · the D5 price-chart animation.
 5. **Desk A-roll** — everything else. Reuse existing Temple aerials (Mesa Ridge/MasterPlannedAerial library) for ring-three b-roll.
