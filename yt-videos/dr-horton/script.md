@@ -1,6 +1,6 @@
 # D.R. Horton Temple TX Review — Full Script (Living in Temple)
 
-<!-- REGENERATED 2026-08-15: applies REFRESH-2026-08-15.md deltas (new 4.50%+points promo · PMMS 6.67 · CTXMLS 8/12 re-stamp w/ status split · Red Tag past-tense) + Taylor field take (bulk-ordering mechanism, Mesa Ridge fit warning, sales-rep corroboration, verdict rephrase). Council lineage: reason-run-260723-1705/r3-candidate-SHIP.md (R1 5-0, R2 3-2; Codex gate; lawsuit REMOVED 2026-07-24 per Taylor — never re-add). 07-24 numbers in VIDEO-PACKAGE.md are historical. -->
+
 
 ## PUBLISH-GATE — resolve every item below before publishing
 - **IABS URL (Taylor-fill):** paste your completed EG Realty TREC IABS 1-2 form URL into Description §7 — replaces `[TAYLOR — IABS URL]`.
@@ -10,7 +10,6 @@
 - **DHI current advertised total-payment example (production):** pull DHI's CURRENT example figures the morning of filming for the payment beat marked `[FILM-DAY PULL]` — the old $2,808/$2,735 examples belonged to the dead 4.99% promo.
 - **Morning-of re-verify (do not skip):** run the RE-VERIFY block below.
 
-Channel: Living in Temple · Companion page: https://templetxhomes.net/dr-horton/ · Numbers verified 2026-08-15 (CTXMLS pull 08-12; DHI promo + PMMS live-checked 08-15) unless stamped otherwise.
 
 ---
 
@@ -80,7 +79,6 @@ And why does every one of these expire September 30th? Because that's the last d
 
 ### WHAT THE HOMES ACTUALLY COST — THIS SUMMER'S NUMBERS — 3:25–4:35 *(maps to page section: MLS data / "why so cheap")*
 
-*[B-ROLL: screen record — MLS grid scrolling]*
 *[GRAPHIC G7: "Source: Central Texas MLS (CTXMLS), pulled 8/12/26 · Temple/Belton/Nolanville/Troy · D.R. Horton · 69 active + 51 under contract = 120 records · $195,000–$467,900 · medians: $261,887 price / 1,638 sqft / $161 per sqft (separate medians) · DOM 30 · deemed reliable, not guaranteed"]*
 
 Now the houses. Source on screen: the Central Texas MLS, pulled August 12th. Sixty-nine active D.R. Horton listings, and another fifty-one already under contract — a hundred twenty records total, $195,000 to $467,900. Three separate medians — not one house: $261,887 price, 1,638 square feet, $161 a square foot. Median days on market, thirty. And that under-contract count matters: more than forty percent of their inventory here has a buyer on it right now.
@@ -95,7 +93,6 @@ Now — the number I promised at the top. Over the past sixty days, forty-two D.
 
 ### THE COMMUNITY MAP, SCHOOLS, AND ONE TAX LINE — 4:35–6:20 *(maps to page section: communities table + ISD/MUD callouts)*
 
-*[B-ROLL: windshield drive-throughs — Pecan Creek + Pepper Creek entrance signs; library drone for the rest]*
 *[GRAPHIC G10: community card series — name, price, active/under-contract count, ISD — each stamped "Aug 2026 — verify current"; Blackland Ranch + North Creek as "coming soon" cards]*
 
 Where are they building? The builder's hub markets Temple and Belton — and the MLS adds a third town, Nolanville. August entries; verify current.
@@ -171,8 +168,6 @@ Five: the second opinion. Take the 4.50 seriously — and make them show you, in
 
 So: three out of five. Buy D.R. Horton for the price, not the finishes. If your decision is payment-first — buying your first house, a Fort Hood family closing on a VA loan against a PCS clock, or relocating for a Baylor Scott & White role and comparing entry-level new construction near Temple — price this offer seriously before September 30th, and make them put the points cost next to the rate. That's the deal's own printed deadline, not mine. Buying for finishes, for customization, or into a street where everything around you runs a tier higher? That's exactly who this ISN'T for — run all five checks, then watch my Stylecraft review, the other builder running its own below-market program right now; recheck their current terms too. The full write-up's at templetxhomes.net slash dr-horton, linked below. Moving to Temple? My number's in the description. I'm Taylor Dasch with EG Realty. Verify everything — including me.
 
-*(Spoken word count ≈ 1,930 — top of the 1,550–1,950 band; base runtime ~9:40 at ~200 wpm / ~10:10 at 190. If trimming is needed at edit: compress the Oak Ridge/Lake Pointe community lines and the second BBB paragraph. Lawsuit passage stays OUT per Taylor 07-24.)*
-
 ---
 
 ## 4. RETENTION MAP *(updated 08-15)*
@@ -188,5 +183,3 @@ So: three out of five. Buy D.R. Horton for the price, not the finishes. If your 
 **Payment audio payoff (~3:15):** DHI's current advertised all-in figure `[FILM-DAY PULL]` lands at the end of the money chapter as the audio reward.
 
 Pattern interrupts: 1:30 screen-record (promo churn montage on DHI's own page); **2:20 the required-points fine-print zoom (replaces the dead Red Tag signage beat)**; 2:45 breakeven counter animation; 3:30 MLS grid scroll; 4:40 windshield entrance run; ~5:15 the Mesa Ridge on-site take (voice-register change — his observation, not data); ~5:35 Warrior's-Legacy reveal; ~6:15 mid-video soft-CTA; 6:20 live review pages; 7:10 "their reps are good" first-person turn; 9:15 verdict card.
-
-7-second-rule risk zones: (a) community run 4:35–6:20 — one card per community, cut on every name, Mesa Ridge take + Warrior's Legacy as mid-list turns; (b) points math 2:10–3:00 — animated counters + branch b-roll + breakeven payoff; (c) checklist — numbered cards + prop change per check.
