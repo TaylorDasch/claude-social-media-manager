@@ -1,5 +1,7 @@
 # Living in Harker Heights TX (2026) · Production Package (Fable, 2026-08-15)
 
+> ⚠️ **SUPERSEDED 2026-08-19 by `HARKER-HEIGHTS-BIBLE.md` (same folder)** — solo Fable room run: two data corrections (Killeen premium is +$72K not +$35–40K; "same money buys 2020 in Killeen" was false), tax/commute/school holes filled and verified, natural-delivery edition added. Use the bible; keep this file for history only.
+
 **Video #3 of the approved slate.** Channel: Living in Temple · **Half-day town shoot + film Tue 9/8 · publish ~Thu 9/10.** No companion page exists yet — flywheel follow-up flagged (build /living-in-harker-heights-tx/ page when the sprint allows; video CTA routes to /vip-home-search/ meanwhile).
 **Fresh-session prompt (if ever needed):** "Open `~/claude-social-media-manager/yt-videos/living-in-harker-heights-tx/PRODUCTION-PACKAGE-2026-08-15.md`, ask Taylor the pre-film question, run film-day re-verify, and finalize for filming."
 

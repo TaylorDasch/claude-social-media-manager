@@ -1,11 +1,17 @@
 # D.R. Horton Temple Review — Production Status
 
-Last updated: August 15, 2026
+Last updated: August 19, 2026
 
 ## Current plan
 
 - **GO from Taylor 2026-08-15** — video #1 of the approved next-three slate
   (then data-center impact ~9/1, Living in Harker Heights ~9/8).
+- **HOOK DECIDED 2026-08-19: Hook D — the Demand Paradox** (near-1★ national
+  pages vs 51-of-120 under contract) — swapped into script.md: cold open,
+  promise line, G14a two-chip spec, ~4:15 "fifty-one" callback, retention-map
+  L1, and RE-VERIFY item 8 (cold-open counts must be film-day numbers).
+  Alternates D–G documented in `hooks-titles-outline.md` §3; old A/B/C kept
+  for record, B/C flagged dead-numbers.
 - **Film Tue 8/25 · publish ~Thu 8/27** (before the 9/07 YouTube conversion gate).
 - **READ `REFRESH-2026-08-15.md` FIRST** — the promo changed (4.99% → 4.50% w/
   REQUIRED 3.125% points, contract on/after 08/04, still close-by 9/30), PMMS

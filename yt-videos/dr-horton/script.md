@@ -23,22 +23,25 @@
 > 5. Stylecraft's competing financing terms — re-check before the Take's cross-reference line; the linked review cites its own filming-date terms.
 > 6. Filming after 09/30/26 → STOP. The offer block is dead; re-pull the current promo and rebuild the Incentive Clock chapter first.
 > 7. Lower-third stamps: rate/price cards carry "August 2026 — verify current"; DHI payment examples carry "DHI advertised examples — verify current"; MUD card carries "2025 rate (BellCAD)"; MLS cards carry "CTXMLS 8/12/26 · deemed reliable, not guaranteed."
+> 8. **Cold-open MLS counts (Hook D):** the hook says "as I record this / same week" — so the spoken counts and G14a chip 2 MUST be film-day numbers. Re-pull D.R. Horton active + under-contract totals from the newest status-aware CSV (8/12 baseline: 69 active + 51 under contract = 120; scope Temple/Belton/Nolanville/Troy), update the spoken line, G14a, the G7 card, and the ~4:15 "fifty-one" callback from the SAME pull.
 
 > **DESK-CUT OPTIONS (pick one):**
 > - **DC-1-lite (recommended):** desk for everything + one short windshield run — Pecan Creek and Pepper Creek Crossing entrance signs + DHI Mortgage branch exterior (212 Paloma Dr.) — all within ~10 min of home. Library drone (pull `DJI_20260726062937_0412_D.MP4` from the Drive shoot archive) covers the rest.
 > - **DC-2 (fallback, lowest logistics):** full desk cut — screen-record the DHI promo page, the MLS grid, and each live review page; cover with the Pecan Creek b-roll + drone.
 > *(DC-3 is dead — Red Tag signage came down after Aug 2.)*
 
-### COLD OPEN — 0:00–0:15 *(no logo, no name, no credential; evergreen-proofed; BBB chip on screen inside 0:15)*
+### COLD OPEN — 0:00–0:16 *(HOOK D — Demand Paradox, Taylor pick 08-19; no logo, no name, no credential; evergreen-proofed via "as I record this"; both chips on screen inside 0:15)*
 
 *[B-ROLL: slow push on a D.R. Horton spec-home elevation, morning light — Pecan Creek b-roll clip 1]*
-*[GRAPHIC G14a: three chips from 0:00 — "Google (Temple sales offices): 4.9★" / "National review pages: ~1★" / "BBB (national/corporate profile): A+ · not accredited · ~1.1★" — footer: "different platforms · different samples · different populations · re-pulled filming day"]*
+*[GRAPHIC G14a: two chips from 0:00 — chip 1: "National review pages: ~1★ · BBB (national/corporate): A+ · not accredited · ~1.1★" — footer: "different platforms · different samples · re-pulled filming day" · chip 2: "CTXMLS: 120 D.R. Horton listings, Temple–Belton–Nolanville–Troy · 51 under contract" — footer: "film-day re-pull · deemed reliable, not guaranteed"]*
 
-As I record this, one Temple builder's sales offices hold a 4.9 on Google. The same company sits near one star on its national pages — and the Better Business Bureau's national profile scores it around one-point-one. Same builder. Both real. Different platforms, different samples — I'll show you exactly what each one does and doesn't prove.
+As I record this, D.R. Horton's national review pages sit near one star. Same week, on the Central Texas MLS: a hundred twenty of their homes listed around Temple — and fifty-one already have a buyer under contract. So either every one of those buyers is making a mistake — or those one-star pages aren't telling you what you think they are.
+
+*(Prior cold open — the 4.9-vs-1.1 review split — retired to hooks-titles-outline.md §2 Option A, 08-19. The 4.9 local score now first lands at 6:20 in the review record, where it plays as a fresh mini-reveal.)*
 
 ### IDENTITY + PROMISE — 0:15–0:30 *(name lands ~0:15–0:17; credentials wait)*
 
-I'm Taylor Dasch with EG Realty. By the end you'll know where that split comes from, why the current offer makes you pay for your own interest rate, and the one number in this summer's closing data most buyers skip right past.
+I'm Taylor Dasch with EG Realty. By the end you'll know which it is, why the current offer makes you pay for your own interest rate, and the one number in this summer's closing data most buyers skip right past.
 
 ### ENTITY — 0:30–0:48
 
@@ -81,7 +84,7 @@ And why does every one of these expire September 30th? Because that's the last d
 
 *[GRAPHIC G7: "Source: Central Texas MLS (CTXMLS), pulled 8/12/26 · Temple/Belton/Nolanville/Troy · D.R. Horton · 69 active + 51 under contract = 120 records · $195,000–$467,900 · medians: $261,887 price / 1,638 sqft / $161 per sqft (separate medians) · DOM 30 · deemed reliable, not guaranteed"]*
 
-Now the houses. Source on screen: the Central Texas MLS, pulled August 12th. Sixty-nine active D.R. Horton listings, and another fifty-one already under contract — a hundred twenty records total, $195,000 to $467,900. Three separate medians — not one house: $261,887 price, 1,638 square feet, $161 a square foot. Median days on market, thirty. And that under-contract count matters: more than forty percent of their inventory here has a buyer on it right now.
+Now the houses. Source on screen: the Central Texas MLS, pulled August 12th. Sixty-nine active D.R. Horton listings, and another fifty-one already under contract — a hundred twenty records total, $195,000 to $467,900. Three separate medians — not one house: $261,887 price, 1,638 square feet, $161 a square foot. Median days on market, thirty. And there's the fifty-one from the top of this video — more than forty percent of their inventory here has a buyer on it right now.
 
 *[GRAPHIC G8: "Why the price is low — [OBSERVATION — Taylor, on site]: materials for the whole community ordered at once · no changes, period · pre-set plans & finishes · granite, but basic · Express Series = entry tier"]*
 
@@ -174,7 +177,7 @@ So: three out of five. Buy D.R. Horton for the price, not the finishes. If your 
 
 | Loop / device | Planted | Paid |
 |---|---|---|
-| L1 — "4.9 and ~1.1 at once — where's the split from?" | 0:00 cold open | 6:30–7:05 decode (G15), now reinforced by Taylor's own sales-rep corroboration |
+| L1 — "near-1★ national pages vs 51 buyers under contract — who's wrong?" | 0:00 cold open (Hook D) | ~4:15 demand callback (G9 beat) + 6:20 local-4.9★ mini-reveal + 6:30–7:05 decode (G15), reinforced by Taylor's sales-rep corroboration |
 | L2 — "one number in this summer's closing data most buyers skip" | 0:20 promise line | ~4:15 — the −1.6%-was-−3.7% drift reveal ("the number I promised at the top") |
 | L3 — "the current offer makes you pay for your own rate" | 0:22 promise line | 2:10–2:50 required-points beat + breakeven math; re-armed 9:15 (make them show the points cost) |
 | L4 — "two school-district surprises" | 1:20 quick-answer roadmap | 5:45 Belton/Academy ISD reveal |
