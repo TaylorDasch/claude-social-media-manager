@@ -1,0 +1,716 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-08-23T22:52:00Z",
+  "source": "Google Search Console Search Analytics connector",
+  "property": "sc-domain:templetxhomes.net",
+  "startDate": "2026-05-22",
+  "endDate": "2026-08-21",
+  "dimensions": [
+    "page"
+  ],
+  "rowLimit": 100,
+  "rowCount": 100,
+  "note": "Standard web Search Analytics export. The separate beta Generative AI figures in the companion report were transcribed from the authenticated GSC UI because they are not exposed by this connector/API.",
+  "rows": [
+    {
+      "page": "https://templetxhomes.net/data-center-impact/",
+      "clicks": 189,
+      "impressions": 14004,
+      "ctr": 0.013496143958868894,
+      "position": 7.1881605255641245
+    },
+    {
+      "page": "https://templetxhomes.net/three-creeks-neighborhood/",
+      "clicks": 52,
+      "impressions": 1915,
+      "ctr": 0.027154046997389034,
+      "position": 7.855874673629243
+    },
+    {
+      "page": "https://templetxhomes.net/stylecraft/",
+      "clicks": 50,
+      "impressions": 5137,
+      "ctr": 0.009733307377846992,
+      "position": 8.998637336967102
+    },
+    {
+      "page": "https://templetxhomes.net/",
+      "clicks": 36,
+      "impressions": 1977,
+      "ctr": 0.018209408194233688,
+      "position": 13.153768335862418
+    },
+    {
+      "page": "https://templetxhomes.net/best-neighborhoods-temple-tx/",
+      "clicks": 36,
+      "impressions": 2065,
+      "ctr": 0.017433414043583534,
+      "position": 9.972397094430992
+    },
+    {
+      "page": "https://templetxhomes.net/is-temple-tx-safe/",
+      "clicks": 36,
+      "impressions": 3922,
+      "ctr": 0.009178990311065782,
+      "position": 7.683069862315145
+    },
+    {
+      "page": "https://templetxhomes.net/communities/the-groves-at-lakewood-ranch/",
+      "clicks": 33,
+      "impressions": 1614,
+      "ctr": 0.020446096654275093,
+      "position": 9.648079306071871
+    },
+    {
+      "page": "https://templetxhomes.net/bsw-temple-childcare-daycare-guide/",
+      "clicks": 32,
+      "impressions": 1782,
+      "ctr": 0.017957351290684626,
+      "position": 8.127946127946128
+    },
+    {
+      "page": "https://templetxhomes.net/temple-vs-waco/",
+      "clicks": 27,
+      "impressions": 5614,
+      "ctr": 0.004809405058781618,
+      "position": 7.410402565016032
+    },
+    {
+      "page": "https://templetxhomes.net/hills-of-westwood/",
+      "clicks": 25,
+      "impressions": 1094,
+      "ctr": 0.022851919561243144,
+      "position": 10.96252285191956
+    },
+    {
+      "page": "https://templetxhomes.net/best-restaurants-temple-tx/",
+      "clicks": 23,
+      "impressions": 2939,
+      "ctr": 0.007825791085403199,
+      "position": 14.574685267097653
+    },
+    {
+      "page": "https://templetxhomes.net/fort-hood-bah-calculator/",
+      "clicks": 23,
+      "impressions": 8762,
+      "ctr": 0.002624971467701438,
+      "position": 8.202579319790003
+    },
+    {
+      "page": "https://templetxhomes.net/investing/temple-tx-market-report/",
+      "clicks": 23,
+      "impressions": 5515,
+      "ctr": 0.004170444242973708,
+      "position": 6.926926563916591
+    },
+    {
+      "page": "https://templetxhomes.net/new-construction-builder-comparison/",
+      "clicks": 23,
+      "impressions": 2284,
+      "ctr": 0.010070052539404553,
+      "position": 12.886602451838879
+    },
+    {
+      "page": "https://templetxhomes.net/temple-tx-property-taxes/",
+      "clicks": 22,
+      "impressions": 2669,
+      "ctr": 0.008242787560884226,
+      "position": 8.197826901461221
+    },
+    {
+      "page": "https://templetxhomes.net/carothers-homes/",
+      "clicks": 18,
+      "impressions": 1039,
+      "ctr": 0.017324350336862367,
+      "position": 9.487969201154957
+    },
+    {
+      "page": "https://templetxhomes.net/neighborhoods/",
+      "clicks": 16,
+      "impressions": 2839,
+      "ctr": 0.005635787249031349,
+      "position": 8.791123635082776
+    },
+    {
+      "page": "https://templetxhomes.net/river-place/",
+      "clicks": 16,
+      "impressions": 373,
+      "ctr": 0.04289544235924933,
+      "position": 13.52278820375335
+    },
+    {
+      "page": "https://templetxhomes.net/eagle-ridge/",
+      "clicks": 15,
+      "impressions": 949,
+      "ctr": 0.015806111696522657,
+      "position": 12.102212855637513
+    },
+    {
+      "page": "https://templetxhomes.net/lake-pointe/",
+      "clicks": 15,
+      "impressions": 1014,
+      "ctr": 0.014792899408284023,
+      "position": 8.764299802761341
+    },
+    {
+      "page": "https://templetxhomes.net/baylor-scott-white-relocation/",
+      "clicks": 14,
+      "impressions": 2779,
+      "ctr": 0.005037783375314861,
+      "position": 7.714285714285714
+    },
+    {
+      "page": "https://templetxhomes.net/bella-terra/",
+      "clicks": 14,
+      "impressions": 649,
+      "ctr": 0.02157164869029276,
+      "position": 15.745762711864407
+    },
+    {
+      "page": "https://templetxhomes.net/legacy-ranch/",
+      "clicks": 14,
+      "impressions": 564,
+      "ctr": 0.024822695035460994,
+      "position": 13.108156028368795
+    },
+    {
+      "page": "https://templetxhomes.net/wyndham-hill/",
+      "clicks": 14,
+      "impressions": 501,
+      "ctr": 0.027944111776447105,
+      "position": 8.171656686626747
+    },
+    {
+      "page": "https://templetxhomes.net/retiring-in-temple-tx/",
+      "clicks": 13,
+      "impressions": 669,
+      "ctr": 0.01943198804185351,
+      "position": 9.461883408071749
+    },
+    {
+      "page": "https://templetxhomes.net/john-houston-homes/",
+      "clicks": 12,
+      "impressions": 540,
+      "ctr": 0.022222222222222223,
+      "position": 8.175925925925926
+    },
+    {
+      "page": "https://templetxhomes.net/top-5-neighborhoods/",
+      "clicks": 12,
+      "impressions": 806,
+      "ctr": 0.01488833746898263,
+      "position": 4.504962779156328
+    },
+    {
+      "page": "https://templetxhomes.net/canyon-creek/",
+      "clicks": 11,
+      "impressions": 1064,
+      "ctr": 0.010338345864661654,
+      "position": 19.962406015037594
+    },
+    {
+      "page": "https://templetxhomes.net/flintrock-builders/",
+      "clicks": 11,
+      "impressions": 992,
+      "ctr": 0.011088709677419355,
+      "position": 8.018145161290324
+    },
+    {
+      "page": "https://templetxhomes.net/best-neighborhoods-belton-tx/",
+      "clicks": 10,
+      "impressions": 592,
+      "ctr": 0.016891891891891893,
+      "position": 11.804054054054054
+    },
+    {
+      "page": "https://templetxhomes.net/hoa-rental-restrictions-temple-belton-tx/",
+      "clicks": 10,
+      "impressions": 565,
+      "ctr": 0.017699115044247787,
+      "position": 8.430088495575221
+    },
+    {
+      "page": "http://templetxhomes.net/",
+      "clicks": 9,
+      "impressions": 480,
+      "ctr": 0.01875,
+      "position": 8.452083333333334
+    },
+    {
+      "page": "https://templetxhomes.net/about/",
+      "clicks": 9,
+      "impressions": 1044,
+      "ctr": 0.008620689655172414,
+      "position": 13.983716475095786
+    },
+    {
+      "page": "https://templetxhomes.net/dr-horton/",
+      "clicks": 9,
+      "impressions": 993,
+      "ctr": 0.00906344410876133,
+      "position": 8.409869083585097
+    },
+    {
+      "page": "https://templetxhomes.net/temple-tx-market-update/",
+      "clicks": 9,
+      "impressions": 1207,
+      "ctr": 0.007456503728251864,
+      "position": 10.296603148301575
+    },
+    {
+      "page": "https://templetxhomes.net/tippit-homes/",
+      "clicks": 9,
+      "impressions": 611,
+      "ctr": 0.014729950900163666,
+      "position": 9.643207855973813
+    },
+    {
+      "page": "https://templetxhomes.net/temple-tx-map-tour/",
+      "clicks": 8,
+      "impressions": 240,
+      "ctr": 0.03333333333333333,
+      "position": 7.7125
+    },
+    {
+      "page": "https://templetxhomes.net/arnold-design-build/",
+      "clicks": 7,
+      "impressions": 660,
+      "ctr": 0.010606060606060607,
+      "position": 12.096969696969698
+    },
+    {
+      "page": "https://templetxhomes.net/historic-district/",
+      "clicks": 7,
+      "impressions": 419,
+      "ctr": 0.016706443914081145,
+      "position": 9.758949880668258
+    },
+    {
+      "page": "https://templetxhomes.net/luxury/",
+      "clicks": 7,
+      "impressions": 563,
+      "ctr": 0.012433392539964476,
+      "position": 37.19005328596803
+    },
+    {
+      "page": "https://templetxhomes.net/sellers/is-now-the-right-time-to-sell/",
+      "clicks": 7,
+      "impressions": 644,
+      "ctr": 0.010869565217391304,
+      "position": 10.406832298136646
+    },
+    {
+      "page": "https://templetxhomes.net/?utm_source=google&utm_medium=organic&utm_campaign=gbp",
+      "clicks": 6,
+      "impressions": 301,
+      "ctr": 0.019933554817275746,
+      "position": 7.604651162790698
+    },
+    {
+      "page": "https://templetxhomes.net/bell-county-builder-incentives/",
+      "clicks": 6,
+      "impressions": 338,
+      "ctr": 0.01775147928994083,
+      "position": 8.242603550295858
+    },
+    {
+      "page": "https://templetxhomes.net/communities/",
+      "clicks": 6,
+      "impressions": 755,
+      "ctr": 0.007947019867549669,
+      "position": 24.57748344370861
+    },
+    {
+      "page": "https://templetxhomes.net/living-in-three%E2%80%AFcreeks-belton-tx-nature-amenities-strong-value/",
+      "clicks": 6,
+      "impressions": 567,
+      "ctr": 0.010582010582010581,
+      "position": 11.860670194003527
+    },
+    {
+      "page": "https://templetxhomes.net/new-construction-near-bsw-temple-tx/",
+      "clicks": 6,
+      "impressions": 886,
+      "ctr": 0.006772009029345372,
+      "position": 19.882618510158014
+    },
+    {
+      "page": "https://templetxhomes.net/short-term-mid-term-rental-regulations-bell-county/",
+      "clicks": 6,
+      "impressions": 1247,
+      "ctr": 0.0048115477145148355,
+      "position": 10.113071371291099
+    },
+    {
+      "page": "https://templetxhomes.net/temple-tx-rental-market-analysis-2026/",
+      "clicks": 6,
+      "impressions": 1485,
+      "ctr": 0.00404040404040404,
+      "position": 8.320538720538721
+    },
+    {
+      "page": "https://templetxhomes.net/temple-vs-belton/",
+      "clicks": 6,
+      "impressions": 1435,
+      "ctr": 0.004181184668989547,
+      "position": 10.558188153310105
+    },
+    {
+      "page": "https://templetxhomes.net/travel-nurse-housing-investment-temple-tx/",
+      "clicks": 6,
+      "impressions": 452,
+      "ctr": 0.01327433628318584,
+      "position": 11.679203539823009
+    },
+    {
+      "page": "https://templetxhomes.net/alta-vista/",
+      "clicks": 5,
+      "impressions": 362,
+      "ctr": 0.013812154696132596,
+      "position": 9.56353591160221
+    },
+    {
+      "page": "https://templetxhomes.net/baylor-college-medicine-temple-student-housing/",
+      "clicks": 5,
+      "impressions": 154,
+      "ctr": 0.032467532467532464,
+      "position": 12.733766233766234
+    },
+    {
+      "page": "https://templetxhomes.net/morgans-point-resort/",
+      "clicks": 5,
+      "impressions": 1435,
+      "ctr": 0.003484320557491289,
+      "position": 16.125435540069688
+    },
+    {
+      "page": "https://templetxhomes.net/the-homestead/",
+      "clicks": 5,
+      "impressions": 319,
+      "ctr": 0.01567398119122257,
+      "position": 11.70846394984326
+    },
+    {
+      "page": "https://templetxhomes.net/windmill-farms/",
+      "clicks": 5,
+      "impressions": 353,
+      "ctr": 0.014164305949008499,
+      "position": 7.237960339943343
+    },
+    {
+      "page": "https://templetxhomes.net/centex/",
+      "clicks": 4,
+      "impressions": 2923,
+      "ctr": 0.0013684570646595963,
+      "position": 8.49572357167294
+    },
+    {
+      "page": "https://templetxhomes.net/investing/",
+      "clicks": 4,
+      "impressions": 1187,
+      "ctr": 0.003369839932603201,
+      "position": 17.42038753159225
+    },
+    {
+      "page": "https://templetxhomes.net/midterm-rental-regulations/",
+      "clicks": 4,
+      "impressions": 281,
+      "ctr": 0.014234875444839857,
+      "position": 8.797153024911033
+    },
+    {
+      "page": "https://templetxhomes.net/moving-to-temple-tx/",
+      "clicks": 4,
+      "impressions": 1324,
+      "ctr": 0.0030211480362537764,
+      "position": 19.16842900302115
+    },
+    {
+      "page": "https://templetxhomes.net/saratoga-homes/",
+      "clicks": 4,
+      "impressions": 555,
+      "ctr": 0.007207207207207207,
+      "position": 11.23963963963964
+    },
+    {
+      "page": "https://templetxhomes.net/sellers/seller-disclosures-texas/",
+      "clicks": 4,
+      "impressions": 762,
+      "ctr": 0.005249343832020997,
+      "position": 9.489501312335959
+    },
+    {
+      "page": "https://templetxhomes.net/temple-vs-killeen/",
+      "clicks": 4,
+      "impressions": 307,
+      "ctr": 0.013029315960912053,
+      "position": 7.850162866449511
+    },
+    {
+      "page": "https://templetxhomes.net/western-hills/",
+      "clicks": 4,
+      "impressions": 114,
+      "ctr": 0.03508771929824561,
+      "position": 15.921052631578947
+    },
+    {
+      "page": "https://templetxhomes.net/bell-county-ag-exemption-guide/",
+      "clicks": 3,
+      "impressions": 154,
+      "ctr": 0.01948051948051948,
+      "position": 8.40909090909091
+    },
+    {
+      "page": "https://templetxhomes.net/belton-isd-neighborhoods/",
+      "clicks": 3,
+      "impressions": 138,
+      "ctr": 0.021739130434782608,
+      "position": 8.44927536231884
+    },
+    {
+      "page": "https://templetxhomes.net/builder-incentives/",
+      "clicks": 3,
+      "impressions": 56,
+      "ctr": 0.05357142857142857,
+      "position": 5.196428571428571
+    },
+    {
+      "page": "https://templetxhomes.net/homes-for-sale-temple-tx/",
+      "clicks": 3,
+      "impressions": 969,
+      "ctr": 0.0030959752321981426,
+      "position": 25.274509803921568
+    },
+    {
+      "page": "https://templetxhomes.net/investing/multifamily/",
+      "clicks": 3,
+      "impressions": 293,
+      "ctr": 0.010238907849829351,
+      "position": 14.98976109215017
+    },
+    {
+      "page": "https://templetxhomes.net/living-in-temple-tx/",
+      "clicks": 3,
+      "impressions": 221,
+      "ctr": 0.013574660633484163,
+      "position": 15.39819004524887
+    },
+    {
+      "page": "https://templetxhomes.net/military-relocation-temple-tx/",
+      "clicks": 3,
+      "impressions": 1127,
+      "ctr": 0.0026619343389529724,
+      "position": 11.256433007985803
+    },
+    {
+      "page": "https://templetxhomes.net/new-construction-temple-tx/",
+      "clicks": 3,
+      "impressions": 1948,
+      "ctr": 0.001540041067761807,
+      "position": 25.211498973305954
+    },
+    {
+      "page": "https://templetxhomes.net/omega-builders/",
+      "clicks": 3,
+      "impressions": 144,
+      "ctr": 0.020833333333333332,
+      "position": 8.534722222222221
+    },
+    {
+      "page": "https://templetxhomes.net/sellers/how-long-to-sell-house-temple-tx/",
+      "clicks": 3,
+      "impressions": 142,
+      "ctr": 0.02112676056338028,
+      "position": 15.345070422535212
+    },
+    {
+      "page": "https://templetxhomes.net/average-rent-temple-tx/",
+      "clicks": 2,
+      "impressions": 50,
+      "ctr": 0.04,
+      "position": 12.74
+    },
+    {
+      "page": "https://templetxhomes.net/bell-county-property-tax-protest-guide/",
+      "clicks": 2,
+      "impressions": 65,
+      "ctr": 0.03076923076923077,
+      "position": 18.215384615384615
+    },
+    {
+      "page": "https://templetxhomes.net/buyers/",
+      "clicks": 2,
+      "impressions": 396,
+      "ctr": 0.005050505050505051,
+      "position": 9.671717171717171
+    },
+    {
+      "page": "https://templetxhomes.net/dawson-ranch/",
+      "clicks": 2,
+      "impressions": 99,
+      "ctr": 0.020202020202020204,
+      "position": 8.414141414141415
+    },
+    {
+      "page": "https://templetxhomes.net/hartrick-ranch/",
+      "clicks": 2,
+      "impressions": 214,
+      "ctr": 0.009345794392523364,
+      "position": 10.58411214953271
+    },
+    {
+      "page": "https://templetxhomes.net/homes-for-sale-temple-tx-300k-400k/",
+      "clicks": 2,
+      "impressions": 9,
+      "ctr": 0.2222222222222222,
+      "position": 7.555555555555555
+    },
+    {
+      "page": "https://templetxhomes.net/investing-in-temple-tx/",
+      "clicks": 2,
+      "impressions": 521,
+      "ctr": 0.003838771593090211,
+      "position": 14.487523992322457
+    },
+    {
+      "page": "https://templetxhomes.net/investing-in-texas/",
+      "clicks": 2,
+      "impressions": 1139,
+      "ctr": 0.001755926251097454,
+      "position": 10.634767339771729
+    },
+    {
+      "page": "https://templetxhomes.net/listing/ctxmls/609780/Temple/5918-Blackstone-Drive/",
+      "clicks": 2,
+      "impressions": 8,
+      "ctr": 0.25,
+      "position": 9.75
+    },
+    {
+      "page": "https://templetxhomes.net/living-in-salado-tx/",
+      "clicks": 2,
+      "impressions": 90,
+      "ctr": 0.022222222222222223,
+      "position": 7.933333333333334
+    },
+    {
+      "page": "https://templetxhomes.net/match-day-2026-bsw-housing-timeline/",
+      "clicks": 2,
+      "impressions": 267,
+      "ctr": 0.00749063670411985,
+      "position": 8.730337078651687
+    },
+    {
+      "page": "https://templetxhomes.net/match-day-housing-bsw-temple/",
+      "clicks": 2,
+      "impressions": 317,
+      "ctr": 0.006309148264984227,
+      "position": 10.870662460567823
+    },
+    {
+      "page": "https://templetxhomes.net/realtor-temple-tx/",
+      "clicks": 2,
+      "impressions": 20,
+      "ctr": 0.1,
+      "position": 8.65
+    },
+    {
+      "page": "https://templetxhomes.net/relocation-guide/",
+      "clicks": 2,
+      "impressions": 1079,
+      "ctr": 0.0018535681186283596,
+      "position": 15.511584800741428
+    },
+    {
+      "page": "https://templetxhomes.net/selling-costs-temple-tx/",
+      "clicks": 2,
+      "impressions": 407,
+      "ctr": 0.004914004914004914,
+      "position": 10.417690417690418
+    },
+    {
+      "page": "https://templetxhomes.net/temple-tx-neighborhoods-under-250k/",
+      "clicks": 2,
+      "impressions": 114,
+      "ctr": 0.017543859649122806,
+      "position": 8.192982456140351
+    },
+    {
+      "page": "https://templetxhomes.net/temple-vs-belton-tx/",
+      "clicks": 2,
+      "impressions": 203,
+      "ctr": 0.009852216748768473,
+      "position": 11.270935960591133
+    },
+    {
+      "page": "https://templetxhomes.net/temple-vs-round-rock/",
+      "clicks": 2,
+      "impressions": 307,
+      "ctr": 0.006514657980456026,
+      "position": 10.817589576547231
+    },
+    {
+      "page": "https://templetxhomes.net/west-temple-neighborhood-guide/",
+      "clicks": 2,
+      "impressions": 409,
+      "ctr": 0.004889975550122249,
+      "position": 15.070904645476773
+    },
+    {
+      "page": "https://templetxhomes.net/assumable-loans-temple-tx/",
+      "clicks": 1,
+      "impressions": 38,
+      "ctr": 0.02631578947368421,
+      "position": 7.105263157894737
+    },
+    {
+      "page": "https://templetxhomes.net/bell-county-homestead-exemption-guide/",
+      "clicks": 1,
+      "impressions": 362,
+      "ctr": 0.0027624309392265192,
+      "position": 10.005524861878452
+    },
+    {
+      "page": "https://templetxhomes.net/bsw-night-shift-nurse-housing-temple-tx/",
+      "clicks": 1,
+      "impressions": 370,
+      "ctr": 0.002702702702702703,
+      "position": 7.42972972972973
+    },
+    {
+      "page": "https://templetxhomes.net/bsw-physician-glossary/",
+      "clicks": 1,
+      "impressions": 25,
+      "ctr": 0.04,
+      "position": 7.36
+    },
+    {
+      "page": "https://templetxhomes.net/bsw-relocation-assistance-housing-guide/",
+      "clicks": 1,
+      "impressions": 37,
+      "ctr": 0.02702702702702703,
+      "position": 6.756756756756757
+    },
+    {
+      "page": "https://templetxhomes.net/bsw-resident-attending-roadmap/",
+      "clicks": 1,
+      "impressions": 43,
+      "ctr": 0.023255813953488372,
+      "position": 17
+    },
+    {
+      "page": "https://templetxhomes.net/carriage-house-trails/",
+      "clicks": 1,
+      "impressions": 58,
+      "ctr": 0.017241379310344827,
+      "position": 4.362068965517242
+    },
+    {
+      "page": "https://templetxhomes.net/contact/",
+      "clicks": 1,
+      "impressions": 281,
+      "ctr": 0.0035587188612099642,
+      "position": 16.88612099644128
+    }
+  ]
+}
