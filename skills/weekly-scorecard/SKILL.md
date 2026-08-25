@@ -39,8 +39,10 @@ Before scoring, pull real-time data from connected platforms.
 
 **YouTube** (both "Living in Temple" and "Investing in Temple" channels):
 - Call `youtube_list_videos` to get recent uploads from each channel
-- Call `youtube_get_video_stats` for each video published this week (views, likes, comments, watch time, CTR)
-- Summarize: total views this week, top-performing video, avg CTR
+- Call `youtube_get_video_stats` for public starts, likes, and comments. Label public `viewCount` as `Public starts`; starting `2026-08-24`, it is not comparable with the earlier public-view definition.
+- For Taylor's owned channel, pull authenticated `engagedViews`, watch time, CTR, AVD, and retention when available. Keep unavailable private fields explicit; do not infer them from public stats.
+- Summarize performance from engaged views, watch time, CTR, AVD, and retention. Public-view lift alone cannot name a top performer or trigger a topic/packaging decision.
+- Scorecards `2026-W36` and `2026-W37` must show Public starts and Engaged views separately and include the `2026-08-24 measurement break` note. Public-start change is `N/A across break` whenever the comparison spans the boundary.
 
 **Newsletter (Beehiiv):**
 - Call `newsletter_stats` to pull latest newsletter performance
@@ -103,9 +105,13 @@ Scan for incomplete work:
 ## Platform Performance (Live Data)
 
 ### YouTube
-- Views this week: [X]
-- Top video: "[title]" — [X] views, [X]% CTR
+- Public starts this week: [X] (Data API; non-comparable across the 2026-08-24 break)
+- Engaged views: [X or private analytics unavailable]
+- Watch time: [X hours or private analytics unavailable]
+- Top video: "[title]" — [X] engaged views, [X]% CTR, [M:SS] AVD, [X]% 30-second retention
 - Subscribers: [X] (+[X] this week)
+
+> Public-start lift is exposure context only. It is not a strategy signal by itself.
 
 ### Newsletter (Beehiiv)
 - Latest issue: "[subject]" — [X]% open, [X]% click
@@ -150,6 +156,7 @@ Save to `output/YYYY-WXX/scorecard.md`
 - Be honest about gaps — no "great job!" if half the targets were missed
 - Always suggest the single highest-leverage action (usually filming + /produce)
 - Count actual files, not intentions. A script that exists is produced. A plan to write one is not.
+- Never use public-view lift alone for a YouTube winner/loser call or recommendation.
 - If output/ folder for the week doesn't exist at all, say so clearly: "No output folder for this week. Either content wasn't generated through the skill system, or it was done outside Claude."
 - BP engagement can't be tracked from output files — always mark it as "?" and ask Taylor
 - Streak tracking only works when prior week scorecards exist. Start tracking from the first scorecard run.

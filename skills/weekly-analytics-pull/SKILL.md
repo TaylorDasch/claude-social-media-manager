@@ -13,11 +13,20 @@ Consolidates live platform data from all connected MCP tools into a single weekl
 - Calculate the Monday-Sunday date range
 
 ### Step 2: Pull YouTube Data
-- Call `youtube_list_videos` for both channels
-- Filter to videos published this week
-- For each video, call `youtube_get_video_stats` to get: views, likes, comments, average watch time, CTR
-- Calculate: total views, total new subscribers, best-performing video, worst-performing video
+- Call `youtube_list_videos` for both channels and filter to videos published this week.
+- Treat Data API `viewCount` as **Public starts** only. Starting `2026-08-24`, it counts first-frame/autoplay starts and is not comparable to the earlier public-view definition. Never label it impressions, engaged views, or qualified views.
+- For Taylor's owned channel, use authenticated YouTube Analytics data when available:
+  - `engagedViews`
+  - `estimatedMinutesWatched` (convert to watch-time hours)
+  - `averageViewDuration`
+  - `averageViewPercentage`
+  - audience-retention curve / 30-second retention
+  - thumbnail CTR by traffic source from an authenticated MCP, Studio export, or Reporting API source
+- If private access is unavailable, write `Private analytics unavailable` for each missing metric. Never backfill CTR, retention, watch time, AVD, or engaged views from public counts.
+- Calculate best/worst performance from engaged views, watch time, CTR, AVD, and retention. Public-view lift alone cannot produce a winner/loser call or content recommendation.
 - Pull stats for YouTube Shorts separately
+
+**Transition requirement:** snapshots `2026-W36` and `2026-W37` must display Public starts and Engaged views as separate rows and carry the `2026-08-24 measurement break` note. Do not calculate a week-over-week percentage for Public starts when the comparison crosses the break.
 
 ### Step 3: Pull Beehiiv Data
 - Call `list_posts` to find newsletters sent this week
@@ -54,19 +63,25 @@ Generated: [timestamp]
 ## YouTube
 | Metric | This Week | Last Week | Change |
 |--------|-----------|-----------|--------|
-| Total views | [X] | [X] | [+/-X%] |
+| Public starts (Data API; non-comparable across 2026-08-24) | [X] | [X] | [N/A across break] |
+| Engaged views (owner analytics) | [X or unavailable] | [X or unavailable] | [+/-X% or unavailable] |
+| Watch time (hours) | [X or unavailable] | [X or unavailable] | [+/-X% or unavailable] |
 | New subscribers | [X] | [X] | [+/-X] |
-| Avg CTR | [X]% | [X]% | [+/-X%] |
+| Thumbnail CTR | [X]% | [X]% | [+/-X%] |
+| Average view duration | [M:SS] | [M:SS] | [+/-S sec] |
+| 30-second retention | [X]% | [X]% | [+/-X pp] |
 | Videos published | [X] | [X] | |
 
+> **Measurement break — 2026-08-24:** Public starts use the first-frame/autoplay definition and are not comparable with the earlier public-view definition. Strategy decisions below use owner-only engaged views, watch time, CTR, AVD, and retention; never public-view lift alone.
+
 ### Top Videos This Week
-1. "[title]" — [X] views, [X]% CTR, [X] min avg watch
-2. "[title]" — [X] views, [X]% CTR, [X] min avg watch
+1. "[title]" — [X] public starts, [X] engaged views, [X]% CTR, [X] min avg watch
+2. "[title]" — [X] public starts, [X] engaged views, [X]% CTR, [X] min avg watch
 
 ### Shorts Performance
-| Short | Views | Likes | Comments |
-|-------|-------|-------|----------|
-| "[title]" | [X] | [X] | [X] |
+| Short | Public starts | Engaged views | Likes | Comments |
+|-------|---------------|---------------|-------|----------|
+| "[title]" | [X] | [X or unavailable] | [X] | [X] |
 
 ## Newsletter (Beehiiv)
 | Metric | Latest Issue | Previous | Change |
@@ -129,12 +144,15 @@ If not, mark Change columns as "N/A (first pull)".
 ## Rules
 - Only report real data from MCP tools — never estimate or fabricate
 - If an MCP tool fails or returns no data, note it as "[tool] unavailable" and continue
+- Never use Data API `viewCount` as a proxy for impressions, CTR, engaged views, watch time, AVD, or retention.
+- Never recommend a topic, title, thumbnail, or publishing change from Public starts lift alone.
 - Always include the "Key Takeaways" section with 3 specific, actionable insights
 - Save raw JSON alongside the markdown for week-over-week comparison
 - This skill feeds /weekly-scorecard — format data so scorecard can reference it directly
 
 ## Dependencies
-- YouTube MCP: `youtube_list_videos`, `youtube_get_video_stats`
+- YouTube public MCP/Data API: `youtube_list_videos`, `youtube_get_video_stats`
+- YouTube owner analytics: authenticated channel analytics / retention / traffic-source tools or Studio export. API metric names: `engagedViews`, `estimatedMinutesWatched`, `averageViewDuration`, `averageViewPercentage`, and `audienceWatchRatio`.
 - Beehiiv MCP: `list_posts`, `newsletter_stats`, `list_subscribers`
 - GSC MCP: `query_search_analytics`, `get_top_pages`, `find_keyword_opportunities`
 - FUB MCP: `list_people`

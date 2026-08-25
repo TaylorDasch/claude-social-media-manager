@@ -253,13 +253,15 @@
 
 | # | Item | Required |
 |---|------|----------|
-| 1 | YouTube data (views, subscribers, CTR, top videos) | YES |
-| 2 | Beehiiv data (open rate, click rate, subscriber count) | YES |
-| 3 | GSC data (impressions, clicks, top pages, keyword opportunities) | YES |
-| 4 | FUB lead data (count by source) | YES |
-| 5 | Google Maps ranking data | YES |
-| 6 | Key takeaways (3 specific, actionable) | YES |
-| 7 | Raw JSON saved for week-over-week comparison | YES |
+| 1 | YouTube public starts labeled with the `2026-08-24` measurement break | YES |
+| 2 | YouTube owner metrics (engaged views, watch time, CTR, AVD, retention) or explicit private-data-unavailable labels | YES |
+| 3 | YouTube decision note prohibiting recommendations from public-view lift alone | YES |
+| 4 | Beehiiv data (open rate, click rate, subscriber count) | YES |
+| 5 | GSC data (impressions, clicks, top pages, keyword opportunities) | YES |
+| 6 | FUB lead data (count by source) | YES |
+| 7 | Google Maps ranking data | YES |
+| 8 | Key takeaways (3 specific, actionable) | YES |
+| 9 | Raw JSON saved for week-over-week comparison | YES |
 
 ---
 

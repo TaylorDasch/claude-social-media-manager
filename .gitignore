@@ -8,6 +8,8 @@ scripts/cron.log
 node_modules/
 .venv/
 venv/
+client_secret*.json
+*youtube*oauth*token*.json
 
 # Newsletter Desk — local contact data and generated import payloads contain PII
 newsletter/private/
