@@ -60,7 +60,7 @@ Direct zone (adjacent corridors: Bob White Rd area, NE Industrial/Eberhardt) · 
 *[B-ROLL: drone push over the Meta campus from public vantage, then the empty Bob White Rd acreage]*
 *[GRAPHIC D1: three chips — "$1.2B — LIVE (July 2026)" · "$2.1B+ — approved/in pipeline" · "#4 — in hearings NOW"]*
 
-As I record this, there's a $1.2 billion data center running on the east side of Temple, three more approved behind it, a fourth in public hearings — and a recall effort against the mayor and two council members over how it all got approved. More than three billion dollars is landing on one mid-sized Texas town. And if you own a home here, or you're about to buy one, both sides' flyers are useless to you.
+As I record this, there's a $1.2 billion data center running on the east side of Temple, three more approved behind it, a fourth in public hearings — and a recall effort against the mayor and two council members over how it all got approved. More than three billion dollars is landing on one mid-sized Texas town. And if you own a home here, or you're about to buy one, nobody in this fight is talking about your house.
 
 ### IDENTITY + PROMISE — 0:15–0:32
 
@@ -68,14 +68,10 @@ I'm Taylor Dasch with EG Realty. If your feed looks like mine, you've seen the p
 
 ### ENTITY — 0:32–0:48
 
-*[GRAPHIC D0: "Taylor Dasch — Agent, EG Realty · 100+ closed transactions, Temple–Belton–Killeen · BiggerPockets Featured Agent"]*
-
-Credentials: agent with EG Realty, a hundred-plus closed transactions in this corridor, BiggerPockets Featured Agent. Nobody involved in any of these projects paid for this video — I don't think most of them know it exists.
+Nobody involved in any of these projects paid for this video — I don't think most of them know it exists.
 
 ### CH 0 — WHAT ONE OF THESE BUILDINGS ACTUALLY IS — 0:48–1:50 *(the explainer nobody local has done; Taylor's own question, answered)*
 
-*[B-ROLL: drone slow orbit of the Meta campus from public vantage; cutaway graphic]*
-*[GRAPHIC D1a: simple cutaway card — "Server halls (the computers) · Cooling plant · Substation + backup generators · Fiber routes · Security perimeter — that's the whole building"]*
 
 Alright, so before the dollar figures — what IS this thing? Because I'll be honest, I had to sit down and actually learn it. A data center is a warehouse for computers. Thousands of servers, running twenty-four seven. Every time you scroll Facebook, stream a show, or ask an AI a question, the computing doesn't happen in your phone — it happens in a building like this one. Inside there's really just five things: the server halls, the cooling system that keeps them from overheating, a power substation with backup generators, fiber lines to the internet backbone, and a fence.
 
@@ -160,7 +156,7 @@ Everything in this video — the project ledger, the map, the price history, my 
 
 ## 3. TALKING-POINTS VERSION (cue sheet)
 
-- **COLD OPEN:** $1.2B live · 3 more approved · #4 in hearings · recall effort live. "Both sides' flyers are useless to you." *(no name until 0:15)*
+- **COLD OPEN:** $1.2B live · 3 more approved · #4 in hearings · recall effort live. "Nobody in this fight is talking about your house." *(no name until 0:15)*
 - **PROMISE:** "If your feed looks like mine, you've seen the protest posts — and if you're honest, you couldn't explain what one of these buildings does." → what it is + the real list + the 16-yr price line ("the number surprised me") + the one corridor question.
 - **CH 0 — WHAT IT IS (~0:48–1:50):** "a warehouse for computers" — scroll/stream/AI happens in buildings like this, not your phone. Five things inside: server halls · cooling · substation + backup generators · fiber · a fence. Two Temple models: **Meta owns-and-runs (AI-optimized = built for its own AI)** vs **Rowan develops, tenant operates.** Consumes: electricity (a lot), water (design-dependent), land. Produces: computing, heat, **taxable value — and very few permanent jobs.** "Taxes high, jobs low — that pair explains almost every argument this town is having."
 - **LEDGER:** Meta $1.2B/live 7/22/386ac/760K sqft/first AI-optimized in US/pause-and-redesign story · Rowan $700M Bob White + 3 approved + #4 in hearings `[date]` + $2.1B pipeline · Oppidan $80M · Longhorn '23 · ">$3B, town of ~100K." **Jobs truth: 1,200 peak construction vs <100 permanent.** "A construction event and a tax-base event — not a Baylor Scott & White."

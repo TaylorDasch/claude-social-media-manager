@@ -178,22 +178,6 @@ L = Lite pass. O = Optional pass.
 
 ## Taylor's Info
 - Taylor Dasch, EG Realty | 254-718-4249 | dealswithdasch@gmail.com
-- templetxhomes.net | Headshot: `https://assets.agentfire3.com/uploads/sites/2128/2025/11/TaylorDaschImage.jpg`
+- templetxhomes.net | Headshot: `https://templetxhomes.net/wp-content/uploads/2026/06/11__TaylorDaschImage.jpg` (Rocket-hosted; never use `assets.agentfire3.com` URLs — they die at AgentFire shutoff)
 
----
-
-## Proactive Business Improvement Rule
-
-**Claude is always watching for what Taylor would miss.**
-
-At the end of any session — or any time something is spotted mid-build — surface:
-
-- Automation opportunities (cron, FUB action plans, Hermes scripts, n8n)
-- Revenue levers (listing acquisition gaps, follow-up timing, lead source ROI)
-- SEO/AEO/GEO gaps (missing pages, unoptimized content, AI citation misses)
-- Customer service improvements (response time, chatbot coverage, review velocity)
-- Risk or dead weight (silently failing crons, stale data, abandoned workflows)
-
-Format: one sentence observation + one concrete next action. Don't pitch a project — name the specific thing. Taylor can say yes or no in one word.
-
-<!-- proactive-business-improvement-rule:v1 -->
+(Beyond-the-ask watch now lives in the global router — one copy, not per-project.)
