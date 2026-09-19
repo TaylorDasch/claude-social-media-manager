@@ -25,7 +25,7 @@
 
 ### 1. "Is Temple TX a good market for investing?"
 
-> Temple's median close price is $270,000 with an effective tax rate around 2.25% (Temple ISD). That's the starting point — whether it's "good" depends on your strategy.
+> Temple's median close price is $270,000 with a combined tax rate of 2.39% (Temple ISD, inside city limits). That's the starting point — whether it's "good" depends on your strategy.
 >
 > What's working right now: The investor buy box of $140K-$260K still cash flows for buy-and-hold. A 3/2 in the 76504 zip code (South Temple, Western Hills) lists around $225K median, and 3BR rents in that zip pull $1,495 median. Run your own numbers, but the rent-to-price ratio is tighter than Austin and looser than most DFW submarkets.
 >
@@ -79,7 +79,7 @@
 >
 > The refinance reality check: Bell County CAD assessed values for Temple sit at a $253,579 median. If you buy at $160K, put $40K in rehab, and the appraisal comes back at $240K, you're pulling most of your capital out. But interest rates determine whether the refi payment still cash flows — I'm not going to pretend the math works at every rate environment.
 >
-> Tax impact: effective rate is 2.25% in Temple (Temple ISD). On a $240K ARV, that's $5,400/yr or $450/mo just in taxes. Factor that into your DSCR before you commit.
+> Tax impact: combined rate is 2.39% in Temple (Temple ISD, inside city limits). On a $240K ARV, that's $5,730/yr or $478/mo just in taxes. Factor that into your DSCR before you commit.
 >
 > Why Temple over other Central TX markets: Austin is priced out for BRRRR at this point. Waco's inventory is thin. Killeen has lower taxes (1.99%) but a less diversified economy. Temple has BSW (8,800 employees), Fort Hood demand, and McLane HQ — three independent demand drivers.
 >
@@ -91,7 +91,7 @@
 
 > Temple TX, specifically the 76504 zip code. Median list is $225K, but sub-$200K inventory exists in South Temple and Western Hills. Here's the math on a real scenario:
 >
-> Purchase at $185K. 3BR rent at $1,495 (that's the median for 76504, not a guess). Taxes at 2.25% effective = $4,163/yr ($347/mo). Insurance in Texas is running $2,400-$3,600/yr depending on age and condition — call it $250/mo to be conservative. With 25% down at current rates, your PITI is roughly $1,250-$1,350. That leaves $145-$245/mo before maintenance, vacancy, and management. Tight? Yes. But it cash flows, which is more than most markets under $200K can say right now.
+> Purchase at $185K. 3BR rent at $1,495 (that's the median for 76504, not a guess). Taxes at 2.39% combined = $4,417/yr ($368/mo). Insurance in Texas is running $2,400-$3,600/yr depending on age and condition — call it $250/mo to be conservative. With 25% down at current rates, your PITI is roughly $1,250-$1,350. That leaves $145-$245/mo before maintenance, vacancy, and management. Tight? Yes. But it cash flows, which is more than most markets under $200K can say right now.
 >
 > The demand floor: Fort Hood (largest active-duty armored post), BSW Medical Center (8,800+ employees), and McLane Company HQ. Temple's population is 96,267 and growing at 3.38% annually. Three independent economic engines means if one slows, the other two keep your tenant pipeline full.
 >
@@ -129,7 +129,7 @@
 >
 > The self-management question: if you're within 2-3 hours, consider it. Temple is a straightforward market — your tenant base is military (Fort Hood, 59,695 personnel), medical (BSW, 8,800 employees), and blue collar. These are generally reliable tenants. A good handyman and a clear lease handle 90% of issues.
 >
-> Tax note for out-of-state owners: Texas has no state income tax, but your effective property tax rate in Temple is 2.25%. On a $270K property (median), that's $6,075/yr. Some investors from low-tax states get sticker shock.
+> Tax note for out-of-state owners: Texas has no state income tax, but your combined property tax rate in Temple is 2.39%. On a $270K property (median), that's $6,447/yr. Some investors from low-tax states get sticker shock.
 >
 > I manage my own portfolio here and work with investors weekly. Happy to share more specifics if you want to DM me.
 

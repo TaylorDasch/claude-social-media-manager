@@ -11,9 +11,16 @@
       "city": "Temple",
       "state": "TX",
       "county": "Bell County",
-      "zip_codes": ["76501", "76502", "76504"],
+      "zip_codes": [
+        "76501",
+        "76502",
+        "76504"
+      ],
       "median_price": {
-        "value_range": [247450, 288000],
+        "value_range": [
+          247450,
+          288000
+        ],
         "source": "MLS pull, Bell County active inventory",
         "last_verified_date": "2026-04-13",
         "needs_verification": false
@@ -27,18 +34,33 @@
       },
       "tax_rate_notes": {
         "city_rate": "$0.6999 per $100 valuation (2025)",
-        "county_effective_non_homestead": "~2.366%",
-        "county_effective_range": "2.4%-2.7%",
-        "source": "Bell CAD, City of Temple",
-        "last_verified_date": "2026-04-13",
+        "source": "Bell CAD 2025 Tax Rate Chart (30-Sep-25) + Bell CAD per-parcel jurisdiction records",
+        "last_verified_date": "2026-09-19",
         "needs_verification": false,
-        "disclaimer": "Bell County reassesses annually — verify current rate."
+        "disclaimer": "Non-homestead / nominal rate. Investors get no homestead exemption. Entity stacks DIFFER by city and by address - never hand-assemble a rate. TY2026 rates are adopted but Bell CAD has not published the 2026 chart; do not publish a 2026 combined rate yet. See reference/TEMPLE-TX-DATA-VAULT.md.",
+        "combined_rate_per_100": "2.387677",
+        "combined_effective_pct": "2.39%",
+        "tax_year": "2025 (certified)",
+        "entity_stack": "Temple ISD 1.1372 + City of Temple 0.6999 + Bell County 0.3128 + Temple College 0.2017 + Road District 0.0199 + Health & Bioscience 0.013947 + Clearwater UWCD 0.00223"
       },
       "major_employers": [
-        {"name": "Baylor Scott & White Temple (BSW)", "employees": 8800, "notes": "Flagship hospital campus; PGY-1 stipend $70,993/yr"},
-        {"name": "Fort Hood", "notes": "~50K active-duty + dependents; BAH drives rental demand"},
-        {"name": "McLane Group", "notes": "Temple-HQ'd; distribution/corporate"},
-        {"name": "Wilsonart", "notes": "Temple-HQ'd manufacturing"}
+        {
+          "name": "Baylor Scott & White Temple (BSW)",
+          "employees": 8800,
+          "notes": "Flagship hospital campus; PGY-1 stipend $70,993/yr"
+        },
+        {
+          "name": "Fort Hood",
+          "notes": "~50K active-duty + dependents; BAH drives rental demand"
+        },
+        {
+          "name": "McLane Group",
+          "notes": "Temple-HQ'd; distribution/corporate"
+        },
+        {
+          "name": "Wilsonart",
+          "notes": "Temple-HQ'd manufacturing"
+        }
       ],
       "commute_notes": {
         "bsw_to_76502": "8-12 min (76502/76504 corridor)",
@@ -53,11 +75,20 @@
       "investor_notes": {
         "power_zip": "76502 ranks 753/1000 (top 5%); 5,101-unit housing deficit; 24.1% population growth",
         "hospital_district_rule": "South Temple odd-numbered streets: above 1200 block = solid, 1100-1200 = decent but verify, below 1100 = must visit in person",
-        "rental_demand_drivers": ["BSW medical employment", "Fort Hood commuter demand", "I-35 corridor industrial"],
+        "rental_demand_drivers": [
+          "BSW medical employment",
+          "Fort Hood commuter demand",
+          "I-35 corridor industrial"
+        ],
         "tenant_pool_notes": "Medical residents (3-5 year stays), military (orders-driven turnover), I-35 industrial workforce"
       },
       "relocation_notes": {
-        "primary_drivers": ["BSW physician relocation", "Fort Hood PCS", "Austin/Round Rock commuter overflow", "affordability vs Austin"],
+        "primary_drivers": [
+          "BSW physician relocation",
+          "Fort Hood PCS",
+          "Austin/Round Rock commuter overflow",
+          "affordability vs Austin"
+        ],
         "corridors": {
           "bsw_corridor": "76502 / 76504",
           "fort_hood_corridor": "Killeen / Harker Heights (closer than Temple itself)",
@@ -71,7 +102,9 @@
       "city": "Belton",
       "state": "TX",
       "county": "Bell County",
-      "zip_codes": ["76513"],
+      "zip_codes": [
+        "76513"
+      ],
       "median_price": {
         "value": null,
         "needs_verification": true,
@@ -84,7 +117,14 @@
       },
       "tax_rate_notes": {
         "notes": "Belton ISD tax adds to Bell County base; verify per-property.",
-        "needs_verification": true
+        "needs_verification": false,
+        "combined_rate_per_100": "2.006830",
+        "combined_effective_pct": "2.01%",
+        "tax_year": "2025 (certified)",
+        "entity_stack": "Belton ISD 1.1494 + City of Belton 0.5225 + Bell County 0.3128 + Road District 0.0199 + Clearwater UWCD 0.00223 (NO junior college district)",
+        "source": "Bell CAD 2025 Tax Rate Chart (30-Sep-25) + Bell CAD per-parcel jurisdiction records",
+        "last_verified_date": "2026-09-19",
+        "disclaimer": "Non-homestead / nominal rate. Investors get no homestead exemption. Entity stacks DIFFER by city and by address - never hand-assemble a rate. TY2026 rates are adopted but Bell CAD has not published the 2026 chart; do not publish a 2026 combined rate yet. See reference/TEMPLE-TX-DATA-VAULT.md."
       },
       "school_district_notes": {
         "district": "Belton ISD (strong reputation; verify by address)"
@@ -93,7 +133,11 @@
         "notes": "Steadier, more family-driven; lower MTR demand than Temple; LTR strong near UMHB"
       },
       "relocation_notes": {
-        "drivers": ["BSW relocators seeking Belton ISD", "UMHB faculty/staff", "Austin commuter overflow via Salado corridor"]
+        "drivers": [
+          "BSW relocators seeking Belton ISD",
+          "UMHB faculty/staff",
+          "Austin commuter overflow via Salado corridor"
+        ]
       },
       "last_verified_date": null,
       "needs_verification": true
@@ -102,7 +146,12 @@
       "city": "Killeen",
       "state": "TX",
       "county": "Bell County",
-      "zip_codes": ["76541", "76542", "76543", "76549"],
+      "zip_codes": [
+        "76541",
+        "76542",
+        "76543",
+        "76549"
+      ],
       "median_price": {
         "value": null,
         "needs_verification": true,
@@ -114,15 +163,31 @@
         "note": "Tracks Fort Hood BAH — E-6 w/ dependents $1,920/month"
       },
       "investor_notes": {
-        "rental_demand_drivers": ["Fort Hood orders-driven turnover", "VA loan househack candidates"],
+        "rental_demand_drivers": [
+          "Fort Hood orders-driven turnover",
+          "VA loan househack candidates"
+        ],
         "military_income_note": "BAH is tax-free and non-counted for debt-to-income in VA underwriting",
         "deployment_risk": "PCS orders change quickly — shorter tenant LOS than Temple medical residents"
       },
       "relocation_notes": {
-        "drivers": ["Fort Hood PCS (primary)", "VA househack buyers"]
+        "drivers": [
+          "Fort Hood PCS (primary)",
+          "VA househack buyers"
+        ]
       },
       "last_verified_date": null,
-      "needs_verification": true
+      "needs_verification": true,
+      "tax_rate_notes": {
+        "combined_rate_per_100": "2.028430",
+        "combined_effective_pct": "2.03%",
+        "tax_year": "2025 (certified)",
+        "entity_stack": "Killeen ISD 0.8778 + City of Killeen 0.7014 + Bell County 0.3128 + Central Texas College 0.090 + WCID #6 0.0243 + Road District 0.0199 + Clearwater UWCD 0.00223",
+        "source": "Bell CAD 2025 Tax Rate Chart (30-Sep-25) + Bell CAD per-parcel jurisdiction records",
+        "last_verified_date": "2026-09-19",
+        "needs_verification": false,
+        "disclaimer": "Non-homestead / nominal rate. Investors get no homestead exemption. Entity stacks DIFFER by city and by address - never hand-assemble a rate. TY2026 rates are adopted but Bell CAD has not published the 2026 chart; do not publish a 2026 combined rate yet. See reference/TEMPLE-TX-DATA-VAULT.md."
+      }
     },
     {
       "city": "Harker Heights",
@@ -131,7 +196,17 @@
       "investor_notes": {
         "notes": "Premium Killeen-adjacent. BAH-capped rents. Family-friendly military buyers. Verify specific streets."
       },
-      "needs_verification": true
+      "needs_verification": true,
+      "tax_rate_notes": {
+        "combined_rate_per_100": "1.832730",
+        "combined_effective_pct": "1.83%",
+        "tax_year": "2025 (certified)",
+        "entity_stack": "Killeen ISD 0.8778 + City of Harker Heights 0.530 + Bell County 0.3128 + Central Texas College 0.090 + Road District 0.0199 + Clearwater UWCD 0.00223",
+        "source": "Bell CAD 2025 Tax Rate Chart (30-Sep-25) + Bell CAD per-parcel jurisdiction records",
+        "last_verified_date": "2026-09-19",
+        "needs_verification": false,
+        "disclaimer": "Non-homestead / nominal rate. Investors get no homestead exemption. Entity stacks DIFFER by city and by address - never hand-assemble a rate. TY2026 rates are adopted but Bell CAD has not published the 2026 chart; do not publish a 2026 combined rate yet. See reference/TEMPLE-TX-DATA-VAULT.md."
+      }
     },
     {
       "city": "Salado",
@@ -141,7 +216,10 @@
         "notes": "Austin-commuter overflow, luxury segment, thin rental market"
       },
       "relocation_notes": {
-        "drivers": ["Austin commuters", "lifestyle buyers"]
+        "drivers": [
+          "Austin commuters",
+          "lifestyle buyers"
+        ]
       },
       "needs_verification": true
     }
@@ -154,10 +232,34 @@
     "source": "MLS, social-media-config.json"
   },
   "rates_reference": {
-    "investor_conventional": {"range_pct": [6.8, 7.5], "default_for_math": 7.0, "as_of": "2026-03"},
-    "dscr": {"range_pct": [6.5, 8.75], "default_for_math": 7.25, "as_of": "2026-03"},
-    "physician_loan_matt_levant": {"down_payment_pct": 0, "pmi": false, "max_concessions_pct": 3, "source": "Acre Mortgage (Matt Levant)", "notes": "Preferred BSW lender; only legal BSW pipeline per Stark Law"},
-    "va_loan_reference": {"down_payment_pct": 0, "funding_fee_varies": true, "source": "VA"}
+    "investor_conventional": {
+      "range_pct": [
+        6.8,
+        7.5
+      ],
+      "default_for_math": 7.0,
+      "as_of": "2026-03"
+    },
+    "dscr": {
+      "range_pct": [
+        6.5,
+        8.75
+      ],
+      "default_for_math": 7.25,
+      "as_of": "2026-03"
+    },
+    "physician_loan_matt_levant": {
+      "down_payment_pct": 0,
+      "pmi": false,
+      "max_concessions_pct": 3,
+      "source": "Acre Mortgage (Matt Levant)",
+      "notes": "Preferred BSW lender; only legal BSW pipeline per Stark Law"
+    },
+    "va_loan_reference": {
+      "down_payment_pct": 0,
+      "funding_fee_varies": true,
+      "source": "VA"
+    }
   },
   "banned_data_patterns": [
     "Do not publish exact cap rate projections on specific addresses — use range + 'underwrite conservatively'",

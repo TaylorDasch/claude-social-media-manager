@@ -154,7 +154,7 @@ Hot stats with source dates:
 | Metric | Current Value | Source | Date |
 |---|---|---|---|
 | Temple median home price | $247,450–$288,000 | MLS | see data vault |
-| Bell County effective tax (non-homestead) | ~2.366% | BCAD | 2026 |
+| Temple combined tax rate (non-homestead) | 2.3877% (~2.39%) | Bell CAD 2025 chart + per-parcel records | verified 2026-09-19 |
 | City of Temple tax rate | $0.6999 / $100 valuation | City | 2025 |
 | BSW Temple employment base | 8,800+ | BSW HR | 2025 |
 | Fort Hood BAH E-6 w/ dep | $1,920 / month tax-free | DFAS | verify current |

@@ -76,7 +76,35 @@ Max 4 words on thumbnail. "SAME HOUSE" is the whole text.
 
 Page pairing is bidirectional: the page exists, is correct, and needs the video embedded.
 
-## Data status
+## Data status — updated 2026-09-19
 
-All Temple figures are CONFIRMED against primary source. Two segments carry
-`[PENDING]` markers and must be resolved or cut before filming — see RECORDING-SCRIPT.md.
+All figures CONFIRMED against Bell CAD's 2025 Tax Rate Chart **and** Bell CAD per-parcel
+jurisdiction records (250+ Bell County parcels sampled). Full audit trail:
+`research/BELL-COUNTY-TAX-RATES-2026-09-19.md`.
+
+Resolved since first draft:
+- **Neighbor-city rates confirmed.** Temple 2.3877% · Killeen 2.0284% · Belton 2.0068% ·
+  Harker Heights 1.8327%. Temple is the **most expensive city in Bell County** — Belton is
+  $1,143/yr cheaper on the same $300K house, because Temple pays a junior college district
+  and Belton pays none.
+- **The MUD block was wrong-headed.** There is no MUD inside Temple city limits. The real
+  new-construction trap is a **PID** assessment, which is not on the tax rate chart at all
+  and can run $1,000–$4,000/yr. Block 6 rewritten around this.
+- **The "Bell CAD appraises below purchase price" claim is disproven** and now appears in
+  the script as a myth to kill. The Comptroller's 2025 ratio study puts Bell CAD's median
+  level of appraisal at 1.00.
+- **$140,000 school homestead exemption confirmed** (the vault's $100,000 was stale).
+- **Protest deadline confirmed** — May 15 or 30 days after the notice is mailed (§41.44).
+
+### The 2026 rates have already been adopted
+
+Bell CAD has not published the consolidated 2026 chart, but the entities have voted:
+Temple ISD **1.0619** (down, lowest in 15+ years) · City of Temple **0.7500** (up) ·
+Bell County **0.2995** (down) · Road District **0.0468** (more than doubled) ·
+Temple College **0.2498** proposed.
+
+Block 7 now carries this as the news hook — "the two biggest line items went down and your
+bill still goes up" — which is more timely than the evergreen version and gives viewers a
+reason to come back when the chart posts.
+
+**Only open item: the Block 9 personal story slot.**

@@ -107,9 +107,9 @@ That preamble measurably bleeds viewers on this channel.**
 > current rules the school district portion knocks **$140,000** straight off your taxable
 > value before Temple ISD ever calculates. Over 65 or disabled, there's another $60,000
 > on top, plus a ceiling that freezes your school taxes at the level of the year you
-> qualified. `[VERIFY — confirm the $140K school exemption is still the figure for the
-> 2026 tax year before filming; it was raised recently and the Bell CAD chart reflects
-> 140,000 for tax year 2025.]`
+> qualified. That $140,000 is confirmed on the current Bell CAD
+> chart and on live homesteaded parcels — and note it's **$140,000**, not the $100,000 a lot
+> of older articles still quote.
 >
 > Temple ISD is 1.1372 of your 2.3877 — that's **48% of your entire bill**. So knocking
 > $140,000 off the school portion alone is what moves you from $7,163 down to roughly
@@ -131,68 +131,109 @@ That preamble measurably bleeds viewers on this channel.**
 > When somebody sends me a deal with 2.25% in the tax line, the first thing I do is
 > rerun it. About half the time the cash flow doesn't survive the correction.
 >
-> And one more thing specific to Bell County: the appraisal district frequently appraises
-> **below** purchase price. That sounds like good news — and in year one it often is — but
-> do not underwrite year three on a year-one assessment. `[VERIFY — pull a current Bell CAD
-> median assessment-ratio figure or drop this claim to "frequently, in my experience."]`
+> And let me kill a myth while I'm here, because I've repeated it myself. People say Bell
+> County appraises below purchase price. **It doesn't.** The Texas Comptroller's 2025 ratio
+> study puts Bell CAD's median level of appraisal on single-family at **1.00** — dead on
+> market value, across 2,046 ratios. Underwrite at full value. The thing people are actually
+> thinking of is the 10% homestead cap, and that's for owner-occupants. It does nothing for
+> you as an investor, and it resets when the house sells.
 
 ---
 
 ## BLOCK 5 — Temple vs the neighbors — 8:00–10:00
-**[SCREEN] Comparison bars.**
+**[SCREEN] Four bars, Temple tallest and red.**
 
-> So how does Temple compare? Here's where people get surprised.
+> So how does Temple compare? This is the part that surprised me.
 
-`[PENDING — Belton, Killeen and Harker Heights stacks are still being verified against
-primary sources. The city and ISD rates below are CONFIRMED off the Bell CAD table.
-What is NOT yet confirmed is whether a junior college district taxes each one —
-Central Texas College is 0.090 and Temple College is 0.2017, and their TAXING districts
-are narrower than their service areas. Do not state a combined rate for these three cities
-until that resolves. If it hasn't resolved by filming, present only the city+ISD comparison
-below and say plainly that junior college and special districts vary by address.]`
+| City | Combined rate | $300K, no homestead |
+|---|---|---|
+| **Temple** | **2.39%** | $7,163/yr |
+| Killeen | 2.03% | $6,085/yr |
+| Belton | 2.01% | $6,020/yr |
+| Harker Heights | 1.83% | $5,498/yr |
 
-| | City rate | ISD rate | City + ISD |
-|---|---|---|---|
-| Temple | 0.6999 | 1.1372 (Temple ISD) | 1.8371 |
-| Belton | 0.5225 | 1.1494 (Belton ISD) | 1.6719 |
-| Killeen | 0.7014 | 0.8778 (Killeen ISD) | 1.5792 |
-| Harker Heights | 0.5300 | 0.8778 (Killeen ISD) | 1.4078 |
+> **Temple is the most expensive city in Bell County.** Not by a little — Belton is
+> **$1,143 a year cheaper** on the exact same $300,000 house.
+>
+> And here's why, because it's not what you'd guess. It isn't the school district — Belton
+> ISD actually charges *more* than Temple ISD. It's that **Temple pays a junior college
+> district and Belton doesn't.** Temple College is 0.2017. Killeen and Harker Heights pay
+> Central Texas College instead, at 0.090. Belton pays **no** junior college tax at all.
+>
+> So four cities, four different stacks — Temple has seven entities, Killeen seven,
+> Harker Heights six, Belton five. You cannot take one city's rate and assume the next
+> one over is close.
 
-> Add Bell County's 0.3128 to every one of those. Beyond that, what else hits your bill
-> depends on your exact address — and that's not me hedging, that's genuinely how it works
-> in Bell County.
+**[SCREEN] Show the four stacks side by side.**
+
+> One caveat I want to be honest about: even *within* Temple it moves. If you're in east
+> Temple you may be in the Elm Creek watershed district, which takes you to 2.41. And some
+> homes with a Temple mailing address are in **Belton** ISD, not Temple ISD. Bell CAD has
+> 47,787 City of Temple accounts but only 32,059 Temple ISD accounts. Look up the actual
+> parcel at bellcad.org before you trust any number — including mine.
 
 ---
 
-## BLOCK 6 — The MUD trap — 10:00–11:30
+## BLOCK 6 — The trap nobody catches — 10:00–11:30
+**[SCREEN] "PID ≠ MUD" on screen.**
 
-`[PENDING — which Temple-area subdivisions sit in MUD 1, MUD 2 or River Farm MUD is still
-being verified. CONFIRMED from the Bell CAD table: MUD 1 = 0.783, MUD 2 = 0.950,
-River Farm MUD No. 1 = 1.000, all per $100. If subdivision names aren't confirmed by
-filming, deliver this as the general warning below and name no neighborhoods.]`
-
-> If you're buying new construction, ask one question before you sign: **am I in a MUD?**
+> Now, if you've bought new construction in Texas before, somebody has told you to watch out
+> for a MUD — a Municipal Utility District. Good advice in Houston. **But there is no MUD
+> inside Temple city limits.** Bell County has three, all of them outside the cities, and two
+> of them are tiny — one has 426 accounts, one has *three*.
 >
-> A Municipal Utility District in Bell County can add anywhere from **0.783 to a full 1.000**
-> per hundred on top of everything we just built. Put a MUD on top of Temple's 2.3877 and
-> you're pushing **3.2 to 3.4%**.
+> The thing that actually shows up on a Temple new-construction buyer's bill is a **PID** —
+> a Public Improvement District. North Temple has one. And here's why it catches people:
 >
-> On a $300,000 house that's roughly **$2,300 to $3,000 a year** more than the buyer two
-> streets over. Nobody volunteers this. Ask.
+> **A PID assessment is not a property tax.** It's a Chapter 372 assessment collected by the
+> city. It is not on the Bell County tax rate chart. It is not in the 2.39% I just spent ten
+> minutes building for you. It shows up as a separate line, and it can run **a thousand to
+> four thousand dollars a year.**
+>
+> So you can do everything right, calculate 2.39% perfectly, and still be off by three grand
+> a year — because the number you needed was never on the chart.
+>
+> Ask the builder, in writing: **is this lot in a PID, and what is the annual assessment?**
 
 ---
 
 ## BLOCK 7 — Protest and timing — 11:30–12:30
 
 > Two dates. Your appraisal notice shows up in spring. Your deadline to protest is
-> **May 15th, or 30 days after that notice — whichever is later.** Miss it and you're done
-> for the year. `[VERIFY — confirm the 2026 protest deadline with Bell CAD before filming.]`
+> **May 15th, or 30 days after that notice is mailed — whichever is later.** That's Tax Code
+> 41.44. Miss it and you're done for the year. Notices go out around April 1st.
 >
-> One note on rate years: the rates in this video are the **2025 certified rates** — the
-> ones your current bill is built on. Bell CAD publishes the new chart at the end of
-> September every year, so a 2026 chart is landing right about now.
-> `[VERIFY — check bellcad.org/adopted-tax-rates-and-exemptions/ the morning you film.
-> If the 2026 chart is live, say "2026 certified" and update every number in this script.]`
+
+**[SCREEN] Two columns: "2025 — the bill you paid" / "2026 — the bill that's coming"**
+
+> Now the part that makes this video worth watching *this* month, because the rates just moved.
+>
+> Two numbers and don't mix them up. The bill you **paid** back in January was the **2025 tax
+> year** — that's the 2.3877 we just built. The bill **coming** in October is the **2026 tax
+> year**, and it's different.
+>
+> **Temple ISD came down.** Seven and a half cents, to **1.0619** — their lowest rate in
+> fifteen years. **Bell County came down** to **0.2995**.
+>
+> But the **City of Temple went up** to **0.7500**. The **county road rate more than doubled**
+> to 0.0468. And **Temple College is proposing a jump** to 0.2498.
+>
+> Net it out and you're looking at roughly **2.42%** — slightly *up*, even though the two
+> biggest line items on your bill both went *down*.
+>
+> One honest caveat, because this cuts against my own headline: the City's 0.75 is actually
+> **below** their no-new-revenue rate, and the city's own numbers show the average homestead
+> bill going **down** about $103 a year. Higher rate, lower bill. That's exemptions and taxable
+> values moving — not spin.
+>
+> I'm still verifying Temple College's final adopted number and two small districts. Bell CAD
+> publishes the consolidated chart at the end of September. When it posts I'll put the exact
+> figures in the description and in a pinned comment.
+
+**[VERIFY the morning you film — bellcad.org/adopted-tax-rates-and-exemptions/. If the 2026
+chart has posted, replace the "roughly 2.42%" hedge with the certified number and say
+"2026 certified." If it has not, deliver as written — the hedge is accurate and the
+"come back for the number" hook is worth keeping.]**
 
 ---
 
@@ -252,12 +293,12 @@ on the channel is: real thing that happened → surprise reveal → the rule tha
 
 ## PRE-FLIGHT CHECKLIST
 
-- [ ] Check bellcad.org for a 2026 chart — if live, update EVERY rate in this script
-- [ ] Confirm the $140,000 school homestead exemption for the applicable tax year
-- [ ] Confirm the 2026 protest deadline
-- [ ] Resolve or cut Block 5 (neighbor-city combined rates)
-- [ ] Resolve or cut Block 6 subdivision names
-- [ ] Fill the Block 9 story slot
+- [ ] Check bellcad.org for the 2026 chart — if live, update Block 7's hedge to the certified number
+- [x] $140,000 school homestead exemption — CONFIRMED (not $100,000)
+- [x] Protest deadline — CONFIRMED: May 15 or 30 days after notice mailed (Tax Code §41.44)
+- [x] Block 5 neighbor-city rates — CONFIRMED against Bell CAD per-parcel records
+- [x] Block 6 — resolved: there is NO MUD inside Temple city limits; the real trap is a PID
+- [ ] Fill the Block 9 story slot (only open item)
 - [ ] Bell CAD PDF open and ready to screen-share
 - [ ] Pro forma spreadsheet open with the tax line visible
 - [ ] Run time 15–17 min. If the read lands over 19, cut Block 7, not Block 8.
