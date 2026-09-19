@@ -34,7 +34,7 @@ A governed `skills/youtube-metadata/SKILL.md` with:
    - Dedupe-check the working title and tags against `data/living-in-temple-catalog.txt` and `data/investing-in-temple-catalog.txt`.
    - Produce: title ≤60 chars, description (7-section structure from `reference/YOUTUBE-GROWTH-PLAYBOOK.md` if it specifies one), tag list, pinned-comment draft, end-card CTA line, thumbnail-brief handoff note.
    - Write output to `output/YYYY-WXX/youtube/<slug>-metadata.md` using ISO week number.
-4. Channel-aware branching: Living in Temple (relocators) vs Investing in Temple (investors). Never mix audiences in one metadata package.
+4. Channel-aware branching: Living in Temple (relocators) vs Invest Central Texas (investors). Never mix audiences in one metadata package.
 5. Entity declaration: "Taylor Dasch with EG Realty" surfaces in the first 3 sentences of the description.
 6. Banned-word preflight: before emitting output, scan the generated text against the QUALITY-GATES.md Gate 1 banned list and fail closed if any match.
 

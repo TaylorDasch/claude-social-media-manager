@@ -9,7 +9,7 @@ Takes a video topic and generates the complete production package in one pass: d
 ## Input
 The user provides:
 1. **Topic** — What the video is about (e.g., "Top 3 luxury neighborhoods Temple TX", "BSW relocation guide")
-2. **Channel** — "Living in Temple" (relocation/lifestyle) or "Investing in Temple" (investor) — infer from topic if not stated
+2. **Channel** — "Living in Temple" (relocation/lifestyle) or "Invest Central Texas" (investor) — infer from topic if not stated
 3. **Format** — Long-form (8-15 min), Short (< 60 sec), or Both — default to Long-form + Short clips
 
 **Optional:**
@@ -155,7 +155,7 @@ Pull from `reference/CONTENT-PRODUCTION-CHECKLIST.md` and customize for this spe
 - [ ] Title: [recommended title from Step 3]
 
 ### Upload
-- [ ] Channel: [Living in Temple / Investing in Temple]
+- [ ] Channel: [Living in Temple / Invest Central Texas]
 - [ ] Description: Run /youtube-description with this script
 - [ ] Tags: [10-15 suggested tags specific to this topic]
 - [ ] Pinned comment: [persona-matched lead magnet]

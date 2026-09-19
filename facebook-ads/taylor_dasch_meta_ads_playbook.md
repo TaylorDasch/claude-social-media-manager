@@ -25,7 +25,7 @@ This document is written under the assumption that you will read it twice, execu
 
 Your two best audiences — BSW physicians relocating from out of state and Fort Hood service members PCS-ing to Temple — share one trait: they need to find housing in a place they've never lived, on a fixed timeline, and they're research-heavy before they engage an agent. Meta's awareness-to-retargeting funnel is the most efficient paid channel for intercepting that research behavior.
 
-Your YouTube content proves this. You're already generating $7,500 in net commission from YouTube over 6.5 months — from an organic channel you've barely promoted. That's not a coincidence. It means out-of-area buyers are actively researching Temple before moving, engaging video content, and converting. Meta Ads accelerates that same behavior with paid distribution.
+Your YouTube content proves this. You're already generating $21,525 in net commission from YouTube across 4 closed deals [UPDATED 2026-09-19 — this doc originally said $7,500 over 6.5 months; the real figure is 2.9x higher and YouTube is now the #1 lead source by income] — from an organic channel you've barely promoted. That's not a coincidence. It means out-of-area buyers are actively researching Temple before moving, engaging video content, and converting. Meta Ads accelerates that same behavior with paid distribution.
 
 Your existing infrastructure also tilts the calculus strongly in favor: 44+ landing pages, a live AI chatbot, MLS/CAD data access, and 607 FUB contacts give you more backend leverage than 90% of the solo agents running Meta campaigns in markets this size. Most agents running Meta in tertiary Texas markets are sending $50/day to their Zillow IDX homepage. You'll be sending it to purpose-built landers backed by real data.
 
@@ -1486,7 +1486,7 @@ These ads position you as the agent who costs you deals (the ones you shouldn't 
 
 ### YouTube Channel Integration
 
-Your YouTube channel is already converting ($7,500 in net commission over 6.5 months from organic video traffic). Meta Ads compounds this — but only if the integration is deliberate.
+Your YouTube channel is already converting ($21,525 in net commission across 4 closed deals from organic video traffic — #1 lead source by income, updated 2026-09-19). Meta Ads compounds this — but only if the integration is deliberate.
 
 **Video → Meta audience pipeline:**
 1. Your YouTube neighborhood tours build an audience of engaged viewers

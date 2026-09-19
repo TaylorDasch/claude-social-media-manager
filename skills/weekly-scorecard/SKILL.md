@@ -37,7 +37,7 @@ Also check:
 
 Before scoring, pull real-time data from connected platforms.
 
-**YouTube** (both "Living in Temple" and "Investing in Temple" channels):
+**YouTube** (both "Living in Temple" and "Invest Central Texas" channels):
 - Call `youtube_list_videos` to get recent uploads from each channel
 - Call `youtube_get_video_stats` for each video published this week (views, likes, comments, watch time, CTR)
 - Summarize: total views this week, top-performing video, avg CTR

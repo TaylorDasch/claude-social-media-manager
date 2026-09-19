@@ -39,7 +39,7 @@ That's just principal and interest. That is NOT your total payment. This is wher
 
 "Step two — the real monthly expenses. And I'm going to show you the three things most people get wrong.
 
-**Number one: property taxes.** Bell County's effective tax rate is 2.4 to 2.7%. On a $200K property, you're looking at $4,800 to $5,400 a YEAR. That's $400 to $450 a month. Most online calculators default to 1% or 1.2%. That's what you'd pay in most states. Texas is double that. If you use the wrong tax rate, you're off by $200 a month on day one.
+**Number one: property taxes.** Temple's combined rate is 2.39% — verified against Bell CAD's own per-parcel records, seven separate taxing entities. On a $200K property that's $4,775 a YEAR, or about $398 a month. Most online calculators default to 1% or 1.2%. That's what you'd pay in most states. Texas is double that. If you use the wrong tax rate, you're off by $200 a month on day one.
 
 **Number two: insurance.** Post-storm, post-Uri, insurance in Central Texas is running $2,200 to $2,800 a year for a rental property. NOT $1,200 like your calculator assumes. That's $185 to $235 a month.
 
@@ -47,14 +47,14 @@ That's just principal and interest. That is NOT your total payment. This is wher
 
 So let's stack it up:
 - P&I: $998
-- Taxes: $425 (mid-range)
+- Taxes: $398 (Temple, 2.3877%, no homestead)
 - Insurance: $210
 - Vacancy reserve (8%): $132
 - Maintenance reserve (5%): $82
 - Property management (8%): $132
 - CapEx reserve (5%): $82
 
-**Total real monthly cost: $2,061**"
+**Total real monthly cost: $2,034**"
 
 ### [4:30–5:30] STEP 3: THE RENT
 
@@ -71,11 +71,11 @@ Conservative rent estimate: $1,650 a month. I always underwrite to the middle, n
 
 "So here's the math:
 - Monthly rent: $1,650
-- Monthly expenses: $2,061
-- **Monthly cash flow: negative $411**
-- Cash-on-cash return on your $56K: **negative 8.8%**
+- Monthly expenses: $2,034
+- **Monthly cash flow: negative $384**
+- Cash-on-cash return on your $56K: **negative 8.2%**
 
-At retail price and today's rates, this deal does not work as a conventional buy-and-hold. Period. And that's okay — that's the whole point of analyzing it properly. You just saved yourself from buying a deal that bleeds $400 a month.
+At retail price and today's rates, this deal does not work as a conventional buy-and-hold. Period. And that's okay — that's the whole point of analyzing it properly. You just saved yourself from buying a deal that bleeds nearly $400 a month.
 
 But here's where it gets interesting..."
 
@@ -183,7 +183,7 @@ Use this if you want to riff naturally. Hit every point, any order that feels ri
 
 ### THE VERDICT
 - [ ] Cash flow: **negative $411/mo**
-- [ ] Cash-on-cash: **negative 8.8%**
+- [ ] Cash-on-cash: **negative 8.2%**
 - [ ] "At retail and today's rates, this does not work as a buy-and-hold"
 - [ ] "And that's the point — we just saved you from a bad deal"
 
@@ -240,8 +240,11 @@ In this video, I walk through a real $200K rental property and show you step-by-
 • Rental insurance in Central TX: $2,200–$2,800/yr post-storm
 • Real vacancy in Temple: ~8% (not the 5% everyone uses)
 • Temple 76502 Power Zip score: 753/1,000
-• Housing deficit: 5,101 units
-• Projected growth: 24.1%
+• Temple projected annual growth: 3.38% (World Population Review 2026)
+• Bell County projected 2030 population: 427,090 — +6.8% vs 2024 (Texas Demographic Center)
+• [REMOVED 2026-09-19: the "5,101-unit housing deficit" was debunked as a data-scraping
+  error and is banned by reference/TEMPLE-TX-DATA-VAULT.md. The "24.1% projected growth"
+  figure it sat beside is also unsourced — do not reuse it.]
 
 🏘️ NEIGHBORHOODS MENTIONED:
 • Best neighborhoods for investors: https://templetxhomes.net/investing-in-temple-tx/

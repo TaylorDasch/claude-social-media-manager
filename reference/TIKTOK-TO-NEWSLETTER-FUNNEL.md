@@ -82,14 +82,14 @@ Each video teases investor data that the newsletter covers in depth. Format: 30-
 - Meta facility: $800M, already operational
 - SeAH Manufacturing: $110M
 - "That's $1.6 billion in infrastructure within a 15-mile radius."
-- Housing deficit: 5,101 units in 76502
+- Bell County projected 2030 population: 427,090 (+6.8% vs 2024, Texas Demographic Center)
 - "Construction workers need 12-18 month housing. That's MTR gold."
 - Current median home price: $247K-$288K
 - "Compare that to Austin at $550K. The math is obvious."
 
 **CTA (50-60 sec):** "Every two weeks I track exactly how these projects are impacting rents and vacancy rates. Comment INVEST for the newsletter link."
 
-**Caption:** $1.6 BILLION in new infrastructure in Temple TX. Housing deficit of 5,101 units. Here's what smart investors are doing about it. Comment INVEST for my biweekly data drops. #TempleTX #RealEstateInvesting #DataCenter #CashFlow #InvestorLife
+**Caption:** $1.6 BILLION in new infrastructure in Temple TX. Temple is projected to grow 3.38% a year. Here's what smart investors are doing about it. Comment INVEST for my biweekly data drops. #TempleTX #RealEstateInvesting #DataCenter #CashFlow #InvestorLife
 
 **Newsletter tie-in:** Market Intelligence section tracks construction timelines, permit data, and rental absorption rates around these developments.
 
@@ -121,7 +121,7 @@ Each video teases investor data that the newsletter covers in depth. Format: 30-
 
 **Body (3-50 sec):**
 - Population growth: 24.1%
-- Housing deficit: 5,101 units
+- Temple projected annual growth: 3.38% (World Population Review 2026)
 - Median price: under $280K
 - Tax rate: 2.4-2.7% (real talk -- it's high, factor it in)
 - Proximity to Fort Hood, BSW, industrial corridor
@@ -130,7 +130,7 @@ Each video teases investor data that the newsletter covers in depth. Format: 30-
 
 **CTA (50-60 sec):** "I publish real underwriting assumptions for Temple every two weeks. No estimates. Comment INVEST for the newsletter."
 
-**Caption:** 76502 Temple TX. 753/1000 investor score. 24.1% population growth. 5,101 unit housing deficit. But the tax rate is a trap if you underwrite wrong. Comment INVEST for real numbers. #76502 #TempleTX #RealEstateInvesting #CashFlow #InvestorData
+**Caption:** 76502 Temple TX. 753/1000 investor score. 3.38% projected annual growth. But the tax rate is a trap if you underwrite wrong. Comment INVEST for real numbers. #76502 #TempleTX #RealEstateInvesting #CashFlow #InvestorData
 
 **Newsletter tie-in:** Bell County Bulletin section tracks zip-code-level metrics, tax rate changes, and new construction permits.
 
@@ -217,7 +217,7 @@ Each video teases investor data that the newsletter covers in depth. Format: 30-
 
 ### Video 9: "The Real Cost of Property Taxes in Bell County"
 
-**Hook (0-3 sec):** "Bell County property taxes are 2.4 to 2.7%. That's $500-$600/month on a $280K house. Here's how to survive it."
+**Hook (0-3 sec):** "Temple property taxes are 2.39%. That's $557 a month on a $280K house. Here's how to survive it."
 
 **Body (3-50 sec):**
 - Show actual tax bill (redacted address)

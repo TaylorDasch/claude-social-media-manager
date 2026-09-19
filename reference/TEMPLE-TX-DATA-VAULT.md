@@ -1,11 +1,12 @@
 # TEMPLE TX DATA VAULT — Single Source of Truth
 ## Every content skill pulls from this file. Prevents number drift across videos, pages, and social.
-## Last verified: 2026-03-21
+## Last verified: 2026-03-21 (Property Tax section re-verified 2026-09-19)
 ## Next review due: 2026-05-01
 ## UPDATE PROTOCOL: Review monthly on the 1st. Flag any data point older than 90 days.
 ## SECTION FRESHNESS:
 ##   Market Data (MLS): 2026-03-17 — next refresh due 2026-04-17
-##   Property Tax (CAD): 2025 rates — next refresh due 2026-10-01
+##   Property Tax (CAD): TY2025 certified — VERIFIED 2026-09-19 — next refresh due 2026-10-05
+##     (annual trigger is SEPTEMBER 1, not Oct 1 — Bell County rates are adopted in August)
 ##   Assessed Values: 2025 data — next refresh due 2026-10-01
 ##   Military/Fort Hood: 2025 BAH — next refresh due 2027-01-01
 ##   BSW Medical: 2025 data — next refresh due 2026-09-01
@@ -52,39 +53,156 @@
 
 ---
 
-## PROPERTY TAX (From Bell County CAD — 2025 Tax Rates, per $100 Valuation)
+## PROPERTY TAX (Bell County CAD — 2025 Certified Rates, per $100 Valuation)
 
-### Tax Rates by Jurisdiction
-| Entity | Code | Rate per $100 |
-|--------|------|--------------|
-| Bell County | CB | 0.3128 |
-| Temple City | TTE | 0.6999 |
-| Belton City | TBE | 0.5225 |
-| Killeen City | TKI | 0.7014 |
-| Harker Heights City | THH | 0.5300 |
-| Temple ISD | STEM | 1.1372 |
-| Belton ISD | SBEL | 1.1494 |
-| Killeen ISD | SKIL | 0.8778 |
-| Academy ISD | SACA | 1.1489 |
-| Salado ISD | SSAL | 1.1669 |
-| ESD1 | ESD1 | 0.1000 |
+> **Rebuilt from primary sources 2026-09-19.** The previous "County + City + ISD + ESD1"
+> table was wrong for **every** city. Full audit trail and open items:
+> `research/BELL-COUNTY-TAX-RATES-2026-09-19.md`
 
-### Combined Effective Tax Rates (County + City + ISD + ESD1)
-| Location | Total Rate | Effective % | Annual Tax on $280K | Monthly |
-|----------|-----------|-------------|--------------------:|--------:|
-| **Temple (Temple ISD)** | 2.2499 | **2.25%** | $6,300 | $525 |
-| **Belton (Belton ISD)** | 2.0847 | **2.08%** | $5,837 | $487 |
-| **Killeen (Killeen ISD)** | 1.9920 | **1.99%** | $5,578 | $465 |
-| **Harker Heights (Killeen ISD)** | 1.8206 | **1.82%** | $5,098 | $425 |
+### Headline — Temple
 
-### Tax Rules for Content
-- Homestead exemption: $100K off school taxes (state) + local exemptions vary
-- Protest deadline: May 15 or 30 days after notice (whichever is later)
-- Bell County CAD typically appraises below purchase price
-- **DO NOT hardcode specific tax rates in evergreen content** — reference "approximately 2.1–2.3%" for Temple
-- For investor pro formas, use 2.25% for Temple (Temple ISD) as working number
-- Belton is slightly lower (2.08%) — worth noting in comparison content
-- Killeen is lowest of the three major cities (1.99%)
+**Temple, inside city limits, Temple ISD, tax year 2025: `2.387677` per $100 = `2.39%`**
+
+Replaces the disputed 2.25% (this file) and 2.366% (`market_data.json`). Both were wrong.
+Verified against Bell CAD per-parcel records — e.g. 908 N 6TH ST, Temple 76501 (prop_id 219),
+where Bell CAD itself prints "Combined Tax Rate: 2.387677". Replicated on 10 more in-city addresses.
+
+| Code | Entity | Rate per $100 |
+|------|--------|--------------|
+| STEM | Temple ISD | 1.137200 |
+| TTE | City of Temple | 0.699900 |
+| CB | Bell County | 0.312800 |
+| JTC | Temple College (Temple Junior College District) | 0.201700 |
+| RRD | Bell County Road District | 0.019900 |
+| RSBIO | Temple Health & Bioscience District | 0.013947 |
+| WCLW | Clearwater UWCD | 0.002230 |
+| | **COMBINED** | **2.387677** |
+
+### City Comparison — TY2025 certified, non-homestead
+
+| City (school district) | Combined | $300K/yr | $300K/mo |
+|---|---|---|---|
+| **Temple** (Temple ISD) | **2.3877%** | $7,163.03 | $596.92 |
+| **Killeen** (Killeen ISD) | **2.0284%** | $6,085.29 | $507.11 |
+| **Belton** (Belton ISD) | **2.0068%** | $6,020.49 | $501.71 |
+| **Harker Heights** (Killeen ISD) | **1.8327%** | $5,498.19 | $458.18 |
+
+**The stacks are NOT the same entities. Never hand-assemble a city's rate.**
+Temple pays Temple College (0.2017) + Health & Bioscience (0.0139). Killeen and Harker Heights
+pay Central Texas College (0.090) instead. **Belton pays no junior college district at all.**
+Killeen also carries WCID #6 (0.0243). ESD #1 applies to **none** of them.
+
+**Within-city variants (real — disclose them):**
+
+| Variant | Rate | Incidence in parcel sampling |
+|---|---|---|
+| Temple + Elm Creek Watershed (+0.0228) | 2.410477 | 2 of 14 in-city Temple parcels (east Temple, 76501) |
+| Temple + Belton ISD instead of Temple ISD | 2.399877 | confirmed, 8501 Iowa Ave 76502 |
+| Belton + WCID #6 (+0.0243) | 2.031130 | ~32% of in-city Belton parcels |
+| Killeen **without** WCID #6 (−0.0243) | 2.004130 | ~31% of in-city Killeen parcels |
+| Harker Heights + WCID #6 (+0.0243) | 1.857030 | ~25–40% [VERIFY — samples disagree] |
+
+**Safe phrasing:** Temple "about 2.39%" · Killeen "about 2.0%" · Belton "about 2.01%" ·
+Harker Heights "about 1.83% to 1.86%" — always with "verify the exact address."
+
+A **"Temple, TX" mailing address does not mean inside city limits and does not mean Temple ISD.**
+Bell CAD counts 47,787 City of Temple accounts but only 32,059 Temple ISD accounts.
+
+### Investor vs Homeowner — $300,000 home, TY2025
+
+| City | Investor (no exemption) | Homeowner (homestead) | Homestead is worth |
+|---|---|---|---|
+| Temple | $7,163.03 / 2.3877% | $5,029.99 / 1.6767% | **$2,133.04/yr** |
+| Killeen | $6,085.29 / 2.0284% | $4,856.37 / 1.6188% [VERIFY] | $1,228.92/yr |
+| Belton | $6,020.49 / 2.0068% | $4,411.33 / 1.4704% | $1,609.16/yr |
+| Harker Heights | $5,498.19 / 1.8327% | $4,269.27 / 1.4231% | $1,228.92/yr |
+
+**WORKING NUMBERS FOR INVESTOR UNDERWRITING**
+- **Temple: 2.39% of assessed value — $23.88 per $1,000 — $7,163/yr per $300K — $597/mo**
+- Killeen 2.03% · Belton 2.01% · Harker Heights 1.83%
+
+1. Out-of-state buy-and-hold investors **never** get the homestead exemption. The no-exemption
+   number is the only correct one for a rental pro forma.
+2. Assessed value drives the bill, not purchase price. The 10% homestead appraisal cap
+   (Tax Code §23.23) is unavailable to investors and resets for a new owner-occupant.
+3. **Bell CAD does NOT appraise below purchase price.** The Texas Comptroller's 2025 Ratio Study
+   puts Bell CAD's median level of appraisal on single-family at **1.00** (2,046 ratios, COD 7.04).
+   Underwrite at full market value. *(Retires the old "typically appraises below purchase price" line.)*
+
+### Exemptions
+- School district homestead: **$140,000** (NOT $100,000 — the old figure in this file was stale)
+- Over-65 / disabled: additional $60,000 + school tax ceiling
+- City of Temple and Temple College: greater of 20% or $5,000
+- Bell County, Road District, Health & Bioscience, Clearwater: **no homestead exemption**
+
+### MUD / PID — the real Temple trap is a PID, not a MUD
+
+**No MUD taxes any property inside Temple city limits.** Zero of 14 sampled in-city parcels carried one.
+All three Bell County MUDs are outside city limits and small: MUD #1 (0.783, ~534 acres near
+FM 1670/Lampasas River, 1,687 accounts), MUD #2 (0.950, outside Killeen, 426 accounts),
+River Farm MUD #1 (1.000, Belton 76513, 3 accounts).
+
+**Chapter 372 Public Improvement District assessments — including North Point PID in north Temple —
+are assessments collected by the city, not ad valorem taxes.** They appear nowhere on the Bell CAD
+rate chart and nowhere in the 2.39%. A "2.39%" quote can understate a new-construction buyer's real
+obligation by roughly **$1,000–$4,000/yr**. [VERIFY — no complete Temple PID list obtained]
+
+### Tax calendar
+| Date | Event |
+|---|---|
+| January 1 | Valuation date; exemption eligibility set |
+| January 31 | Prior-year taxes due |
+| February 1 | Delinquent — 6% penalty + 1% interest; 12% penalty July 1 |
+| April 1 | Appraisal notices mailed (§25.19) |
+| **May 15** | **ARB protest deadline, or 30 days after the notice is mailed, whichever is later (§41.44)** |
+| July 25 | CAD certifies the appraisal roll |
+| Aug–Sep 30 | Taxing units adopt rates (§26.05) |
+| October | Tax statements mailed |
+
+### TY2026 — rates HAVE moved; chart not yet published
+
+| Entity | TY2025 | TY2026 | Status |
+|---|---|---|---|
+| Temple ISD | 1.137200 | **1.061900** | CONFIRMED — adopted Sept 14 2026; lowest in 15+ years |
+| City of Temple | 0.699900 | **0.750000** | CONFIRMED — adopted Aug 27 2026 |
+| Bell County | 0.312800 | **0.299500** | CONFIRMED — adopted Aug 24 2026, 3-1 |
+| Bell County Road | 0.019900 | **0.046800** | CONFIRMED — county total 0.3463 |
+| Temple College | 0.201700 | 0.249800 | [VERIFY — proposed only, no adoption record] |
+| Health & Bioscience | 0.013947 | 0.013947 | [VERIFY — held flat, no 2026 rate published] |
+| Clearwater UWCD | 0.002230 | 0.002216 | [VERIFY — single source] |
+| **TY2026 Temple combined** | | **≈ 2.4242** | **[VERIFY — do not publish as certified]** |
+
+**HARD BLOCK: do not publish a TY2026 combined rate until the Bell CAD 2026 chart posts
+or Temple College's adopted rate is confirmed.**
+
+### Content rules for this section
+- **Never say "the FY____ rate."** Fiscal years differ by entity — the City of Temple's "FY2026"
+  rate IS the 2025 tax-year rate, while Temple ISD's "2026-27" rate is tax year 2026. This is
+  exactly how the old numbers rotted. Always say **"the 2025 tax-year rate."**
+- Anchor to the bill, not the budget: "the rate on the bill you get this October."
+- **Never mix years inside one combined rate.** A stack is all-2025 or all-2026.
+- Never say **2.25%** or **2.1–2.3%** for Temple. Both are wrong.
+- Never say "Killeen is the lowest of the three major cities" — **false**. Harker Heights is lowest
+  overall (1.83%); Belton is lowest of Temple/Belton/Killeen (2.01%).
+- Never say "a MUD could add 1% in Temple" — say **PID**.
+- Evergreen phrasing (no year lock): "right around two and a half percent — about $600 a month
+  per $300,000 without a homestead exemption. Your exact rate depends on the address. Look up the
+  parcel at bellcad.org."
+
+### Provenance
+```
+Rates:          Tax year 2025 (certified)
+Verified:       2026-09-19
+Primary source: https://bellcad.org/wp-content/uploads/2025/09/2025-Tax-Rate-Chart.pdf
+Local copy:     data/2025-Tax-Rate-Chart.pdf
+Parcel source:  https://esearchgsa.bellcad.org/Property/View/<prop_id>  (no captcha)
+                https://bell.countytaxrates.com  (state TNT database)
+NEXT RE-CHECK:  2026-10-05 — Bell CAD 2026 chart expected within 1-3 weeks of 2026-09-19
+ANNUAL TRIGGER: September 1 (NOT October 1 — rates are adopted in AUGUST)
+```
+
+**Content audit owed:** any pro forma, DOTW cash-flow table, GMB post, blog or video that used
+2.25% or 2.1–2.3% for Temple **understates taxes by ~$413/yr per $300K**. Search and correct.
 
 ---
 
@@ -202,12 +320,14 @@ Source: TEA 2025 A-F Accountability Ratings (released August 2025)
 ## CONTENT RULES (Reminders for Claude)
 
 - Never use "turnkey" — say "buy-and-hold investors"
-- Never use "Fort Hood" — always "Fort Hood"
+- Never use "Fort Cavazos" — always "Fort Hood" (the base was renamed back in 2025)
 - Never use "hidden gem," "charming community," "dream home," "white glove," "nestled"
 - Never hardcode interest rates in evergreen content
 - Never cite the 5,101-unit housing deficit (debunked)
 - Foundation issues: only mention on pages for Western Hills, River Oaks, or the dedicated foundation page
-- Tax rates: reference the combined effective rates in this file, not individual line items
+- Tax rates: use the verified combined rates in the PROPERTY TAX section. Temple is 2.39%,
+  NOT 2.25% and NOT 2.1-2.3%. Never hand-assemble a city rate from individual line items —
+  the entity stacks differ by city and by address.
 - Rent data: always specify ZIP and bedroom count — "Temple rents" is too vague
 - All numbers should be specific — no "approximately" unless the underlying data is truly uncertain
 
