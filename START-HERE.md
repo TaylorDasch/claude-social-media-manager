@@ -69,7 +69,7 @@ videos on the main channel. If the reason is fixable, that's real recovered valu
 | `research/TOP-5-VIDEO-SLATE-2026-09-19.md` | The ranked five, with the evidence and the rebuttals |
 | `research/BELL-COUNTY-TAX-RATES-2026-09-19.md` | Tax audit trail — every rate traced to a Bell CAD parcel record |
 | `research/CHANNEL-METADATA-AUDIT-2026-09-19.md` | Live YouTube problems, both channels |
-| `ACTION-QUEUE-2026-09-19.md` | Smaller items: the physician-loan video, DOTW-002, the data-center retitle, data hygiene |
+| `ACTION-QUEUE-2026-09-19.md` | The BSW lane (≈490 views → one $6,025 closing), DOTW-002, the data-center retitle, data hygiene |
 | `reference/TEMPLE-TX-DATA-VAULT.md` | Rebuilt property-tax section. **Temple is 2.3877%, not 2.25%** |
 
 ---

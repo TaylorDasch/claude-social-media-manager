@@ -17,33 +17,36 @@ individually. Ordered by effort-to-value.
 
 ---
 
-## 1. Ship the physician-loan video — now the highest-value item on this list
+## 1. The BSW lane converts far above its view count — CORRECTED 2026-09-19
 
-> **Reprioritised 2026-09-19.** Maxwell — **a BSW resident** — closed **$6,025** attributed to
-> YouTube. That is a confirmed closing from exactly the audience this unpublished video targets,
-> and it is the second-largest YouTube deal in the ledger. This is no longer a tidy-up item.
+> **I was wrong twice here.** I claimed the physician-loan video was filmed and never published.
+> It **is** published: `0Wyw4bcAUGU`, *"Physician Loan vs Builder Incentives in Temple TX: What to
+> Compare"*, public since **2026-04-10**, 78 views, 6:25. The `.srt` in
+> `yt-videos/physician-loan-temple/` is its transcript — which is an artifact you get *after*
+> publishing, not evidence that you haven't. The video was in the live data pull and I didn't
+> connect it.
 
-`yt-videos/physician-loan-temple/` contains an `.srt`, which means it was **filmed on
-2026-03-29 and never published.** 6 minutes 24 seconds, fully shot.
+The real finding is better than the one I invented.
 
-**The only problem is one line.** At 0:03 Taylor says *"we just had Match Day."* Match Day
-was March 20, 2026 — six months ago. Everything after that line is evergreen
-physician-loan-vs-builder-incentives content.
+**Maxwell — a BSW resident — closed $6,025 attributed to YouTube.** That's the second-largest
+YouTube deal in the ledger. And the BSW cluster's view counts are tiny:
 
-**Fix:** cut that line in the edit, or re-record ~5 seconds of open during the weekend desk
-shoot. Then publish.
+| Asset | Views |
+|---|---|
+| `0Wyw4bcAUGU` — Physician Loan vs Builder Incentives | 78 |
+| `wvpGgYOCVHM` — BSW Residency: Rent or Buy for Three Years? | 112 |
+| `yjh9ZDAqBcs` — Where BSW Staff Live in Temple TX | 298 |
 
-**Do not** hold it for March 2027. The audience is not only matching residents — BSW hires
-attendings, nurses and staff year-round, and the physician-loan question is asked year-round.
+**Roughly 490 views across the cluster, and one $6,025 closing out of it.** That is an
+extraordinary conversion rate, and it is the opposite of the "low views = low value" read that
+the rest of this analysis applies to everything else.
 
-Pairs with `/buy-before-first-day-of-residency-bsw/`, which exists and has no video embedded.
+**What this argues for:** BSW is a small, high-intent, high-value audience where view count is a
+terrible proxy for revenue. More BSW content is justified on conversion, not reach — and the
+volume-and-watch-time logic that drives the rest of the slate does not apply to this lane.
 
-**The BSW lane has a proven closing behind it.** Worth treating as a lane rather than a one-off:
-the page exists, this video exists, `LIT-006` ("Where Doctors & Nurses Actually Live") is
-published, and `wvpGgYOCVHM` ("BSW Residency in Temple TX: Rent or Buy for Three Years?") is live.
-That is a cluster with a $6,025 receipt attached and one of its four assets sitting unpublished.
-
----
+`/buy-before-first-day-of-residency-bsw/` exists and still has no video embedded. That's the
+cheapest real action here: embed `0Wyw4bcAUGU` on it.
 
 ## 2. DOTW-002 — DO NOT publish as-is
 
