@@ -140,3 +140,88 @@ long-form). That is why it cannot currently answer "have I already covered this?
 This covers the 100 most recent **long-form** videos on the main channel. Not audited:
 the remaining long-form back-catalogue beyond 2025-07-31, all ~117 Shorts, and all 41
 videos on Invest Central Texas. Say the word and I'll extend it.
+
+---
+
+# ADDENDUM — Invest Central Texas (Channel B), audited 2026-09-19
+
+Source: live metadata for the 41 most recent videos on UCKuVz8ytHECKEAyRacDpm1g.
+
+## 7. YOU ALREADY DECIDED TO SHUT THIS CHANNEL DOWN
+
+| Field | Value |
+|---|---|
+| Video ID | `1HNwJy8RxkQ` |
+| Title | **"URGENT: I'm Shutting Down This Channel (Moving Here 👇)"** |
+| Published | **2026-01-11** |
+| Views | 121 |
+| Privacy | **private** |
+
+A shutdown announcement was filmed, published, watched 121 times, and then **set to
+private** — and the channel kept publishing afterwards (four more long-form videos through
+2026-08-07).
+
+**This matters for the slate's "abandon Channel B" recommendation: it is not a new idea.**
+You reached that conclusion in January, told your audience, and then reversed it. Before
+acting on the recommendation a second time, the useful question is what changed your mind
+in January — because that reason probably still exists.
+
+## 8. THE CHANNEL'S BEST CONTENT IS HIDDEN
+
+Nine videos are private. They hold **2,342 views between them** — against the channel's
+1,312 public lifetime views.
+
+| Video | Type | Views | Title |
+|---|---|---|---|
+| `Zg5JfvW1I7E` | Short | **844** | $125K Temple TX Property Tour |
+| `Lgg-cp2hchk` | Short | **780** | Brandon Turner Investment Strategy |
+| `dlO6C6ewpSI` | Short | **445** | Move. Buy. Repeat. |
+| `1HNwJy8RxkQ` | Short | 121 | the shutdown announcement above |
+| `d5iq1fIpmOM` | Short | 57 | Temple TX Mixed-Use Flip |
+| `l7J-CfwI9QM` | long | 34 | $185K Temple TX w/ Extra Unit |
+| `NK1Q1sn9lnw` | long | 31 | Pre-Foreclosure to Profit (Killeen) |
+| `T4iN35Tod2E` | long | 30 | Best Starter Investment $95K |
+| `AMlpFNCpCzg` | Short | 0 | LARGEST Home In Lake Pointe |
+
+**The best public video on this channel has 88 views** (`m0CPhoHJy0E`). The top private
+Short has **844 — 9.6x more.** The three best-performing pieces of content this channel
+ever produced are all hidden.
+
+This reframes the channel's story. It did not fail to find an audience; **its best
+performers were taken down.** Whatever the reason (a sold property, a stale price, a
+rights issue with the Brandon Turner content), it is worth knowing before writing the
+channel off — and worth checking whether any of them could be re-published, or re-cut for
+the main channel where the audience actually is.
+
+**Again: I do not know why these were made private. This is a question, not a
+recommendation.**
+
+## 9. ALL 41 VIDEOS SHARE ONE COPY-PASTED TAG BLOCK
+
+Nearly every video on this channel carries the identical ~28-tag block: *real estate,
+real estate investor, investors, property, rental property, estate, investing in real
+estate, temple Texas real estate, flipping homes, real estate investing, wholesaling,
+investment property, flip, flipping houses, how to invest…*
+
+There is **no per-video keyword targeting anywhere on the channel.** A video about
+foreclosure auctions, one about property managers and one about house hacking all carry
+the same generic block. Combined with the tag `InvestingInTempleTX` — which is the wrong
+channel name — this is a channel with no discovery signal at the video level.
+
+Worth weighing honestly against §2: tags are a weak ranking factor now, so this is
+unlikely to be the *cause* of 32 views per video. But it is consistent with a channel
+that was published to without a distribution plan.
+
+## What this addendum changes
+
+The slate recommended abandoning this channel on the numbers: 54 subs, 32 views/video,
++1 sub in 90 days, zero attributable closings. **Those numbers are still right.** But two
+facts complicate the picture:
+
+1. You already made and then unmade this decision once, in January.
+2. The channel's three best-performing assets are private, so the public view counts
+   understate what the content actually did.
+
+That does not overturn the recommendation — the main channel still has 100x the
+distribution and the same audience profile. It does mean the decision deserves your
+actual reasoning rather than a fresh look at the same numbers.
