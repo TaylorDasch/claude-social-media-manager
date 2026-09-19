@@ -80,5 +80,7 @@ videos on the main channel. If the reason is fixable, that's real recovered valu
   $413/yr per $300K. Belton is $1,143/yr cheaper on the same house.
 - **8.8x** — the spread between Temple's cheapest and priciest subdivisions ($67,673 to
   $593,002). That's the cold open of the flagship.
-- **100%** — the share of your tracked YouTube revenue that came from investor content.
-  Your biggest watch-time asset has produced none.
+- **#1** — YouTube is your top lead source by income: 4 deals, **$21,525**, 20.4% of $105,387
+  across 25 closed deals. And it's **65% relocation, 35% investor** — your two biggest YouTube
+  deals are both relocation (Settlers Oak $8,000, Maxwell $6,025, a BSW resident). Relocation
+  averages 1.9x more per deal.

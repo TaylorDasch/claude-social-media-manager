@@ -215,7 +215,7 @@ that was published to without a distribution plan.
 ## What this addendum changes
 
 The slate recommended abandoning this channel on the numbers: 54 subs, 32 views/video,
-+1 sub in 90 days, zero attributable closings. **Those numbers are still right.** But two
++1 sub in 90 days, and no closing traceable to it. **Those numbers are still right.** But two
 facts complicate the picture:
 
 1. You already made and then unmade this decision once, in January.

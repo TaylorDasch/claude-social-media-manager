@@ -1,11 +1,27 @@
 # Action Queue — 2026-09-19
 
+> **Lead-source correction, 2026-09-19.** `social-media-config.json` has been synced from Taylor's
+> own tracker (Google Drive, "Realtor Income Sep. 1, 2025 - Sep. 1, 2026"). It previously held 14
+> deals ending 2026-03-20; the real ledger holds **25 closed deals, $105,387**, and understated
+> YouTube by **2.9x**.
+>
+> **YouTube is the #1 lead source by income — 4 deals, $21,525, 20.4% of tracked revenue.**
+> It splits **65% relocation / 35% investor**. The two biggest YouTube deals are both relocation:
+> 2554 Settlers Oak $8,000 (2026-08-24) and Maxwell $6,025 (BSW resident). Relocation averages
+> **1.9x** more per deal than investor ($7,012 vs $3,750).
+>
+> Cap progress is **$11,955 against a $10,000 goal — capped out.**
+
 Concrete items surfaced by the top-5 analysis and the tax consolidation, verified
 individually. Ordered by effort-to-value.
 
 ---
 
-## 1. Ship the physician-loan video — genuinely ~10 minutes
+## 1. Ship the physician-loan video — now the highest-value item on this list
+
+> **Reprioritised 2026-09-19.** Maxwell — **a BSW resident** — closed **$6,025** attributed to
+> YouTube. That is a confirmed closing from exactly the audience this unpublished video targets,
+> and it is the second-largest YouTube deal in the ledger. This is no longer a tidy-up item.
 
 `yt-videos/physician-loan-temple/` contains an `.srt`, which means it was **filmed on
 2026-03-29 and never published.** 6 minutes 24 seconds, fully shot.
@@ -21,6 +37,11 @@ shoot. Then publish.
 attendings, nurses and staff year-round, and the physician-loan question is asked year-round.
 
 Pairs with `/buy-before-first-day-of-residency-bsw/`, which exists and has no video embedded.
+
+**The BSW lane has a proven closing behind it.** Worth treating as a lane rather than a one-off:
+the page exists, this video exists, `LIT-006` ("Where Doctors & Nurses Actually Live") is
+published, and `wvpGgYOCVHM` ("BSW Residency in Temple TX: Rent or Buy for Three Years?") is live.
+That is a cluster with a $6,025 receipt attached and one of its four assets sitting unpublished.
 
 ---
 
@@ -93,7 +114,7 @@ This mattered because several of those skills **branch on the channel name** whe
 metadata. Historical research docs were left as the record.
 
 **Still Taylor's call:** the slate recommends abandoning that channel entirely (54 subs,
-32 views/video, +1 sub in 90 days, zero attributable closings) and porting the topics to
+32 views/video, +1 sub in 90 days, no traceable closing) and porting the topics to
 the main channel, where the audience is already 95.7% male and 71% aged 25–54. The naming
 fix is correct either way; the strategic change is not made.
 
