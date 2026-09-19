@@ -99,7 +99,7 @@ Why: Texas school boundaries and tax rates change. Stating "great schools" witho
 |---|---|---|
 | **TikTok** | Buyers / relocators ONLY | Investor content, YouTube repurposes, desk scripts |
 | **YouTube — Living in Temple** | Buyers, relocators, military PCS | Investor ROI analysis |
-| **YouTube — Investing in Temple** | Investors (in-state + out-of-state) | Generic lifestyle / relocation |
+| **YouTube — Invest Central Texas** | Investors (in-state + out-of-state) | Generic lifestyle / relocation |
 | **Temple Insider newsletter** (biweekly Tue) | Buyers, relocators | Investor ROI — that's Investor Brief's lane |
 | **Investor Brief newsletter** (biweekly Thu) | Investors | Generic lifestyle |
 | **Instagram** | 70% buyers / 30% investors | Salesy hype, "act now" |
@@ -179,7 +179,7 @@ Why it fails: 6 HARD banned phrases (dream home, vibrant community, charming, ne
 
 ### Good (LinkedIn, professional relocator)
 
-> "Temple's Power Zip (76502) has a 5,101-unit housing deficit and 24.1% population growth. Median is $247K–$288K; 3-bed rents are $1,650. If you're moving for the BSW system, the 76502–76504 corridor sits inside the 8-minute commute radius. Verify commute, zoning, and neighborhood fit before deciding. Taylor Dasch with EG Realty."
+> "Temple's Power Zip (76502) scores 753 out of 1,000, and Temple is projected to grow 3.38% a year. Median is $247K–$288K; 3-bed rents are $1,650. If you're moving for the BSW system, the 76502–76504 corridor sits inside the 8-minute commute radius. Verify commute, zoning, and neighborhood fit before deciding. Taylor Dasch with EG Realty."
 
 ### Good (GMB post, data-forward)
 

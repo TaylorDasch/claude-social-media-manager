@@ -35,7 +35,7 @@
       "monthsSupply": 6,
       "averageDom": 83,
       "cityTaxRate": "$0.6999/$100",
-      "countyTaxRateRange": "2.4%-2.7%",
+      "templeCombinedTaxRate": "2.3877% (2.39%) — TY2025 certified, verified 2026-09-19 against Bell CAD per-parcel records. Belton 2.0068%, Killeen 2.0284%, Harker Heights 1.8327%. Stacks differ by city AND by address — never hand-assemble.",
       "powerZip": {
         "zip": "76502",
         "score": "753/1000",
@@ -127,7 +127,7 @@
       "salesVolume": "$27M+",
       "transactions": "100+",
       "bpFeaturedAgent": "3 years",
-      "powerZip76502": "753/1000 score, 5,101 unit housing deficit, 24.1% population growth",
+      "powerZip76502": "753/1000 score. Temple projected annual growth 3.38% (World Population Review 2026); Bell County projected 2030 population 427,090, +6.8% vs 2024 (Texas Demographic Center)",
       "bswEmployees": "8,800+",
       "bahE6WithDep": "$1,920/month tax-free",
       "bswPgy1Stipend": "$70,993/year",
@@ -195,7 +195,7 @@
         "keyDataPoints": {
           "cityTaxRate": "$0.6999/$100",
           "nonHomesteadAppraisalCap": "20%",
-          "powerZip": "76502 — 753/1000 score, 5,101 unit deficit, 24.1% growth"
+          "powerZip": "76502 — 753/1000 score, 3.38% projected annual growth"
         },
         "dmScript": "Really appreciate the engagement on the multi-family breakdown video. The cash flow numbers in Temple are shifting quickly with new inventory coming online. Are you currently holding doors in Texas, or looking for your first asset here? I can send over my latest cap-rate analysis sheet."
       },
@@ -286,7 +286,7 @@
           "contentTypes": ["neighborhood tours", "community guides", "BSW relocation", "school comparisons", "cost of living", "What $X buys you", "PCS guides", "seasonal market updates"]
         },
         {
-          "name": "Investing in Temple",
+          "name": "Invest Central Texas",
           "focus": "investor",
           "contentTypes": ["Deal of the Week (every Tuesday)", "cash flow analysis", "market data", "data center economic impact", "tax strategy", "Out-of-State series", "off-market strategies"]
         }
@@ -594,10 +594,10 @@
   },
 
   "videoSeries": [
-    { "name": "Deal of the Week", "status": "active", "launchDate": "2026-02-10", "schedule": "Every Tuesday", "channel": "Investing in Temple", "episodesCompleted": 2 },
+    { "name": "Deal of the Week", "status": "active", "launchDate": "2026-02-10", "schedule": "Every Tuesday", "channel": "Invest Central Texas", "episodesCompleted": 2 },
     { "name": "Temple Trap (negative hooks)", "status": "planned", "minEpisodes": 3, "channel": "Both" },
     { "name": "The Commute (POV driving)", "status": "planned", "scope": "By neighborhood to BSW", "channel": "Living in Temple" },
-    { "name": "Out-of-State Investor Series", "status": "queued", "episodes": 5, "channel": "Investing in Temple", "goalFormat": "Combine into 45-60 min masterclass" },
+    { "name": "Out-of-State Investor Series", "status": "queued", "episodes": 5, "channel": "Invest Central Texas", "goalFormat": "Combine into 45-60 min masterclass" },
     { "name": "Lake Pointe Documentary", "status": "complete", "versions": ["relocation", "investor"], "channel": "Both" },
     { "name": "BSW Neighborhood Tours", "status": "planned", "scope": "By commute zone", "channel": "Living in Temple" },
     { "name": "Buy Before First Day of Residency", "status": "planned", "format": "Landing page + video", "channel": "Living in Temple" },

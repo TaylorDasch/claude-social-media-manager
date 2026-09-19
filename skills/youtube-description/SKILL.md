@@ -8,7 +8,7 @@ User says: "youtube description", "YT description", "description for [video titl
 ### Step 1: Gather Video Info
 Ask Taylor for:
 - **Video title**
-- **Channel**: Living in Temple OR Investing in Temple
+- **Channel**: Living in Temple OR Invest Central Texas
 - **Topic summary** (1-2 sentences)
 - **Key timestamps** (or generate from script if provided)
 - **Areas/neighborhoods discussed**

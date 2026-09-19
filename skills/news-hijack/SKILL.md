@@ -114,7 +114,7 @@ Issue details (`voice_issues.{yt,tiktok,newsletter}`) are stored on the queue it
 
 - TikTok audience forced to `buyer` (CLAUDE.md rule — TikTok = buyers/relocators ONLY).
 - Newsletter routing enforces Investor Brief vs Temple Insider split per pillar.
-- YouTube channel split: "Investing in Temple" for BSW/rates; "Living in Temple" for local/military/relocation.
+- YouTube channel split: "Invest Central Texas" for BSW/rates; "Living in Temple" for local/military/relocation.
 - Drafter system prompt bans generic RE language and broker terminology.
 - No investor-targeted paid ad content — the hijack pipeline drafts organic content only.
 
